@@ -35344,6 +35344,14 @@ is_a: inheres_in_part_of
 xref: BFO:0000052
 
 [Typedef]
+id: develops_from
+name: develops_from
+is_transitive: true
+transitive_over: part_of ! part_of
+holds_over_chain: part_of develops_from
+xref: RO:0002202
+
+[Typedef]
 id: phenotype_of
 name: phenotype of
 xref: RO:0002201
