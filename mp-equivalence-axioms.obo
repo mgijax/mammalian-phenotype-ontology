@@ -19,12 +19,14 @@ remark: TODO - fix inheres_in_part_of defs
 remark: TODO - fix has_central_participant defs
 ontology: mp/mp-logical-definitions
 
+
 [Term]
 id: MP:0000003 ! abnormal adipose tissue morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0000009 ! adipose tissue
 
+! comment
 [Term]
 id: MP:0002894 ! abnormal otolith morphology
 intersection_of: PATO:0000051 ! morphology
