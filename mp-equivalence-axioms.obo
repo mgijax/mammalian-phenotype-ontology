@@ -314,15 +314,16 @@ id: MP:0000063 ! decreased bone density
 intersection_of: PATO:0001790 ! decreased density
 intersection_of: inheres_in MA:0001459 ! bone
 
-[Term]
-id: MP:0000064 ! failure of secondary bone resorption
-intersection_of: PATO:0001641 ! disfunctional
-intersection_of: inheres_in GO:0045453 ! bone resorption
-
+!We need to request secondary bone resorption fromn GO
 ![Term]
-!id: MP:0005167 ! abnormal blood-brain barrier function
-!intersection_of: PATO:0001641 ! disfunctional
-!intersection_of: inheres_in GO:0060856 ! establishment of blood-brain barrier
+!id: MP:0000064 ! failure of secondary bone resorption
+!intersection_of: PATO:0001558 ! lacking processual parts
+!intersection_of: towards GO:0045453 ! bone resorption
+
+[Term]
+id: MP:0005167 ! abnormal blood-brain barrier function
+intersection_of: PATO:0000460 ! abnormal
+intersection_of: inheres_in GO:0060856 ! establishment of blood-brain barrier
 
 [Term]
 id: MP:0000066 ! osteoporosis
@@ -482,9 +483,15 @@ intersection_of: inheres_in MA:0001472 ! sphenoid bone
 
 [Term]
 id: MP:0000105 ! impaired ossification of basisphenoid bone
-intersection_of: PATO:0001641 ! disfunctional
+intersection_of: PATO:0001570 ! having decreased processual parts
+intersection_of: towards _:basisphenoid_bone_ossification
+intersection_of: inheres_in MA:0001463 ! basisphenoid bone
+
+[Term]
+id: _:basisphenoid_bone_ossification
+is_anonymous: true
+intersection_of: GO:0001503 ! ossification
 intersection_of: has_central_participant MA:0001463 ! basisphenoid bone
-intersection_of: inheres_in GO:0001503 ! ossification
 
 [Term]
 id: MP:0000106 ! abnormal basisphenoid bone morphology
@@ -550,8 +557,13 @@ intersection_of: inheres_in MA:0000350 ! molar
 
 [Term]
 id: MP:0000128 ! growth retardation of molars
-intersection_of: PATO:0000502 ! delayed
-intersection_of: inheres_in GO:0042476 ! odontogenesis
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: towards _:molar_odontogenesis
+
+[Term]
+id: _:molar_odontogenesis
+is_anonymous: true
+intersection_of: GO:0042476 ! odontogenesis
 intersection_of: results_in_complete_development_of MA:0000350 ! molar
 
 [Term]
@@ -600,6 +612,13 @@ id: MP:0000137 ! abnormal vertebrae morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0000309 ! vertebra
+
+[Term]
+id: MP:0006394 ! abnormal vertebral epiphyseal plate morphology
+intersection_of: PATO:0000051 ! morphology
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in_part_of MA:0000309 ! vertebra
+intersection_of: inheres_in MA:0002839 ! epiphyseal plate
 
 [Term]
 id: MP:0000138 ! absent vertebrae
@@ -937,11 +956,6 @@ intersection_of: PATO:0000628 ! ectopic
 intersection_of: inheres_in GO:0030097 ! hemopoiesis
 
 [Term]
-id: MP:0000242 ! impaired fertilization
-intersection_of: PATO:0002018 ! decreased magnitude
-intersection_of: inheres_in GO:0009566 ! fertilization
-
-[Term]
 id: MP:0000245 ! abnormal erythropoiesis
 intersection_of: PATO:0000001 ! quality
 intersection_of: inheres_in GO:0048821 ! erythrocyte development
@@ -1050,6 +1064,11 @@ intersection_of: inheres_in MA:0002791 ! heart ventricle wal
 intersection_of: inheres_in_part_of MA:0000093 ! heart right ventricle
 
 [Term]
+id: MP:0010402 ! Ventricular septal defect
+intersection_of: PATO:0000609 ! closure incomplete
+intersection_of: inheres_in MA:0000085 ! heart interventricular septum
+
+[Term]
 id: MP:0000277 ! abnormal heart shape
 intersection_of: PATO:0000052 ! shape
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -1076,7 +1095,7 @@ intersection_of: inheres_in MA:0000085 ! ventricular septum
 id: MP:0008823 ! abnormal ventricular membranous septum morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0002939 ! interventricular septum membranous part
+intersection_of: inheres_in MA:0000085 ! interventricular septum membranous part
 
 [Term]
 id: MP:0000282 ! abnormal atrial septum morphology
@@ -1176,6 +1195,25 @@ id: MP:0000315 ! hemoglobinuria
 intersection_of: PATO:0002002 ! having extra physical parts
 intersection_of: inheres_in MA:0002545 ! urine
 intersection_of: towards CHEBI:35143 ! hemoglobins
+
+[Term]
+id: MP:0008820 ! abnormal blood uric acid level
+intersection_of: PATO:0000033 ! concentration of
+intersection_of: towards CHEBI:27226 ! uric acid
+intersection_of: inheres_in MA:0002545 ! urine
+intersection_of: qualifier PATO:0000460 ! abnormal
+
+[Term]
+id: MP:0008821 ! increased blood uric acid level
+intersection_of: PATO:0001162 ! increased concentration
+intersection_of: towards CHEBI:27226 ! uric acid
+intersection_of: inheres_in MA:0002545 ! urine
+
+[Term]
+id: MP:0008822 ! decreased blood uric acid level
+intersection_of: PATO:0001163 ! decreased concentration
+intersection_of: towards CHEBI:27226 ! uric acid
+intersection_of: inheres_in MA:0002545 ! urine
 
 [Term]
 id: MP:0000316 ! cellular necrosis
@@ -2329,9 +2367,14 @@ intersection_of: inheres_in MA:0002431 ! digestive system
 intersection_of: towards GO:0046903 ! secretion
 
 [Term]
+id: MP:0000242 ! impaired fertilization
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards GO:0009566 ! fertilization
+
+[Term]
 id: MP:0010249 ! lactation failure
 intersection_of: PATO:0001558 ! lacking processual parts
-intersection_of: inheres_in GO:0007595 ! lactation
+intersection_of: towards GO:0007595 ! lactation
 
 [Term]
 id: MP:0005046 ! absent spleen white pulp
@@ -2347,8 +2390,13 @@ intersection_of: towards GO:0042698 ! estrous cycle
 [Term]
 id: MP:0000509 ! absent digestive mucosecretion
 intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards _:digestive_mucosecretion
+
+[Term]
+id: _:digestive_mucosecretion
+is_anonymous: true
+intersection_of: GO:0046903 ! secretion
 intersection_of: results_in_directed_movement_of MA:0001610 ! stomach mucosa
-intersection_of: towards GO:0046903 ! secretion
 
 [Term]
 id: MP:0003124 ! hypospadia
@@ -4281,13 +4329,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in _:somatosensory_cortex
 
 [Term]
-id: _:somatosensory_cortex
-is_anonymous: true
-intersection_of: MA:0000916 ! parietal cortex
-intersection_of: has_part MA:0000908 ! primary somatosensory cortex
-intersection_of: has_part MA:0000918 ! secondary somatosensory cortex
-
-[Term]
 id: MP:0000860 ! abnormal primary somatosensory cortex morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -5928,9 +5969,8 @@ intersection_of: towards MA:0000275 ! lens
 
 [Term]
 id: MP:0002093 ! abnormal cornea/lens morphology
-intersection_of: PATO:0000001 ! quality
-intersection_of: has_part MP:0001303! abnormal lens morphology
-intersection_of: has_part MP:0001312 ! abnormal cornea morphology
+union_of: MP:0001303! abnormal lens morphology
+union_of: MP:0001312 ! abnormal cornea morphology
 
 [Term]
 id: MP:0001308 ! abnormal lens polarity
@@ -6263,8 +6303,8 @@ intersection_of: inheres_in GO:0001967 ! suckling behavior
 
 [Term]
 id: MP:0001438 ! aphagia
-intersection_of: PATO:0001511 ! non-functional
-intersection_of: inheres_in GO:0042755 ! eating behavior
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards GO:0042755 ! eating behavior
 
 [Term]
 id: MP:0001440 ! abnormal grooming behavior
@@ -6338,7 +6378,7 @@ intersection_of: inheres_in GO:0071625 ! vocalization behavior
 [Term]
 id: MP:0001530 ! Increased Vocalization
 intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: inheres_in GO:0071625 ! vocalization behavior
+intersection_of: towards GO:0071625 ! vocalization behavior
 
 [Term]
 id: MP:0003520 ! abnormal labia minora morphology
@@ -6616,13 +6656,13 @@ intersection_of: inheres_in GO:0030099 ! myeloid cell differentiation
 
 [Term]
 id: MP:0001428 ! adipsia
-intersection_of: PATO:0001641 ! disfunctional
-intersection_of: inheres_in GO:0042756 ! drinking behavior
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards GO:0042756 ! drinking behavior
 
 [Term]
 id: MP:0001603 ! failure of myelopoiesis
 intersection_of: PATO:0001558 ! lacking processual parts
-intersection_of: inheres_in GO:0030099 ! myeloid cell differentiation
+intersection_of: towards GO:0030099 ! myeloid cell differentiation
 
 [Term]
 id: MP:0001606 ! impaired hematopoiesis
@@ -6811,7 +6851,7 @@ intersection_of: inheres_in GO:0007369 ! gastrulation
 [Term]
 id: MP:0001696 ! failure to gastrulate
 intersection_of: PATO:0001558 ! lacking processual parts
-intersection_of: inheres_in GO:0007369 ! gastrulation
+intersection_of: towards GO:0007369 ! gastrulation
 
 [Term]
 id: MP:0001704 ! abnormal dorsal-ventral axis patterning
@@ -6852,7 +6892,7 @@ intersection_of: inheres_in GO:0007566 ! embryo implantation
 [Term]
 id: MP:0001728 ! failure of embryo implantation
 intersection_of: PATO:0001558 ! lacking processual parts
-intersection_of: inheres_in GO:0007566 ! embryo implantation
+intersection_of: towards GO:0007566 ! embryo implantation
 
 [Term]
 id: MP:0001729 ! impaired embryo implantation
@@ -6889,8 +6929,8 @@ intersection_of: has_function_realized_as_process GO:0046903 ! secretion
 
 [Term]
 id: MP:0001740 ! failure of adrenal epinephrine secretion
-intersection_of: PATO:0001511 ! non-functional
-intersection_of: inheres_in _:adrenal_epinephrine_secretion
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards _:adrenal_epinephrine_secretion
 
 [Term]
 id: _:adrenal_epinephrine_secretion
@@ -6948,8 +6988,9 @@ intersection_of: towards IMR:0100195 ! corticotropin
 
 [Term]
 id: MP:0001749 ! suppressed circulating follicle stimulating hormone level
-intersection_of: PATO:0001624 ! decreased functionality
-intersection_of: inheres_in GO:0046884 ! follicle-stimulating hormone secretion
+intersection_of: PATO:0001163 ! decreased concentration
+intersection_of: inheres_in MA:0000059 ! blood
+intersection_of: towards IMR:0100099 ! follicle stimulating hormone
 
 [Term]
 id: MP:0001750 ! increased circulating follicle stimulating hormone level
@@ -7123,7 +7164,7 @@ intersection_of: inheres_in MA:0000099 ! pericardium
 id: MP:0001790 ! abnormal immune system physiology
 intersection_of: PATO:0001509 ! functionality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0002376 ! immune system process
+intersection_of: inheres_in MA:0002711 ! immune system
 
 [Term]
 id: MP:0002539 ! B cell deficiency
@@ -7228,12 +7269,12 @@ intersection_of: inheres_in GO:0048003 ! antigen processing and presentation of 
 
 [Term]
 id: MP:0001837 ! defective assembly of class I molecules
-intersection_of: PATO:0001641 ! disfunctional
+intersection_of: PATO:0001570 ! having decreased processual parts
 intersection_of: inheres_in GO:0002396 ! MHC class I protein complex assembly
 
 [Term]
 id: MP:0001838 ! defective intracellular transport of class I molecules
-intersection_of: PATO:0001641 ! disfunctional
+intersection_of: PATO:0001570 ! having decreased processual parts
 intersection_of: inheres_in GO:0048003 ! antigen processing and presentation of lipid antigen via MHC class Ib
 
 [Term]
@@ -7276,7 +7317,7 @@ intersection_of: towards MPATH:212 ! inflammation
 intersection_of: inheres_in MA:0000281 ! nose
 
 [Term]
-id: MP:0006290 ! proboscis
+id: MP:0006290 ! xcis
 intersection_of: PATO:0000001 ! quality
 intersection_of: has_part _:malformed_nose
 intersection_of: has_part _:mislocalised_nose
@@ -7614,10 +7655,9 @@ intersection_of: inheres_in GO:0060004 ! reflex
 
 [Term]
 id: MP:0001963 ! abnormal hearing physiology
-intersection_of: PATO:0001509 ! functionality
+intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0007605 ! sensory perception of sound
-
 
 [Term]
 id: MP:0001967 ! deafness
@@ -7637,7 +7677,7 @@ intersection_of: inheres_in GO:0050951 ! sensory perception of temperature stimu
 
 [Term]
 id: MP:0001983 ! abnormal olfactory system physiology
-intersection_of: PATO:0001509 ! functionality
+intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0002445 ! olfactory system
 
@@ -7649,7 +7689,7 @@ intersection_of: inheres_in GO:0007608 ! sensory perception of smell
 
 [Term]
 id: MP:0001985 ! abnormal gustatory system physiology
-intersection_of: PATO:0001509 ! functionality
+intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0002446 ! gustatory system
 
@@ -7678,7 +7718,7 @@ intersection_of: inheres_in MA:0000261 ! eye
 
 [Term]
 id: MP:0002001 ! blindness
-intersection_of: PATO:0001641 ! lacking function
+intersection_of: PATO:0001558 ! lacking processual parts
 intersection_of: inheres_in MA:0002405 ! adult mouse
 intersection_of: towards GO:0007601 ! visual perception
 
@@ -8114,9 +8154,10 @@ intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0030217 ! T cell differentiation
 
+! used morphology since I think that's what the JAX curators mean
 [Term]
 id: MP:0002151 ! abnormal neural tube morphology/development
-intersection_of: PATO:0000001 ! quality
+intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0021915 ! neural tube development
 
@@ -9752,7 +9793,7 @@ intersection_of: inheres_in MA:0000008 ! tail
 
 [Term]
 id: MP:0002633 ! persistent truncus arteriosis
-intersection_of: PATO:0001511 ! non-functional
+intersection_of: PATO:0001558 ! lacking processual parts
 intersection_of: inheres_in GO:0000917 ! barrier septum formation
 intersection_of: has_central_participant MA:0002031 ! pulmonary artery
 intersection_of: has_central_participant MA:0000062 ! aorta
@@ -9909,7 +9950,7 @@ intersection_of: inheres_in GO:0030317 ! sperm motility
 
 [Term]
 id: MP:0002675 ! asthenozoospermia
-intersection_of: PATO:0001641 ! disfunctional
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0030317 ! sperm motility
 
 [Term]
@@ -10792,7 +10833,7 @@ intersection_of: inheres_in MA:0001317 ! retina blood vessel
 
 [Term]
 id: MP:0002796 ! impaired skin barrier function
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0033561 ! regulation of water loss via skin
 
 [Term]
@@ -11771,8 +11812,8 @@ intersection_of: inheres_in MA:0000319 ! joint
 
 [Term]
 id: MP:0003080 ! enhanced NK cell cytolysis
-intersection_of: PATO:0001510 ! functional
-intersection_of: inheres_in GO:0042267 ! natural killer cell mediated cytotoxicity
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards GO:0042267 ! natural killer cell mediated cytotoxicity
 
 [Term]
 id: MP:0003081 ! abnormal soleus morphology
@@ -11978,7 +12019,7 @@ intersection_of: inheres_in MA:0000155 ! coat hair
 id: MP:0003137 ! abnormal impulse conducting system conduction
 intersection_of: PATO:0001585 ! conduction
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in CL:0000746 ! cardiac muscle cell
+intersection_of: inheres_in MA:0000164 ! cardiac muscle 
 
 [Term]
 id: MP:0003138 ! absent tympanic ring
@@ -12061,14 +12102,14 @@ intersection_of: inheres_in GO:0090075 ! relaxation of muscle
 
 [Term]
 id: MP:0001080 ! defasiculated phrenic nerve
-intersection_of: PATO:0001641 ! lacking function
+intersection_of: PATO:0001558 ! lacking processual parts
 intersection_of: inheres_in MA:0001170 ! phrenic nerve
 intersection_of: towards GO:0007413 ! axonal fasciculation
 
 [Term]
 id: MP:0003158 ! dysphagia
-intersection_of: PATO:0001641 ! disfunctional
-intersection_of: inheres_in GO:0043050 ! pharyngeal pumping
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards GO:0043050 ! pharyngeal pumping
 
 [Term]
 id: MP:0003159 ! abnormal esophageal smooth muscle morphology
@@ -12149,11 +12190,6 @@ id: MP:0003172 ! abnormal lysosome physiology
 intersection_of: PATO:0001509 ! functionality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0005764 ! lysosome
-
-[Term]
-id: MP:0003177 ! allodynia
-intersection_of: PATO:0001641 ! disfunctional
-intersection_of: inheres_in GO:0048265 ! sensory perception of pain
 
 [Term]
 id: MP:0003178 ! left pulmonary isomerism
@@ -12253,14 +12289,6 @@ intersection_of: inheres_in MA:0000319 ! joint
 id: MP:0003201 ! extremity edema
 intersection_of: PATO:0001450 ! edematous
 intersection_of: inheres_in _:extremity_paw_limb_tail
-
-[Term]
-id: _:extremity_paw_limb_tail
-is_anonymous: true
-intersection_of: MA:0002433 ! anatomic region
-intersection_of: has_part MA:0002714 ! autopod
-intersection_of: has_part MA:0000008 ! tail
-intersection_of: has_part MA:0000007 ! limb
 
 [Term]
 id: MP:0005342 ! abnormal lipid absorption
@@ -12448,12 +12476,6 @@ id: MP:0003252 ! abnormal bile duct physiology
 intersection_of: PATO:0001509 ! functionality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0000354 ! bile duct
-
-![Term]
-!id: MP:0005073 ! impaired granulocyte migration
-!intersection_of: PATO:0001641 ! disfunctional
-!intersection_of: inheres_in CL:0000094 ! granulocyte
-!intersection_of: towards GO:0006935 ! chemotaxis
 
 [Term]
 id: MP:0003253 ! dilated bile duct
@@ -12666,11 +12688,6 @@ intersection_of: towards MPATH:119 ! hemorrhage and non-specified extravasation
 intersection_of: inheres_in MA:0000336 ! rectum
 
 [Term]
-id: MP:0003296 ! microcolon
-intersection_of: PATO:0000587 ! decreased size
-intersection_of: inheres_in MA:0000165 ! skeletal muscle
-
-[Term]
 id: MP:0003300 ! gastrointestinal ulcer
 intersection_of: PATO:0002002 ! has extra parts of type
 intersection_of: towards MPATH:579 ! ulcer
@@ -12767,6 +12784,11 @@ id: MP:0003323 ! gastrocolic fistula
 intersection_of: MPATH:70 ! fistula
 intersection_of: inheres_in MA:0000353 ! stomach
 intersection_of: towards MA:0000335 ! colon
+
+[Term]
+id: MP:0003296 ! microcolon
+intersection_of: PATO:0000587 ! decreased size
+intersection_of: inheres_in MA:0000335 ! colon
 
 [Term]
 id: MP:0003324 ! liver adenoma
@@ -13016,7 +13038,7 @@ intersection_of: inheres_in GO:0042698 ! menstrual cycle
 [Term]
 id: MP:0003376 ! amenorrhea
 intersection_of: PATO:0001558 ! lacking processual parts
-intersection_of: inheres_in GO:0042698 ! menstrual cycle
+intersection_of: towards GO:0042698 ! menstrual cycle
 
 [Term]
 id: MP:0003377 ! late onset of menarche
@@ -13145,8 +13167,8 @@ intersection_of: inheres_in MA:0002869 ! presacral vertebra
 
 [Term]
 id: MP:0003406 ! failure of zygotic cell division
-intersection_of: PATO:0001511 ! non-functional
-intersection_of: inheres_in GO:0010070 ! zygote asymmetric cell division
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards GO:0010070 ! zygote asymmetric cell division
 
 [Term]
 id: MP:0003410 ! abnormal artery development
@@ -13740,6 +13762,11 @@ intersection_of: inheres_in_part_of MA:0002031 ! pulmonary artery
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
+id: MP:0002562 ! prolonged circadian period
+intersection_of: PATO:0000498 ! increased period
+intersection_of: inheres_in GO:0007623 ! circadian rhythm
+
+[Term]
 id: MP:0003549 ! pulmonary hypotension
 intersection_of: PATO:0001575 ! decreased pressure
 intersection_of: qualifier PATO:0001863 ! chronic
@@ -14276,10 +14303,11 @@ id: MP:0003620 ! decreased urine output
 intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0060073 ! micturition
 
-[Term]
-id: MP:0003621 ! dysuria
-intersection_of: PATO:0001641 ! disfunctional
-intersection_of: inheres_in GO:0060073 ! micturition
+! this is wrong
+![Term]
+!id: MP:0003621 ! dysuria
+!intersection_of: PATO:0001641 ! disfunctional
+!intersection_of: inheres_in GO:0060073 ! micturition
 
 [Term]
 id: MP:0003623 ! hydrocele
@@ -14288,8 +14316,8 @@ intersection_of: inheres_in MA:0000411 ! testis
 
 [Term]
 id: MP:0003624 ! anuria
-intersection_of: PATO:0001511 ! non-functional
-intersection_of: inheres_in GO:0060073 ! micturition
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards GO:0060073 ! micturition
 
 [Term]
 id: MP:0003625 ! kidney medulla hyperplasia
@@ -14749,8 +14777,8 @@ intersection_of: inheres_in CL:0000129 ! microglial cell
 
 [Term]
 id: MP:0003694 ! failure to hatch from the zona pellucida
-intersection_of: PATO:0001511 ! non-functional
-intersection_of: inheres_in GO:0001835 ! blastocyst hatching
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards GO:0001835 ! blastocyst hatching
 
 [Term]
 id: MP:0003695 ! delayed hatching from the zona pellucida
@@ -15711,8 +15739,8 @@ intersection_of: inheres_in GO:0046323 ! glucose import
 
 [Term]
 id: MP:0003927 ! enhanced cellular glucose import
-intersection_of: PATO:0001625 ! increased functionality
-intersection_of: inheres_in GO:0046323 ! glucose import
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards GO:0046323 ! glucose import
 
 [Term]
 id: MP:0003928 ! increased heart rate variability
@@ -16152,7 +16180,7 @@ intersection_of: inheres_in GO:0006885 ! regulation of pH
 
 [Term]
 id: MP:0004045 ! abnormal cell cycle checkpoint function
-intersection_of: PATO:0001509 ! functionality
+intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0000075 ! cell cycle checkpoint
 
@@ -16888,16 +16916,16 @@ id: MP:0004247 ! small pancreas
 intersection_of: PATO:0000587 ! decreased size
 intersection_of: inheres_in MA:0000120 ! pancreas
 
-[Term]
-id: MP:0004248 ! abnormal epaxial muscle morphology
-intersection_of: PATO:0000051 ! morphology
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000514 ! trunk muscle
+![Term]
+!id: MP:0004248 ! abnormal epaxial muscle morphology
+!intersection_of: PATO:0000051 ! morphology
+!intersection_of: qualifier PATO:0000460 ! abnormal
+!intersection_of: inheres_in MA:0000514 ! trunk muscle
 
 [Term]
 id: MP:0004251 ! failure of looping morphogenesis
-intersection_of: PATO:0001511 ! non-functional
-intersection_of: inheres_in GO:0001947 ! heart looping
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards GO:0001947 ! heart looping
 
 [Term]
 id: MP:0004252 ! abnormal direction of looping morphogenesis
@@ -18393,11 +18421,12 @@ intersection_of: PATO:0000642 ! fused with
 intersection_of: inheres_in MA:0000314 ! thoracic vertebra
 intersection_of: towards MA:0000314 ! thoracic vertebra
 
-[Term]
-id: MP:0004624 ! abnormal thoracic cage
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000022 ! thorax
+! we need to request thoracic cage
+![Term]
+!id: MP:0004624 ! abnormal thoracic cage
+!intersection_of: PATO:0000051 ! morphology
+!intersection_of: qualifier PATO:0000460 ! abnormal
+!intersection_of: inheres_in MA:0000022 ! thorax
 
 [Term]
 id: MP:0004626 ! vertebral compression
@@ -18880,7 +18909,6 @@ intersection_of: inheres_in GO:0042827 ! platelet dense granule
 id: MP:0004722 ! abnormal platelet dense granule number
 intersection_of: PATO:0001555 ! has number of
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in CL:0000233 ! platelet
 intersection_of: towards GO:0042827 ! platelet dense granule
 
 [Term]
@@ -19271,7 +19299,7 @@ intersection_of: inheres_in GO:0060005 ! vestibular reflex
 [Term]
 id: MP:0004845 ! absent vestibuloocular reflex
 intersection_of: PATO:0001558 ! lacking processual parts
-intersection_of: inheres_in GO:0060005 ! vestibular reflex
+intersection_of: towards GO:0060005 ! vestibular reflex
 
 [Term]
 id: MP:0004846 ! absent skeletal muscle
@@ -19906,8 +19934,8 @@ intersection_of: inheres_in GO:0001569 ! branching involved in blood vessel morp
 
 [Term]
 id: MP:0000264 ! failure of vascular branching
-intersection_of: PATO:0001511 ! non-functional
-intersection_of: inheres_in GO:0001569 ! branching involved in blood vessel morphogenesis
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards GO:0001569 ! branching involved in blood vessel morphogenesis
 
 [Term]
 id: MP:0009903 ! abnormal medial nasal prominence morphology
@@ -20647,8 +20675,8 @@ intersection_of: towards IMR:0000144 ! MHC class II molecule
 
 [Term]
 id: MP:0005043 ! defective assembly of class II molecules
-intersection_of: PATO:0001641 ! disfunctional
-intersection_of: inheres_in GO:0002399 ! MHC class II protein complex assembly
+intersection_of: PATO:0001570 ! having decreased processual parts
+intersection_of: towards GO:0002399 ! MHC class II protein complex assembly
 
 [Term]
 id: MP:0005049 ! abnormal cytokine physiology
@@ -20736,8 +20764,8 @@ intersection_of: inheres_in CL:0000623 ! natural killer cell
 
 [Term]
 id: MP:0005070 ! impaired NK cell cytolysis
-intersection_of: PATO:0001641 ! disfunctional
-intersection_of: inheres_in GO:0042267 ! natural killer cell mediated cytotoxicity
+intersection_of: PATO:0001570 ! having decreased processual parts
+intersection_of: towards GO:0042267 ! natural killer cell mediated cytotoxicity
 
 [Term]
 id: MP:0005071 ! enlarged hair follicle melanin granules
@@ -20783,8 +20811,8 @@ intersection_of: inheres_in CL:0000794 ! CD8-positive, alpha-beta cytotoxic T ce
 
 [Term]
 id: MP:0005079 ! defective cytotoxic T cell cytolysis
-intersection_of: PATO:0001641 ! disfunctional
-intersection_of: inheres_in GO:0001913 ! T cell mediated cytotoxicity
+intersection_of: PATO:0001570 ! having decreased processual parts
+intersection_of: towards GO:0001913 ! T cell mediated cytotoxicity
 
 [Term]
 id: MP:0005081 ! abnormal dermis reticular layer morphology
@@ -21836,7 +21864,7 @@ intersection_of: inheres_in MA:0000059 ! blood
 id: MP:0005144 ! abnormal circulating VLDL cholesterol level
 intersection_of: PATO:0000033 ! concentration
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: towards GO:0034361! very-low-density lipoprotein particle
+intersection_of: towards CHEBI:47773 ! very-low-density lipoprotein cholesterol
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
@@ -21931,7 +21959,7 @@ intersection_of: inheres_in MA:0000059 ! blood
 [Term]
 id: MP:0005145 ! increased circulating VLDL cholesterol level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards GO:0034361! very-low-density lipoprotein particle
+intersection_of: towards CHEBI:47773 ! very-low-density lipoprotein cholesterol
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
@@ -21944,38 +21972,38 @@ intersection_of: towards CHEBI:16990 ! bilirubin
 id: MP:0000181 ! abnormal circulating LDL cholesterol level
 intersection_of: PATO:0000033 ! concentration
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: towards GO:0034362 ! low-density lipoprotein particle
+intersection_of: towards CHEBI:47774 ! low-density lipoprotein cholesterol
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0000182 ! increased circulating LDL cholesterol level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards GO:0034362 ! low-density lipoprotein particle
+intersection_of: towards CHEBI:47774 ! low-density lipoprotein cholesterol
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0000183 ! decreased circulating LDL cholesterol level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards GO:0034362 ! low-density lipoprotein particle
+intersection_of: towards CHEBI:47774 ! low-density lipoprotein cholesterol
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0000184 ! abnormal circulating HDL cholesterol level
 intersection_of: PATO:0000033 ! concentration
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: towards GO:0034364! high-density lipoprotein particle
+intersection_of: towards CHEBI:47775 ! high-density lipoprotein cholesterol
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0000186 ! decreased circulating HDL cholesterol level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards GO:0034364! high-density lipoprotein particle
+intersection_of: towards CHEBI:47775 ! high-density lipoprotein cholesterol
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0001556 ! increased circulating HDL cholesterol level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards GO:0034364! high-density lipoprotein particle
+intersection_of: towards CHEBI:47775 ! high-density lipoprotein cholesterol
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
@@ -22117,9 +22145,14 @@ intersection_of: inheres_in MA:0000349 ! incisor
 
 [Term]
 id: MP:0005359 ! growth retardation of incisors
-intersection_of: PATO:0001641 ! disfunctional
-intersection_of: inheres_in GO:0042476 ! odontogenesis
-intersection_of: has_central_participant MA:0000349 ! incisor
+intersection_of: PATO:0001570 ! having decreased processual parts
+intersection_of: towards _:incisor_odontogenesis
+
+[Term]
+id: _:incisor_odontogenesis
+is_anonymous: true
+intersection_of: GO:0042476 ! odontogenesis
+intersection_of: results_in_complete_development_of MA:0000349 ! incisor
 
 [Term]
 id: MP:0005361 ! small pituitary gland
@@ -22412,7 +22445,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0048243 ! norepinephrine secretion
 
 [Term]
-id: MP:0005449 ! abnormal food intake
+id: MP:  ! abnormal food intake
 intersection_of: PATO:0000187 ! consumption
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0002405 ! adult mouse
@@ -22558,7 +22591,7 @@ intersection_of: inheres_in MA:0000059 ! blood
 [Term]
 id: MP:0005146 ! decreased circulating VLDL cholesterol level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards GO:0034361! very-low-density lipoprotein particle
+intersection_of: towards CHEBI:47773 ! very-low-density lipoprotein cholesterol
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
@@ -23949,6 +23982,11 @@ intersection_of: PATO:0001819 ! atresia
 intersection_of: inheres_in MA:0000087 ! aortic valve
 
 [Term]
+id: MP:0010484 ! bicuspid aortic valve
+intersection_of: PATO:0002281 ! bicuspid
+intersection_of: inheres_in MA:0000087 ! aortic valve
+
+[Term]
 id: MP:0006116 ! aortic valve calcification
 intersection_of: PATO:0001447 ! calcified
 intersection_of: inheres_in MA:0000087 ! aortic valve
@@ -23996,6 +24034,11 @@ intersection_of: PATO:0001847 ! constricted
 intersection_of: inheres_in MA:0000089 ! pulmonary valve
 
 [Term]
+id: MP:0010527 ! bicuspid pulmonary valve
+intersection_of: PATO:0002281 ! bicuspid
+intersection_of: inheres_in MA:0000089 ! pulmonary valve
+
+[Term]
 id: MP:0006130 ! pulmonary valve atresia
 intersection_of: PATO:0001819 ! atresia
 intersection_of: inheres_in MA:0000089 ! pulmonary valve
@@ -24032,8 +24075,9 @@ intersection_of: inheres_in MA:0000067 ! vein
 
 [Term]
 id: MP:0006138 ! congestive heart failure
-intersection_of: PATO:0001641 ! disfunctional
-intersection_of: inheres_in GO:0060047 ! heart contraction
+intersection_of: PATO:0001570 ! having decreased processual parts
+intersection_of: towards GO:0060047 ! heart contraction
+intersection_of: inheres_in MA:0000072 ! heart
 
 [Term]
 id: MP:0010391 ! rhabdomyoma
@@ -24076,8 +24120,9 @@ intersection_of: inheres_in MA:0001281 ! medial rectus extraocular muscle
 
 [Term]
 id: MP:0006157 ! palsy of the eye
-intersection_of: PATO:0001641 ! disfunctional
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0007634 ! optokinetic behavior
+intersection_of: inheres_in MA:0000261 ! eye
 
 [Term]
 id: MP:0006158 ! vertical supranuclear palsy
@@ -24232,9 +24277,9 @@ intersection_of: inheres_in MA:0000276 ! retina
 
 [Term]
 id: MP:0006190 ! retinal ischemia
-intersection_of: PATO:0001641 ! disfunctional
-intersection_of: has_central_participant MA:0000276 ! retina
-intersection_of: inheres_in GO:0008015 ! circulation
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: inheres_in MA:0000276 ! retina
+intersection_of: towards GO:0008015 ! circulation
 
 [Term]
 id: MP:0006192 ! abnormal conjunctival vasculature morphology
@@ -25447,8 +25492,8 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 [Term]
 id: MP:0005232 ! abnormal mesenteric lymph node morphology
 intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in PATO:0000460 ! abnormal
-intersection_of: qualifier MA:0002829 ! mesenteric lymph node
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MA:0002829 ! mesenteric lymph node
 
 [Term]
 id: MP:0008465 ! absent mesenteric lymph nodes
@@ -26281,9 +26326,9 @@ intersection_of: has_central_participant MA:000188 ! adrenal gland X zone
 
 [Term]
 id: MP:0008297 ! retention of the x-zone
-intersection_of: PATO:0001511 ! non-functional
-intersection_of: inheres_in GO:0012501 ! programmed cell death
-intersection_of: has_central_participant MA:000188 ! adrenal gland X zone
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards GO:0012501 ! programmed cell death
+intersection_of: inheres_in MA:000188 ! adrenal gland X zone
 
 [Term]
 id: MP:0008293 ! abnormal zona glomerulosa morphology
@@ -26357,13 +26402,13 @@ intersection_of: inheres_in GO:0001957 ! intramembranous ossification
 
 [Term]
 id: MP:0008276 ! failure of intramembranous bone ossification
-intersection_of: PATO:0001511 ! non-functional
-intersection_of: inheres_in GO:0001957 ! intramembranous ossification
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards GO:0001957 ! intramembranous ossification
 
 [Term]
 id: MP:0008275 ! failure of endochondral bone ossification
-intersection_of: PATO:0001511 ! non-functional
-intersection_of: inheres_in GO:0001958 ! endochondral ossification
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards GO:0001958 ! endochondral ossification
 
 [Term]
 id: MP:0008242 ! abnormal perivascular macrophage morphology
@@ -26932,7 +26977,7 @@ intersection_of: inheres_in MA:000131! retina ganglion cell layer
 id: MP:0003943 ! abnormal liver/biliary system development
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000324 ! hepatobiliary system
+intersection_of: has_central_participant MA:0000324 ! hepatobiliary system
 intersection_of: inheres_in GO:0048731 ! system development
 
 [Term]
@@ -27011,8 +27056,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0004167 ! abnormal cingulate gyrus morphology
-intersection_of: PATO:0000051 ! morphology
-intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0021765 ! cingulate gyrus development
 intersection_of: qualifier PATO:0000460 ! abnormal
 
@@ -27561,25 +27604,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 id: MP:0008813 ! decreased common myeloid progenitor cell number
 intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards CL:0000049 ! common myeloid progenitor
-
-[Term]
-id: MP:0008820 ! abnormal blood uric acid level
-intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards CHEBI:27226 ! uric acid
-intersection_of: inheres_in MA:0000059 ! blood
-intersection_of: qualifier PATO:0000460 ! abnormal
-
-[Term]
-id: MP:0008821 ! increased blood uric acid level
-intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards CHEBI:27226 ! uric acid
-intersection_of: inheres_in MA:0000059 ! blood
-
-[Term]
-id: MP:0008822 ! decreased blood uric acid level
-intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards CHEBI:27226 ! uric acid
-intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008830 ! abnormal nucleolus morphology
@@ -28405,14 +28429,6 @@ intersection_of: towards MA:0002416 ! Vertebral column
 intersection_of: inheres_in_part_of _:spinal_cord_and_meninges
 
 [Term]
-id: _:spinal_cord_and_meninges
-is_anonymous: true
-is_a: _:temp_term_holder
-intersection_of: MA:0002405 ! adult mouse
-intersection_of: has_part MA:0000216 ! Spinal cord
-intersection_of: has_part MA:0001130 ! spinal cord meninges
-
-[Term]
 id: MP:0009025 ! abnormal brain dura mater morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in MA:0000815 ! brain dura mater
@@ -28548,7 +28564,7 @@ intersection_of: inheres_in MA:0000389 ! uterus
 id: MP:0009085 ! abnormal uterine horn morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in MA:0000393 ! uterine horn
-intersection_of: has_qualifier PATO:0000460 ! abnormal
+intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0009087 ! dilated uterine horn
@@ -28589,7 +28605,7 @@ intersection_of: inheres_in CL:0000023 ! oocyte
 id: MP:0009094 ! abnormal endometrial gland morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in MA:0001726 ! uterine gland
-intersection_of: has_qualifier PATO:0000460 ! abnormal
+intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0009096 ! decreased endometrial gland number
@@ -28600,7 +28616,7 @@ intersection_of: towards MA:0001726 ! uterine gland
 id: MP:0009100 ! abnormal clitoris size
 intersection_of: PATO:0000117 ! size
 intersection_of: inheres_in MA:0000382 ! clitoris
-intersection_of: has_qualifier PATO:0000460 ! abnormal
+intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0009101 ! clitoris hypoplasia
@@ -28749,8 +28765,8 @@ intersection_of: inheres_in CL:0000449 ! brown fat cell
 
 [Term]
 id: MP:0009139 ! failure of Mullerian duct regression
-intersection_of: PATO:0001511 ! non-functional
-intersection_of: inheres_in GO:0001880 ! Mullerian duct regression
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards GO:0001880 ! Mullerian duct regression
 
 [Term]
 id: MP:0009140 ! dilated efferent ductules of testis
@@ -28929,8 +28945,7 @@ intersection_of: towards CL:0002092 ! bone marrow cell
 [Term]
 id: MP:0001819 ! abnormal immune cell physiology
 intersection_of: PATO:0001641 ! disfunctional
-intersection_of: inheres_in GO:0005623 ! cell
-intersection_of: inheres_in_part_of MA:0002711 ! immune system
+intersection_of: inheres_in CL:0000738 ! leukocyte
 
 [Term]
 id: MP:0003055 ! abnormal long bone epiphyseal plate morphology
@@ -29042,6 +29057,11 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 id: MP:0008999 ! absent anus
 intersection_of: PATO:0002000 ! lacks all physical parts of type
 intersection_of: towards MA:0000331 ! anus
+
+[Term]
+id: MP:0010449 ! heart right ventricle outflow tract stenosis
+intersection_of: PATO:0000599 ! decreased width
+intersection_of: inheres_in MA:0002033 ! Pulmonary trunk
 
 [Term]
 id: MP:0009000 ! absent cecum
@@ -29785,8 +29805,9 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0009373 ! abnormal cumulus expansion
-intersection_of: PATO:0001641 ! disfunctional
+intersection_of: PATO:0000001 ! quality
 intersection_of: inheres_in GO:0001550 ! ovarian cumulus expansion
+intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0009398 ! abnormal skeletal muscle fiber size
@@ -30670,8 +30691,9 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0009676 ! abnormal hemostasis
-intersection_of: PATO:0001641 ! disfunctional
+intersection_of: PATO:0000001 ! quality
 intersection_of: inheres_in GO:0007599 ! hemostasis
+intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0009677 ! abnormal spinal cord dorsal column morphology
@@ -31245,17 +31267,22 @@ id: MP:0004893 ! decreased adiponectin level
 intersection_of: PATO:0001163 ! decreased concentration
 intersection_of: towards PRO:000003777 ! adiponectin
 
-![Term]
-!id: MP:0005073 ! impaired granulocyte migration
-!intersection_of: PATO:0001511 ! non-functional
-!intersection_of: inheres_in_part_of CL:0000094 ! granulocyte
-!intersection_of: inheres_in GO:0006935 ! chemotaxis
+[Term]
+id: MP:0005073 ! impaired granulocyte migration
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in _:granulocyte_chemotaxis
 
-![Term]
-!id: MP:0008280 ! male germ cell apoptosis
-!intersection_of: PATO:0000384 ! male
-!intersection_of: inheres_in_part_of CL:0000586 ! germ cell
-!intersection_of: inheres_in GO:0006915 ! apoptosis
+[Term]
+id: _:granulocyte_chemotaxis
+is_anonymous: true
+intersection_of: GO:0006935 ! chemotaxis
+intersection_of: has_central_participant CL:0000094 ! granulocyte
+
+[Term]
+id: MP:0008280 ! male germ cell apoptosis
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: inheres_in CL:0000015 ! male germ cell
+intersection_of: towards GO:0006915 ! apoptosis
 
 [Term]
 id: MP:0008503 ! abnormal spinal cord grey matter morphology
@@ -31996,8 +32023,8 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0001693 ! failure of primitive streak formation
-intersection_of: PATO:0001511 ! non-functional
-intersection_of: inheres_in GO:0090009 ! primitive streak formation
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards GO:0090009 ! primitive streak formation
 
 [Term]
 id: MP:0001697 ! abnormal embryo size
@@ -32209,8 +32236,9 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0002231 ! abnormal primitive streak morphology
-intersection_of: PATO:0001511 ! non-functional
+intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in UBERON:0004341 ! primitive streak
+intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0010371 ! abnormal epiglottis morphology
@@ -32334,7 +32362,7 @@ intersection_of: towards UBERON:0002280 ! otolith
 [Term]
 id: MP:0003208 ! abnormal neuromere morphology
 intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in UBERON:0000073 ! regional part of nervous system
+intersection_of: inheres_in UBERON:0004731 ! neuromere
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -33215,9 +33243,9 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0003044 ! impaired basement membrane formation
-intersection_of: PATO:0001641 ! disfunctional
-intersection_of: inheres_in_part_of GO:0005605 ! basal lamina
-intersection_of: inheres_in GO:0009058 ! biosynthetic process
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: inheres GO:0005605 ! basal lamina
+intersection_of: towards GO:0009058 ! biosynthetic process
 
 [Term]
 id: MP:0003129 ! persistent cloaca
@@ -33243,8 +33271,8 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0009768 ! impaired somite development
-intersection_of: PATO:0001641 ! disfunctional
-intersection_of: inheres_in GO:0061053 ! somite development
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards GO:0061053 ! somite development
 
 [Term]
 id: MP:0009833 ! absent sperm mitochondrial sheath
@@ -35054,7 +35082,22 @@ intersection_of: towards UBERON:0002979 ! Purkinje cell layer of cerebellar cort
 [Term]
 id: MP:0010406 ! absent atrial septum
 intersection_of: PATO:0002000 ! lacks all parts of type
-intersection_of: towards UBERON:0002085 ! interatrial septum
+intersection_of: towards MA:0000084 ! interatrial septum
+
+[Term]
+id: MP:0010404 ! ostium primum atrial septal defect
+intersection_of: PATO:0002000 ! lacks all parts of type
+intersection_of: inheres_in UBERON:0004157 ! atrial septum primum
+
+[Term]
+id: MP:0010405 ! ostium secundum atrial septal defect
+intersection_of: PATO:0002000 ! lacks all parts of type
+intersection_of: inheres_in UBERON:0004158 ! atrial septum secundum
+
+[Term]
+id: MP:0010403 ! atrial septum defect
+intersection_of: PATO:0000609 ! closure incomplete
+intersection_of: inheres_in MA:0000084 ! interatrial septum
 
 [Term]
 id: MP:0010437 ! absent coronary sinus
@@ -35366,6 +35409,38 @@ id: has_participant
 name: has participant
 xref: BFO:0000057
 
+! ANATOMY XPs
+
+[Term]
+id: _:somatosensory_cortex
+is_anonymous: true
+intersection_of: MA:0000916 ! parietal cortex
+intersection_of: has_part MA:0000908 ! primary somatosensory cortex
+intersection_of: has_part MA:0000918 ! secondary somatosensory cortex
+
+
+[Term]
+id: _:extremity_paw_limb_tail
+is_anonymous: true
+intersection_of: MA:0002433 ! anatomic region
+intersection_of: has_part MA:0002714 ! autopod
+intersection_of: has_part MA:0000008 ! tail
+intersection_of: has_part MA:0000007 ! limb
+
+
+[Term]
+id: _:spinal_cord_and_meninges
+is_anonymous: true
+is_a: _:temp_term_holder
+intersection_of: MA:0002405 ! adult mouse
+intersection_of: has_part MA:0000216 ! Spinal cord
+intersection_of: has_part MA:0001130 ! spinal cord meninges
+
+[Term]
+id: _:cranium_or_face
+is_anonymous: true
+union_of: MA:0000316 ! cranium
+union_of: MA:0002473 ! face
 
 
 
