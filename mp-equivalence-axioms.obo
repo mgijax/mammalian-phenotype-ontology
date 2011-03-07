@@ -929,7 +929,7 @@ intersection_of: inheres_in MA:0000059 ! blood
 [Term]
 id: MP:0000231 ! hypertension
 intersection_of: PATO:0001576 ! increased pressure
-intersection_of: inheres_in_part_of MA:0000060 ! blood vessel
+intersection_of: inheres_in_part_of MA:0002719 ! arterial system
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0001863 ! chronic
 
