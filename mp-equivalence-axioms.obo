@@ -914,6 +914,12 @@ intersection_of: inheres_in GO:0002574 ! thrombocyte differentiation
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
+id: MP:0001388 ! abnormal stationary movement
+intersection_of: PATO:0000001 ! quality
+intersection_of: inheres_in GO:0050882 ! voluntary musculoskeletal movement
+intersection_of: qualifier PATO:0000460 ! abnormal
+
+[Term]
 id: MP:0000229 ! abnormal megakaryocyte differentiation
 intersection_of: PATO:0000001 ! quality
 intersection_of: inheres_in GO:0030219 ! megakaryocyte differentiation
@@ -33104,7 +33110,7 @@ intersection_of: towards UBERON:0002328 ! notochord
 
 [Term]
 id: MP:0000959 ! abnormal somatic sensory system morphology
-intersection_of: PATO:0000001 ! quality
+intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in_part_of UBERON:0003942 ! somatic sensory system
 intersection_of: qualifier PATO:0000460 ! abnormal
 
