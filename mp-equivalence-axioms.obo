@@ -701,6 +701,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 id: MP:0000161 ! scoliosis
 intersection_of: PATO:0002049 ! lateral and rotional curvature
 intersection_of: inheres_in MA:0002416 ! vertebral column
+intersection_of: qualifier PATO:0001869 ! pathological
 
 [Term]
 id: MP:0000162 ! lordosis
@@ -9600,7 +9601,7 @@ intersection_of: inheres_in MA:0000304 ! phalanx
 
 [Term]
 id: MP:0002544 ! brachydactyly
-intersection_of: PATO:0000587 ! decreased size
+intersection_of: PATO:0000574 ! decreased length
 intersection_of: inheres_in MA:0000690 ! limb digit
 
 [Term]
