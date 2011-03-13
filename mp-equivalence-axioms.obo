@@ -11187,8 +11187,13 @@ intersection_of: inheres_in MA:0000116 ! adrenal gland
 id: MP:0002913 ! abnormal PNS synaptic transmission
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0007268 ! synaptic transmission
-intersection_of: inheres_in MA:0000218 ! peripheral nervous system
+intersection_of: inheres_in _:PNS_synaptic_transmission
+
+[Term]
+id: _:PNS_synaptic_transmission
+is_anonymous: true
+intersection_of: GO:0007268 ! synaptic transmission
+intersection_of: has_central_participant MA:0000218 ! peripheral nervous system
 
 [Term]
 id: MP:0002925 ! abnormal cardiovascular development
