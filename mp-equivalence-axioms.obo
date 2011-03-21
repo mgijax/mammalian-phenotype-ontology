@@ -1919,7 +1919,7 @@ intersection_of: towards FMA:52901 ! Horizontal plate of palatine bone
 id: MP:0000432 ! abnormal head morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000023 !
+intersection_of: inheres_in MA:0000023 ! head
 
 [Term]
 id: MP:0000433 ! microcephaly
@@ -26340,7 +26340,7 @@ intersection_of: has_central_participant MA:0001888 ! adrenal gland X zone
 id: MP:0008297 ! retention of the x-zone
 intersection_of: PATO:0001558 ! lacking processual parts
 intersection_of: towards GO:0012501 ! programmed cell death
-intersection_of: inheres_in MA:00018888 ! adrenal gland X zone
+intersection_of: inheres_in MA:0001888 ! adrenal gland X zone
 
 [Term]
 id: MP:0008293 ! abnormal zona glomerulosa morphology
