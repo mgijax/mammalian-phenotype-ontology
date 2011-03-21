@@ -10327,7 +10327,7 @@ intersection_of: inheres_in UBERON:0001066 ! intervertebral disk
 id: MP:0009162 ! absent pancreatic acinar cell zymogen granule
 intersection_of: PATO:0002000 ! lacks all physical parts of type
 intersection_of: inheres_in GO:0042588 ! zymogen granule
-intersection_of: towards UBERON:0000302 ! pancreatic acinar cell
+intersection_of: towards CL:0002064 ! pancreatic acinar cell
 
 !!! todo
 [Term]
@@ -26887,7 +26887,7 @@ intersection_of: inheres_in CL:0000748 ! retinal bipolar neuron
 id: MP:0005495 ! abnormal macrophage recruitment
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:000228 ! macrophage activation during immune response
+intersection_of: inheres_in GO:0002281 ! macrophage activation during immune response
 
 [Term]
 id: MP:0005496 ! impaired macrophage recruitment
@@ -27082,7 +27082,7 @@ intersection_of: inheres_in_part_of MA:0000415 ! lung
 id: MP:0003210 ! abnormal heart elastic fiber morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:004825 ! elastic fiber assembly
+intersection_of: inheres_in GO:0048251 ! elastic fiber assembly
 intersection_of: inheres_in_part_of MA:0000072 ! heart
 
 [Term]
@@ -32527,7 +32527,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 [Term]
 id: MP:0004131 ! abnormal embryonic cilium morphology
 intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in UBERON:00040 ! embryonic cilium
+intersection_of: inheres_in UBERON:0004020! embryonic cilium
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -34200,7 +34200,7 @@ intersection_of: inheres_in PATO:0001873 ! cylindrical
 
 [Term]
 id: MP:0010544 ! interrupted aorta
-intersection_of: PATO:000064 ! obstructed
+intersection_of: PATO:0000648 ! obstructed
 intersection_of: inheres_in MA:0000062 ! aorta
 
 [Term]
