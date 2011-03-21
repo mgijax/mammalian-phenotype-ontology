@@ -694,7 +694,7 @@ intersection_of: towards MA:0001331 ! sternum
 [Term]
 id: MP:0000159 ! abnormal xiphoid process
 intersection_of: PATO:0000001 ! quality
-intersection_of: inheres_in MA:0001884 ! xiphoid cartilage
+intersection_of: inheres_in MA:00018884 ! xiphoid cartilage
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -18686,17 +18686,17 @@ intersection_of: inheres_in MA:0000315 ! rib
 [Term]
 id: MP:0004678 ! split xiphoid process
 intersection_of: PATO:0001786 ! splitted
-intersection_of: inheres_in MA:0001884 ! xiphoid cartilage
+intersection_of: inheres_in MA:00018884 ! xiphoid cartilage
 
 [Term]
 id: MP:0004679 ! xiphoid process foramen
 intersection_of: PATO:0002112 ! perforated
-intersection_of: inheres_in MA:0001884 ! xiphoid cartilage
+intersection_of: inheres_in MA:00018884 ! xiphoid cartilage
 
 [Term]
 id: MP:0004680 ! small xiphoid process
 intersection_of: PATO:0000587 ! decreased size
-intersection_of: inheres_in MA:0001884 ! xiphoid cartilage
+intersection_of: inheres_in MA:00018884 ! xiphoid cartilage
 
 [Term]
 id: MP:0004681 ! intervertebral disk hypoplasia
@@ -22457,7 +22457,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0048243 ! norepinephrine secretion
 
 [Term]
-id: MP:  ! abnormal food intake
+id: MP:0005449 ! abnormal food intake
 intersection_of: PATO:0000187 ! consumption
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0002405 ! adult mouse
@@ -24716,7 +24716,7 @@ intersection_of: inheres_in MA:0000412 ! seminiferous tubule
 [Term]
 id: MP:0005047 ! enlarged celiac lymph nodes
 intersection_of: PATO:0000586 ! enlarged
-intersection_of: inheres_in MA:00002828 ! celiac lymph nodes
+intersection_of: inheres_in MA:0002828 ! celiac lymph nodes
 
 [Term]
 id: MP:0006309 ! decreased retinal ganglion cell number
@@ -26328,19 +26328,19 @@ intersection_of: inheres_in MA:0000118 ! adrenal gland cortex
 id: MP:0008296 ! abnormal x-zone morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:000188 ! adrenal gland X zone
+intersection_of: inheres_in MA:0001888 ! adrenal gland X zone
 
 [Term]
 id: MP:0008303 ! early degeneration of the x-zone
 intersection_of: PATO:0000694 ! premature
 intersection_of: inheres_in GO:0012501 ! programmed cell death
-intersection_of: has_central_participant MA:000188 ! adrenal gland X zone
+intersection_of: has_central_participant MA:0001888 ! adrenal gland X zone
 
 [Term]
 id: MP:0008297 ! retention of the x-zone
 intersection_of: PATO:0001558 ! lacking processual parts
 intersection_of: towards GO:0012501 ! programmed cell death
-intersection_of: inheres_in MA:000188 ! adrenal gland X zone
+intersection_of: inheres_in MA:00018888 ! adrenal gland X zone
 
 [Term]
 id: MP:0008293 ! abnormal zona glomerulosa morphology
@@ -26983,7 +26983,7 @@ intersection_of: towards CHEBI:25805 ! oxygen
 id: MP:0005241 ! abnormal retinal ganglion layer morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:000131! retina ganglion cell layer
+intersection_of: inheres_in MA:0001310 ! retina ganglion cell layer
 
 [Term]
 id: MP:0003943 ! abnormal liver/biliary system development
