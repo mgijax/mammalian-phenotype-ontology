@@ -18686,17 +18686,17 @@ intersection_of: inheres_in MA:0000315 ! rib
 [Term]
 id: MP:0004678 ! split xiphoid process
 intersection_of: PATO:0001786 ! splitted
-intersection_of: inheres_in MA:00018884 ! xiphoid cartilage
+intersection_of: inheres_in MA:0001884 ! xiphoid cartilage
 
 [Term]
 id: MP:0004679 ! xiphoid process foramen
 intersection_of: PATO:0002112 ! perforated
-intersection_of: inheres_in MA:00018884 ! xiphoid cartilage
+intersection_of: inheres_in MA:0001884 ! xiphoid cartilage
 
 [Term]
 id: MP:0004680 ! small xiphoid process
 intersection_of: PATO:0000587 ! decreased size
-intersection_of: inheres_in MA:00018884 ! xiphoid cartilage
+intersection_of: inheres_in MA:0001884 ! xiphoid cartilage
 
 [Term]
 id: MP:0004681 ! intervertebral disk hypoplasia
