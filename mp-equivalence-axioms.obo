@@ -1408,7 +1408,7 @@ intersection_of: PATO:0002000 ! lacks all physical parts of type
 intersection_of: towards UBERON:0003980 ! cerebellum fissure
 
 [Term]
-id:  v ! increased splenocyte apoptosis
+id: MP:0009322 ! increased splenocyte apoptosis
 intersection_of: PATO:0000470 ! present in greater numbers in organism
 intersection_of: inheres_in CL:0000000 ! cell
 intersection_of: inheres_in_part_of MA:0000141 ! spleen
@@ -21430,7 +21430,7 @@ intersection_of: inheres_in MA:0002878 ! brachial lymph node
 [Term]
 id: MP:0010286 ! plasmacytoma
 intersection_of: PATO:0000467 ! present in organism
-intersection_of: inheres_in MPATH:346 ! plasma cell lymphoma
+intersection_of: inheres_in MPATH:532 ! plasmacytoma
 
 [Term]
 id: MP:0005234 ! thymic lymphoma
