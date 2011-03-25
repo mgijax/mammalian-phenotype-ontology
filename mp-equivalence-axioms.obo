@@ -1486,7 +1486,7 @@ intersection_of: inheres_in MA:0002439 ! skeletal muscle tissue
 [Term]
 id: MP:0009427 ! increased tibialis anterior weight
 intersection_of: PATO:0000582 ! increased weight
-intersection_of: inheres_in MA:0000347 ! tibialis anterior
+intersection_of: inheres_in MA:0002395 ! tibialis cranialis
 
 [Term]
 id: MP:0009361 ! abnormal primordial ovarian follicle morphology
@@ -1514,12 +1514,12 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0009428 ! decreased tibialis anterior weight
-intersection_of: MP:0001262 ! decreased body weight
+intersection_of: PATO:0000583 ! decreased weight
 intersection_of: inheres_in MA:0000347 ! tibialis anterior
 
 [Term]
 id: MP:0009429 ! decreased embryo weight
-intersection_of: MP:0001262 ! decreased body weight
+intersection_of: PATO:0000583 ! decreased weight
 intersection_of: inheres_in UBERON:0000922 ! embryo
 
 [Term]
@@ -28518,7 +28518,7 @@ intersection_of: inheres_in MA:0000385 ! oviduct
 
 [Term]
 id: MP:0009066 ! decreased oviduct weight
-intersection_of: MP:0001262 ! decreased body weight
+intersection_of: PATO:0000583 ! decreased weight
 intersection_of: inheres_in MA:0000385 ! oviduct
 
 [Term]
@@ -28680,7 +28680,7 @@ intersection_of: inheres_in MA:0000120 ! pancreas
 
 [Term]
 id: MP:0009109 ! decreased pancreas weight
-intersection_of: MP:0001262 ! decreased body weight
+intersection_of: PATO:0000583 ! decreased weight
 intersection_of: inheres_in MA:0000120 ! pancreas
 
 [Term]
@@ -30007,7 +30007,7 @@ intersection_of: inheres_in MA:0002295 ! extensor digitorum longus
 
 [Term]
 id: MP:0009424 ! decreased extensor digitorum longus weight
-intersection_of: MP:0001262 ! decreased body weight
+intersection_of: PATO:0000583 ! decreased weight
 intersection_of: inheres_in MA:0002295 ! extensor digitorum longus
 
 [Term]
@@ -30017,7 +30017,7 @@ intersection_of: inheres_in MA:0002424 ! soleus
 
 [Term]
 id: MP:0009426 ! decreased soleus weight
-intersection_of: MP:0001262 ! decreased body weight
+intersection_of: PATO:0000583 ! decreased weight
 intersection_of: inheres_in MA:0002424 ! soleus
 
 [Term]
@@ -33929,7 +33929,7 @@ intersection_of: inheres_in MA:0002363 ! quadriceps
 
 [Term]
 id: MP:0010227 ! decreased quadriceps weight
-intersection_of: MP:0001262 ! decreased body weight
+intersection_of: PATO:0000583 ! decreased weight
 intersection_of: inheres_in MA:0002363 ! quadriceps
 
 [Term]
