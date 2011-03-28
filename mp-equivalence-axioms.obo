@@ -17932,6 +17932,11 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0000293 ! pelvic girdle bone
 
 [Term]
+id: MP:0006222 ! optic neuropathy
+intersection_of: PATO:0001167 ! damaged
+intersection_of: inheres_in MA:0001097 ! optic II nerve
+
+[Term]
 id: MP:0004513 ! avnosmia
 intersection_of: PATO:0001558 ! lacking processual parts
 intersection_of: inheres_in GO:0007608 ! sensory perception of smell
