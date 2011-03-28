@@ -1938,8 +1938,8 @@ intersection_of: inheres_in MA:0000023 ! head
 
 [Term]
 id: MP:0000435 ! shortened head
-intersection_of: PATO:0000574 ! decreased length
-intersection_of: inheres_in MA:0000023 ! head
+intersection_of: PATO:0002042 ! decreased anterior-posterior diameter
+intersection_of: inheres_in MA:0000316 ! cranium
 
 [Term]
 id: MP:0000438 ! abnormal skull morphology
@@ -9404,16 +9404,6 @@ intersection_of: PATO:0000912 ! increased rate
 intersection_of: inheres_in GO:0042100 ! B cell proliferation
 
 [Term]
-id: MP:0002460 ! decreased immunoglobulin level
-intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards IMR:0002090 ! immunoglobulin
-
-[Term]
-id: MP:0002461 ! increased immunoglobulin level
-intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards IMR:0002090 ! immunoglobulin
-
-[Term]
 id: MP:0002462 ! abnormal granulocyte physiology
 intersection_of: PATO:0001509 ! functionality
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -9476,6 +9466,16 @@ intersection_of: inheres_in CL:0000518 ! phagocyte (sensu Vertebrata)
 id: MP:0002490 ! abnormal immunoglobulin level
 intersection_of: PATO:0000033 ! concentration
 intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: towards IMR:0002090 ! immunoglobulin
+
+[Term]
+id: MP:0002460 ! decreased immunoglobulin level
+intersection_of: PATO:0001163 ! decreased concentration
+intersection_of: towards IMR:0002090 ! immunoglobulin
+
+[Term]
+id: MP:0002461 ! increased immunoglobulin level
+intersection_of: PATO:0001162 ! increased concentration
 intersection_of: towards IMR:0002090 ! immunoglobulin
 
 [Term]
@@ -9736,6 +9736,24 @@ intersection_of: inheres_in CL:0000232 ! erythrocyte
 [Term]
 id: MP:0010128 ! hypovolemia
 intersection_of: PATO:0000596 ! decreased volume
+intersection_of: inheres_in MA:0000059 ! blood
+
+[Term]
+id: MP:0002490 ! abnormal immunoglobulin level
+intersection_of: PATO:0000033 ! concentration
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: towards IMR:0002090 ! immunoglobulin
+intersection_of: inheres_in MA:0000059 ! blood
+
+[Term]
+id: MP:0002460 ! decreased immunoglobulin level
+intersection_of: PATO:0001163 ! decreased concentration
+intersection_of: towards IMR:0002090 ! immunoglobulin
+intersection_of: inheres_in MA:0000059 ! blood
+
+[Term]
+id: MP:0002461 ! increased immunoglobulin level
+intersection_of: PATO:0001162 ! increased concentration
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
