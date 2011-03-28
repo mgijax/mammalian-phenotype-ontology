@@ -940,8 +940,6 @@ intersection_of: inheres_in_part_of MA:0002719 ! arterial system
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0001863 ! chronic
 
-
-
 [Term]
 id: MP:0000237 ! decreased blood cell number
 intersection_of: PATO:0002001 ! has fewer parts of type
@@ -9148,6 +9146,12 @@ intersection_of: towards GO:0051607 ! defense response to virus
 id: MP:0002411 ! decreased susceptibility to bacterial infection
 intersection_of: PATO:0001670 ! decreased susceptibility toward
 intersection_of: towards GO:0042742 ! defense response to bacterium
+
+[Term]
+id: MP:0001850 ! increased susceptibility to otitis media
+intersection_of: PATO:0001152 ! susceptible toward
+intersection_of: towards MPATH:212 ! inflammation
+intersection_of: inheres_in MA:0000253 ! middle ear
 
 [Term]
 id: MP:0002412 ! increased susceptibility to bacterial infection
@@ -20888,7 +20892,7 @@ intersection_of: inheres_in MA:0000356 ! gall bladder
 [Term]
 id: MP:0005087 ! decreased acute inflammation
 intersection_of: PATO:0000911 ! decreased rate
-intersection_of: inheres_in GO:0002526 ! accute inflammatory response
+intersection_of: inheres_in MPATH:213 ! acute inflammation
 
 [Term]
 id: MP:0002499 ! chronic inflammation
@@ -20898,9 +20902,8 @@ intersection_of: inheres_in MA:0002405 ! adult mouse
 
 [Term]
 id: MP:0005088 ! increased acute inflammation
-intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: PATO:0000912 ! increased rate
 intersection_of: inheres_in MPATH:213 ! acute inflammation
-intersection_of: inheres_in MA:0002405 ! adult mouse
 
 [Term]
 id: MP:0005091 ! increased double-positive T cell number
