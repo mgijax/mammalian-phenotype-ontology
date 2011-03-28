@@ -21029,6 +21029,19 @@ intersection_of: towards IMR:0100084 ! pituitary hormone
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
+id: MP:0010089 ! abnormal circulating creatine kinase level
+intersection_of: PATO:0000033 ! concentration
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MA:0000059 ! blood
+intersection_of: towards IMR:0002602 ! creatine kinase
+
+[Term]
+id: MP:0010090 ! increased circulating creatine kinase level
+intersection_of: PATO:0001162 ! increased concentration
+intersection_of: inheres_in MA:0000059 ! blood
+intersection_of: towards IMR:0002602 ! creatine kinase
+
+[Term]
 id: MP:0005117 ! increased circulating pituitary hormone level
 intersection_of: PATO:0001162 ! increased concentration
 intersection_of: towards IMR:0100084 ! pituitary hormone
@@ -21046,12 +21059,17 @@ is_anonymous: true
 intersection_of: MA:0000059 ! blood
 intersection_of: contained_in MA:0000064 ! artery
 
-
 [Term]
 id: MP:0005118 ! decreased circulating pituitary hormone level
 intersection_of: PATO:0001163 ! decreased concentration
 intersection_of: towards IMR:0100084 ! pituitary hormone
 intersection_of: inheres_in MA:0000059 ! blood
+
+[Term]
+id: MP:0010091 ! decreased circulating creatine kinase level
+intersection_of: PATO:0001163 ! decreased concentration
+intersection_of: inheres_in MA:0000059 ! blood
+intersection_of: towards IMR:0002602 ! creatine kinase
 
 [Term]
 id: MP:0005119 ! decreased circulating thyroid-stimulating hormone level
