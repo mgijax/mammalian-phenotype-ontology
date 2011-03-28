@@ -9370,6 +9370,11 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0002468 ! dendritic cell antigen processing and presentation
 
 [Term]
+id: MP:0000412 ! Hypertrichosis
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in GO:0042640 ! anagen
+
+[Term]
 id: MP:0002456 ! abnormal Langerhans cell antigen presentation
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -35259,7 +35264,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 [Term]
 id: MP:0005291 ! abnormal glucose tolerance
 intersection_of: PATO:0001046 ! resistance to
-intersection_of: inheres_in CHEBI:17234 ! glucose
+intersection_of: towards GO:0046323 ! glucose import
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
