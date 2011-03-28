@@ -940,6 +940,8 @@ intersection_of: inheres_in_part_of MA:0002719 ! arterial system
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0001863 ! chronic
 
+
+
 [Term]
 id: MP:0000237 ! decreased blood cell number
 intersection_of: PATO:0002001 ! has fewer parts of type
@@ -2553,8 +2555,18 @@ intersection_of: inheres_in MA:0002656 ! ureter luminal urothelium
 
 [Term]
 id: MP:0000536 ! hydroureter
-intersection_of: PATO:0001450 ! edematous
-intersection_of: inheres_in MA:0000378 ! ureter
+intersection_of: PATO:0000595 ! increased volume
+intersection_of: inheres_in  _:urine_in_ureter
+
+[Term]
+id: _:urine_in_ureter
+is_anonymous: true
+intersection_of: MA:0002545 ! urine
+intersection_of: contained_in MA:0000378 ! Ureter
+
+
+increased volume and inheres_in some urine and containted_in some ureter)
+
 
 [Term]
 id: MP:0000537 ! abnormal urethra morphology
@@ -7459,8 +7471,14 @@ intersection_of: inheres_in GO:0007420 ! brain development
 
 [Term]
 id: MP:0001891 ! hydroencephaly
-intersection_of: PATO:0001853 ! hydrocephalic
-intersection_of: inheres_in MA:0002405 ! adult mouse
+intersection_of: PATO:0000595 ! increased volume
+intersection_of: inheres_in _:CSF_in_brain_ventricle
+
+[Term]
+id: _:CSF_in_brain_ventricle
+is_anonymous: true
+intersection_of: MA:0002503 ! cerebrospinal fluid
+intersection_of: contained_in MA:0000818 ! brain ventricle
 
 [Term]
 id: MP:0001895 ! abnormal hippocampus function
@@ -14323,8 +14341,14 @@ intersection_of: inheres_in GO:0060073 ! micturition
 
 [Term]
 id: MP:0003623 ! hydrocele
-intersection_of: PATO:0001450 ! edematous
-intersection_of: inheres_in MA:0000411 ! testis
+intersection_of: PATO:0000595 ! increased volume
+intersection_of: inheres_in _:intrascrotal_fluid
+
+[Term]
+id: _:intrascrotal_fluid
+is_anonymous: true
+intersection_of: MA:0002531 ! peritoneal fluid
+intersection_of: contained_in MA:0000409 ! scrotum
 
 [Term]
 id: MP:0003624 ! anuria
@@ -30758,9 +30782,8 @@ intersection_of: inheres_in MA:0002501 ! plasma
 
 [Term]
 id: MP:0000921 ! demyelination
-intersection_of: PATO:0002000 ! lacks all physical parts of type
+intersection_of: PATO:0002001 ! having decreased physical parts
 intersection_of: towards GO:0043209 ! myelin sheath
-
 
 [Term]
 id: MP:0008958 ! abnormal glycogen cell morphology
@@ -32788,7 +32811,7 @@ intersection_of: inheres_in GO:0030424 ! axon
 
 [Term]
 id: MP:0010049 ! hypomyelination
-intersection_of: PATO:0001997 ! present in fewer numbers in organism
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0042552 ! myelination
 
 [Term]
@@ -32798,7 +32821,7 @@ intersection_of: towards GO:0042552 ! myelination
 
 [Term]
 id: MP:0010051 ! amyelination
-intersection_of: PATO:0002000 ! lacks all physical parts of type
+intersection_of: PATO:0001558 ! lacking processual parts
 intersection_of: towards GO:0042552 ! myelination
 
 [Term]
