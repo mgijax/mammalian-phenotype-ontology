@@ -19625,17 +19625,17 @@ intersection_of: PATO:0002000 ! lacks all parts of type
 intersection_of: towards MA:0000286 ! nasal turbinate
 intersection_of: inheres_in MA:0000281 ! nose
 
-![Term]
-!id: MP:0004875 ! increased mean arterial blood pressure
-!intersection_of: PATO:0001576 ! increased pressure
-!intersection_of: inheres_in_part_of MA:0002031 ! pulmonary artery
-!intersection_of: inheres_in MA:0000059 ! blood
+[Term]
+id: MP:0004875 ! increased mean arterial blood pressure
+intersection_of: PATO:0001576 ! increased pressure
+intersection_of: inheres_in_part_of MA:0002031 ! pulmonary artery
+intersection_of: inheres_in MA:0000059 ! blood
 
-![Term]
-!id: MP:0004876 ! decreased mean arterial blood pressure
-!intersection_of: PATO:0001575 ! decreased pressure
-!intersection_of: inheres_in_part_of MA:0002031 ! pulmonary artery
-!intersection_of: inheres_in MA:0000059 ! blood
+[Term]
+id: MP:0004876 ! decreased mean arterial blood pressure
+intersection_of: PATO:0001575 ! decreased pressure
+intersection_of: inheres_in_part_of MA:0002031 ! pulmonary artery
+intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0006263 ! decreased diastolic blood pressure
@@ -20184,7 +20184,7 @@ intersection_of: inheres_in MA:0000072 ! heart
 id: MP:0002795 ! dilated cardiomyopathy
 intersection_of: PATO:0000001 ! quality
 intersection_of: has_part MP:0004937 ! dilated heart
-intersection_of: has_part MPATH:615 ! cardiomyopathy
+intersection_of: has_part MP:0005330 ! cardiomyopathy
 
 [Term]
 id: MP:0004938 ! dilated vasculature
@@ -21033,6 +21033,19 @@ id: MP:0005117 ! increased circulating pituitary hormone level
 intersection_of: PATO:0001162 ! increased concentration
 intersection_of: towards IMR:0100084 ! pituitary hormone
 intersection_of: inheres_in MA:0000059 ! blood
+
+[Term]
+id: MP:0003031 ! acidosis
+intersection_of: PATO:0001162 ! increased concentration
+intersection_of: inheres_in _:arterial_blood
+intersection_of: towards ChEBI 24636 ! proton
+
+[Term]
+id: _:arterial_blood
+is_anonymous: true
+intersection_of: MA:0000059 ! blood
+intersection_of: contained_in MA:0000064 ! artery
+
 
 [Term]
 id: MP:0005118 ! decreased circulating pituitary hormone level
