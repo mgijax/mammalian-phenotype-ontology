@@ -7736,13 +7736,12 @@ intersection_of: towards CHEBI:27958 ! cocaine
 
 [Term]
 id: MP:0001999 ! photosensitivity
-intersection_of: PATO:0000927 ! photosensitivity
+intersection_of: PATO:0001698 ! increased photosensitivity
 intersection_of: inheres_in MA:0000261 ! eye
 
 [Term]
 id: MP:0002001 ! blindness
 intersection_of: PATO:0001558 ! lacking processual parts
-intersection_of: inheres_in MA:0002405 ! adult mouse
 intersection_of: towards GO:0007601 ! visual perception
 
 [Term]
@@ -21708,12 +21707,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0000151 ! skin
 
 [Term]
-id: MP:0010300 ! skin tumor
-intersection_of: PATO:0000467 ! present in organism
-intersection_of: develops_from MA:0000151 ! skin
-intersection_of: inheres_in MPATH:218 ! neoplasia
-
-[Term]
 id: MP:0005277 ! abnormal brainstem morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -21827,10 +21820,21 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0000380 ! urinary bladder
 
 [Term]
+id: MP:0005156 ! Hypokinesia
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in GO:0050881 ! musculoskeletal movement
+
+[Term]
 id: MP:0005304 ! cystic bulbourethral gland
 intersection_of: PATO:0002002 ! having extra physical parts
 intersection_of: towards MPATH:62 ! cyst
 intersection_of: inheres_in MA:0000401 ! bulbourethral gland
+
+[Term]
+id: MP:0010300 ! skin tumor
+intersection_of: PATO:0002002 ! having extra physical parts
+intersection_of: inheres_in MA:0000151 ! skin
+intersection_of: towards MPATH:218 ! neoplasia
 
 [Term]
 id: MP:0005305 ! prostate gland anterior lobe hyperplasia
