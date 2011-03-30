@@ -779,6 +779,12 @@ intersection_of: PATO:0002206 ! neonatal
 intersection_of: inheres_in MA:0002405 ! adult mouse
 
 [Term]
+id: MP:0001844 ! autoimmune response
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: inheres_in_part_of MA:0002405 ! adult mouse
+intersection_of: towards MPATH:346 ! autoimmune mediated disease
+
+[Term]
 id: MP:0009642 ! abnormal blood homeostasis
 intersection_of: PATO:0000033 ! concentration
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -1204,23 +1210,23 @@ intersection_of: inheres_in MA:0002545 ! urine
 intersection_of: towards CHEBI:35143 ! hemoglobins
 
 [Term]
-id: MP:0008820 ! abnormal blood uric acid level
+id: MP: 0008820 ! abnormal blood uric acid level
 intersection_of: PATO:0000033 ! concentration of
 intersection_of: towards CHEBI:27226 ! uric acid
-intersection_of: inheres_in MA:0002545 ! urine
+intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008821 ! increased blood uric acid level
 intersection_of: PATO:0001162 ! increased concentration
 intersection_of: towards CHEBI:27226 ! uric acid
-intersection_of: inheres_in MA:0002545 ! urine
+intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008822 ! decreased blood uric acid level
 intersection_of: PATO:0001163 ! decreased concentration
 intersection_of: towards CHEBI:27226 ! uric acid
-intersection_of: inheres_in MA:0002545 ! urine
+intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0000316 ! cellular necrosis
