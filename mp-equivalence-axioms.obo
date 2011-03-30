@@ -3297,7 +3297,7 @@ intersection_of: inheres_in MA:0000072 ! heart
 id: MP:0000645 ! absent adrenergic chromaffin cells
 intersection_of: PATO:0002000 ! lacks all parts of type
 intersection_of: inheres_in MA:0000116 ! adrenal gland
-intersection_of: towards FMA:69322 ! Type II cell of adrenal medulla
+intersection_of: towards CL:0002082 ! Type II cell of adrenal medulla
 
 [Term]
 id: MP:0000647 ! abnormal sebaceous gland morphology
@@ -15461,7 +15461,7 @@ intersection_of: towards MA:0002869 ! presacral vertebra
 id: MP:0003834 ! abnormal adrenergic chromaffin cell morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in FMA:69322 ! Type II cell of adrenal medulla
+intersection_of: inheres_in CL:0002082 ! Type II cell of adrenal medulla
 
 [Term]
 id: MP:0003838 ! abnormal milk ejection
@@ -26457,7 +26457,7 @@ intersection_of: inheres_in MA:0001892 ! adrenal gland zona reticularis
 [Term]
 id: MP:0008298 ! adrenergic chromaffin cell hyperplasia
 intersection_of: PATO:0000644 ! hyperplastic
-intersection_of: inheres_in FMA:69322 ! Type II cell of adrenal medulla
+intersection_of: inheres_in CL:0002082 ! Type II cell of adrenal medulla
 
 [Term]
 id: MP:0008301 ! adrenal medulla hyperplasia
