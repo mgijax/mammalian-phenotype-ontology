@@ -7667,7 +7667,6 @@ intersection_of: inheres_in MA:0000327 ! respiratory system
 [Term]
 id: MP:0001957 ! apnea
 intersection_of: PATO:0001558 ! lacking processual parts
-intersection_of: inheres_in MA:0002405 ! adult mouse
 intersection_of: towards GO:0007585 ! respiratory gaseous exchange
 
 [Term]
@@ -16202,7 +16201,6 @@ intersection_of: inheres_in GO:0031052 ! chromosome breakage
 [Term]
 id: MP:0004033 ! supernumerary teeth
 intersection_of: PATO:0002002 ! having extra physical parts
-intersection_of: inheres_in MA:0000341 ! oral region
 intersection_of: towards MA:0000348 ! tooth
 
 [Term]
@@ -32618,6 +32616,12 @@ id: MP:0004131 ! abnormal embryonic cilium morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in UBERON:0004020! embryonic cilium
 intersection_of: qualifier PATO:0000460 ! abnormal
+
+[Term]
+id: HP:0001561 ! Polyhydramnios
+intersection_of: PATO:0000595 ! increased volume
+intersection_of: inheres_in MA:0002893 ! amniotic fluid
+intersection_of: during GO:0007565 ! female pregnacy
 
 [Term]
 id: MP:0004118 ! abnormal baroreceptor morphology
