@@ -3900,7 +3900,7 @@ intersection_of: has_central_participant _:jejunum_smooth_muscle
 [Term]
 id: MP:0000746 ! weakness
 intersection_of: PATO:0001779 ! decreased strength
-intersection_of: inheres_in MA:0002405 ! adult mouse
+intersection_of: inheres_in_part_of MA:0002405 ! adult mouse
 
 [Term]
 id: MP:0000747 ! muscle weakness
@@ -22392,7 +22392,7 @@ intersection_of: inheres_in GO:0048265 ! sensory perception of pain
 [Term]
 id: MP:0005408 ! hypopigmentation
 intersection_of: PATO:0002251 ! decreased pigmentation
-intersection_of: inheres_in MA:0002405 ! adult mouse
+intersection_of: inheres_in_part_of MA:0002405 ! adult mouse
 
 [Term]
 id: MP:0005409 ! darkened coat color
