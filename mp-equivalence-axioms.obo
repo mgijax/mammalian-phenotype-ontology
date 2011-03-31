@@ -558,7 +558,7 @@ intersection_of: inheres_in MA:0000350 ! molar
 [Term]
 id: MP:0000128 ! growth retardation of molars
 intersection_of: PATO:0000911 ! decreased rate
-intersection_of: towards _:molar_odontogenesis
+intersection_of: inheres_in _:molar_odontogenesis
 
 [Term]
 id: _:molar_odontogenesis
