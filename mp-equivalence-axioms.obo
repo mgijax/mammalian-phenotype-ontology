@@ -921,12 +921,6 @@ intersection_of: inheres_in GO:0002574 ! thrombocyte differentiation
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
-id: MP:0001388 ! abnormal stationary movement
-intersection_of: PATO:0000001 ! quality
-intersection_of: inheres_in GO:0050882 ! voluntary musculoskeletal movement
-intersection_of: qualifier PATO:0000460 ! abnormal
-
-[Term]
 id: MP:0000229 ! abnormal megakaryocyte differentiation
 intersection_of: PATO:0000001 ! quality
 intersection_of: inheres_in GO:0030219 ! megakaryocyte differentiation
@@ -1103,6 +1097,13 @@ id: MP:0000281 ! abnormal ventricular septum morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0000085 ! ventricular septum
+
+! merge ?
+[Term]
+id: MP:0008823 ! abnormal ventricular membranous septum morphology
+intersection_of: PATO:0000051 ! morphology
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MA:0000085 ! interventricular septum membranous part
 
 [Term]
 id: MP:0008823 ! abnormal ventricular membranous septum morphology
@@ -1606,6 +1607,12 @@ intersection_of: towards MPATH:212 ! inflammation
 intersection_of: inheres_in MA:0000164 ! myocardium
 
 [Term]
+id: MP:0000293 ! absent myocardial trabeculae
+intersection_of: PATO:0002000 ! lacks all parts of type
+intersection_of: towards UBERON:0000440 ! trabecula
+intersection_of: inheres_in MA:0000164 ! myocardium
+
+[Term]
 id: MP:0001857 ! pericarditis
 intersection_of: PATO:0001561 ! having extra processual parts
 intersection_of: towards MPATH:212 ! inflammation
@@ -1681,11 +1688,6 @@ id: MP:0000388 ! absent inner root sheath
 intersection_of: PATO:0002000 ! lacks all parts of type
 intersection_of: inheres_in MA:0000154 ! hair follicle
 intersection_of: towards MA:0000779 ! hair inner root sheath
-
-[Term]
-id: MP:0000293 ! absent myocardial trabeculae
-intersection_of: PATO:0002000 ! lacks all parts of type
-intersection_of: towards MA:0002831 ! trabecula carnea cardiac muscle tissue
 
 [Term]
 id: MP:0000389 ! disorganized outer root sheath cells
@@ -1895,8 +1897,8 @@ intersection_of: inheres_in _:cranium_or_face
 [Term]
 id: MP:0002189 ! abnormal myocardial trabeculae morphology
 intersection_of: PATO:0000051 ! morphology
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0002831 ! trabecula carnea cardiac muscle tissue
+intersection_of: inheres_in_part_of UBERON:0000440 ! trabecula
+intersection_of: inheres_in MA:0000164 ! myocardium
 
 [Term]
 id: MP:0000430 ! absent maxillary shelf
@@ -2060,7 +2062,7 @@ intersection_of: inheres_in MA:0001491 ! maxilla
 [Term]
 id: MP:0009460 ! skeletal muscle hypoplasia
 intersection_of: PATO:0000645 ! hypoplastic
-intersection_of: inheres_in MA:0000015 ! muscle organ
+intersection_of: inheres_in MA:0002439 ! skeletal muscle tissue
 
 [Term]
 id: MP:0009896 ! palatine shelf hypoplasia
@@ -6451,12 +6453,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0050882 ! voluntary musculoskeletal movement
 intersection_of: has_central_participant MA:0000008 ! tail
 
-[Term]
-id: MP:0003491 ! abnormal voluntary movement
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0050882 ! voluntary musculoskeletal movement
-
 ![Term]
 !id: MP:0010323 ! walking backwards
 !intersection_of: PATO:0001901 ! back
@@ -7005,6 +7001,7 @@ intersection_of: PATO:0001162 ! increased concentration
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: towards IMR:0100195 ! corticotropin
 
+! merge with MP:0002790
 [Term]
 id: MP:0001749 ! suppressed circulating follicle stimulating hormone level
 intersection_of: PATO:0001163 ! decreased concentration
@@ -9370,11 +9367,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0002468 ! dendritic cell antigen processing and presentation
 
 [Term]
-id: MP:0000412 ! Hypertrichosis
-intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in GO:0042640 ! anagen
-
-[Term]
 id: MP:0002456 ! abnormal Langerhans cell antigen presentation
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -9736,24 +9728,6 @@ intersection_of: inheres_in CL:0000232 ! erythrocyte
 [Term]
 id: MP:0010128 ! hypovolemia
 intersection_of: PATO:0000596 ! decreased volume
-intersection_of: inheres_in MA:0000059 ! blood
-
-[Term]
-id: MP:0002490 ! abnormal immunoglobulin level
-intersection_of: PATO:0000033 ! concentration
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: towards IMR:0002090 ! immunoglobulin
-intersection_of: inheres_in MA:0000059 ! blood
-
-[Term]
-id: MP:0002460 ! decreased immunoglobulin level
-intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards IMR:0002090 ! immunoglobulin
-intersection_of: inheres_in MA:0000059 ! blood
-
-[Term]
-id: MP:0002461 ! increased immunoglobulin level
-intersection_of: PATO:0001162 ! increased concentration
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
@@ -12024,7 +11998,13 @@ intersection_of: inheres_in MA:0001857 ! trachea cartilage
 id: MP:0003126 ! abnormal external female genitalia morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000395 ! vulva
+intersection_of: inheres_in UBERON:0005056 ! external female genitalia
+
+[Term]
+id: MP:0009208 ! abnormal female genitalia morphology
+intersection_of: PATO:0000001 ! quality
+intersection_of: has_part MP:0009209 ! abnormal internal female genitalia morphology
+intersection_of: has_part MP:0003126 ! abnormal external female genitalia morphology
 
 [Term]
 id: MP:0003127 ! abnormal clitoris morphology
@@ -13095,7 +13075,7 @@ intersection_of: inheres_in GO:0042698 ! menstrual cycle
 [Term]
 id: MP:0003376 ! amenorrhea
 intersection_of: PATO:0001558 ! lacking processual parts
-intersection_of: towards GO:0042698 ! menstrual cycle
+intersection_of: towards GO:0042703 ! menstruation
 
 [Term]
 id: MP:0003377 ! late onset of menarche
@@ -14277,12 +14257,6 @@ id: MP:0008052 ! abnormal serous gland morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in UBERON:0000409 ! serous gland
 intersection_of: qualifier PATO:0000460 ! abnormal
-
-[Term]
-id: MP:0002445 ! abnormal mononuclear leukocyte differentiation
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0002521 ! leukocyte differentiation
 
 [Term]
 id: MP:0003604 ! single kidney
@@ -18331,13 +18305,6 @@ id: MP:0004593 ! long mandible
 intersection_of: PATO:0000573 ! increased length
 intersection_of: inheres_in MA:0001487 ! mandible
 
-! This should be merged with MP:0009730
-[Term]
-id: MP:0004599 ! abnormal vertebral arch morphology
-intersection_of: PATO:0000051 ! morphology
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0001453 ! vertebra dorsal arch
-
 [Term]
 id: MP:0008023 ! abnormal styloid process morphology
 intersection_of: PATO:0000051 ! morphology
@@ -19648,23 +19615,24 @@ intersection_of: towards MA:0000286 ! nasal turbinate
 intersection_of: inheres_in MA:0000281 ! nose
 
 [Term]
-id: MP:0004875 ! increased mean arterial blood pressure
-intersection_of: PATO:0001576 ! increased pressure
-intersection_of: inheres_in_part_of MA:0002031 ! pulmonary artery
-intersection_of: inheres_in MA:0000059 ! blood
-
-[Term]
-id: MP:0004876 ! decreased mean arterial blood pressure
-intersection_of: PATO:0001575 ! decreased pressure
-intersection_of: inheres_in_part_of MA:0002031 ! pulmonary artery
-intersection_of: inheres_in MA:0000059 ! blood
-
-[Term]
 id: MP:0006263 ! decreased diastolic blood pressure
 intersection_of: PATO:0001575 ! decreased pressure
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: inheres_in_part_of MA:0000064 ! artery
 intersection_of: after GO:0060048 ! cardiac muscle contraction
+
+[Term]
+id: MP:0004875 ! increased mean arterial blood pressure
+intersection_of: PATO:0001576 ! increased pressure
+intersection_of: inheres_in_part_of MA:0000064 ! artery
+intersection_of: inheres_in MA:0000059 ! blood
+
+[Term]
+id: MP:0004876 ! decreased mean arterial blood pressure
+intersection_of: PATO:0001575 ! decreased pressure
+intersection_of: inheres_in_part_of MA:0000064 ! artery
+intersection_of: inheres_in MA:0000059 ! blood
+
 
 [Term]
 id: MP:0006111 ! abnormal coronary circulation
@@ -20115,6 +20083,13 @@ intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in MA:0001453 ! vertebra neural arch
 intersection_of: qualifier PATO:0000460 ! abnormal
 
+! This should be merged with MP:0009730
+[Term]
+id: MP:0004599 ! abnormal vertebral arch morphology
+intersection_of: PATO:0000051 ! morphology
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MA:0001453 ! vertebra neural arch
+
 [Term]
 id: MP:0009734 ! abnormal prostate gland duct morphology
 intersection_of: PATO:0000051 ! morphology
@@ -20207,6 +20182,13 @@ id: MP:0002795 ! dilated cardiomyopathy
 intersection_of: PATO:0000001 ! quality
 intersection_of: has_part MP:0004937 ! dilated heart
 intersection_of: has_part MP:0005330 ! cardiomyopathy
+
+[Term]
+id: MP:0002445 ! abnormal mononuclear leukocyte differentiation
+intersection_of: PATO:0000001 ! quality
+intersection_of: has_part MP:0002401 ! lymphopoiesis
+intersection_of: has_part MP:0008113 ! abnormal macrophage differentiation
+intersection_of: has_part MP:0008112 abnormal monocyte differentiation
 
 [Term]
 id: MP:0004938 ! dilated vasculature
@@ -23022,7 +23004,7 @@ intersection_of: inheres_in MA:0002482 ! orbit
 [Term]
 id: MP:0009275 ! bruising
 intersection_of: PATO:0002002 ! having extra physical parts
-intersection_of: towards MPATH:121 ! Bruise
+intersection_of: towards MPATH:120 ! Ecchymosis
 
 [Term]
 id: MP:0005553 ! increased circulating creatinine level
@@ -26966,13 +26948,6 @@ intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in CL:0000748 ! retinal bipolar neuron
 
-! I need to request retinal neuronal layer
-![Term]
-!id: MP:0006069 ! abnormal retinal neuronal layer morphology
-!intersection_of: PATO:0000051 ! morphology
-!intersection_of: qualifier PATO:0000460 ! abnormal
-!intersection_of: inheres_in MA:0001314 ! retina nerve fiber layer
-
 [Term]
 id: MP:0005495 ! abnormal macrophage recruitment
 intersection_of: PATO:0000001 ! quality
@@ -27158,7 +27133,8 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0004167 ! abnormal cingulate gyrus morphology
-intersection_of: inheres_in GO:0021765 ! cingulate gyrus development
+intersection_of: PATO:0000051 ! morphology
+intersection_of: inheres_in UBERON:0002967 ! cingulate gyrus
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -28084,12 +28060,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 id: MP:0008914 ! enlarged cerebellum
 intersection_of: PATO:0000586 ! increased size
 intersection_of: inheres_in MA:0000198 ! cerebellum
-
-! term should be merged with MP:0010579
-[Term]
-id: MP:0008774 ! enlarged heart left ventricle
-intersection_of: PATO:0000586 ! increased size
-intersection_of: inheres_in MA:0000092 ! heart left ventricle
 
 [Term]
 id: MP:0008921 ! increased neurotransmitter release
@@ -29876,12 +29846,6 @@ intersection_of: inheres_in MA:0000059 ! blood
 id: MP:0009211 ! absent external female genitalia
 intersection_of: PATO:0002000 ! lacks all parts of type
 intersection_of: towards MA:0000395 ! vulva
-
-[Term]
-id: MP:0009208 ! abnormal female genitalia morphology
-intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in MA:0000381 ! female reproductive system
-intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0009222 ! uterus tumor
@@ -34734,11 +34698,10 @@ intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in MA:0000263 ! choroid
 intersection_of: qualifier PATO:0000460 ! abnormal
 
-! TODO - check
 [Term]
 id: MP:0006069 ! abnormal retinal neuronal layer morphology
 intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in UBERON:0001781 ! layer of retina
+intersection_of: inheres_in UBERON:0003902 ! retinal neural layer
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -35420,6 +35383,21 @@ id: MP:0009418 ! cardiac muscle atrophy
 intersection_of: PATO:0001623 ! atrophied
 intersection_of: inheres_in UBERON:0001133 ! cardiac muscle tissue
 
+! BEHAVIOUR
+
+[Term]
+id: MP:0001388 ! abnormal stationary movement
+intersection_of: PATO:0000001 ! quality
+intersection_of: inheres_in GO:0050882 ! voluntary musculoskeletal movement
+intersection_of: qualifier PATO:0000460 ! abnormal
+
+[Term]
+id: MP:0003491 ! abnormal voluntary movement
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in GO:0050882 ! voluntary musculoskeletal movement
+
+
 [Term]
 id: _:lens_epithelium_apoptosis
 intersection_of: GO:0006915 ! apoptosis
@@ -35445,12 +35423,6 @@ intersection_of: has_central_participant CL:0000601 ! outer hair cell
 id: _:erythrocyte_cytolysis
 intersection_of: GO:0019835 ! cytolysis
 intersection_of: has_central_participant CL:0000232 ! erythrocyte
-
-[Term]
-id: _:cranium_or_face
-is_anonymous: true
-union_of: MA:0000316 ! cranium
-union_of: MA:0002473 ! face
 
 [Term]
 id: _:single_positive_T_cell
