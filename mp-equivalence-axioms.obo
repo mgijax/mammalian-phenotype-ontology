@@ -1098,18 +1098,11 @@ intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0000085 ! ventricular septum
 
-! merge ?
 [Term]
 id: MP:0008823 ! abnormal ventricular membranous septum morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000085 ! interventricular septum membranous part
-
-[Term]
-id: MP:0008823 ! abnormal ventricular membranous septum morphology
-intersection_of: PATO:0000051 ! morphology
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000085 ! interventricular septum membranous part
+intersection_of: inheres_in MA:0002939 ! interventricular septum membranous part
 
 [Term]
 id: MP:0000282 ! abnormal atrial septum morphology
@@ -20077,13 +20070,6 @@ intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in UBERON:0004065 ! primordial meninx
 intersection_of: qualifier PATO:0000460 ! abnormal
 
-[Term]
-id: MP:0009730 ! abnormal neural arch morphology
-intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in MA:0001453 ! vertebra neural arch
-intersection_of: qualifier PATO:0000460 ! abnormal
-
-! This should be merged with MP:0009730
 [Term]
 id: MP:0004599 ! abnormal vertebral arch morphology
 intersection_of: PATO:0000051 ! morphology
