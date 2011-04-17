@@ -146,8 +146,8 @@ intersection_of: inheres_in MA:0000258 ! outer ear
 [Term]
 id: MP:0000025 ! otic hypertelorism
 intersection_of: PATO:0000374 ! increased distance
-intersection_of: inheres_in MA:0000258 ! outer ear
-intersection_of: towards MA:0000258 ! outer ear
+intersection_of: inheres_in UBERON:0006617 ! left external ear
+intersection_of: towards UBERON:0006616 ! right external ear
 
 [Term]
 id: MP:0000023 ! abnormal ear distance/ position
@@ -5574,6 +5574,7 @@ id: MP:0001202 ! skin photosensitivity
 intersection_of: PATO:0000927 ! photosensitivity
 intersection_of: inheres_in MA:0000151 ! skin
 
+! todo - make this more like existing radiation terms
 [Term]
 id: MP:0001203 ! increased sensitivity to skin irradiation
 intersection_of: PATO:0001808 ! increased sensitivity to irradiation
@@ -7748,9 +7749,9 @@ intersection_of: towards MPATH:218 ! neoplasia
 
 [Term]
 id: MP:0002007 ! increased cellular sensitivity to gamma-irradiation
-intersection_of: PATO:0001549 ! increased sensitivity
-intersection_of: inheres_in GO:0005623 ! cell
-intersection_of: towards GO:0010332 ! response to gamma radiation
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in GO:0008219 ! cell death
+intersection_of: results_from GO:0071480 ! cellular response to gamma radiation
 
 [Term]
 id: MP:0002012 ! trichofolliculoma
@@ -11085,9 +11086,9 @@ intersection_of: inheres_in CL:0000148 ! melanocyte
 
 [Term]
 id: MP:0002879 ! increased cellular sensitivity to X-ray irradiation
-intersection_of: PATO:0001549 ! increased sensitivity
-intersection_of: inheres_in GO:0005623 ! cell
-intersection_of: towards GO:0010165 ! response to X-ray
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in GO:0008219 ! cell death
+intersection_of: results_from GO:0071480 ! cellular response to gamma radiation
 
 [Term]
 id: MP:0002881 ! long hair
@@ -12371,9 +12372,9 @@ intersection_of: inheres_in MA:0000411 ! testis
 
 [Term]
 id: MP:0003207 ! decreased cellular sensitivity to gamma-irradiation
-intersection_of: PATO:0001550 ! decreased sensitivity
-intersection_of: inheres_in GO:0005623 ! cell
-intersection_of: towards GO:0010332 ! response to gamma radiation
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in GO:0008219 ! cell death
+intersection_of: results_from GO:0071480 ! cellular response to gamma radiation
 
 [Term]
 id: MP:0003221 ! abnormal cardiomyocyte apoptosis
@@ -16838,15 +16839,15 @@ intersection_of: exists_during GO:0007138 ! meiotic anaphase II
 
 [Term]
 id: MP:0004227 ! increased cellular sensitivity to ionizing radiation
-intersection_of: PATO:0001549 ! increased sensitivity
-intersection_of: inheres_in GO:0005623 ! cell
-intersection_of: towards GO:0010212 ! response to ionizing radiation
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in GO:0008219 ! cell death
+intersection_of: results_from GO:0071479 ! cellular response to ionizing radiation
 
 [Term]
 id: MP:0004228 ! decreased cellular sensitivity to ionizing radiation
-intersection_of: PATO:0001550 ! decreased sensitivity
-intersection_of: inheres_in GO:0005623 ! cell
-intersection_of: towards GO:0010212 ! response to ionizing radiation
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in GO:0008219 ! cell death
+intersection_of: results_from GO:0071479 ! cellular response to ionizing radiation
 
 [Term]
 id: MP:0004229 ! abnormal embryonic erythropoiesis
@@ -18261,9 +18262,9 @@ intersection_of: inheres_in CL:1000191 ! Pillar cell
 
 [Term]
 id: MP:0004587 ! decreased cellular sensitivity to X-ray irradiation
-intersection_of: PATO:0001550 ! decreased sensitivity
-intersection_of: inheres_in GO:0005623 ! cell
-intersection_of: towards GO:0010165 ! response to X-ray
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in GO:0008219 ! cell death
+intersection_of: results_from MP:0002879 ! increased cellular sensitivity to X-ray irradiation
 
 [Term]
 id: MP:0004588 ! abnormal vestibular hair cell development
@@ -20174,7 +20175,7 @@ id: MP:0002445 ! abnormal mononuclear leukocyte differentiation
 intersection_of: PATO:0000001 ! quality
 intersection_of: has_part MP:0002401 ! lymphopoiesis
 intersection_of: has_part MP:0008113 ! abnormal macrophage differentiation
-intersection_of: has_part MP:0008112 abnormal monocyte differentiation
+intersection_of: has_part MP:0008112 ! abnormal monocyte differentiation
 
 [Term]
 id: MP:0004938 ! dilated vasculature
@@ -35468,6 +35469,15 @@ xref: RO:0002201
 id: bearer_of
 name: bearer of
 xref: BFO:0000053
+
+[Typedef]
+id: results_in
+name: results in
+
+[Typedef]
+id: results_from
+name: results from
+
 
 [Typedef]
 id: has_participant
