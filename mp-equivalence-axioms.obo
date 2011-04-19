@@ -146,8 +146,8 @@ intersection_of: inheres_in MA:0000258 ! outer ear
 [Term]
 id: MP:0000025 ! otic hypertelorism
 intersection_of: PATO:0000374 ! increased distance
-intersection_of: inheres_in UBERON:0006617 ! left external ear
-intersection_of: towards UBERON:0006616 ! right external ear
+intersection_of: inheres_in MA:0000258 ! outer ear
+intersection_of: towards MA:0000258 ! outer ear
 
 [Term]
 id: MP:0000023 ! abnormal ear distance/ position
@@ -5574,7 +5574,6 @@ id: MP:0001202 ! skin photosensitivity
 intersection_of: PATO:0000927 ! photosensitivity
 intersection_of: inheres_in MA:0000151 ! skin
 
-! todo - make this more like existing radiation terms
 [Term]
 id: MP:0001203 ! increased sensitivity to skin irradiation
 intersection_of: PATO:0001808 ! increased sensitivity to irradiation
@@ -6185,31 +6184,6 @@ intersection_of: PATO:0000470 ! increased
 intersection_of: results_in_directed_movement_of GO:0005764 ! lysosome
 intersection_of: inheres_in GO:0046903 ! secretion
 
-![Term]
-!id: MP:0001360 ! abnormal social investigation
-!intersection_of: PATO:0000001 ! quality
-!intersection_of: qualifier PATO:0000460 ! abnormal
-!intersection_of: inheres_in GO:0035176 ! social behavior
-
-[Term]
-id: MP:0001375 ! abnormal mating preference
-intersection_of: PATO:0000773 ! preference
-intersection_of: inheres_in MA:0002405 ! adult mouse
-intersection_of: towards GO:0007618 ! mating
-intersection_of: qualifier PATO:0000460 ! abnormal
-
-[Term]
-id: MP:0001376 ! abnormal mating receptivity
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in PATO:0001720 ! female receptivity
-
-[Term]
-id: MP:0001377 ! abnormal mating frequency
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0007620 ! copulation
-
 [Term]
 id: MP:0001378 ! abnormal ejaculation
 intersection_of: PATO:0000001 ! quality
@@ -6227,163 +6201,16 @@ id: MP:0001380 ! reduced male mating frequency
 intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0007620 ! copulation
 
-! def may not be specific enough need behavior
-![Term]
-!id: MP:0001386 ! abnormal maternal nurturing
-!intersection_of: PATO:0000001 ! quality
-!intersection_of: qualifier PATO:0000460 ! abnormal
-!intersection_of: inheres_in GO:0042711 ! maternal behavior
-
-[Term]
-id: MP:0001389 ! abnormal eye movement
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0007634 ! righting reflex
-
-[Term]
-id: MP:0001392 ! abnormal locomotor activity
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0040011 ! locomotion
-
-[Term]
-id: MP:0001393 ! ataxia
-intersection_of: PATO:0000770 ! uncoordinated
-intersection_of: inheres_in GO:0050881 ! musculoskeletal movement
-
-[Term]
-id: MP:0001399 ! hyperactivity
-intersection_of: PATO:0000760 ! hyperactive
-intersection_of: inheres_in MA:0002405 ! adult mouse
-
-[Term]
-id: MP:0001402 ! hypoactivity
-intersection_of: PATO:0000761 ! hypoactive
-intersection_of: inheres_in MA:0002405 ! adult mouse
-
 [Term]
 id: MP:0001400 ! hyperresponsive
 intersection_of: PATO:0001192 ! hyperresponsive to
 intersection_of: inheres_in GO:0007600 ! sensory perception
 
 [Term]
-id: MP:0001405 ! impaired coordination
-intersection_of: PATO:0001860 ! decreased coordination
-intersection_of: inheres_in GO:0050881 ! musculoskeletal movement
-
-[Term]
-id: MP:0001422 ! abnormal drinking behavior
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0042756 ! drinking behavior
-
-[Term]
-id: MP:0001424 ! abnormal water consumption
-intersection_of: PATO:0000187 ! consumption
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0002405 ! adult mouse
-intersection_of: towards CHEBI:15377 ! water
-
-[Term]
-id: MP:0001425 ! abnormal alcohol consumption
-intersection_of: PATO:0000187 ! consumption
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0002405 ! adult mouse
-intersection_of: towards CHEBI:30879 ! alcohol
-
-[Term]
-id: MP:0001431 ! abnormal eating behavior
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0042755 ! eating behavior
-
-[Term]
-id: MP:0001432 ! abnormal food preference
-intersection_of: PATO:0000773 ! preference
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0002405 ! adult mouse
-intersection_of: towards CHEBI:33290 ! food
-
-[Term]
-id: MP:0001433 ! polyphagia
-intersection_of: PATO:0000912 ! increased rate
-intersection_of: qualifier PATO:0000396 ! severe
-intersection_of: inheres_in GO:0042755 ! eating behavior
-
-[Term]
-id: MP:0001436 ! abnormal suckling behavior
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0001967 ! suckling behavior
-
-[Term]
-id: MP:0001438 ! aphagia
-intersection_of: PATO:0001558 ! lacking processual parts
-intersection_of: towards GO:0042755 ! eating behavior
-
-[Term]
-id: MP:0001440 ! abnormal grooming behavior
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0007625 ! grooming behavior
-
-[Term]
-id: MP:0001441 ! increased grooming behavior
-intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in GO:0007625 ! grooming behavior
-
-[Term]
-id: MP:0001442 ! decreased grooming behavior
-intersection_of: PATO:0000911 ! decreased rate
-intersection_of: inheres_in GO:0007625 ! grooming behavior
-
-[Term]
-id: MP:0001449 ! abnormal learning/ memory
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0007611 ! learning and/or memory
-
-[Term]
-id: MP:0001460 ! abnormal olfactory -discrimination memory
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0008355 ! memory
-
-[Term]
-id: MP:0001463 ! abnormal spatial learning
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0008542 ! visual learning
-
-[Term]
 id: MP:0001491 ! unresponsive to tactile stimuli
 intersection_of: PATO:0001558 ! lacking processual parts
 intersection_of: inheres_in MA:0002405 ! adult mouse
 intersection_of: towards GO:0050976 ! GO:0050975 ! sensory perception of touch
-
-!should this be in pato?
-![Term]
-!id: MP:0001501 ! abnormal sleep pattern
-!intersection_of: PATO:0000062 ! sleep pattern
-!intersection_of: qualifier PATO:0000460 ! abnormal
-
-[Term]
-id: MP:0001502 ! abnormal circadian rhythm
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0007623 ! circadian rhythm
-
-[Term]
-id: MP:0008819 ! abnormal mastication
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0071626 ! mastication
-
-[Term]
-id: MP:0001529 ! abnormal vocalization
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0071625 ! vocalization behavior
 
 [Term]
 id: MP:0001531 ! Decreased Vocalization
@@ -6417,16 +6244,6 @@ id: MP:0001516 ! abnormal motor coordination/ balance
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0050885 ! neuromuscular process controlling balance
-
-[Term]
-id: MP:0001523 ! impaired righting response
-intersection_of: PATO:0002018 ! decreased magnitude
-intersection_of: inheres_in GO:0007634 ! righting reflex
-
-[Term]
-id: MP:0001525 ! impaired balance
-intersection_of: PATO:0002018 ! decreased magnitude
-intersection_of: inheres_in GO:0050885 ! regulation of balance
 
 [Term]
 id: MP:0001533 ! abnormal skeleton physiology
@@ -6664,11 +6481,6 @@ intersection_of: PATO:0002018 ! decreased magnitude
 intersection_of: inheres_in GO:0030099 ! myeloid cell differentiation
 
 [Term]
-id: MP:0001428 ! adipsia
-intersection_of: PATO:0001558 ! lacking processual parts
-intersection_of: towards GO:0042756 ! drinking behavior
-
-[Term]
 id: MP:0001603 ! failure of myelopoiesis
 intersection_of: PATO:0001558 ! lacking processual parts
 intersection_of: towards GO:0030099 ! myeloid cell differentiation
@@ -6728,25 +6540,6 @@ id: MP:0001648 ! abnormal apoptosis
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0006915 ! apoptosis
-
-! We need temporal patterns
-![Term]
-!id: MP:0005111 ! hyperdipsia
-!intersection_of: PATO:0000912 ! increased rate
-!intersection_of: inheres_in GO:0042756 ! drinking behavior
-
-[Term]
-id: MP:0002119 ! dipsosis
-intersection_of: PATO:0000912 ! increased rate
-intersection_of: qualifier PATO:0001863 ! chronic
-intersection_of: inheres_in GO:0042756 ! drinking behavior
-intersection_of: qualifier PATO:0001869 ! pathological
-
-[Term]
-id: MP:0001426 ! polydipsia
-intersection_of: PATO:0000912 ! increased rate
-intersection_of: qualifier PATO:0001863 ! chronic
-intersection_of: inheres_in GO:0042756 ! drinking behavior
 
 [Term]
 id: MP:0001652 ! colonic necrosis
@@ -7663,12 +7456,6 @@ intersection_of: PATO:0001558 ! lacking processual parts
 intersection_of: towards GO:0007585 ! respiratory gaseous exchange
 
 [Term]
-id: MP:0001961 ! abnormal reflex
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0060004 ! reflex
-
-[Term]
 id: MP:0001963 ! abnormal hearing physiology
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -7715,12 +7502,6 @@ intersection_of: inheres_in MA:0002405 ! adult mouse
 intersection_of: towards GO:0050909 ! sensory perception of taste
 
 [Term]
-id: MP:0001987 ! alcohol preference
-intersection_of: PATO:0000773 ! preference
-intersection_of: inheres_in MA:0002405 ! adult mouse
-intersection_of: towards CHEBI:30879 ! alcohol
-
-[Term]
 id: MP:0001988 ! cocaine preference
 intersection_of: PATO:0000773 ! preference
 intersection_of: inheres_in MA:0002405 ! adult mouse
@@ -7749,9 +7530,9 @@ intersection_of: towards MPATH:218 ! neoplasia
 
 [Term]
 id: MP:0002007 ! increased cellular sensitivity to gamma-irradiation
-intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in GO:0008219 ! cell death
-intersection_of: results_from GO:0071480 ! cellular response to gamma radiation
+intersection_of: PATO:0001549 ! increased sensitivity
+intersection_of: inheres_in GO:0005623 ! cell
+intersection_of: towards GO:0010332 ! response to gamma radiation
 
 [Term]
 id: MP:0002012 ! trichofolliculoma
@@ -7773,6 +7554,12 @@ id: MP:0002016 ! ovary cysts
 intersection_of: PATO:0002002 ! having extra physical parts
 intersection_of: towards MPATH:62 ! cyst
 intersection_of: inheres_in MA:0000384 ! ovary
+
+[Term]
+id: MP:0002050 ! pheochromocytoma
+intersection_of: PATO:0002002 ! having extra physical parts
+intersection_of: towards MPATH:62 ! cyst
+intersection_of: inheres_in MPATH:377 ! pheochromocytoma
 
 [Term]
 id: MP:0002019 ! abnormal tumor incidence
@@ -7904,22 +7691,10 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0000151 ! skin
 
 [Term]
-id: MP:0002062 ! abnormal conditioning behavior
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0008306 ! associative learning
-
-[Term]
 id: MP:0002068 ! abnormal parental behavior
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0042712 ! paternal behavior
-
-[Term]
-id: MP:0002069 ! abnormal eating/drinking behavior
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0007631 ! feeding behavior
 
 [Term]
 id: MP:0002073 ! abnormal hair growth
@@ -9636,57 +9411,6 @@ intersection_of: inheres_in MA:0002405 ! adult mouse
 intersection_of: towards CHEBI:27958 ! cocaine
 
 [Term]
-id: MP:0002557 ! abnormal social/conspecific interaction
-intersection_of: PATO:0000001 ! quality
-intersection_of: inheres_in GO:0035176 ! social behavior
-intersection_of: qualifier PATO:0000460 ! abnormal
-
-[Term]
-id: MP:0002558 ! abnormal circadian period
-intersection_of: PATO:0001309 ! period
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0007623 ! circadian rhythm
-
-[Term]
-id: MP:0002559 ! abnormal circadian persistence
-intersection_of: PATO:0000082 ! persistence
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0007623 ! circadian rhythm
-
-[Term]
-id: MP:0002561 ! abnormal circadian phase
-intersection_of: PATO:0000083 ! phase
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0007623 ! circadian rhythm
-
-[Term]
-id: MP:0002563 ! shortened circadian period
-intersection_of: PATO:0000499 ! decreased period
-intersection_of: inheres_in GO:0007623 ! circadian rhythm
-
-[Term]
-id: MP:0002564 ! advanced circadian phase
-intersection_of: PATO:0000500 ! advanced phase
-intersection_of: inheres_in GO:0007623 ! circadian rhythm
-
-[Term]
-id: MP:0002565 ! delayed circadian phase
-intersection_of: PATO:0001542 ! delayed phase
-intersection_of: inheres_in GO:0007623 ! circadian rhythm
-
-[Term]
-id: MP:0002566 ! abnormal sexual interaction
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0007617 ! mating behavior
-
-[Term]
-id: MP:0002570 ! alcohol aversion
-intersection_of: PATO:0000771 ! aversion
-intersection_of: inheres_in MA:0002405 ! adult mouse
-intersection_of: towards CHEBI:30879 ! alcohol
-
-[Term]
 id: MP:0002576 ! abnormal enamel morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -9814,9 +9538,9 @@ intersection_of: inheres_in MA:0000008 ! tail
 [Term]
 id: MP:0002633 ! persistent truncus arteriosis
 intersection_of: PATO:0001558 ! lacking processual parts
-intersection_of: inheres_in GO:0000917 ! barrier septum formation
-intersection_of: has_central_participant MA:0002031 ! pulmonary artery
-intersection_of: has_central_participant MA:0000062 ! aorta
+intersection_of: towards GO:0000917 ! barrier septum formation
+intersection_of: inheres_in MA:0002031 ! pulmonary artery
+intersection_of: inheres_in MA:0000062 ! aorta
 
 [Term]
 id: MP:0002637 ! small uterus
@@ -10857,11 +10581,6 @@ intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0033561 ! regulation of water loss via skin
 
 [Term]
-id: MP:0002797 ! increased thigmotaxis
-intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in GO:0001966 ! thigmotaxis
-
-[Term]
 id: MP:0002800 ! abnormal short term object recognition memory
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -11040,17 +10759,6 @@ intersection_of: inheres_in MA:0001209 ! posterior semicircular canal
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
-id: MP:0002862 ! altered righting response
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0060013 ! optokinetic behavior
-
-[Term]
-id: MP:0002863 ! improved righting response
-intersection_of: PATO:0001589 ! enhanced
-intersection_of: inheres_in GO:0007634 ! righting reflex
-
-[Term]
 id: MP:0002865 ! increased growth rate
 intersection_of: PATO:0000912 ! increased rate
 intersection_of: inheres_in GO:0040007 ! growth
@@ -11086,9 +10794,9 @@ intersection_of: inheres_in CL:0000148 ! melanocyte
 
 [Term]
 id: MP:0002879 ! increased cellular sensitivity to X-ray irradiation
-intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in GO:0008219 ! cell death
-intersection_of: results_from GO:0071480 ! cellular response to gamma radiation
+intersection_of: PATO:0001549 ! increased sensitivity
+intersection_of: inheres_in GO:0005623 ! cell
+intersection_of: towards GO:0010165 ! response to X-ray
 
 [Term]
 id: MP:0002881 ! long hair
@@ -11932,12 +11640,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0000073 ! heart atrium
 
 [Term]
-id: MP:0003106 ! abnormal fear-related response
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0001662 ! behavioral fear response
-
-[Term]
 id: MP:0003108 ! short zygomatic bone
 intersection_of: PATO:0000587 ! decreased size
 intersection_of: inheres_in MA:0001497 ! zygomatic bone
@@ -12136,11 +11838,6 @@ id: MP:0001080 ! defasiculated phrenic nerve
 intersection_of: PATO:0001558 ! lacking processual parts
 intersection_of: inheres_in MA:0001170 ! phrenic nerve
 intersection_of: towards GO:0007413 ! axonal fasciculation
-
-[Term]
-id: MP:0003158 ! dysphagia
-intersection_of: PATO:0001558 ! lacking processual parts
-intersection_of: towards GO:0043050 ! pharyngeal pumping
 
 [Term]
 id: MP:0003159 ! abnormal esophageal smooth muscle morphology
@@ -12372,9 +12069,9 @@ intersection_of: inheres_in MA:0000411 ! testis
 
 [Term]
 id: MP:0003207 ! decreased cellular sensitivity to gamma-irradiation
-intersection_of: PATO:0000911 ! decreased rate
-intersection_of: inheres_in GO:0008219 ! cell death
-intersection_of: results_from GO:0071480 ! cellular response to gamma radiation
+intersection_of: PATO:0001550 ! decreased sensitivity
+intersection_of: inheres_in GO:0005623 ! cell
+intersection_of: towards GO:0010332 ! response to gamma radiation
 
 [Term]
 id: MP:0003221 ! abnormal cardiomyocyte apoptosis
@@ -13446,16 +13143,6 @@ intersection_of: PATO:0002000 ! lacks all parts of type
 intersection_of: inheres_in MA:0002405 ! adult mouse
 intersection_of: towards MA:0000008 ! tail
 
-[Term]
-id: MP:0003459 ! increased fear-related response
-intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in GO:0001662 ! behavioral fear response
-
-[Term]
-id: MP:0003460 ! decreased fear-related response
-intersection_of: PATO:0000911 ! decreased rate
-intersection_of: inheres_in GO:0001662 ! behavioral fear response
-
 !! TODO: request GO response term
 [Term]
 id: MP:0003462 ! abnormal response to novel odor
@@ -13558,12 +13245,6 @@ id: MP:0003490 ! decreased channel response threshold
 intersection_of: PATO:0000077 ! response to
 intersection_of: has_quality PATO:0000708 ! decreased threshold
 intersection_of: inheres_in CL:0000097 ! ion channel
-
-[Term]
-id: MP:0003492 ! abnormal involuntary movement
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0050883 ! musculoskeletal movement, spinal reflex action
 
 [Term]
 id: MP:0003493 ! parathyroid gland hyperplasia
@@ -13767,18 +13448,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0043534 ! blood vessel endothelial cell migration
 
 [Term]
-id: MP:0003545 ! increased alcohol consumption
-intersection_of: PATO:0000767 ! increased consumption
-intersection_of: inheres_in MA:0002405 ! adult mouse
-intersection_of: towards CHEBI:30879 ! alcohol
-
-[Term]
-id: MP:0003546 ! decreased alcohol consumption
-intersection_of: PATO:0000768 ! decreased consumption
-intersection_of: inheres_in MA:0002405 ! adult mouse
-intersection_of: towards CHEBI:30879 ! alcohol
-
-[Term]
 id: MP:0003547 ! abnormal pulmonary pressure
 intersection_of: PATO:0001025 ! pressure
 intersection_of: inheres_in_part_of MA:0002031 ! pulmonary artery
@@ -13791,11 +13460,6 @@ intersection_of: PATO:0001576 ! increased pressure
 intersection_of: qualifier PATO:0000498 ! increased period
 intersection_of: inheres_in_part_of MA:0002031 ! pulmonary artery
 intersection_of: inheres_in MA:0000059 ! blood
-
-[Term]
-id: MP:0002562 ! prolonged circadian period
-intersection_of: PATO:0000498 ! increased period
-intersection_of: inheres_in GO:0007623 ! circadian rhythm
 
 [Term]
 id: MP:0003549 ! pulmonary hypotension
@@ -15486,11 +15150,6 @@ intersection_of: PATO:0001801 ! dehydrated
 intersection_of: inheres_in MA:0000151 ! skin
 
 [Term]
-id: MP:0003858 ! enhanced coordination
-intersection_of: PATO:0001859 ! increased coordination
-intersection_of: inheres_in GO:0050881 ! musculoskeletal movement
-
-[Term]
 id: MP:0003859 ! abnormal Harderian gland physiology
 intersection_of: PATO:0001509 ! functionality
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -15670,26 +15329,6 @@ id: MP:0003907 ! decreased aorta elastin content
 intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards PRO:000007034 ! elastin
 intersection_of: inheres_in MA:0000062 ! aorta
-
-[Term]
-id: MP:0003909 ! increased eating behavior
-intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in GO:0042755 ! eating behavior
-
-[Term]
-id: MP:0003910 ! decreased eating behavior
-intersection_of: PATO:0000911 ! decreased rate
-intersection_of: inheres_in GO:0042755 ! eating behavior
-
-[Term]
-id: MP:0003911 ! increased drinking behavior
-intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in GO:0042756 ! drinking behavior
-
-[Term]
-id: MP:0003912 ! decreased drinking behavior
-intersection_of: PATO:0000911 ! decreased rate
-intersection_of: inheres_in GO:0042756 ! drinking behavior
 
 [Term]
 id: MP:0003913 ! increased heart right ventricle weight
@@ -16839,15 +16478,15 @@ intersection_of: exists_during GO:0007138 ! meiotic anaphase II
 
 [Term]
 id: MP:0004227 ! increased cellular sensitivity to ionizing radiation
-intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in GO:0008219 ! cell death
-intersection_of: results_from GO:0071479 ! cellular response to ionizing radiation
+intersection_of: PATO:0001549 ! increased sensitivity
+intersection_of: inheres_in GO:0005623 ! cell
+intersection_of: towards GO:0010212 ! response to ionizing radiation
 
 [Term]
 id: MP:0004228 ! decreased cellular sensitivity to ionizing radiation
-intersection_of: PATO:0000911 ! decreased rate
-intersection_of: inheres_in GO:0008219 ! cell death
-intersection_of: results_from GO:0071479 ! cellular response to ionizing radiation
+intersection_of: PATO:0001550 ! decreased sensitivity
+intersection_of: inheres_in GO:0005623 ! cell
+intersection_of: towards GO:0010212 ! response to ionizing radiation
 
 [Term]
 id: MP:0004229 ! abnormal embryonic erythropoiesis
@@ -18262,9 +17901,9 @@ intersection_of: inheres_in CL:1000191 ! Pillar cell
 
 [Term]
 id: MP:0004587 ! decreased cellular sensitivity to X-ray irradiation
-intersection_of: PATO:0000911 ! decreased rate
-intersection_of: inheres_in GO:0008219 ! cell death
-intersection_of: results_from MP:0002879 ! increased cellular sensitivity to X-ray irradiation
+intersection_of: PATO:0001550 ! decreased sensitivity
+intersection_of: inheres_in GO:0005623 ! cell
+intersection_of: towards GO:0010165 ! response to X-ray
 
 [Term]
 id: MP:0004588 ! abnormal vestibular hair cell development
@@ -19319,17 +18958,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in CL:0000510 ! Paneth cell
 
 [Term]
-id: MP:0004844 ! abnormal vestibuloocular reflex
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0060005 ! vestibular reflex
-
-[Term]
-id: MP:0004845 ! absent vestibuloocular reflex
-intersection_of: PATO:0001558 ! lacking processual parts
-intersection_of: towards GO:0060005 ! vestibular reflex
-
-[Term]
 id: MP:0004846 ! absent skeletal muscle
 intersection_of: PATO:0002000 ! lacks all parts of type
 intersection_of: towards MA:0002439 ! skeletal muscle tissue
@@ -19859,12 +19487,6 @@ id: MP:0004923 ! absent common crus
 intersection_of: PATO:0002000 ! lacks all parts of type
 intersection_of: inheres_in MA:0000250 ! osseus semicircular canal
 intersection_of: towards MA:0001210 ! crus commune
-
-[Term]
-id: MP:0004924 ! abnormal behavior
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0007610 ! behavior
 
 [Term]
 id: MP:0004926 ! abnormal epididymis size
@@ -22514,13 +22136,6 @@ id: MP:0005447 ! abnormal synaptic norepinephrine release
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0048243 ! norepinephrine secretion
-
-[Term]
-id: MP:0005449 ! abnormal food intake
-intersection_of: PATO:0000187 ! consumption
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0002405 ! adult mouse
-intersection_of: towards CHEBI:33290 ! food
 
 [Term]
 id: MP:0005450 ! abnormal energy expenditure
@@ -29014,16 +28629,6 @@ intersection_of: inheres_in MA:0002839 ! epiphyseal plate
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
-id: MP:0005655 ! increased aggression
-intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in GO:0002118 ! aggressive behavior
-
-[Term]
-id: MP:0005656 ! decreased aggression
-intersection_of: PATO:0000911 ! decreased rate
-intersection_of: inheres_in GO:0002118 ! aggressive behavior
-
-[Term]
 id: MP:0006429 ! abnormal hyaline cartilage morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in MA:0000109 ! hyaline cartilage
@@ -33239,12 +32844,6 @@ intersection_of: inheres_in_part_of UBERON:0003945 ! somatic motor system
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
-id: MP:0001468 ! abnormal temporal memory
-intersection_of: PATO:0000057 ! occurrence quality
-intersection_of: inheres_in GO:0007613 ! memory
-intersection_of: qualifier PATO:0000460 ! abnormal
-
-[Term]
 id: MP:0001676 ! abnormal apical ectodermal ridge
 intersection_of: PATO:0000001 ! quality
 intersection_of: inheres_in_part_of UBERON:0004356 ! apical ectodermal ridge
@@ -35372,17 +34971,7 @@ intersection_of: inheres_in UBERON:0001133 ! cardiac muscle tissue
 
 ! BEHAVIOUR
 
-[Term]
-id: MP:0001388 ! abnormal stationary movement
-intersection_of: PATO:0000001 ! quality
-intersection_of: inheres_in GO:0050882 ! voluntary musculoskeletal movement
-intersection_of: qualifier PATO:0000460 ! abnormal
 
-[Term]
-id: MP:0003491 ! abnormal voluntary movement
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0050882 ! voluntary musculoskeletal movement
 
 
 [Term]
@@ -35469,15 +35058,6 @@ xref: RO:0002201
 id: bearer_of
 name: bearer of
 xref: BFO:0000053
-
-[Typedef]
-id: results_in
-name: results in
-
-[Typedef]
-id: results_from
-name: results from
-
 
 [Typedef]
 id: has_participant
