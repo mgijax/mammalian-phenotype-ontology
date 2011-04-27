@@ -34970,7 +34970,1131 @@ intersection_of: inheres_in UBERON:0001133 ! cardiac muscle tissue
 
 ! BEHAVIOUR
 
+[Term]
+id: MP:0004924 ! abnormal behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000313 ! behavioural physiology
 
+[Term]
+id: MP:0001468 ! abnormal temporal memory
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000180 ! short-term memory
+
+[Term]
+id: MP:0008414 ! abnormal spatial reference memory
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000556 ! spatial memory
+
+[Term]
+id: MP:0008431 ! abnormal short term spatial reference memory
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000557 ! short term spatial memory
+
+[Term]
+id: MP:0008432 ! abnormal long term spatial reference memory
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000599 ! long-term spatial memory
+
+[Term]
+id: MP:0001502 ! abnormal circadian rhythm
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000166 ! circadian rhythm
+
+[Term]
+id: MP:0002822 ! catalepsy
+intersection_of: MBO:0000563 ! catalepsy
+
+[Term]
+id: MP:0002571 ! senility
+intersection_of: MBO:0000572 ! senility
+
+[Term]
+id: MP:0002899 ! fatigue
+intersection_of: MBO:0000569 ! fatigue
+
+[Term]
+id: MP:0001361 ! social withdrawal
+intersection_of: MBO:0000565 ! social withdrawal
+
+[Term]
+id: MP:0002573 ! behavioral despair
+intersection_of: MBO:0000573 ! social withdrawal
+
+[Term]
+id: MP:0002558 ! abnormal circadian period
+intersection_of: PATO:0001309 ! period
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000166 ! circadian rhythm
+
+[Term]
+id: MP:0002562 ! prolonged circadian period
+intersection_of: PATO:0000498 ! increased period
+intersection_of: inheres_in MBO:0000166 ! circadian rhythm
+
+[Term]
+id: MP:0002563 ! shortened circadian period
+intersection_of: PATO:0000499 ! decreased period
+intersection_of: inheres_in MBO:0000166 ! circadian rhythm
+
+[Term]
+id: MP:0002559 ! abnormal circadian persistence
+intersection_of: PATO:0000082 ! persistence
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000166 ! circadian rhythm
+
+[Term]
+id: MP:0002560 ! arrhythmic circadian persistence
+intersection_of: PATO:0000504 ! arrhythmic
+intersection_of: inheres_in MBO:0000166 ! circadian rhythm
+
+[Term]
+id: MP:0002561 ! abnormal circadian phase
+intersection_of: PATO:0000083 ! phase
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000166 ! circadian rhythm
+
+[Term]
+id: MP:0002564 ! advanced circadian phase
+intersection_of: PATO:0000500 ! advanced phase
+intersection_of: inheres_in MBO:0000166 ! circadian rhythm
+
+[Term]
+id: MP:0002565 ! delayed circadian phase
+intersection_of: PATO:0001542 ! delayed phase
+intersection_of: inheres_in MBO:0000166 ! circadian rhythm
+
+[Term]
+id: MP:0011021 ! abnormal circadian regulation of heart rate
+intersection_of: PATO:0000083 ! phase
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000536 ! circadian regulation of heart rate
+
+[Term]
+id: MP:0011022 ! abnormal circadian regulation of systemic arterial blood pressure
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000537 ! circadian regulation of systemic arterial blood pressure
+
+[Term]
+id: MP:0011020 ! abnormal circadian temperature homeostasis
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000538 ! circadian temperature homeostasis
+
+[Term]
+id: MP:0002069 ! abnormal eating/drinking behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000079 ! feeding behavior
+
+[Term]
+id: MP:0001422 ! abnormal drinking behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000064 ! drinking behavior
+
+[Term]
+id: MP:0001425 ! abnormal alcohol consumption
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000131 ! alcohol consumption
+
+[Term]
+id: MP:0002570 ! alcohol aversion
+intersection_of: PATO:0000771 ! aversion
+intersection_of: inheres_in MA:0002405 ! adult mouse
+intersection_of: towards CHEBI:30879 ! alcohol
+
+[Term]
+id: MP:0001987 ! alcohol preference
+intersection_of: PATO:0000773 ! preference
+intersection_of: inheres_in MA:0002405 ! adult mouse
+intersection_of: towards CHEBI:30879 ! alcohol
+
+[Term]
+id: MP:0003546 ! decreased alcohol consumption
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000131 ! alcohol consumption
+
+[Term]
+id: MP:0003545 ! increased alcohol consumption
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000131 ! alcohol consumption
+
+[Term]
+id: MP:0001423 ! abnormal liquid preference
+intersection_of: PATO:0000773 ! preference
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000137 ! liquid preference
+
+[Term]
+id: MP:0002119 ! dipsosis
+intersection_of: MBO:0000541 ! dipsosis
+
+[Term]
+id: MP:0001426 ! polydipsia
+intersection_of: MBO:0000542 ! polydipsia
+
+[Term]
+id: MP:0005111 ! hyperdipsia
+intersection_of: MBO:0000543 ! hyperdipsia
+
+[Term]
+id: MP:0001428 ! adipsia
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards MBO:0000064 ! drinking behavior
+
+[Term]
+id: MP:0003911 ! increased drinking behavior
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000064 ! drinking behavior
+
+[Term]
+id: MP:0003912 ! decreased drinking behavior
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000064 ! drinking behavior
+
+[Term]
+id: MP:0001431 ! abnormal eating behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:000006 ! eating behavior
+
+[Term]
+id: MP:0005449 ! abnormal food intake
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000134 ! food consumption
+
+[Term]
+id: MP:0001438 ! aphagia
+intersection_of: MBO:0000544 ! aphagia
+
+[Term]
+id: MP:0003909 ! increased eating behavior
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000063 ! eating behaviour
+
+[Term]
+id: MP:0003910 ! decreased eating behavior
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000063 ! eating behaviour
+
+[Term]
+id: MP:0003158 ! dysphagia
+intersection_of: PATO:0000762 ! impaired
+intersection_of: towards MBO:0000545 ! swallowing
+
+[Term]
+id: MP:0001433 ! polyphagia
+intersection_of: MBO:0000546 ! polyphagia
+
+[Term]
+id: MP:0001432 ! abnormal food preference
+intersection_of: PATO:0000773 ! preference
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MA:0002405 ! adult mouse
+intersection_of: towards CHEBI:33290 ! food
+
+[Term]
+id: MP:0002850 ! saccharin preference
+intersection_of: PATO:0000773 ! preference
+intersection_of: inheres_in MA:0002405 ! adult mouse
+intersection_of: towards CHEBI:32111 ! saccharin
+
+[Term]
+id: MP:0002849 ! abnormal saccharin consumption
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000136 ! saccharin consumption
+
+[Term]
+id: MP:0008819 ! abnormal mastication
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000073 ! chewing
+
+[Term]
+id: MP:0001436 ! abnormal suckling behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000054 ! suckling behavior
+
+[Term]
+id: MP:0001424 ! abnormal water consumption
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000132 ! water consumption
+
+[Term]
+id: MP:0001435 ! no suckling reflex
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards MBO:0000401 ! sucking reflex
+
+[Term]
+id: MP:0001437 ! no suckling reflex
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards MBO:0000418 ! pharyngeal reflex
+
+[Term]
+id: MP:0002572 ! abnormal emotion/affect behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000003 ! emotional behaviour
+
+[Term]
+id: MP:0002061 ! abnormal aggression-related behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000015 ! aggressive behaviour
+
+[Term]
+id: MP:0005655 ! increased aggression
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000015 ! aggressive behaviour
+
+[Term]
+id: MP:0005656 ! decreased aggression
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000015 ! aggressive behaviour
+
+[Term]
+id: MP:0003863 ! decreased aggression towards mice
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000107 ! aggressive behaviour towards mice
+
+[Term]
+id: MP:0003862 ! decreased aggression towards males
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000110 ! aggressive behaviour towards male mice
+
+[Term]
+id: MP:0001355 ! submission towards male mice
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000125 ! submissive behaviour towards male mice
+
+[Term]
+id: MP:0001358 ! aggression toward inanimate objects
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000112 ! aggressive behavior towards inanimate objects
+
+[Term]
+id: MP:0001353 ! increased aggression towards mice
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000107 ! aggressive behaviour towards mice
+
+[Term]
+id: MP:0001354 ! increased aggression towards males
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000110 ! aggressive behaviour towards male mice
+
+[Term]
+id: MP:0001356 ! increased aggression towards females
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000111 ! aggressive behaviour towards female mice
+
+[Term]
+id: MP:0001357 ! increased aggression towards humans
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000104 ! aggressive behaviour towards humans
+
+[Term]
+id: MP:0000085 ! depression related behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000085 ! depression behavior
+
+[Term]
+id: MP:0003062 ! abnormal coping response
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000103 ! coping behavior
+
+[Term]
+id: MP:0003064 ! decreased coping response
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000103 ! coping behavior
+
+[Term]
+id: MP:0003063 ! increased coping response
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000103 ! coping behavior
+
+[Term]
+id: MP:0009710 ! anhedonia
+intersection_of: MBO:0000547 ! anhedonia
+
+[Term]
+id: MP:0002065 ! abnormal fear/anxiety-related behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000018 ! fear/anxiety related behaviour
+
+[Term]
+id: MP:0001362 ! abnormal anxiety-related response
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000092 ! anxiety-related behaviour
+
+[Term]
+id: MP:0001363 ! increased anxiety-related response
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000092 ! anxiety-related behaviour
+
+[Term]
+id: MP:0001364 ! decreased anxiety-related response
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000092 ! anxiety-related behaviour
+
+[Term]
+id: MP:0002797 ! increased thigmotaxis
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000381 ! thigmotaxis
+
+[Term]
+id: MP:0003106 ! abnormal fear-related response
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000091 ! fear-related behaviour
+
+[Term]
+id: MP:0003459 ! increased fear-related response
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000091 ! fear-related behaviour
+
+[Term]
+id: MP:0003460 ! decreased fear-related response
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000091 ! fear-related behaviour
+
+[Term]
+id: MP:0004000 ! impaired passive avoidance behavior
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000218 ! passive avoidance learning behavior
+
+[Term]
+id: MP:0003999 ! enhanced passive avoidance behavior
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000218 ! enhanced passive avoidance behavior
+
+[Term]
+id: MP:0003107 ! abnormal response to novelty
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000086 ! novelty response behaviour
+
+[Term]
+id: MP:0001413 ! abnormal response to new environment
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000097 ! response to novel environment
+
+[Term]
+id: MP:0001417 ! decreased exploration in new environment
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000097 ! response to novel environment
+
+[Term]
+id: MP:0001415 ! increased passive avoidance behavior
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000097 ! response to novel environment
+
+[Term]
+id: MP:0005357 ! novel environmental response-related retropulsion
+intersection_of: MBO:0000102 ! fear-related retropulsion
+
+[Term]
+id: MP:0003462 ! abnormal response to novel odor
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000099 ! response to novel odor
+
+[Term]
+id: MP:0003461 ! abnormal response to novel object
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000098 ! response to novel object
+
+[Term]
+id: MP:0001440 ! abnormal grooming behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000027 ! grooming behavior
+
+[Term]
+id: MP:0011000 ! abnormal allogrooming behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000450 ! social grooming
+
+[Term]
+id: MP:0001442 ! decreased grooming behavior
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000027 ! grooming behavior
+
+[Term]
+id: MP:0001441 ! increased grooming behavior
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000027 ! grooming behavior
+
+[Term]
+id: MP:0001412 ! excessive scratching
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000057 ! scratching
+
+[Term]
+id: MP:0010698 ! abnormal impulsive behavior control
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000119 ! impulsive behaviour
+
+[Term]
+id: MP:0002062 ! abnormal conditioning behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000171 ! associative learning behaviour
+
+[Term]
+id: MP:0001462 ! abnormal avoidance learning behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000210 ! avoidance learning behaviour
+
+[Term]
+id: MP:0002798 ! abnormal active avoidance behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000217 ! active avoidance learning behavior
+
+[Term]
+id: MP:0002805 ! abnormal conditioned taste aversion behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000211 ! conditioned taste aversion
+
+[Term]
+id: MP:0002799 ! abnormal passive avoidance behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000218 ! passive avoidance learning behavior
+
+[Term]
+id: MP:0002806 ! abnormal conditioned emotional response
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000221 ! conditioned emotional response
+
+[Term]
+id: MP:0009711 ! abnormal conditioned place preference behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000222 ! conditioned place preference behavior
+
+[Term]
+id: MP:0009712 ! impaired conditioned place preference behavior
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000222 ! conditioned place preference behavior
+
+[Term]
+id: MP:0009713 ! enhanced conditioned place preference behavior
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000222 ! conditioned place preference behavior
+
+[Term]
+id: MP:0001469 ! abnormal contextual conditioning behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000223 ! contextual conditioning behavior
+
+[Term]
+id: MP:0009454 ! impaired contextual conditioning behavior
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000223 ! contextual conditioning behavior
+
+[Term]
+id: MP:0009453 ! enhanced contextual conditioning behavior
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000223 ! contextual conditioning behavior
+
+[Term]
+id: MP:0001454 ! abnormal cued conditioning behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000224 ! cued conditioning behavior
+
+[Term]
+id: MP:0009455 ! impaired cued conditioning behavior
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000224 ! cued conditioning behavior
+
+[Term]
+id: MP:0009456 ! enhanced cued conditioning behavior
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000224 ! cued conditioning behavior
+
+[Term]
+id: MP:0002807 ! abnormal eye blink conditioning behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000227 ! eye blink conditioning behaviour
+
+[Term]
+id: MP:0006299 ! abnormal latent inhibition of conditioning behavior
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000214 ! latent learning behaviour
+
+[Term]
+id: MP:0002803 ! abnormal operant conditional behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000212 ! operant conditioning behaviour
+
+[Term]
+id: MP:0001449 ! abnormal learning/ memory
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000006 ! learning and/or memory behaviour
+
+[Term]
+id: MP:0001460 ! abnormal olfactory -discrimination memory
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000172 ! olfactory learning behaviour
+
+[Term]
+id: MP:0002804 ! abnormal motor learning
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000174 ! motor learning
+
+[Term]
+id: MP:0001463 ! abnormal spatial learning
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000175 ! spatial learning
+
+[Term]
+id: MP:0003492 ! abnormal involuntary movement
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000388 ! involuntary movement behaviour
+
+[Term]
+id: MP:0001529 ! abnormal vocalization
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000037 ! vocalization behavior
+
+[Term]
+id: MP:0002557 ! abnormal social/conspecific interaction
+intersection_of: PATO:0000001 ! quality
+intersection_of: inheres_in MBO:0000011 ! social behavior
+intersection_of: qualifier PATO:0000460 ! abnormal
+
+[Term]
+id: MP:0001448 ! abnormal huddling behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000052 ! vocalization behavior
+
+[Term]
+id: MP:0001447 ! abnormal nest building behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000157 ! nest building behavior
+
+[Term]
+id: MP:0002068 ! abnormal parental behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000044 ! nest building behavior
+
+[Term]
+id: MP:0008779 ! abnormal maternal behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000150 ! maternal behavior
+
+[Term]
+id: MP:0001386 ! abnormal maternal nurturing
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000152 ! maternal nurturing behaviour
+
+[Term]
+id: MP:0001382 ! abnormal nursing
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000046 ! nursing behaviour
+
+[Term]
+id: MP:0009326 ! absent maternal crouching
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards MBO:0000154 ! maternal crouching
+
+[Term]
+id: MP:0009731 ! abnormal offspring retrieval
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000155 ! offspring retrieval
+
+[Term]
+id: MP:0002566 ! abnormal sexual interaction
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000014 ! mating behaviour
+
+[Term]
+id: MP:0001377 ! abnormal mating frequency
+intersection_of: PATO:0000044 ! frequency
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000034 ! sexual activity
+
+[Term]
+id: MP:0001380 ! reduced male mating frequency
+intersection_of: PATO:0000381 ! decreased frequency
+intersection_of: inheres_in MBO:0000548 ! male sexual activity
+
+[Term]
+id: MP:0001375 ! abnormal mating preference
+intersection_of: PATO:0000773 ! preference
+intersection_of: inheres_in MA:0002405 ! adult mouse
+intersection_of: towards MBO:0000034 ! sexual activity
+intersection_of: qualifier PATO:0000460 ! abnormal
+
+[Term]
+id: MP:0001376 ! abnormal mating receptivity
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000146 ! mating receptivity
+
+[Term]
+id: MP:0001360 ! abnormal social investigation
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000148 ! social investigation
+
+[Term]
+id: MP:0001501 ! abnormal sleep pattern
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000024 ! sleeping behaviour
+
+[Term]
+id: MP:0003238 ! slow REM
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000159 ! rapid eye movement sleep
+
+[Term]
+id: MP:0003239 ! fast REM
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000159 ! rapid eye movement sleep
+
+[Term]
+id: MP:0005279 ! narcolepsy
+intersection_of: MBO:0000423 ! narcolepsy
+
+[Term]
+id: MP:0003491 ! abnormal voluntary movement
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000403 ! voluntary movement behaviour
+
+[Term]
+id: MP:0001392 ! abnormal locomotor activity
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000013 ! locomotory behaviour
+
+[Term]
+id: MP:0003313 ! abnormal locomotor activation
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000447 ! locomotor activation
+
+[Term]
+id: MP:0002757 ! decreased vertical activity
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000448 ! vertical activity
+
+[Term]
+id: MP:0002574 ! increased vertical activity
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000448 ! vertical activity
+
+[Term]
+id: MP:0001404 ! no spontaneous movement
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards MBO:0000449 ! spontaneous movement
+
+[Term]
+id: MP:0005356 ! positive geotaxis
+intersection_of: MBO:0000380 ! positive gravitactic behaviour
+
+[Term]
+id: MP:0010323 ! retropulsion
+intersection_of: MBO:0000101 ! retropulsion
+
+[Term]
+id: MP:0003312 ! abnormal locomotor coordination
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000339 ! motor coordination
+
+[Term]
+id: MP:0001524 ! abnormal limb coordination
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000342 ! limb coordination
+
+[Term]
+id: MP:0001406 ! abnormal gait
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000361 ! gait
+
+[Term]
+id: MP:0001407 ! short stride length
+intersection_of: PATO:0000375 ! decreased distance
+intersection_of: inheres_in MBO:0000362 ! stride
+
+[Term]
+id: MP:0010540 ! long stride length
+intersection_of: PATO:0000374 ! increased distance
+intersection_of: inheres_in MBO:0000362 ! stride
+
+[Term]
+id: MP:0001522 ! impaired swimming
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000371 ! aquatic locomotion
+
+[Term]
+id: MP:0001388 ! abnormal stationary movement
+intersection_of: PATO:0000001 ! quality
+intersection_of: inheres_in MBO:0000001 ! body part movement
+intersection_of: qualifier PATO:0000460 ! abnormal
+
+[Term]
+id: MP:0001389 ! abnormal eye movement
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000444 ! eye movement
+
+[Term]
+id: MP:0000436 ! abnormal head movement
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000020 ! head movement
+
+[Term]
+id: MP:0001391 ! abnormal tail movement
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000445 ! tail movement
+
+[Term]
+id: MP:0001405 ! impaired coordination
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000339 ! motor coordination
+
+[Term]
+id: MP:0003858 ! enhanced coordination
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000339 ! motor coordination
+
+[Term]
+id: MP:0001504 ! abnormal posture
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000355 ! posture
+
+[Term]
+id: MP:0004263 ! abnormal limb posture
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000357 ! limb posture
+
+[Term]
+id: MP:0009393 ! abnormal resting posture
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000358 ! resting posture
+
+[Term]
+id: MP:0001458 ! abnormal object recognition memory
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000551 ! visual object recognition
+
+[Term]
+id: MP:0002801 ! abnormal object recognition memory
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000552 !  long term object recognition memory
+
+[Term]
+id: MP:0002800 ! abnormal short term object recognition memory
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000553 ! short term object recognition memory
+
+[Term]
+id: MP:0008428 ! abnormal spatial working memory
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000555 ! spatial working memory
+
+[Term]
+id: MP:0009327 ! abnormal maternal grooming
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000559 ! maternal grooming
+
+[Term]
+id: MP:0002808 ! abnormal barbering behaviour
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000560 ! barbering behaviour
+
+[Term]
+id: MP:0003908 ! decreased stereotypic behavior
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000567 ! stereotypic behavior
+
+[Term]
+id: MP:0001525 ! impaired balance
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000318 ! balance
+
+[Term]
+id: MP:0001409 ! increased stereotypic behavior
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000567 ! stereotypic behavior
+
+[Term]
+id: MP:0001408 ! stereotypic behavior
+intersection_of: MBO:0000567 ! stereotypic behavior
+
+[Term]
+id: MP:0002730 ! head shaking
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000023 ! head shaking
+
+[Term]
+id: MP:0001410 ! head bobbing
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000570 ! head bobbing
+
+[Term]
+id: MP:0005307 ! head tossing
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000571 ! mutlidirectional head movement
+
+[Term]
+id: MP:0002802 ! abnormal discrimination learning
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000171 ! associative learning behaviour
+
+[Term]
+id: MP:0001961 ! abnormal reflex
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000389 ! reflexive behaviour
+
+[Term]
+id: MP:0001993 ! abnormal blinking
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000415 ! corneal reflex
+
+[Term]
+id: MP:0001995 ! decreased blinking frequency
+intersection_of: PATO:0000381 ! decreased frequency
+intersection_of: inheres_in MBO:0000415 ! corneal reflex
+
+[Term]
+id: MP:0001994 ! increased blinking frequency
+intersection_of: PATO:0000380 ! increased frequency
+intersection_of: inheres_in MBO:0000415 ! corneal reflex
+
+[Term]
+id: MP:0009619 ! abnormal optokinetic reflex
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000574 ! optokinetic reflex
+
+[Term]
+id:  MP:0001492 ! abnormal pilomotor reflex
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000575 ! pilomotor reflex
+
+[Term]
+id:  MP:0001485 ! abnormal pinna reflex
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000576 ! pinna reflex
+
+[Term]
+id: MP:0006358 ! absent pinna reflex
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards MBO:0000576 ! pinna reflex
+
+[Term]
+id:  MP:0002980 ! abnormal postural reflex
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000577 ! postural reflex
+
+[Term]
+id: MP:0002862 ! altered righting response
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000578 ! righting reflex
+
+[Term]
+id: MP:0002863 ! improved righting response
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000578 ! righting reflex
+
+[Term]
+id: MP:0001523 ! impaired righting response
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000578 ! righting reflex
+
+[Term]
+id: MP:0002638 ! abnormal pupillary reflex
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000412 ! pupillary light reflex
+
+[Term]
+id: MP:0006243 ! impaired pupillary reflex
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000412 ! pupillary light reflex
+
+[Term]
+id: MP:0001486 ! abnormal startle reflex
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000391 ! startle reflex
+
+[Term]
+id: MP:0001488 ! increased startle reflex
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MBO:0000391 ! startle reflex
+
+[Term]
+id: MP:0001489 ! decreased startle reflex
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MBO:0000391 ! startle reflex
+
+[Term]
+id: MP:0006359 ! absent startle reflex
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards MBO:0000391 ! startle reflex
+
+[Term]
+id: MP:0006377 ! abnormal vestibulocollic reflex
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000581 ! vestibulocollic reflex
+
+[Term]
+id: MP:0004844 ! abnormal vestibuloocular reflex
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000416 ! vestibulo-ocular reflex
+
+[Term]
+id: MP:0004845 ! absent vestibuloocular reflex
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards MBO:0000416 ! vestibulo-ocular reflex
+
+[Term]
+id: MP:0001490 ! abnormal vibrissae reflex
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000583 ! vibrissae reflex
+
+[Term]
+id: MP:0001513 ! abnormal clutching reflex
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000584 ! clutching reflex
+
+[Term]
+id: MP:0009354 ! emprosthotonos
+intersection_of: MBO:0000585 ! emprosthotonos
+
+[Term]
+id: MP:0002880 ! opisthotonus
+intersection_of: MBO:0000586 ! opisthotonus
+
+[Term]
+id: MP:0000745 ! tremors
+intersection_of: MBO:0000589 ! tremor
+
+[Term]
+id: MP:0001393 ! ataxia
+intersection_of: MBO:0000590 ! ataxia
+
+[Term]
+id: MP:0003314 ! dysmetria
+intersection_of: MBO:0000592 ! dysmetria
+
+[Term]
+id: MP:0009514 ! titubation
+intersection_of: MBO:000059 ! titubation
+
+[Term]
+id: MP:0001446 ! abnormal whisker trimming behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000561 ! hetero-barbering
+
+[Term]
+id: MP:0001399 ! hyperactivity
+intersection_of: MBO:0000030 ! hyperactivity
+
+[Term]
+id: MP:0001402 ! hypoactivity
+intersection_of: MBO:0000031 ! hypoactivity
+
+[Term]
+id: MP:0006156 ! abnormal visual pursuit
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MBO:0000446 ! visual pursuit
+
+[Term]
+id: MP:0000755 ! hindlimb paralysis
+intersection_of: MBO:0000597 ! hindlimb paralysis
+
+[Term]
+id: MP:0000756 ! forelimb paralysis
+intersection_of: MBO:0000061 ! forelimb paralysis
+
+[Term]
+id: MP:0005162 ! carpoptosis
+intersection_of: MBO:0000033 ! carpoptosis
+
+[Term]
+id: MP:0000753 ! paralysis
+intersection_of: MBO:0000032 ! forelimb paralysis
+
+[Term]
+id: MP:0005323 ! dystonia
+intersection_of: MBO:0000598 ! dystonia
 
 
 [Term]
