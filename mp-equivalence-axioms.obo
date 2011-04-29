@@ -12468,18 +12468,18 @@ intersection_of: towards MPATH:70 ! fistula
 intersection_of: inheres_in MA:0002466 ! perineum
 !!!! ??????????????
 
-[Term]
-id: MP:0003317 ! anoperineal fistula
-intersection_of: MPATH:70 ! fistula
-intersection_of: inheres_in MA:0000331 ! anus
-intersection_of: towards MA:0002466 ! perineum
+![Term]
+!id: MP:0003317 ! anoperineal fistula
+!intersection_of: MPATH:70 ! fistula
+!intersection_of: inheres_in MA:0000331 ! anus
+!intersection_of: towards MA:0002466 ! perineum
 !!!! ??????????????
 
-[Term]
-id: MP:0003318 ! rectoperineal fistula
-intersection_of: MPATH:70 ! fistula
-intersection_of: inheres_in MA:0000336 ! rectum
-intersection_of: towards MA:0002466 ! perineum
+![Term]
+!id: MP:0003318 ! rectoperineal fistula
+!intersection_of: MPATH:70 ! fistula
+!intersection_of: inheres_in MA:0000336 ! rectum
+!intersection_of: towards MA:0002466 ! perineum
 
 [Term]
 id: MP:0003319 ! anal fistula
@@ -35008,23 +35008,23 @@ intersection_of: inheres_in NBO:0000166 ! circadian rhythm
 
 [Term]
 id: MP:0002822 ! catalepsy
-intersection_of: NBO:0000563 ! catalepsy
+equivalent_to: NBO:0000563 ! catalepsy
 
 [Term]
 id: MP:0002571 ! senility
-intersection_of: NBO:0000572 ! senility
+equivalent_to: NBO:0000572 ! senility
 
 [Term]
 id: MP:0002899 ! fatigue
-intersection_of: NBO:0000569 ! fatigue
+equivalent_to: NBO:0000569 ! fatigue
 
 [Term]
 id: MP:0001361 ! social withdrawal
-intersection_of: NBO:0000565 ! social withdrawal
+equivalent_to: NBO:0000565 ! social withdrawal
 
 [Term]
 id: MP:0002573 ! behavioral despair
-intersection_of: NBO:0000573 ! social withdrawal
+equivalent_to: NBO:0000573 ! social withdrawal
 
 [Term]
 id: MP:0002558 ! abnormal circadian period
@@ -35135,15 +35135,15 @@ intersection_of: inheres_in NBO:0000137 ! liquid preference
 
 [Term]
 id: MP:0002119 ! dipsosis
-intersection_of: NBO:0000541 ! dipsosis
+equivalent_to: NBO:0000541 ! dipsosis
 
 [Term]
 id: MP:0001426 ! polydipsia
-intersection_of: NBO:0000542 ! polydipsia
+equivalent_to: NBO:0000542 ! polydipsia
 
 [Term]
 id: MP:0005111 ! hyperdipsia
-intersection_of: NBO:0000543 ! hyperdipsia
+equivalent_to: NBO:0000543 ! hyperdipsia
 
 [Term]
 id: MP:0001428 ! adipsia
@@ -35174,7 +35174,7 @@ intersection_of: inheres_in NBO:0000134 ! food consumption
 
 [Term]
 id: MP:0001438 ! aphagia
-intersection_of: NBO:0000544 ! aphagia
+equivalent_to: NBO:0000544 ! aphagia
 
 [Term]
 id: MP:0003909 ! increased eating behavior
@@ -35193,7 +35193,7 @@ intersection_of: towards NBO:0000545 ! swallowing
 
 [Term]
 id: MP:0001433 ! polyphagia
-intersection_of: NBO:0000546 ! polyphagia
+equivalent_to: NBO:0000546 ! polyphagia
 
 [Term]
 id: MP:0001432 ! abnormal food preference
@@ -35329,7 +35329,7 @@ intersection_of: inheres_in NBO:0000103 ! coping behavior
 
 [Term]
 id: MP:0009710 ! anhedonia
-intersection_of: NBO:0000547 ! anhedonia
+equivalent_to: NBO:0000547 ! anhedonia
 
 [Term]
 id: MP:0002065 ! abnormal fear/anxiety-related behavior
@@ -35408,7 +35408,7 @@ intersection_of: inheres_in NBO:0000097 ! response to novel environment
 
 [Term]
 id: MP:0005357 ! novel environmental response-related retropulsion
-intersection_of: NBO:0000102 ! fear-related retropulsion
+equivalent_to: NBO:0000102 ! fear-related retropulsion
 
 [Term]
 id: MP:0003462 ! abnormal response to novel odor
@@ -35698,7 +35698,7 @@ intersection_of: inheres_in NBO:0000159 ! rapid eye movement sleep
 
 [Term]
 id: MP:0005279 ! narcolepsy
-intersection_of: NBO:0000423 ! narcolepsy
+equivalent_to: NBO:0000423 ! narcolepsy
 
 [Term]
 id: MP:0003491 ! abnormal voluntary movement
@@ -35735,11 +35735,11 @@ intersection_of: towards NBO:0000449 ! spontaneous movement
 
 [Term]
 id: MP:0005356 ! positive geotaxis
-intersection_of: NBO:0000380 ! positive gravitactic behaviour
+equivalent_to: NBO:0000380 ! positive gravitactic behaviour
 
 [Term]
 id: MP:0010323 ! retropulsion
-intersection_of: NBO:0000101 ! retropulsion
+equivalent_to: NBO:0000101 ! retropulsion
 
 [Term]
 id: MP:0003312 ! abnormal locomotor coordination
@@ -35878,7 +35878,7 @@ intersection_of: inheres_in NBO:0000567 ! stereotypic behavior
 
 [Term]
 id: MP:0001408 ! stereotypic behavior
-intersection_of: NBO:0000567 ! stereotypic behavior
+equivalent_to: NBO:0000567 ! stereotypic behavior
 
 [Term]
 id: MP:0002730 ! head shaking
@@ -36034,27 +36034,27 @@ intersection_of: inheres_in NBO:0000584 ! clutching reflex
 
 [Term]
 id: MP:0009354 ! emprosthotonos
-intersection_of: NBO:0000585 ! emprosthotonos
+equivalent_to: NBO:0000585 ! emprosthotonos
 
 [Term]
 id: MP:0002880 ! opisthotonus
-intersection_of: NBO:0000586 ! opisthotonus
+equivalent_to: NBO:0000586 ! opisthotonus
 
 [Term]
 id: MP:0000745 ! tremors
-intersection_of: NBO:0000589 ! tremor
+equivalent_to: NBO:0000589 ! tremor
 
 [Term]
 id: MP:0001393 ! ataxia
-intersection_of: NBO:0000590 ! ataxia
+equivalent_to: NBO:0000590 ! ataxia
 
 [Term]
 id: MP:0003314 ! dysmetria
-intersection_of: NBO:0000592 ! dysmetria
+equivalent_to: NBO:0000592 ! dysmetria
 
 [Term]
 id: MP:0009514 ! titubation
-intersection_of: NBO:000059 ! titubation
+equivalent_to: NBO:000059 ! titubation
 
 [Term]
 id: MP:0001446 ! abnormal whisker trimming behavior
@@ -36064,11 +36064,11 @@ intersection_of: inheres_in NBO:0000561 ! hetero-barbering
 
 [Term]
 id: MP:0001399 ! hyperactivity
-intersection_of: NBO:0000030 ! hyperactivity
+equivalent_to: NBO:0000030 ! hyperactivity
 
 [Term]
 id: MP:0001402 ! hypoactivity
-intersection_of: NBO:0000031 ! hypoactivity
+equivalent_to: NBO:0000031 ! hypoactivity
 
 [Term]
 id: MP:0006156 ! abnormal visual pursuit
@@ -36078,23 +36078,23 @@ intersection_of: inheres_in NBO:0000446 ! visual pursuit
 
 [Term]
 id: MP:0000755 ! hindlimb paralysis
-intersection_of: NBO:0000597 ! hindlimb paralysis
+equivalent_to: NBO:0000597 ! hindlimb paralysis
 
 [Term]
 id: MP:0000756 ! forelimb paralysis
-intersection_of: NBO:0000061 ! forelimb paralysis
+equivalent_to: NBO:0000061 ! forelimb paralysis
 
 [Term]
 id: MP:0005162 ! carpoptosis
-intersection_of: NBO:0000033 ! carpoptosis
+equivalent_to: NBO:0000033 ! carpoptosis
 
 [Term]
 id: MP:0000753 ! paralysis
-intersection_of: NBO:0000032 ! forelimb paralysis
+equivalent_to: NBO:0000032 ! forelimb paralysis
 
 [Term]
 id: MP:0005323 ! dystonia
-intersection_of: NBO:0000598 ! dystonia
+equivalent_to: NBO:0000598 ! dystonia
 
 
 [Term]
