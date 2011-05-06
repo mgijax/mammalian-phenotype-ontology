@@ -7821,12 +7821,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0000007 ! limb
 
 [Term]
-id: MP:0001524 ! impaired limb coordination
-intersection_of: PATO:0001860 ! decreased coordination
-intersection_of: inheres_in GO:0050881 ! musculoskeletal movement
-intersection_of: has_central_participant MA:0000007 ! limb
-
-[Term]
 id: MP:0002110 ! abnormal digit morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -35306,7 +35300,7 @@ intersection_of: PATO:0000912 ! increased rate
 intersection_of: inheres_in NBO:0000104 ! aggressive behaviour towards humans
 
 [Term]
-id: MP:0000085 ! depression related behavior
+id: MP:0003360 ! abnormal depression-related behavior
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in NBO:0000085 ! depression behavior
@@ -35748,7 +35742,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in NBO:0000339 ! motor coordination
 
 [Term]
-id: MP:0001524 ! abnormal limb coordination
+id: MP:0001524 ! impaired limb coordination
 intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in NBO:0000342 ! limb coordination
 
