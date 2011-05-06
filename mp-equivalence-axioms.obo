@@ -1169,10 +1169,17 @@ id: MP:0000299 ! failure of endocardial cushion closure
 intersection_of: PATO:0000609 ! closure incomplete
 intersection_of: inheres_in MA:0000078 ! endocardial cushion
 
+! need to check agaist MP:0004225
 [Term]
 id: MP:0004225 ! patent foramen ovale
 intersection_of: PATO:0000609 ! closure incomplete
 intersection_of: inheres_in MA:0000084 ! atrial septum
+
+! need to check agaist MP:0004225
+[Term]
+id: MP:0010403 ! atrial septum defect
+intersection_of: PATO:0000609 ! closure incomplete
+intersection_of: inheres_in MA:0000084 ! interatrial septum
 
 [Term]
 id: MP:0000300 ! thin endocardial cushion
@@ -3936,16 +3943,6 @@ intersection_of: PATO:0001858 ! partial paralysed
 intersection_of: inheres_in MA:0002433 ! anatomic region
 
 [Term]
-id: MP:0000755 ! hindlimb paralysis
-intersection_of: MP:0000753 ! paralysis
-intersection_of: inheres_in MA:0000026 ! hindlimb
-
-[Term]
-id: MP:0000756 ! forelimb paralysis
-intersection_of: MP:0000753 ! paralysis
-intersection_of: inheres_in MA:0000025 ! forelimb
-
-[Term]
 id: MP:0000759 ! abnormal skeletal muscle morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -6196,11 +6193,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0043084 ! penile erection
 
 [Term]
-id: MP:0001380 ! reduced male mating frequency
-intersection_of: PATO:0000911 ! decreased rate
-intersection_of: inheres_in GO:0007620 ! copulation
-
-[Term]
 id: MP:0001400 ! hyperresponsive
 intersection_of: PATO:0001192 ! hyperresponsive to
 intersection_of: inheres_in GO:0007600 ! sensory perception
@@ -6255,13 +6247,6 @@ id: MP:0001539 ! decreased caudal vertebrae number
 intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: inheres_in MA:0000008 ! tail
 intersection_of: towards MA:0000310 ! caudal vertebra
-
-[Term]
-id: MP:0001391 ! abnormal tail movements
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0050882 ! voluntary musculoskeletal movement
-intersection_of: has_central_participant MA:0000008 ! tail
 
 ![Term]
 !id: MP:0010323 ! walking backwards
@@ -6788,11 +6773,11 @@ intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: towards IMR:0100195 ! corticotropin
 
 ! merge with MP:0002790
-[Term]
-id: MP:0001749 ! suppressed circulating follicle stimulating hormone level
-intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: inheres_in MA:0000059 ! blood
-intersection_of: towards IMR:0100099 ! follicle stimulating hormone
+![Term]
+!id: MP:0001749 ! suppressed circulating follicle stimulating hormone level
+!intersection_of: PATO:0001163 ! decreased concentration
+!intersection_of: inheres_in MA:0000059 ! blood
+!intersection_of: towards IMR:0100099 ! follicle stimulating hormone
 
 [Term]
 id: MP:0001750 ! increased circulating follicle stimulating hormone level
@@ -7396,13 +7381,6 @@ intersection_of: inheres_in GO:0048513 ! organ development
 intersection_of: has_central_participant MA:0000006 ! head/neck
 
 [Term]
-id: MP:0000436 ! abnormal head movements
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0050881 ! musculoskeletal movement
-intersection_of: has_central_participant MA:0000006 ! head/neck
-
-[Term]
 id: MP:0002066 ! abnormal motor capabilities/coordination/movement
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -7688,12 +7666,6 @@ id: MP:0002060 ! abnormal skin morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0000151 ! skin
-
-[Term]
-id: MP:0002068 ! abnormal parental behavior
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0042712 ! paternal behavior
 
 [Term]
 id: MP:0002073 ! abnormal hair growth
@@ -10574,18 +10546,6 @@ intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0033561 ! regulation of water loss via skin
 
 [Term]
-id: MP:0002800 ! abnormal short term object recognition memory
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0007614 ! short-term memory
-
-[Term]
-id: MP:0002801 ! abnormal long term object recognition memory
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0007616 ! long-term memory
-
-[Term]
 id: MP:0002809 ! increased spinal cord size
 intersection_of: PATO:0000586 ! increased size
 intersection_of: inheres_in MA:0000216 ! spinal cord
@@ -13135,13 +13095,6 @@ id: MP:0003456 ! absent tail
 intersection_of: PATO:0002000 ! lacks all parts of type
 intersection_of: inheres_in MA:0002405 ! adult mouse
 intersection_of: towards MA:0000008 ! tail
-
-!! TODO: request GO response term
-[Term]
-id: MP:0003462 ! abnormal response to novel odor
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0042048 ! olfactory behavior
 
 [Term]
 id: MP:0003463 ! abnormal single cell response
@@ -21517,11 +21470,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: towards CHEBI:28790 ! serotonin
 
 [Term]
-id: MP:0005323 ! dystonia
-intersection_of: PATO:0001814 ! dystonicity
-intersection_of: inheres_in MA:0000015 ! muscle
-
-[Term]
 id: MP:0005325 ! abnormal renal glomerulus morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -27187,12 +27135,6 @@ intersection_of: inheres_in MA:0000091 ! heart ventricle
 id: MP:0008773 ! enlarged heart right ventricle
 intersection_of: PATO:0000584 ! hypertrophic
 intersection_of: inheres_in MA:0000093 ! heart right ventricle
-
-[Term]
-id: MP:0008779 ! abnormal maternal behavior
-intersection_of: PATO:0000001 ! quality
-intersection_of: inheres_in GO:0042711 ! maternal behavior
-intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008781 ! abnormal B cell apoptosis
@@ -32894,7 +32836,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 [Term]
 id: MP:0003044 ! impaired basement membrane formation
 intersection_of: PATO:0001558 ! lacking processual parts
-intersection_of: inheres GO:0005605 ! basal lamina
+intersection_of: inheres_in GO:0005605 ! basal lamina
 intersection_of: towards GO:0009058 ! biosynthetic process
 
 [Term]
@@ -34270,12 +34212,12 @@ intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in UBERON:0004022 ! embryonic neuroepithelium
 intersection_of: qualifier PATO:0000460 ! abnormal
 
-! TODO - check - this is correct
-[Term]
-id: MP:0005196 ! abnormal posterior uvea morphology
-intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in MA:0000263 ! choroid
-intersection_of: qualifier PATO:0000460 ! abnormal
+! TODO - check - this is correct Cindy is investigating
+![Term]
+!id: MP:0005196 ! abnormal posterior uvea morphology
+!intersection_of: PATO:0000051 ! morphology
+!intersection_of: inheres_in MA:0000263 ! choroid
+!intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0006069 ! abnormal retinal neuronal layer morphology
@@ -34469,11 +34411,12 @@ intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in UBERON:0004706 ! bulbus cordis
 intersection_of: qualifier PATO:0000460 ! abnormal
 
-[Term]
-id: MP:0010583 ! abnormal conotruncus morphology
-intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in UBERON:0004706 ! bulbus cordis
-intersection_of: qualifier PATO:0000460 ! abnormal
+! Cindy is investigating
+![Term]
+!id: MP:0010583 ! abnormal conotruncus morphology
+!intersection_of: PATO:0000051 ! morphology
+!intersection_of: inheres_in UBERON:0004706 ! bulbus cordis
+!intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0010592 ! abnormal atrioventricular septum morphology
@@ -34742,11 +34685,6 @@ intersection_of: inheres_in UBERON:0004157 ! atrial septum primum
 id: MP:0010405 ! ostium secundum atrial septal defect
 intersection_of: PATO:0002000 ! lacks all parts of type
 intersection_of: inheres_in UBERON:0004158 ! atrial septum secundum
-
-[Term]
-id: MP:0010403 ! atrial septum defect
-intersection_of: PATO:0000609 ! closure incomplete
-intersection_of: inheres_in MA:0000084 ! interatrial septum
 
 [Term]
 id: MP:0010437 ! absent coronary sinus
@@ -35607,7 +35545,7 @@ intersection_of: inheres_in NBO:0000157 ! nest building behavior
 id: MP:0002068 ! abnormal parental behavior
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in NBO:0000044 ! nest building behavior
+intersection_of: inheres_in NBO:0000044 ! parental behavior
 
 [Term]
 id: MP:0008779 ! abnormal maternal behavior
@@ -35896,7 +35834,7 @@ intersection_of: inheres_in NBO:0000571 ! mutlidirectional head movement
 id: MP:0002802 ! abnormal discrimination learning
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in NBO:0000171 ! associative learning behaviour
+intersection_of: inheres_in NBO:0000641 ! discrimination learning
 
 [Term]
 id: MP:0001961 ! abnormal reflex
@@ -36084,7 +36022,7 @@ equivalent_to: NBO:0000033 ! carpoptosis
 
 [Term]
 id: MP:0000753 ! paralysis
-equivalent_to: NBO:0000032 ! forelimb paralysis
+equivalent_to: NBO:0000032 ! paralysis
 
 [Term]
 id: MP:0005323 ! dystonia
@@ -36122,6 +36060,9 @@ id: _:single_positive_T_cell
 is_anonymous: true
 union_of: CL:0000624 ! CD4-positive, alpha-beta T cell
 union_of: CL:0000625 ! CD8-positive, alpha-beta T cell
+
+
+!!!! We need to check Typedefs and usage
 
 [Typedef]
 id: qualifier
@@ -36166,34 +36107,87 @@ transitive_over: part_of ! part_of
 holds_over_chain: part_of develops_from
 xref: RO:0002202
 
-[Typedef]
-id: phenotype_of
-name: phenotype of
-xref: RO:0002201
-
-[Typedef]
-id: bearer_of
-name: bearer of
-xref: BFO:0000053
-
-[Typedef]
-id: has_participant
-name: has participant
-xref: BFO:0000057
-
-[Typedef]
-id: results_in
-name: results in
+! These are not used hence the obo-check script complains
+![Typedef]
+!id: phenotype_of
+!name: phenotype of
+!xref: RO:0002201
+!
+![Typedef]
+!id: bearer_of
+!name: bearer of
+!xref: BFO:0000053
+!
+![Typedef]
+!id: has_participant
+!name: has participant
+!xref: BFO:0000057
+!
+![Typedef]
+!id: results_in
+!name: results in
 
 [Typedef]
 id: results_from
 name: results from
 
 [Typedef]
-id: has_participant
-name: has participant
-xref: BFO:0000057
- 
+id: has_quality
+name: has quality
+
+[Typedef]
+id: occurs_in
+name: occurs in
+
+[Typedef]
+id: has_function_realized_as_process
+name: has_function_realized_as_process_in
+xref: http://sourceforge.net/tracker/index.php?func=detail&aid=1825041&group_id=76834&atid=947684
+
+[Typedef]
+id: exists_during
+name: exists_during
+
+[Typedef]
+id: results_in_death_of
+name: results_in_death_of
+
+[Typedef]
+id: increases_population_size_of
+name: increases_population_size_of
+
+[Typedef]
+id: during
+name: during
+
+[Typedef]
+id: results_in_change_to
+name: results_in_change_to
+
+[Typedef]
+id: has_central_participant
+name: results_in_change_to
+
+[Typedef]
+id: contained_in
+name: contained_in
+
+[Typedef]
+id: results_in_directed_movement_of
+name: results_in_directed_movement_of
+
+[Typedef]
+id: preceded_by
+name: preceded_by
+
+[Typedef]
+id: has_output
+name: has_output
+
+[Typedef]
+id: results_in_complete_development_of
+name: results_in_complete_development_of
+
 ! ANATOMY XPs
 
 [Term]
