@@ -22612,8 +22612,7 @@ intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0005567 ! decreased circulating total protein level
-intersection_of: PATO:0000033 ! concentration
-intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: PATO:0001163 ! decreased concentration
 intersection_of: towards CHEBI:16541 ! Protein
 intersection_of: inheres_in MA:0000059 ! blood
 
