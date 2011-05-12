@@ -20610,7 +20610,7 @@ intersection_of: inheres_in MA:0000059 ! blood
 id: MP:0003031 ! acidosis
 intersection_of: PATO:0001162 ! increased concentration
 intersection_of: inheres_in _:arterial_blood
-intersection_of: towards ChEBI:24636 ! proton
+intersection_of: towards CHEBI:24636 ! proton
 
 [Term]
 id: _:arterial_blood
@@ -26499,7 +26499,7 @@ intersection_of: inheres_in GO:0002281 ! macrophage activation during immune res
 [Term]
 id: MP:0005496 ! impaired macrophage recruitment
 intersection_of: PATO:0000911 ! decreased rate
-intersection_of: inheres_in GO:000228 ! macrophage activation during immune response
+intersection_of: inheres_in GO:0002281 ! macrophage activation during immune response
 
 [Term]
 id: MP:0005390 ! skeleton phenotype
