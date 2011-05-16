@@ -694,7 +694,7 @@ intersection_of: towards MA:0001331 ! sternum
 [Term]
 id: MP:0000159 ! abnormal xiphoid process
 intersection_of: PATO:0000001 ! quality
-intersection_of: inheres_in MA:00018884 ! xiphoid cartilage
+intersection_of: inheres_in MA:0001884 ! xiphoid cartilage
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -972,7 +972,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 id: MP:0000247 ! abnormal interleukin-10 physiology
 intersection_of: PATO:0001509 ! functionality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in PRO:000001471 ! IL-10
+intersection_of: inheres_in PR:000001471 ! IL-10
 
 [Term]
 id: MP:0005423 ! abnormal somatic nervous system physiology
@@ -6348,7 +6348,7 @@ intersection_of: qualifier PATO:0001818 ! progressive
 id: MP:0001560 ! abnormal circulating insulin level
 intersection_of: PATO:0000033 ! concentration
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: towards PRO:000009054 ! insulin
+intersection_of: towards PR:000009054 ! insulin
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
@@ -6807,7 +6807,7 @@ intersection_of: inheres_in GO:0043396 ! corticotropin-releasing hormone secreti
 id: MP:0001754 ! increased circulating corticotropin-releasing hormone level
 intersection_of: PATO:0001162 ! increased concentration
 intersection_of: inheres_in MA:0000059 ! blood
-intersection_of: towards PRO:000005867 ! corticotropin-releasing hormone
+intersection_of: towards PR:000005867 ! corticotropin-releasing hormone
 
 [Term]
 id: MP:0001756 ! abnormal urination
@@ -7694,7 +7694,7 @@ intersection_of: inheres_in GO:0042593 ! glucose homeostasis
 [Term]
 id: MP:0002079 ! increased circulating insulin level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000009054 ! insulin
+intersection_of: towards PR:000009054 ! insulin
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
@@ -9327,13 +9327,13 @@ intersection_of: inheres_in CHEBI:15647 ! leukotriene B4
 id: MP:0002527 ! abnormal interleukin-8 physiology
 intersection_of: PATO:0001509 ! functionality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in PRO:000001395 ! IL-8
+intersection_of: inheres_in PR:000001395 ! IL-8
 
 [Term]
 id: MP:0002528 ! abnormal interleukin-1 physiology
 intersection_of: PATO:0001509 ! functionality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in PRO:000001091 ! IL-1
+intersection_of: inheres_in PR:000001091 ! IL-1
 
 [Term]
 id: MP:0002529 ! abnormal interleukin physiology
@@ -9345,7 +9345,7 @@ intersection_of: inheres_in IMR:0000007 ! Interleukin
 id: MP:0002530 ! abnormal tumor necrosis factor physiology
 intersection_of: PATO:0001509 ! functionality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in PRO:000000134! tumor necrosis factor, TNF alpha type
+intersection_of: inheres_in PR:000000134! tumor necrosis factor, TNF alpha type
 
 [Term]
 id: MP:0002543 ! brachyphalangia
@@ -10083,7 +10083,7 @@ intersection_of: has_central_participant MA:0000120 ! pancreas
 id: MP:0002695 ! abnormal circulating glucagon level
 intersection_of: PATO:0000033 ! concentration
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: towards PRO:000007891 ! glucagon
+intersection_of: towards PR:000007891 ! glucagon
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
@@ -10091,7 +10091,7 @@ id: MP:0003565 ! abnormal glucagon secretion
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0046903 ! secretion
-intersection_of: results_in_directed_movement_of PRO:000007891 ! glucagon
+intersection_of: results_in_directed_movement_of PR:000007891 ! glucagon
 
 [Term]
 id: MP:0005556 ! abnormal kidney clearance
@@ -10103,7 +10103,7 @@ intersection_of: has_central_participant MA:0000368 ! kidney
 [Term]
 id: MP:0002696 ! decreased circulating glucagon level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000007891 ! glucagon
+intersection_of: towards PR:000007891 ! glucagon
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
@@ -10173,7 +10173,7 @@ intersection_of: inheres_in MA:0000368 ! kidney
 [Term]
 id: MP:0002712 ! increased circulating glucagon level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000007891 ! glucagon
+intersection_of: towards PR:000007891 ! glucagon
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
@@ -10230,7 +10230,7 @@ intersection_of: inheres_in MA:0002206 ! pulmonary vein
 [Term]
 id: MP:0002727 ! decreased circulating insulin level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000009054 ! insulin
+intersection_of: towards PR:000009054 ! insulin
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
@@ -10772,7 +10772,7 @@ intersection_of: towards MP:0000950 ! pharmacologically induced seizures
 id: MP:0002891 ! increased insulin sensitivity
 intersection_of: PATO:0001549 ! increased sensitivity
 intersection_of: inheres_in MA:0002405 ! adult mouse
-intersection_of: towards PRO:000009054 ! insulin
+intersection_of: towards PR:000009054 ! insulin
 
 [Term]
 id: MP:0002892 ! decreased superior colliculus size
@@ -10819,19 +10819,19 @@ intersection_of: inheres_in MA:0002545 ! urine
 id: MP:0002903 ! abnormal circulating parathyroid hormone level
 intersection_of: PATO:0000033 ! concentration
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: towards PRO:000013429 ! parathyroid hormone
+intersection_of: towards PR:000013429 ! parathyroid hormone
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0002904 ! increased circulating parathyroid hormone level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000013429 ! parathyroid hormone
+intersection_of: towards PR:000013429 ! parathyroid hormone
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0002905 ! decreased circulating parathyroid hormone level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000013429 ! parathyroid hormone
+intersection_of: towards PR:000013429 ! parathyroid hormone
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
@@ -13217,7 +13217,7 @@ intersection_of: inheres_in MPATH:270 ! adenoma
 [Term]
 id: MP:0003497 ! insensitivity to parathyroid hormone
 intersection_of: PATO:0000513 ! insensitive
-intersection_of: towards PRO:000013429 ! parathyroid hormone
+intersection_of: towards PR:000013429 ! parathyroid hormone
 
 [Term]
 id: MP:0003498 ! thyroid gland hyperplasia
@@ -15261,19 +15261,19 @@ intersection_of: inheres_in CL:0000000 ! cell
 id: MP:0003905 ! abnormal aorta elastin content
 intersection_of: PATO:0001555 ! has number of
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: towards PRO:000007034 ! elastin
+intersection_of: towards PR:000007034 ! elastin
 intersection_of: inheres_in MA:0000062 ! aorta
 
 [Term]
 id: MP:0003906 ! increased aorta elastin content
 intersection_of: PATO:0002002 ! has extra parts of type
-intersection_of: towards PRO:000007034 ! elastin
+intersection_of: towards PR:000007034 ! elastin
 intersection_of: inheres_in MA:0000062 ! aorta
 
 [Term]
 id: MP:0003907 ! decreased aorta elastin content
 intersection_of: PATO:0002001 ! has fewer parts of type
-intersection_of: towards PRO:000007034 ! elastin
+intersection_of: towards PR:000007034 ! elastin
 intersection_of: inheres_in MA:0000062 ! aorta
 
 [Term]
@@ -15556,7 +15556,7 @@ intersection_of: towards IMR:0100100 ! luteinizing hormone
 id: MP:0003970 ! abnormal prolactin level
 intersection_of: PATO:0000033 ! concentration
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: towards PRO:000013246 ! prolactin
+intersection_of: towards PR:000013246 ! prolactin
 
 [Term]
 id: MP:0003971 ! abnormal thyroid-stimulating hormone level
@@ -18425,19 +18425,19 @@ intersection_of: towards CL:0000570 ! parafollicular cell
 id: MP:0004700 ! abnormal circulating insulin-like growth factor I level
 intersection_of: PATO:0000033 ! concentration
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: towards PRO:000009182 ! insulin-like growth factor I
+intersection_of: towards PR:000009182 ! insulin-like growth factor I
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0004701 ! decreased circulating insulin-like growth factor I level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000009182 ! insulin-like growth factor I
+intersection_of: towards PR:000009182 ! insulin-like growth factor I
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0004702 ! increased circulating insulin-like growth factor I level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000009182 ! insulin-like growth factor I
+intersection_of: towards PR:000009182 ! insulin-like growth factor I
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
@@ -18571,19 +18571,19 @@ intersection_of: towards MA:0000398 ! efferent duct
 id: MP:0004730 ! abnormal circulating gastrin level
 intersection_of: PATO:0000033 ! concentration
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: towards PRO:000007856 ! gastrin
+intersection_of: towards PR:000007856 ! gastrin
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0004731 ! increased circulating gastrin level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000007856 ! gastrin
+intersection_of: towards PR:000007856 ! gastrin
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0004732 ! decreased circulating gastrin level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000007856 ! gastrin
+intersection_of: towards PR:000007856 ! gastrin
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
@@ -20645,7 +20645,7 @@ intersection_of: towards IMR:0100102 ! growth hormone
 [Term]
 id: MP:0005121 ! decreased circulating prolactin level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000013246 ! prolactin
+intersection_of: towards PR:000013246 ! prolactin
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
@@ -20663,7 +20663,7 @@ intersection_of: towards IMR:0100102 ! growth hormone
 [Term]
 id: MP:0005124 ! increased circulating prolactin level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000013246 ! prolactin
+intersection_of: towards PR:000013246 ! prolactin
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
@@ -20719,12 +20719,12 @@ intersection_of: towards IMR:0100102 ! growth hormone
 [Term]
 id: MP:0005138 ! decreased prolactin level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000013246 ! prolactin
+intersection_of: towards PR:000013246 ! prolactin
 
 [Term]
 id: MP:0005139 ! increased prolactin level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000013246 ! prolactin
+intersection_of: towards PR:000013246 ! prolactin
 
 [Term]
 id: MP:0005140 ! decreased cardiac muscle contractility
@@ -20788,13 +20788,13 @@ intersection_of: towards GO:0009611 ! response to wounding
 [Term]
 id: MP:0002710 ! increased glucagon secretion
 intersection_of: PATO:0000912 ! increased rate
-intersection_of: results_in_directed_movement_of PRO:000007891 ! glucagon
+intersection_of: results_in_directed_movement_of PR:000007891 ! glucagon
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0002711 ! decreased glucagon secretion
 intersection_of: PATO:0000911 ! decreased rate
-intersection_of: results_in_directed_movement_of PRO:000007891 ! glucagon
+intersection_of: results_in_directed_movement_of PR:000007891 ! glucagon
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
@@ -21516,7 +21516,7 @@ intersection_of: inheres_in MA:0000164 ! myocardium
 id: MP:0005331 ! insulin resistance
 intersection_of: PATO:0001650 ! increased resistance
 intersection_of: inheres_in MA:0002405 ! adult mouse
-intersection_of: towards PRO:000009054 ! insulin
+intersection_of: towards PR:000009054 ! insulin
 
 [Term]
 id: MP:0005332 ! abnormal amino acid level
@@ -21675,7 +21675,7 @@ intersection_of: inheres_in GO:0042098 ! T cell proliferation
 id: MP:0005349 ! abnormal interleukin-6 physiology
 intersection_of: PATO:0001509 ! functionality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in PRO:000001393 ! IL-6
+intersection_of: inheres_in PR:000001393 ! IL-6
 
 [Term]
 id: MP:0005352 ! small skull
@@ -22386,19 +22386,19 @@ intersection_of: inheres_in GO:0031099 ! regeneration
 id: MP:0005521 ! abnormal circulating atrial natriuretic factor level
 intersection_of: PATO:0000033 ! concentration
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: towards PRO:000011374 ! atrial natriuretic factor
+intersection_of: towards PR:000011374 ! atrial natriuretic factor
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0005522 ! increased circulating atrial natriuretic factor
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000011374 ! atrial natriuretic factor
+intersection_of: towards PR:000011374 ! atrial natriuretic factor
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0005523 ! decreased circulating atrial natriuretic factor
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000011374 ! atrial natriuretic factor
+intersection_of: towards PR:000011374 ! atrial natriuretic factor
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
@@ -23093,19 +23093,19 @@ intersection_of: inheres_in MA:0000009 ! adipose tissue
 id: MP:0005667 ! abnormal circulating leptin level
 intersection_of: PATO:0000033 ! concentration
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: towards PRO:000009758 ! leptin
+intersection_of: towards PR:000009758 ! leptin
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0005668 ! decreased circulating leptin level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000009758 ! leptin
+intersection_of: towards PR:000009758 ! leptin
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0005669 ! increased circulating leptin level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000009758 ! leptin
+intersection_of: towards PR:000009758 ! leptin
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
@@ -23747,7 +23747,7 @@ intersection_of: inheres_in MA:0001281 ! medial rectus extraocular muscle
 [Term]
 id: MP:0006157 ! palsy of the eye
 intersection_of: PATO:0000911 ! decreased rate
-intersection_of: inheres_in GO:0007634 ! optokinetic behavior
+intersection_of: inheres_in NBO:0000315 ! optokinetic behavior
 intersection_of: inheres_in MA:0000261 ! eye
 
 [Term]
@@ -25872,7 +25872,7 @@ id: MP:0008459 ! abnormal circulating pancreatic peptide level
 intersection_of: PATO:0000033 ! concentration
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0000059 ! blood
-intersection_of: towards PRO:000013164 ! pancreatic polypeptide
+intersection_of: towards PR:000013164 ! pancreatic polypeptide
 
 [Term]
 id: MP:0008480 ! absent eye pigmentation
@@ -28907,356 +28907,356 @@ intersection_of: inheres_in GO:0070231 ! T cell apoptosis
 [Term]
 id: MP:0008552 ! abnormal circulating tumor necrosis factor level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000000134 ! tumor necrosis factor alpha
+intersection_of: towards PR:000000134 ! tumor necrosis factor alpha
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008553 ! increased circulating tumor necrosis factor level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000000134 ! tumor necrosis factor alpha
+intersection_of: towards PR:000000134 ! tumor necrosis factor alpha
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008554 ! decreased circulating tumor necrosis factor level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000000134 ! tumor necrosis factor alpha
+intersection_of: towards PR:000000134 ! tumor necrosis factor alpha
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008589 ! abnormal circulating interleukin-1 level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000001091 ! interleukin-1
+intersection_of: towards PR:000001091 ! interleukin-1
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008590 ! abnormal circulating interleukin-10 level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000001471 ! interleukin-10
+intersection_of: towards PR:000001471 ! interleukin-10
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008591 ! increased circulating interleukin-1 level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000001091 ! interleukin-1
+intersection_of: towards PR:000001091 ! interleukin-1
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008592 ! decreased circulating interleukin-1 level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000001091 ! interleukin-1
+intersection_of: towards PR:000001091 ! interleukin-1
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008593 ! increased circulating interleukin-10 level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000001471 ! interleukin-10
+intersection_of: towards PR:000001471 ! interleukin-10
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008594 ! decreased circulating interleukin-10 level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000001471 ! interleukin-10
+intersection_of: towards PR:000001471 ! interleukin-10
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008595 ! abnormal circulating interleukin-6 level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000001393 ! interleukin-6
+intersection_of: towards PR:000001393 ! interleukin-6
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008596 ! increased circulating interleukin-6 level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000001393 ! interleukin-6
+intersection_of: towards PR:000001393 ! interleukin-6
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008597 ! decreased circulating interleukin-6 level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000001393 ! interleukin-6
+intersection_of: towards PR:000001393 ! interleukin-6
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008598 ! abnormal circulating interleukin-2 level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000001379 ! interleukin-2
+intersection_of: towards PR:000001379 ! interleukin-2
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008599 ! increased circulating interleukin-2 level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000001379 ! interleukin-2
+intersection_of: towards PR:000001379 ! interleukin-2
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008600 ! decreased circulating interleukin-2 level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000001379 ! interleukin-2
+intersection_of: towards PR:000001379 ! interleukin-2
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008601 ! abnormal circulating interleukin-4 level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000001391 ! interleukin-4
+intersection_of: towards PR:000001391 ! interleukin-4
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008602 ! increased circulating interleukin-4 level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000001391 ! interleukin-4
+intersection_of: towards PR:000001391 ! interleukin-4
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008603 ! decreased circulating interleukin-4 level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000001391 ! interleukin-4
+intersection_of: towards PR:000001391 ! interleukin-4
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008604 ! abnormal circulating interleukin-7 level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000001317 ! Interleukin-7
+intersection_of: towards PR:000001317 ! Interleukin-7
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008605 ! increased circulating interleukin-7 level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000001317 ! Interleukin-7
+intersection_of: towards PR:000001317 ! Interleukin-7
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008606 ! decreased circulating interleukin-7 level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000001317 ! Interleukin-7
+intersection_of: towards PR:000001317 ! Interleukin-7
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008607 ! abnormal circulating interleukin-13 level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000001370 ! interleukin-13
+intersection_of: towards PR:000001370 ! interleukin-13
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008608 ! increased circulating interleukin-13 level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000001370 ! interleukin-13
+intersection_of: towards PR:000001370 ! interleukin-13
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008609 ! decreased circulating interleukin-13 level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000001370 ! interleukin-13
+intersection_of: towards PR:000001370 ! interleukin-13
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008610 ! abnormal circulating interleukin-15 level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000001373 ! interleukin-15
+intersection_of: towards PR:000001373 ! interleukin-15
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008611 ! increased circulating interleukin-15 level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000001373 ! interleukin-15
+intersection_of: towards PR:000001373 ! interleukin-15
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008612 ! decreased circulating interleukin-15 level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000001373 ! interleukin-15
+intersection_of: towards PR:000001373 ! interleukin-15
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008613 ! abnormal circulating interleukin-17 level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000001092 ! interleukin-17
+intersection_of: towards PR:000001092 ! interleukin-17
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008614 ! increased circulating interleukin-17 level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000001092 ! interleukin-17
+intersection_of: towards PR:000001092 ! interleukin-17
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008615 ! decreased circulating interleukin-17 level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000001092 ! interleukin-17
+intersection_of: towards PR:000001092 ! interleukin-17
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008622 ! abnormal circulating interleukin-3 level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000001387 ! interleukin-3
+intersection_of: towards PR:000001387 ! interleukin-3
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008623 ! increased circulating interleukin-3 level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000001387 ! interleukin-3
+intersection_of: towards PR:000001387 ! interleukin-3
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008624 ! decreased circulating interleukin-3 level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000001387 ! interleukin-3
+intersection_of: towards PR:000001387 ! interleukin-3
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008625 ! abnormal circulating interleukin-5 level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000001392 ! interleukin-5
+intersection_of: towards PR:000001392 ! interleukin-5
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008626 ! increased circulating interleukin-5 level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000001392 ! interleukin-5
+intersection_of: towards PR:000001392 ! interleukin-5
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008627 ! decreased circulating interleukin-5 level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000001392 ! interleukin-5
+intersection_of: towards PR:000001392 ! interleukin-5
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008628 ! abnormal circulating interleukin-9 level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000001396 ! interleukin-9
+intersection_of: towards PR:000001396 ! interleukin-9
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008629 ! increased circulating interleukin-9 level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000001396 ! interleukin-9
+intersection_of: towards PR:000001396 ! interleukin-9
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008630 ! decreased circulating interleukin-9 level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000001396 ! interleukin-9
+intersection_of: towards PR:000001396 ! interleukin-9
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008631 ! abnormal circulating interleukin-16 level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000001374 ! interleukin-16
+intersection_of: towards PR:000001374 ! interleukin-16
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008632 ! increased circulating interleukin-16 level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000001374 ! interleukin-16
+intersection_of: towards PR:000001374 ! interleukin-16
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008633 ! decreased circulating interleukin-16 level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000001374 ! interleukin-16
+intersection_of: towards PR:000001374 ! interleukin-16
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008634 ! abnormal circulating interleukin-18 level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000001376 ! interleukin-18
+intersection_of: towards PR:000001376 ! interleukin-18
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008635 ! increased circulating interleukin-18 level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000001376 ! interleukin-18
+intersection_of: towards PR:000001376 ! interleukin-18
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008636 ! decreased circulating interleukin-18 level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000001376 ! interleukin-18
+intersection_of: towards PR:000001376 ! interleukin-18
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008637 ! abnormal circulating interleukin-1 alpha level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000001135 ! interleukin-1 alpha
+intersection_of: towards PR:000001135 ! interleukin-1 alpha
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008638 ! increased circulating interleukin-1 alpha level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000001135 ! interleukin-1 alpha
+intersection_of: towards PR:000001135 ! interleukin-1 alpha
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008639 ! decreased circulating interleukin-1 alpha level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000001135 ! interleukin-1 alpha
+intersection_of: towards PR:000001135 ! interleukin-1 alpha
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008640 ! abnormal circulating interleukin-1 beta level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000001136 ! interleukin-1 beta
+intersection_of: towards PR:000001136 ! interleukin-1 beta
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008641 ! increased circulating interleukin-1 beta level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000001136 ! interleukin-1 beta
+intersection_of: towards PR:000001136 ! interleukin-1 beta
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008642 ! decreased circulating interleukin-1 beta level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000001136 ! interleukin-1 beta
+intersection_of: towards PR:000001136 ! interleukin-1 beta
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008646 ! abnormal circulating interleukin-12b level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000001369 ! interleukin-12, subunit beta
+intersection_of: towards PR:000001369 ! interleukin-12, subunit beta
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008647 ! increased circulating interleukin-12b level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000001369 ! interleukin-12, subunit beta
+intersection_of: towards PR:000001369 ! interleukin-12, subunit beta
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008648 ! decreased circulating interleukin-12b level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000001369 ! interleukin-12, subunit beta
+intersection_of: towards PR:000001369 ! interleukin-12, subunit beta
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008649 ! abnormal circulating interleukin-23a level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000001384 ! interleukin-23 subunit alpha
+intersection_of: towards PR:000001384 ! interleukin-23 subunit alpha
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008752 ! abnormal tumor necrosis factor level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000000134 ! tumor necrosis factor alpha
+intersection_of: towards PR:000000134 ! tumor necrosis factor alpha
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -29315,18 +29315,18 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 [Term]
 id: MP:0008836 ! abnormal transforming growth factor beta level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000000046 ! TGF-beta
+intersection_of: towards PR:000000046 ! TGF-beta
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008837 ! increased transforming growth factor level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000000046 ! TGF-beta
+intersection_of: towards PR:000000046 ! TGF-beta
 
 [Term]
 id: MP:0008838 ! decreased transforming growth factor level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000000046 ! TGF-beta
+intersection_of: towards PR:000000046 ! TGF-beta
 
 [Term]
 id: MP:0008910 ! thin long bone epiphysis
@@ -29352,20 +29352,20 @@ intersection_of: inheres_in MA:0000059 ! blood
 [Term]
 id: MP:0009059 ! abnormal circulating interleukin-21 level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000001382 ! interleukin-21
+intersection_of: towards PR:000001382 ! interleukin-21
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0009060 ! increased circulating interleukin-21 level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000001382 ! interleukin-21
+intersection_of: towards PR:000001382 ! interleukin-21
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0009061 ! decreased circulating interleukin-21 level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000001382 ! interleukin-21
+intersection_of: towards PR:000001382 ! interleukin-21
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
@@ -30784,7 +30784,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 [Term]
 id: MP:0000199 ! abnormal circulating serum albumin level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000003918 ! serum albumin
+intersection_of: towards PR:000003918 ! serum albumin
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
@@ -30796,13 +30796,13 @@ intersection_of: inheres_in MA:0000358 ! liver
 [Term]
 id: MP:0002966 ! decreased circulating alkaline phosphatase level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000015248 ! antileukoproteinase
+intersection_of: towards PR:000015248 ! antileukoproteinase
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0002968 ! increased circulating alkaline phosphatase level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000015248 ! antileukoproteinase
+intersection_of: towards PR:000015248 ! antileukoproteinase
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
@@ -30814,20 +30814,20 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 [Term]
 id: MP:0003349 ! abnormal circulating renin level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000013883 ! renin
+intersection_of: towards PR:000013883 ! renin
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0003352 ! increased circulating renin level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000013883 ! renin
+intersection_of: towards PR:000013883 ! renin
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0003353 ! decreased circulating renin level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000013883 ! renin
+intersection_of: towards PR:000013883 ! renin
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
@@ -30845,18 +30845,18 @@ intersection_of: inheres_in MA:0001701 ! urachus
 [Term]
 id: MP:0004891 ! abnormal adiponectin level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000003777 ! adiponectin
+intersection_of: towards PR:000003777 ! adiponectin
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0004892 ! increased adiponectin level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000003777 ! adiponectin
+intersection_of: towards PR:000003777 ! adiponectin
 
 [Term]
 id: MP:0004893 ! decreased adiponectin level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000003777 ! adiponectin
+intersection_of: towards PR:000003777 ! adiponectin
 
 [Term]
 id: MP:0005073 ! impaired granulocyte migration
@@ -30889,212 +30889,212 @@ intersection_of: inheres_in MA:0000368 ! kidney
 [Term]
 id: MP:0008550 ! abnormal circulating interferon-beta level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000008924 ! interferon beta
+intersection_of: towards PR:000008924 ! interferon beta
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008560 ! increased tumor necrosis factor secretion
 intersection_of: PATO:0000470 ! present in greater numbers in organism
-intersection_of: has_central_participant PRO:000000134 ! tumor necrosis factor alpha
+intersection_of: has_central_participant PR:000000134 ! tumor necrosis factor alpha
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008561 ! decreased tumor necrosis factor secretion
 intersection_of: PATO:0001997 ! present in fewer numbers in organism
-intersection_of: has_central_participant PRO:000000134 ! tumor necrosis factor alpha
+intersection_of: has_central_participant PR:000000134 ! tumor necrosis factor alpha
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008564 ! increased interferon-beta secretion
 intersection_of: PATO:0000470 ! present in greater numbers in organism
-intersection_of: has_central_participant PRO:000008924 ! interferon beta
+intersection_of: has_central_participant PR:000008924 ! interferon beta
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008565 ! decreased interferon-beta secretion
 intersection_of: PATO:0001997 ! present in fewer numbers in organism
-intersection_of: has_central_participant PRO:000008924 ! interferon beta
+intersection_of: has_central_participant PR:000008924 ! interferon beta
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008575 ! increased circulating interferon-beta level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards PRO:000008924 ! interferon beta
+intersection_of: towards PR:000008924 ! interferon beta
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008576 ! decreased circulating interferon-beta level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards PRO:000008924 ! interferon beta
+intersection_of: towards PR:000008924 ! interferon beta
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0008660 ! increased interleukin-10 secretion
 intersection_of: PATO:0000470 ! present in greater numbers in organism
-intersection_of: has_central_participant PRO:000001471 ! interleukin-10
+intersection_of: has_central_participant PR:000001471 ! interleukin-10
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008661 ! decreased interleukin-10 secretion
 intersection_of: PATO:0001997 ! present in fewer numbers in organism
-intersection_of: has_central_participant PRO:000001471 ! interleukin-10
+intersection_of: has_central_participant PR:000001471 ! interleukin-10
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008669 ! increased interleukin-12b secretion
 intersection_of: PATO:0000470 ! present in greater numbers in organism
-intersection_of: has_central_participant PRO:000001369 ! interleukin-12 subunit beta
+intersection_of: has_central_participant PR:000001369 ! interleukin-12 subunit beta
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008670 ! decreased interleukin-12b secretion
 intersection_of: PATO:0001997 ! present in fewer numbers in organism
-intersection_of: has_central_participant PRO:000001369 ! interleukin-12 subunit beta
+intersection_of: has_central_participant PR:000001369 ! interleukin-12 subunit beta
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008672 ! increased interleukin-13 secretion
 intersection_of: PATO:0000470 ! present in greater numbers in organism
-intersection_of: has_central_participant PRO:000001370 ! interleukin-13
+intersection_of: has_central_participant PR:000001370 ! interleukin-13
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008673 ! decreased interleukin-13 secretion
 intersection_of: PATO:0001997 ! present in fewer numbers in organism
-intersection_of: has_central_participant PRO:000001370 ! interleukin-13
+intersection_of: has_central_participant PR:000001370 ! interleukin-13
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008675 ! increased interleukin-15 secretion
 intersection_of: PATO:0000470 ! present in greater numbers in organism
-intersection_of: has_central_participant PRO:000001373 ! interleukin-15
+intersection_of: has_central_participant PR:000001373 ! interleukin-15
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008676 ! decreased interleukin-15 secretion
 intersection_of: PATO:0001997 ! present in fewer numbers in organism
-intersection_of: has_central_participant PRO:000001373 ! interleukin-15
+intersection_of: has_central_participant PR:000001373 ! interleukin-15
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008678 ! increased interleukin-16 secretion
 intersection_of: PATO:0000470 ! present in greater numbers in organism
-intersection_of: has_central_participant PRO:000001374 ! interleukin-16
+intersection_of: has_central_participant PR:000001374 ! interleukin-16
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008679 ! decreased interleukin-16 secretion
 intersection_of: PATO:0001997 ! present in fewer numbers in organism
-intersection_of: has_central_participant PRO:000001374 ! interleukin-16
+intersection_of: has_central_participant PR:000001374 ! interleukin-16
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008681 ! increased interleukin-17 secretion
 intersection_of: PATO:0000470 ! present in greater numbers in organism
-intersection_of: has_central_participant PRO:000001092 ! interleukin-17
+intersection_of: has_central_participant PR:000001092 ! interleukin-17
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008682 ! decreased interleukin-17 secretion
 intersection_of: PATO:0001997 ! present in fewer numbers in organism
-intersection_of: has_central_participant PRO:000001092 ! interleukin-17
+intersection_of: has_central_participant PR:000001092 ! interleukin-17
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008684 ! increased interleukin-18 secretion
 intersection_of: PATO:0000470 ! present in greater numbers in organism
-intersection_of: has_central_participant PRO:000001376 ! interleukin-18
+intersection_of: has_central_participant PR:000001376 ! interleukin-18
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008685 ! decreased interleukin-18 secretion
 intersection_of: PATO:0001997 ! present in fewer numbers in organism
-intersection_of: has_central_participant PRO:000001376 ! interleukin-18
+intersection_of: has_central_participant PR:000001376 ! interleukin-18
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008693 ! increased interleukin-23a secretion
 intersection_of: PATO:0000470 ! present in greater numbers in organism
-intersection_of: has_central_participant PRO:000001384 ! interleukin-23 subunit alpha
+intersection_of: has_central_participant PR:000001384 ! interleukin-23 subunit alpha
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008694 ! decreased interleukin-23a secretion
 intersection_of: PATO:0001997 ! present in fewer numbers in organism
-intersection_of: has_central_participant PRO:000001384 ! interleukin-23 subunit alpha
+intersection_of: has_central_participant PR:000001384 ! interleukin-23 subunit alpha
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008696 ! increased interleukin-3 secretion
 intersection_of: PATO:0000470 ! present in greater numbers in organism
-intersection_of: has_central_participant PRO:000001387 ! interleukin-3
+intersection_of: has_central_participant PR:000001387 ! interleukin-3
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008697 ! decreased interleukin-3 secretion
 intersection_of: PATO:0001997 ! present in fewer numbers in organism
-intersection_of: has_central_participant PRO:000001387 ! interleukin-3
+intersection_of: has_central_participant PR:000001387 ! interleukin-3
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008699 ! increased interleukin-4 secretion
 intersection_of: PATO:0000470 ! present in greater numbers in organism
-intersection_of: has_central_participant PRO:000001391 ! interleukin-4
+intersection_of: has_central_participant PR:000001391 ! interleukin-4
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008700 ! decreased interleukin-4 secretion
 intersection_of: PATO:0001997 ! present in fewer numbers in organism
-intersection_of: has_central_participant PRO:000001391 ! interleukin-4
+intersection_of: has_central_participant PR:000001391 ! interleukin-4
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008702 ! increased interleukin-5 secretion
 intersection_of: PATO:0000470 ! present in greater numbers in organism
-intersection_of: has_central_participant PRO:000001392 ! interleukin-5
+intersection_of: has_central_participant PR:000001392 ! interleukin-5
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008703 ! decreased interleukin-5 secretion
 intersection_of: PATO:0001997 ! present in fewer numbers in organism
-intersection_of: has_central_participant PRO:000001392 ! interleukin-5
+intersection_of: has_central_participant PR:000001392 ! interleukin-5
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008705 ! increased interleukin-6 secretion
 intersection_of: PATO:0000470 ! present in greater numbers in organism
-intersection_of: has_central_participant PRO:000001393 ! interleukin-6
+intersection_of: has_central_participant PR:000001393 ! interleukin-6
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008706 ! decreased interleukin-6 secretion
 intersection_of: PATO:0001997 ! present in fewer numbers in organism
-intersection_of: has_central_participant PRO:000001393 ! interleukin-6
+intersection_of: has_central_participant PR:000001393 ! interleukin-6
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008708 ! increased interleukin-7 secretion
 intersection_of: PATO:0000470 ! present in greater numbers in organism
-intersection_of: has_central_participant PRO:000001317 ! interleukin-7
+intersection_of: has_central_participant PR:000001317 ! interleukin-7
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008709 ! decreased interleukin-7 secretion
 intersection_of: PATO:0001997 ! present in fewer numbers in organism
-intersection_of: has_central_participant PRO:000001317 ! interleukin-7
+intersection_of: has_central_participant PR:000001317 ! interleukin-7
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008711 ! increased interleukin-9 secretion
 intersection_of: PATO:0000470 ! present in greater numbers in organism
-intersection_of: has_central_participant PRO:000001396 ! interleukin-9
+intersection_of: has_central_participant PR:000001396 ! interleukin-9
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0008712 ! decreased interleukin-9 secretion
 intersection_of: PATO:0001997 ! present in fewer numbers in organism
-intersection_of: has_central_participant PRO:000001396 ! interleukin-9
+intersection_of: has_central_participant PR:000001396 ! interleukin-9
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
@@ -31118,7 +31118,7 @@ intersection_of: inheres_in GO:0006915 ! apoptosis
 [Term]
 id: MP:0008831 ! abnormal insulin-like growth factor I level
 intersection_of: PATO:0000033 ! concentration of
-intersection_of: towards PRO:000009182 ! insulin-like growth factor I
+intersection_of: towards PR:000009182 ! insulin-like growth factor I
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -31146,13 +31146,13 @@ intersection_of: towards GO:0060209 ! estrus
 [Term]
 id: MP:0009057 ! increased interleukin-21 secretion
 intersection_of: PATO:0000470 ! present in greater numbers in organism
-intersection_of: has_central_participant PRO:000001382 ! interleukin-21
+intersection_of: has_central_participant PR:000001382 ! interleukin-21
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0009058 ! decreased interleukin-21 secretion
 intersection_of: PATO:0001997 ! present in fewer numbers in organism
-intersection_of: has_central_participant PRO:000001382 ! interleukin-21
+intersection_of: has_central_participant PR:000001382 ! interleukin-21
 intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
@@ -34117,14 +34117,14 @@ id: MP:0010212 ! abnormal circulating C-reactive protein level
 intersection_of: PATO:0000033 ! concentration of
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: towards PRO:000005897 ! C-reactive protein
+intersection_of: towards PR:000005897 ! C-reactive protein
 
 [Term]
 id: MP:0010333 ! abnormal circulating apolipoprotein E level
 intersection_of: PATO:0000033 ! concentration of
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: towards PRO:000004155 ! apolipoprotein E
+intersection_of: towards PR:000004155 ! apolipoprotein E
 
 [Term]
 id: MP:0010740 ! abnormal dendritic cell chemotaxis
@@ -35095,7 +35095,7 @@ intersection_of: inheres_in NBO:0000064 ! drinking behavior
 id: MP:0001431 ! abnormal eating behavior
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in NBO:000006 ! eating behavior
+intersection_of: inheres_in NBO:0000063 ! eating behavior
 
 [Term]
 id: MP:0005449 ! abnormal food intake
@@ -35985,7 +35985,7 @@ equivalent_to: NBO:0000592 ! dysmetria
 
 [Term]
 id: MP:0009514 ! titubation
-equivalent_to: NBO:000059 ! titubation
+equivalent_to: NBO:0000596 ! titubation
 
 [Term]
 id: MP:0001446 ! abnormal whisker trimming behavior
