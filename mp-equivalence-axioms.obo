@@ -30320,8 +30320,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 [Term]
 id: MP:0009695 ! abnormal spinal cord ventral commissure morphology
 intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in_part_of MA:0000216 ! spinal cord
-intersection_of: inheres_in MA:0002722 ! anterior commissure
+intersection_of: inheres_in UBERON:0004170 ! spinal cord ventral commissure
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -35992,6 +35991,10 @@ id: MP:0001446 ! abnormal whisker trimming behavior
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in NBO:0000561 ! hetero-barbering
+
+[Term]
+id: MP:0001446 ! whisker trimming
+equivalent_to: NBO:0000561 ! hetero-barbering
 
 [Term]
 id: MP:0001399 ! hyperactivity
