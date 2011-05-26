@@ -6744,8 +6744,13 @@ intersection_of: towards CHEBI:33569 ! noradrenaline
 [Term]
 id: MP:0001744 ! hypersecretion of corticosterone
 intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in _:corticosterone_secretion
+
+[Term]
+id: _:corticosterone_secretion
+is_anonymous: true
+intersection_of: GO:0046903 ! secretion
 intersection_of: results_in_directed_movement_of CHEBI:16827 ! corticosterone
-intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0001745 ! increased circulating corticosterone level
