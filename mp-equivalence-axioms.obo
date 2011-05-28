@@ -10768,12 +10768,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in CL:0000540 ! neuron
 
 [Term]
-id: MP:0002887 ! decreased susceptibility to pharmacologically induced seizures
-intersection_of: PATO:0001670 ! decreased susceptibility toward
-intersection_of: inheres_in MA:0002405 ! adult mouse
-intersection_of: towards MP:0000950 ! pharmacologically induced seizures
-
-[Term]
 id: MP:0002891 ! increased insulin sensitivity
 intersection_of: PATO:0001549 ! increased sensitivity
 intersection_of: inheres_in MA:0002405 ! adult mouse
@@ -10838,12 +10832,6 @@ id: MP:0002905 ! decreased circulating parathyroid hormone level
 intersection_of: PATO:0001163 ! decreased concentration
 intersection_of: towards PR:000013429 ! parathyroid hormone
 intersection_of: inheres_in MA:0000059 ! blood
-
-[Term]
-id: MP:0002906 ! increased susceptibility to pharmacologically induced seizures
-intersection_of: PATO:0001669 ! increased susceptibility toward
-intersection_of: inheres_in MA:0002405 ! adult mouse
-intersection_of: towards MP:0002064 ! seizures
 
 [Term]
 id: MP:0002907 ! abnormal parturition
@@ -21970,7 +21958,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 id: MP:0005417 ! hypoproteinemia
 intersection_of: PATO:0001163 ! decreased concentration
 intersection_of: towards CHEBI:16541 ! Protein
-intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0005418 ! abnormal circulating hormone level
@@ -34943,23 +34930,28 @@ intersection_of: inheres_in NBO:0000166 ! circadian rhythm
 
 [Term]
 id: MP:0002822 ! catalepsy
-equivalent_to: NBO:0000563 ! catalepsy
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000563 ! catalepsy
 
 [Term]
 id: MP:0002571 ! senility
-equivalent_to: NBO:0000572 ! senility
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000572 ! senility
 
 [Term]
 id: MP:0002899 ! fatigue
-equivalent_to: NBO:0000569 ! fatigue
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000569 ! fatigue
 
 [Term]
 id: MP:0001361 ! social withdrawal
-equivalent_to: NBO:0000565 ! social withdrawal
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000565 ! social withdrawal
 
 [Term]
 id: MP:0002573 ! behavioral despair
-equivalent_to: NBO:0000573 ! social withdrawal
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000573 ! social withdrawal
 
 [Term]
 id: MP:0002558 ! abnormal circadian period
@@ -35070,15 +35062,18 @@ intersection_of: inheres_in NBO:0000137 ! liquid preference
 
 [Term]
 id: MP:0002119 ! dipsosis
-equivalent_to: NBO:0000541 ! dipsosis
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000541 ! dipsosis
 
 [Term]
 id: MP:0001426 ! polydipsia
-equivalent_to: NBO:0000542 ! polydipsia
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000542 ! polydipsia
 
 [Term]
 id: MP:0005111 ! hyperdipsia
-equivalent_to: NBO:0000543 ! hyperdipsia
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000543 ! hyperdipsia
 
 [Term]
 id: MP:0001428 ! adipsia
@@ -35109,7 +35104,8 @@ intersection_of: inheres_in NBO:0000134 ! food consumption
 
 [Term]
 id: MP:0001438 ! aphagia
-equivalent_to: NBO:0000544 ! aphagia
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000544 ! aphagia
 
 [Term]
 id: MP:0003909 ! increased eating behavior
@@ -35128,7 +35124,8 @@ intersection_of: towards NBO:0000545 ! swallowing
 
 [Term]
 id: MP:0001433 ! polyphagia
-equivalent_to: NBO:0000546 ! polyphagia
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000546 ! polyphagia
 
 [Term]
 id: MP:0001432 ! abnormal food preference
@@ -35264,7 +35261,8 @@ intersection_of: inheres_in NBO:0000103 ! coping behavior
 
 [Term]
 id: MP:0009710 ! anhedonia
-equivalent_to: NBO:0000547 ! anhedonia
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000547 ! anhedonia
 
 [Term]
 id: MP:0002065 ! abnormal fear/anxiety-related behavior
@@ -35343,7 +35341,8 @@ intersection_of: inheres_in NBO:0000097 ! response to novel environment
 
 [Term]
 id: MP:0005357 ! novel environmental response-related retropulsion
-equivalent_to: NBO:0000102 ! fear-related retropulsion
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000102 ! fear-related retropulsion
 
 [Term]
 id: MP:0003462 ! abnormal response to novel odor
@@ -35633,7 +35632,8 @@ intersection_of: inheres_in NBO:0000159 ! rapid eye movement sleep
 
 [Term]
 id: MP:0005279 ! narcolepsy
-equivalent_to: NBO:0000423 ! narcolepsy
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000423 ! narcolepsy
 
 [Term]
 id: MP:0003491 ! abnormal voluntary movement
@@ -35670,11 +35670,13 @@ intersection_of: towards NBO:0000449 ! spontaneous movement
 
 [Term]
 id: MP:0005356 ! positive geotaxis
-equivalent_to: NBO:0000380 ! positive gravitactic behaviour
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000380 ! positive gravitactic behaviour
 
 [Term]
 id: MP:0010323 ! retropulsion
-equivalent_to: NBO:0000101 ! retropulsion
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000101 ! retropulsion
 
 [Term]
 id: MP:0003312 ! abnormal locomotor coordination
@@ -35813,7 +35815,8 @@ intersection_of: inheres_in NBO:0000567 ! stereotypic behavior
 
 [Term]
 id: MP:0001408 ! stereotypic behavior
-equivalent_to: NBO:0000567 ! stereotypic behavior
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000567 ! stereotypic behavior
 
 [Term]
 id: MP:0002730 ! head shaking
@@ -35969,27 +35972,33 @@ intersection_of: inheres_in NBO:0000584 ! clutching reflex
 
 [Term]
 id: MP:0009354 ! emprosthotonos
-equivalent_to: NBO:0000585 ! emprosthotonos
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000585 ! emprosthotonos
 
 [Term]
 id: MP:0002880 ! opisthotonus
-equivalent_to: NBO:0000586 ! opisthotonus
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000586 ! opisthotonus
 
 [Term]
 id: MP:0000745 ! tremors
-equivalent_to: NBO:0000589 ! tremor
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000589 ! tremor
 
 [Term]
 id: MP:0001393 ! ataxia
-equivalent_to: NBO:0000590 ! ataxia
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000590 ! ataxia
 
 [Term]
 id: MP:0003314 ! dysmetria
-equivalent_to: NBO:0000592 ! dysmetria
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000592 ! dysmetria
 
 [Term]
 id: MP:0009514 ! titubation
-equivalent_to: NBO:0000596 ! titubation
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000596 ! titubation
 
 [Term]
 id: MP:0001446 ! abnormal whisker trimming behavior
@@ -35998,16 +36007,14 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in NBO:0000561 ! hetero-barbering
 
 [Term]
-id: MP:0001446 ! whisker trimming
-equivalent_to: NBO:0000561 ! hetero-barbering
-
-[Term]
 id: MP:0001399 ! hyperactivity
-equivalent_to: NBO:0000030 ! hyperactivity
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000030 ! hyperactivity
 
 [Term]
 id: MP:0001402 ! hypoactivity
-equivalent_to: NBO:0000031 ! hypoactivity
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000031 ! hypoactivity
 
 [Term]
 id: MP:0006156 ! abnormal visual pursuit
@@ -36017,24 +36024,112 @@ intersection_of: inheres_in NBO:0000446 ! visual pursuit
 
 [Term]
 id: MP:0000755 ! hindlimb paralysis
-equivalent_to: NBO:0000597 ! hindlimb paralysis
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000597 ! hindlimb paralysis
 
 [Term]
 id: MP:0000756 ! forelimb paralysis
-equivalent_to: NBO:0000061 ! forelimb paralysis
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000061 ! forelimb paralysis
 
 [Term]
 id: MP:0005162 ! carpoptosis
-equivalent_to: NBO:0000033 ! carpoptosis
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000033 ! carpoptosis
 
 [Term]
 id: MP:0000753 ! paralysis
-equivalent_to: NBO:0000032 ! paralysis
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000032 ! paralysis
 
 [Term]
 id: MP:0005323 ! dystonia
-equivalent_to: NBO:0000598 ! dystonia
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000598 ! dystonia
 
+[Term]
+id: MP:0000243 ! myoclonus
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000671 ! myoclonic seizure
+
+[Term]
+id: MP:0002826 ! tonic seizures
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000677 ! tonic seizure
+
+[Term]
+id: MP:0003997 ! tonic-clonic seizures
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000676 ! tonic clonic seizure
+
+[Term]
+id: MP:0003996 ! clonic seizures
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000672 ! clonic seizure
+
+[Term]
+id: MP:0003216 ! absence seizures
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000669 ! absence seizure
+
+[Term]
+id: MP:0009358 ! environmentally induced seizures
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000675 ! reflex epilepsy
+
+[Term]
+id: MP:0001496 ! audiogenic seizures
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000700 ! audiogenic seizure
+
+[Term]
+id: MP:0002195 ! psychomotor seizures
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000648 ! complex partial seizure
+
+[Term]
+id: MP:0000950 ! abnormal seizure response to pharmacological agent
+intersection_of: PATO:0001043 ! susceptibility toward
+intersection_of: towards NBO:0000709 ! drug induced non-epileptic seizure
+intersection_of: qualifier PATO:0000460 ! abnormal
+
+[Term]
+id: MP:0002906 ! increased susceptibility to pharmacologically induced seizures
+intersection_of: PATO:0001669 ! increased susceptibility toward
+intersection_of: towards NBO:0000709 ! drug induced non-epileptic seizure
+
+[Term]
+id: MP:0002887 ! decreased susceptibility to pharmacologically induced seizures
+intersection_of: PATO:0001670 ! decreased susceptibility toward
+intersection_of: towards NBO:0000709 ! drug induced non-epileptic seizure
+
+[Term]
+id: MP:0009357 ! abnormal seizure response to inducing agent
+intersection_of: PATO:0001043 ! susceptibility toward
+intersection_of: towards NBO:0000686 ! provoked seizure
+intersection_of: qualifier PATO:0000460 ! abnormal
+
+[Term]
+id: MP:0001650 ! abnormal seizure response to electrical stimulation
+intersection_of: PATO:0001043 ! susceptibility toward
+intersection_of: towards NBO:0000724 ! electrical stimulation induced seizure
+intersection_of: qualifier PATO:0000460 ! abnormal
+
+[Term]
+id: MP:0001499 ! abnormal kindling response
+intersection_of: PATO:0001043 ! susceptibility toward
+intersection_of: towards NBO:0000728 ! electrical kindling induced seizure
+intersection_of: qualifier PATO:0000460 ! abnormal
+
+[Term]
+id: MP:0001500 ! reduced kindling response
+intersection_of: PATO:0001670 ! decreased susceptibility toward
+intersection_of: towards NBO:0000728 ! electrical kindling induced seizure
+
+[Term]
+id: MP:0002064 ! seizures
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0000012 ! seizures/epilepsy
 
 [Term]
 id: _:lens_epithelium_apoptosis
