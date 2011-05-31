@@ -27240,7 +27240,7 @@ intersection_of: towards MA:0000473 ! subcutaneous adipose tissue
 
 [Term]
 id: MP:0008844 ! decreased subcutaneous adipose tissue amount
-intersection_of: PATO:0001997 ! decreased amount
+intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: inheres_in MA:0000473 ! subcutaneous adipose tissue
 
 [Term]
@@ -27407,7 +27407,7 @@ intersection_of: towards CL:0000545 ! T-helper 1 cell
 
 [Term]
 id: MP:0008087 ! decreased T helper 1 cell number
-intersection_of: PATO:0001997 ! decreased number
+intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards CL:0000545 ! T-helper 1 cell
 
 [Term]
@@ -27423,7 +27423,7 @@ intersection_of: towards CL:0000546 ! T-helper 2 cell
 
 [Term]
 id: MP:0008091 ! decreased T-helper 2 cell number
-intersection_of: PATO:0001997 ! decreased number
+intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards CL:0000546 ! T-helper 2 cell
 
 [Term]
@@ -27444,7 +27444,7 @@ intersection_of: inheres_in MA:0000139 ! lymph node
 
 [Term]
 id: MP:0008119 ! decreased Langerhans cell number
-intersection_of: PATO:0001997 ! decreased number
+intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards CL:0000453 ! Langerhans cell
 
 [Term]
@@ -27454,7 +27454,7 @@ intersection_of: towards CL:0000820 ! B-1a B cell
 
 [Term]
 id: MP:0008168 ! decreased B-1a cell number
-intersection_of: PATO:0001997 ! decreased number
+intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards CL:0000820 ! B-1a B cell
 
 [Term]
@@ -27464,12 +27464,12 @@ intersection_of: towards CL:0000821 ! B-1b B cell
 
 [Term]
 id: MP:0008170 ! decreased B-1b cell number
-intersection_of: PATO:0001997 ! decreased number
+intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards CL:0000821 ! B-1b B cell
 
 [Term]
 id: MP:0008185 ! decreased naive B cell number
-intersection_of: PATO:0001997 ! decreased number
+intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards CL:0000788 ! naive B cell
 
 [Term]
@@ -27484,17 +27484,17 @@ intersection_of: towards CL:0000442 ! follicular dendritic cell
 
 [Term]
 id: MP:0008200 ! decreased follicular dendritic cell number
-intersection_of: PATO:0001997 ! decreased number
+intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards CL:0000442 ! follicular dendritic cell
 
 [Term]
 id: MP:0008208 ! decreased pro-B cell number
-intersection_of: PATO:0001997 ! decreased number
+intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards CL:0000826 ! pro-B cell
 
 [Term]
 id: MP:0008209 ! decreased pre-B cell number
-intersection_of: PATO:0001997 ! decreased number
+intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards CL:0000817 ! pre-B cell
 
 [Term]
@@ -27504,17 +27504,17 @@ intersection_of: towards CL:0000785 ! mature B cell
 
 [Term]
 id: MP:0008211 ! decreased mature B cell number
-intersection_of: PATO:0001997 ! decreased number
+intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards CL:0000785 ! mature B cell
 
 [Term]
 id: MP:0008255 ! decreased megakaryocyte cell number
-intersection_of: PATO:0001997 ! decreased number
+intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards CL:0000556 ! megakaryocyte
 
 [Term]
 id: MP:0008329 ! decreased somatotroph cell number
-intersection_of: PATO:0001997 ! decreased number
+intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards CL:0000295 ! somatotropin secreting cell
 
 [Term]
@@ -27524,53 +27524,53 @@ intersection_of: towards CL:0000439 ! prolactin secreting cell
 
 [Term]
 id: MP:0008335 ! decreased gonadotroph cell number
-intersection_of: PATO:0001997 ! decreased number
+intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards CL:0000437 ! follicle stimulating hormone secreting cell
 
 [Term]
 id: MP:0008338 ! decreased thyrotroph cell number
-intersection_of: PATO:0001997 ! decreased number
+intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards CL:0000476 ! thyroid stimulating hormone secreting cell
 
 [Term]
 id: MP:0008341 ! decreased corticotroph cell number
-intersection_of: PATO:0001997 ! decreased number
+intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards CL:0000467 ! adrenocorticotropic hormone secreting cell
 
 [Term]
 id: MP:0008347 ! decreased gamma-delta T cell number
-intersection_of: PATO:0001997 ! decreased number
+intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards CL:0000798 ! gamma-delta T cell
 
 [Term]
 id: MP:0008351 ! decreased gamma-delta intraepithelial T cell number
-intersection_of: PATO:0001997 ! decreased number
+intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards CL:0000801 ! gamma-delta intraepithelial T cell
 
 [Term]
 id: MP:0008354 ! decreased mature gamma-delta T cell number
-intersection_of: PATO:0001997 ! decreased number
+intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards CL:0000800 ! mature gamma-delta T cell
 
 [Term]
 id: MP:0008359 ! decreased CD4-positive, gamma-delta intraepithelial T cell number
-intersection_of: PATO:0001997 ! decreased number
+intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards CL:0000803 ! CD4-positive, gamma-delta intraepithelial T cell
 
 [Term]
 id: MP:0008363 ! decreased CD8-positive, gamma-delta intraepithelial T cell number
-intersection_of: PATO:0001997 ! decreased number
+intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards CL:0000802 ! CD8-positive, gamma-delta intraepithelial T cell
 
 [Term]
 id: MP:0008392 ! decreased primordial germ cell number
-intersection_of: PATO:0001997 ! decreased number
+intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards CL:0000670 ! primordial germ cell
 
 [Term]
 id: MP:0008538 ! decreased zigzag hair amount
-intersection_of: PATO:0001997 ! decreased amount
-intersection_of: inheres_in MA:0001898 ! zigzag hair
+intersection_of: PATO:0002001 ! has fewer parts of type
+intersection_of: towards MA:0001898 ! zigzag hair
 
 [Term]
 id: MP:0008545 ! absent sperm flagellum
@@ -28536,6 +28536,11 @@ id: MP:0000321 ! increased bone marrow cell number
 intersection_of: PATO:0002002 ! has extra parts of type
 intersection_of: inheres_in MA:0000134 ! bone marrow
 intersection_of: towards CL:0002092 ! bone marrow cell
+
+[Term]
+id: MP:0010934 ! increased subcutaneous adipose tissue amount
+intersection_of: PATO:0002002 ! has extra parts of type
+intersection_of: towards MA:0000473 ! subcutaneous adipose tissue
 
 [Term]
 id: MP:0000333 ! decreased bone marrow cell number
