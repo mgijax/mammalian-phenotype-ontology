@@ -8487,6 +8487,11 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0000441 ! trachea
 
 [Term]
+id: MP:0010883 ! Tracheal stenosis
+intersection_of: PATO:0001847 ! constricted
+intersection_of: inheres_in MA:0000441 ! trachea
+
+[Term]
 id: MP:0002284 ! abnormal tracheal smooth muscle morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -16100,6 +16105,13 @@ id: MP:0004125 ! abnormal venule morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0000071 ! venule
+
+
+[Term]
+id: MP:0000604 ! Amyloidosis
+intersection_of: PATO:0002002 ! having extra physical parts
+intersection_of: towards MPATH:34 ! amyloid deposition
+intersection_of: inheres_in UBERON:0000479 ! Portion of tissue
 
 [Term]
 id: MP:0004126 ! thin hypodermis
