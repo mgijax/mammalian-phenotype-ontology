@@ -627,6 +627,12 @@ intersection_of: inheres_in MA:0002416 ! vertebral column
 intersection_of: towards MA:0000309 ! vertebra
 
 [Term]
+id: MP:0000160 ! Kyphosis
+intersection_of: PATO:0001468 ! curved dorsal
+intersection_of: qualifier PATO:0001869 ! pathological
+intersection_of: inheres_in_part_of MA:0002416 ! vertebral column
+
+[Term]
 id: MP:0000139 ! absent vertebral transverse processes
 intersection_of: PATO:0002000 ! lacks all parts of type
 intersection_of: inheres_in MA:0002416 ! vertebral column
@@ -1818,11 +1824,6 @@ id: MP:0000413 ! polyphalangy
 intersection_of: PATO:0002002 ! having extra physical parts
 intersection_of: inheres_in MA:0000690 ! limb digit
 intersection_of: towards MA:0000304 ! phalanx
-
-[Term]
-id: MP:0000414 ! alopecia
-intersection_of: PATO:0002000 ! lacks all parts of type
-intersection_of: towards MA:0000159 ! hair shaft
 
 [Term]
 id: MP:0000416 ! sparse hair
@@ -4675,11 +4676,11 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in_part_of MA:0000167 ! central nervous system
 intersection_of: inheres_in CL:0000243 ! glial cell (sensu Vertebrata)
 
-![Term]
-!id: MP:0002183 ! gliosis
-!intersection_of: PATO:0000912 ! increased rate
-!intersection_of: inheres_in CL:0000243 ! glial cell (sensu Vertebrata)
-!intersection_of: towards GO:0016049 ! cell growth
+[Term]
+id: MP:0002183 ! gliosis
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in CL:0000243 ! glial cell (sensu Vertebrata)
+intersection_of: towards _:glial_cell_growth
 
 [Term]
 id: MP:0000953 ! abnormal oligodendrocyte morphology
@@ -10161,6 +10162,12 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0000261 ! eye
 
 [Term]
+id: MP:0002641 ! anisopoikilocytosis
+intersection_of: PATO:0000117 ! size
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in CL:0000232 ! erythrocyte
+
+[Term]
 id: MP:0002698 ! abnormal sclera morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -14444,7 +14451,12 @@ intersection_of: inheres_in MA:0000271 ! eye muscle
 [Term]
 id: MP:0003689 ! ophthalmoplegia
 intersection_of: PATO:0000763 ! paralysed
-intersection_of: inheres_in MA:0000271 ! eye muscle
+intersection_of: inheres_in MA:0001271 ! extraocular skeletal muscle
+
+[Term]
+id: MP:0005152 ! pancytopenia
+intersection_of: PATO:0002001 ! has fewer parts of type
+intersection_of: towards CL:0000232 ! erythrocyte
 
 [Term]
 id: MP:0003690 ! abnormal glial cell physiology
@@ -16436,8 +16448,7 @@ intersection_of: towards MA:0001484 ! hyoid bone
 
 [Term]
 id: MP:0004207 ! squamous cell carcinoma
-intersection_of: PATO:0000467 ! present in organisme
-intersection_of: develops_from MA:0001611 ! stomach squamous epithelium
+intersection_of: PATO:0000467 ! present in organism
 intersection_of: inheres_in MPATH:446 ! squamous cell carcinoma
 
 [Term]
@@ -20193,6 +20204,13 @@ intersection_of: inheres_in MA:0001136 ! ciliary ganglion
 [Term]
 id: MP:0004991 ! decreased bone strength
 intersection_of: PATO:0001779 ! decreased strength
+intersection_of: inheres_in MA:0001459 ! bone
+
+[Term]
+id: MP:0009445 ! Osteomalacia
+intersection_of: PATO:0001779 ! decreased strength
+intersection_of: qualifier PATO:0000396 ! severe
+intersection_of: qualifier PATO:0001869 ! pathological
 intersection_of: inheres_in MA:0001459 ! bone
 
 [Term]
@@ -28279,6 +28297,12 @@ intersection_of: inheres_in MA:0000382 ! clitoris
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
+id: MP:0000069 ! Kyphoscoliosis
+intersection_of: PATO:0000001 ! quality
+intersection_of: has_part MP:0000161 ! Scoliosis
+intersection_of: has_part HP:0002808 ! Kyphosis
+
+[Term]
 id: MP:0009101 ! clitoris hypoplasia
 intersection_of: PATO:0000645 ! hypoplastic
 intersection_of: inheres_in MA:0000382 ! clitoris
@@ -31578,6 +31602,12 @@ intersection_of: inheres_in UBERON:0001037 ! hair
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
+id: MP:0000414 ! alopecia
+intersection_of: PATO:0002000 ! lacks all parts of type
+intersection_of: towards UBERON:0001037 ! hair
+!intersection_of: towards MA:0000159 ! hair shaft
+
+[Term]
 id: MP:0000466 ! esophageal epithelium hyperplasia
 intersection_of: PATO:0000644 ! hyperplastic
 intersection_of: inheres_in UBERON:0001976 ! epithelium of esophagus
@@ -34742,6 +34772,11 @@ intersection_of: PATO:0002000 ! lacks all parts of type
 intersection_of: inheres_in UBERON:0004158 ! atrial septum secundum
 
 [Term]
+id: MP:0010403 ! Atrial septal defect
+intersection_of: PATO:0000609 ! closure incomplete
+intersection_of: inheres_in MA:0000084 ! Interatrial septum
+
+[Term]
 id: MP:0010437 ! absent coronary sinus
 intersection_of: PATO:0002000 ! lacks all parts of type
 intersection_of: towards UBERON:0005438 ! coronary sinus
@@ -36293,6 +36328,12 @@ id: _:iris_stroma_pigmentation
 is_anonymous: true
 intersection_of: GO:0043473 ! pigmentation
 intersection_of: has_central_participant MA:0002777 ! iris stroma
+
+[Term]
+id: _:glial_cell_growth
+is_anonymous: true
+intersection_of: GO:0016049 ! cell growth
+intersection_of: has_central_participant CL:0000243 ! glial cell (sensu Vertebrata)
 
 [Term]
 id: _:limb_digit_pigmentation
