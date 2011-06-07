@@ -102,8 +102,8 @@ intersection_of: inheres_in MA:0000056! fat
 
 [Term]
 id: MP:0000015 ! abnormal ear pigmentation
-intersection_of: PATO:0002247 ! degree of pigmentation
-intersection_of: inheres_in MA:0001233 ! ear skin
+intersection_of: PATO:0000001 ! quality
+intersection_of: inheres_in _:ear_skin_pigmentation
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -189,6 +189,11 @@ intersection_of: inheres_in MA:0000240 ! cochlea
 id: MP:0000032 ! cochlear degeneration
 intersection_of: PATO:0000639 ! degenerate
 intersection_of: inheres_in MA:0000240 ! cochlea
+
+[Term]
+id: MP:0006219 ! optic nerve degeneration
+intersection_of: PATO:0000639 ! degenerate
+intersection_of: inheres_in UBERON:0004904 ! optic nerve
 
 [Term]
 id: MP:0000033 ! absent scala media
@@ -2031,6 +2036,11 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0002474 ! mouth
 
 [Term]
+id: MP:0009881 ! macrostomia
+intersection_of: PATO:0000600! increased width
+intersection_of: inheres_in MA:0002474 ! mouth
+
+[Term]
 id: MP:0003744 ! abnormal orofacial morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -2759,8 +2769,8 @@ intersection_of: inheres_in MA:0000690 ! limb digit
 
 [Term]
 id: MP:0000569 ! abnormal digit pigmentation
-intersection_of: PATO:0002247 ! degree of pigmentation
-intersection_of: inheres_in MA:0000690 ! limb digit
+intersection_of: PATO:0000001 ! quality
+intersection_of: inheres_in _:limb_digit_pigmentation
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 ! This term should be merged with MP:0004271
@@ -4954,7 +4964,7 @@ intersection_of: inheres_in MA:0000215 ! cranial nerve
 [Term]
 id: MP:0001059 ! optic nerve atrophy
 intersection_of: PATO:0001623 ! atrophied
-intersection_of: inheres_in MA:0001097 ! optic II nerve
+intersection_of: inheres_in UBERON:0004904 ! optic nerve
 
 [Term]
 id: MP:0001061 ! abnormal oculomotor nerve morphology
@@ -5498,8 +5508,9 @@ intersection_of: towards MA:0000416 ! alveolar system
 
 [Term]
 id: MP:0001186 ! pigmentation phenotype
-intersection_of: PATO:0002247 ! degree of pigmentation
-intersection_of: inheres_in_part_of MA:0002405 ! adult mouse
+intersection_of: PATO:0000001 ! quality
+intersection_of: inheres_in GO:0043473 ! pigmentation
+intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0001188 ! hyperpigmentation
@@ -6082,9 +6093,9 @@ intersection_of: inheres_in MA:0000273 ! iris
 
 [Term]
 id: MP:0001324 ! abnormal eye pigmentation
-intersection_of: PATO:0002247 ! degree of pigmentation
+intersection_of: PATO:0000001 ! quality
+intersection_of: inheres_in _:eye_pigmentation
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000261 ! eye
 
 [Term]
 id: MP:0001325 ! abnormal retina morphology
@@ -7686,9 +7697,9 @@ intersection_of: inheres_in MA:0000155 ! coat hair
 
 [Term]
 id: MP:0002075 ! abnormal coat/hair pigmentation
-intersection_of: PATO:0002247 ! degree of pigmentation
+intersection_of: PATO:0000001 ! quality
+intersection_of: inheres_in  _:coat_hair_pigmentation
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000155 ! coat hair
 
 [Term]
 id: MP:0002078 ! abnormal glucose homeostasis
@@ -7757,9 +7768,9 @@ intersection_of: inheres_in MA:0002826 ! iris epithelium
 
 [Term]
 id: MP:0002095 ! abnormal skin pigmentation
-intersection_of: PATO:0002247 ! degree of pigmentation
+intersection_of: PATO:0000001 ! quality
+intersection_of: inheres_in _:skin_pigmentation
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000151 ! skin
 
 [Term]
 id: MP:0002098 ! abnormal vibrissa morphology
@@ -12241,6 +12252,11 @@ intersection_of: towards MPATH:217 ! ulcerative inflammation
 intersection_of: inheres_in MA:0000338 ! duodenum
 
 [Term]
+id: MP:0001193 ! psoriasis
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards  MPATH:675 ! psoriasiform dermatitis
+
+[Term]
 id: MP:0003274 ! intestinal microaneurysm
 intersection_of: PATO:0002002 ! having extra physical parts
 intersection_of: towards MPATH:97 ! dissecting aneurysm
@@ -12489,7 +12505,8 @@ intersection_of: inheres_in MA:0000358 ! liver
 [Term]
 id: MP:0003328 ! portal hypertension
 intersection_of: PATO:0001576 ! increased pressure
-intersection_of: inheres_in MA:0002132 ! hepatic portal vein
+intersection_of: inheres_in MA:0000059 ! blood
+intersection_of: inheres_in_part_of MA:0002132 ! hepatic portal vein
 
 [Term]
 id: MP:0003330 ! abnormal auditory tube
@@ -14863,9 +14880,9 @@ intersection_of: inheres_in MA:0002835 ! sulcus ampullaris
 
 [Term]
 id: MP:0003798 ! abnormal Harderian gland pigmentation
-intersection_of: PATO:0002247 ! degree of pigmentation
+intersection_of: PATO:0000001 ! quality
+intersection_of: inheres_in _:harderian_gland_pigmentation
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0001247 ! harderian gland
 
 [Term]
 id: MP:0003806 ! abnormal nucleotide metabolism
@@ -15169,6 +15186,12 @@ id: MP:0001913 ! decreased cerebrospinal fluid production
 intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0009058 ! biosynthetic process
 intersection_of: has_central_participant MA:0002503 ! cerebrospinal fluid
+
+[Term]
+id: MP:0005324 ! ascites
+intersection_of: PATO:0002002 ! having extra physical parts
+intersection_of: inheres_in MA:0000054 ! peritoneal cavity
+intersection_of: towards MA:0002450 ! body fluid or substance
 
 [Term]
 id: MP:0001912 ! increased cerebrospinal fluid production
@@ -17506,7 +17529,7 @@ intersection_of: inheres_in MA:0000293 ! pelvic girdle bone
 [Term]
 id: MP:0006222 ! optic neuropathy
 intersection_of: PATO:0001167 ! damaged
-intersection_of: inheres_in MA:0001097 ! optic II nerve
+intersection_of: inheres_in UBERON:0004904 ! optic nerve
 
 [Term]
 id: MP:0004513 ! avnosmia
@@ -20502,27 +20525,27 @@ intersection_of: inheres_in MA:0000264 ! ciliary body
 
 [Term]
 id: MP:0005100 ! abnormal choroid pigmentation
-intersection_of: PATO:0002247 ! degree of pigmentation
+intersection_of: PATO:0000001 ! quality
+intersection_of: inheres_in _:choroid_pigmentation
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000263 ! choroid
 
 [Term]
 id: MP:0005101 ! abnormal ciliary body pigmentation
-intersection_of: PATO:0002247 ! degree of pigmentation
+intersection_of: PATO:0000001 ! quality
+intersection_of: inheres_in _:ciliary_body_pigmentation
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000264 ! ciliary body
 
 [Term]
 id: MP:0005102 ! abnormal iris pigmentation
-intersection_of: PATO:0002247 ! degree of pigmentation
-intersection_of: inheres_in MA:0000273 ! iris
+intersection_of: PATO:0000001 ! quality
+intersection_of: inheres_in _:iris_pigmentation
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0005103 ! abnormal retinal pigmentation
-intersection_of: PATO:0002247 ! degree of pigmentation
+intersection_of: PATO:0000001 ! quality
+intersection_of: inheres_in  _:retina_pigmentation
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000276 ! retina
 
 [Term]
 id: MP:0005104 ! abnormal tarsal bone morphology
@@ -20824,9 +20847,9 @@ intersection_of: inheres_in MA:0000261 ! eye
 
 [Term]
 id: MP:0005174 ! abnormal tail pigmentation
-intersection_of: PATO:0002247 ! degree of pigmentation
+intersection_of: PATO:0000001 ! quality
+intersection_of: inheres_in _:tail_pigmentation
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000008 ! tail
 
 [Term]
 id: MP:0005175 ! non-pigmented tail tip
@@ -22259,7 +22282,7 @@ intersection_of: inheres_in MA:0001610 ! stomach epithelium
 [Term]
 id: MP:0005497 ! optic nerve cupping
 intersection_of: PATO:0001857 ! concave
-intersection_of: inheres_in MA:0001097 ! optic II nerve
+intersection_of: inheres_in UBERON:0004904 ! optic nerve
 
 ! TODO
 [Term]
@@ -22467,8 +22490,8 @@ intersection_of: inheres_in MA:0000208 ! cerebral aqueduct
 
 [Term]
 id: MP:0005541 ! abnormal iris stromal pigmentation
-intersection_of: PATO:0002247 ! degree of pigmentation
-intersection_of: inheres_in MA:0002777 ! iris stroma
+intersection_of: PATO:0000001 ! quality
+intersection_of: inheres_in _:iris_stroma_pigmentation
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -24022,22 +24045,22 @@ intersection_of: inheres_in MA:0000278 ! optic disc
 [Term]
 id: MP:0006219 ! optic nerve degeneration
 intersection_of: PATO:0000639 ! degenerate
-intersection_of: inheres_in MA:0001097 ! optic II nerve
+intersection_of: inheres_in UBERON:0004904 ! optic nerve
 
 [Term]
 id: MP:0006220 ! optic nerve compression
 intersection_of: PATO:0001847 ! constricted
-intersection_of: inheres_in MA:0001097 ! optic II nerve
+intersection_of: inheres_in UBERON:0004904 ! optic nerve
 
 [Term]
 id: MP:0006221 ! optic nerve hypoplasia
 intersection_of: PATO:0000645 ! hypoplastic
-intersection_of: inheres_in MA:0001097 ! optic II nerve
+intersection_of: inheres_in UBERON:0004904 ! optic nerve
 
 [Term]
 id: MP:0006223 ! optic nerve swelling
 intersection_of: PATO:0001450 ! edematous
-intersection_of: inheres_in MA:0001097 ! optic II nerve
+intersection_of: inheres_in UBERON:0004904 ! optic nerve
 
 [Term]
 id: MP:0006225 ! ocular rupture
@@ -36168,6 +36191,77 @@ is_anonymous: true
 union_of: CL:0000624 ! CD4-positive, alpha-beta T cell
 union_of: CL:0000625 ! CD8-positive, alpha-beta T cell
 
+[Term]
+id: _:iris_pigmentation
+is_anonymous: true
+intersection_of: GO:0043473 ! pigmentation
+intersection_of: has_central_participant MA:0000273 ! iris
+
+[Term]
+id: _:ear_skin_pigmentation
+is_anonymous: true
+intersection_of: GO:0043473 ! pigmentation
+intersection_of: has_central_participant MA:0001233 ! ear skin
+
+[Term]
+id: _:eye_pigmentation
+is_anonymous: true
+intersection_of: GO:0043473 ! pigmentation
+intersection_of: has_central_participant MA:0000261 ! eye
+
+[Term]
+id: _:coat_hair_pigmentation
+is_anonymous: true
+intersection_of: GO:0043473 ! pigmentation
+intersection_of: has_central_participant MA:0000155 ! coat hair
+
+[Term]
+id: _:skin_pigmentation
+is_anonymous: true
+intersection_of: GO:0043473 ! pigmentation
+intersection_of: has_central_participant MA:0000151 ! skin
+
+[Term]
+id: _:harderian_gland_pigmentation
+is_anonymous: true
+intersection_of: GO:0043473 ! pigmentation
+intersection_of: has_central_participant MA:0001247 ! harderian gland
+
+[Term]
+id: _:choroid_pigmentation
+is_anonymous: true
+intersection_of: GO:0043473 ! pigmentation
+intersection_of: has_central_participant MA:0000263 ! choroid
+
+[Term]
+id: _:ciliary_body_pigmentation
+is_anonymous: true
+intersection_of: GO:0043473 ! pigmentation
+intersection_of: has_central_participant MA:0000264 ! ciliary body
+
+[Term]
+id: _:retina_pigmentation
+is_anonymous: true
+intersection_of: GO:0043473 ! pigmentation
+intersection_of: has_central_participant MA:0000276 ! retina
+
+[Term]
+id: _:tail_pigmentation
+is_anonymous: true
+intersection_of: GO:0043473 ! pigmentation
+intersection_of: has_central_participant MA:0000008 ! tail
+
+[Term]
+id: _:iris_stroma_pigmentation
+is_anonymous: true
+intersection_of: GO:0043473 ! pigmentation
+intersection_of: has_central_participant MA:0002777 ! iris stroma
+
+[Term]
+id: _:limb_digit_pigmentation
+is_anonymous: true
+intersection_of: GO:0043473 ! pigmentation
+intersection_of: has_central_participant MA:0000690 ! limb digit
 
 !!!! We need to check Typedefs and usage
 
