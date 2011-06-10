@@ -2598,6 +2598,11 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0000379 ! urethra
 
 [Term]
+id: MP:0003591 ! Urethral atresia
+intersection_of: PATO:0001819 ! atretic
+intersection_of: inheres_in MA:0000379 ! urethra
+
+[Term]
 id: MP:0000538 ! abnormal urinary bladder morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -5986,9 +5991,43 @@ intersection_of: PATO:0000963 ! opaque
 intersection_of: inheres_in MA:0000275 ! lens
 
 [Term]
-id: MP:0001577 ! Anemia
-intersection_of: PATO:0002001 ! has fewer parts of type
-intersection_of: towards CL:0000232 ! erythrocyte
+id: MP:0008387 ! hypochromic anemia
+intersection_of: PATO:0000001 ! quality
+intersection_of: has_part MP:0001577 ! Anemia
+intersection_of: has_part MP:0002875 ! decreased erythrocyte cell number
+
+[Term]
+id: MP:0008388 ! hypochromic microcytic anemia
+intersection_of: PATO:0000001 ! quality
+intersection_of: has_part MP:0001577 ! Anemia
+intersection_of: has_part MP:0002591 ! decreased mean corpuscular volume
+intersection_of: has_part MP:0002875 ! decreased erythrocyte cell number
+
+[Term]
+id: MP:0002810 ! microcytic anemia
+intersection_of: PATO:0000001 ! quality
+intersection_of: has_part MP:0001577 ! Anemia
+intersection_of: has_part MP:0002591 ! decreased mean corpuscular volume
+
+[Term]
+id: MP:0002811 ! macrocytic anemia
+intersection_of: PATO:0000001 ! quality
+intersection_of: has_part MP:0001577 ! Anemia
+intersection_of: has_part MP:0002590 ! high mean corpuscular volume
+
+[Term]
+id: MP:0008389 ! macrocytic hypochromic anemia
+intersection_of: PATO:0000001 ! quality
+intersection_of: has_part MP:0001577 ! Anemia
+intersection_of: has_part MP:0002590 ! high mean corpuscular volume
+intersection_of: has_part MP:0002875 ! decreased erythrocyte cell number
+
+[Term]
+id: MP:0008945 ! hyperchromic macrocytic anemia
+intersection_of: PATO:0000001 ! quality
+intersection_of: has_part MP:0001577 ! Anemia
+intersection_of: has_part MP:0002590 ! high mean corpuscular volume
+intersection_of: has_part MP:0003131 ! increased erythrocyte cell number
 
 [Term]
 id: MP:0001305 ! enlarged lens
@@ -6207,6 +6246,11 @@ id: MP:0003173 ! decreased lysosomal enzyme secretion
 intersection_of: PATO:0000911 ! decreased rate
 intersection_of: results_in_directed_movement_of GO:0005764 ! lysosome
 intersection_of: inheres_in GO:0046903 ! secretion
+
+[Term]
+id: MP:0001577 ! Anemia
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in _:erytrhocyte_oxygen_transport
 
 [Term]
 id: MP:0003174 ! increased lysosomal enzyme secretion
@@ -6978,11 +7022,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0050878 ! regulation of body fluids
 
 [Term]
-id: MP:0001785 ! edema
-intersection_of: PATO:0001450 ! edematous
-intersection_of: inheres_in CL:0000000 ! cell
-
-[Term]
 id: MP:0001786 ! skin edema
 intersection_of: PATO:0001450 ! edematous
 intersection_of: inheres_in MA:0000151 ! skin
@@ -7345,6 +7384,11 @@ intersection_of: PATO:0001834 ! decreased fertility
 intersection_of: inheres_in MA:0002405 ! adult mouse
 
 [Term]
+id: MP:0001785 ! edema
+intersection_of: PATO:0001450 ! edematous
+intersection_of: inheres_in MA:0002405 ! adult mouse
+
+[Term]
 id: MP:0001922 ! reduced male fertility
 intersection_of: PATO:0001833 ! decreased male fertility
 intersection_of: inheres_in MA:0002405 ! adult mouse
@@ -7659,8 +7703,8 @@ intersection_of: inheres_in MPATH:428 ! rhabdomyosarcoma
 
 [Term]
 id: MP:0002039 ! neuroblastoma
-intersection_of: PATO:0000467 ! present in organism
-intersection_of: inheres_in MPATH:376 ! neuroblastoma
+intersection_of: PATO:0002002 ! has extra parts of type
+intersection_of: towards MPATH:376 ! neuroblastoma
 
 [Term]
 id: MP:0002041 ! pituitary adenoma
@@ -9577,6 +9621,11 @@ intersection_of: inheres_in MA:0002031 ! pulmonary artery
 intersection_of: inheres_in MA:0000062 ! aorta
 
 [Term]
+id: MP:0003387 ! aorta coarctation
+intersection_of: PATO:0001847 ! constricted
+intersection_of: inheres_in MA:0000062 ! aorta
+
+[Term]
 id: MP:0002637 ! small uterus
 intersection_of: PATO:0000587 ! decreased size
 intersection_of: inheres_in MA:0000389 ! uterus
@@ -9743,6 +9792,11 @@ intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0048513 ! organ development
 intersection_of: has_central_participant MA:0000394 ! vagina
+
+[Term]
+id: MP:0001144 ! vagina atresia
+intersection_of: PATO:0001819 ! atretic
+intersection_of: inheres_in MA:0000394 ! vagina
 
 [Term]
 id: MP:0002682 ! decreased mature ovarian follicle number
@@ -13687,6 +13741,11 @@ intersection_of: inheres_in MA:0000378 ! uterer
 [Term]
 id: MP:0003591 ! urethra atresia
 intersection_of: PATO:0001819 ! atresia
+intersection_of: inheres_in MA:0000379 ! urethra
+
+[Term]
+id: MP:0003592 ! Urethral stenosis
+intersection_of: PATO:0001847 ! constricted
 intersection_of: inheres_in MA:0000379 ! urethra
 
 [Term]
@@ -18490,6 +18549,11 @@ intersection_of: inheres_in MA:0000007 ! limb
 intersection_of: towards MA:0001374 ! patella
 
 [Term]
+id: MP:0008736 ! Micromelia
+intersection_of: PATO:0000587 ! decreased size
+intersection_of: inheres_in MA:0000007 ! limb
+
+[Term]
 id: MP:0004695 ! increased length of long bones
 intersection_of: PATO:0000573 ! increased length
 intersection_of: inheres_in MA:0000298 ! limb long bone
@@ -20881,7 +20945,6 @@ intersection_of: inheres_in MA:0000384 ! ovary
 [Term]
 id: MP:0005159 ! azoospermia
 intersection_of: PATO:0002000 ! lacking physical part
-intersection_of: inheres_in MA:0000396 ! male reproductive system
 intersection_of: towards CL:0000019 ! sperm
 
 [Term]
@@ -21533,6 +21596,11 @@ intersection_of: inheres_in MA:0000368 ! kidney
 intersection_of: towards MA:0000116 ! adrenal gland
 
 [Term]
+id: HP:0000835 ! Adrenal hypoplasia
+intersection_of: PATO:0000645 ! hypoplastic
+intersection_of: inheres_in MA:0000116 ! adrenal gland
+
+[Term]
 id: MP:0005314 ! absent thyroid gland
 intersection_of: PATO:0002000 ! lacks all parts of type
 intersection_of: inheres_in MA:0000012! endocrine system
@@ -22090,11 +22158,11 @@ intersection_of: towards CHEBI:16541 ! Protein
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0000059 ! blood
 
-[Term]
-id: MP:0005417 ! hypoproteinemia
-intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards CHEBI:16541 ! Protein
-intersection_of: inheres_in MA:0000059 ! blood
+![Term]
+!id: MP:0005417 ! hypoproteinemia
+!intersection_of: PATO:0001163 ! decreased concentration
+!intersection_of: towards CHEBI:16541 ! Protein
+!intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0005418 ! abnormal circulating hormone level
@@ -30935,7 +31003,8 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0002628 ! hepatic steatosis
-intersection_of: PATO:0002114 ! fatty
+intersection_of: PATO:0002002 ! having extra physical parts
+intersection_of: towards MPATH:622 ! steatosis
 intersection_of: inheres_in MA:0000358 ! liver
 
 [Term]
@@ -36559,6 +36628,11 @@ intersection_of: has_part MA:0002714 ! autopod
 intersection_of: has_part MA:0000008 ! tail
 intersection_of: has_part MA:0000007 ! limb
 
+[Term]
+id: _:erytrhocyte_oxygen_transport
+is_anonymous: true
+intersection_of: GO:0015671 ! oxygen transport
+intersection_of: has_central_participant CL:0000232 ! erythrocyte
 
 [Term]
 id: _:spinal_cord_and_meninges
