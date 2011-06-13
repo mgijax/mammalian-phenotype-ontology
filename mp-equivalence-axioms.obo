@@ -5936,7 +5936,6 @@ intersection_of: inheres_in GO:0001654 ! eye development
 [Term]
 id: MP:0001293 ! anophthalmia
 intersection_of: PATO:0002000 ! lacks all parts of type
-intersection_of: inheres_in MA:0002444 ! visual system
 intersection_of: towards MA:0000261 ! eye
 
 [Term]
@@ -6084,6 +6083,11 @@ id: MP:0006229 ! iris inflammation
 intersection_of: PATO:0001561 ! having extra processual parts
 intersection_of: towards MPATH:212 ! inflammation
 intersection_of: inheres_in MA:0000273 ! iris
+
+[Term]
+id: MP:0005261 ! Aniridia
+intersection_of: PATO:0002000 ! lacks all parts of type
+intersection_of: towards MA:0000273 ! iris
 
 [Term]
 id: MP:0010708 ! absent iris stroma
@@ -7932,12 +7936,6 @@ id: MP:0002123 ! abnormal hematopoiesis
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0030097 ! hemopoiesis
-
-[Term]
-id: MP:0002124 ! abnormal red blood cell
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in CL:0000595 ! enucleate erythrocyte
 
 [Term]
 id: MP:0002127 ! abnormal cardiovascular system morphology
@@ -16314,6 +16312,7 @@ intersection_of: inheres_in MA:0000015 ! muscle
 id: MP:0004143 ! hypertonia
 intersection_of: PATO:0001618 ! increased tonicity
 intersection_of: inheres_in MA:0000015 ! muscle
+intersection_of: qualifier PATO:0001869 ! pathological
 
 [Term]
 id: MP:0004144 ! hypotonia
@@ -32665,6 +32664,13 @@ intersection_of: towards CHEBI:28790 ! serotonin
 id: MP:0010083 ! encephalocele
 intersection_of: PATO:0001572 ! bifid
 intersection_of: inheres_in MA:0000316 ! cranium
+
+[Term]
+id: HP:0002084 ! Encephalocele
+intersection_of: PATO:0001646 ! protruding out of
+intersection_of: inheres_in_part_of MA:0000168 ! brain
+intersection_of: inheres_in UBERON:0000479 ! portion of tissue
+intersection_of: towards UBERON:0003129 ! Skull
 
 [Term]
 id: MP:0010084 ! abnormal long lived plasma cell morphology
