@@ -493,12 +493,6 @@ intersection_of: towards _:basisphenoid_bone_ossification
 intersection_of: inheres_in MA:0001463 ! basisphenoid bone
 
 [Term]
-id: _:basisphenoid_bone_ossification
-is_anonymous: true
-intersection_of: GO:0001503 ! ossification
-intersection_of: has_central_participant MA:0001463 ! basisphenoid bone
-
-[Term]
 id: MP:0000106 ! abnormal basisphenoid bone morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -564,12 +558,6 @@ intersection_of: inheres_in MA:0000350 ! molar
 id: MP:0000128 ! growth retardation of molars
 intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in _:molar_odontogenesis
-
-[Term]
-id: _:molar_odontogenesis
-is_anonymous: true
-intersection_of: GO:0042476 ! odontogenesis
-intersection_of: results_in_complete_development_of MA:0000350 ! molar
 
 [Term]
 id: MP:0000129 ! ameloblast degeneration
@@ -781,18 +769,6 @@ id: MP:0004185 ! abnormal adipocyte glucose uptake
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in _:adipocyte_glucose_uptake
-
-[Term]
-id: _:adipocyte_glucose_uptake
-is_anonymous: true
-intersection_of: GO:0046323 ! glucose import
-intersection_of: occurs_in CL:0000136 ! fat cell
-
-[Term]
-id: _:neonatal_mouse
-is_anonymous: true
-intersection_of: MA:0002405 ! adult mouse
-intersection_of: has_quality PATO:0002206 ! neonatal
 
 [Term]
 id: MP:0001844 ! autoimmune response
@@ -1374,8 +1350,7 @@ intersection_of: towards CHEBI:18295 ! histamine
 [Term]
 id: MP:0000364 ! abnormal vascular regression
 intersection_of: PATO:0000001 ! quality
-intersection_of: has_central_participant MA:0000060 ! blood vessel
-intersection_of: inheres_in GO:0060033 ! anatomical structure regression
+intersection_of: inheres_in _:blood_vessel_regression
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -2235,8 +2210,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 [Term]
 id: MP:0000501 ! abnormal digestive secretion
 intersection_of: PATO:0000001 ! quality
-intersection_of: inheres_in GO:0046903 ! secretion
-intersection_of: has_central_participant MA:0002431 ! digestive system
+intersection_of: inheres_in _:digestive_system_secretion
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -2381,20 +2355,17 @@ intersection_of: inheres_in GO:0046903 ! secretion
 [Term]
 id: MP:0000504 ! excessive digestive mucosecretion
 intersection_of: PATO:0000912 ! increased rate
-intersection_of: results_in_directed_movement_of MA:0001610 ! stomach mucosa
-intersection_of: inheres_in GO:0046903 ! secretion
+intersection_of: inheres_in _:stomach_mucosa_secretion
 
 [Term]
 id: MP:0000505 ! decreased digestive secretion
 intersection_of: PATO:0000911 ! decreased rate
-intersection_of: has_central_participant MA:0002431 ! digestive system
-intersection_of: inheres_in GO:0046903 ! secretion
+intersection_of: inheres_in _:digestive_system_secretion
 
 [Term]
 id: MP:0000506 ! decreased digestive mucosecretion
 intersection_of: PATO:0000911 ! decreased rate
-intersection_of: results_in_directed_movement_of MA:0001610 ! stomach mucosa
-intersection_of: inheres_in GO:0046903 ! secretion
+intersection_of: inheres_in _:stomach_mucosa_secretion
 
 [Term]
 id: MP:0000507 ! absent digestive secretion
@@ -2427,12 +2398,6 @@ intersection_of: towards GO:0042698 ! estrous cycle
 id: MP:0000509 ! absent digestive mucosecretion
 intersection_of: PATO:0001558 ! lacking processual parts
 intersection_of: towards _:digestive_mucosecretion
-
-[Term]
-id: _:digestive_mucosecretion
-is_anonymous: true
-intersection_of: GO:0046903 ! secretion
-intersection_of: results_in_directed_movement_of MA:0001610 ! stomach mucosa
 
 [Term]
 id: MP:0003124 ! hypospadia
@@ -2584,12 +2549,6 @@ intersection_of: inheres_in MA:0002656 ! ureter luminal urothelium
 id: MP:0000536 ! hydroureter
 intersection_of: PATO:0000595 ! increased volume
 intersection_of: inheres_in  _:urine_in_ureter
-
-[Term]
-id: _:urine_in_ureter
-is_anonymous: true
-intersection_of: MA:0002545 ! urine
-intersection_of: contained_in MA:0000378 ! Ureter
 
 [Term]
 id: MP:0000537 ! abnormal urethra morphology
@@ -2866,8 +2825,7 @@ intersection_of: inheres_in MA:0002703 ! nail
 [Term]
 id: MP:0000582 ! toenail hyperkeratosis
 intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in GO:0031424 ! keratinization
-intersection_of: has_central_participant MA:0002703 ! nail
+intersection_of: inheres_in _:nail_keratinization
 
 [Term]
 id: MP:0000583 ! long toenails
@@ -3218,17 +3176,13 @@ intersection_of: inheres_in MA:0000145 ! mammary gland
 id: MP:0006269 ! abnormal mammary gland growth during pregnancy
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: has_central_participant MA:0000145 ! mammary gland
-intersection_of: inheres_in GO:0035265 ! organ growth
-intersection_of: exists_during GO:0007565 ! pregnancy
+intersection_of: inheres_in  _:mammary_gland_growth_during_pregnancy
 
 [Term]
 id: MP:0006270 ! abnormal mammary gland growth during lactation
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: has_central_participant MA:0000145 ! mammary gland
-intersection_of: inheres_in GO:0035265 ! organ growth
-intersection_of: exists_during GO:0007595 ! lactation
+intersection_of: inheres_in _:mammary_gland_growth_during_lactation
 
 [Term]
 id: MP:0000628 ! abnormal mammary gland development
@@ -3891,12 +3845,6 @@ intersection_of: PATO:0002018 ! decreased magnitude
 intersection_of: inheres_in _:detrusor_smooth_contractility
 
 [Term]
-id: _:detrusor_smooth_contractility
-is_anonymous: true
-intersection_of: GO:0006936 ! muscle contraction
-intersection_of: has_central_participant MA:0001698 ! urinary bladder detrussor smooth muscle
-
-[Term]
 id: MP:0004005 ! impaired contractility of intestinal smooth muscle
 intersection_of: PATO:0002018 ! decreased magnitude
 intersection_of: inheres_in GO:0014827 ! intestine smooth muscle contraction
@@ -3907,27 +3855,9 @@ intersection_of: PATO:0002018 ! decreased magnitude
 intersection_of: inheres_in _:ileal_smooth_muscle_contractility
 
 [Term]
-id: _:ileal_smooth_muscle_contractility
-is_anonymous: true
-intersection_of: GO:0014827 ! intestine smooth muscle contraction
-intersection_of: occurs_in MA:0000339 ! ileum
-
-[Term]
 id: MP:0004006 ! impaired contractility of jejunal smooth muscle
 intersection_of: PATO:0002018 ! decreased magnitude
 intersection_of: inheres_in _:jejunum_smooth_muscle_contractility
-
-[Term]
-id: _:jejunum_smooth_muscle
-is_anonymous: true
-intersection_of: MA:0001539 ! intestine smooth muscle
-intersection_of: part_of MA:0000340 ! jejunum
-
-[Term]
-id: _:jejunum_smooth_muscle_contractility
-is_anonymous: true
-intersection_of: GO:0006936 ! muscle contraction
-intersection_of: has_central_participant _:jejunum_smooth_muscle
 
 [Term]
 id: MP:0000746 ! weakness
@@ -5670,8 +5600,7 @@ intersection_of: inheres_in MA:0000153 ! epidermis
 [Term]
 id: MP:0001220 ! epidermal necrosis
 intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in GO:0008219 ! cell death
-intersection_of: has_central_participant CL:0000362! epidermal cell
+intersection_of: inheres_in _:epidermal_cell_death
 
 [Term]
 id: MP:0001221 ! epidermal atrophy
@@ -5687,8 +5616,7 @@ intersection_of: inheres_in MA:0000153 ! epidermis
 id: MP:0001224 ! abnormal keratinocyte apoptosis
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0006915 ! apoptosis
-intersection_of: has_central_participant CL:0000312 ! keratinocyte
+intersection_of: inheres_in _:keratinocyte_apoptosis
 
 [Term]
 id: MP:0001231 ! abnormal epidermis stratum basale morphology
@@ -6246,21 +6174,9 @@ intersection_of: PATO:0000912 ! increased rate
 intersection_of: inheres_in GO:0070075  ! tear secretion
 
 [Term]
-id: MP:0003173 ! decreased lysosomal enzyme secretion
-intersection_of: PATO:0000911 ! decreased rate
-intersection_of: results_in_directed_movement_of GO:0005764 ! lysosome
-intersection_of: inheres_in GO:0046903 ! secretion
-
-[Term]
 id: MP:0001577 ! Anemia
 intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in _:erytrhocyte_oxygen_transport
-
-[Term]
-id: MP:0003174 ! increased lysosomal enzyme secretion
-intersection_of: PATO:0000470 ! increased
-intersection_of: results_in_directed_movement_of GO:0005764 ! lysosome
-intersection_of: inheres_in GO:0046903 ! secretion
 
 [Term]
 id: MP:0001378 ! abnormal ejaculation
@@ -6610,14 +6526,12 @@ intersection_of: inheres_in GO:0006915 ! apoptosis
 [Term]
 id: MP:0001652 ! colonic necrosis
 intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in GO:0008219 ! cell death
-intersection_of: has_central_participant MA:0000335 ! colon
+intersection_of: inheres_in _:colon_cell_death
 
 [Term]
 id: MP:0001654 ! hepatic necrosis
 intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in GO:0008219 ! cell death
-intersection_of: has_central_participant MA:0000358 ! liver
+intersection_of: inheres_in _:liver_cell_death
 
 [Term]
 id: MP:0009820 ! abnormal liver vasculature morphology
@@ -6635,8 +6549,7 @@ intersection_of: inheres_in MA:0001490 ! symphysis menti
 [Term]
 id: MP:0001653 ! gastric necrosis
 intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in GO:0008219 ! cell death
-intersection_of: has_central_participant MA:0000353 ! stomach
+intersection_of: inheres_in  _:stomach_cell_death
 
 !These are wrong
 ![Term]
@@ -6790,21 +6703,10 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in _:adrenal_secretion
 
 [Term]
-id: _:adrenal_secretion
-is_anonymous: true
-intersection_of: MA:0000116 ! adrenal gland
-intersection_of: has_function_realized_as_process GO:0046903 ! secretion
-
-[Term]
 id: MP:0001740 ! failure of adrenal epinephrine secretion
 intersection_of: PATO:0001558 ! lacking processual parts
 intersection_of: towards _:adrenal_epinephrine_secretion
 
-[Term]
-id: _:adrenal_epinephrine_secretion
-is_anonymous: true
-intersection_of: MA:0000116 ! adrenal gland
-intersection_of: has_function_realized_as_process GO:0048242 ! epinephrine secretion
 
 [Term]
 id: MP:0001741 ! decreased adrenaline synthesis
@@ -6829,12 +6731,6 @@ intersection_of: PATO:0000912 ! increased rate
 intersection_of: inheres_in _:corticosterone_secretion
 
 [Term]
-id: _:corticosterone_secretion
-is_anonymous: true
-intersection_of: GO:0046903 ! secretion
-intersection_of: results_in_directed_movement_of CHEBI:16827 ! corticosterone
-
-[Term]
 id: MP:0001745 ! increased circulating corticosterone level
 intersection_of: PATO:0001162 ! increased concentration
 intersection_of: towards CHEBI:16827 ! corticosterone
@@ -6844,20 +6740,18 @@ intersection_of: inheres_in MA:0000059 ! blood
 id: MP:0001746 ! abnormal pituitary secretion
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0046903 ! secretion
-intersection_of: has_central_participant MA:0000176 ! pituitary gland
+intersection_of: inheres_in  _:pituitary_gland_secretion
 
 [Term]
 id: MP:0001747 ! hypersecretion of adrenocorticotropin
 intersection_of: PATO:0000912 ! increased rate
-intersection_of: has_central_participant MA:0000176 ! pituitary gland
-intersection_of: inheres_in GO:0051458 ! adrenocorticotropin hormone secretion
+intersection_of: inheres_in  _:pituitary_gland_adrenocorticotropin_hormone_secretion
 
 [Term]
 id: MP:0001748 ! increased circulating adrenocorticotropin level
 intersection_of: PATO:0001162 ! increased concentration
 intersection_of: inheres_in MA:0000059 ! blood
-intersection_of: towards IMR:0100195 ! corticotropin
+intersection_of: towards CHEBI:3892 ! corticotropin
 
 ! merge with MP:0002790
 ![Term]
@@ -6876,14 +6770,13 @@ intersection_of: towards IMR:0100099 ! follicle stimulating hormone
 id: MP:0001751 ! increased circulating luteinizing hormone level
 intersection_of: PATO:0001162 ! increased concentration
 intersection_of: inheres_in MA:0000059 ! blood
-intersection_of: towards IMR:0100100 ! luteinizing hormone
+intersection_of: towards FMA:74642 ! luteinizing hormone
 
 [Term]
 id: MP:0001752 ! abnormal hypothalamus secretion
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0046903 ! secretion
-intersection_of: has_central_participant MA:0000173 ! hypothalamus
+intersection_of: inheres_in _:hypothalamus_secretion
 
 [Term]
 id: MP:0001753 ! hypersecretion of corticotropin-releasing hormone
@@ -7114,21 +7007,10 @@ intersection_of: PATO:0002018 ! decreased magnitude
 intersection_of: inheres_in _:macrophage_phagocytosis
 
 [Term]
-id: _:macrophage_phagocytosis
-is_anonymous: true
-intersection_of: GO:0006909 ! phagocytosis
-intersection_of: has_central_participant CL:0000235 ! macrophage
-
-[Term]
 id: MP:0002467 ! impaired neutrophil phagocytosis
 intersection_of: PATO:0002018 ! decreased magnitude
 intersection_of: inheres_in _:neutrophil_phagocytosis
 
-[Term]
-id: _:neutrophil_phagocytosis
-is_anonymous: true
-intersection_of: GO:0006909 ! phagocytosis
-intersection_of: has_central_participant CL:0000775 ! neutrophil
 
 [Term]
 id: MP:0001835 ! abnormal antigen presentation
@@ -7342,12 +7224,6 @@ intersection_of: PATO:0000595 ! increased volume
 intersection_of: inheres_in _:CSF_in_brain_ventricle
 
 [Term]
-id: _:CSF_in_brain_ventricle
-is_anonymous: true
-intersection_of: MA:0002503 ! cerebrospinal fluid
-intersection_of: contained_in MA:0000818 ! brain ventricle
-
-[Term]
 id: MP:0001895 ! abnormal hippocampus function
 intersection_of: PATO:0001509 ! functionality
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -7474,15 +7350,13 @@ intersection_of: inheres_in PATO:0000276 ! bood size
 id: MP:0001937 ! abnormal sexual maturation
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0048513 ! organ development
-intersection_of: has_central_participant MA:0001752 ! reproductive organ
+intersection_of: inheres_in _:reproductive_organ_development
 
 [Term]
 id: MP:0003935 ! abnormal craniofacial development
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0048513 ! organ development
-intersection_of: has_central_participant MA:0000006 ! head/neck
+intersection_of: inheres_in  _:head_neck_development
 
 [Term]
 id: MP:0002066 ! abnormal motor capabilities/coordination/movement
@@ -7493,8 +7367,7 @@ intersection_of: inheres_in GO:0050879 ! multicellular organismal movement
 [Term]
 id: MP:0001938 ! delayed sexual maturation
 intersection_of: PATO:0000502 ! delayed
-intersection_of: inheres_in GO:0048513 ! organ development
-intersection_of: has_central_participant MA:0001752 ! reproductive organ
+intersection_of: inheres_in _:reproductive_organ_development
 
 [Term]
 id: MP:0001940 ! testicular hypoplasia
@@ -7983,9 +7856,7 @@ intersection_of: inheres_in MA:0000324 ! hepatobiliary system
 id: MP:0003117 ! abnormal tracheal-esophageal septation
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0000917 ! barrier septum formation
-intersection_of: has_central_participant MA:0000441 ! trachea
-intersection_of: has_central_participant MA:0000352 ! esophagus
+intersection_of: inheres_in _:tracheal_esophageal_septation
 
 [Term]
 id: MP:0002139 ! abnormal liver/biliary system physiology
@@ -8466,12 +8337,6 @@ intersection_of: inheres_in MA:0000422 ! bronchiole
 id: MP:0006028 ! impaired bronchiole branching
 intersection_of: PATO:0002018 ! decreased magnitude
 intersection_of: inheres_in _:bronchiole_branching
-
-[Term]
-id: _:bronchiole_branching
-is_anonymous: true
-intersection_of: GO:0048754 ! branching morphogenesis of a tube
-intersection_of: has_central_participant MA:0000422 ! bronchiole
 
 [Term]
 id: MP:0002268 ! abnormal terminal bronchiole morphology
@@ -9280,8 +9145,7 @@ intersection_of: inheres_in GO:0005577 ! fibrinogen complex
 id: MP:0003090 ! abnormal muscle progenitor cell migration
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0016477 ! cell migration
-intersection_of: has_central_participant CL:0000680 ! muscle precursor cell
+intersection_of: inheres_in _:muscle_precursor_cell_migration
 
 [Term]
 id: MP:0002488 ! abnormal phagocyte physiology
@@ -9710,8 +9574,7 @@ intersection_of: inheres_in MA:0000104 ! cartilage
 id: MP:0002658 ! abnormal liver regeneration
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0031099 ! regeneration
-intersection_of: has_central_participant MA:0000358 ! liver
+intersection_of: inheres_in  _:liver_regeneration
 
 [Term]
 id: MP:0002659 ! pituitary gland hypoplasia
@@ -9722,7 +9585,7 @@ intersection_of: inheres_in MA:0000176 ! pituitary gland
 id: MP:0002664 ! decreased circulating adrenocorticotropin level
 intersection_of: PATO:0001163 ! decreased concentration
 intersection_of: inheres_in MA:0000059 ! blood
-intersection_of: towards IMR:0100195 ! corticotropin
+intersection_of: towards CHEBI:3892 ! corticotropin
 
 [Term]
 id: MP:0002665 ! decreased circulating corticosterone level
@@ -9788,8 +9651,7 @@ intersection_of: inheres_in MA:0000389 ! uterus
 id: MP:0003531 ! abnormal vagina development
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0048513 ! organ development
-intersection_of: has_central_participant MA:0000394 ! vagina
+intersection_of: inheres_in  _:vagina_development
 
 [Term]
 id: MP:0001144 ! vagina atresia
@@ -10163,8 +10025,7 @@ intersection_of: inheres_in MA:0002405 ! adult mouse
 [Term]
 id: MP:0002685 ! abnormal spermatogonia proliferation
 intersection_of: PATO:0000912 ! increased rate
-intersection_of: has_central_participant CL:0000016 ! male germ line stem cell
-intersection_of: inheres_in GO:0008283 ! cell proliferation
+intersection_of: inheres_in _:spermatogonia_proliferation
 
 [Term]
 id: MP:0002686 ! globozoospermia
@@ -10197,8 +10058,7 @@ intersection_of: inheres_in MA:0000120 ! pancreas
 id: MP:0002694 ! abnormal pancreas secretion
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0046903 ! secretion
-intersection_of: has_central_participant MA:0000120 ! pancreas
+intersection_of: inheres_in _:pancreas_secretion
 
 [Term]
 id: MP:0002695 ! abnormal circulating glucagon level
@@ -10211,8 +10071,7 @@ intersection_of: inheres_in MA:0000059 ! blood
 id: MP:0003565 ! abnormal glucagon secretion
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0046903 ! secretion
-intersection_of: results_in_directed_movement_of PR:000007891 ! glucagon
+intersection_of: inheres_in _:glucagon_secretion
 
 [Term]
 id: MP:0005556 ! abnormal kidney clearance
@@ -10570,7 +10429,7 @@ intersection_of: inheres_in MA:0000044 ! foot
 id: MP:0002773 ! decreased circulating luteinizing hormone level
 intersection_of: PATO:0001163 ! decreased concentration
 intersection_of: inheres_in MA:0000059 ! blood
-intersection_of: towards IMR:0100100 ! luteinizing hormone
+intersection_of: towards FMA:74642 ! luteinizing hormone
 
 [Term]
 id: MP:0002774 ! small prostate gland
@@ -10977,12 +10836,6 @@ id: MP:0002913 ! abnormal PNS synaptic transmission
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in _:PNS_synaptic_transmission
-
-[Term]
-id: _:PNS_synaptic_transmission
-is_anonymous: true
-intersection_of: GO:0007268 ! synaptic transmission
-intersection_of: has_central_participant MA:0000218 ! peripheral nervous system
 
 [Term]
 id: MP:0002925 ! abnormal cardiovascular development
@@ -12432,14 +12285,9 @@ intersection_of: inheres_in MA:0000353 ! stomach
 
 [Term]
 id: MP:0003287 ! intestinal hemangioma
-intersection_of: PATO:0000467 ! present in organism
-intersection_of: inheres_in _:intestine_hemangioma
-
-[Term]
-id: _:intestine_hemangioma
-is_anonymous: true
-intersection_of: MPATH:240 ! hemangioma
-intersection_of: develops_from MA:0000328 ! intestine
+intersection_of: PATO:0002002 ! has extra parts of type
+intersection_of: towards MPATH:240 ! hemangioma
+intersection_of: inheres_in MA:0000328 ! intestine
 
 [Term]
 id: MP:0003288 ! intestinal edema
@@ -13736,18 +13584,9 @@ intersection_of: PATO:0001509 ! functionality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0000378 ! uterer
 
-[Term]
-id: MP:0003591 ! urethra atresia
-intersection_of: PATO:0001819 ! atresia
-intersection_of: inheres_in MA:0000379 ! urethra
 
 [Term]
 id: MP:0003592 ! Urethral stenosis
-intersection_of: PATO:0001847 ! constricted
-intersection_of: inheres_in MA:0000379 ! urethra
-
-[Term]
-id: MP:0003592 ! urethra stenosis
 intersection_of: PATO:0001847 ! constricted
 intersection_of: inheres_in MA:0000379 ! urethra
 
@@ -13801,13 +13640,6 @@ intersection_of: inheres_in MPATH:238 ! hemangioblastoma
 id: MP:0005558 ! decreased creatinine clearance
 intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in _:kidney_creatine_secretion
-
-[Term]
-id: _:kidney_creatine_secretion
-is_anonymous: true
-intersection_of: GO:0046903 ! secretion
-intersection_of: has_central_participant MA:0000368 ! kidney
-intersection_of: results_in_directed_movement_of CHEBI:16919 ! creatine
 
 [Term]
 id: MP:0005557 ! increased creatinine clearance
@@ -14099,12 +13931,6 @@ intersection_of: PATO:0000595 ! increased volume
 intersection_of: inheres_in _:intrascrotal_fluid
 
 [Term]
-id: _:intrascrotal_fluid
-is_anonymous: true
-intersection_of: MA:0002531 ! peritoneal fluid
-intersection_of: contained_in MA:0000409 ! scrotum
-
-[Term]
 id: MP:0003624 ! anuria
 intersection_of: PATO:0001558 ! lacking processual parts
 intersection_of: towards GO:0060073 ! micturition
@@ -14150,22 +13976,10 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in _:kidney_excretion
 
 [Term]
-id: _:kidney_excretion
-is_anonymous: true
-intersection_of: GO:0007588 ! excretion
-intersection_of: has_central_participant MA:0000368 ! kidney
-
-[Term]
 id: MP:0006315 ! abnormal kidney protein excretion
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in _:kidney_protein_excretion
-
-[Term]
-id: _:kidney_protein_excretion
-is_anonymous: true
-intersection_of: _:kidney_excretion
-intersection_of: has_output CHEBI:16541 ! Protein
 
 [Term]
 id: MP:0006312 ! abnormal kidney sodium excretion
@@ -14174,34 +13988,16 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in _:kidney_sodium_excretion
 
 [Term]
-id: _:kidney_sodium_excretion
-is_anonymous: true
-intersection_of: _:kidney_excretion
-intersection_of: has_output CHEBI:26708 ! sodium
-
-[Term]
 id: MP:0006311 ! abnormal kidney potassium excretion
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in _:kidney_potassium_excretion
 
 [Term]
-id: _:kidney_potassium_excretion
-is_anonymous: true
-intersection_of: _:kidney_excretion
-intersection_of: has_output CHEBI:26216 ! potassium
-
-[Term]
 id: MP:0006272 ! abnormal kidney organic anion excretion
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in _:organic_anions_kidney_excretion
-
-[Term]
-id: _:organic_anions_kidney_excretion
-is_anonymous: true
-intersection_of: _:kidney_excretion
-intersection_of: has_output CHEBI:25696 ! organic anions
 
 [Term]
 id: MP:0002962 ! increased protein excretion
@@ -15692,7 +15488,7 @@ intersection_of: towards IMR:0100084 ! pituitary hormone
 id: MP:0003966 ! abnormal adrenocorticotropin level
 intersection_of: PATO:0000033 ! concentration
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: towards IMR:0100195 ! corticotropin
+intersection_of: towards CHEBI:3892 ! corticotropin
 
 [Term]
 id: MP:0003967 ! abnormal follicle stimulating hormone level
@@ -15710,7 +15506,7 @@ intersection_of: towards IMR:0100102 ! growth hormone
 id: MP:0003969 ! abnormal luteinizing hormone level
 intersection_of: PATO:0000033 ! concentration
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: towards IMR:0100100 ! luteinizing hormone
+intersection_of: towards FMA:74642 ! luteinizing hormone
 
 [Term]
 id: MP:0003970 ! abnormal prolactin level
@@ -18870,22 +18666,10 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in _:production_of_surfactant
 
 [Term]
-id: _:production_of_surfactant
-is_anonymous: true
-intersection_of: GO:0009058 ! biosynthetic process
-intersection_of: results_in_change_to MA:0002534 ! lung surfactant
-
-[Term]
 id: MP:0004780 ! abnormal surfactant secretion
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in _:secretion_of_surfactant
-
-[Term]
-id: _:secretion_of_surfactant
-is_anonymous: true
-intersection_of: GO:0046903 ! secretion
-intersection_of: results_in_directed_movement_of MA:0002534 ! lung surfactant
 
 [Term]
 id: MP:0004781 ! abnormal surfactant composition
@@ -20792,12 +20576,6 @@ intersection_of: inheres_in _:arterial_blood
 intersection_of: towards CHEBI:24636 ! proton
 
 [Term]
-id: _:arterial_blood
-is_anonymous: true
-intersection_of: MA:0000059 ! blood
-intersection_of: contained_in MA:0000064 ! artery
-
-[Term]
 id: MP:0005118 ! decreased circulating pituitary hormone level
 intersection_of: PATO:0001163 ! decreased concentration
 intersection_of: towards IMR:0100084 ! pituitary hormone
@@ -20848,12 +20626,12 @@ intersection_of: inheres_in MA:0000059 ! blood
 [Term]
 id: MP:0005128 ! decreased adrenocorticotropin level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards IMR:0100195 ! corticotropin
+intersection_of: towards CHEBI:3892 ! corticotropin
 
 [Term]
 id: MP:0005129 ! increased adrenocorticotropin level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards IMR:0100195 ! corticotropin
+intersection_of: towards CHEBI:3892 ! corticotropin
 
 [Term]
 id: MP:0005130 ! decreased follicle stimulating hormone level
@@ -20868,12 +20646,12 @@ intersection_of: towards IMR:0100099 ! follicle stimulating hormone
 [Term]
 id: MP:0005132 ! decreased luteinizing hormone level
 intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards IMR:0100100 ! luteinizing hormone
+intersection_of: towards FMA:74642 ! luteinizing hormone
 
 [Term]
 id: MP:0005133 ! increased luteinizing hormone level
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards IMR:0100100 ! luteinizing hormone
+intersection_of: towards FMA:74642 ! luteinizing hormone
 
 [Term]
 id: MP:0005134 ! decreased thyroid-stimulating hormone level
@@ -20966,14 +20744,12 @@ intersection_of: towards GO:0009611 ! response to wounding
 [Term]
 id: MP:0002710 ! increased glucagon secretion
 intersection_of: PATO:0000912 ! increased rate
-intersection_of: results_in_directed_movement_of PR:000007891 ! glucagon
-intersection_of: inheres_in GO:0046903 ! secretion
+intersection_of: inheres_in _:glucagon_secretion
 
 [Term]
 id: MP:0002711 ! decreased glucagon secretion
 intersection_of: PATO:0000911 ! decreased rate
-intersection_of: results_in_directed_movement_of PR:000007891 ! glucagon
-intersection_of: inheres_in GO:0046903 ! secretion
+intersection_of: inheres_in _:glucagon_secretion
 
 [Term]
 id: MP:0005166 ! decreased susceptibility to injury
@@ -21595,11 +21371,6 @@ intersection_of: inheres_in MA:0000368 ! kidney
 intersection_of: towards MA:0000116 ! adrenal gland
 
 [Term]
-id: HP:0000835 ! Adrenal hypoplasia
-intersection_of: PATO:0000645 ! hypoplastic
-intersection_of: inheres_in MA:0000116 ! adrenal gland
-
-[Term]
 id: MP:0005314 ! absent thyroid gland
 intersection_of: PATO:0002000 ! lacks all parts of type
 intersection_of: inheres_in MA:0000012! endocrine system
@@ -21976,12 +21747,6 @@ intersection_of: inheres_in MA:0000349 ! incisor
 id: MP:0005359 ! growth retardation of incisors
 intersection_of: PATO:0001570 ! having decreased processual parts
 intersection_of: towards _:incisor_odontogenesis
-
-[Term]
-id: _:incisor_odontogenesis
-is_anonymous: true
-intersection_of: GO:0042476 ! odontogenesis
-intersection_of: results_in_complete_development_of MA:0000349 ! incisor
 
 [Term]
 id: MP:0005361 ! small pituitary gland
@@ -22682,22 +22447,10 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in _:corneal_neovascularization
 
 [Term]
-id: _:corneal_neovascularization
-is_anonymous: true
-intersection_of: GO:0060055 ! angiogenesis involved in wound healing
-intersection_of: occurs_in MA:0000266 ! cornea
-
-[Term]
 id: MP:0005546 ! choroidal neovascularization
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in _:choroidal_neovascularization
-
-[Term]
-id: _:choroidal_neovascularization
-is_anonymous: true
-intersection_of: GO:0060055 ! angiogenesis involved in wound healing
-intersection_of: occurs_in MA:0000263 ! choroid
 
 [Term]
 id: MP:0008852 ! retinal neovascularization
@@ -22711,12 +22464,6 @@ intersection_of: PATO:0000077 ! response to
 intersection_of: towards _:retina_neovascularization
 intersection_of: inheres_in MA:0000276 ! retina
 intersection_of: qualifier PATO:0000460 ! abnormal
-
-[Term]
-id: _:retina_neovascularization
-is_anonymous: true
-intersection_of: GO:0060055 ! angiogenesis involved in wound healing
-intersection_of: occurs_in MA:0000276 ! retina
 
 [Term]
 id: MP:0005547 ! abnormal Muller cell morphology
@@ -27551,11 +27298,6 @@ intersection_of: PATO:0000642 ! fused with
 intersection_of: inheres_in MA:0000297 ! tarsal bone
 
 [Term]
-id: MP:0001144 ! vagina atresia
-intersection_of: PATO:0001821 ! imperforate
-intersection_of: inheres_in MA:0000394 ! vagina
-
-[Term]
 id: MP:0001334 ! absent optic tract
 intersection_of: PATO:0002000 ! lacking physical part
 intersection_of: towards MA:0001099 ! optic tract
@@ -27598,12 +27340,6 @@ id: MP:0004271 ! abnormal paw/hand/foot morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in _:paw_hand_foot
 intersection_of: qualifier PATO:0000460 ! abnormal
-
-[Term]
-id: _:paw_hand_foot
-union_of: MA:0000044 ! foot
-union_of: MA:0000037 ! hand
-union_of: MA:0002714 ! autopod
 
 [Term]
 id: MP:0008086 ! increased T-helper 1 cell number
@@ -31075,12 +30811,6 @@ intersection_of: towards PR:000003777 ! adiponectin
 id: MP:0005073 ! impaired granulocyte migration
 intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in _:granulocyte_chemotaxis
-
-[Term]
-id: _:granulocyte_chemotaxis
-is_anonymous: true
-intersection_of: GO:0006935 ! chemotaxis
-intersection_of: has_central_participant CL:0000094 ! granulocyte
 
 [Term]
 id: MP:0008280 ! male germ cell apoptosis
@@ -36368,13 +36098,18 @@ id: MP:0002064 ! seizures
 intersection_of: PATO:0001561 ! having extra processual parts
 intersection_of: towards NBO:0000012 ! seizures/epilepsy
 
+
+!!!! GO cross products
+
 [Term]
 id: _:lens_epithelium_apoptosis
+is_anonymous: true
 intersection_of: GO:0006915 ! apoptosis
 intersection_of: results_in_death_of MA:0001301 ! lens epithelium
 
 [Term]
 id: _:lens_fiber_apoptosis
+is_anonymous: true
 intersection_of: GO:0006915 ! apoptosis
 intersection_of: results_in_death_of MA:0001304 ! lens fiber
 
@@ -36386,6 +36121,7 @@ intersection_of: increases_population_size_of CL:0000670 ! primordial germ cell
 
 [Term]
 id: _:outer_hair_cell_motility
+is_anonymous: true
 intersection_of: GO:0006928 ! cell motility
 intersection_of: has_central_participant CL:0000601 ! outer hair cell
 
@@ -36471,6 +36207,310 @@ id: _:glial_cell_growth
 is_anonymous: true
 intersection_of: GO:0016049 ! cell growth
 intersection_of: has_central_participant CL:0000243 ! glial cell (sensu Vertebrata)
+
+[Term]
+id: _:basisphenoid_bone_ossification
+is_anonymous: true
+intersection_of: GO:0001503 ! ossification
+intersection_of: has_central_participant MA:0001463 ! basisphenoid bone
+
+[Term]
+id: _:molar_odontogenesis
+is_anonymous: true
+intersection_of: GO:0042476 ! odontogenesis
+intersection_of: results_in_complete_development_of MA:0000350 ! molar
+
+[Term]
+id: _:adipocyte_glucose_uptake
+is_anonymous: true
+intersection_of: GO:0046323 ! glucose import
+intersection_of: occurs_in CL:0000136 ! fat cell
+
+[Term]
+id: _:digestive_mucosecretion
+is_anonymous: true
+intersection_of: GO:0046903 ! secretion
+intersection_of: results_in_directed_movement_of MA:0001610 ! stomach mucosa
+
+[Term]
+id: _:blood_vessel_regression
+is_anonymous: true
+intersection_of: GO:0060033 ! anatomical structure regression
+intersection_of: has_participant MA:0000060 ! blood vessel
+
+[Term]
+id: _:digestive_system_secretion
+is_anonymous: true
+intersection_of: GO:0046903 ! secretion
+intersection_of: has_participant MA:0002431 ! digestive system
+
+[Term]
+id: _:nail_keratinization
+is_anonymous: true
+intersection_of: GO:0031424 ! keratinization
+intersection_of: has_participant MA:0002703 ! nail
+
+[Term]
+id: _:mammary_gland_growth_during_pregnancy
+is_anonymous: true
+intersection_of: GO:0035265 ! organ growth
+intersection_of: has_participant MA:0000145 ! mammary gland
+intersection_of: exists_during GO:0007565 ! pregnancy
+
+[Term]
+id: _:mammary_gland_growth_during_lactation
+is_anonymous: true
+intersection_of: GO:0035265 ! organ growth
+intersection_of: has_participant MA:0000145 ! mammary gland
+intersection_of: exists_during GO:0007595 ! lactation
+
+[Term]
+id: _:epidermal_cell_death
+is_anonymous: true
+intersection_of: GO:0008219 ! cell death
+intersection_of: has_participant CL:0000362! epidermal cell
+
+[Term]
+id: _:keratinocyte_apoptosis
+is_anonymous: true
+intersection_of: GO:0006915 ! apoptosis
+intersection_of: has_participant CL:0000312 ! keratinocyte
+
+[Term]
+id: _:colon_cell_death
+is_anonymous: true
+intersection_of: GO:0008219 ! cell death
+intersection_of: has_participant MA:0000335 ! colon
+
+[Term]
+id: _:liver_cell_death
+is_anonymous: true
+intersection_of: GO:0008219 ! cell death
+intersection_of: has_participant MA:0000358 ! liver
+
+[Term]
+id: _:stomach_cell_death
+is_anonymous: true
+intersection_of: GO:0008219 ! cell death
+intersection_of: has_participant MA:0000353 ! stomach
+
+[Term]
+id: _:pituitary_gland_secretion
+is_anonymous: true
+intersection_of: GO:0046903 ! secretion
+intersection_of: has_participant MA:0000176 ! pituitary gland
+
+[Term]
+id: _:pituitary_gland_adrenocorticotropin_hormone_secretion
+is_anonymous: true
+intersection_of: GO:0051458 ! adrenocorticotropin hormone secretion
+intersection_of: has_participant  MA:0000176 ! pituitary gland
+
+[Term]
+id: _:hypothalamus_secretion
+is_anonymous: true
+intersection_of: GO:0046903 ! secretion
+intersection_of: has_participant  MA:0000173 ! hypothalamus
+
+[Term]
+id: _:reproductive_organ_development
+is_anonymous: true
+intersection_of: GO:0048513 ! organ development
+intersection_of: has_participant  MA:0001752 ! reproductive organ
+
+[Term]
+id: _:head_neck_development
+is_anonymous: true
+intersection_of: GO:0048513 ! organ development
+intersection_of: has_participant  MA:0000006 ! head/neck
+
+[Term]
+id: _:tracheal_esophageal_septation
+is_anonymous: true
+intersection_of: GO:0000917 ! barrier septum formation
+intersection_of: has_central_participant MA:0000441 ! trachea
+intersection_of: has_central_participant MA:0000352 ! esophagus
+
+[Term]
+id: _:muscle_precursor_cell_migration
+is_anonymous: true
+intersection_of: GO:0016477 ! cell migration
+intersection_of: has_central_participant CL:0000680 ! muscle precursor cell
+
+[Term]
+id: _:liver_regeneration
+is_anonymous: true
+intersection_of: GO:0031099 ! regeneration
+intersection_of: has_central_participant MA:0000358 ! liver
+
+[Term]
+id: _:vagina_development
+is_anonymous: true
+intersection_of: GO:0048513 ! organ development
+intersection_of: has_participant  MA:0000394 ! vagina
+
+[Term]
+id: _:spermatogonia_proliferation
+is_anonymous: true
+intersection_of: GO:0008283 ! cell proliferation
+intersection_of: has_participant  CL:0000016 ! male germ line stem cell
+
+[Term]
+id: _:pancreas_secretion
+is_anonymous: true
+intersection_of: GO:0046903 ! secretion
+intersection_of: has_participant  MA:0000120 ! pancreas
+
+[Term]
+id: _:glucagon_secretion
+is_anonymous: true
+intersection_of: GO:0046903 ! secretion
+intersection_of: results_in_directed_movement_of PR:000007891 ! glucagon
+
+[Term]
+id: _:stomach_mucosa_secretion
+is_anonymous: true
+intersection_of: GO:0046903 ! secretion
+intersection_of: has_participant  MA:0001610 ! stomach mucosa
+
+[Term]
+id: _:detrusor_smooth_contractility
+is_anonymous: true
+intersection_of: GO:0006936 ! muscle contraction
+intersection_of: has_central_participant MA:0001698 ! urinary bladder detrussor smooth muscle
+
+[Term]
+id: _:ileal_smooth_muscle_contractility
+is_anonymous: true
+intersection_of: GO:0014827 ! intestine smooth muscle contraction
+intersection_of: occurs_in MA:0000339 ! ileum
+
+[Term]
+id: _:jejunum_smooth_muscle_contractility
+is_anonymous: true
+intersection_of: GO:0006936 ! muscle contraction
+intersection_of: has_central_participant _:jejunum_smooth_muscle
+
+[Term]
+id: _:adrenal_secretion
+is_anonymous: true
+intersection_of: MA:0000116 ! adrenal gland
+intersection_of: has_function_realized_as_process GO:0046903 ! secretion
+
+[Term]
+id: _:adrenal_epinephrine_secretion
+is_anonymous: true
+intersection_of: MA:0000116 ! adrenal gland
+intersection_of: has_function_realized_as_process GO:0048242 ! epinephrine secretion
+
+[Term]
+id: _:corticosterone_secretion
+is_anonymous: true
+intersection_of: GO:0046903 ! secretion
+intersection_of: results_in_directed_movement_of CHEBI:16827 ! corticosterone
+
+[Term]
+id: _:macrophage_phagocytosis
+is_anonymous: true
+intersection_of: GO:0006909 ! phagocytosis
+intersection_of: has_central_participant CL:0000235 ! macrophage
+
+[Term]
+id: _:neutrophil_phagocytosis
+is_anonymous: true
+intersection_of: GO:0006909 ! phagocytosis
+intersection_of: has_central_participant CL:0000775 ! neutrophil
+
+[Term]
+id: _:bronchiole_branching
+is_anonymous: true
+intersection_of: GO:0048754 ! branching morphogenesis of a tube
+intersection_of: has_central_participant MA:0000422 ! bronchiole
+
+[Term]
+id: _:PNS_synaptic_transmission
+is_anonymous: true
+intersection_of: GO:0007268 ! synaptic transmission
+intersection_of: has_central_participant MA:0000218 ! peripheral nervous system
+
+[Term]
+id: _:kidney_creatine_secretion
+is_anonymous: true
+intersection_of: GO:0046903 ! secretion
+intersection_of: has_central_participant MA:0000368 ! kidney
+intersection_of: results_in_directed_movement_of CHEBI:16919 ! creatine
+
+[Term]
+id: _:kidney_excretion
+is_anonymous: true
+intersection_of: GO:0007588 ! excretion
+intersection_of: has_central_participant MA:0000368 ! kidney
+
+[Term]
+id: _:kidney_protein_excretion
+is_anonymous: true
+intersection_of: _:kidney_excretion
+intersection_of: has_output CHEBI:16541 ! Protein
+
+[Term]
+id: _:kidney_sodium_excretion
+is_anonymous: true
+intersection_of: _:kidney_excretion
+intersection_of: has_output CHEBI:26708 ! sodium
+
+[Term]
+id: _:kidney_potassium_excretion
+is_anonymous: true
+intersection_of: _:kidney_excretion
+intersection_of: has_output CHEBI:26216 ! potassium
+
+[Term]
+id: _:organic_anions_kidney_excretion
+is_anonymous: true
+intersection_of: _:kidney_excretion
+intersection_of: has_output CHEBI:25696 ! organic anions
+
+[Term]
+id: _:production_of_surfactant
+is_anonymous: true
+intersection_of: GO:0009058 ! biosynthetic process
+intersection_of: results_in_change_to MA:0002534 ! lung surfactant
+
+[Term]
+id: _:secretion_of_surfactant
+is_anonymous: true
+intersection_of: GO:0046903 ! secretion
+intersection_of: results_in_directed_movement_of MA:0002534 ! lung surfactant
+
+[Term]
+id: _:incisor_odontogenesis
+is_anonymous: true
+intersection_of: GO:0042476 ! odontogenesis
+intersection_of: results_in_complete_development_of MA:0000349 ! incisor
+
+[Term]
+id: _:corneal_neovascularization
+is_anonymous: true
+intersection_of: GO:0060055 ! angiogenesis involved in wound healing
+intersection_of: occurs_in MA:0000266 ! cornea
+
+[Term]
+id: _:choroidal_neovascularization
+is_anonymous: true
+intersection_of: GO:0060055 ! angiogenesis involved in wound healing
+intersection_of: occurs_in MA:0000263 ! choroid
+
+[Term]
+id: _:retina_neovascularization
+is_anonymous: true
+intersection_of: GO:0060055 ! angiogenesis involved in wound healing
+intersection_of: occurs_in MA:0000276 ! retina
+
+[Term]
+id: _:granulocyte_chemotaxis
+is_anonymous: true
+intersection_of: GO:0006935 ! chemotaxis
+intersection_of: has_central_participant CL:0000094 ! granulocyte
 
 [Term]
 id: _:astrocyte_cell_growth
@@ -36625,6 +36665,49 @@ intersection_of: MA:0000916 ! parietal cortex
 intersection_of: has_part MA:0000908 ! primary somatosensory cortex
 intersection_of: has_part MA:0000918 ! secondary somatosensory cortex
 
+[Term]
+id: _:neonatal_mouse
+is_anonymous: true
+intersection_of: MA:0002405 ! adult mouse
+intersection_of: has_quality PATO:0002206 ! neonatal
+
+[Term]
+id: _:urine_in_ureter
+is_anonymous: true
+intersection_of: MA:0002545 ! urine
+intersection_of: contained_in MA:0000378 ! Ureter
+
+[Term]
+id: _:paw_hand_foot
+is_anonymous: true
+union_of: MA:0000044 ! foot
+union_of: MA:0000037 ! hand
+union_of: MA:0002714 ! autopod
+
+[Term]
+id: _:jejunum_smooth_muscle
+is_anonymous: true
+intersection_of: MA:0001539 ! intestine smooth muscle
+intersection_of: part_of MA:0000340 ! jejunum
+
+[Term]
+id: _:arterial_blood
+is_anonymous: true
+intersection_of: MA:0000059 ! blood
+intersection_of: contained_in MA:0000064 ! artery
+
+[Term]
+id: _:CSF_in_brain_ventricle
+is_anonymous: true
+intersection_of: MA:0002503 ! cerebrospinal fluid
+intersection_of: contained_in MA:0000818 ! brain ventricle
+
+
+[Term]
+id: _:intrascrotal_fluid
+is_anonymous: true
+intersection_of: MA:0002531 ! peritoneal fluid
+intersection_of: contained_in MA:0000409 ! scrotum
 
 [Term]
 id: _:extremity_paw_limb_tail
