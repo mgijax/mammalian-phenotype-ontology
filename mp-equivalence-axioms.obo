@@ -36536,6 +36536,7 @@ intersection_of: has_central_participant MA:0000091 ! heart ventricle
 id: qualifier
 name: qualifier
 comment: placeholder relation to indicate normality/abnormality.
+xref: RO:0002180
 
 [Typedef]
 id: towards
