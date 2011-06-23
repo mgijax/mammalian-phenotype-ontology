@@ -5524,7 +5524,7 @@ intersection_of: inheres_in MA:0000151 ! skin
 ! note: these lack 'towards' differentia - implicit from Q
 [Term]
 id: MP:0001202 ! skin photosensitivity
-intersection_of: PATO:0000927 ! photosensitivity
+intersection_of: PATO:0000547 ! photosensitive
 intersection_of: inheres_in MA:0000151 ! skin
 
 ! todo - make this more like existing radiation terms
