@@ -663,7 +663,6 @@ intersection_of: inheres_in MA:0000315 ! rib
 [Term]
 id: MP:0000151 ! absent ribs
 intersection_of: PATO:0002000 ! lacks all parts of type
-intersection_of: inheres_in MA:0000031 ! chest
 intersection_of: towards MA:0000315 ! rib
 
 [Term]
@@ -710,6 +709,7 @@ intersection_of: qualifier PATO:0001869 ! pathological
 [Term]
 id: MP:0000162 ! lordosis
 intersection_of: PATO:0001466 ! curved rostral
+intersection_of: qualifier PATO:0001869 ! pathological
 intersection_of: inheres_in MA:0002416 ! vertebral column
 
 [Term]
@@ -837,7 +837,7 @@ intersection_of: inheres_in MA:0000059 ! blood
 [Term]
 id: MP:0000202 ! abnormal circulating alkaline phosphatase level
 intersection_of: PATO:0000001 ! quality
-intersection_of: inheres_in GO:0004035 ! alkaline phosphatase activity
+intersection_of: inheres_in  _:alkaline_phosphatase_metabolism
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -1059,7 +1059,7 @@ intersection_of: inheres_in MA:0000072 ! heart
 [Term]
 id: MP:0000276 ! heart right ventricle hypertrophy
 intersection_of: PATO:0000584 ! hypertrophic
-intersection_of: inheres_in MA:0002791 ! heart ventricle wal
+intersection_of: inheres_in MA:0002791 ! heart ventricle wall
 intersection_of: inheres_in_part_of MA:0000093 ! heart right ventricle
 
 [Term]
@@ -1987,23 +1987,23 @@ intersection_of: inheres_in MA:0001910 ! muzzle/snout
 [Term]
 id: MP:0000446 ! long snout
 intersection_of: PATO:0000573 ! increased length
-intersection_of: inheres_in MA:0001910 ! muzzle/snout
+intersection_of: inheres_in MA:0000281 ! nose
 
 [Term]
 id: MP:0000447 ! flattened snout
 intersection_of: PATO:0000407 ! flat
-intersection_of: inheres_in MA:0001910 ! muzzle/snout
+intersection_of: inheres_in MA:0000281 ! nose
 
 [Term]
 id: MP:0000448 ! pointed snout
 intersection_of: PATO:0000944 ! pointed
-intersection_of: inheres_in MA:0001910 ! muzzle/snout
+intersection_of: inheres_in MA:0000281 ! nose
 
 [Term]
 id: MP:0000450 ! absent snout
 intersection_of: PATO:0002000 ! lacks all parts of type
 intersection_of: inheres_in MA:0000023 ! head
-intersection_of: towards MA:0001910 ! muzzle/snout
+intersection_of: towards MA:0000281 ! nose
 
 [Term]
 id: MP:0000451 ! scaly muzzle
@@ -3479,7 +3479,6 @@ intersection_of: inheres_in MA:0002483 ! heart blood vessel
 [Term]
 id: MP:0000690 ! absent spleen
 intersection_of: PATO:0002000 ! lacks all parts of type
-intersection_of: inheres_in MA:0002711 ! immune system
 intersection_of: towards MA:0000141 ! spleen
 
 [Term]
@@ -4607,10 +4606,10 @@ intersection_of: PATO:0001493 ! hypertrophic growth
 intersection_of: inheres_in_part_of CL:0000100 ! motor neuron
 intersection_of: inheres_in GO:0030424 ! axon
 
-[Term]
-id: MP:0000951 ! sporadic seizures
-intersection_of: PATO:0000428 ! sporadic
-intersection_of: inheres_in MP:0002064 ! seizures
+![Term]
+!id: MP:0000951 ! sporadic seizures
+!intersection_of: PATO:0000428 ! sporadic
+!intersection_of: inheres_in MP:0002064 ! seizures
 
 [Term]
 id: MP:0000952 ! abnormal CNS glial cell morphology
@@ -6964,16 +6963,19 @@ intersection_of: inheres_in GO:0030183 ! B cell differentiation
 id: MP:0001805 ! decreased IgG level
 intersection_of: PATO:0001163 ! decreased concentration
 intersection_of: towards IMR:0002094 ! IgG
+intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0001806 ! decreased IgM level
 intersection_of: PATO:0001163 ! decreased concentration
 intersection_of: towards IMR:0000154 ! IgM
+intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0001807 ! decreased IgA level
 intersection_of: PATO:0001163 ! decreased concentration
 intersection_of: towards IMR:0002091 ! IgA
+intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
 id: MP:0001823 ! thymus hypoplasia
@@ -18240,7 +18242,7 @@ intersection_of: inheres_in MA:0000315 ! rib
 [Term]
 id: MP:0000449 ! broad nasal bridge
 intersection_of: PATO:0000600 ! increased width
-intersection_of: inheres_in MA:0002874! nasal bridge
+intersection_of: inheres_in MA:0002874 ! nasal bridge
 
 [Term]
 id: MP:0004677 ! truncated ribs
@@ -28163,7 +28165,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 id: MP:0000069 ! Kyphoscoliosis
 intersection_of: PATO:0000001 ! quality
 intersection_of: has_part MP:0000161 ! Scoliosis
-intersection_of: has_part HP:0002808 ! Kyphosis
+intersection_of: has_part MP:0000160 ! Kyphosis
 
 [Term]
 id: MP:0009101 ! clitoris hypoplasia
@@ -31466,9 +31468,8 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0000414 ! alopecia
-intersection_of: PATO:0002000 ! lacks all parts of type
+intersection_of: PATO:0002001 ! has fewer parts of type
 intersection_of: towards UBERON:0001037 ! hair
-!intersection_of: towards MA:0000159 ! hair shaft
 
 [Term]
 id: MP:0000466 ! esophageal epithelium hyperplasia
@@ -36499,6 +36500,12 @@ id: _:choroidal_neovascularization
 is_anonymous: true
 intersection_of: GO:0060055 ! angiogenesis involved in wound healing
 intersection_of: occurs_in MA:0000263 ! choroid
+
+[Term]
+id: _:alkaline_phosphatase_metabolism
+is_anonymous: true
+intersection_of: GO:0008152 ! metabolic process
+intersection_of: has_participant PR:000003968 ! alkaline phosphatase, tissue-nonspecific isozyme
 
 [Term]
 id: _:retina_neovascularization
