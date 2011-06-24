@@ -313,6 +313,7 @@ intersection_of: inheres_in MA:0001459 ! bone
 id: MP:0000063 ! decreased bone density
 intersection_of: PATO:0001790 ! decreased density
 intersection_of: inheres_in MA:0001459 ! bone
+intersection_of: qualifier PATO:0001869 ! pathological
 
 !We need to request secondary bone resorption fromn GO
 ![Term]
@@ -1432,8 +1433,8 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0009248 ! small caput
-intersection_of: PATO:0001997 ! present in fewer numbers in organism
-intersection_of: inheres_in MA:0002762 ! caput epididymis
+intersection_of: PATO:0002002 ! has extra parts of type
+intersection_of: towards MA:0002762 ! caput epididymis
 
 [Term]
 id: MP:0009249 ! enlarged caput
@@ -1456,12 +1457,6 @@ intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in_part_of MA:0000141 ! spleen
 intersection_of: inheres_in CL:0000000 ! cell
 intersection_of: qualifier PATO:0000460 ! abnormal
-
-[Term]
-id: MP:0009335 ! decreased splenocyte proliferation
-intersection_of: PATO:0001997 ! present in fewer numbers in organism
-intersection_of: inheres_in_part_of MA:0000141 ! spleen
-intersection_of: inheres_in GO:0008283 ! cell proliferation
 
 [Term]
 id: MP:0009336 ! increased splenocyte proliferation
@@ -2215,9 +2210,8 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0001914 ! hemorrhage
-intersection_of: PATO:0000001 ! quality
+intersection_of: PATO:0001561 ! having extra processual parts
 intersection_of: towards MPATH:119 ! hemorrhage and non-specified extravasation
-intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0000480 ! increased rib number
@@ -2398,11 +2392,6 @@ intersection_of: towards GO:0042698 ! estrous cycle
 id: MP:0000509 ! absent digestive mucosecretion
 intersection_of: PATO:0001558 ! lacking processual parts
 intersection_of: towards _:digestive_mucosecretion
-
-[Term]
-id: MP:0003124 ! hypospadia
-intersection_of: PATO:0001476 ! decreased position
-intersection_of: inheres_in MA:0002867 ! urethral opening
 
 [Term]
 id: MP:0000510 ! remittent intestinal hemorrhage
@@ -6397,7 +6386,7 @@ intersection_of: towards CHEBI:25805 ! oxygen
 
 [Term]
 id: MP:0001575 ! cyanosis
-intersection_of: PATO:0000318! blue
+intersection_of: PATO:0000319 ! cyan
 intersection_of: inheres_in MA:0000151 ! skin
 
 [Term]
@@ -6796,10 +6785,9 @@ intersection_of: inheres_in GO:0060073 ! micturition
 
 [Term]
 id: MP:0009643 ! abnormal urine homeostasis
-intersection_of: PATO:0000033 ! concentration
+intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: towards CHEBI:24431 ! molecular structure
-intersection_of: inheres_in MA:0002545 ! urine
+intersection_of: inheres_in _:urine_homeostasis
 
 [Term]
 id: MP:0001758 ! abnormal urine glucose level
@@ -7268,7 +7256,7 @@ intersection_of: inheres_in MA:0002405 ! adult mouse
 [Term]
 id: MP:0001785 ! edema
 intersection_of: PATO:0001450 ! edematous
-intersection_of: inheres_in MA:0002405 ! adult mouse
+intersection_of: inheres_in_part_of MA:0002405 ! adult mouse
 
 [Term]
 id: MP:0001922 ! reduced male fertility
@@ -7544,8 +7532,8 @@ intersection_of: has_part MP:0002023 ! B cell derived lymphoma
 
 [Term]
 id: MP:0002026 ! leukemia
-intersection_of: PATO:0000467 ! present in organism
-intersection_of: inheres_in MPATH:336 ! leukaemia
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards MPATH:336 ! leukaemia
 
 [Term]
 id: MP:0002027 ! lung adenocarcinoma
@@ -8501,9 +8489,16 @@ intersection_of: towards MP:0001548 ! hyperlipidemia
 
 [Term]
 id: MP:0002327 ! abnormal respiratory function
-intersection_of: PATO:0000001 ! quality
+intersection_of: PATO:0001509 ! functionality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0043576 ! regulation of respiratory gaseous exchange
+intersection_of: inheres_in MA:0000327 ! respiratory system
+
+!physiology
+![Term]
+!id: MP:0002327 ! abnormal respiratory function
+!intersection_of: PATO:0000001 ! quality
+!intersection_of: qualifier PATO:0000460 ! abnormal
+!intersection_of: inheres_in GO:0043576 ! regulation of respiratory gaseous exchange
 
 ! TODO: review
 ! 'anomaly in the amount of oxygen and carbon dioxide in the blood'
@@ -10318,12 +10313,10 @@ intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0000089 ! pulmonary valve
 
-! note: relational vs monadic? protruding vs bulging?
 [Term]
 id: MP:0002750 ! exophthalmos
-intersection_of: PATO:0001644 ! relational protruding quality
+intersection_of: PATO:0001598 ! protruding
 intersection_of: inheres_in MA:0000261 ! eye
-intersection_of: towards MA:0002473 ! face
 
 [Term]
 id: MP:0002751 ! abnormal autonomic nervous system morphology
@@ -10845,12 +10838,6 @@ intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: has_central_participant MA:0000010 ! cardiovascular system
 intersection_of: inheres_in GO:0048731 ! system development
-
-[Term]
-id: MP:0002926 ! aganglionic megacolon
-intersection_of: PATO:0002000 ! lacking physical part
-intersection_of: inheres_in MA:0000335 ! colon
-intersection_of: towards MA:0002406 ! ganglion
 
 [Term]
 id: MP:0002928 ! abnormal bile duct morphology
@@ -11407,7 +11394,7 @@ intersection_of: towards CHEBI:18276 ! hydrogen
 [Term]
 id: MP:0003030 ! acidemia
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards CHEBI:18276 ! hydrogen
+intersection_of: towards CHEBI:37527 ! acid
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
@@ -11714,8 +11701,7 @@ intersection_of: inheres_in MA:0000073 ! heart atrium
 [Term]
 id: MP:0003142 ! anotia
 intersection_of: PATO:0002000 ! lacks all parts of type
-intersection_of: inheres_in MA:0000258 ! outer ear
-intersection_of: towards MA:0000259 ! auricle
+intersection_of: towards MA:0000258 ! outer ear
 
 [Term]
 id: MP:0003146 ! absent cochlear ganglion
@@ -12495,7 +12481,7 @@ intersection_of: inheres_in MA:0000255 ! auditory tube
 [Term]
 id: MP:0003331 ! hepatocellular carcinoma
 intersection_of: PATO:0000467 ! present in organism
-intersection_of: inheres_in MPATH:357 ! hepatocellular carcinoma
+intersection_of: towards MPATH:357 ! hepatocellular carcinoma
 
 [Term]
 id: MP:0003332 ! liver abscess
@@ -12554,8 +12540,8 @@ intersection_of: inheres_in MA:0000120 ! pancreas
 
 [Term]
 id: MP:0003342 ! accessory spleen
-intersection_of: PATO:0000470 ! present in greater numbers in organism
-intersection_of: inheres_in MA:0000141 ! spleen
+intersection_of: PATO:0002002 ! has extra parts of type
+intersection_of: towards  MA:0000141 ! spleen
 
 [Term]
 id: MP:0010364 ! fibroadenoma
@@ -12701,7 +12687,7 @@ intersection_of: inheres_in MA:0000059 ! blood
 id: MP:0003375 ! abnormal menstrual cycle
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0042698 ! menstrual cycle
+intersection_of: inheres_in GO:0042703 ! menstruation
 
 [Term]
 id: MP:0003376 ! amenorrhea
@@ -13396,7 +13382,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 [Term]
 id: MP:0003548 ! pulmonary hypertension
 intersection_of: PATO:0001576 ! increased pressure
-intersection_of: qualifier PATO:0000498 ! increased period
 intersection_of: inheres_in_part_of MA:0002031 ! pulmonary artery
 intersection_of: inheres_in MA:0000059 ! blood
 intersection_of: qualifier PATO:0001863 ! chronic
@@ -14020,7 +14005,7 @@ intersection_of: inheres_in_part_of MA:0000016 ! nervous system
 id: MP:0003632 ! abnormal nervous system morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000016 ! nervous system
+intersection_of: inheres_in_part_of MA:0000016 ! nervous system
 
 [Term]
 id: MP:0003633 ! abnormal nervous system physiology
@@ -14891,7 +14876,6 @@ intersection_of: inheres_in MA:0000710 ! blood vessel smooth muscle
 [Term]
 id: MP:0003815 ! nude
 intersection_of: PATO:0002000 ! lacks all parts of type
-intersection_of: inheres_in MA:0002405 ! adult mouse
 intersection_of: towards MA:0000155 ! coat hair
 
 [Term]
@@ -15392,8 +15376,7 @@ intersection_of: has_central_participant MA:0000368 ! kidney
 [Term]
 id: MP:0004154 ! renal tubular necrosis
 intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in GO:0008219 ! cell death
-intersection_of: has_central_participant MA:0000377 ! renal tubule
+intersection_of: inheres_in _:renal_tubule_death
 
 [Term]
 id: MP:0003947 ! abnormal cholesterol level
@@ -16116,6 +16099,7 @@ intersection_of: qualifier PATO:0001869 ! pathological
 id: MP:0004144 ! hypotonia
 intersection_of: PATO:0001619 ! decreased tonicity
 intersection_of: inheres_in MA:0000015 ! muscle
+intersection_of: qualifier PATO:0001869 ! pathological
 
 [Term]
 id: MP:0004146 ! absent M lines
@@ -16178,7 +16162,6 @@ intersection_of: inheres_in MA:0000475 ! arch of aorta
 id: MP:0004158 ! right aortic arch
 intersection_of: PATO:0001793 ! right side of
 intersection_of: inheres_in MA:0000441 ! trachea
-intersection_of: inheres_in MA:0000352 ! esophagus
 intersection_of: towards MA:0000475 ! arch of aorta
 
 [Term]
@@ -16718,7 +16701,7 @@ intersection_of: towards MA:0001216 ! malleus
 
 [Term]
 id: MP:0004320 ! split sternum
-intersection_of: PATO:0001786 ! splitted
+intersection_of: PATO:0001572 ! bifid
 intersection_of: inheres_in MA:0001331 ! sternum
 
 [Term]
@@ -18300,7 +18283,7 @@ intersection_of: inheres_in MA:0000110 ! intervertebral disc
 [Term]
 id: MP:0004686 ! decreased length of long bones
 intersection_of: PATO:0000574 ! decreased length
-intersection_of: inheres_in MA:0000298 ! limb long bone
+intersection_of: inheres_in MA:0002802 ! long bone
 
 [Term]
 id: MP:0004687 ! split vertebrae
@@ -18342,7 +18325,6 @@ intersection_of: inheres_in MA:0001338 ! pubis
 [Term]
 id: MP:0004694 ! absent patella
 intersection_of: PATO:0002000 ! lacks all parts of type
-intersection_of: inheres_in MA:0000007 ! limb
 intersection_of: towards MA:0001374 ! patella
 
 [Term]
@@ -18414,7 +18396,7 @@ intersection_of: inheres_in MA:0000059 ! blood
 id: MP:0004703 ! abnormal vertebral column
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0002416 ! vertebral column
+intersection_of: inheres_in_part_of MA:0002416 ! vertebral column
 
 [Term]
 id: MP:0004704 ! short vertebral column
@@ -20312,12 +20294,11 @@ id: MP:0005067 ! presence of melanin granules in retina
 intersection_of: PATO:0002002 ! having extra physical parts
 intersection_of: inheres_in MA:0000276 ! retina
 intersection_of: towards GO:0042470 ! melanosome
-!!!
-![Term]
-!id: MP:0003852 ! skeletal muscle necrosis
-!intersection_of: PATO:0000912 ! increased rate
-!intersection_of: towards GO:0008219 ! cell death
-!intersection_of: inheres_in MA:0000165 ! skeletal muscle
+
+[Term]
+id: MP:0003852 ! skeletal muscle necrosis
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: towards _:skeletal_muscle_death
 
 [Term]
 id: MP:0005068 ! abnormal NK cell morphology
@@ -20571,11 +20552,17 @@ intersection_of: PATO:0001162 ! increased concentration
 intersection_of: towards IMR:0100084 ! pituitary hormone
 intersection_of: inheres_in MA:0000059 ! blood
 
+![Term]
+!id: MP:0003031 ! acidosis
+!intersection_of: PATO:0001162 ! increased concentration
+!intersection_of: inheres_in _:arterial_blood
+!intersection_of: towards CHEBI:37527 ! acid
+
 [Term]
 id: MP:0003031 ! acidosis
 intersection_of: PATO:0001162 ! increased concentration
-intersection_of: inheres_in _:arterial_blood
-intersection_of: towards CHEBI:24636 ! proton
+intersection_of: inheres_in MA:0000059 ! blood
+intersection_of: towards CHEBI:37527 ! acid
 
 [Term]
 id: MP:0005118 ! decreased circulating pituitary hormone level
@@ -21249,8 +21236,8 @@ intersection_of: towards CHEBI:26607 ! saturated fatty acids
 
 [Term]
 id: MP:0005287 ! narrow eye opening
-intersection_of: PATO:0001847 ! constricted
-intersection_of: inheres_in MA:0000268 ! eyelid
+intersection_of: PATO:0000599 ! decreased width
+intersection_of: inheres_in MA:0001266 ! palpebral fissure
 
 [Term]
 id: MP:0004630 ! spiral modiolar artery stenosis
@@ -21481,12 +21468,6 @@ intersection_of: PATO:0000639 ! degenerate
 intersection_of: inheres_in MA:0000164 ! myocardium
 
 [Term]
-id: MP:0005331 ! insulin resistance
-intersection_of: PATO:0001650 ! increased resistance
-intersection_of: inheres_in MA:0002405 ! adult mouse
-intersection_of: towards PR:000009054 ! insulin
-
-[Term]
 id: MP:0005332 ! abnormal amino acid level
 intersection_of: PATO:0000033 ! concentration
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -21525,7 +21506,6 @@ intersection_of: inheres_in MA:0002549 ! retroperitoneal fat pad
 id: MP:0005338 ! atherosclerotic lesions
 intersection_of: PATO:0001561 ! having extra processual parts
 intersection_of: towards MPATH:28 ! atherosclerosis
-intersection_of: inheres_in MA:0000064 ! artery
 
 [Term]
 id: MP:0005339 ! increased susceptibility to atherosclerosis
@@ -21956,7 +21936,6 @@ intersection_of: towards CL:0000235 ! macrophage
 [Term]
 id: MP:0005430 ! absent fibula
 intersection_of: PATO:0002000 ! lacks all parts of type
-intersection_of: inheres_in MA:0000026 ! hindlimb
 intersection_of: towards MA:0001360 ! fibula
 
 [Term]
@@ -23429,13 +23408,13 @@ intersection_of: towards IMR:0001356 ! phospholipid
 
 [Term]
 id: MP:0006085 ! myocardial necrosis
-intersection_of: PATO:0002017 ! increased magnitude
-intersection_of: inheres_in GO:0008219 ! cell death
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in _:cardiac_muscle_cell_death
 intersection_of: has_central_participant CL:0000746 ! cardiac muscle cell
 
 [Term]
 id: MP:0005619 ! increased potassium excretion
-intersection_of: PATO:0002017 ! increased magnitude
+intersection_of: PATO:0000912 ! increased rate
 intersection_of: inheres_in _:kidney_potassium_excretion
 
 [Term]
@@ -23649,7 +23628,6 @@ intersection_of: inheres_in MA:0000067 ! vein
 id: MP:0006138 ! congestive heart failure
 intersection_of: PATO:0001570 ! having decreased processual parts
 intersection_of: towards GO:0060047 ! heart contraction
-intersection_of: inheres_in MA:0000072 ! heart
 
 [Term]
 id: MP:0010391 ! rhabdomyoma
@@ -23791,7 +23769,8 @@ intersection_of: inheres_in MA:0000263 ! choroid
 
 [Term]
 id: MP:0006177 ! choroid sclerosis
-intersection_of: PATO:0000386 ! hard
+intersection_of: PATO:0001788 ! increased mass density
+intersection_of: qualifier PATO:0001869 ! pathological
 intersection_of: inheres_in MA:0000263 ! choroid
 
 [Term]
@@ -23826,9 +23805,9 @@ intersection_of: inheres_in MPATH:240 ! hemangioma
 
 [Term]
 id: MP:0006183 ! retinal hamartoma
-intersection_of: PATO:0000467 ! present in organism
-intersection_of: develops_from MA:0000276 ! retina
-intersection_of: inheres_in MPATH:74 ! hamartoma/choristoma
+intersection_of: PATO:0002002 ! having extra physical parts
+intersection_of: inheres_in MA:0000276 ! retina
+intersection_of: towards MPATH:74 ! hamartoma/choristoma
 
 [Term]
 id: MP:0006184 ! retinal astrocytoma
@@ -23838,7 +23817,7 @@ intersection_of: inheres_in MPATH:244 ! astrocytoma
 
 [Term]
 id: MP:0006185 ! retinal hemorrhage
-intersection_of: PATO:0002002 ! having extra physical parts
+intersection_of: PATO:0001561 ! having extra processual parts
 intersection_of: towards MPATH:119 ! hemorrhage and non-specified extravasation
 intersection_of: inheres_in MA:0000276 ! retina
 
@@ -23887,8 +23866,8 @@ intersection_of: has_part MP:0001852 ! conjunctivitis
 [Term]
 id: MP:0006197 ! ocular hypotelorism
 intersection_of: PATO:0000375 ! decreased distance
-intersection_of: inheres_in MA:0000261 ! eye
-intersection_of: towards MA:0000261 ! eye
+intersection_of: inheres_in MA:0002949 ! left eye
+intersection_of: towards MA:0002950 ! right eye
 
 [Term]
 id: MP:0006198 ! enophthalmos
@@ -23938,7 +23917,7 @@ intersection_of: inheres_in MA:0002482 ! orbit
 [Term]
 id: MP:0006213 ! shallow orbits
 intersection_of: PATO:0001472 ! decreased depth
-intersection_of: inheres_in MA:0002464 ! labium
+intersection_of: inheres_in  MA:0002482 ! orbit
 
 [Term]
 id: MP:0006214 ! asymmetrical orbits
@@ -24312,11 +24291,6 @@ id: MP:0006319 ! abnormal epididymal fat pad morphology
 intersection_of: PATO:0000001 ! quality
 intersection_of: inheres_in MA:0002550 ! epididymal fat pad
 intersection_of: qualifier PATO:0000460 ! abnormal
-
-[Term]
-id: MP:0006325 ! impaired hearing
-intersection_of: PATO:0002018 ! decreased magnitude
-intersection_of: inheres_in GO:0007605 ! sensory perception of sound
 
 [Term]
 id: MP:0006348 ! abnormal circulating copper level
@@ -25589,6 +25563,11 @@ intersection_of: inheres_in GO:0005623 ! cell
 intersection_of: towards CHEBI:22333 ! alkylating agents
 
 [Term]
+id: MP:0005331 ! insulin resistance
+intersection_of: PATO:0001552 ! decreased sensitivity of a process
+intersection_of: towards CHEBI:5931 ! insulin
+
+[Term]
 id: MP:0008404 ! increased cellular sensitivity to methylmethanesulfonate
 intersection_of: PATO:0001549 ! increased sensitivity
 intersection_of: inheres_in GO:0005623 ! cell
@@ -26446,6 +26425,11 @@ intersection_of: inheres_in GO:0002281 ! macrophage activation during immune res
 id: MP:0005496 ! impaired macrophage recruitment
 intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0002281 ! macrophage activation during immune response
+
+[Term]
+id: MP:0006325 ! impaired hearing
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in GO:0007605 ! sensory perception of sound
 
 [Term]
 id: MP:0005390 ! skeleton phenotype
@@ -31307,7 +31291,7 @@ intersection_of: inheres_in MA:0000347 ! tongue
 
 [Term]
 id: MP:0009909 ! bifid tongue
-intersection_of: PATO:0000403 ! cleft
+intersection_of: PATO:0001572 ! bifid
 intersection_of: inheres_in MA:0000347 ! tongue
 
 [Term]
@@ -31694,11 +31678,6 @@ intersection_of: inheres_in UBERON:0004903 ! bronchoalveolar duct junction
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
-id: MP:0008970 ! choanal atresia
-intersection_of: PATO:0001819 ! atresia
-intersection_of: inheres_in MA:0001323 ! internal naris
-
-[Term]
 id: MP:0004556 ! enlarged allantois
 intersection_of: PATO:0000586 ! increased size
 intersection_of: inheres_in UBERON:0004340 ! allantois
@@ -31957,7 +31936,7 @@ intersection_of: inheres_in UBERON:0004374 ! vitelline vasculature
 [Term]
 id: MP:0003257 ! abnormal abdominal wall
 intersection_of: PATO:0000001 ! quality
-intersection_of: inheres_in_part_of UBERON:0003697 ! abdominal wall
+intersection_of: inheres_in UBERON:0003697 ! abdominal wall
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -32269,8 +32248,8 @@ intersection_of: towards GO:0034102 ! erythrocyte clearance
 
 [Term]
 id: MP:0010036 ! decreased erythrocyte clearance
-intersection_of: PATO:0001997 ! present in fewer numbers in organism
-intersection_of: inheres_in GO:0034102 ! erythrocyte clearance
+intersection_of: PATO:0001570 ! having decreased processual parts
+intersection_of: towards GO:0034102 ! erythrocyte clearance
 
 [Term]
 id: MP:0010037 ! ectopic melanocytes
@@ -32393,11 +32372,6 @@ intersection_of: towards CHEBI:28790 ! serotonin
 
 [Term]
 id: MP:0010083 ! encephalocele
-intersection_of: PATO:0001572 ! bifid
-intersection_of: inheres_in MA:0000316 ! cranium
-
-[Term]
-id: HP:0002084 ! Encephalocele
 intersection_of: PATO:0001646 ! protruding out of
 intersection_of: inheres_in_part_of MA:0000168 ! brain
 intersection_of: inheres_in UBERON:0000479 ! portion of tissue
@@ -32497,16 +32471,15 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0010119 ! abnormal bone mineral density
-intersection_of: PATO:0001019 ! density
-intersection_of: inheres_in_part_of MA:0001459 ! bone
-intersection_of: inheres_in CHEBI:46662 ! mineral
+intersection_of: PATO:0001019 ! mass density
+intersection_of: inheres_in MA:0001459 ! bone
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0010122 ! abnormal bone mineral content
 intersection_of: PATO:0000025 ! composition
-intersection_of: inheres_in_part_of MA:0001459 ! bone
-intersection_of: inheres_in CHEBI:46662 ! mineral
+intersection_of: inheres_in MA:0001459 ! bone
+intersection_of: towards CHEBI:46662 ! mineral
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -36272,6 +36245,25 @@ intersection_of: GO:0008219 ! cell death
 intersection_of: has_participant CL:0000362! epidermal cell
 
 [Term]
+id: _:renal_tubule_death
+is_anonymous: true
+intersection_of: GO:0008219 ! cell death
+intersection_of: has_participant MA:0000377 ! renal tubule
+
+[Term]
+id: _:cardiac_muscle_cell_death
+is_anonymous: true
+intersection_of: GO:0008219 ! cell death
+intersection_of: has_participant CL:0000746 ! cardiac muscle cell
+
+[Term]
+id: _:skeletal_muscle_death
+is_anonymous: true
+intersection_of: GO:0008219 ! cell death
+intersection_of: has_participant MA:0000165 ! skeletal muscle
+
+
+[Term]
 id: _:keratinocyte_apoptosis
 is_anonymous: true
 intersection_of: GO:0006915 ! apoptosis
@@ -36518,6 +36510,12 @@ id: _:granulocyte_chemotaxis
 is_anonymous: true
 intersection_of: GO:0006935 ! chemotaxis
 intersection_of: has_central_participant CL:0000094 ! granulocyte
+
+[Term]
+id: _:urine_homeostasis
+is_anonymous: true
+intersection_of: inheres_in GO:0042592 ! homeostasis
+intersection_of: has_central_participant MA:0002545 ! urine
 
 [Term]
 id: _:astrocyte_cell_growth
