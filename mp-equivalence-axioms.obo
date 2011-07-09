@@ -36072,6 +36072,548 @@ id: MP:0002064 ! seizures
 intersection_of: PATO:0001561 ! having extra processual parts
 intersection_of: towards NBO:0000012 ! seizures/epilepsy
 
+!!! Obol results (conservative, vetted by cjm) 2011-07-09
+
+[Term]
+id: MP:0002262  ! abnormal nasal mucosa goblet cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0002480  ! nasal mucosa goblet cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0003993  ! abnormal ventral spinal root morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0002260  ! ventral root of spinal cord
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0003994  ! abnormal dorsal spinal root morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0002261  ! dorsal root of spinal cord
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0004230  ! abnormal embryonic erythrocyte morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0002355  ! primitive red blood cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0004248  ! abnormal epaxial muscle morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0008778  ! epaxial musclulature
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0004482  ! abnormal interdental cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0002172  ! interdental cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0004624  ! abnormal thoracic cage morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0003252  ! rib cage
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0005196  ! abnormal posterior uvea morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0001776  ! choroid
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0006420  ! abnormal peritubular myoid cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0002481  ! peritubular myoid cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0008284  ! abnormal hippocampus pyramidal cell layer
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0002313  ! hippocampus pyramidal layer
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0008291  ! abnormal adrenocortical cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0002097  ! cortical cell of adrenal gland
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0008506  ! abnormal noradrenergic chromaffin cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0002083  ! type I cell of adrenal medulla
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0008522  ! abnormal lymph node germinal center morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0002989  ! lymph node germinal center
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0008788  ! abnormal fetal cardiomyocyte morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0002495  ! fetal cardiomyocyte
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0008894  ! abnormal intraepithelial T cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0002496  ! intraepithelial lymphocyte
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0008959  ! abnormal spongiotrophoblast cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0002499  ! spongiotrophoblast cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0009376  ! abnormal manchette morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in GO:0002177  ! manchette
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0009386  ! abnormal dermal melanocyte morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0002482  ! dermal melanocyte
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0009463  ! abnormal pituitary infundibular stalk
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0002434  ! pituitary stalk
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0009696  ! abnormal spinal cord grey commissure morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0004677  ! spinal cord gray commissure
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010190  ! abnormal retinal melanocyte morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0002485  ! retinal melanocyte
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010482  ! abnormal aortic sinus morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0003707  ! sinus of valsalva
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010581  ! abnormal atrium myocardial trabeculae morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0005988  ! atrium myocardial trabecula
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010583  ! abnormal conotruncus morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0006060  ! conotruncus
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010679  ! abnormal arrector pilli muscle morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0002033  ! arrector muscle of hair
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010772  ! abnormal pollex morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0001463  ! hand digit 1
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010774  ! abnormal lymph node follicular mantle morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0002990  ! lymph node follicular mantle
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010775  ! abnormal scaphoid morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0002555  ! scaphoid
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010778  ! abnormal stomach fundus morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0001160  ! fundus of stomach
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010780  ! abnormal stomach smooth muscle circular layer morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0001628  ! stomach smooth muscle circular layer
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010783  ! abnormal stomach wall morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0002692  ! stomach wall
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010784  ! abnormal forestomach morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0001606  ! forestomach
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010785  ! abnormal stomach pyloric region morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0002560  ! stomach pyloric region
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010789  ! abnormal stomach mesentery morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0003281  ! mesentery of stomach
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010790  ! abnormal stomach pyloric antrum morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0001624  ! stomach pyloric antrum
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010792  ! abnormal stomach mucosa morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0001199  ! mucosa of stomach
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010793  ! abnormal stomach serosa morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0001626  ! stomach serosa
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010794  ! abnormal stomach submucosa morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0002685  ! stomach submucosa
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010798  ! abnormal stomach cardiac region morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0001609  ! stomach cardiac region
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010800  ! abnormal submucous nerve plexus morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0001149  ! submucous nerve plexus
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010801  ! abnormal myenteric nerve plexus morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0001148  ! myenteric nerve plexus
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010806  ! abnormal stomach muscularis mucosa morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0002684  ! stomach muscularis mucosa
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010809  ! abnormal Clara cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0000158  ! Clara cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010820  ! abnormal pleura morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0000433  ! pleura
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010821  ! abnormal visceral pleura morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0002489  ! visceral pleura
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010823  ! abnormal parietal pleura morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0002488  ! parietal pleura
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010825  ! abnormal lung saccule morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0000116  ! lung saccule
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010833  ! abnormal memory T cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0000813  ! memory T cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010834  ! abnormal CD4-positive, alpha-beta memory T cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0000897  ! CD4-positive, alpha-beta memory T cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010837  ! abnormal CD8-positive, alpha-beta memory T cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0000909  ! CD8-positive, alpha-beta memory T cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010840  ! abnormal central memory CD4-positive, alpha-beta T cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0000904  ! central memory CD4-positive, alpha-beta T cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010843  ! abnormal effector memory CD4-positive, alpha-beta T cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0000905  ! effector memory CD4-positive, alpha-beta T cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010846  ! abnormal central memory CD8 positive, alpha-beta T cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0000907  ! central memory CD8 positive, alpha-beta T cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010849  ! abnormal effector memory CD8-positive, alpha-beta T cell number
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0000913  ! effector memory CD8-positive, alpha-beta T cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010859  ! abnormal anterior commissure pars anterior morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0003039 ! anterior commissure anterior part
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010860  ! abnormal anterior commissure pars posterior morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0003043 ! posterior part of anterior commissure
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010893  ! abnormal posterior commissure morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0000936  ! posterior commissure
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010897  ! abnormal bronchiole epithelium morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0001772  ! bronchiole epithelium
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010900  ! abnormal pulmonary interalveolar septum morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0000421  ! interalveolar septum
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010906  ! abnormal lung bud morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0000118  ! lung bud
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010913  ! abnormal neuroendocrine cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0000165  ! neuroendocrine cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010914  ! abnormal solitary pulmonary neuroendocrine cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0002066  ! Feyrter cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010939  ! abnormal mandibular prominence morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0005867  ! mandibular prominence
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010940  ! abnormal maxillary prominence morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0005868  ! maxillary prominence
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010941  ! abnormal foramen magnum morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0003687  ! foramen magnum
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010943  ! abnormal bronchus epithelium morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0002031  ! epithelium of bronchus
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010971  ! abnormal periosteum morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0002838  ! periosteum
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010975  ! abnormal lung lobe morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0000101  ! lobe of lung
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010984  ! abnormal metanephric mesenchyme morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0003220  ! metanephric blastema
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010985  ! abnormal kidney mesenchyme morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0003918  ! mesenchyme of kidney
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010986  ! abnormal mesonephric mesenchyme morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0005323  ! mesonephric mesenchyme
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010988  ! abnormal bronchial cartilage morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0001956  ! cartilage of bronchus
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011004  ! abnormal epidermal stem cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:1000428  ! stem cell of epidermis
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011060  ! abnormal kinocilium morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in GO:0060091  ! kinocilium
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011149  ! abnormal hippocampus stratum lacunosum morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0000957  ! hippocampus stratum lacunosum
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011150  ! abnormal hippocampus stratum oriens morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0000958  ! hippocampus stratum oriens
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011151  ! abnormal hippocampus stratum radiatum morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0000959  ! hippocampus stratum radiatum
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011172  ! abnormal otic pit morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0006273  ! otic pit
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011173  ! abnormal otic placode morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0003069  ! otic placode
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011176  ! abnormal erythroblast morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0000765  ! erythroblast
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011183  ! abnormal primitive endoderm morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0000417 ! primitive endoderm
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011186  ! abnormal visceral endoderm morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0004877  ! visceral endoderm
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011187  ! abnormal parietal endoderm morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0008800  ! parietal endoderm
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011199  ! abnormal amniotic cavity morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0000301  ! amniotic cavity
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011200  ! abnormal extraembryonic coelom morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0003888  ! extraembryonic coelom
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011210  ! abnormal temporomandibular joint morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0002899  ! temporomandibular joint
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011211  ! abnormal common peroneal nerve morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0001324  ! common fibular nerve
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0000971 ! abnormal thermoreceptor morphology
+intersection_of: PATO:0000051 ! morphology
+intersection_of: inheres_in CL:0000205 ! thermoreceptor cell
+intersection_of: qualifier PATO:0000460 ! abnormal
+
+[Term]
+id: MP:0000973 ! abnormal cutaneous/subcutaneous mechanoreceptor morphology
+intersection_of: PATO:0000051 ! morphology
+intersection_of: inheres_in CL:0002487 ! cutaneous/subcutaneous mechanoreceptor cell
+intersection_of: qualifier PATO:0000460 ! abnormal
+
+[Term]
+id: MP:0001003 ! abnormal olfactory receptor morphology
+intersection_of: PATO:0000051 ! morphology
+intersection_of: inheres_in CL:0000207 ! olfactory receptor cell
+intersection_of: qualifier PATO:0000460 ! abnormal
+
 
 !!!! GO cross products
 
