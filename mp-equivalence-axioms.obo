@@ -14502,7 +14502,7 @@ intersection_of: towards MA:0000378 ! ureter
 id: MP:0003723 ! abnormal long bone morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000298 ! limb long bone
+intersection_of: inheres_in MA:0002802 ! long bone
 
 [Term]
 id: MP:0003724 ! increased susceptibility to induced arthritis
@@ -16796,6 +16796,11 @@ intersection_of: PATO:0002112 ! perforated
 intersection_of: inheres_in MA:0001330 ! scapula
 
 [Term]
+id: MP:0003124 ! hypospadia
+intersection_of: PATO:0002168 ! displaced to
+intersection_of: inheres_in MA:0002867 ! urethral opening
+
+[Term]
 id: MP:0004343 ! small scapula
 intersection_of: PATO:0000587 ! decreased size
 intersection_of: inheres_in MA:0001330 ! scapula
@@ -18335,7 +18340,7 @@ intersection_of: inheres_in MA:0000007 ! limb
 [Term]
 id: MP:0004695 ! increased length of long bones
 intersection_of: PATO:0000573 ! increased length
-intersection_of: inheres_in MA:0000298 ! limb long bone
+intersection_of: inheres_in MA:0002802 ! long bone
 
 [Term]
 id: MP:0004696 ! abnormal thyroid follicle morphology
@@ -26041,12 +26046,12 @@ intersection_of: inheres_in CL:0000843 ! follicular B cell
 [Term]
 id: MP:0008151 ! increased diameter of long bones
 intersection_of: PATO:0001714 ! increased diameter
-intersection_of: inheres_in MA:0000298 ! limb long bone
+intersection_of: inheres_in MA:0002802 ! long bone
 
 [Term]
 id: MP:0008150 ! decreased diameter of long bones
-intersection_of: PATO:0001715 ! decreased diameter
-intersection_of: inheres_in MA:0000298 ! limb long bone
+intersection_of: PATO:0000592 ! decreased thickness
+intersection_of: inheres_in MA:0002802 ! long bone
 
 [Term]
 id: MP:0008141 ! decreased small intestinal microvillus size
@@ -34339,13 +34344,6 @@ id: MP:0010568 ! abnormal bulbus cordis morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in UBERON:0004706 ! bulbus cordis
 intersection_of: qualifier PATO:0000460 ! abnormal
-
-! Cindy is investigating
-![Term]
-!id: MP:0010583 ! abnormal conotruncus morphology
-!intersection_of: PATO:0000051 ! morphology
-!intersection_of: inheres_in UBERON:0004706 ! bulbus cordis
-!intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0010592 ! abnormal atrioventricular septum morphology
