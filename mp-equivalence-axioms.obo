@@ -36646,13 +36646,13 @@ intersection_of: inheres_in UBERON:0003946  ! placenta labyrinth
 
 [Term]
 id: MP:0002838  ! decreased susceptibility to dystrophic cardiac calcinosis
-intersection_of: PATO:0001650  ! increased resistance to
-intersection_of: inheres_in MP:0002837  ! dystrophic cardiac calcinosis
+intersection_of: MP:0002837  ! dystrophic cardiac calcinosis
+intersection_of: qualifier PATO:0001650  ! increased resistance to
 
 [Term]
 id: MP:0002839  ! increased susceptibility to dystrophic cardiac calcinosis
-intersection_of: PATO:0001651  ! decreased resistance to
-intersection_of: inheres_in MP:0002837  ! dystrophic cardiac calcinosis
+intersection_of: MP:0002837  ! dystrophic cardiac calcinosis
+intersection_of: qualifier PATO:0001651  ! decreased resistance to
 
 [Term]
 id: MP:0002866  ! abnormal glutamic acid decarboxylase level
@@ -36984,16 +36984,7 @@ id: MP:0008895  ! abnormal intraepithelial T cell number
 intersection_of: PATO:0002083  ! altered number of
 intersection_of: towards CL:0002496  ! intraepithelial lymphocyte
 
-![Term]
-!id: MP:0008975  ! delayed male fertility
-!intersection_of: PATO:0000502  ! delayed
-!intersection_of: inheres_in PATO:0000279  ! male fertility
-
-![Term]
-!id: MP:0008976  ! delayed female fertility
-!intersection_of: PATO:0000502  ! delayed
-!intersection_of: inheres_in PATO:0000277  ! female fertility
-
+!Not sure about this
 [Term]
 id: MP:0009004  ! progressive hair loss
 intersection_of: PATO:0001818  ! progressive
@@ -37159,11 +37150,6 @@ intersection_of: inheres_in MA:0000090  ! tricuspid valve
 id: MP:0010647  ! left atrium hypoplasia
 intersection_of: PATO:0000645  ! hypoplastic
 intersection_of: inheres_in UBERON:0002079 ! left atrium
-
-[Term]
-id: MP:0010648  ! right atrium hypoplasia
-intersection_of: UBERON:0002078 ! right atrium
-intersection_of: inheres_in MP:0004055  ! atrium hypoplasia
 
 [Term]
 id: MP:0010702  ! split cervical atlas
