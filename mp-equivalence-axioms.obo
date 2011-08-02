@@ -26494,7 +26494,7 @@ intersection_of: PATO:0000001 ! quality
 intersection_of: inheres_in MA:0000006 ! head/neck
 
 [Term]
-id: MP:0005392 ! touch/vibrissae phenotype
+id: MP:0010771 ! touch/vibrissae phenotype
 intersection_of: PATO:0000001 ! quality
 intersection_of: inheres_in GO:0050975 ! sensory perception of touch
 
