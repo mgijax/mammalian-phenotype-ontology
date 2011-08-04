@@ -26499,7 +26499,7 @@ intersection_of: inheres_in MA:0000006 ! head/neck
 !intersection_of: inheres_in GO:0050975 ! sensory perception of touch
 
 [Term]
-id: MP:0005393 ! skin/coat/nails phenotype
+id: MP:0010771 ! skin/coat/nails phenotype
 intersection_of: PATO:0000001 ! quality
 intersection_of: inheres_in MA:0000014 ! integumental system
 
