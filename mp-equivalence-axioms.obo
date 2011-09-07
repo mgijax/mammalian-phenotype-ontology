@@ -23328,22 +23328,21 @@ intersection_of: PATO:0002002 ! having extra physical parts
 intersection_of: towards MPATH:119 ! hemorrhage and non-specified extravasation
 intersection_of: inheres_in MA:0000216 ! spinal cord
 
-!Temp: till CL adds this..
 [Term]
 id: MP:0006055 ! abnormal vascular endothelial cell morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in BTO:0001854 ! vascular endothelial cell
+intersection_of: inheres_in CL:0002139 ! endothelial cell of vascular tree
 
 [Term]
 id: MP:0006056 ! increased vascular endothelial cell number
 intersection_of: PATO:0002002 ! has extra parts of type
-intersection_of: towards BTO:0001854 ! vascular endothelial cell
+intersection_of: towards CL:0002139 ! endothelial cell of vascular tree
 
 [Term]
 id: MP:0006057 ! decreased vascular endothelial cell number
 intersection_of: PATO:0002001 ! has fewer parts of type
-intersection_of: towards BTO:0001854 ! vascular endothelial cell
+intersection_of: towards CL:0002139 ! endothelial cell of vascular tree
 
 [Term]
 id: MP:0006061 ! right atrial isomerism
