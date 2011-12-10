@@ -845,7 +845,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 id: MP:0000203 ! abnormal circulating aspartate transaminase level
 intersection_of: PATO:0000033 ! concentration
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: towards IMR:0001999! Aspartate transaminase
+intersection_of: towards IMR:0001999 ! Aspartate transaminase
 intersection_of: inheres_in MA:0000059 ! blood
 
 [Term]
@@ -16895,6 +16895,14 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in CL:0000646 ! basal cell
 intersection_of: inheres_in_part_of MA:0001198 ! stria vascularis
 
+[Term]
+id: MP:0004464 ! absent strial basal cell tight junctions
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in GO:0005923 ! tight junction
+intersection_of: inheres_in_part_of CL:0000646 ! basal cell
+intersection_of: inheres_in_part_of MA:0001198 ! stria vascularis
+
 ! need intermediate cell
 ![Term]
 !id: MP:0004367 ! abnormal strial intermediate cells
@@ -28533,12 +28541,6 @@ intersection_of: inheres_in_part_of MA:0000755 ! spleen marginal zone
 intersection_of: inheres_in CL:0000235 ! macrophage
 intersection_of: qualifier PATO:0000460 ! abnormal
 
-![Term]
-!id: MP:0008788 ! abnormal fetal cardiomyocyte morphology
-!intersection_of: PATO:0000051 ! morphology
-!intersection_of: inheres_in CL:0000746 ! cardiomyocyte
-!intersection_of: qualifier PATO:0000460 ! abnormal
-
 [Term]
 id: MP:0008825 ! abnormal cardiac epithelial to mesenchymal transition
 intersection_of: PATO:0000001 ! quality
@@ -32041,12 +32043,6 @@ id: MP:0004131 ! abnormal embryonic cilium morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in UBERON:0004020! embryonic cilium
 intersection_of: qualifier PATO:0000460 ! abnormal
-
-[Term]
-id: HP:0001561 ! Polyhydramnios
-intersection_of: PATO:0000595 ! increased volume
-intersection_of: inheres_in MA:0002893 ! amniotic fluid
-intersection_of: during GO:0007565 ! female pregnacy
 
 [Term]
 id: MP:0004118 ! abnormal baroreceptor morphology
@@ -38013,6 +38009,12 @@ intersection_of: towards UBERON:0003888  ! extraembryonic coelom
 id: MP:0011212  ! absent common peroneal nerve
 intersection_of: PATO:0002000  ! lacks all parts of type
 intersection_of: towards UBERON:0001324  ! common fibular nerve
+
+[Term]
+id: MP:0009602 ! abnormal keratohyalin granule morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in GO:0036045 ! keratohyalin granule
+intersection_of: qualifier PATO:0000460  ! abnormal
 
 !!!! GO cross products
 
