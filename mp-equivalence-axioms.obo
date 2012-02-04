@@ -30050,10 +30050,19 @@ intersection_of: PATO:0000644 ! hyperplastic
 intersection_of: inheres_in MA:0000805 ! epidermis stratum granulosum
 
 [Term]
-id: MP:0009608 ! abnormal lamellar body morphology
+id: MP:0009608 ! abnormal epidermal lamellar body morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in GO:0042599 ! lamellar body
+intersection_of: inheres_in_part_of CL:0000362 ! epidermal cell
 intersection_of: qualifier PATO:0000460 ! abnormal
+
+! Wait for: https://sourceforge.net/tracker/?func=detail&aid=3460465&group_id=36855&atid=440764
+![Term]
+!id: MP:0010813 ! abnormal alveolar lamellar body morphology
+!intersection_of: PATO:0000051 ! morphology
+!intersection_of: inheres_in GO:0042599 ! lamellar body
+!intersection_of: inheres_in_part_of MA:0000420 ! lung alveolus
+!intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0009609 ! absent basioccipital bone
@@ -37350,6 +37359,7 @@ intersection_of: towards CL:0000913  ! effector memory CD8-positive, alpha-beta 
 [Term]
 id: MP:0010852  ! absent epidermal lamellar bodies
 intersection_of: PATO:0002000  ! lacks all parts of type
+intersection_of: CL:0000362 ! epidermal cell
 intersection_of: towards GO:0042599  ! lamellar body
 
 [Term]
