@@ -16158,11 +16158,11 @@ id: MP:0004157 ! interrupted aortic arch
 intersection_of: PATO:0000648 ! obstructed
 intersection_of: inheres_in MA:0000475 ! arch of aorta
 
-[Term]
-id: MP:0004158 ! right aortic arch
-intersection_of: PATO:0001793 ! right side of
-intersection_of: inheres_in MA:0000441 ! trachea
-intersection_of: towards MA:0000475 ! arch of aorta
+![Term]
+!id: MP:0004158 ! right aortic arch
+!intersection_of: PATO:0001793 ! right side of
+!intersection_of: inheres_in MA:0000441 ! trachea
+!intersection_of: towards MA:0000475 ! arch of aorta
 
 [Term]
 id: MP:0004159 ! double aortic arch
