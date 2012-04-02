@@ -19430,8 +19430,8 @@ intersection_of: PATO:0000639 ! degenerate
 intersection_of: inheres_in MA:0000397 ! epididymis
 
 [Term]
-id: MP:0004936 ! abnormal ureteric bud branching morphogenesis
-intersection_of: PATO:0000001 ! quality
+id: MP:0004936 ! impaired branching involved in ureteric bud morphogenesis
+intersection_of: PATO:0001624 ! decreased functionality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0001658 ! ureteric bud branching
 
@@ -24381,12 +24381,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 id: MP:0006382 ! abnormal lung epithelium morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in MA:0001783 ! lung epithelium
-intersection_of: qualifier PATO:0000460 ! abnormal
-
-[Term]
-id: MP:0006385 ! abnormal memory T cell morphology
-intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in CL:0000813 ! memory T cell
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
