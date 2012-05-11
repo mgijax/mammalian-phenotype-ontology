@@ -16203,7 +16203,7 @@ intersection_of: inheres_in MA:0000869 ! lateral geniculate nucleus
 id: MP:0004170 ! abnormal orbitofrontal cortex morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000728 ! frontal cortex
+intersection_of: inheres_in  MA:0000905! frontal cortex
 
 [Term]
 id: MP:0004171 ! abnormal pallium development
@@ -30015,7 +30015,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 [Term]
 id: MP:0009593 ! absent chorion
 intersection_of: PATO:0002000 ! lacks all physical parts of type
-intersection_of: towards GO:0042600 ! chorion
+intersection_of: towards UBERON:0003124 ! chorion
 
 [Term]
 id: MP:0009594 ! abnormal corneocyte envelope morphology
