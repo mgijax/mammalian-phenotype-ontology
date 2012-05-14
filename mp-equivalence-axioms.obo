@@ -6187,7 +6187,7 @@ intersection_of: inheres_in GO:0007600 ! sensory perception
 id: MP:0001491 ! unresponsive to tactile stimuli
 intersection_of: PATO:0001558 ! lacking processual parts
 intersection_of: inheres_in MA:0002405 ! adult mouse
-intersection_of: towards GO:0050976 ! GO:0050975 ! sensory perception of touch
+intersection_of: towards NBO:0000332 ! touch related behavior
 
 [Term]
 id: MP:0001531 ! Decreased Vocalization
@@ -7414,12 +7414,28 @@ intersection_of: towards GO:0007605 ! sensory perception of sound
 id: MP:0001970 ! abnormal pain threshold
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0048265 ! sensory perception of pain
+intersection_of: inheres_in NBO:0000331 ! nociceptive behavior
+
+[Term]
+id: MP:0003043 ! hypoalgesia
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in NBO:0000331 ! nociceptive behavior
+
+[Term]
+id: MP:0001968 ! abnormal touch/ nociception
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in NBO:0000330 ! cutaneous sensation behavior
 
 [Term]
 id: MP:0001973 ! increased thermal nociceptive threshold
 intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in GO:0050951 ! sensory perception of temperature stimulus
+intersection_of: inheres_in NBO:0000335 ! thermal nociceptive behavior
+
+[Term]
+id: MP:0008531 ! increased chemical nociceptive threshold
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in NBO:0000333 ! chemical nociceptive behavior
 
 [Term]
 id: MP:0001983 ! abnormal olfactory system physiology
@@ -10242,25 +10258,24 @@ intersection_of: inheres_in MPATH:232 ! trichoepithelioma
 id: MP:0002733 ! abnormal thermal nociception
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0050951 ! sensory perception of temperature stimulus
+intersection_of: inheres_in NBO:0000335 ! thermal nociceptive behavior
 
 [Term]
 id: MP:0002734 ! abnormal mechanical nociception
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0050954 ! sensory perception of mechanical stimulus
+intersection_of: inheres_in NBO:0000334 ! mechanical nociceptive behavior
 
 [Term]
 id: MP:0002735 ! abnormal chemical nociception
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0050907 ! detection of chemical stimulus during sensory perception
+intersection_of: inheres_in NBO:0000334 ! chemical nociceptive behavior
 
-! change to during?
 [Term]
 id: MP:0002738 ! hyperresponsive to tactile stimuli
-intersection_of: PATO:0001192 ! hyperresponsive to
-intersection_of: inheres_in GO:0050975 ! sensory perception of touch
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in NBO:0000332 ! touch related behavior
 
 [Term]
 id: MP:0002739 ! abnormal olfactory bulb development
@@ -10678,6 +10693,11 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 id: MP:0002865 ! increased growth rate
 intersection_of: PATO:0000912 ! increased rate
 intersection_of: inheres_in GO:0040007 ! growth
+
+[Term]
+id: MP:0002738 ! hyperresponsive to tactile stimuli
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in NBO:0000332 ! touch related behavior
 
 [Term]
 id: MP:0002872 ! polycythemia
@@ -11268,11 +11288,6 @@ intersection_of: inheres_in MPATH:124 ! infarction
 id: MP:0003038 ! decreased infarction size
 intersection_of: PATO:0000587 ! decreased size
 intersection_of: inheres_in MPATH:124 ! infarction
-
-[Term]
-id: MP:0003043 ! hypoalgesia
-intersection_of: PATO:0000911 ! decreased rate
-intersection_of: inheres_in GO:0048265 ! sensory perception of pain
 
 [Term]
 id: MP:0003047 ! abnormal thoracic vertebrae morphology
@@ -11895,7 +11910,7 @@ intersection_of: inheres_in GO:0033344 ! cholesterol export
 id: MP:0003194 ! abnormal frequency of paradoxical sleep
 intersection_of: PATO:0000044 ! frequency
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0042747 ! circadian sleep/wake cycle, REM sleep
+intersection_of: inheres_in NBO:0000159 ! rapid eye movement sleep
 
 [Term]
 id: MP:0003196 ! skin calcification
@@ -15579,7 +15594,12 @@ intersection_of: inheres_in MA:0000064 ! artery
 [Term]
 id: MP:0003998 ! decreased thermal nociceptive threshold
 intersection_of: PATO:0000911 ! decreased rate
-intersection_of: inheres_in GO:0050951 ! sensory perception of temperature stimulus
+intersection_of: inheres_in NBO:0000335 ! thermal nociceptive behavior
+
+[Term]
+id: MP:0008532 ! decreased chemical nociceptive threshold
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in NBO:0000333 ! chemical nociceptive behavior
 
 [Term]
 id: MP:0004001 ! decreased hepatocyte proliferation
@@ -16526,8 +16546,7 @@ intersection_of: inheres_in UBERON:0003098 ! optic stalk
 [Term]
 id: MP:0004270 ! analgesia
 intersection_of: PATO:0001558 ! lacking processual parts
-intersection_of: inheres_in MA:0002405 ! adult mouse
-intersection_of: towards GO:0048265 ! sensory perception of pain
+intersection_of: towards NBO:0000332 ! touch related behavior
 
 [Term]
 id: MP:0004272 ! abnormal basement membrane morphology
@@ -21370,7 +21389,13 @@ intersection_of: towards MA:0000176 ! pituitary gland
 id: MP:0005316 ! abnormal response to tactile stimuli
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0050975 ! sensory perception of touch
+intersection_of: inheres_in NBO:0000332 ! touch related behavior
+
+[Term]
+id: MP:0009774 ! abnormal withdrawal response
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in NBO:0003142 ! regulation of withdrawal response
 
 [Term]
 id: MP:0005317 ! increased triglyceride level
@@ -21472,6 +21497,11 @@ intersection_of: towards CHEBI:33709 ! amino acids
 id: MP:0005333 ! decreased heart rate
 intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0060047 ! heart contraction
+
+[Term]
+id: MP:0009776 ! decreased withdrawal response
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in NBO:0003142 ! regulation of withdrawal response
 
 [Term]
 id: MP:0005334 ! abnormal fat pad morphology
@@ -21613,6 +21643,11 @@ intersection_of: inheres_in MA:0000059 ! blood
 id: MP:0005348 ! increased T cell proliferation
 intersection_of: PATO:0000912 ! increased rate
 intersection_of: inheres_in GO:0042098 ! T cell proliferation
+
+[Term]
+id: MP:0009775 ! increased withdrawal response
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in NBO:0003142 ! regulation of withdrawal response
 
 [Term]
 id: MP:0005349 ! abnormal interleukin-6 physiology
@@ -21858,7 +21893,7 @@ intersection_of: inheres_in MA:0000072 ! heart
 [Term]
 id: MP:0005407 ! hyperalgesia
 intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in GO:0048265 ! sensory perception of pain
+intersection_of: inheres_in NBO:0000331 ! nociceptive behavior
 
 [Term]
 id: MP:0005408 ! hypopigmentation
@@ -22206,12 +22241,6 @@ id: MP:0005497 ! optic nerve cupping
 intersection_of: PATO:0001857 ! concave
 intersection_of: inheres_in UBERON:0004904 ! optic nerve
 
-! TODO
-[Term]
-id: MP:0005498 ! hyporesponsive to tactile stimuli
-intersection_of: PATO:0001194 ! hyporesponsive to
-intersection_of: inheres_in GO:0050975 ! sensory perception of touch
-
 [Term]
 id: MP:0005499 ! abnormal olfactory system morphology
 intersection_of: PATO:0000051 ! morphology
@@ -22299,6 +22328,11 @@ id: MP:0005517 ! decreased liver regeneration
 intersection_of: PATO:0000911 ! decreased rate
 intersection_of: has_central_participant MA:0000358 ! liver
 intersection_of: inheres_in GO:0031099 ! regeneration
+
+[Term]
+id: MP:0005498 ! hyporesponsive to tactile stimuli
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in NBO:0000332 ! touch related behavior
 
 [Term]
 id: MP:0005518 ! abnormal pancreas regeneration
@@ -34837,31 +34871,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in NBO:0000166 ! circadian rhythm
 
 [Term]
-id: MP:0002822 ! catalepsy
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000563 ! catalepsy
-
-[Term]
-id: MP:0002571 ! senility
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000572 ! senility
-
-[Term]
-id: MP:0002899 ! fatigue
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000569 ! fatigue
-
-[Term]
-id: MP:0001361 ! social withdrawal
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000565 ! social withdrawal
-
-[Term]
-id: MP:0002573 ! behavioral despair
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000573 ! social withdrawal
-
-[Term]
 id: MP:0002558 ! abnormal circadian period
 intersection_of: PATO:0001309 ! period
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -34963,7 +34972,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in NBO:0001728 ! behavioral response to addictive substance
 
 [Term]
-id: MP:00025545 ! addictive substance aversion
+id: MP:0002554 ! addictive substance aversion
 intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in NBO:0002234 ! regulation of consumption of an addictive substance
 
@@ -35078,26 +35087,7 @@ intersection_of: inheres_in NBO:0002702 ! regulation of alcohol preference behav
 id: MP:0001432 ! abnormal food preference
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in NBO:00002773 ! regulation of eating preference behavior
-
-[Term]
-id: MP:0002119 ! dipsosis
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000541 ! dipsosis
-
-[Term]
-id: MP:0001426 ! polydipsia
-equivalent_to: NBO:0000542 ! polydipsia
-
-[Term]
-id: MP:0005111 ! hyperdipsia
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000543 ! hyperdipsia
-
-[Term]
-id: MP:0001428 ! adipsia
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0002519 ! adipsia
+intersection_of: inheres_in NBO:0002773 ! regulation of eating preference behavior
 
 [Term]
 id: MP:0003911 ! increased drinking behavior
@@ -35132,11 +35122,6 @@ id: MP:0005449 ! abnormal food intake
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in NBO:0000134 ! food consumption
-
-[Term]
-id: MP:0001438 ! aphagia
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000544 ! aphagia
 
 [Term]
 id: MP:0003909 ! increased eating behavior
@@ -35279,11 +35264,6 @@ intersection_of: PATO:0000912 ! increased rate
 intersection_of: inheres_in NBO:0000103 ! coping behavior
 
 [Term]
-id: MP:0009710 ! anhedonia
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000547 ! anhedonia
-
-[Term]
 id: MP:0002065 ! abnormal fear/anxiety-related behavior
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -35359,9 +35339,14 @@ intersection_of: PATO:0000912 ! increased rate
 intersection_of: inheres_in NBO:0000097 ! response to novel environment
 
 [Term]
-id: MP:0005357 ! novel environmental response-related retropulsion
+id: MP:0005357 ! addiction
 intersection_of: PATO:0001561 ! having extra processual parts
 intersection_of: towards NBO:0000102 ! fear-related retropulsion
+
+[Term]
+id: MP:0002555 ! novel environmental response-related retropulsion
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0003161 ! addiction response
 
 [Term]
 id: MP:0003462 ! abnormal response to novel odor
@@ -35590,7 +35575,7 @@ intersection_of: inheres_in NBO:0002569 ! stress-induced hyperthermia
 id: MP:0001382 ! abnormal nursing
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in NBO:0002378 ! nursing behaviour
+intersection_of: inheres_in NBO:0002379 ! nursing behaviour
 
 [Term]
 id: MP:0009326 ! absent maternal crouching
@@ -35624,7 +35609,7 @@ intersection_of: inheres_in NBO:0000548 ! male sexual activity
 id: MP:0001375 ! abnormal mating preference
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0002948 ! regulation of mating preference
+intersection_of: inheres_in NBO:0002948 ! regulation of mating preference
 
 [Term]
 id: MP:0001376 ! abnormal mating receptivity
@@ -35633,10 +35618,26 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in NBO:0000146 ! mating receptivity
 
 [Term]
+id: MP:0001980 ! abnormal chemically-elicited antinociceptive behavior
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in NBO:0000336 ! chemically-elicited antinociceptive behavior
+
+[Term]
+id: MP:0001982 ! decreased chemically-elicited antinociceptive behavior
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in NBO:0000336 ! chemically-elicited antinociceptive behavior
+
+[Term]
 id: MP:0001360 ! abnormal social investigation
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in NBO:0000148 ! social investigation
+
+[Term]
+id: MP:0011396 ! abnormal sleep pattern
+intersection_of: PATO:0002323 ! quality
+intersection_of: inheres_in NBO:0000024 ! sleeping behaviour
 
 [Term]
 id: MP:0001501 ! abnormal sleep pattern
@@ -35665,9 +35666,9 @@ intersection_of: PATO:0000912 ! increased rate
 intersection_of: inheres_in NBO:0000159 ! rapid eye movement sleep
 
 [Term]
-id: MP:0005279 ! narcolepsy
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000423 ! narcolepsy
+id: MP:0001981 ! increased chemically-elicited antinociceptive behavior
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in NBO:0000336 ! chemically-elicited antinociceptive behavior
 
 [Term]
 id: MP:0003491 ! abnormal voluntary movement
@@ -35848,11 +35849,6 @@ intersection_of: PATO:0000912 ! increased rate
 intersection_of: inheres_in NBO:0000567 ! stereotypic behavior
 
 [Term]
-id: MP:0001408 ! stereotypic behavior
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000567 ! stereotypic behavior
-
-[Term]
 id: MP:0002730 ! head shaking
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -36005,121 +36001,16 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in NBO:0000584 ! clutching reflex
 
 [Term]
-id: MP:0009354 ! emprosthotonos
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000585 ! emprosthotonos
-
-[Term]
-id: MP:0002880 ! opisthotonus
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000586 ! opisthotonus
-
-[Term]
-id: MP:0000745 ! tremors
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000589 ! tremor
-
-[Term]
-id: MP:0001393 ! ataxia
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000590 ! ataxia
-
-[Term]
-id: MP:0003314 ! dysmetria
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000592 ! dysmetria
-
-[Term]
-id: MP:0009514 ! titubation
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000596 ! titubation
-
-[Term]
 id: MP:0001446 ! abnormal whisker trimming behavior
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in NBO:0000561 ! hetero-barbering
 
 [Term]
-id: MP:0001399 ! hyperactivity
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000030 ! hyperactivity
-
-[Term]
-id: MP:0001402 ! hypoactivity
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000031 ! hypoactivity
-
-[Term]
 id: MP:0006156 ! abnormal visual pursuit
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in NBO:0000446 ! visual pursuit
-
-[Term]
-id: MP:0000755 ! hindlimb paralysis
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000597 ! hindlimb paralysis
-
-[Term]
-id: MP:0000756 ! forelimb paralysis
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000061 ! forelimb paralysis
-
-[Term]
-id: MP:0005162 ! carpoptosis
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000033 ! carpoptosis
-
-[Term]
-id: MP:0000753 ! paralysis
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000032 ! paralysis
-
-[Term]
-id: MP:0005323 ! dystonia
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000598 ! dystonia
-
-[Term]
-id: MP:0000243 ! myoclonus
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000671 ! myoclonic seizure
-
-[Term]
-id: MP:0002826 ! tonic seizures
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000677 ! tonic seizure
-
-[Term]
-id: MP:0003997 ! tonic-clonic seizures
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000676 ! tonic clonic seizure
-
-[Term]
-id: MP:0003996 ! clonic seizures
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000672 ! clonic seizure
-
-[Term]
-id: MP:0003216 ! absence seizures
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000669 ! absence seizure
-
-[Term]
-id: MP:0009358 ! environmentally induced seizures
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000675 ! reflex epilepsy
-
-[Term]
-id: MP:0001496 ! audiogenic seizures
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000700 ! audiogenic seizure
-
-[Term]
-id: MP:0002195 ! psychomotor seizures
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000648 ! complex partial seizure
 
 [Term]
 id: MP:0000950 ! abnormal seizure response to pharmacological agent
@@ -36159,11 +36050,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 id: MP:0001500 ! reduced kindling response
 intersection_of: PATO:0001670 ! decreased susceptibility toward
 intersection_of: towards NBO:0000728 ! electrical kindling induced seizure
-
-[Term]
-id: MP:0002064 ! seizures
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000012 ! seizures/epilepsy
 
 !!! Obol results (conservative, vetted by cjm) 2011-07-09
 
