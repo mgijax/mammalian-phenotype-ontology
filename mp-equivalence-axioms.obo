@@ -7446,12 +7446,6 @@ intersection_of: inheres_in MA:0002405 ! adult mouse
 intersection_of: towards GO:0050909 ! sensory perception of taste
 
 [Term]
-id: MP:0001988 ! cocaine preference
-intersection_of: PATO:0000773 ! preference
-intersection_of: inheres_in MA:0002405 ! adult mouse
-intersection_of: towards CHEBI:27958 ! cocaine
-
-[Term]
 id: MP:0001999 ! photosensitivity
 intersection_of: PATO:0000547 ! photosensitive
 intersection_of: inheres_in MA:0000261 ! eye
@@ -9280,13 +9274,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0007596 ! blood coagulation
 
 [Term]
-id: MP:0002556 ! abnormal cocaine consumption
-intersection_of: PATO:0000187 ! propensity to consume
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0002405 ! adult mouse
-intersection_of: towards CHEBI:27958 ! cocaine
-
-[Term]
 id: MP:0002576 ! abnormal enamel morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -9455,11 +9442,6 @@ intersection_of: inheres_in GO:0060047 ! heart contraction
 id: MP:0002627 ! teratoma
 intersection_of: PATO:0000467 ! present in organism
 intersection_of: inheres_in MPATH:322 ! teratoma
-
-[Term]
-id: MP:0002629 ! hyperactivity elicited by ethanol administration
-intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in GO:0045471 ! response to ethanol
 
 [Term]
 id: MP:0002631 ! abnormal epididymis morphology
@@ -30415,16 +30397,6 @@ intersection_of: PATO:0000591 ! increased thickness
 intersection_of: inheres_in MA:0001245 ! corneal stroma
 
 [Term]
-id: MP:0009756 ! impaired behavioral response to nicotine
-intersection_of: PATO:0002018 ! decreased magnitude
-intersection_of: inheres_in GO:0035095 ! behavioral response to nicotine
-
-[Term]
-id: MP:0009758 ! impaired behavioral response to cocaine
-intersection_of: PATO:0002018 ! decreased magnitude
-intersection_of: inheres_in GO:0048148 ! behavioral response to cocaine
-
-[Term]
 id: MP:0009770 ! abnormal optic chiasm morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in MA:0001098 ! optic chiasm
@@ -34960,7 +34932,7 @@ intersection_of: inheres_in NBO:0000079 ! feeding behavior
 id: MP:0001422 ! abnormal drinking behavior
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in NBO:0000064 ! drinking behavior
+intersection_of: inheres_in NBO:0000064 ! regulation of drinking behavior
 
 [Term]
 id: MP:0001425 ! abnormal alcohol consumption
@@ -34969,16 +34941,112 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in NBO:0000131 ! alcohol consumption
 
 [Term]
-id: MP:0002570 ! alcohol aversion
-intersection_of: PATO:0000771 ! aversion
-intersection_of: inheres_in MA:0002405 ! adult mouse
-intersection_of: towards CHEBI:30879 ! alcohol
+id: MP:0002556 ! abnormal cocaine consumption
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in NBO:0001915 ! cocaine consumption
 
 [Term]
-id: MP:0001987 ! alcohol preference
-intersection_of: PATO:0000773 ! preference
-intersection_of: inheres_in MA:0002405 ! adult mouse
-intersection_of: towards CHEBI:30879 ! alcohol
+id: MP:0001988 ! cocaine preference
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in NBO:0002916 ! regulation of cocaine consumption preference
+
+[Term]
+id: MP:0002850 ! saccharin preference
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in NBO:0002994 ! regulation of saccharin consumption preference
+
+[Term]
+id: MP:0009748 ! abnormal behavioral response to addictive substance
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in NBO:0001728 ! behavioral response to addictive substance
+
+[Term]
+id: MP:00025545 ! addictive substance aversion
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in NBO:0002234 ! regulation of consumption of an addictive substance
+
+[Term]
+id: MP:0009749 ! enhanced behavioral response to addictive substance
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in NBO:0001728 ! behavioral response to addictive substance
+
+[Term]
+id: MP:0009750 ! impaired behavioral response to addictive substance
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in NBO:0001728 ! behavioral response to addictive substance
+
+[Term]
+id: MP:0009777 ! abnormal behavioral response to anesthetic
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in NBO:0002362 ! behavioral response to anesthetic
+
+[Term]
+id: MP:0009778 ! impaired behavioral response to anesthetic
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in NBO:0002362 ! behavioral response to anesthetic
+
+[Term]
+id: MP:0009779 ! enhanced behavioral response to anesthetic
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in NBO:0002362 ! behavioral response to anesthetic
+
+[Term]
+id: MP:0009747 ! impaired behavioral response to xenobiotic
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in NBO:0001679 ! behavioral response to xenobiotics
+
+[Term]
+id: MP:0009746 ! enhanced behavioral response to xenobiotic
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in NBO:0001679 ! behavioral response to xenobiotics
+
+[Term]
+id: MP:0009751 ! enhanced response to alcohol
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in NBO:0001763 ! behavioral response to alcohol
+
+[Term]
+id: MP:0002629 ! hyperactivity elicited by ethanol administration
+intersection_of: MP:0001399 ! hyperactivity
+intersection_of: in_response_to MP:0009751 ! enhanced response to alcohol
+
+[Term]
+id: MP:0009754 ! enhanced response to cocaine
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in NBO:0001987 ! behavioral response to cocaine
+
+[Term]
+id: MP:0009752 ! enhanced response to nicotine
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in NBO:0002065 ! behavioral response to nicotine
+
+[Term]
+id: MP:0009756 ! impaired response to nicotine
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in NBO:0002065 ! behavioral response to nicotine
+
+[Term]
+id: MP:0009753 ! enhanced response to morphine
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in NBO:0002021 ! behavioral response to morphine
+
+[Term]
+id: MP:0009757 ! impaired response to morphine
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in NBO:0002021 ! behavioral response to morphine
+
+[Term]
+id: MP:0009755 ! impaired response to alcohol
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in NBO:0001763 ! behavioral response to alcohol
+
+[Term]
+id: MP:0009758 ! impaired response to cocaine
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in NBO:0001987 ! behavioral response to cocaine
 
 [Term]
 id: MP:0003546 ! decreased alcohol consumption
@@ -34992,9 +35060,25 @@ intersection_of: inheres_in NBO:0000131 ! alcohol consumption
 
 [Term]
 id: MP:0001423 ! abnormal liquid preference
-intersection_of: PATO:0000773 ! preference
+intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in NBO:0000137 ! liquid preference
+intersection_of: inheres_in NBO:0002660 ! regulation of drinking preference behavior
+
+[Term]
+id: MP:0002570 ! alcohol aversion
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in NBO:0002702 ! regulation of alcohol preference behavior
+
+[Term]
+id: MP:0001987 ! alcohol preference
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in NBO:0002702 ! regulation of alcohol preference behavior
+
+[Term]
+id: MP:0001432 ! abnormal food preference
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in NBO:00002773 ! regulation of eating preference behavior
 
 [Term]
 id: MP:0002119 ! dipsosis
@@ -35003,8 +35087,7 @@ intersection_of: towards NBO:0000541 ! dipsosis
 
 [Term]
 id: MP:0001426 ! polydipsia
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards NBO:0000542 ! polydipsia
+equivalent_to: NBO:0000542 ! polydipsia
 
 [Term]
 id: MP:0005111 ! hyperdipsia
@@ -35013,8 +35096,8 @@ intersection_of: towards NBO:0000543 ! hyperdipsia
 
 [Term]
 id: MP:0001428 ! adipsia
-intersection_of: PATO:0001558 ! lacking processual parts
-intersection_of: towards NBO:0000064 ! drinking behavior
+intersection_of: PATO:0001561 ! having extra processual parts
+intersection_of: towards NBO:0002519 ! adipsia
 
 [Term]
 id: MP:0003911 ! increased drinking behavior
@@ -35030,7 +35113,19 @@ intersection_of: inheres_in NBO:0000064 ! drinking behavior
 id: MP:0001431 ! abnormal eating behavior
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in NBO:0000063 ! eating behavior
+intersection_of: inheres_in NBO:0000063 ! regulation of eating behavior
+
+[Term]
+id: MP:0011275 ! abnormal behavioral response to light
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in NBO:0001571 ! behavioral response to light
+
+[Term]
+id: MP:0009745 ! abnormal behavioral response to xenobiotic
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in NBO:0001679 ! behavioral response to xenobiotics
 
 [Term]
 id: MP:0005449 ! abnormal food intake
@@ -35063,19 +35158,6 @@ id: MP:0001433 ! polyphagia
 intersection_of: PATO:0000912 ! increased rate
 intersection_of: inheres_in NBO:0000063 ! eating behaviour
 intersection_of: qualifier PATO:0000396 ! severe
-
-[Term]
-id: MP:0001432 ! abnormal food preference
-intersection_of: PATO:0000773 ! preference
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0002405 ! adult mouse
-intersection_of: towards CHEBI:33290 ! food
-
-[Term]
-id: MP:0002850 ! saccharin preference
-intersection_of: PATO:0000773 ! preference
-intersection_of: inheres_in MA:0002405 ! adult mouse
-intersection_of: towards CHEBI:32111 ! saccharin
 
 [Term]
 id: MP:0002849 ! abnormal saccharin consumption
@@ -35499,10 +35581,16 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in NBO:0000152 ! maternal nurturing behaviour
 
 [Term]
+id: MP:0010165 ! abnormal response to stress-induced hyperthermia
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in NBO:0002569 ! stress-induced hyperthermia
+
+[Term]
 id: MP:0001382 ! abnormal nursing
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in NBO:0000046 ! nursing behaviour
+intersection_of: inheres_in NBO:0002378 ! nursing behaviour
 
 [Term]
 id: MP:0009326 ! absent maternal crouching
@@ -35524,8 +35612,8 @@ intersection_of: inheres_in NBO:0000014 ! mating behaviour
 [Term]
 id: MP:0001377 ! abnormal mating frequency
 intersection_of: PATO:0000044 ! frequency
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in NBO:0000034 ! sexual activity
+intersection_of: inheres_in NBO:0002603 ! regulation of sexual activity
+intersection_of: towards NBO:0000034 ! sexual activity
 
 [Term]
 id: MP:0001380 ! reduced male mating frequency
@@ -35534,10 +35622,9 @@ intersection_of: inheres_in NBO:0000548 ! male sexual activity
 
 [Term]
 id: MP:0001375 ! abnormal mating preference
-intersection_of: PATO:0000773 ! preference
-intersection_of: inheres_in MA:0002405 ! adult mouse
-intersection_of: towards NBO:0000034 ! sexual activity
+intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in MA:0002948 ! regulation of mating preference
 
 [Term]
 id: MP:0001376 ! abnormal mating receptivity
@@ -35561,6 +35648,16 @@ intersection_of: inheres_in NBO:0000024 ! sleeping behaviour
 id: MP:0003238 ! slow REM
 intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in NBO:0000159 ! rapid eye movement sleep
+
+[Term]
+id: MP:0010167 ! decreased response to stress-induced hyperthermia
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in NBO:0002569 ! stress-induced hyperthermia
+
+[Term]
+id: MP:0010166 ! increased response to stress-induced hyperthermia
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in NBO:0002569 ! stress-induced hyperthermia
 
 [Term]
 id: MP:0003239 ! fast REM
