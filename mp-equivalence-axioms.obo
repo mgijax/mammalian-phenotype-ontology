@@ -12936,16 +12936,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0000128 ! parathyroid gland
 
 [Term]
-id: MP:0003432 ! increased activity of parathyroid
-intersection_of: PATO:0001625 ! increased functionality
-intersection_of: inheres_in MA:0000128 ! parathyroid gland
-
-[Term]
-id: MP:0003433 ! decreased activity of parathyroid
-intersection_of: PATO:0001624 ! decreased functionality
-intersection_of: inheres_in MA:0000128 ! parathyroid gland
-
-[Term]
 id: MP:0003434 ! increased resistance to induced choroidal neovascularization
 intersection_of: PATO:0001178 ! resistant to
 intersection_of: towards GO:0060055 ! angiogenesis involved in wound healing
@@ -13626,9 +13616,19 @@ intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in _:kidney_creatine_secretion
 
 [Term]
+id: MP:0003433 ! decreased activity of parathyroid
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in MA:0000128 ! parathyroid gland
+
+[Term]
 id: MP:0005557 ! increased creatinine clearance
 intersection_of: PATO:0000912 ! increased rate
 intersection_of: inheres_in _:kidney_creatine_secretion
+
+[Term]
+id: MP:0003432 ! increased activity of parathyroid
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in MA:0000128 ! parathyroid gland
 
 [Term]
 id: MP:0002656 ! abnormal keratinocyte differentiation
