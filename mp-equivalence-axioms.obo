@@ -1982,23 +1982,23 @@ intersection_of: inheres_in MA:0001910 ! muzzle/snout
 [Term]
 id: MP:0000446 ! long snout
 intersection_of: PATO:0000573 ! increased length
-intersection_of: inheres_in MA:0000281 ! nose
+intersection_of: inheres_in MA:0001910 ! muzzle/snout
 
 [Term]
 id: MP:0000447 ! flattened snout
-intersection_of: PATO:0000407 ! flat
-intersection_of: inheres_in MA:0000281 ! nose
+intersection_of: PATO:0002254 ! flattened
+intersection_of: inheres_in MA:0001910 ! muzzle/snout
 
 [Term]
 id: MP:0000448 ! pointed snout
 intersection_of: PATO:0000944 ! pointed
-intersection_of: inheres_in MA:0000281 ! nose
+intersection_of: inheres_in MA:0001910 ! muzzle/snout
 
 [Term]
 id: MP:0000450 ! absent snout
 intersection_of: PATO:0002000 ! lacks all parts of type
 intersection_of: inheres_in MA:0000023 ! head
-intersection_of: towards MA:0000281 ! nose
+intersection_of: towards MA:0001910 ! muzzle/snout
 
 [Term]
 id: MP:0000451 ! scaly muzzle
