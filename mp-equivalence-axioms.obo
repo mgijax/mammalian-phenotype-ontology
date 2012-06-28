@@ -30130,7 +30130,7 @@ intersection_of: inheres_in MA:0000737 ! inguinal lymph node
 
 [Term]
 id: MP:0009624 ! small inguinal lymph nodes
-intersection_of: PATO:0002001 ! has fewer parts of type
+intersection_of: PATO:0000587 ! decreased size
 intersection_of: towards MA:0000737 ! inguinal lymph node
 
 [Term]
