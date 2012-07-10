@@ -489,9 +489,8 @@ intersection_of: inheres_in MA:0001472 ! sphenoid bone
 
 [Term]
 id: MP:0000105 ! impaired ossification of basisphenoid bone
-intersection_of: PATO:0001570 ! having decreased processual parts
-intersection_of: towards _:basisphenoid_bone_ossification
-intersection_of: inheres_in MA:0001463 ! basisphenoid bone
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in _:basisphenoid_bone_ossification
 
 [Term]
 id: MP:0000106 ! abnormal basisphenoid bone morphology
@@ -2369,8 +2368,8 @@ intersection_of: towards GO:0046903 ! secretion
 
 [Term]
 id: MP:0000242 ! impaired fertilization
-intersection_of: PATO:0001558 ! lacking processual parts
-intersection_of: towards GO:0009566 ! fertilization
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in GO:0009566 ! fertilization
 
 [Term]
 id: MP:0010249 ! lactation failure
@@ -3814,37 +3813,37 @@ intersection_of: inheres_in GO:0007517 ! muscle development
 
 [Term]
 id: MP:0000738 ! impaired muscle contractility
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0006936 ! muscle contraction
 
 [Term]
 id: MP:0002841 ! impaired skeletal muscle contractility
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0003009 ! skeletal muscle contraction
 
 [Term]
 id: MP:0000740 ! impaired smooth muscle contractility
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0006939 ! smooth muscle contraction
 
 [Term]
 id: MP:0000741 ! impaired contractility of detrusor smooth muscle
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in _:detrusor_smooth_contractility
 
 [Term]
 id: MP:0004005 ! impaired contractility of intestinal smooth muscle
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0014827 ! intestine smooth muscle contraction
 
 [Term]
 id: MP:0000742 ! impaired contractility of ileal smooth muscle
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in _:ileal_smooth_muscle_contractility
 
 [Term]
 id: MP:0004006 ! impaired contractility of jejunal smooth muscle
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in _:jejunum_smooth_muscle_contractility
 
 [Term]
@@ -5208,7 +5207,7 @@ intersection_of: inheres_in MA:0000384 ! ovary
 
 [Term]
 id: MP:0001129 ! impaired ovarian folliculogenesis
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0001541 ! ovarian follicle development
 
 [Term]
@@ -5231,7 +5230,7 @@ intersection_of: towards MA:0001709 ! ovary mature follicle
 
 [Term]
 id: MP:0001133 ! impaired luteal cell differentiation
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0060840 ! artery development
 
 [Term]
@@ -6447,7 +6446,7 @@ intersection_of: inheres_in GO:0030099 ! myeloid cell differentiation
 
 [Term]
 id: MP:0001602 ! impaired myelopoiesis
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0030099 ! myeloid cell differentiation
 
 [Term]
@@ -6457,7 +6456,7 @@ intersection_of: towards GO:0030099 ! myeloid cell differentiation
 
 [Term]
 id: MP:0001606 ! impaired hematopoiesis
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0030097 ! hemopoiesis
 
 [Term]
@@ -6665,7 +6664,7 @@ intersection_of: towards GO:0007566 ! embryo implantation
 
 [Term]
 id: MP:0001729 ! impaired embryo implantation
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0007566 ! embryo implantation
 
 [Term]
@@ -6933,7 +6932,7 @@ intersection_of: inheres_in CL:0000084 ! T cell
 
 [Term]
 id: MP:0001792 ! impaired wound healing
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0042060 ! wound healing
 
 [Term]
@@ -6988,17 +6987,17 @@ intersection_of: inheres_in GO:0050798 ! activated T cell proliferation
 
 [Term]
 id: MP:0003799 ! impaired macrophage migration
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0048246 ! macrophage chemotaxis
 
 [Term]
 id: MP:0001798 ! impaired macrophage phagocytosis
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in _:macrophage_phagocytosis
 
 [Term]
 id: MP:0002467 ! impaired neutrophil phagocytosis
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in _:neutrophil_phagocytosis
 
 
@@ -8335,7 +8334,7 @@ intersection_of: inheres_in MA:0000422 ! bronchiole
 
 [Term]
 id: MP:0006028 ! impaired bronchiole branching
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in _:bronchiole_branching
 
 [Term]
@@ -9134,12 +9133,12 @@ intersection_of: inheres_in GO:0006956 ! complement activation
 
 [Term]
 id: MP:0002472 ! impaired complement alternative pathway
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0006957 ! complement activation, alternative pathway
 
 [Term]
 id: MP:0002473 ! impaired complement classical pathway
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0006958 ! complement activation, classical pathway
 
 [Term]
@@ -11754,7 +11753,7 @@ intersection_of: inheres_in GO:0000781 ! chromosome, telomeric region
 
 [Term]
 id: MP:0003157 ! impaired muscle relaxation
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0090075 ! relaxation of muscle
 
 [Term]
@@ -12604,12 +12603,12 @@ intersection_of: inheres_in _:astrocyte_cell_growth
 
 [Term]
 id: MP:0003356 ! impaired luteinization
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0001553 ! luteinization
 
 [Term]
 id: MP:0003357 ! impaired granulosa cell differentiation
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0060014 ! granulosa cell differentiation
 
 [Term]
@@ -13940,7 +13939,7 @@ id: MP:0003628 ! abnormal leukocyte adhesion
 intersection_of: PATO:0000001 ! quality
 intersection_of: inheres_in GO:0007159 ! leukocyte adhesion
 intersection_of: qualifier PATO:0000460 ! abnormal
-
+$$$$
 [Term]
 id: MP:0005074 ! impaired granulocyte bactericidal activity
 intersection_of: PATO:0001641 ! dysfunctional
@@ -14221,7 +14220,7 @@ intersection_of: inheres_in GO:0050955 ! thermoception
 
 [Term]
 id: MP:0003666 ! impaired sperm capacitation
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0048240 ! sperm capacitation
 
 [Term]
@@ -15289,7 +15288,7 @@ intersection_of: inheres_in GO:0046323 ! glucose import
 
 [Term]
 id: MP:0003926 ! impaired cellular glucose import
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0046323 ! glucose import
 
 [Term]
@@ -17651,7 +17650,7 @@ intersection_of: towards MA:0000255 ! auditory tube
 
 [Term]
 id: MP:0004542 ! impaired acrosome reaction
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0007340 ! acrosome reaction
 
 [Term]
@@ -20328,8 +20327,8 @@ intersection_of: inheres_in CL:0000623 ! natural killer cell
 
 [Term]
 id: MP:0005070 ! impaired NK cell cytolysis
-intersection_of: PATO:0001570 ! having decreased processual parts
-intersection_of: towards GO:0042267 ! natural killer cell mediated cytotoxicity
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in GO:0042267 ! natural killer cell mediated cytotoxicity
 
 [Term]
 id: MP:0005071 ! enlarged hair follicle melanin granules
@@ -21791,7 +21790,7 @@ intersection_of: inheres_in_part_of MA:0000325 ! renal/urinary system
 [Term]
 id: MP:0005369 ! muscle phenotype
 intersection_of: PATO:0000001 ! quality
-intersection_of: inheres_in MA:0000015 ! muscle
+intersection_of: inheres_in MA:0002888
 
 [Term]
 id: MP:0005375 ! adipose tissue phenotype
@@ -22049,12 +22048,6 @@ id: MP:0005447 ! abnormal synaptic norepinephrine release
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0048243 ! norepinephrine secretion
-
-[Term]
-id: MP:0005450 ! abnormal energy expenditure
-intersection_of: PATO:0001021 ! energy
-intersection_of: inheres_in GO:0008152 ! metabolic process
-intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0005451 ! abnormal body composition
@@ -23229,7 +23222,7 @@ intersection_of: inheres_in MA:0000424 ! terminal bronchiole
 
 [Term]
 id: MP:0006027 ! impaired respiratory alveologenesis
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0048286 ! alveolus development
 
 [Term]
@@ -24576,7 +24569,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008033 ! impaired lipolysis
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0016042 ! lipid catabolic process
 
 [Term]
@@ -26797,7 +26790,7 @@ intersection_of: inheres_in_part_of MA:0000133 ! cerebral hemisphere
 
 [Term]
 id: MP:0008544 ! impaired olfaction
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0007608 ! sensory perception of smell
 
 [Term]
@@ -26956,12 +26949,12 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008720 ! impaired neutrophil migration
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0030593 ! neutrophil chemotaxis
 
 [Term]
 id: MP:0008724 ! impaired eosinophil migration
-intersection_of: PATO:0002018 ! decreased magnitude
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0048245 ! eosinophil chemotaxis
 
 [Term]
@@ -32770,7 +32763,7 @@ id: MP:0001688 ! abnormal somite development
 intersection_of: PATO:0000001 ! quality
 intersection_of: inheres_in_part_of GO:0061053 ! somite development
 intersection_of: qualifier PATO:0000460 ! abnormal
-
+$$$
 [Term]
 id: MP:0003044 ! impaired basement membrane formation
 intersection_of: PATO:0001558 ! lacking processual parts
@@ -32801,7 +32794,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0009768 ! impaired somite development
-intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: PATO:0000911 ! decreased rate
 intersection_of: towards GO:0061053 ! somite development
 
 [Term]
@@ -35135,8 +35128,8 @@ intersection_of: inheres_in NBO:0000063 ! eating behaviour
 
 [Term]
 id: MP:0003158 ! dysphagia
-intersection_of: PATO:0000762 ! impaired
-intersection_of: towards NBO:0000545 ! swallowing
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in NBO:0000545 ! swallowing
 
 [Term]
 id: MP:0001433 ! polyphagia
@@ -38446,6 +38439,12 @@ id: _:urine_homeostasis
 is_anonymous: true
 intersection_of: inheres_in GO:0042592 ! homeostasis
 intersection_of: has_central_participant MA:0002545 ! urine
+
+[Term]
+id: _:glycogen_homeostasis
+is_anonymous: true
+intersection_of: inheres_in GO:0042592 ! homeostasis
+intersection_of: has_central_participant CHEBI:28087 ! glycogen
 
 [Term]
 id: _:astrocyte_cell_growth
