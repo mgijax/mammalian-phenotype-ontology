@@ -20456,11 +20456,6 @@ intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0042098 ! T cell proliferation
 
 [Term]
-id: MP:0005096 ! erythroblastosis
-intersection_of: PATO:0002002 ! has extra parts of type
-intersection_of: towards CL:0000765 ! erythroblast
-
-[Term]
 id: MP:0005098 ! abnormal choroid morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -37983,7 +37978,7 @@ intersection_of: towards UBERON:0008852  ! visceral yolk sac
 [Term]
 id: MP:0011207  ! absent ectoplacental cavity
 intersection_of: PATO:0002000  ! lacks all parts of type
-intersection_of: towards UBERON:0003888  ! extraembryonic coelom
+intersection_of: towards UBERON:0008851 ! ectoplacental cavity
 
 [Term]
 id: MP:0011209  ! absent extraembryonic coelom
