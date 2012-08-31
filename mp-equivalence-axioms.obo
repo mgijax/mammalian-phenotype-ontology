@@ -9470,10 +9470,11 @@ intersection_of: towards GO:0000917 ! barrier septum formation
 intersection_of: inheres_in MA:0002031 ! pulmonary artery
 intersection_of: inheres_in MA:0000062 ! aorta
 
-[Term]
-id: MP:0003387 ! aorta coarctation
-intersection_of: PATO:0001847 ! constricted
-intersection_of: inheres_in MA:0000062 ! aorta
+!NOTE: need a logical definition that distinguishes this from aorta stenosis
+![Term]
+!id: MP:0003387 ! aorta coarctation
+!intersection_of: PATO:0001847 ! constricted
+!intersection_of: inheres_in MA:0000062 ! aorta
 
 [Term]
 id: MP:0002637 ! small uterus
@@ -35628,7 +35629,7 @@ intersection_of: inheres_in NBO:0002569 ! stress-induced hyperthermia
 
 [Term]
 id: MP:0010166 ! increased response to stress-induced hyperthermia
-intersection_of: PATO:0000911 ! decreased rate
+intersection_of: PATO:0000912 ! increased rate
 intersection_of: inheres_in NBO:0002569 ! stress-induced hyperthermia
 
 [Term]
@@ -36558,11 +36559,12 @@ intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in CL:0002487 ! cutaneous/subcutaneous mechanoreceptor cell
 intersection_of: qualifier PATO:0000460 ! abnormal
 
-[Term]
-id: MP:0001003 ! abnormal olfactory receptor morphology
-intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in CL:0000207 ! olfactory receptor cell
-intersection_of: qualifier PATO:0000460 ! abnormal
+! This MP term references the PROTEIN; PRO has many olfactory receptors....
+![Term]
+!id: MP:0001003 ! abnormal olfactory receptor morphology
+!intersection_of: PATO:0000051 ! morphology
+!intersection_of: inheres_in CL:0000207 ! olfactory receptor cell
+!intersection_of: qualifier PATO:0000460 ! abnormal
 
 !!! Obol results 2011-07-28
 
@@ -37307,7 +37309,7 @@ intersection_of: towards CL:0000913  ! effector memory CD8-positive, alpha-beta 
 [Term]
 id: MP:0010852  ! absent epidermal lamellar bodies
 intersection_of: PATO:0002000  ! lacks all parts of type
-intersection_of: CL:0000362 ! epidermal cell
+intersection_of: inheres_in CL:0000362 ! epidermal cell
 intersection_of: towards GO:0042599  ! lamellar body
 
 [Term]
