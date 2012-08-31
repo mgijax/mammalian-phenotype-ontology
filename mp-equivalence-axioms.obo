@@ -10688,11 +10688,6 @@ intersection_of: PATO:0000912 ! increased rate
 intersection_of: inheres_in GO:0040007 ! growth
 
 [Term]
-id: MP:0002738 ! hyperresponsive to tactile stimuli
-intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in NBO:0000332 ! touch related behavior
-
-[Term]
 id: MP:0002872 ! polycythemia
 intersection_of: PATO:0002002 ! has extra parts of type
 intersection_of: qualifier PATO:0001869 ! pathological
