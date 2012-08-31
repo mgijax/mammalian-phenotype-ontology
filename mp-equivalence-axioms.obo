@@ -369,7 +369,7 @@ intersection_of: inheres_in MA:0001464 ! exoccipital bone
 [Term]
 id: MP:0000081 ! premature suture closure
 intersection_of: PATO:0002166 ! premature closure
-intersection_of: inheres_in UBERON:0000969 ! obsolete joint connecting hardened body parts
+intersection_of: inheres_in MA:0001475 ! cranial suture
 
 [Term]
 id: MP:0000117 ! absent tooth primordium
@@ -9800,29 +9800,29 @@ id: MP:0008443 ! absent subplate
 intersection_of: PATO:0002000 ! lacks all parts of type
 intersection_of: towards UBERON:0004035 ! subplate
 
-[Term]
-id: MP:0008448 ! abnormal retinal cone cell inner segment morphology
-intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in UBERON:0004036 ! obsolete retinal cone cell inner segment
-intersection_of: qualifier PATO:0000460 ! abnormal
+![Term]
+!id: MP:0008448 ! abnormal retinal cone cell inner segment morphology
+!intersection_of: PATO:0000051 ! morphology
+!intersection_of: inheres_in UBERON:0004036 ! obsolete retinal cone cell inner segment
+!intersection_of: qualifier PATO:0000460 ! abnormal
 
-[Term]
-id: MP:0008449 ! abnormal retinal cone cell outer segment morphology
-intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in UBERON:0004037 ! obsolete retinal cone cell outer segment
-intersection_of: qualifier PATO:0000460 ! abnormal
+![Term]
+!id: MP:0008449 ! abnormal retinal cone cell outer segment morphology
+!intersection_of: PATO:0000051 ! morphology
+!intersection_of: inheres_in UBERON:0004037 ! obsolete retinal cone cell outer segment
+!intersection_of: qualifier PATO:0000460 ! abnormal
 
-[Term]
-id: MP:0008455 ! abnormal retinal rod cell inner segment morphology
-intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in UBERON:0004038 ! obsolete retinal rod cell inner segment
-intersection_of: qualifier PATO:0000460 ! abnormal
+![Term]
+!id: MP:0008455 ! abnormal retinal rod cell inner segment morphology
+!intersection_of: PATO:0000051 ! morphology
+!intersection_of: inheres_in UBERON:0004038 ! obsolete retinal rod cell inner segment
+!intersection_of: qualifier PATO:0000460 ! abnormal
 
-[Term]
-id: MP:0008456 ! abnormal retinal rod cell outer segment morphology
-intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in UBERON:0004039 ! obsolete retinal rod cell outer segment
-intersection_of: qualifier PATO:0000460 ! abnormal
+![Term]
+!id: MP:0008456 ! abnormal retinal rod cell outer segment morphology
+!intersection_of: PATO:0000051 ! morphology
+!intersection_of: inheres_in UBERON:0004039 ! obsolete retinal rod cell outer segment
+!intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
 id: MP:0008514 ! absent retinal inner plexiform layer
@@ -33267,12 +33267,13 @@ id: MP:0010169 ! decreased CD4-positive, CD25-positive, alpha-beta regulatory T 
 intersection_of: PATO:0001163 ! decreased concentration
 intersection_of: towards CL:0000792 ! CD4-positive, CD25-positive, alpha-beta regulatory T cell
 
-[Term]
-id: MP:0008548 ! abnormal circulating interferon level
-intersection_of: PATO:0000033 ! concentration of
-intersection_of: inheres_in MA:0000059 ! blood
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: towards CHEBI:52999 ! interferon ! obsolete
+!! https://sourceforge.net/tracker/?func=detail&aid=3563798&group_id=266825&atid=1135711
+![Term]
+!id: MP:0008548 ! abnormal circulating interferon level
+!intersection_of: PATO:0000033 ! concentration of
+!intersection_of: inheres_in MA:0000059 ! blood
+!intersection_of: qualifier PATO:0000460 ! abnormal
+!intersection_of: towards CHEBI:52999 ! interferon ! obsolete
 
 [Term]
 id: MP:0008740 ! abnormal intestinal iron level
@@ -33281,11 +33282,12 @@ intersection_of: inheres_in MA:0000328 ! intestine
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: towards CHEBI:18248 ! iron atom
 
-[Term]
-id: MP:0008750 ! abnormal interferon level
-intersection_of: PATO:0000033 ! concentration of
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: towards CHEBI:52999 ! interferon ! obsolete
+!! https://sourceforge.net/tracker/?func=detail&aid=3563798&group_id=266825&atid=1135711
+![Term]
+!id: MP:0008750 ! abnormal interferon level
+!intersection_of: PATO:0000033 ! concentration of
+!intersection_of: qualifier PATO:0000460 ! abnormal
+!intersection_of: towards CHEBI:52999 ! interferon ! obsolete
 
 [Term]
 id: MP:0009812 ! abnormal bradykinin level
