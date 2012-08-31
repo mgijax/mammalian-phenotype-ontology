@@ -16199,7 +16199,7 @@ intersection_of: inheres_in MA:0000869 ! lateral geniculate nucleus
 id: MP:0004170 ! abnormal orbitofrontal cortex morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in  MA:0000905! frontal cortex
+intersection_of: inheres_in UBERON:0004167 ! orbitofrontal cortex
 
 [Term]
 id: MP:0004171 ! abnormal pallium development
@@ -20555,16 +20555,11 @@ intersection_of: PATO:0001162 ! increased concentration
 intersection_of: towards IMR:0100084 ! pituitary hormone
 intersection_of: inheres_in MA:0000059 ! blood
 
-![Term]
-!id: MP:0003031 ! acidosis
-!intersection_of: PATO:0001162 ! increased concentration
-!intersection_of: inheres_in _:arterial_blood
-!intersection_of: towards CHEBI:37527 ! acid
-
 [Term]
 id: MP:0003031 ! acidosis
 intersection_of: PATO:0001162 ! increased concentration
 intersection_of: inheres_in MA:0000059 ! blood
+intersection_of: inheres_in_part_of UBERON:0001637 ! artery
 intersection_of: towards CHEBI:37527 ! acid
 
 [Term]
