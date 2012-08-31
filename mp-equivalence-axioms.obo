@@ -10267,7 +10267,7 @@ intersection_of: inheres_in NBO:0000333 ! chemical nociceptive behavior
 
 [Term]
 id: MP:0002738 ! hyperresponsive to tactile stimuli
-intersection_of: PATO:0000911 ! decreased rate
+intersection_of: PATO:0000912 ! increased rate
 intersection_of: inheres_in NBO:0000332 ! touch related behavior
 
 [Term]
