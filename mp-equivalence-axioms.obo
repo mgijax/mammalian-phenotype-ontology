@@ -40220,13 +40220,6 @@ is_anonymous: true
 intersection_of: GO:0042592 ! homeostasis
 intersection_of: has_central_participant MA:0002545 ! urine
 
-! REQUEST FROM GO
-[Term]
-id: _:glycogen_homeostasis
-is_anonymous: true
-intersection_of: GO:0042592 ! homeostasis
-intersection_of: has_central_participant CHEBI:28087 ! glycogen
-
 [Term]
 id: _:astrocyte_cell_growth
 is_anonymous: true
@@ -40279,12 +40272,6 @@ id: _:jejunum_smooth_muscle
 is_anonymous: true
 intersection_of: MA:0001539 ! intestine smooth muscle
 intersection_of: part_of MA:0000340 ! jejunum
-
-[Term]
-id: _:arterial_blood
-is_anonymous: true
-intersection_of: MA:0000059 ! blood
-intersection_of: contained_in MA:0000064 ! artery
 
 [Term]
 id: _:CSF_in_brain_ventricle
