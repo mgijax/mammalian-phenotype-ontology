@@ -10936,11 +10936,12 @@ intersection_of: inheres_in GO:0001755 ! neural crest cell migration
 !intersection_of: PATO:0000591 ! increased thickness
 !intersection_of: inheres_in MA:0000085 ! ventricular septum
 
-[Term]
-id: MP:0002954 ! abnormal aerobic energy metabolism
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0009060 ! aerobic respiration
+! WRONG: dupe logical def with abnormal aerobic respiration
+![Term]
+!id: MP:0002954 ! abnormal aerobic energy metabolism
+!intersection_of: PATO:0000001 ! quality
+!intersection_of: qualifier PATO:0000460 ! abnormal
+!intersection_of: inheres_in GO:0009060 ! aerobic respiration
 
 [Term]
 id: MP:0002957 ! intestinal adenocarcinoma
@@ -26409,12 +26410,6 @@ id: MP:0006073 ! abnormal retinal bipolar cell morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in CL:0000748 ! retinal bipolar neuron
-
-[Term]
-id: MP:0005495 ! abnormal macrophage recruitment
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0002281 ! macrophage activation during immune response
 
 [Term]
 id: MP:0005496 ! impaired macrophage recruitment
