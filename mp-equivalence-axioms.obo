@@ -1,19 +1,6 @@
 date: 27:07:2007 00:13
 saved-by: George Gkoutos
 default-namespace: mammalian_phenotype_xp
-!id-mapping: during OBO_REL:exists_during
-!id-mapping: towards OBO_REL:towards
-!id-mapping: qualifier qualifier
-!id-mapping: output has_output
-!id-mapping: inheres_in OBO_REL:inheres_in
-!id-mapping: has_quality OBO_REL:has_quality
-!id-mapping: quality_of OBO_REL:quality_of
-!id-mapping: inheres_in_part_of inheres_in_part_of
-!id-mapping: located_in OBO_REL:located_in
-!id-mapping: has_central_participant OBOL:has_central_participant
-!id-mapping: preceded_by OBO_REL:preceded_by
-!id-mapping: exists_during OBO_REL:exists_during
-remark: Status: ALPHA TESTING
 remark: TODO - physiology
 remark: TODO - fix inheres_in_part_of defs
 remark: TODO - fix has_central_participant defs
@@ -40090,14 +40077,14 @@ intersection_of: has_central_participant _:jejunum_smooth_muscle
 [Term]
 id: _:adrenal_secretion
 is_anonymous: true
-intersection_of: MA:0000116 ! adrenal gland
-intersection_of: has_function_realized_as_process GO:0046903 ! secretion
+intersection_of: GO:0046903 ! secretion
+intersection_of: occurs_in MA:0000116 ! adrenal gland
 
 [Term]
 id: _:adrenal_epinephrine_secretion
 is_anonymous: true
-intersection_of: MA:0000116 ! adrenal gland
-intersection_of: has_function_realized_as_process GO:0048242 ! epinephrine secretion
+intersection_of: GO:0048242 ! epinephrine secretion
+intersection_of: occurs_in MA:0000116 ! adrenal gland
 
 [Term]
 id: _:corticosterone_secretion
@@ -40133,7 +40120,7 @@ intersection_of: has_central_participant MA:0000218 ! peripheral nervous system
 id: _:kidney_creatine_secretion
 is_anonymous: true
 intersection_of: GO:0046903 ! secretion
-intersection_of: has_central_participant MA:0000368 ! kidney
+intersection_of: occurs_in MA:0000368 ! kidney
 intersection_of: results_in_directed_movement_of CHEBI:16919 ! creatine
 
 [Term]
