@@ -8496,12 +8496,6 @@ intersection_of: PATO:0001046 ! resistance
 intersection_of: inheres_in MA:0002405 ! adult mouse
 intersection_of: towards MP:0001548 ! hyperlipidemia
 
-[Term]
-id: MP:0002327 ! abnormal respiratory function
-intersection_of: PATO:0001509 ! functionality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000327 ! respiratory system
-
 !physiology
 ![Term]
 !id: MP:0002327 ! abnormal respiratory function
@@ -10269,7 +10263,7 @@ intersection_of: inheres_in NBO:0000334 ! mechanical nociceptive behavior
 id: MP:0002735 ! abnormal chemical nociception
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in NBO:0000334 ! chemical nociceptive behavior
+intersection_of: inheres_in NBO:0000333 ! chemical nociceptive behavior
 
 [Term]
 id: MP:0002738 ! hyperresponsive to tactile stimuli
