@@ -20117,12 +20117,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in CL:0000062 ! osteoblast
 
 [Term]
-id: MP:0005007 ! abnormal bone density
-intersection_of: PATO:0001019 ! density
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0001459 ! bone
-
-[Term]
 id: MP:0008396 ! abnormal osteoclast differentiation
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
