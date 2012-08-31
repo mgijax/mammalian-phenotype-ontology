@@ -34984,10 +34984,11 @@ id: MP:0009751 ! enhanced response to alcohol
 intersection_of: PATO:0000912 ! increased rate
 intersection_of: inheres_in NBO:0001763 ! behavioral response to alcohol
 
+! FIX THIS:
 [Term]
 id: MP:0002629 ! hyperactivity elicited by ethanol administration
 intersection_of: MP:0001399 ! hyperactivity
-intersection_of: in_response_to MP:0009751 ! enhanced response to alcohol
+intersection_of: during  NBO:0001763 ! behavioral response to alcohol
 
 [Term]
 id: MP:0009754 ! enhanced response to cocaine
@@ -40380,12 +40381,12 @@ xref: RO:0002202
 !id: bearer_of
 !name: bearer of
 !xref: BFO:0000053
-!
-![Typedef]
-!id: has_participant
-!name: has participant
-!xref: BFO:0000057
-!
+
+[Typedef]
+id: has_participant
+name: has participant
+xref: BFO:0000057
+
 ![Typedef]
 !id: results_in
 !name: results in
