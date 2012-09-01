@@ -4685,21 +4685,6 @@ intersection_of: PATO:0002000 ! lacks all parts of type
 intersection_of: inheres_in MA:0001896 ! guard hair
 intersection_of: towards CL:0000199 ! mechanoreceptor cell
 
-!hair down neuron JAX term ?
-![Term]
-!id: MP:0000979 ! abnormal hair-down neuron morphology
-!intersection_of: PATO:0000051 ! morphology
-!intersection_of: qualifier PATO:0000460 ! abnormal
-!intersection_of: inheres_in_part_of MA:0001896 ! guard hair
-!intersection_of: inheres_in CL:0000199 ! mechanoreceptor cell
-
-!hair down neuron JAX term ?
-![Term]
-!id: MP:0000980 ! absent hair-down neurons
-!intersection_of: PATO:0002000 ! lacks all parts of type
-!intersection_of: inheres_in MA:0001896 ! guard hair
-!intersection_of: towards CL:0000199 ! mechanoreceptor cell
-
 [Term]
 id: MP:0000997 ! abnormal joint capsule morphology
 intersection_of: PATO:0000051 ! morphology
@@ -39762,6 +39747,311 @@ id: MP:0011722 ! abnormal ossification involved in bone maturation
 intersection_of: PATO:0000001 ! quality
 intersection_of: inheres_in_part_of GO:0043931  ! ossification involved in bone maturation
 intersection_of: qualifier PATO:0000460 ! abnormal
+
+!!! new obol
+
+[Term]
+id: MP:0000811  ! hippocampal neuron degeneration
+intersection_of: PATO:0000639  ! degenerate
+intersection_of: inheres_in CL:0002608  ! hippocampal neuron
+
+[Term]
+id: MP:0000979  ! abnormal hair-down neuron morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:1001437  ! hair-down neuron
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0000980  ! absent hair-down neurons
+intersection_of: PATO:0002000  ! lacks all parts of type
+intersection_of: towards CL:1001437  ! hair-down neuron
+
+[Term]
+id: MP:0003893  ! increased hepatocyte proliferation
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0072574  ! hepatocyte proliferation
+
+[Term]
+id: MP:0004286  ! abnormal internal auditory canal morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0011859  ! internal acoustic meatus
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0004367  ! abnormal strial intermediate cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0002486  ! strial intermediate cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0005019  ! abnormal early pro-B cell
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0002046  ! early pro-B cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0008562  ! increased interferon-alpha secretion
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0072642  ! interferon-alpha secretion
+
+[Term]
+id: MP:0008563  ! decreased interferon-alpha secretion
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0072642  ! interferon-alpha secretion
+
+[Term]
+id: MP:0008566  ! increased interferon-gamma secretion
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0072643  ! interferon-gamma secretion
+
+[Term]
+id: MP:0008567  ! decreased interferon-gamma secretion
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0072643  ! interferon-gamma secretion
+
+[Term]
+id: MP:0008663  ! increased interleukin-12 secretion
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0072610  ! interleukin-12 secretion
+
+[Term]
+id: MP:0008664  ! decreased interleukin-12 secretion
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0072610  ! interleukin-12 secretion
+
+[Term]
+id: MP:0008690  ! increased interleukin-23 secretion
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0072621  ! interleukin-23 secretion
+
+[Term]
+id: MP:0008691  ! decreased interleukin-23 secretion
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0072621  ! interleukin-23 secretion
+
+[Term]
+id: MP:0009652  ! abnormal palatal rugae morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0008799  ! transverse palatine fold
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0009659  ! striated fur
+intersection_of: PATO:0001410  ! striated
+intersection_of: inheres_in  UBERON:0010166 ! coat of hair
+
+
+[Term]
+id: MP:0010461  ! discontinuous pulmonary artery
+intersection_of: PATO:0000690  ! discontinuous
+intersection_of: inheres_in MA:0002031  ! pulmonary artery
+
+[Term]
+id: MP:0010610  ! patent aortic valve
+intersection_of: PATO:0000610  ! open
+intersection_of: inheres_in MA:0000087  ! aortic valve
+
+[Term]
+id: MP:0010619  ! patent mitral valve
+intersection_of: PATO:0000610  ! open
+intersection_of: inheres_in MA:0000088  ! mitral valve
+
+[Term]
+id: MP:0010813  ! abnormal alveolar lamellar body morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in GO:0097208  ! alveolar lamellar body
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011078  ! increased macrophage cytokine production
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0010934  ! macrophage cytokine production
+
+[Term]
+id: MP:0011079  ! decreased macrophage cytokine production
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0010934  ! macrophage cytokine production
+
+[Term]
+id: MP:0011080  ! increased macrophage apoptosis
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0071888  ! macrophage apoptosis
+
+[Term]
+id: MP:0011081  ! decreased macrophage apoptosis
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0071888  ! macrophage apoptosis
+
+[Term]
+id: MP:0011147  ! increased mesenchymal cell proliferation involved in lung development
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0060916  ! mesenchymal cell proliferation involved in lung development
+
+[Term]
+id: MP:0011148  ! decreased mesenchymal cell proliferation involved in lung development
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0060916  ! mesenchymal cell proliferation involved in lung development
+
+[Term]
+id: MP:0011578  ! increased lipoprotein lipase activity
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0004465  ! lipoprotein lipase activity
+
+[Term]
+id: MP:0011579  ! decreased lipoprotein lipase activity
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0004465  ! lipoprotein lipase activity
+
+[Term]
+id: MP:0011584  ! increased alkaline phosphatase activity
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0004035  ! alkaline phosphatase activity
+
+[Term]
+id: MP:0011585  ! decreased alkaline phosphatase activity
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0004035  ! alkaline phosphatase activity
+
+[Term]
+id: MP:0011587  ! increased ornithine carbamoyltransferase activity
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0004585  ! ornithine carbamoyltransferase activity
+
+[Term]
+id: MP:0011588  ! decreased ornithine carbamoyltransferase activity
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0004585  ! ornithine carbamoyltransferase activity
+
+[Term]
+id: MP:0011596  ! increased purine-nucleoside phosphorylase activity
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0004731  ! purine-nucleoside phosphorylase activity
+
+[Term]
+id: MP:0011597  ! decreased purine-nucleoside phosphorylase activity
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0004731  ! purine-nucleoside phosphorylase activity
+
+[Term]
+id: MP:0011599  ! increased phosphatidylcholine-sterol O-acyltransferase activity
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0004607  ! phosphatidylcholine-sterol O-acyltransferase activity
+
+[Term]
+id: MP:0011600  ! decreased phosphatidylcholine-sterol O-acyltransferase activity
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0004607  ! phosphatidylcholine-sterol O-acyltransferase activity
+
+[Term]
+id: MP:0011602  ! increased glutathione peroxidase activity
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0004602  ! glutathione peroxidase activity
+
+[Term]
+id: MP:0011603  ! decreased glutathione peroxidase activity
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0004602  ! glutathione peroxidase activity
+
+[Term]
+id: MP:0011605  ! increased glucokinase activity
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0004340  ! glucokinase activity
+
+[Term]
+id: MP:0011606  ! decreased glucokinase activity
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0004340  ! glucokinase activity
+
+[Term]
+id: MP:0011608  ! increased glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0004365  ! glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity
+
+[Term]
+id: MP:0011609  ! decreased glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0004365  ! glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity
+
+[Term]
+id: MP:0011614  ! slow aging
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in GO:0007568  ! aging
+
+[Term]
+id: MP:0011640  ! abnormal aorta collagen fibril morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0011861  ! aorta collagen fibril
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011641  ! abnormal pulmonary collagen fibril morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0011862  ! pulmonary collagen fibril
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011642  ! abnormal bone collagen fibril morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0011863  ! bone collagen fibril
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011643  ! abnormal tendon collagen fibril morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0011864  ! tendon collagen fibril
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011650  ! abnormal corneal stroma collagen fibril morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0011865  ! corneal stroma collagen fibril
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011700  ! increased cumulus expansion
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0001550  ! ovarian cumulus expansion
+
+[Term]
+id: MP:0011703  ! increased fibroblast proliferation
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0048144  ! fibroblast proliferation
+
+[Term]
+id: MP:0011704  ! decreased fibroblast proliferation
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0048144  ! fibroblast proliferation
+
+[Term]
+id: MP:0011708  ! decreased fibroblast cell migration
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0010761  ! fibroblast migration
+
+[Term]
+id: MP:0011709  ! increased fibroblast cell migration
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0010761  ! fibroblast migration
+
+[Term]
+id: MP:0011710  ! increased osteoblast differentiation
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0001649  ! osteoblast differentiation
+
+[Term]
+id: MP:0011711  ! decreased osteoblast differentiation
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0001649  ! osteoblast differentiation
+
+[Term]
+id: MP:0011717  ! increased interleukin-8 secretion
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0072606  ! interleukin-8 secretion
+
+[Term]
+id: MP:0011718  ! decreased interleukin-8 secretion
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0072606  ! interleukin-8 secretion
+
 
 
 
