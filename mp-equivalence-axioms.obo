@@ -20283,12 +20283,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in CL:0000623 ! natural killer cell
 
 [Term]
-id: MP:0005069 ! abnormal NK cell physiology
-intersection_of: PATO:0001509 ! functionality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in CL:0000623 ! natural killer cell
-
-[Term]
 id: MP:0005070 ! impaired natural killer cell mediated cytotoxicity
 intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0042267 ! natural killer cell mediated cytotoxicity
@@ -40076,6 +40070,766 @@ intersection_of: inheres_in GO:0001550  ! ovarian cumulus expansion
 id: MP:0011707  ! impaired fibroblast cell migration
 intersection_of: PATO:0001507  ! disrupted
 intersection_of: inheres_in GO:0010761  ! fibroblast migration
+
+[Term]
+id: MP:0011024  ! abnormal branching involved in lung morphogenesis
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460  ! abnormal
+intersection_of: inheres_in GO:0001763  ! morphogenesis of a branching structure
+intersection_of: inheres_in_part_of GO:0060425  ! lung morphogenesis
+
+[Term]
+id: MP:0011025  ! abnormal branching involved in trachea morphogenesis
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460  ! abnormal
+intersection_of: inheres_in GO:0001763  ! morphogenesis of a branching structure
+intersection_of: inheres_in_part_of GO:0060439  ! trachea morphogenesis
+
+[Term]
+id: MP:0011027  ! abnormal branching involved in bronchus morphogenesis
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460  ! abnormal
+intersection_of: inheres_in GO:0001763  ! morphogenesis of a branching structure
+intersection_of: inheres_in_part_of GO:0060434  ! bronchus morphogenesis
+
+
+[Term]
+id: MP:0003364  ! increased insulinoma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in DOID:3892  ! insulinoma
+
+[Term]
+id: MP:0003505  ! increased prolactinoma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in DOID:5394  ! prolactinoma
+
+[Term]
+id: MP:0003580  ! increased fibroma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in MPATH:407  ! fibroma
+
+[Term]
+id: MP:0003710  ! abnormal physiological neovascularization
+intersection_of: PATO:0000001  ! quality
+intersection_of: inheres_in_part_of GO:0060055  ! angiogenesis involved in wound healing
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0003762  ! abnormal immune organ physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in UBERON:0005057  ! immune organ
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0004742  ! abnormal vestibular system physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in UBERON:0004681  ! vestibular system
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0004801  ! increased susceptibility to systemic lupus erythematosus
+intersection_of: PATO:0001651  ! decreased resistance to
+intersection_of: inheres_in DOID:8857  ! lupus erythematosus
+
+[Term]
+id: MP:0004802  ! decreased susceptibility to systemic lupus erythematosus
+intersection_of: PATO:0001650  ! increased resistance to
+intersection_of: inheres_in DOID:8857  ! lupus erythematosus
+
+[Term]
+id: MP:0004827  ! increased susceptibility to autoimmune hemolytic anemia
+intersection_of: PATO:0001651  ! decreased resistance to
+intersection_of: inheres_in DOID:718  ! autoimmune hemolytic anemia
+
+[Term]
+id: MP:0004828  ! decreased susceptibility to autoimmune hemolytic anemia
+intersection_of: PATO:0001650  ! increased resistance to
+intersection_of: inheres_in DOID:718  ! autoimmune hemolytic anemia
+
+[Term]
+id: MP:0008305  ! abnormal organ of Corti supporting cell physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in CL:0002490  ! organ of Corti supporting cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0008737  ! abnormal spleen physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in MA:0000141  ! spleen
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0008769  ! abnormal plasmacytoid dendritic cell physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in CL:0000784  ! plasmacytoid dendritic cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0008780  ! increased pancreatic acinar cell carcinoma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in DOID:5742  ! pancreatic acinar cell adenocarcinoma
+
+[Term]
+id: MP:0008882  ! abnormal enterocyte physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in CL:0000584  ! enterocyte
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0008916  ! abnormal astrocyte physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in CL:0000127  ! astrocyte
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0008917  ! abnormal oligodendrocyte physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in CL:0000128  ! oligodendrocyte
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0008932  ! abnormal embryonic tissue physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in UBERON:0005291  ! embryonic tissue
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0008933  ! abnormal embryonic cilium physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in GO:0031512  ! motile primary cilium
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0008952  ! abnormal pancreatic delta cell physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in CL:0000502  ! type D enteroendocrine cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0009147  ! abnormal pancreatic acinar cell physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in CL:0002064  ! pancreatic acinar cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0009194  ! abnormal pancreatic epsilon cell physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in CL:0005019  ! pancreatic epsilon cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0009278  ! abnormal bone marrow cell physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in CL:0002092  ! bone marrow cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010082  ! sternebra fusion
+intersection_of: PATO:0000642  ! fused with
+intersection_of: inheres_in MA:0001333  ! sternebra
+intersection_of: towards MA:0001333  ! sternebra
+
+[Term]
+id: MP:0010264  ! increased hepatoma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in DOID:684  ! hepatocellular carcinoma
+
+[Term]
+id: MP:0010265  ! decreased hepatoma incidence
+intersection_of: PATO:0002052  ! decreased occurrence
+intersection_of: inheres_in DOID:684  ! hepatocellular carcinoma
+
+[Term]
+id: MP:0010275  ! increased melanoma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in MPATH:359  ! melanoma
+
+[Term]
+id: MP:0010277  ! increased astrocytoma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in MPATH:244  ! astrocytoma
+
+[Term]
+id: MP:0010278  ! increased glioma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in MPATH:249  ! glioma
+
+[Term]
+id: MP:0010284  ! decreased plasmacytoma incidence
+intersection_of: PATO:0002052  ! decreased occurrence
+intersection_of: inheres_in MPATH:532  ! plasmacytoma
+
+[Term]
+id: MP:0010309  ! increased mesothelioma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in MPATH:365  ! mesothelioma
+
+[Term]
+id: MP:0010310  ! increased Schwannoma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in MPATH:438  ! schwannoma
+
+[Term]
+id: MP:0010311  ! increased meningioma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in MPATH:251  ! meningioma
+
+[Term]
+id: MP:0010312  ! increased oligodendroglioma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in MPATH:252  ! oligodendroglioma
+
+[Term]
+id: MP:0010313  ! increased osteoma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in MPATH:396  ! osteoma
+
+[Term]
+id: MP:0010314  ! increased neurofibroma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in MPATH:435  ! neurofibroma
+
+[Term]
+id: MP:0010315  ! increased cholangiocarcinoma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in MPATH:354  ! cholangiocarcinoma
+
+[Term]
+id: MP:0010322  ! increased cutaneous melanoma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in DOID:8923  ! skin melanoma
+
+[Term]
+id: MP:0010337  ! increased chronic lymphocytic leukemia incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in DOID:1040  ! chronic lymphocytic leukemia
+
+[Term]
+id: MP:0010338  ! increased desmoid tumor incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in MPATH:723  ! fibromatosis
+
+[Term]
+id: MP:0010343  ! increased lipoma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in MPATH:417  ! lipoma
+
+[Term]
+id: MP:0010345  ! increased thyroid C-cell carcinoma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in MPATH:308  ! thyroid C-cell carcinoma
+
+[Term]
+id: MP:0010346  ! increased thyroid carcinoma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in DOID:3963  ! thyroid carcinoma
+
+[Term]
+id: MP:0010347  ! osseous metaplasia
+intersection_of: PATO:0002126  ! osseous
+intersection_of: inheres_in MPATH:160  ! metaplasia
+
+[Term]
+id: MP:0010349  ! increased teratocarcinoma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in MPATH:321  ! teratocarcinoma
+
+[Term]
+id: MP:0010353  ! increased odontoma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in MPATH:387  ! odontoma
+
+[Term]
+id: MP:0010362  ! increased ganglioneuroma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in MPATH:375  ! ganglioneuroma
+
+[Term]
+id: MP:0010365  ! increased thymus tumor incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in DOID:3277  ! thymus cancer
+
+[Term]
+id: MP:0010367  ! increased spindle cell carcinoma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in DOID:4015  ! spindle cell carcinoma
+
+[Term]
+id: MP:0010680  ! abnormal skin adnexa physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in UBERON:0006003  ! skin adnexa
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010727  ! increased glioblastoma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in MPATH:564  ! glioblastoma
+
+[Term]
+id: MP:0010746  ! abnormal pre-Botzinger complex physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in MA:0002577  ! pre-botzinger complex
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010763  ! abnormal hematopoietic stem cell physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in CL:0000037  ! hematopoietic stem cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010766  ! abnormal NK cell physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in CL:0000623  ! natural killer cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011005  ! abnormal epidermal stem cell physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in CL:1000428  ! stem cell of epidermis
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011194  ! abnormal hair follicle physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in MA:0000154  ! hair follicle
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011245  ! abnormal fetal derived definitive erythrocyte physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in CL:0002357  ! fetal derived definitive erythrocyte
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011390  ! abnormal fetal cardiomyocyte physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in CL:0002495  ! fetal cardiomyocyte
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011677  ! abnormal olfactory sensory neuron physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in CL:0000207  ! olfactory receptor cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011678  ! abnormal vomeronasal sensory neuron physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in CL:1001561  ! vomeronasal sensory neuron
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011698  ! abnormal brown adipose tissue physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in MA:0000057  ! brown adipose tissue
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0009321  ! increased histiocytic sarcoma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in MPATH:506  ! histiocytic sarcoma
+
+[Term]
+id: MP:0011398  ! abnormal endoneurial fluid pressure
+intersection_of: PATO:0001025 ! pressure
+intersection_of: inheres_in UBERON:0011893 ! endoneurial fluid
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+!!! Obol results, using related, broad and narrow syns: 2012-09-31
+
+[Term]
+id: MP:0000800  ! abnormal prefrontal gyrus morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0001384  ! primary motor cortex
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0001473  ! reduced long term potentiation
+intersection_of: PATO:0001997  ! present in fewer numbers in organism
+intersection_of: inheres_in GO:0060291  ! long-term synaptic potentiation
+
+[Term]
+id: MP:0001475  ! reduced long term depression
+intersection_of: PATO:0001997  ! present in fewer numbers in organism
+intersection_of: inheres_in GO:0060292  ! long term synaptic depression
+
+[Term]
+id: MP:0001898  ! abnormal long term depression
+intersection_of: PATO:0000001  ! quality
+intersection_of: inheres_in_part_of GO:0060292  ! long term synaptic depression
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0001899  ! absent long term depression
+intersection_of: PATO:0002000  ! lacks all parts of type
+intersection_of: towards GO:0060292  ! long term synaptic depression
+
+[Term]
+id: MP:0002207  ! abnormal long term potentiation
+intersection_of: PATO:0000001  ! quality
+intersection_of: inheres_in_part_of GO:0060291  ! long-term synaptic potentiation
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0002407  ! abnormal double-negative T cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0002489  ! double negative thymocyte
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0005089  ! decreased double-negative T cell number
+intersection_of: PATO:0002001  ! has fewer parts of type
+intersection_of: towards CL:0002489  ! double negative thymocyte
+
+[Term]
+id: MP:0005090  ! increased double-negative T cell number
+intersection_of: PATO:0002002  ! has extra parts of type
+intersection_of: towards CL:0002489  ! double negative thymocyte
+
+[Term]
+id: MP:0005194  ! abnormal anterior uvea morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0011892 ! anterior uvea
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0005200  ! abnormal eye pigment epithelium morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0007625  ! pigment epithelium of eye
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0006415  ! absent testes
+intersection_of: PATO:0002000  ! lacks all parts of type
+intersection_of: towards UBERON:0000473  ! testis
+
+[Term]
+id: MP:0008072  ! absent double-negative T cells
+intersection_of: PATO:0002000  ! lacks all parts of type
+intersection_of: towards CL:0002489  ! double negative thymocyte
+
+[Term]
+id: MP:0008378  ! small malleus processus brevis
+intersection_of: PATO:0000587  ! decreased size
+intersection_of: inheres_in UBERON:0005354  ! malleus processus brevis
+
+[Term]
+id: MP:0008441  ! thin cortical plate
+intersection_of: PATO:0000592  ! decreased thickness
+intersection_of: inheres_in UBERON:0005343  ! cortical plate
+
+[Term]
+id: MP:0008507  ! thin retinal ganglion layer
+intersection_of: PATO:0000592  ! decreased thickness
+intersection_of: inheres_in UBERON:0001792  ! ganglionic layer of retina
+
+[Term]
+id: MP:0008508  ! thick retinal ganglion layer
+intersection_of: PATO:0000591  ! increased thickness
+intersection_of: inheres_in UBERON:0001792  ! ganglionic layer of retina
+
+[Term]
+id: MP:0008616  ! abnormal circulating interleukin-12 level
+intersection_of: PATO:0000033  ! concentration of
+intersection_of: inheres_in MA:0000059  ! blood
+intersection_of: qualifier PATO:0000460  ! abnormal
+intersection_of: towards GO:0005143  ! interleukin-12 receptor binding
+
+[Term]
+id: MP:0008617  ! increased circulating interleukin-12 level
+intersection_of: PATO:0001162  ! increased concentration
+intersection_of: inheres_in MA:0000059  ! blood
+intersection_of: towards GO:0005143  ! interleukin-12 receptor binding
+
+[Term]
+id: MP:0008618  ! decreased circulating interleukin-12 level
+intersection_of: PATO:0001163  ! decreased concentration
+intersection_of: inheres_in MA:0000059  ! blood
+intersection_of: towards GO:0005143  ! interleukin-12 receptor binding
+
+[Term]
+id: MP:0008619  ! abnormal circulating interleukin-23 level
+intersection_of: PATO:0000033  ! concentration of
+intersection_of: inheres_in MA:0000059  ! blood
+intersection_of: qualifier PATO:0000460  ! abnormal
+intersection_of: towards GO:0045519  ! interleukin-23 receptor binding
+
+[Term]
+id: MP:0008620  ! increased circulating interleukin-23 level
+intersection_of: PATO:0001162  ! increased concentration
+intersection_of: inheres_in MA:0000059  ! blood
+intersection_of: towards GO:0045519  ! interleukin-23 receptor binding
+
+[Term]
+id: MP:0008621  ! decreased circulating interleukin-23 level
+intersection_of: PATO:0001163  ! decreased concentration
+intersection_of: inheres_in MA:0000059  ! blood
+intersection_of: towards GO:0045519  ! interleukin-23 receptor binding
+
+[Term]
+id: MP:0008861  ! abnormal hair shedding
+intersection_of: PATO:0000001  ! quality
+intersection_of: inheres_in_part_of GO:0042638  ! exogen
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0008954  ! abnormal cellular hemoglobin content
+intersection_of: PATO:0000460  ! abnormal
+intersection_of: inheres_in CHEBI:29429  ! methylidyne group
+
+[Term]
+id: MP:0008960  ! abnormal axon pruning
+intersection_of: PATO:0000001  ! quality
+intersection_of: inheres_in_part_of GO:0016322  ! neuron remodeling
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0009365  ! abnormal theca folliculi
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0000155  ! theca cell layer
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0009368  ! absent theca folliculi
+intersection_of: PATO:0002000  ! lacks all parts of type
+intersection_of: towards UBERON:0000155  ! theca cell layer
+
+[Term]
+id: MP:0009374  ! absent cumulus expansion
+intersection_of: PATO:0002000  ! lacks all parts of type
+intersection_of: towards GO:0001550  ! ovarian cumulus expansion
+
+[Term]
+id: MP:0009615  ! abnormal zinc homeostasis
+intersection_of: PATO:0000001  ! quality
+intersection_of: inheres_in_part_of GO:0006882  ! cellular zinc ion homeostasis
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0009772  ! abnormal retinal development
+intersection_of: PATO:0000001  ! quality
+intersection_of: inheres_in_part_of GO:0060041  ! retina development in camera-type eye
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010103  ! small thoracic cage
+intersection_of: PATO:0000587  ! decreased size
+intersection_of: inheres_in UBERON:0003252  ! rib cage
+
+[Term]
+id: MP:0010104  ! enlarged thoracic cage
+intersection_of: PATO:0000586  ! increased size
+intersection_of: inheres_in UBERON:0003252  ! rib cage
+
+[Term]
+id: MP:0010179  ! rough coat
+intersection_of: PATO:0000700  ! rough
+intersection_of: inheres_in UBERON:0010166  ! coat of hair
+
+[Term]
+id: MP:0010205  ! abnormal oligodendrocyte apoptosis
+intersection_of: PATO:0000001  ! quality
+intersection_of: inheres_in_part_of GO:0097252  ! oligodendrocyte apoptotic process
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010432  ! common ventricle
+intersection_of: PATO:0002000  ! lacks all parts of type
+intersection_of: towards UBERON:0002094  ! interventricular septum
+
+[Term]
+id: MP:0010687  ! absent hair follicle dermal papilla
+intersection_of: PATO:0002000  ! lacks all parts of type
+intersection_of: towards UBERON:0000412  ! dermal papilla
+
+[Term]
+id: MP:0010724  ! thick interventricular septum
+intersection_of: PATO:0000591  ! increased thickness
+intersection_of: inheres_in UBERON:0002094  ! interventricular septum
+
+[Term]
+id: MP:0010725  ! thin interventricular septum
+intersection_of: PATO:0000592  ! decreased thickness
+intersection_of: inheres_in UBERON:0002094  ! interventricular septum
+
+[Term]
+id: MP:0010769  ! abnormal survival
+intersection_of: PATO:0000460  ! abnormal
+intersection_of: inheres_in PATO:0000050  ! life span
+
+[Term]
+id: MP:0010827  ! small lung saccule
+intersection_of: PATO:0000587  ! decreased size
+intersection_of: inheres_in UBERON:0000116  ! lung saccule
+
+[Term]
+id: MP:0010867  ! abnormal bone trabecula morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0008867  ! trabecular network of bone
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010870  ! absent bone trabeculae
+intersection_of: PATO:0002000  ! lacks all parts of type
+intersection_of: towards UBERON:0008867  ! trabecular network of bone
+
+[Term]
+id: MP:0010880  ! small esophagus
+intersection_of: PATO:0000587  ! decreased size
+intersection_of: inheres_in MA:0000352  ! esophagus
+
+[Term]
+id: MP:0010884  ! esophagus stenosis
+intersection_of: PATO:0000599  ! decreased width
+intersection_of: inheres_in MA:0000352  ! esophagus
+
+[Term]
+id: MP:0010942  ! abnormal respiratory epithelium morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0004802  ! respiratory tract epithelium
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010944  ! respiratory epithelium hypertrophy
+intersection_of: PATO:0000584  ! hypertrophic
+intersection_of: inheres_in UBERON:0004802  ! respiratory tract epithelium
+
+[Term]
+id: MP:0010976  ! small lung lobe
+intersection_of: PATO:0000587  ! decreased size
+intersection_of: inheres_in UBERON:0000101  ! lobe of lung
+
+[Term]
+id: MP:0011008  ! abnormal circulating glutamate dehydrogenase level
+intersection_of: PATO:0000033  ! concentration of
+intersection_of: inheres_in MA:0000059  ! blood
+intersection_of: qualifier PATO:0000460  ! abnormal
+intersection_of: towards GO:0004352  ! glutamate dehydrogenase (NAD+) activity
+
+[Term]
+id: MP:0011009  ! increased circulating glutamate dehydrogenase level
+intersection_of: PATO:0001162  ! increased concentration
+intersection_of: inheres_in MA:0000059  ! blood
+intersection_of: towards GO:0004352  ! glutamate dehydrogenase (NAD+) activity
+
+[Term]
+id: MP:0011010  ! decreased circulating glutamate dehydrogenase level
+intersection_of: PATO:0001163  ! decreased concentration
+intersection_of: inheres_in MA:0000059  ! blood
+intersection_of: towards GO:0004352  ! glutamate dehydrogenase (NAD+) activity
+
+[Term]
+id: MP:0011026  ! impaired branching involved in trachea morphogenesis
+intersection_of: PATO:0001507  ! disrupted
+intersection_of: inheres_in GO:0001763  ! morphogenesis of a branching structure
+intersection_of: inheres_in_part_of GO:0060439  ! trachea morphogenesis
+
+[Term]
+id: MP:0011028  ! impaired branching involved in bronchus morphogenesis
+intersection_of: PATO:0001507  ! disrupted
+intersection_of: inheres_in GO:0001763  ! morphogenesis of a branching structure
+intersection_of: inheres_in_part_of GO:0060434  ! bronchus morphogenesis
+
+[Term]
+id: MP:0011144  ! thin lung-associated mesenchyme
+intersection_of: PATO:0001997  ! present in fewer numbers in organism
+intersection_of: inheres_in UBERON:0004883  ! lung mesenchyme
+
+[Term]
+id: MP:0011153  ! thick hippocampus stratum oriens
+intersection_of: PATO:0000591  ! increased thickness
+intersection_of: inheres_in MA:0000958  ! hippocampus stratum oriens
+
+[Term]
+id: MP:0011154  ! thick hippocampus stratum radiatum
+intersection_of: PATO:0000591  ! increased thickness
+intersection_of: inheres_in MA:0000959  ! hippocampus stratum radiatum
+
+[Term]
+id: MP:0011208  ! small proamniotic cavity
+intersection_of: PATO:0000587  ! decreased size
+intersection_of: inheres_in UBERON:0009742  ! proamniotic cavity
+
+[Term]
+id: MP:0011279  ! decreased ear pigmentation
+intersection_of: PATO:0002251 ! decreased pigmentation
+intersection_of: inheres_in MA:0000236  ! ear
+
+[Term]
+id: MP:0011300  ! abnormal juxtaglomerular cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0000648  ! kidney granular cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011357  ! supernumerary renal arteries
+intersection_of: PATO:0000470  ! present in greater numbers in organism
+intersection_of: inheres_in UBERON:0001184  ! renal artery
+
+[Term]
+id: MP:0011458  ! abnormal urine chloride ion level
+intersection_of: PATO:0000033  ! concentration of
+intersection_of: inheres_in MA:0002545  ! urine
+intersection_of: qualifier PATO:0000460  ! abnormal
+intersection_of: towards CHEBI:17996  ! chloride
+
+[Term]
+id: MP:0011459  ! increased urine chloride ion level
+intersection_of: PATO:0001162  ! increased concentration
+intersection_of: inheres_in MA:0002545  ! urine
+intersection_of: towards CHEBI:17996  ! chloride
+
+[Term]
+id: MP:0011460  ! decreased urine chloride ion level
+intersection_of: PATO:0001163  ! decreased concentration
+intersection_of: inheres_in MA:0002545  ! urine
+intersection_of: towards CHEBI:17996  ! chloride
+
+[Term]
+id: MP:0011461  ! abnormal urine bicarbonate level
+intersection_of: PATO:0000033  ! concentration of
+intersection_of: inheres_in MA:0002545  ! urine
+intersection_of: qualifier PATO:0000460  ! abnormal
+intersection_of: towards CHEBI:17544  ! hydrogencarbonate
+
+[Term]
+id: MP:0011462  ! increased urine bicarbonate level
+intersection_of: PATO:0001162  ! increased concentration
+intersection_of: inheres_in MA:0002545  ! urine
+intersection_of: towards CHEBI:17544  ! hydrogencarbonate
+
+[Term]
+id: MP:0011463  ! decreased urine bicarbonate level
+intersection_of: PATO:0001163  ! decreased concentration
+intersection_of: inheres_in MA:0002545  ! urine
+intersection_of: towards CHEBI:17544  ! hydrogencarbonate
+
+[Term]
+id: MP:0011523  ! thin placenta labyrinth
+intersection_of: PATO:0000592  ! decreased thickness
+intersection_of: inheres_in UBERON:0003946  ! placenta labyrinth
+
+[Term]
+id: MP:0011524  ! thick placenta labyrinth
+intersection_of: PATO:0000591  ! increased thickness
+intersection_of: inheres_in UBERON:0003946  ! placenta labyrinth
+
+[Term]
+id: MP:0011530  ! fused radius and ulna
+intersection_of: PATO:0000642  ! fused with
+intersection_of: inheres_in  UBERON:0001423 ! radius bone
+intersection_of: towards UBERON:0001424 ! ulna
+
+[Term]
+id: MP:0011581  ! increased triglyceride lipase activity
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0004806  ! triglyceride lipase activity
+
+[Term]
+id: MP:0011582  ! decreased triglyceride lipase activity
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0004806  ! triglyceride lipase activity
 
 
 
