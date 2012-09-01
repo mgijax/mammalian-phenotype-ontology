@@ -40052,6 +40052,30 @@ id: MP:0011718  ! decreased interleukin-8 secretion
 intersection_of: PATO:0000911  ! decreased rate
 intersection_of: inheres_in GO:0072606  ! interleukin-8 secretion
 
+[Term]
+id: MP:0010765  ! impaired granulocyte chemotaxis
+intersection_of: PATO:0001507  ! disrupted
+intersection_of: inheres_in GO:0071621  ! granulocyte chemotaxis
+
+[Term]
+id: MP:0011011  ! impaired lung lobe morphogenesis
+intersection_of: PATO:0001507  ! disrupted
+intersection_of: inheres_in GO:0060463  ! lung lobe morphogenesis
+
+[Term]
+id: MP:0011480  ! impaired ureteric peristalsis
+intersection_of: PATO:0001507  ! disrupted
+intersection_of: inheres_in GO:0072105  ! ureteric peristalsis
+
+[Term]
+id: MP:0011701  ! decreased cumulus expansion
+intersection_of: PATO:0001507  ! disrupted
+intersection_of: inheres_in GO:0001550  ! ovarian cumulus expansion
+
+[Term]
+id: MP:0011707  ! impaired fibroblast cell migration
+intersection_of: PATO:0001507  ! disrupted
+intersection_of: inheres_in GO:0010761  ! fibroblast migration
 
 
 
