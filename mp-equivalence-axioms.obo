@@ -27744,6 +27744,11 @@ intersection_of: PATO:0000623 ! exserted
 intersection_of: inheres_in MA:0000389 ! uterus
 
 [Term]
+id: MP:0000500 ! small intestinal prolapse
+intersection_of: PATO:0000623 ! exserted
+intersection_of: inheres_in MA:0000337 ! small intestine
+
+[Term]
 id: MP:0006118 ! aortic valve prolapse
 intersection_of: PATO:0000623 ! exserted
 intersection_of: inheres_in MA:0000087 ! aortic valve
@@ -40435,6 +40440,11 @@ id: MP:0011398  ! abnormal endoneurial fluid pressure
 intersection_of: PATO:0001025 ! pressure
 intersection_of: inheres_in UBERON:0011893 ! endoneurial fluid
 intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0000571 ! interdigital webbing
+intersection_of: PATO:0002002 ! has extra parts of type
+intersection_of: inheres_in UBERON:0006015 ! webbed interdigital region
 
 !!! Obol results, using related, broad and narrow syns: 2012-09-31
 
