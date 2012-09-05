@@ -34352,7 +34352,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 [Term]
 id: MP:0010650 ! abnormal aorticopulmonary septum morphology
 intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in UBERON:0005999 ! aorticopulmonary septum
+intersection_of: inheres_in UBERON:0006207 ! aorticopulmonary septum
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -34591,7 +34591,7 @@ intersection_of: towards UBERON:0003117 ! pharyngeal arch 6
 [Term]
 id: MP:0010652 ! absent aorticopulmonary septum
 intersection_of: PATO:0002000 ! lacks all parts of type
-intersection_of: towards UBERON:0005999 ! aorticopulmonary septum
+intersection_of: towards UBERON:0006207 ! aorticopulmonary septum
 
 [Term]
 id: MP:0010655 ! absent cardiac jelly
@@ -40841,6 +40841,86 @@ id: MP:0011582  ! decreased triglyceride lipase activity
 intersection_of: PATO:0000911  ! decreased rate
 intersection_of: inheres_in GO:0004806  ! triglyceride lipase activity
 
+!!!
+
+[Term]
+id: MP:0004099  ! abnormal cerebellar glomerulus morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0011915  ! cerebellar glomerulus
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0004598  ! abnormal cochlear basement membrane morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0011922  ! cochlear basement membrane
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+
+[Term]
+id: MP:0006250  ! abnormal line of Schwalbe morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0011918  ! line of Schwalbe
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+
+[Term]
+id: MP:0010558  ! sinus venosus hypoplasia
+intersection_of: PATO:0000645  ! hypoplastic
+intersection_of: inheres_in UBERON:0002063  ! sinus venosus
+
+
+[Term]
+id: MP:0010587  ! conotruncal ridge hypoplasia
+intersection_of: PATO:0000645  ! hypoplastic
+intersection_of: inheres_in UBERON:0005967  ! conotruncal ridge
+
+[Term]
+id: MP:0010588  ! conotruncal ridge hyperplasia
+intersection_of: PATO:0000644  ! hyperplastic
+intersection_of: inheres_in UBERON:0005967  ! conotruncal ridge
+
+[Term]
+id: MP:0010788  ! stomach hypoplasia
+intersection_of: PATO:0000645  ! hypoplastic
+intersection_of: inheres_in MA:0000353  ! stomach
+
+[Term]
+id: MP:0010799  ! stomach mucosa hyperplasia
+intersection_of: PATO:0000644  ! hyperplastic
+intersection_of: inheres_in MA:0002683  ! stomach mucosa
+
+
+[Term]
+id: MP:0011131  ! abnormal lung endothelial cell physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in CL:1001567  ! lung endothelial cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011204  ! abnormal visceral yolk sac blood island morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0011919  ! yolk sac blood island
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011225  ! lymph node medullary cord hyperplasia
+intersection_of: PATO:0000644  ! hyperplastic
+intersection_of: inheres_in UBERON:0009745  ! lymph node medullary cord
+
+[Term]
+id: MP:0011399  ! increased endoneurial fluid pressure
+intersection_of: PATO:0001576  ! increased pressure
+intersection_of: inheres_in UBERON:0011893  ! endoneurial fluid
+
+[Term]
+id: MP:0011427  ! mesangial cell hyperplasia
+intersection_of: PATO:0000644  ! hyperplastic
+intersection_of: inheres_in CL:0000650  ! mesangial cell
+
+[Term]
+id: MP:0011428  ! mesangial cell hypoplasia
+intersection_of: PATO:0000645  ! hypoplastic
+intersection_of: inheres_in CL:0000650  ! mesangial cell
 
 
 !!!! GO cross products
