@@ -40982,7 +40982,7 @@ def: "the digits are abnormally long and slender"
 [Term]
 id: MP:0008829 ! triphalangia
 intersection_of: PATO:0002002 ! has extra parts of type
-intersection_of: inheres_in UBERON:0006048 ! digit 1
+intersection_of: inheres_in MA:00003023 ! limb digit 1
 intersection_of: towards MA:0000304 ! phalanx
 !definition: “anomaly in which three phalanges are present in the thumb or great toe”
 
