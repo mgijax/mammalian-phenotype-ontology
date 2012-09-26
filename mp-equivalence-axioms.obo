@@ -2041,6 +2041,21 @@ id: MP:0009896 ! palatine shelf hypoplasia
 intersection_of: PATO:0000645 ! hypoplastic
 intersection_of: inheres_in FMA:52901 ! Horizontal plate of palatine bone
 
+!! TODO: request GO term
+[Term]
+id: MP:0009874 ! abnormal interdigital cell death
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in GO:0006915 ! apoptotic process
+intersection_of: has_central_participant UBERON:0006012 ! interdigital region
+
+!! TODO: request GO term
+[Term]
+id: MP:0009875 ! absent interdigital cell death
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: inheres_in GO:0006915 ! apoptotic process
+intersection_of: has_central_participant UBERON:0006012 ! interdigital region
+
 [Term]
 id: MP:0008382 ! gonial bone hypoplasia
 intersection_of: PATO:0000645 ! hypoplastic
@@ -2571,6 +2586,11 @@ intersection_of: PATO:0000592 ! decreased thickness
 intersection_of: inheres_in MA:0001693 ! urinary bladder urothelium
 
 [Term]
+id: MP:0008736 ! micromelia
+intersection_of: PATO:0000587 ! decreased size
+intersection_of: inheres_in MA:0000007 ! limb
+
+[Term]
 id: MP:0000547 ! short limbs
 intersection_of: PATO:0000574 ! decreased length
 intersection_of: inheres_in MA:0000007 ! limb
@@ -2680,6 +2700,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 [Term]
 id: MP:0000561 ! adactyly
 intersection_of: PATO:0002000 ! lacks all parts of type
+intersection_of: inheres_in MA:0000007 ! limb 
 intersection_of: towards MA:0000690 ! limb digit
 
 [Term]
@@ -2697,6 +2718,7 @@ intersection_of: towards MA:0000690 ! limb digit
 [Term]
 id: MP:0000565 ! oligodactyly
 intersection_of: PATO:0002001 ! has fewer parts of type
+intersection_of: inheres_in MA:0000007 ! limb 
 intersection_of: towards MA:0000690 ! limb digit
 
 [Term]
@@ -2707,9 +2729,10 @@ intersection_of: towards MA:0001459 ! bone
 
 [Term]
 id: MP:0000567 ! truncation of digits
-intersection_of: PATO:0002000 ! lacks all parts of type
-intersection_of: inheres_in MA:0000044 ! foot
-intersection_of: towards MA:0001387 ! foot proximal phalanx
+intersection_of: PATO:0002011 ! has fewer part of type
+intersection_of: inheres_in MA:0000690 ! limb digit
+intersection_of: towards MA:0002914 ! distal phalanx
+! TH suggested: MA:0000304 ! phalanx
 
 [Term]
 id: MP:0000568 ! ectopic digits
@@ -2743,14 +2766,12 @@ intersection_of: inheres_in UBERON:0003966 ! gonial bone
 id: MP:0000574 ! abnormal foot pad morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in_part_of MA:0000044 ! foot
-intersection_of: inheres_in MA:0002481 ! fat pad
+intersection_of: inheres_in MA:0003010 ! footpad
 
 [Term]
 id: MP:0000575 ! dark foot pads
-intersection_of: PATO:0000327 ! low brightness
-intersection_of: inheres_in_part_of MA:0000044 ! foot
-intersection_of: inheres_in MA:0002481 ! fat pad
+intersection_of: PATO:0002250 ! increased pigmentation
+intersection_of: inheres_in MA:0003010 ! footpad
 
 [Term]
 id: MP:0000576 ! clubfoot
@@ -12969,8 +12990,13 @@ intersection_of: inheres_in GO:0001504 ! neurotransmitter uptake
 [Term]
 id: MP:0003445 ! sirenomelia
 intersection_of: PATO:0000642 ! fused with
-intersection_of: inheres_in MA:0000025 ! forelimb
-intersection_of: towards MA:0002714 ! autopod
+intersection_of: inheres_in MA:0000026 ! hindlimb
+intersection_of: towards MA:0000026 ! hindlimb
+
+[Term]
+id: MP0011505 ! camptomelia
+intersection_of: PATO:0000617 ! bent
+intersection_of: inheres_in MA:0000298 ! limb long bone
 
 [Term]
 id: MP:0003446 ! renal hypoplasia
@@ -18310,11 +18336,6 @@ intersection_of: PATO:0002000 ! lacks all parts of type
 intersection_of: towards MA:0001374 ! patella
 
 [Term]
-id: MP:0008736 ! micromelia
-intersection_of: PATO:0000587 ! decreased size
-intersection_of: inheres_in MA:0000007 ! limb
-
-[Term]
 id: MP:0004695 ! increased length of long bones
 intersection_of: PATO:0000573 ! increased length
 intersection_of: inheres_in MA:0002802 ! long bone
@@ -19027,6 +19048,7 @@ intersection_of: inheres_in MA:0002806 ! scapula spine
 [Term]
 id: MP:0004354 ! absent deltoid tuberosity
 intersection_of: PATO:0002000 ! lacks all parts of type
+intersection_of: inheres_in MA:0001356 ! humerus 
 intersection_of: towards MA:0002808 ! deltoid tuberosity
 
 [Term]
@@ -20446,7 +20468,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 id: MP:0005104 ! abnormal tarsal bone morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000050 ! tarsus
+intersection_of: inheres_in MA:0000297 ! tarsal bone
 
 [Term]
 id: MP:0005105 ! abnormal middle ear ossicle morphology
@@ -24149,14 +24171,13 @@ intersection_of: towards MPATH:90 ! aneurysm
 id: MP:0006279 ! abnormal limb development
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0048513 ! organ development
-intersection_of: has_central_participant MA:0000007 ! limb
+intersection_of: inheres_in GO:0060173 ! limb development
 
 [Term]
 id: MP:0006280 ! abnormal digit development
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0048513 ! organ development
+intersection_of: inheres_in GO:0060173 ! limb development
 intersection_of: has_central_participant MA:0000690 ! limb digit
 
 [Term]
@@ -27238,6 +27259,7 @@ intersection_of: inheres_in MA:0000296 ! carpal bone
 id: MP:0008919 ! fused tarsal bones
 intersection_of: PATO:0000642 ! fused with
 intersection_of: inheres_in MA:0000297 ! tarsal bone
+intersection_of: towards MA:0000297 ! tarsal bone
 
 [Term]
 id: MP:0001334 ! absent optic tract
@@ -30320,6 +30342,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 [Term]
 id: MP:0009729 ! absent tarsus bones
 intersection_of: PATO:0002000 ! lacks all parts of type
+intersection_of: inheres_in MA:0000044 ! foot 
 intersection_of: towards MA:0000297 ! tarsal bone
 
 [Term]
@@ -32660,10 +32683,12 @@ id: MP:0001676 ! abnormal apical ectodermal ridge morphology
 intersection_of: PATO:0000001 ! quality
 intersection_of: inheres_in_part_of UBERON:0004356 ! apical ectodermal ridge
 intersection_of: qualifier PATO:0000460 ! abnormal
+! TH suggested EMAPA:32744 ! apical ectodermal ridge, but this is not in the version we have. xref added to Uberon
 
 [Term]
 id: MP:0001677 ! absent apical ectodermal ridge
 intersection_of: PATO:0002000 ! lacks all parts of type
+intersection_of: inheres_in UBERON:0004347 ! limb bud
 intersection_of: towards UBERON:0004356 ! apical ectodermal ridge
 
 [Term]
@@ -36884,8 +36909,8 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 [Term]
 id: MP:0008730 ! fused phalanges
 intersection_of: PATO:0000642 ! fused with
-intersection_of: inheres_in UBERON:0003221 ! phalanx
-intersection_of: towards UBERON:0003221 ! phalanx
+intersection_of: inheres_in MA:0000304 ! phalanx
+intersection_of: towards MA:0000304 ! phalanx
 
 ![Term]
 !id: MP:0008798  ! lateral facial cleft
@@ -40444,7 +40469,9 @@ intersection_of: qualifier PATO:0000460  ! abnormal
 [Term]
 id: MP:0000571 ! interdigital webbing
 intersection_of: PATO:0002002 ! has extra parts of type
-intersection_of: inheres_in UBERON:0006015 ! webbed interdigital region
+intersection_of: inheres_in MA:0003012 ! interdigital region
+intersection_of: towards MA:0000694 ! limb skin
+!! See also UBERON:0006015 ! webbed interdigital region
 
 !!! Obol results, using related, broad and narrow syns: 2012-09-31
 
@@ -40828,8 +40855,8 @@ intersection_of: inheres_in UBERON:0003946  ! placenta labyrinth
 [Term]
 id: MP:0011530  ! fused radius and ulna
 intersection_of: PATO:0000642  ! fused with
-intersection_of: inheres_in  UBERON:0001423 ! radius bone
-intersection_of: towards UBERON:0001424 ! ulna
+intersection_of: inheres_in MA:0001357 ! radius
+intersection_of: towards MA:0001358 ! ulna
 
 [Term]
 id: MP:0011581  ! increased triglyceride lipase activity
@@ -40921,6 +40948,70 @@ intersection_of: inheres_in CL:0000650  ! mesangial cell
 id: MP:0011428  ! mesangial cell hypoplasia
 intersection_of: PATO:0000645  ! hypoplastic
 intersection_of: inheres_in CL:0000650  ! mesangial cell
+
+!!! new from TH
+!!! logical definitions that match existing terms are commented out
+
+![Term]
+!id: MP:0003800 ! monodactyly
+!intersection_of: PATO:0002001 ! has fewer parts of type 
+!intersection_of: inheres_in MA:0000007 ! limb 
+!intersection_of: towards MA:0000690 ! limb digit
+!def: "having only one toe or digit on each extremity"
+
+![Term]
+!id: MP:0004083 ! polysyndactyly
+!intersection_of: PATO:0002002 ! has extra parts of type
+!intersection_of: inheres_in MA:0000007 ! limb
+!intersection_of: towards MA:0000690 ! limb digit
+!def: "greater than the normal complement of digits present on an autopod with interdigital webbing also"
+
+![Term]
+!id: MP:0005230! ectrodactyly
+!intersection_of: PATO:0002001 ! has fewer parts of type
+!intersection_of: inheres_in MA:0000007 ! limb
+!intersection_of: towards MA:0000690 ! limb digit
+!def: "absence of the middle rays, i.e., the central digits; usually associated with cleft hands/feet and may also include syndactyly or aplasia of remaining digits" [OMIM:119100]
+
+[Term]
+id: MP:0006296 ! arachnodactyly
+intersection_of: PATO:0000573 ! increased length
+intersection_of: inheres_in MA:0000690 ! limb digit
+def: "the digits are abnormally long and slender"
+
+[Term]
+id: MP:0008829 ! triphalangia
+intersection_of: PATO:0002002 ! has extra parts of type
+intersection_of: inheres_in UBERON:0006048 ! digit 1
+intersection_of: towards MA:0000304 ! phalanx
+!definition: “anomaly in which three phalanges are present in the thumb or great toe”
+
+[Term]
+id: MP:0008909 ! supination
+intersection_of: PATO:0001658 ! dorsally rotated
+intersection_of: inheres_in MA:0002714 ! autopod
+!def: "rotation of the pedal or prehensile extremity so the forefoot (hand) faces anteriorly to the anatomic position; rotation of the hindfoot (foot) such that the plantar surface turns upward"
+
+[Term]
+id: MP:0008985 ! hemimelia
+intersection_of: PATO:0002001 ! has fewer parts of type
+intersection_of: inheres_in MA:0000007 ! limb
+intersection_of: towards MA:0000298 ! limb long bone
+!def: "congenital absence of part of an extremity, such as absent fibula with the tibia present"
+
+![Term]
+!id: MP:0009743 ! preaxial polydactyly
+!intersection_of: PATO:0002002 ! has extra parts of type
+!intersection_of: inheres_in MA:0000007 ! limb
+!intersection_of: towards MA:0000690 ! limb digit
+!def: "duplication of all or part of the first ray on one or more of the autopods"
+
+![Term]
+!id: MP:0009744 ! postaxial polydactyly
+!intersection_of: PATO:0002002 ! has extra parts of type
+!intersection_of: inheres_in MA:0000007 ! limb
+!intersection_of: towards MA:0000690 ! limb digit
+!def: "duplication of all or part of any of the rays except the first ray on one or more of the autopods"
 
 
 !!!! GO cross products
