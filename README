@@ -1,1 +1,7 @@
-Mammalian Phenotype
+Mammalian Phenotype Equivalence Axioms
+
+Editor notes:
+
+ * Edit the file "mp-equivalence-axions.obo" in a text editor (use obo-mode.el if you use emacs)
+ * Follow http://obofoundry.org/wiki/index.php/PATO:XP_Best_Practice
+ * Check Jenkins after commit
