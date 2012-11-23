@@ -2566,7 +2566,7 @@ intersection_of: inheres_in MA:0000380 ! urinary bladder
 id: MP:0000540 ! abnormal urinary bladder urothelium morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0001692 ! urinary bladder mucosa
+intersection_of: inheres_in UBERON:0004645 ! urinary bladder urothelium
 
 [Term]
 id: MP:0000541 ! abnormal urinary bladder transitional epithelium morphology
@@ -41012,6 +41012,350 @@ intersection_of: towards MA:0000298 ! limb long bone
 !intersection_of: inheres_in MA:0000007 ! limb
 !intersection_of: towards MA:0000690 ! limb digit
 !def: "duplication of all or part of any of the rays except the first ray on one or more of the autopods"
+
+[Term]
+id: MP:0000119  ! abnormal tooth eruption
+intersection_of: PATO:0000001  ! quality
+intersection_of: inheres_in_part_of GO:0044691  ! tooth eruption
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0003053  ! delayed tooth eruption
+intersection_of: PATO:0000502  ! delayed
+intersection_of: inheres_in GO:0044691  ! tooth eruption
+
+[Term]
+id: MP:0009197  ! abnormal pancreatic polypeptide secretion
+intersection_of: PATO:0000001  ! quality
+intersection_of: inheres_in_part_of GO:0036322  ! pancreatic polypeptide secretion
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0009892  ! palate bone hypoplasia
+intersection_of: PATO:0000645  ! hypoplastic
+intersection_of: inheres_in UBERON:0012071  ! palate bone
+
+[Term]
+id: MP:0010188  ! abnormal T follicular helper cell differentiation
+intersection_of: PATO:0000001  ! quality
+intersection_of: inheres_in_part_of GO:0061470  ! T follicular helper cell differentiation
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0010485  ! aortic arch hypoplasia
+intersection_of: PATO:0000645  ! hypoplastic
+intersection_of: inheres_in UBERON:0004363  ! aortic arch
+
+[Term]
+id: MP:0010593  ! thick aortic valve cusps
+intersection_of: PATO:0000591  ! increased thickness
+intersection_of: inheres_in UBERON:0011742  ! aortic valve leaflet
+
+[Term]
+id: MP:0010617  ! thick mitral valve cusps
+intersection_of: PATO:0000591  ! increased thickness
+intersection_of: inheres_in UBERON:0007151  ! leaflets of mitral valve
+
+[Term]
+id: MP:0010626  ! thick tricuspid valve cusps
+intersection_of: PATO:0000591  ! increased thickness
+intersection_of: inheres_in UBERON:0005484  ! tricuspid valve leaflet
+
+[Term]
+id: MP:0010741  ! abnormal melanocyte proliferation
+intersection_of: PATO:0000001  ! quality
+intersection_of: inheres_in_part_of GO:0097325  ! melanocyte proliferation
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011294  ! renal glomerulus hypertrophy
+intersection_of: PATO:0000584  ! hypertrophic
+intersection_of: inheres_in UBERON:0000074  ! renal glomerulus
+
+[Term]
+id: MP:0011493  ! double ureter
+intersection_of: PATO:0001473  ! duplicated
+intersection_of: inheres_in MA:0000378  ! ureter
+
+[Term]
+id: MP:0011619  ! abnormal dishabituation
+intersection_of: PATO:0000001  ! quality
+intersection_of: inheres_in_part_of GO:0097270  ! dishabituation
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011723  ! ectopic neuron
+intersection_of: PATO:0000628  ! mislocalised
+intersection_of: inheres_in CL:0000540  ! neuron
+
+[Term]
+id: MP:0011724  ! ectopic cortical neuron
+intersection_of: PATO:0000628  ! mislocalised
+intersection_of: inheres_in CL:0002609  ! neuron of cerebral cortex
+
+[Term]
+id: MP:0011727  ! ectopic ovary
+intersection_of: PATO:0000628  ! mislocalised
+intersection_of: inheres_in MA:0000384  ! ovary
+
+[Term]
+id: MP:0011728  ! abnormal pineal gland physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in MA:0000175  ! pineal gland
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011730  ! increased myelin sheath thickness
+intersection_of: PATO:0000591  ! increased thickness
+intersection_of: inheres_in GO:0043209  ! myelin sheath
+
+[Term]
+id: MP:0011731  ! decreased myelin sheath thickness
+intersection_of: PATO:0000592  ! decreased thickness
+intersection_of: inheres_in GO:0043209  ! myelin sheath
+
+[Term]
+id: MP:0011732  ! decreased somite size
+intersection_of: PATO:0000587  ! decreased size
+intersection_of: inheres_in UBERON:0002329  ! somite
+
+[Term]
+id: MP:0011734  ! abnormal urine ammonium level
+intersection_of: PATO:0000033  ! concentration of
+intersection_of: inheres_in MA:0002545  ! urine
+intersection_of: qualifier PATO:0000460  ! abnormal
+intersection_of: towards CHEBI:28938  ! ammonium
+
+[Term]
+id: MP:0011735  ! increased urine ammonium level
+intersection_of: PATO:0001162  ! increased concentration
+intersection_of: inheres_in MA:0002545  ! urine
+intersection_of: towards CHEBI:28938  ! ammonium
+
+[Term]
+id: MP:0011736  ! decreased urine ammonium level
+intersection_of: PATO:0001163  ! decreased concentration
+intersection_of: inheres_in MA:0002545  ! urine
+intersection_of: towards CHEBI:28938  ! ammonium
+
+[Term]
+id: MP:0011739  ! abnormal Boettcher cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0002084  ! Boettcher cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011740  ! abnormal urine nitrite level
+intersection_of: PATO:0000033  ! concentration of
+intersection_of: inheres_in MA:0002545  ! urine
+intersection_of: qualifier PATO:0000460  ! abnormal
+intersection_of: towards CHEBI:16301  ! nitrite
+
+[Term]
+id: MP:0011741  ! increased urine nitrite level
+intersection_of: PATO:0001162  ! increased concentration
+intersection_of: inheres_in MA:0002545  ! urine
+intersection_of: towards CHEBI:16301  ! nitrite
+
+[Term]
+id: MP:0011742  ! decreased urine nitrite level
+intersection_of: PATO:0001163  ! decreased concentration
+intersection_of: inheres_in MA:0002545  ! urine
+intersection_of: towards CHEBI:16301  ! nitrite
+
+[Term]
+id: MP:0011743  ! abnormal Golgi apparatus morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in GO:0005794  ! Golgi apparatus
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011750  ! abnormal seminiferous tubule epithelium morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0004813  ! seminiferous tubule epithelium
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011753  ! decreased podocyte number
+intersection_of: PATO:0002001  ! has fewer parts of type
+intersection_of: towards CL:0000653  ! glomerular visceral epithelial cell
+
+[Term]
+id: MP:0011754  ! abnormal kidney collecting duct intercalated cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:1001432  ! kidney collecting duct intercalated cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011757  ! abnormal kidney collecting duct principal cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:1001431  ! kidney collecting duct principal cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011759  ! absent Rathke's pouch
+intersection_of: PATO:0002000  ! lacks all parts of type
+intersection_of: towards UBERON:0005356  ! Rathke's pouch
+
+[Term]
+id: MP:0011760  ! abnormal ureteric bud tip morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0006364  ! ureteric bud tip
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011761  ! abnormal ureteric bud trunk morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0012238  ! ureteric bud trunk
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011765  ! oroticaciduria
+intersection_of: PATO:0001162  ! increased concentration
+intersection_of: inheres_in MA:0002545  ! urine
+intersection_of: towards CHEBI:16742  ! orotic acid
+
+[Term]
+id: MP:0011766  ! abnormal urinary bladder mucosa morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0001692  ! urinary bladder mucosa
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011768  ! abnormal urinary bladder trigone morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0002492  ! urinary bladder trigone
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011770  ! increased urine selenium level
+intersection_of: PATO:0001162  ! increased concentration
+intersection_of: inheres_in MA:0002545  ! urine
+intersection_of: towards CHEBI:27568  ! selenium atom
+
+[Term]
+id: MP:0011773  ! abnormal urinary bladder blood vessel morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0012239  ! urinary bladder vasculature
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011774  ! abnormal urinary bladder detrusor smooth muscle morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0000381  ! urinary bladder detrusor smooth muscle
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011775  ! rectal atresia
+intersection_of: PATO:0001821  ! imperforate
+intersection_of: inheres_in MA:0000336  ! rectum
+
+
+[Term]
+id: MP:0011776  ! abnormal male urethra morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0002640  ! male urethra
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011778  ! abnormal male membranous urethra morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0002641  ! male membranous urethra
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011779  ! abnormal male spongy urethra morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0001337  ! spongiose part of urethra
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011780  ! abnormal female urethra morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0002637  ! female urethra
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011781  ! abnormal bulbourethral gland physiology
+intersection_of: PATO:0001509  ! functionality
+intersection_of: inheres_in UBERON:0002366  ! bulbo-urethral gland
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011782  ! abnormal internal urethral orifice morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0012242  ! internal urethral orifice
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011783  ! abnormal ureteral orifice morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0012240  ! urethral meatus
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011784  ! abnormal urinary bladder neck morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0001258  ! neck of urinary bladder
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011785  ! abnormal urinary bladder fundus morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0006082  ! fundus of urinary bladder
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011787  ! abnormal Bartholin's gland morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0002936  ! bartholin's gland
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011788  ! absent urethra
+intersection_of: PATO:0002000  ! lacks all parts of type
+intersection_of: towards MA:0000379  ! urethra
+
+[Term]
+id: MP:0011792  ! abnormal urethral gland morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0001338  ! urethral gland
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011793  ! abnormal female urethral gland morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0010145  ! paraurethral gland
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011794  ! abnormal male urethral gland morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0010186  ! male urethral gland
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011795  ! abnormal urinary bladder development
+intersection_of: PATO:0000001  ! quality
+intersection_of: inheres_in_part_of GO:0060157  ! urinary bladder development
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011796  ! abnormal external urethral orifice morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0012240  ! urethral meatus
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011799  ! increased urinary bladder weight
+intersection_of: PATO:0000582  ! increased weight
+intersection_of: inheres_in MA:0000380  ! urinary bladder
+
+[Term]
+id: MP:0011800  ! decreased urinary bladder weight
+intersection_of: PATO:0000583  ! decreased weight
+intersection_of: inheres_in MA:0000380  ! urinary bladder
+
 
 
 !!!! GO cross products
