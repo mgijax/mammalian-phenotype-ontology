@@ -38713,7 +38713,7 @@ intersection_of: inheres_in MA:0001675 ! loop of henle
 [Term]
 id: MP:0011346 ! renal tubule atrophy
 intersection_of: PATO:0001623 ! atrophied
-intersection_of: inheres_in UBERON:0009773 ! renal tubule
+intersection_of: inheres_in MA:0000377 ! kidney tubule
 
 [Term]
 id: MP:0011347 ! abnormal kidney medullary ray morphology
@@ -41288,9 +41288,15 @@ intersection_of: inheres_in UBERON:0012242  ! internal urethral orifice
 intersection_of: qualifier PATO:0000460  ! abnormal
 
 [Term]
-id: MP:0011783  ! abnormal ureteral orifice morphology
+id: MP:0011796  ! abnormal external urethral orifice morphology
 intersection_of: PATO:0000051  ! morphology
 intersection_of: inheres_in UBERON:0012240  ! urethral meatus
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011783  ! abnormal ureteral orifice morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0012303 ! ureteral orifice
 intersection_of: qualifier PATO:0000460  ! abnormal
 
 [Term]
@@ -41341,12 +41347,6 @@ intersection_of: inheres_in_part_of GO:0060157  ! urinary bladder development
 intersection_of: qualifier PATO:0000460  ! abnormal
 
 [Term]
-id: MP:0011796  ! abnormal external urethral orifice morphology
-intersection_of: PATO:0000051  ! morphology
-intersection_of: inheres_in UBERON:0012240  ! urethral meatus
-intersection_of: qualifier PATO:0000460  ! abnormal
-
-[Term]
 id: MP:0011799  ! increased urinary bladder weight
 intersection_of: PATO:0000582  ! increased weight
 intersection_of: inheres_in MA:0000380  ! urinary bladder
@@ -41356,7 +41356,44 @@ id: MP:0011800  ! decreased urinary bladder weight
 intersection_of: PATO:0000583  ! decreased weight
 intersection_of: inheres_in MA:0000380  ! urinary bladder
 
+[Term]
+id: MP:0011408  ! renal tubule hypertrophy
+intersection_of: PATO:0000584  ! hypertrophic
+intersection_of: inheres_in MA:0000377 ! kidney tubule
 
+[Term]
+id: MP:0011733  ! fused somites
+intersection_of: PATO:0000642  ! fused with
+intersection_of: inheres_in UBERON:0002329  ! somite
+intersection_of: towards UBERON:0002329  ! somite
+
+[Term]
+id: MP:0011685  ! abnormal limb paddle morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0012300  ! limb paddle
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011771  ! abnormal genital tubercle morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0005876  ! undifferentiated genital tubercle
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011772  ! genital tubercle hypoplasia
+intersection_of: PATO:0000645  ! hypoplastic
+intersection_of: inheres_in UBERON:0005876  ! undifferentiated genital tubercle
+
+[Term]
+id: MP:0011777  ! abnormal male prostatic urethra morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0001335  ! prostatic urethra
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011803  ! double kidney pelvis
+intersection_of: PATO:0001473  ! duplicated
+intersection_of: inheres_in UBERON:0001224  ! renal pelvis
 
 !!!! GO cross products
 
