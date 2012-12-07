@@ -41395,6 +41395,196 @@ id: MP:0011803  ! double kidney pelvis
 intersection_of: PATO:0001473  ! duplicated
 intersection_of: inheres_in UBERON:0001224  ! renal pelvis
 
+
+[Term]
+id: MP:0001142  ! abnormal vagina orifice morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0012317  ! vagina orifice
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0001143  ! constricted vagina orifice
+intersection_of: PATO:0001847  ! constricted
+intersection_of: inheres_in UBERON:0012317  ! vagina orifice
+
+[Term]
+id: MP:0011789  ! increased urethra carcinoma incidence
+intersection_of: PATO:0002051  ! increased occurrence
+intersection_of: inheres_in DOID:734  ! urethra cancer
+
+[Term]
+id: MP:0011804  ! increased cell migration
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0016477  ! cell migration
+
+[Term]
+id: MP:0011805  ! decreased cell migration
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0016477  ! cell migration
+
+[Term]
+id: MP:0011808  ! abnormal myoblast differentiation
+intersection_of: PATO:0000001  ! quality
+intersection_of: inheres_in_part_of GO:0045445  ! myoblast differentiation
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011809  ! abnormal anoikis
+intersection_of: PATO:0000001  ! quality
+intersection_of: inheres_in_part_of GO:0043276  ! anoikis
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011810  ! increased anoikis
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0043276  ! anoikis
+
+[Term]
+id: MP:0011811  ! decreased anoikis
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0043276  ! anoikis
+
+[Term]
+id: MP:0011812  ! increased cranium length
+intersection_of: PATO:0000573  ! increased length
+intersection_of: inheres_in MA:0000316  ! cranium
+
+[Term]
+id: MP:0011813  ! long maxilla
+intersection_of: PATO:0000573  ! increased length
+intersection_of: inheres_in MA:0001491  ! maxilla
+
+[Term]
+id: MP:0011814  ! abnormal pre-pro B cell morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in CL:0002045  ! Fraction A pre-pro B cell
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011818  ! abnormal pancreatic beta cell proliferation
+intersection_of: PATO:0000001  ! quality
+intersection_of: inheres_in_part_of GO:0044342  ! type B pancreatic cell proliferation
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011819  ! increased pancreatic beta cell proliferation
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0044342  ! type B pancreatic cell proliferation
+
+[Term]
+id: MP:0011820  ! decreased pancreatic beta cell proliferation
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0044342  ! type B pancreatic cell proliferation
+
+[Term]
+id: MP:0011824  ! increased cell chemotaxis
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0060326  ! cell chemotaxis
+
+[Term]
+id: MP:0011825  ! decreased cell chemotaxis
+intersection_of: PATO:0000911  ! decreased rate
+intersection_of: inheres_in GO:0060326  ! cell chemotaxis
+
+[Term]
+id: MP:0011826  ! increased lymphocyte chemotaxis
+intersection_of: PATO:0000912  ! increased rate
+intersection_of: inheres_in GO:0048247  ! lymphocyte chemotaxis
+
+[Term]
+id: MP:0011827  ! impaired neuron differentiation
+intersection_of: PATO:0001507  ! disrupted
+intersection_of: inheres_in GO:0030182  ! neuron differentiation
+
+[Term]
+id: MP:0011828  ! urinary bladder cysts
+intersection_of: PATO:0001673  ! cystic
+intersection_of: inheres_in UBERON:0001255  ! urinary bladder
+
+[Term]
+id: MP:0011833  ! abnormal cremaster muscle morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0008488  ! cremaster muscle
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011834  ! abnormal clitoral gland morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in MA:0001702  ! clitoral gland
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011835  ! abnormal urogenital fold morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0004876  ! urogenital ridge
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011837  ! abnormal cloacal membrane morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0006217  ! cloacal membrane
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011838  ! abnormal navicular fossa morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0012294  ! navicular fossa of spongiose part of urethra
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011839  ! abnormal GuC)rin's valve morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0012295  ! GuC)rin's valve
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011840  ! abnormal urethral crest morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0012296  ! urethral crest
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011841  ! abnormal male urethral crest morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0012297  ! male urethral crest
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011842  ! abnormal female urethral crest morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0012298  ! female urethral crest
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+[Term]
+id: MP:0011844  ! kidney collecting duct atrophy
+intersection_of: PATO:0001623  ! atrophied
+intersection_of: inheres_in MA:0000371  ! kidney collecting duct
+
+[Term]
+id: MP:0011845  ! abnormal kidney collecting duct number
+intersection_of: PATO:0002083  ! altered number of
+intersection_of: inheres_in MA:0000368  ! kidney
+intersection_of: towards UBERON:0001232  ! collecting duct of renal tubule
+
+[Term]
+id: MP:0011846  ! decreased kidney collecting duct number
+intersection_of: PATO:0002001  ! has fewer parts of type
+intersection_of: inheres_in MA:0000368  ! kidney
+intersection_of: towards UBERON:0001232  ! collecting duct of renal tubule
+
+[Term]
+id: MP:0011847  ! increased kidney collecting duct number
+intersection_of: PATO:0002002  ! has extra parts of type
+intersection_of: inheres_in MA:0000368  ! kidney
+intersection_of: towards UBERON:0001232  ! collecting duct of renal tubule
+
+[Term]
+id: MP:0011848  ! abnormal vagina vestibule morphology
+intersection_of: PATO:0000051  ! morphology
+intersection_of: inheres_in UBERON:0008330  ! vestibulum vaginae
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+
 !!!! GO cross products
 
 [Term]
