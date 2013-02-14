@@ -1,5 +1,3 @@
-date: 27:07:2007 00:13
-saved-by: George Gkoutos
 default-namespace: mammalian_phenotype_xp
 remark: TODO - physiology
 remark: TODO - fix inheres_in_part_of defs
@@ -38382,7 +38380,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 [Term]
 id: MP:0011263 ! abnormal spleen mesenchyme morphology
 intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in UBERON:0009750 ! spleen mesenchyme
+intersection_of: inheres_in UBERON:0006293 ! spleen primordium
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -41584,6 +41582,28 @@ intersection_of: PATO:0000051  ! morphology
 intersection_of: inheres_in UBERON:0008330  ! vestibulum vaginae
 intersection_of: qualifier PATO:0000460  ! abnormal
 
+[Term]
+id: MP:0000165  ! abnormal long bone hypertrophic chondrocyte zone
+intersection_of: PATO:0000460  ! abnormal
+intersection_of: inheres_in UBERON:0006772  ! long bone epiphyseal plate hypertrophic zone
+
+!! check this one:
+[Term]
+id: MP:0002911  ! abnormal inhibitory postsynaptic potential
+intersection_of: PATO:0000001  ! quality
+intersection_of: inheres_in_part_of GO:0060080  ! regulation of inhibitory postsynaptic membrane potential
+intersection_of: qualifier PATO:0000460  ! abnormal
+
+
+[Term]
+id: MP:0009154  ! pancreatic acinar hypoplasia
+intersection_of: PATO:0000645  ! hypoplastic
+intersection_of: inheres_in UBERON:0001263  ! pancreatic acinus
+
+[Term]
+id: MP:0009155  ! pancreatic acinar hyperplasia
+intersection_of: PATO:0000644  ! hyperplastic
+intersection_of: inheres_in UBERON:0001263  ! pancreatic acinus
 
 !!!! GO cross products
 
