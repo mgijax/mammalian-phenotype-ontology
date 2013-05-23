@@ -16728,10 +16728,10 @@ intersection_of: PATO:0001464 ! electric potential
 intersection_of: has_quality PATO:0000462 ! absent
 intersection_of: inheres_in MA:0000240 ! cochlea
 
-[Term]
-id: MP:0004414 ! decreased cochlear microphonics
-intersection_of: PATO:0001660 ! decreased action potential
-intersection_of: inheres_in MA:0000240 ! cochlea
+![Term]
+!id: MP:0004414 ! decreased cochlear microphonics
+!intersection_of: PATO:0001660 ! decreased action potential OBSOLETE
+!intersection_of: inheres_in MA:0000240 ! cochlea
 
 [Term]
 id: MP:0004418 ! small parietal bone
@@ -22139,21 +22139,21 @@ intersection_of: PATO:0002000 ! lacks all parts of type
 intersection_of: inheres_in MA:0000023 ! head
 intersection_of: towards MA:0000258 ! outer ear
 
-[Term]
-id: MP:0005581 ! abnormal renin activity
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0004190 ! aspartic-type endopeptidase activity
+![Term]
+!id: MP:0005581 ! abnormal renin activity
+!intersection_of: PATO:0000001 ! quality
+!intersection_of: qualifier PATO:0000460 ! abnormal
+!intersection_of: inheres_in GO:0004190 ! aspartic-type endopeptidase activity
 
-[Term]
-id: MP:0005582 ! increased renin activity
-intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in GO:0004195! renin activity
+![Term]
+!id: MP:0005582 ! increased renin activity
+!intersection_of: PATO:0000912 ! increased rate
+!intersection_of: inheres_in GO:0004190 ! aspartic-type endopeptidase activity
 
-[Term]
-id: MP:0005583 ! decreased renin activity
-intersection_of: PATO:0000911 ! decreased rate
-intersection_of: inheres_in GO:0004195! renin activity
+![Term]
+!id: MP:0005583 ! decreased renin activity
+!intersection_of: PATO:0000911 ! decreased rate
+!intersection_of: inheres_in GO:0004190 ! aspartic-type endopeptidase activity
 
 [Term]
 id: MP:0005587 ! abnormal Meckel's cartilage morphology
@@ -24062,7 +24062,7 @@ intersection_of: inheres_in GO:0016042 ! lipid catabolic process
 
 [Term]
 id: MP:0008034 ! enhanced lipolysis
-intersection_of: PATO:0001589 ! enhanced
+intersection_of: PATO:0000912 ! increased rate
 intersection_of: inheres_in GO:0016042 ! lipid catabolic process
 
 [Term]
