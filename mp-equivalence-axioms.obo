@@ -3447,7 +3447,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 id: MP:0004562 ! abnormal inner hair cell synaptic ribbon morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in_part_of CL:0000589 ! inner hair cell
-intersection_of: inheres_in UBERON:0001030 ! synaptic ribbon
+intersection_of: inheres_in GO:0048788 ! presynaptic cytoskeletal matrix assembled at active zones
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -31495,7 +31495,8 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 [Term]
 id: MP:0004131 ! abnormal embryonic cilium morphology
 intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in UBERON:0004020! embryonic cilium
+intersection_of: inheres_in GO:0005929 ! cilium
+intersection_of: inheres_in_part_of UBERON:0000922 ! embryo
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -36133,7 +36134,8 @@ intersection_of: towards CL:0002375  ! Schwann cell precursor
 [Term]
 id: MP:0004132 ! absent embryonic cilia
 intersection_of: PATO:0002000 ! lacks all parts of type
-intersection_of: towards GO:0031512  ! motile primary cilium
+intersection_of: towards GO:0005929 ! cilium
+intersection_of: inheres_in UBERON:0000922 ! embryo
 
 [Term]
 id: MP:0004203 ! abnormal cranial flexure morphology
@@ -39692,7 +39694,8 @@ intersection_of: qualifier PATO:0000460  ! abnormal
 [Term]
 id: MP:0008933  ! abnormal embryonic cilium physiology
 intersection_of: PATO:0001509  ! functionality
-intersection_of: inheres_in GO:0031512  ! motile primary cilium
+intersection_of: inheres_in GO:0005929 ! cilium
+intersection_of: inheres_in_part_of UBERON:0000922 ! embryo
 intersection_of: qualifier PATO:0000460  ! abnormal
 
 [Term]
