@@ -83,7 +83,7 @@ intersection_of: towards MA:0000473 ! subcutaneous adipose tissue
 id: MP:0000013 ! abnormal adipose tissue distribution
 intersection_of: PATO:0000060 ! spatial pattern
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000056! fat
+intersection_of: inheres_in MA:0000009 ! adipose tissue
 
 [Term]
 id: MP:0000015 ! abnormal ear pigmentation
@@ -1296,11 +1296,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 id: MP:0000351 ! increased cell proliferation
 intersection_of: PATO:0000912 ! increased rate
 intersection_of: inheres_in GO:0008283 ! cell proliferation
-
-[Term]
-id: MP:0003184 ! increased angiotensin I-converting enzyme activity
-intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in GO:0004246 ! peptidyl-dipeptidase A activity
 
 [Term]
 id: MP:0000352 ! decreased cell proliferation
@@ -2764,12 +2759,12 @@ intersection_of: inheres_in UBERON:0003966 ! gonial bone
 id: MP:0000574 ! abnormal foot pad morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0003010 ! footpad
+intersection_of: inheres_in UBERON:0008838 ! metapodial pad
 
 [Term]
 id: MP:0000575 ! dark foot pads
 intersection_of: PATO:0002250 ! increased pigmentation
-intersection_of: inheres_in MA:0003010 ! footpad
+intersection_of: inheres_in UBERON:0008838 ! metapodial pad
 
 [Term]
 id: MP:0000576 ! clubfoot
@@ -3993,7 +3988,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 id: MP:0000787 ! abnormal telencephalon morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000183 ! telencephalon
+intersection_of: inheres_in UBERON:0014371 ! future telencephalon
 
 [Term]
 id: MP:0000788 ! abnormal cerebral cortex morphology
@@ -10494,7 +10489,7 @@ intersection_of: towards IMR:0100099 ! follicle stimulating hormone
 [Term]
 id: MP:0002791 ! steatorrhea
 intersection_of: PATO:0002002 ! has extra parts of type
-intersection_of: inheres_in FMA:64183 ! Feces
+intersection_of: inheres_in UBERON:0001988 ! feces
 intersection_of: towards MA:0000009 ! adipose tissue
 
 [Term]
@@ -11855,11 +11850,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in GO:0006518 ! peptide metabolic process
 
 [Term]
-id: MP:0003185 ! decreased angiotensin I-converting enzyme activity
-intersection_of: PATO:0000911 ! decreased rate
-intersection_of: inheres_in GO:0004246 ! peptidyl-dipeptidase A activity
-
-[Term]
 id: MP:0003186 ! abnormal redox activity
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -12992,7 +12982,7 @@ intersection_of: inheres_in MA:0000026 ! hindlimb
 intersection_of: towards MA:0000026 ! hindlimb
 
 [Term]
-id: MP0011505 ! camptomelia
+id: MP:0011505 ! camptomelia
 intersection_of: PATO:0000617 ! bent
 intersection_of: inheres_in MA:0000298 ! limb long bone
 
@@ -22184,7 +22174,7 @@ intersection_of: inheres_in CL:0000158 ! Clara cell
 [Term]
 id: MP:0005491 ! pancreatic islet hyperplasia
 intersection_of: PATO:0000644 ! hyperplastic
-intersection_of: inheres_in MA:0002419 ! pancreatic islet core
+intersection_of: inheres_in MA:0000127 ! pancreatic islet
 
 [Term]
 id: MP:0005492 ! exocrine pancreas hypoplasia
@@ -22595,7 +22585,7 @@ intersection_of: towards MA:0000258 ! outer ear
 id: MP:0005581 ! abnormal renin activity
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0004195 ! renin activity
+intersection_of: inheres_in GO:0004190 ! aspartic-type endopeptidase activity
 
 [Term]
 id: MP:0005582 ! increased renin activity
@@ -24136,11 +24126,6 @@ intersection_of: PATO:0000033 ! concentration of
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: towards CHEBI:26708 ! sodium
 intersection_of: inheres_in MA:0002545 ! urine
-
-[Term]
-id: MP:0006275 ! natriuresis
-intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in GO:0030147 ! natriuresis
 
 [Term]
 id: MP:0006276 ! abnormal autonomic nervous system physiology
@@ -26275,19 +26260,19 @@ id: MP:0006373 ! abnormal circulating angiotensinogen level
 intersection_of: PATO:0000033 ! concentration of
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0000059 ! blood
-intersection_of: towards IMR:0703759 ! ANGT_MOUSE
+intersection_of: towards PR:000036009 ! angiotensin II
 
 [Term]
 id: MP:0006375 ! increased circulating angiotensinogen level
 intersection_of: PATO:0001162 ! increased concentration
 intersection_of: inheres_in MA:0000059 ! blood
-intersection_of: towards IMR:0703759 ! ANGT_MOUSE
+intersection_of: towards PR:000036009 ! angiotensin II
 
 [Term]
 id: MP:0006376 ! decreased circulating angiotensinogen level
 intersection_of: PATO:0001163 ! decreased concentration
 intersection_of: inheres_in MA:0000059 ! blood
-intersection_of: towards IMR:0703759 ! ANGT_MOUSE
+intersection_of: towards PR:000036009 ! angiotensin II
 
 [Term]
 id: MP:0006372 ! impaired placental function
@@ -26739,7 +26724,7 @@ intersection_of: towards CL:0000784 ! plasmacytoid dendritic cell
 [Term]
 id: MP:0008540 ! abnormal cerebrum morphology
 intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in MA:0000133 ! cerebral hemisphere
+intersection_of: inheres_in MA:0000183 ! telencephalon
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -27478,8 +27463,7 @@ intersection_of: towards MA:0001898 ! zigzag hair
 [Term]
 id: MP:0008545 ! absent sperm flagellum
 intersection_of: PATO:0002000 ! lacks all parts of type
-intersection_of: towards GO:0019861 ! flagellum
-intersection_of: inheres_in CL:0000019 ! sperm
+intersection_of: towards GO:0036126 ! sperm flagellum
 
 [Term]
 id: MP:0008990 ! abnormal Ito cell morphology
@@ -28538,8 +28522,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 [Term]
 id: MP:0008892 ! abnormal sperm flagellum morphology
 intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in_part_of CL:0000019 ! sperm
-intersection_of: inheres_in GO:0019861 ! flagellum
+intersection_of: inheres_in GO:0036126 ! sperm flagellum
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -30488,8 +30471,7 @@ intersection_of: inheres_in MA:0000389 ! uterus
 [Term]
 id: MP:0008893 ! detached sperm flagellum
 intersection_of: PATO:0001453 ! detached from
-intersection_of: inheres_in GO:0019861 ! flagellum
-intersection_of: inheres_in_part_of CL:0000019 ! sperm
+intersection_of: inheres_in GO:0036126 ! sperm flagellum
 
 [Term]
 id: MP:0009146 ! abnormal pancreatic acinar cell morphology
@@ -30541,32 +30523,27 @@ intersection_of: inheres_in MA:0001589 ! submandibular gland
 [Term]
 id: MP:0009238 ! coiled sperm flagellum
 intersection_of: PATO:0000404 ! coiled
-intersection_of: inheres_in GO:0019861 ! flagellum
-intersection_of: inheres_in_part_of CL:0000019 ! sperm
+intersection_of: inheres_in GO:0036126 ! sperm flagellum
 
 [Term]
 id: MP:0009239 ! short sperm flagellum
 intersection_of: PATO:0000574 ! decreased length
-intersection_of: inheres_in GO:0019861 ! flagellum
-intersection_of: inheres_in_part_of CL:0000019 ! sperm
+intersection_of: inheres_in GO:0036126 ! sperm flagellum
 
 [Term]
 id: MP:0009240 ! elongated sperm flagellum
 intersection_of: PATO:0000573 ! increased length
-intersection_of: inheres_in GO:0019861 ! flagellum
-intersection_of: inheres_in_part_of CL:0000019 ! sperm
+intersection_of: inheres_in GO:0036126 ! sperm flagellum
 
 [Term]
 id: MP:0009241 ! thick sperm flagellum
 intersection_of: PATO:0000591 ! increased thickness
-intersection_of: inheres_in GO:0019861 ! flagellum
-intersection_of: inheres_in_part_of CL:0000019 ! sperm
+intersection_of: inheres_in GO:0036126 ! sperm flagellum
 
 [Term]
 id: MP:0009242 ! thin sperm flagellum
 intersection_of: PATO:0000592 ! decreased thickness
-intersection_of: inheres_in GO:0019861 ! flagellum
-intersection_of: inheres_in_part_of CL:0000019 ! sperm
+intersection_of: inheres_in GO:0036126 ! sperm flagellum
 
 [Term]
 id: MP:0009302 ! increased renal fat pad weight
@@ -31078,8 +31055,7 @@ intersection_of: inheres_in CL:0005019 ! pancreatic epsilon cell
 [Term]
 id: MP:0009237 ! kinked sperm flagellum
 intersection_of: PATO:0001798 ! kinked
-intersection_of: inheres_in_part_of CL:0000019 ! sperm
-intersection_of: inheres_in GO:0019861 ! flagellum
+intersection_of: inheres_in GO:0036126 ! sperm flagellum
 
 [Term]
 id: MP:0009380 ! abnormal prostate gland ventral lobe morphology
@@ -31142,7 +31118,8 @@ intersection_of: inheres_in MA:0000262 ! eye anterior chamber
 [Term]
 id: MP:0009838 ! abnormal sperm axoneme morphology
 intersection_of: PATO:0000001 ! quality
-intersection_of: inheres_in GO:0035086 ! flagellar axoneme
+intersection_of: inheres_in GO:0035085 ! cilium axoneme
+intersection_of: inheres_in_part_of CL:0000019 ! sperm
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -37961,12 +37938,6 @@ intersection_of: towards UBERON:0003888 ! extraembryonic coelom
 id: MP:0011212 ! absent common peroneal nerve
 intersection_of: PATO:0002000 ! lacks all parts of type
 intersection_of: towards UBERON:0001324 ! common fibular nerve
-
-[Term]
-id: MP:0009602 ! abnormal keratohyalin granule morphology
-intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in GO:0036045 ! keratohyalin granule
-intersection_of: qualifier PATO:0000460 ! abnormal
 
 !!! obol parse 2012-08-31
 
