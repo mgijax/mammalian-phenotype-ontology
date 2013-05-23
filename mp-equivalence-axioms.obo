@@ -20798,13 +20798,6 @@ intersection_of: PATO:0001847 ! constricted
 intersection_of: inheres_in MA:0002824 ! spiral modiolar artery
 
 [Term]
-id: MP:0005288 ! abnormal oxygen consumption
-intersection_of: PATO:0000187 ! consumption quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0002405 ! postnatal mouse
-intersection_of: towards CHEBI:25805 ! oxygen
-
-[Term]
 id: MP:0005294 ! abnormal heart ventricle morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -25988,18 +25981,6 @@ id: MP:0005208 ! abnormal iris stroma morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in MA:0002777 ! iris stroma
 intersection_of: qualifier PATO:0000460 ! abnormal
-
-[Term]
-id: MP:0005289 ! increased oxygen consumption
-intersection_of: PATO:0000767 ! increased consumption
-intersection_of: inheres_in MA:0002405 ! postnatal mouse
-intersection_of: towards CHEBI:25805 ! oxygen
-
-[Term]
-id: MP:0005290 ! decreased oxygen consumption
-intersection_of: PATO:0000768 ! decreased consumption
-intersection_of: inheres_in MA:0002405 ! postnatal mouse
-intersection_of: towards CHEBI:25805 ! oxygen
 
 [Term]
 id: MP:0005241 ! abnormal retinal ganglion layer morphology
