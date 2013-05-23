@@ -40427,7 +40427,7 @@ intersection_of: inheres_in CL:0000650  ! mesangial cell
 id: MP:0006296 ! arachnodactyly
 intersection_of: PATO:0000573 ! increased length
 intersection_of: inheres_in MA:0000690 ! limb digit
-def: "the digits are abnormally long and slender"
+!def: "the digits are abnormally long and slender"
 
 [Term]
 id: MP:0008829 ! triphalangia
