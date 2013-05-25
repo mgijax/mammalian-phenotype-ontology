@@ -1927,7 +1927,7 @@ intersection_of: inheres_in MA:0001910 ! snout
 id: MP:0000452 ! abnormal mouth morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0002474 ! mouth
+intersection_of: inheres_in UBERON:0000167 ! oral cavity
 
 [Term]
 id: MP:0009881 ! macrostomia
@@ -1938,7 +1938,7 @@ intersection_of: inheres_in MA:0002474 ! mouth
 id: MP:0003744 ! abnormal orofacial morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000341 ! oral region
+intersection_of: inheres_in MA:0002474 ! mouth
 
 [Term]
 id: MP:0000453 ! absent mouth
@@ -2498,12 +2498,13 @@ intersection_of: inheres_in MA:0000380 ! urinary bladder
 id: MP:0000540 ! abnormal urinary bladder urothelium morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in UBERON:0004645 ! urinary bladder urothelium
+intersection_of: inheres_in MA:0001693 ! urinary bladder urothelium
 
 [Term]
 id: MP:0000541 ! abnormal urinary bladder transitional epithelium morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in UBERON:0005910 ! transitional epithelium
 intersection_of: inheres_in MA:0001693 ! urinary bladder urothelium
 
 [Term]
@@ -2521,6 +2522,7 @@ intersection_of: inheres_in MA:0001693 ! urinary bladder urothelium
 id: MP:0008736 ! micromelia
 intersection_of: PATO:0000587 ! decreased size
 intersection_of: inheres_in MA:0000007 ! limb
+intersection_of: qualifier PATO:0000396 ! severe
 
 [Term]
 id: MP:0000547 ! short limbs
@@ -5180,7 +5182,12 @@ intersection_of: inheres_in MA:0001730 ! vagina epithelium
 id: MP:0001145 ! abnormal male reproductive system morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000396 ! male reproductive system
+intersection_of: inheres_in _:male_genitalia_or_inguinal_canal
+
+[Term]
+id: _:male_genitalia_or_inguinal_canal
+union_of: MA:0000396 ! male reproductive system
+union_of: UBERON:0004354 ! male inguinal canal
 
 [Term]
 id: MP:0001146 ! abnormal testis morphology
@@ -8160,7 +8167,7 @@ intersection_of: inheres_in MA:0001782 ! lung connective tissue
 id: MP:0002277 ! abnormal respiratory mucosa morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0001823 ! respiratory system epithelium
+intersection_of: inheres_in MA:0001827 ! respiratory system mucosa
 
 [Term]
 id: MP:0002279 ! abnormal diaphragm morphology
@@ -8423,7 +8430,7 @@ intersection_of: inheres_in MA:0000764 ! spleen germinal center
 id: MP:0002360 ! abnormal spleen B cell corona morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0002672 ! spleen lymphoid follicle
+intersection_of: inheres_in UBERON:0010421 ! spleen B cell corona
 
 [Term]
 id: MP:0002361 ! abnormal spleen central arteriole morphology
@@ -11192,7 +11199,7 @@ intersection_of: inheres_in MA:0000073 ! heart atrium
 
 [Term]
 id: MP:0003108 ! short zygomatic bone
-intersection_of: PATO:0000587 ! decreased size
+intersection_of: PATO:0000574 ! decreased length
 intersection_of: inheres_in MA:0001497 ! zygomatic bone
 
 [Term]
@@ -11324,7 +11331,7 @@ intersection_of: inheres_in MA:0000073 ! heart atrium
 [Term]
 id: MP:0003142 ! anotia
 intersection_of: PATO:0002000 ! lacks all parts of type
-intersection_of: towards MA:0000258 ! outer ear
+intersection_of: towards MA:0000259 ! auricle
 
 [Term]
 id: MP:0003146 ! absent cochlear ganglion
@@ -19965,11 +19972,12 @@ id: MP:0005095 ! decreased T cell proliferation
 intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in GO:0042098 ! T cell proliferation
 
-[Term]
-id: MP:0005098 ! abnormal choroid morphology
-intersection_of: PATO:0000051 ! morphology
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000263 ! choroid
+! same as posterior uvea?
+![Term]
+!id: MP:0005098 ! abnormal choroid morphology
+!intersection_of: PATO:0000051 ! morphology
+!intersection_of: qualifier PATO:0000460 ! abnormal
+!intersection_of: inheres_in MA:0000263 ! choroid
 
 [Term]
 id: MP:0005099 ! abnormal ciliary body morphology
@@ -23574,8 +23582,7 @@ intersection_of: inheres_in MA:0002679 ! foliate papilla
 id: MP:0006260 ! abnormal gustatory papillae taste bud morphology
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0001591 ! taste bud
-intersection_of: inheres_in_part_of MA:0001593 ! tongue papilla
+intersection_of: inheres_in UBERON:0014451 ! tongue taste bud
 
 [Term]
 id: MP:0006262 ! testis tumor
@@ -30883,7 +30890,7 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 id: MP:0009638 ! abnormal pretectal nuclei morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in UBERON:0001944 ! pretectal region
-intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: qualifier UBERON:0014450 ! pretectal nucleus
 
 [Term]
 id: MP:0009846 ! abnormal neural crest morphology
