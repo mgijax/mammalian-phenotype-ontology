@@ -5938,11 +5938,6 @@ intersection_of: PATO:0000587 ! decreased size
 intersection_of: inheres_in MA:0001292 ! pupil
 
 [Term]
-id: MP:0001321 ! large pupils
-intersection_of: PATO:0000586 ! increased size
-intersection_of: inheres_in MA:0001292 ! pupil
-
-[Term]
 id: MP:0001322 ! abnormal iris morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -6949,11 +6944,6 @@ intersection_of: towards MPATH:212 ! inflammation
 intersection_of: inheres_in MA:0000120 ! pancreas
 
 [Term]
-id: MP:0010164 ! increased hemolysis
-intersection_of: PATO:0001561 ! having extra processual parts
-intersection_of: towards MPATH:656 ! hemolysis
-
-[Term]
 id: MP:0009153 ! increased pancreas tumor incidence
 intersection_of: PATO:0002002 ! has extra parts of type
 intersection_of: towards MPATH:218 ! neoplasm
@@ -7684,12 +7674,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0000324 ! hepatobiliary system
 
 [Term]
-id: MP:0003117 ! abnormal tracheal-esophageal septation
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in _:tracheal_esophageal_septation
-
-[Term]
 id: MP:0002139 ! abnormal hepatobiliary system physiology
 intersection_of: PATO:0001509 ! functionality
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -8152,7 +8136,7 @@ intersection_of: inheres_in MA:0000015 ! muscle organ
 id: MP:0002270 ! abnormal pulmonary alveolus morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0000416 ! alveolar system
+intersection_of: inheres_in MA:0000420 ! lung alveolus
 
 [Term]
 id: MP:0002271 ! abnormal pulmonary alveolar duct morphology
@@ -13580,28 +13564,10 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0001693 ! urinary bladder urothelium
 
 [Term]
-id: MP:0005555 ! abnormal kidney excretion
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in _:kidney_excretion
-
-[Term]
 id: MP:0006315 ! abnormal urine protein level
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in _:kidney_protein_excretion
-
-[Term]
-id: MP:0006312 ! abnormal kidney sodium excretion
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in _:kidney_sodium_excretion
-
-[Term]
-id: MP:0006311 ! abnormal kidney potassium excretion
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in _:kidney_potassium_excretion
 
 [Term]
 id: MP:0006272 ! abnormal urine organic anion level
@@ -19187,7 +19153,7 @@ intersection_of: towards MA:0000260 ! external acoustic meatus
 [Term]
 id: MP:0009726 ! abnormal primordial meninx morphology
 intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in UBERON:0004065 ! primordial meninx
+intersection_of: inheres_in UBERON:0007645 ! future meninx
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -20267,12 +20233,6 @@ intersection_of: PATO:0002000 ! lacks all parts of type
 intersection_of: towards CL:0000019 ! sperm
 
 [Term]
-id: MP:0005160 ! proteinuria
-intersection_of: PATO:0002002 ! has extra parts of type
-intersection_of: inheres_in MA:0002545 ! urine
-intersection_of: towards CHEBI:16541 ! Protein
-
-[Term]
 id: MP:0005161 ! hematuria
 intersection_of: PATO:0002002 ! has extra parts of type
 intersection_of: inheres_in MA:0002545 ! urine
@@ -20463,12 +20423,6 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in MA:0001236 ! aqueous humour
 
 [Term]
-id: MP:0005209 ! abnormal gastric mucosa morphology
-intersection_of: PATO:0000051 ! morphology
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0002683 ! stomach mucosa
-
-[Term]
 id: MP:0005210 ! disorganized stomach mucosa
 intersection_of: PATO:0000937 ! disorganized
 intersection_of: inheres_in MA:0001610 ! stomach epithelium
@@ -20549,11 +20503,6 @@ intersection_of: inheres_in MA:0002878 ! brachial lymph node
 id: MP:0010286 ! increased plasmacytoma incidence
 intersection_of: PATO:0000467 ! present
 intersection_of: inheres_in MPATH:532 ! plasmacytoma
-
-[Term]
-id: MP:0005234 ! thymic lymphoma
-intersection_of: PATO:0000467 ! present
-intersection_of: inheres_in MPATH:537! precursor T-cell lymphoblastic lymphoma/leukaemia
 
 [Term]
 id: MP:0005236 ! abnormal olfactory nerve morphology
@@ -22174,11 +22123,6 @@ intersection_of: PATO:0002018 ! decreased magnitude
 intersection_of: inheres_in GO:0042310 ! vasoconstriction
 
 [Term]
-id: MP:0005570 ! decreased sodium excretion
-intersection_of: PATO:0002018 ! decreased magnitude
-intersection_of: inheres_in _:kidney_sodium_excretion
-
-[Term]
 id: MP:0005590 ! increased vasodilation
 intersection_of: PATO:0002017 ! increased magnitude
 intersection_of: inheres_in GO:0042311 ! vasodilation
@@ -23770,18 +23714,6 @@ intersection_of: inheres_in MA:0002828 ! celiac lymph node
 id: MP:0006309 ! decreased retinal ganglion cell number
 intersection_of: PATO:0001163 ! decreased concentration
 intersection_of: towards CL:0000740 ! retinal ganglion cell
-
-[Term]
-id: MP:0006313 ! increased urine potassium level
-intersection_of: PATO:0001162 ! increased concentration
-intersection_of: towards CHEBI:26216 ! potassium
-intersection_of: inheres_in MA:0002545 ! urine
-
-[Term]
-id: MP:0006314 ! decreased urine potassium level
-intersection_of: PATO:0001163 ! decreased concentration
-intersection_of: towards CHEBI:26216 ! potassium
-intersection_of: inheres_in MA:0002545 ! urine
 
 [Term]
 id: MP:0006316 ! increased urine sodium level
@@ -25838,12 +25770,6 @@ intersection_of: inheres_in MPATH:378 ! retinoblastoma
 !intersection_of: inheres_in MA:0000284 ! nasal cavity
 
 [Term]
-id: MP:0006304 ! abnormal seminiferous epithelium morphology
-intersection_of: PATO:0000051 ! morphology
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in MA:0001748 ! seminiferous tubule epithelium
-
-[Term]
 id: MP:0006303 ! abnormal retinal nerve fiber layer morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
@@ -25898,11 +25824,6 @@ id: MP:0006073 ! abnormal retinal bipolar cell morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in CL:0000748 ! retinal bipolar neuron
-
-[Term]
-id: MP:0005496 ! impaired macrophage recruitment
-intersection_of: PATO:0000911 ! decreased rate
-intersection_of: inheres_in GO:0002281 ! macrophage activation during immune response
 
 [Term]
 id: MP:0006325 ! impaired hearing
@@ -26527,11 +26448,6 @@ intersection_of: PATO:0000584 ! hypertrophic
 intersection_of: inheres_in MA:0000091 ! heart ventricle
 
 [Term]
-id: MP:0008773 ! enlarged heart right ventricle
-intersection_of: PATO:0000584 ! hypertrophic
-intersection_of: inheres_in MA:0000093 ! heart right ventricle
-
-[Term]
 id: MP:0008781 ! abnormal B cell apoptosis
 intersection_of: PATO:0000001 ! quality
 intersection_of: inheres_in GO:0001783 ! B cell apoptosis
@@ -26671,12 +26587,6 @@ intersection_of: inheres_in MA:0000843 ! suprachiasmatic nucleus
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
-id: MP:0008865 ! abnormal intestinal absorption
-intersection_of: PATO:0000001 ! quality
-intersection_of: inheres_in GO:0050892 ! intestinal absorption
-intersection_of: qualifier PATO:0000460 ! abnormal
-
-[Term]
 id: MP:0009762 ! abnormal mitotic spindle assembly checkpoint
 intersection_of: PATO:0000001 ! quality
 intersection_of: inheres_in GO:0007094 ! mitotic cell cycle spindle assembly checkpoint
@@ -26786,12 +26696,6 @@ intersection_of: towards MP:0005204 ! abnormal canal of Schlemm morphology
 id: MP:0004267 ! abnormal optic tract morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in MA:0001099 ! optic tract
-intersection_of: qualifier PATO:0000460 ! abnormal
-
-[Term]
-id: MP:0004271 ! abnormal paw/hand/foot morphology
-intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in _:paw_hand_foot
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -30246,11 +30150,6 @@ intersection_of: PATO:0001163 ! decreased concentration
 intersection_of: towards PR:000003777 ! adiponectin
 
 [Term]
-id: MP:0005073 ! impaired granulocyte migration
-intersection_of: PATO:0000911 ! decreased rate
-intersection_of: inheres_in _:granulocyte_chemotaxis
-
-[Term]
 id: MP:0008280 ! male germ cell apoptosis
 intersection_of: PATO:0001561 ! having extra processual parts
 intersection_of: inheres_in CL:0000015 ! male germ cell
@@ -31737,18 +31636,8 @@ intersection_of: PATO:0001865 ! spheroid
 intersection_of: inheres_in GO:0030424 ! axon
 
 [Term]
-id: MP:0010049 ! hypomyelination
-intersection_of: PATO:0000911 ! decreased rate
-intersection_of: inheres_in GO:0042552 ! myelination
-
-[Term]
 id: MP:0010050 ! hypermyelination
 intersection_of: PATO:0000912 ! increased rate
-intersection_of: towards GO:0042552 ! myelination
-
-[Term]
-id: MP:0010051 ! amyelination
-intersection_of: PATO:0001558 ! lacking processual parts
 intersection_of: towards GO:0042552 ! myelination
 
 [Term]
@@ -33561,12 +33450,6 @@ intersection_of: PATO:0000051 ! morphology
 intersection_of: inheres_in UBERON:0004095 ! corticospinal tract
 intersection_of: qualifier PATO:0000460 ! abnormal
 
-[Term]
-id: MP:0003796 ! abnormal cortical bone morphology
-intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in UBERON:0001439 ! compact bone
-intersection_of: qualifier PATO:0000460 ! abnormal
-
 ! TODO - check
 [Term]
 id: MP:0004169 ! abnormal fornicate gyrus morphology
@@ -34117,12 +34000,6 @@ intersection_of: towards UBERON:0005810 ! cervical vertebra 1 anterior tubercle
 id: MP:0001288 ! abnormal lens induction
 intersection_of: PATO:0000001 ! quality
 intersection_of: inheres_in GO:0060235 ! lens induction in camera-type eye
-intersection_of: qualifier PATO:0000460 ! abnormal
-
-[Term]
-id: MP:0000057 ! abnormal osteogenesis
-intersection_of: PATO:0000001 ! quality
-intersection_of: inheres_in_part_of GO:0001503 ! ossification
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
@@ -34917,12 +34794,6 @@ id: MP:0002803 ! abnormal operant conditional behavior
 intersection_of: PATO:0000001 ! quality
 intersection_of: qualifier PATO:0000460 ! abnormal
 intersection_of: inheres_in NBO:0000212 ! operant conditioning behaviour
-
-[Term]
-id: MP:0001449 ! abnormal learning/ memory
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in NBO:0000006 ! learning and/or memory behaviour
 
 [Term]
 id: MP:0001460 ! abnormal olfactory -discrimination memory
