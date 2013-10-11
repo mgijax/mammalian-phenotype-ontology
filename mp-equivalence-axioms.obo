@@ -26007,21 +26007,21 @@ intersection_of: qualifier PATO:0000460 ! abnormal
 id: MP:0003209 ! abnormal pulmonary elastic fiber morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0048251 ! elastic fiber assembly
+intersection_of: inheres_in GO:0071953 ! elastic fiber
 intersection_of: inheres_in_part_of MA:0000415 ! lung
 
 [Term]
 id: MP:0003210 ! abnormal heart elastic fiber morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0048251 ! elastic fiber assembly
+intersection_of: inheres_in GO:0071953 ! elastic fiber
 intersection_of: inheres_in_part_of MA:0000072 ! heart
 
 [Term]
 id: MP:0003211 ! abnormal aorta elastic fiber morphology
 intersection_of: PATO:0000051 ! morphology
 intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in GO:0048251 ! elastic fiber assembly
+intersection_of: inheres_in GO:0071953 ! elastic fiber
 intersection_of: inheres_in_part_of MA:0000062 ! aorta
 
 [Term]
@@ -26068,7 +26068,7 @@ intersection_of: inheres_in_part_of MA:0000165 ! set of skeletal muscles
 [Term]
 id: MP:0008468 ! absent muscle spindles
 intersection_of: PATO:0002000 ! lacks all parts of type
-intersection_of: towards GO:0005819 ! spindle
+intersection_of: towards UBERON:0003718 ! muscle spindle
 intersection_of: inheres_in MA:0000015 ! muscle organ
 
 [Term]
@@ -29716,8 +29716,7 @@ intersection_of: inheres_in MA:0000796 ! nipple
 [Term]
 id: MP:0009725 ! absent lens vesicle
 intersection_of: PATO:0002000 ! lacks all parts of type
-intersection_of: towards GO:0031982 ! vesicle
-intersection_of: inheres_in MA:0000275 ! lens
+intersection_of: towards UBERON:0005426 ! lens vesicle
 
 [Term]
 id: MP:0009727 ! abnormal navicular morphology
@@ -37166,7 +37165,7 @@ intersection_of: towards MA:0000958 ! hippocampus stratum oriens
 [Term]
 id: MP:0011156 ! abnormal hypodermis fat layer morphology
 intersection_of: PATO:0000051 ! morphology
-intersection_of: inheres_in UBERON:0008875 ! hypodermis fat layer
+intersection_of: inheres_in UBERON:0002190 ! subcutaneous adipose tissue
 intersection_of: qualifier PATO:0000460 ! abnormal
 
 [Term]
