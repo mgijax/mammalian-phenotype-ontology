@@ -2469,8 +2469,8 @@ intersection_of: inheres_in MA:0002656 ! ureter luminal urothelium
 
 [Term]
 id: MP:0000536 ! hydroureter
-intersection_of: PATO:0000595 ! increased volume
-intersection_of: inheres_in  _:urine_in_ureter
+intersection_of: PATO:0000608 ! closed
+intersection_of: inheres_in MA:0000378 ! ureter
 
 [Term]
 id: MP:0000537 ! abnormal urethra morphology
