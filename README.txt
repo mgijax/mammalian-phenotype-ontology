@@ -1,5 +1,9 @@
 Mammalian Phenotype Equivalence Axioms
 
+See:
+
+ * https://code.google.com/p/phenotype-ontologies/wiki/MP
+
 CURRENT WORKFLOW:
 
 The current workflow is to edit obo files in a text editor, and check a reasoner report. V inefficient.
