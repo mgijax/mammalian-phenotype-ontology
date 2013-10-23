@@ -16912,7 +16912,7 @@ intersection_of: inheres_in MA:0000316 ! cranium
 
 [Term]
 id: MP:0004468 ! small zygomatic bone
-intersection_of: PATO:0000574 ! decreased length
+intersection_of: PATO:0000587 ! decreased size
 intersection_of: inheres_in MA:0001497 ! zygomatic bone
 
 [Term]
