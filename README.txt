@@ -10,7 +10,7 @@ Please note we have switched to editing equivalence axioms in Protege
 (the OWL will be primary). The core MP will remain in obo with the
 primary version at MGI.
 
- * Edit mp-equivalence-axioms-edit.owl
+ * Edit mp-equivalence-axioms-subq-ubr.owl
  * Do not edit MP terms or external ontology terms - equiv axioms only
  * Have Elk turned on the whole time and sync repeatedly
  * Check Jenkins after commit
