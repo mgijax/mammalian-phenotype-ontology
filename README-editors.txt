@@ -32,11 +32,12 @@ Get Elk here:
 http://code.google.com/p/elk-reasoner/downloads/list
 perform same operation as above to install.
 
-Setting up: Obtain ontology from git (one time only):
+
 
 See instructions here:
+https://code.google.com/p/phenotype-ontologies/source/checkout
 
- * https://github.com/obophenotype/human-disease-ontology
+  svn checkout https://phenotype-ontologies.googlecode.com/svn/trunk/src/ontology/mp 	mp --username <USERNAME>
 
 
 GETTING STARTED
@@ -44,25 +45,28 @@ GETTING STARTED
 
 Always start by doing:
 
-Email google group at mp_edit@googlegroups.com to lock the files  
+Email google group at phenotype-ontology-editors@googlegroups.com to lock the files  
 Example  “[LOCKING] mp-edit..owl for editing”
 
-   git pull
+svn update
 
 Then, open the file mp-edit.owl in Protege
+
+NOTE: If you get an error in the opening that says "org.xml.sax.SAXParseException: XML document structures must start and end within the same entity." this is an error in reading files from the web. Don't worry about it, just simply wait a few minutes and try again with a fresh opening of Protege.
 
 Switch on the Elk reasoner (see how to get plugins above). If you are making changes, be sure to synchronize the reasoner.
 
 Edit the ontology in protege:
- * Find parent term in Protégé by searching (at top of screen)
- * Double check that term is not already there
- * Add subclass
- * Add label (URI should be auto-generated)
- * Under annotations, add definition, click OK
- * Annotation on definition (see below)
- * database_cross_reference
- * GOC:initials
- * Under annotations, add synonyms, if necessary (has_exact_synonym, etc)
+
+Find parent term in Protégé by searching (at top of screen)
+Double check that term is not already there
+Add subclass
+Add label (URI should be auto-generated)
+Under annotations, add definition, click OK
+Annotation on definition (see below)
+database_cross_reference
+GOC:initials
+Under annotations, add synonyms, if necessary (has_exact_synonym, etc)
 
 Save
 
@@ -70,14 +74,7 @@ Save
 
 Commit your changes
 
-   git commit -m "COMMIT MESSAGE" mp-edit.owl
-
-If you are fixing as issue in the tracker, always reference this with
-a '#'. E.g.
-
-   git commit -m "Fixed definition of hirsutism. Fixes issue #3" mp-edit.owl
-
-Note: if you prefer a GUI contact us for instructions about using Tower.
+  svn commit -m "COMMIT MESSAGE" mp-edit.owl
 
 OBSOLETING
 ---------------
