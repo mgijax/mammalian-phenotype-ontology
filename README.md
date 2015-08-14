@@ -18,7 +18,9 @@ Teams:
 
  * https://github.com/obophenotype/mammalian-phenotype-ontology/issues
 
-
+## Instructions on using SourceTree with Github
+ 
+ * https://docs.google.com/document/d/1bEbhzHsWHQbvGTVIVv9rOinjRUT4jxoU2uqT5QaVdNI/edit
 
 
 
