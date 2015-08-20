@@ -15,6 +15,9 @@ all-subsets: build/mp.owl subsets
 catalog-v001.xml: default-catalog.xml
 	cp $< $@
 
+mirror-catalog.xml: mp-edit.owl
+	owltools $< --sic -d . -c test-catalog-v001.xml
+
 # Note: we currently use no-reasoner for now, until we can trust all inferences
 build/mp-simple.obo: mp-edit.owl catalog-v001.xml
 	ontology-release-runner --catalog-xml catalog-v001.xml $(OORT_ARGS) --ignoreLock --skip-release-folder --outdir build --simple --allow-overwrite --no-reasoner $<
