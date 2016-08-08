@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 01:08:2016 10:53
+date: 08:08:2016 10:53
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -11156,8 +11156,8 @@ is_a: DC:0000295 ! Muscular Dystrophy
 
 [Term]
 id: OMIM:158810
-name: Bethlem myopathy
-is_a: DC:0000138 ! Disease Cluster
+name: Bethlem myopathy 1
+is_a: DC:0000710 ! Bethlem Myopathy
 
 [Term]
 id: OMIM:158900
@@ -23680,6 +23680,16 @@ is_a: DC:0000055 ! Bartter Syndrome
 id: OMIM:300972
 name: Immunodeficiency 47; IMD47
 is_a: DC:0000615 ! Immunodeficiency
+
+[Term]
+id: OMIM:300977
+name: Scholte Syndrome; SHLTS
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:300978
+name: Mental Retardation, X-Linked 61; MRX61
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:301000
@@ -44608,7 +44618,7 @@ is_a: DC:0000709 ! Ullrich Congenital Muscular Dystrophy
 [Term]
 id: OMIM:616471
 name: Bethlem Myopathy 2; BTHLM2
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000710 ! Bethlem Myopathy
 
 [Term]
 id: OMIM:616479
@@ -45786,4 +45796,19 @@ is_a: DC:0000497 ! Cold-Induced Sweating Syndrome
 id: OMIM:617056
 name: Hyperuricemic Nephropathy, Familial Juvenile, 4; HNFJ4
 is_a: DC:0000208 ! Hyperuricemic Nephropathy, Familial Juvenile
+
+[Term]
+id: OMIM:617061
+name: Mercer-Ba Syndrome; MEBAS
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617062
+name: Okur-Chung Neurodevelopmental Syndrome; OCNDS
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617063
+name: Meier-Gorlin Syndrome 7; MGORS7
+is_a: DC:0000270 ! Meier-Gorlin Syndrome
 
