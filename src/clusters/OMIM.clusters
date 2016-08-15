@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 08:08:2016 10:53
+date: 15:08:2016 10:41
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -45680,7 +45680,7 @@ is_a: DC:0000030 ! Charcot-Marie-Tooth Disease
 [Term]
 id: OMIM:617020
 name: Epileptic Encephalopathy, Early Infantile, 38; EIEE38
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000137 ! Epileptic Encephalopathy, Early Infantile
 
 [Term]
 id: OMIM:617021
@@ -45811,4 +45811,29 @@ is_a: DC:0000138 ! Disease Cluster
 id: OMIM:617063
 name: Meier-Gorlin Syndrome 7; MGORS7
 is_a: DC:0000270 ! Meier-Gorlin Syndrome
+
+[Term]
+id: OMIM:617065
+name: Epileptic Encephalopathy, Early Infantile, 40; EIEE40
+is_a: DC:0000137 ! Epileptic Encephalopathy, Early Infantile
+
+[Term]
+id: OMIM:617066
+name: Muscular Dystrophy, Congenital, Davignon-Chauveau Type; MDCDC
+is_a: DC:0000295 ! Muscular Dystrophy
+
+[Term]
+id: OMIM:617068
+name: Portal Hypertension, Noncirrhotic; NCPH
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617069
+name: Progressive External Ophthalmoplegia with Mitochondrial DNA Deletions, Autosomal Recessive 3; PEOB3
+is_a: DC:0000373 ! Progressive External Ophthalmoplegia with Mitochondrial DNA Deletions
+
+[Term]
+id: OMIM:617070
+name: Progressive External Ophthalmoplegia with Mitochondrial DNA Deletions, Autosomal Recessive 4; PEOB4
+is_a: DC:0000373 ! Progressive External Ophthalmoplegia with Mitochondrial DNA Deletions
 
