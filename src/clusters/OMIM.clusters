@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:08:2016 10:41
+date: 30:08:2016 11:56
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -27304,7 +27304,7 @@ is_a: DC:0000405 ! Severe Combined Immunodeficiency
 [Term]
 id: OMIM:602455
 name: Regeneration-Associated Serpin-1
-is_a: DC:0000138 ! Disease Cluster
+is_obsolete: true
 
 [Term]
 id: OMIM:602459
@@ -27469,7 +27469,7 @@ is_a: DC:0000628 ! Congenital Disorders of Glycosylation, Type I
 [Term]
 id: OMIM:602586
 name: Acyl-CoA Thioester Hydrolase, Long-Chain, 1
-is_a: DC:0000138 ! Disease Cluster
+is_obsolete: true
 
 [Term]
 id: OMIM:602588
@@ -39938,7 +39938,7 @@ is_a: DC:0000642 ! Colorectal Cancer, Hereditary Nonpolyposis
 
 [Term]
 id: OMIM:614388
-name: Encephalopathy, Lethal, Due to Defective Mitochondrial and Peroxisomal Fission; EMPF
+name: Encephalopathy, Lethal, Due to Defective Mitochondrial and Peroxisomal Fission 1; EMPF1
 is_a: DC:0000513 ! Encephalopathy
 
 [Term]
@@ -44783,7 +44783,7 @@ is_a: DC:0000386 ! Retinitis Pigmentosa
 [Term]
 id: OMIM:616546
 name: Short-Rib Thoracic Dysplasia 14 with Polydactyly; SRTD14
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000131 ! Short-Rib Thoracic Dysplasia
 
 [Term]
 id: OMIM:616549
@@ -45678,6 +45678,11 @@ name: Charcot-Marie-Tooth Disease, Axonal, Type 2t; CMT2T
 is_a: DC:0000030 ! Charcot-Marie-Tooth Disease
 
 [Term]
+id: OMIM:617018
+name: Spinocerebellar Ataxia 43; SCA43
+is_a: DC:0000414 ! Spinocerebellar Ataxia
+
+[Term]
 id: OMIM:617020
 name: Epileptic Encephalopathy, Early Infantile, 38; EIEE38
 is_a: DC:0000137 ! Epileptic Encephalopathy, Early Infantile
@@ -45836,4 +45841,39 @@ is_a: DC:0000373 ! Progressive External Ophthalmoplegia with Mitochondrial DNA D
 id: OMIM:617070
 name: Progressive External Ophthalmoplegia with Mitochondrial DNA Deletions, Autosomal Recessive 4; PEOB4
 is_a: DC:0000373 ! Progressive External Ophthalmoplegia with Mitochondrial DNA Deletions
+
+[Term]
+id: OMIM:617072
+name: Muscular Dystrophy, Limb-Girdle, Type 2y; LGMD2Y
+is_a: DC:0000250 ! Muscular Dystrophy, Limb-Girdle
+
+[Term]
+id: OMIM:617073
+name: Tooth Agenesis, Selective, 8; STHAG8
+is_a: DC:0000439 ! Tooth Agenesis, Selective
+
+[Term]
+id: OMIM:617075
+name: Nasopharyngeal Carcinoma, Susceptibility to, 3; NPCA3
+is_a: DC:0000313 ! Nasopharyngeal Carcinoma
+
+[Term]
+id: OMIM:617080
+name: Seizures, Benign Familial Infantile, 5; BFIS5
+is_a: DC:0000097 ! Seizures, Benign Familial Infantile
+
+[Term]
+id: OMIM:617082
+name: Congenital Disorder of Glycosylation, Type Iaa; CDG1AA
+is_a: DC:0000628 ! Congenital Disorders of Glycosylation, Type I
+
+[Term]
+id: OMIM:617086
+name: Encephalopathy Due to Defective Mitochondrial and Peroxisomal Fission 2; EMPF2
+is_a: DC:0000513 ! Encephalopathy
+
+[Term]
+id: OMIM:617088
+name: Short-Rib Thoracic Dysplasia 15 with Polydactyly; SRTD15
+is_a: DC:0000131 ! Short-Rib Thoracic Dysplasia
 
