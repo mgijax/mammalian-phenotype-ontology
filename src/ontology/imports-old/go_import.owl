@@ -36537,6 +36537,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0032279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032279">
+        <rdfs:label rdf:datatype="&xsd;string">asymmetric synapse</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0045202"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0032280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032280">
+        <rdfs:label rdf:datatype="&xsd;string">symmetric synapse</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0045202"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0032286 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032286">
@@ -53265,6 +53283,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0060075">
         <rdfs:label rdf:datatype="&xsd;string">regulation of resting membrane potential</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042391"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0060076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0060076">
+        <rdfs:label rdf:datatype="&xsd;string">excitatory synapse</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0045202"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0060077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0060077">
+        <rdfs:label rdf:datatype="&xsd;string">inhibitory synapse</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0045202"/>
     </owl:Class>
     
 
