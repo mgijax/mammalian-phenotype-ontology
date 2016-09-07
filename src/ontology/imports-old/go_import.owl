@@ -41090,15 +41090,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0042197 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042197">
-        <rdfs:label rdf:datatype="&xsd;string">halogenated hydrocarbon metabolic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006805"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0042221 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042221">
@@ -105745,17 +105736,17 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006184">
-        <rdfs:label rdf:datatype="&xsd;string">obsolete GTP catabolic process</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_1903289">
         <rdfs:label rdf:datatype="&xsd;string">obsolete regulation of ATP catabolic process</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0040006">
-        <rdfs:label rdf:datatype="&xsd;string">protein-based cuticle attachment to epithelium</rdfs:label>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006184">
+        <rdfs:label rdf:datatype="&xsd;string">obsolete GTP catabolic process</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006200">
         <rdfs:label rdf:datatype="&xsd;string">obsolete ATP catabolic process</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0040006">
+        <rdfs:label rdf:datatype="&xsd;string">protein-based cuticle attachment to epithelium</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
 
