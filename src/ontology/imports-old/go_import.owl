@@ -22235,15 +22235,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0006805 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006805">
-        <rdfs:label rdf:datatype="&xsd;string">xenobiotic metabolic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044237"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0006807 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006807">
