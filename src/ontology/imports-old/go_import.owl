@@ -22235,6 +22235,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0006805 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006805">
+        <rdfs:label rdf:datatype="&xsd;string">xenobiotic metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044237"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0006807 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006807">
@@ -30833,6 +30842,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0018933 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0018933">
+        <rdfs:label rdf:datatype="&xsd;string">nicotine metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0072524"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0018958 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0018958">
@@ -30840,6 +30858,24 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006725"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1901360"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1901615"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0018967 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0018967">
+        <rdfs:label rdf:datatype="&xsd;string">tetrachloroethylene metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042196"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0018979 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0018979">
+        <rdfs:label rdf:datatype="&xsd;string">trichloroethylene metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042196"/>
     </owl:Class>
     
 
@@ -41077,6 +41113,24 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044249"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044283"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1901576"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042196">
+        <rdfs:label rdf:datatype="&xsd;string">chlorinated hydrocarbon metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042197"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042197">
+        <rdfs:label rdf:datatype="&xsd;string">halogenated hydrocarbon metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006805"/>
     </owl:Class>
     
 
