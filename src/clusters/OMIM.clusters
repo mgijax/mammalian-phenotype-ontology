@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 30:08:2016 11:56
+date: 12:09:2016 13:29
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -24853,7 +24853,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:314200
 name: Thyroxine-Binding Globulin of Serum; TBG
-is_a: DC:0000138 ! Disease Cluster
+is_obsolete: true
 
 [Term]
 id: OMIM:314250
@@ -32426,7 +32426,7 @@ is_a: DC:0000307 ! Myopia
 
 [Term]
 id: OMIM:609260
-name: Charcot-Marie-Tooth Disease, Axonal, Type 2A2
+name: Charcot-Marie-Tooth Disease, Axonal, Type 2A2a
 is_a: DC:0000030 ! Charcot-Marie-Tooth Disease
 
 [Term]
@@ -45873,7 +45873,62 @@ name: Encephalopathy Due to Defective Mitochondrial and Peroxisomal Fission 2; E
 is_a: DC:0000513 ! Encephalopathy
 
 [Term]
+id: OMIM:617087
+name: Charcot-Marie-Tooth Disease, Axonal, Autosomal Recessive, Type 2a2b;
+is_a: DC:0000030 ! Charcot-Marie-Tooth Disease
+
+[Term]
 id: OMIM:617088
 name: Short-Rib Thoracic Dysplasia 15 with Polydactyly; SRTD15
 is_a: DC:0000131 ! Short-Rib Thoracic Dysplasia
+
+[Term]
+id: OMIM:617090
+name: Microcephaly 17, Primary, Autosomal Recessive; MCPH17
+is_a: DC:0000277 ! Microcephaly, Primary, Autosomal Recessive
+
+[Term]
+id: OMIM:617091
+name: Ciliary Dyskinesia, Primary, 34; CILD34
+is_a: DC:0000086 ! Ciliary Dyskinesia, Primary
+
+[Term]
+id: OMIM:617092
+name: Ciliary Dyskinesia, Primary, 35; CILD35
+is_a: DC:0000086 ! Ciliary Dyskinesia, Primary
+
+[Term]
+id: OMIM:617093
+name: Growth Retardation, Intellectual Developmental Disorder, Hypotonia, and Hepatopathy; GRIDHH
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617099
+name: Autoinflammation, Panniculitis, and Dermatosis Syndrome; AIPDS
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617100
+name: Familial Adenomatous Polyposis 4; FAP4
+is_a: DC:0000707 ! Famailial Adenomatous Polyposis
+
+[Term]
+id: OMIM:617101
+name: Dias-Logan Syndrome; DILOS
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617102
+name: Short-Rib Thoracic Dysplasia 16 with or without Polydactyly; SRTD16
+is_a: DC:0000131 ! Short-Rib Thoracic Dysplasia
+
+[Term]
+id: OMIM:617108
+name: Sessile Serrated Polyposis Cancer Syndrome; SSPCS
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617111
+name: Macular Dystrophy, Patterned, 3; MDPT3
+is_a: DC:0000263 ! Macular Dystrophy
 
