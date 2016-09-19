@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:09:2016 13:29
+date: 19:09:2016 10:32
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -21301,7 +21301,7 @@ is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:270300
-name: Peeling Skin Syndrome; PSS
+name: Peeling Skin Syndrome 1; PSS1
 is_a: DC:0000353 ! Peeling Skin Syndrome
 
 [Term]
@@ -23690,6 +23690,11 @@ is_a: DC:0000138 ! Disease Cluster
 id: OMIM:300978
 name: Mental Retardation, X-Linked 61; MRX61
 is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:300979
+name: Xq25 Duplication Syndrome
+is_a: DC:0000495 ! Chromosome Duplication Syndrome
 
 [Term]
 id: OMIM:301000
@@ -30937,8 +30942,8 @@ is_a: DC:0000280 ! Microphthalmia, Syndromic
 
 [Term]
 id: OMIM:607936
-name: Exfoliative Ichthyosis, Autosomal Recessive, Ichthyosis Bullosa of Siemens-like
-is_a: DC:0000138 ! Disease Cluster
+name: Peeling Skin Syndrome 4
+is_a: DC:0000353 ! Peeling Skin Syndrome
 
 [Term]
 id: OMIM:607941
@@ -45923,6 +45928,11 @@ name: Short-Rib Thoracic Dysplasia 16 with or without Polydactyly; SRTD16
 is_a: DC:0000131 ! Short-Rib Thoracic Dysplasia
 
 [Term]
+id: OMIM:617107
+name: Thauvin-Robinet-Faivre Syndrome; TROFAS
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
 id: OMIM:617108
 name: Sessile Serrated Polyposis Cancer Syndrome; SSPCS
 is_a: DC:0000138 ! Disease Cluster
@@ -45931,4 +45941,14 @@ is_a: DC:0000138 ! Disease Cluster
 id: OMIM:617111
 name: Macular Dystrophy, Patterned, 3; MDPT3
 is_a: DC:0000263 ! Macular Dystrophy
+
+[Term]
+id: OMIM:617114
+name: Myopathy, Myofibrillar, 7; MFM7
+is_a: DC:0000305 ! Myopathy, Myofibrillar
+
+[Term]
+id: OMIM:617115
+name: Peeling Skin Syndrome 5; PSS5
+is_a: DC:0000353 ! Peeling Skin Syndrome
 
