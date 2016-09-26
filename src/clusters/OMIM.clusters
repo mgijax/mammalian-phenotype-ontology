@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 19:09:2016 10:32
+date: 26:09:2016 10:46
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -5943,6 +5943,14 @@ xref: PS:174050
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2016-07-25T10:53:21Z
+
+[Term]
+id: DC:0000729
+name: Epilepsy, Familial Focal, with Variable Foci
+xref: PS:604364
+is_a: DC:0000138 ! Disease Cluster
+created_by: smb
+creation_date: 2016-09-26T10:39:55Z
 
 [Term]
 id: OMIM:100050
@@ -23689,12 +23697,17 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:300978
 name: Mental Retardation, X-Linked 61; MRX61
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000656 ! Mental Retardation, X-linked, Nonsyndromic
 
 [Term]
 id: OMIM:300979
 name: Xq25 Duplication Syndrome
 is_a: DC:0000495 ! Chromosome Duplication Syndrome
+
+[Term]
+id: OMIM:300982
+name: Mental Retardation, X-Linked 103; MRX103
+is_a: DC:0000656 ! Mental Retardation, X-linked, Nonsyndromic
 
 [Term]
 id: OMIM:301000
@@ -28449,7 +28462,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:604364
 name: Epilepsy, Partial, with Variable Foci
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000729 ! Epilepsy, Familial Focal, with Variable Foci
 
 [Term]
 id: OMIM:604367
@@ -40904,7 +40917,6 @@ is_a: DC:0000210 ! Hypogonadotropic Hypogonadism
 [Term]
 id: OMIM:614844
 name: Nephronophthisis 14; NPHP14
-is_a: DC:0000231 ! Joubert Syndrome
 is_a: DC:0000316 ! Nephronophthisis
 
 [Term]
@@ -45928,6 +45940,16 @@ name: Short-Rib Thoracic Dysplasia 16 with or without Polydactyly; SRTD16
 is_a: DC:0000131 ! Short-Rib Thoracic Dysplasia
 
 [Term]
+id: OMIM:617105
+name: Epileptic Encephalopathy, Early Infantile, 41; EIEE41
+is_a: DC:0000137 ! Epileptic Encephalopathy, Early Infantile
+
+[Term]
+id: OMIM:617106
+name: Epileptic Encephalopathy, Early Infantile, 42; EIEE42
+is_a: DC:0000137 ! Epileptic Encephalopathy, Early Infantile
+
+[Term]
 id: OMIM:617107
 name: Thauvin-Robinet-Faivre Syndrome; TROFAS
 is_a: DC:0000138 ! Disease Cluster
@@ -45943,6 +45965,11 @@ name: Macular Dystrophy, Patterned, 3; MDPT3
 is_a: DC:0000263 ! Macular Dystrophy
 
 [Term]
+id: OMIM:617113
+name: Epileptic Encephalopathy, Early Infantile, 43; EIEE43
+is_a: DC:0000137 ! Epileptic Encephalopathy, Early Infantile
+
+[Term]
 id: OMIM:617114
 name: Myopathy, Myofibrillar, 7; MFM7
 is_a: DC:0000305 ! Myopathy, Myofibrillar
@@ -45951,4 +45978,49 @@ is_a: DC:0000305 ! Myopathy, Myofibrillar
 id: OMIM:617115
 name: Peeling Skin Syndrome 5; PSS5
 is_a: DC:0000353 ! Peeling Skin Syndrome
+
+[Term]
+id: OMIM:617116
+name: Epilepsy, Familial Focal, with Variable Foci 2; FFEVF2
+is_a: DC:0000729 ! Epilepsy, Familial Focal, with Variable Foci
+
+[Term]
+id: OMIM:617118
+name: Epilepsy, Familial Focal, with Variable Foci 3; FFEVF3
+is_a: DC:0000729 ! Epilepsy, Familial Focal, with Variable Foci
+
+[Term]
+id: OMIM:617119
+name: Bardet-Biedl Syndrome 20; BBS20
+is_a: DC:0000673 ! Bardet-Biedl Syndrome
+
+[Term]
+id: OMIM:617120
+name: Joubert Syndrome 27; JBTS27
+is_a: DC:0000231 ! Joubert Syndrome
+
+[Term]
+id: OMIM:617121
+name: Joubert Syndrome 28; JBTS28
+is_a: DC:0000231 ! Joubert Syndrome
+
+[Term]
+id: OMIM:617123
+name: Retinitis Pigmentosa 76; RP76
+is_a: DC:0000386 ! Retinitis Pigmentosa
+
+[Term]
+id: OMIM:617125
+name: Mental Retardation, Autosomal Recessive 56; MRT56
+is_a: DC:0000655 ! Mental Retardation, Autosomal Recessive
+
+[Term]
+id: OMIM:617126
+name: Alazami-Yuan Syndrome; ALYUS
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617127
+name: Orofaciodigital Syndrome Xv; OFD15
+is_a: DC:0000335 ! Orofaciodigital Syndrome
 
