@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 26:09:2016 10:46
+date: 04:10:2016 14:38
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -5951,6 +5951,22 @@ xref: PS:604364
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2016-09-26T10:39:55Z
+
+[Term]
+id: DC:0000730
+name: Congenital Bilateral Aplasia of Vas Deferens
+xref: PS:277180
+is_a: DC:0000138 ! Disease Cluster
+created_by: smb
+creation_date: 2016-10-04T14:31:31Z
+
+[Term]
+id: DC:0000731
+name: Frontometaphyseal Dysplasia
+xref: PS:305620
+is_a: DC:0000138 ! Disease Cluster
+created_by: smb
+creation_date: 2016-10-04T14:35:51Z
 
 [Term]
 id: OMIM:100050
@@ -22039,8 +22055,8 @@ is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:277180
-name: Congenital bilateral aplasia of vas deferens
-is_a: DC:0000138 ! Disease Cluster
+name: Congenital bilateral aplasia of vas deferens;  CBAVD
+is_a: DC:0000730 ! Congenital Bilateral Aplasia of Vas Deferens
 
 [Term]
 id: OMIM:277200
@@ -23710,6 +23726,21 @@ name: Mental Retardation, X-Linked 103; MRX103
 is_a: DC:0000656 ! Mental Retardation, X-linked, Nonsyndromic
 
 [Term]
+id: OMIM:300983
+name: Mental Retardation, X-Linked 104; MRX104
+is_a: DC:0000656 ! Mental Retardation, X-linked, Nonsyndromic
+
+[Term]
+id: OMIM:300984
+name: Mental Retardation, X-Linked 105; MRX105
+is_a: DC:0000656 ! Mental Retardation, X-linked, Nonsyndromic
+
+[Term]
+id: OMIM:300985
+name: Vas Deferens, Congenital Bilateral Aplasia of, X-Linked; CBAVDX
+is_a: DC:0000730 ! Congenital Bilateral Aplasia of Vas Deferens
+
+[Term]
 id: OMIM:301000
 name: Wiskott-Aldrich Syndrome; WAS
 is_a: DC:0000613 ! Wiskott-Aldrich Syndrome
@@ -24092,8 +24123,8 @@ is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:305620
-name: Frontometaphyseal dysplasia
-is_a: DC:0000342 ! Oto-Palato-Digital Syndrome
+name: Frontometaphyseal dysplasia 1
+is_a: DC:0000731 ! Frontometaphyseal Dysplasia
 
 [Term]
 id: OMIM:305690
@@ -46023,4 +46054,9 @@ is_a: DC:0000138 ! Disease Cluster
 id: OMIM:617127
 name: Orofaciodigital Syndrome Xv; OFD15
 is_a: DC:0000335 ! Orofaciodigital Syndrome
+
+[Term]
+id: OMIM:617137
+name: Frontometaphyseal Dysplasia 2; FMD2
+is_a: DC:0000731 ! Frontometaphyseal Dysplasia
 
