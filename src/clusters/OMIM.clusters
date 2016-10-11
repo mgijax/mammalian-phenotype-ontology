@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 04:10:2016 14:38
+date: 11:10:2016 15:38
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -5969,6 +5969,14 @@ created_by: smb
 creation_date: 2016-10-04T14:35:51Z
 
 [Term]
+id: DC:0000732
+name: Aniridia
+xref: PS:106210
+is_a: DC:0000138 ! Disease Cluster
+created_by: smb
+creation_date: 2016-10-11T15:34:32Z
+
+[Term]
 id: OMIM:100050
 name: Aarskog Syndrome, Autosomal Dominant
 is_a: DC:0000138 ! Disease Cluster
@@ -6438,8 +6446,8 @@ is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:106210
-name: Aniridia; AN
-is_a: DC:0000138 ! Disease Cluster
+name: Aniridia 1; AN1
+is_a: DC:0000732 ! Aniridia
 
 [Term]
 id: OMIM:106220
@@ -23739,6 +23747,11 @@ is_a: DC:0000656 ! Mental Retardation, X-linked, Nonsyndromic
 id: OMIM:300985
 name: Vas Deferens, Congenital Bilateral Aplasia of, X-Linked; CBAVDX
 is_a: DC:0000730 ! Congenital Bilateral Aplasia of Vas Deferens
+
+[Term]
+id: OMIM:300986
+name: Mental Retardation, X-Linked, Syndromic, Bain Type; MRXSB
+is_a: DC:0000273 ! Mental Retardation, X-Linked, Syndromic
 
 [Term]
 id: OMIM:301000
@@ -46056,7 +46069,32 @@ name: Orofaciodigital Syndrome Xv; OFD15
 is_a: DC:0000335 ! Orofaciodigital Syndrome
 
 [Term]
+id: OMIM:617132
+name: Epileptic Encephalopathy, Early Infantile, 44; EIEE44
+is_a: DC:0000137 ! Epileptic Encephalopathy, Early Infantile
+
+[Term]
+id: OMIM:617133
+name: Spinocerebellar Ataxia, Autosomal Recessive 24; SCAR24
+is_a: DC:0000414 ! Spinocerebellar Ataxia
+
+[Term]
 id: OMIM:617137
 name: Frontometaphyseal Dysplasia 2; FMD2
 is_a: DC:0000731 ! Frontometaphyseal Dysplasia
+
+[Term]
+id: OMIM:617141
+name: Aniridia 2; AN2
+is_a: DC:0000732 ! Aniridia
+
+[Term]
+id: OMIM:617142
+name: Aniridia 3; AN3
+is_a: DC:0000732 ! Aniridia
+
+[Term]
+id: OMIM:617143
+name: Myasthenic Syndrome, Congenital, 20, Presynaptic; CMS20
+is_a: DC:0000297 ! Myasthenic Syndrome, Congenital
 
