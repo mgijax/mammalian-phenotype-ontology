@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 11:10:2016 15:38
+date: 17:10:2016 10:30
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -46084,6 +46084,11 @@ name: Frontometaphyseal Dysplasia 2; FMD2
 is_a: DC:0000731 ! Frontometaphyseal Dysplasia
 
 [Term]
+id: OMIM:617140
+name: Tokita-Kim Syndrome; TOKIMS
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
 id: OMIM:617141
 name: Aniridia 2; AN2
 is_a: DC:0000732 ! Aniridia
@@ -46097,4 +46102,19 @@ is_a: DC:0000732 ! Aniridia
 id: OMIM:617143
 name: Myasthenic Syndrome, Congenital, 20, Presynaptic; CMS20
 is_a: DC:0000297 ! Myasthenic Syndrome, Congenital
+
+[Term]
+id: OMIM:617145
+name: Neurodegeneration with Ataxia, Dystonia, and Gaze Palsy, Childhood-Onset; NADGP
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617146
+name: Arthrogryposis, Distal, with Impaired Proprioception and Touch; DAIPT
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617153
+name: Epileptic Encephalopathy, Early Infantile, 45; EIEE45
+is_a: DC:0000137 ! Epileptic Encephalopathy, Early Infantile
 
