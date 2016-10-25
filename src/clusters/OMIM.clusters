@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:10:2016 10:30
+date: 25:10:2016 10:34
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -23754,6 +23754,11 @@ name: Mental Retardation, X-Linked, Syndromic, Bain Type; MRXSB
 is_a: DC:0000273 ! Mental Retardation, X-Linked, Syndromic
 
 [Term]
+id: OMIM:300987
+name: Mental Retardation, X-Linked, Syndromic, Borck Type; MRXSBRK
+is_a: DC:0000273 ! Mental Retardation, X-Linked, Syndromic
+
+[Term]
 id: OMIM:301000
 name: Wiskott-Aldrich Syndrome; WAS
 is_a: DC:0000613 ! Wiskott-Aldrich Syndrome
@@ -46117,4 +46122,34 @@ is_a: DC:0000138 ! Disease Cluster
 id: OMIM:617153
 name: Epileptic Encephalopathy, Early Infantile, 45; EIEE45
 is_a: DC:0000137 ! Epileptic Encephalopathy, Early Infantile
+
+[Term]
+id: OMIM:617156
+name: Mitochondrial DNA Depletion Syndrome 15 (hepatocerebral Type);
+is_a: DC:0000284 ! Mitochondrial DNA Depletion Syndrome
+
+[Term]
+id: OMIM:617157
+name: Short Stature, Brachydactyly, Intellectual Developmental Disability, and Seizures; SBIDDS
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617159
+name: Sifrim-Hitz-Weiss Syndrome; SIHIWES
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617162
+name: Epileptic Encephalopathy, Early Infantile, 46; EIEE46
+is_a: DC:0000137 ! Epileptic Encephalopathy, Early Infantile
+
+[Term]
+id: OMIM:617164
+name: Short Stature, Rhizomelic, with Microcephaly, Micrognathia, and Developmental Delay; SRMMD
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617169
+name: Sotos Syndrome 3; SOTOS3
+is_a: DC:0000597 ! Sotos Syndrome
 
