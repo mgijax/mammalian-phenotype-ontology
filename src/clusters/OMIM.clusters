@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:10:2016 10:34
+date: 31:10:2016 10:12
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -46149,7 +46149,27 @@ name: Short Stature, Rhizomelic, with Microcephaly, Micrognathia, and Developmen
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
+id: OMIM:617166
+name: Epileptic Encephalopathy, Early Infantile, 47; EIEE47
+is_a: DC:0000137 ! Epileptic Encephalopathy, Early Infantile
+
+[Term]
+id: OMIM:617168
+name: Aortic Aneurysm, Familial Thoracic 10; AAT10
+is_a: DC:0000636 ! Aortic Aneurysm, Familial Thoracic
+
+[Term]
 id: OMIM:617169
 name: Sotos Syndrome 3; SOTOS3
 is_a: DC:0000597 ! Sotos Syndrome
+
+[Term]
+id: OMIM:617171
+name: Dyskinesia, Seizures, and Intellectual Developmental Disorder;
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617174
+name: Ehlers-Danlos Syndrome, Periodontal Type 2 Edspd2
+is_a: DC:0000129 ! Ehlers Danlos Syndrome
 
