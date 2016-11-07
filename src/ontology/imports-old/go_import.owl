@@ -35247,6 +35247,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0031091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031091">
+        <rdfs:label rdf:datatype="&xsd;string">platelet alpha granule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030141"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0031098 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031098">
