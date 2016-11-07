@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 31:10:2016 10:12
+date: 07:11:2016 10:18
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -25073,6 +25073,11 @@ name: Hypomagnesemia, Hypertension, and Hypercholesterolemia, Mitochondrial
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
+id: OMIM:500006
+name: Cardiomyopathy, Infantile Hypertrophic
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
 id: OMIM:500007
 name: Cyclic Vomiting Syndrome; CVS
 is_a: DC:0000138 ! Disease Cluster
@@ -25086,6 +25091,11 @@ is_a: DC:0000138 ! Disease Cluster
 id: OMIM:500009
 name: Mitochondrial Myopathy, Infantile, Transient; MMIT
 is_a: DC:0000285 ! Mitochondrial Myopathy
+
+[Term]
+id: OMIM:500010
+name: Ataxia and Polyneuropathy, Adult-Onset
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:500011
@@ -46172,4 +46182,14 @@ is_a: DC:0000138 ! Disease Cluster
 id: OMIM:617174
 name: Ehlers-Danlos Syndrome, Periodontal Type 2 Edspd2
 is_a: DC:0000129 ! Ehlers Danlos Syndrome
+
+[Term]
+id: OMIM:617175
+name: Retinal Dystrophy with or without Extraocular Anomalies; RDEOA
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617180
+name: Chitayat Syndrome; CHYTS
+is_a: DC:0000138 ! Disease Cluster
 
