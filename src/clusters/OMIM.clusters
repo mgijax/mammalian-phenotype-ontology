@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 07:11:2016 10:18
+date: 14:11:2016 11:30
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -45771,7 +45771,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:617022
 name: Lethal Congenital Contracture Syndrome 10; LCCS10
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000241 ! Lethal Congenital Contractural Syndrome
 
 [Term]
 id: OMIM:617023
@@ -46179,6 +46179,11 @@ name: Dyskinesia, Seizures, and Intellectual Developmental Disorder;
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
+id: OMIM:617173
+name: Intellectual Developmental Disorder with Cardiac Arrhythmia; IDDCA
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
 id: OMIM:617174
 name: Ehlers-Danlos Syndrome, Periodontal Type 2 Edspd2
 is_a: DC:0000129 ! Ehlers Danlos Syndrome
@@ -46192,4 +46197,34 @@ is_a: DC:0000138 ! Disease Cluster
 id: OMIM:617180
 name: Chitayat Syndrome; CHYTS
 is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617182
+name: Language Delay and Attention Deficit-Hyperactivity Disorder/Cognitive Impairment with or without Cardiac Arrhythmia; LADCI
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617186
+name: Encephalopathy, Progressive, Early-Onset, with Brain Edema and/or Leukoencephalopathy; PEBEL
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617187
+name: Spermatogenic Failure 16; SPGF16
+is_a: DC:0000404 ! Spermatogenic Failure
+
+[Term]
+id: OMIM:617188
+name: Mental Retardation, Autosomal Recessive 57; MRT57
+is_a: DC:0000655 ! Mental Retardation, Autosomal Recessive
+
+[Term]
+id: OMIM:617190
+name: Shashi-Pena Syndrome; SHAPNS
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617194
+name: Lethal Congenital Contracture Syndrome 11; LCCS11
+is_a: DC:0000241 ! Lethal Congenital Contractural Syndrome
 
