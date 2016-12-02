@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:11:2016 11:30
+date: 02:12:2016 14:39
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -46144,6 +46144,11 @@ name: Short Stature, Brachydactyly, Intellectual Developmental Disability, and S
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
+id: OMIM:617158
+name: Myopathy, Distal, with Rimmed Vacuoles; DMRV
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
 id: OMIM:617159
 name: Sifrim-Hitz-Weiss Syndrome; SIHIWES
 is_a: DC:0000138 ! Disease Cluster
@@ -46204,6 +46209,16 @@ name: Language Delay and Attention Deficit-Hyperactivity Disorder/Cognitive Impa
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
+id: OMIM:617183
+name: Harel-Yoon Syndrome; HAYOS
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617184
+name: Mitochondrial DNA Depletion Syndrome 12a (cardiomyopathic Type), Autosomal Dominant; MTDPS12A
+is_a: DC:0000284 ! Mitochondrial DNA Depletion Syndrome
+
+[Term]
 id: OMIM:617186
 name: Encephalopathy, Progressive, Early-Onset, with Brain Edema and/or Leukoencephalopathy; PEBEL
 is_a: DC:0000138 ! Disease Cluster
@@ -46224,7 +46239,52 @@ name: Shashi-Pena Syndrome; SHAPNS
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
+id: OMIM:617193
+name: Encephalopathy, Progressive, Early-Onset, with Brain Atrophy and Thin Corpus Callosum; PEBAT
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
 id: OMIM:617194
 name: Lethal Congenital Contracture Syndrome 11; LCCS11
 is_a: DC:0000241 ! Lethal Congenital Contractural Syndrome
+
+[Term]
+id: OMIM:617201
+name: Periventricular Nodular Heterotopia 7; PVNH7
+is_a: DC:0000186 ! Heterotopia, Periventricular
+
+[Term]
+id: OMIM:617205
+name: Heterotaxy, Visceral, 8, Autosomal; HTX8
+is_a: DC:0000531 ! Heterotaxy, Visceral
+
+[Term]
+id: OMIM:617213
+name: Sedoheptulokinase Deficiency; SHPKD
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617214
+name: Spermatogenic Failure 17; SPGF17
+is_a: DC:0000404 ! Spermatogenic Failure
+
+[Term]
+id: OMIM:617217
+name: Amelogenesis Imperfecta, Hypomaturation Type, Iia6; AI2A6
+is_a: DC:0000022 ! Amelogenesis Imperfecta
+
+[Term]
+id: OMIM:617219
+name: Chromosome 19q13.11 Deletion Syndrome, Proximal
+is_a: DC:0000085 ! Chromosome Deletion Syndrome
+
+[Term]
+id: OMIM:617222
+name: Sudden Cardiac Failure, Infantile; SCFI
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617223
+name: Sudden Cardiac Failure, Alcohol-Induced; SCFAI
+is_a: DC:0000138 ! Disease Cluster
 
