@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 02:12:2016 14:39
+date: 05:12:2016 11:58
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -5975,6 +5975,13 @@ xref: PS:106210
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2016-10-11T15:34:32Z
+
+[Term]
+id: DC:0000733
+name: Preimplantation Embryonic Lethality
+is_a: DC:0000138 ! Disease Cluster
+created_by: smb
+creation_date: 2016-12-05T11:55:35Z
 
 [Term]
 id: OMIM:100050
@@ -45335,8 +45342,8 @@ is_a: DC:0000250 ! Muscular Dystrophy, Limb-Girdle
 
 [Term]
 id: OMIM:616814
-name: Preimplantation Embryonic Lethality; PREMBL
-is_a: DC:0000138 ! Disease Cluster
+name: Preimplantation Embryonic Lethality 1; PREMBL1
+is_a: DC:0000733 ! Preimplantation Embryonic Lethality
 
 [Term]
 id: OMIM:616816
@@ -46259,6 +46266,11 @@ name: Heterotaxy, Visceral, 8, Autosomal; HTX8
 is_a: DC:0000531 ! Heterotaxy, Visceral
 
 [Term]
+id: OMIM:617207
+name: Encephalopathy, Progressive, with Amyotrophy and Optic Atrophy; PEAMO
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
 id: OMIM:617213
 name: Sedoheptulokinase Deficiency; SHPKD
 is_a: DC:0000138 ! Disease Cluster
@@ -46287,4 +46299,19 @@ is_a: DC:0000138 ! Disease Cluster
 id: OMIM:617223
 name: Sudden Cardiac Failure, Alcohol-Induced; SCFAI
 is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617228
+name: Combined Oxidative Phosphorylation Deficiency 31; COXPD31
+is_a: DC:0000092 ! Combined Oxidative Phosphorylation Deficiency
+
+[Term]
+id: OMIM:617232
+name: Muscular Dystrophy, Limb-Girdle, Type 2z; LGMD2Z
+is_a: DC:0000250 ! Muscular Dystrophy, Limb-Girdle
+
+[Term]
+id: OMIM:617234
+name: Preimplantation Embryonic Lethality 2; PREMBL2
+is_a: DC:0000733 ! Preimplantation Embryonic Lethality
 
