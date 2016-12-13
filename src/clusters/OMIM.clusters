@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 05:12:2016 11:58
+date: 13:12:2016 15:03
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -44616,7 +44616,7 @@ is_a: DC:0000615 ! Immunodeficiency
 [Term]
 id: OMIM:616435
 name: Fanconi Anemia, Complementation Group T; FANCT
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000147 ! Fanconi Anemia
 
 [Term]
 id: OMIM:616436
@@ -46314,4 +46314,49 @@ is_a: DC:0000250 ! Muscular Dystrophy, Limb-Girdle
 id: OMIM:617234
 name: Preimplantation Embryonic Lethality 2; PREMBL2
 is_a: DC:0000733 ! Preimplantation Embryonic Lethality
+
+[Term]
+id: OMIM:617235
+name: Myoclonus, Intractable, Neonatal; NEIMY
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617236
+name: Cone-Rod Dystrophy and Hearing Loss; CRDHL
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617237
+name: Immunodeficiency 49; IMD49
+is_a: DC:0000615 ! Immunodeficiency
+
+[Term]
+id: OMIM:617238
+name: Myopia 25, Autosomal Dominant; MYP25
+is_a: DC:0000307 ! Myopia
+
+[Term]
+id: OMIM:617239
+name: Myasthenic Syndrome, Congenital, 21, Presynaptic; CMS21
+is_a: DC:0000297 ! Myasthenic Syndrome, Congenital
+
+[Term]
+id: OMIM:617241
+name: Lung Disease, Immunodeficiency, and Chromosome Breakage Syndrome;
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617243
+name: Fanconi Anemia, Complementation Group V; FANCV
+is_a: DC:0000147 ! Fanconi Anemia
+
+[Term]
+id: OMIM:617244
+name: Fanconi Anemia, Complementation Group R; FANCR
+is_a: DC:0000147 ! Fanconi Anemia
+
+[Term]
+id: OMIM:617247
+name: Fanconi Anemia, Complementation Group U; FANCU
+is_a: DC:0000147 ! Fanconi Anemia
 
