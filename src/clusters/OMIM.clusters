@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:12:2016 15:03
+date: 19:12:2016 11:47
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -23766,6 +23766,16 @@ name: Mental Retardation, X-Linked, Syndromic, Borck Type; MRXSBRK
 is_a: DC:0000273 ! Mental Retardation, X-Linked, Syndromic
 
 [Term]
+id: OMIM:300988
+name: Immunodeficiency 50; IMD50
+is_a: DC:0000615 ! Immunodeficiency
+
+[Term]
+id: OMIM:300989
+name: Meester-Loeys Syndrome; MRLS
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
 id: OMIM:301000
 name: Wiskott-Aldrich Syndrome; WAS
 is_a: DC:0000613 ! Wiskott-Aldrich Syndrome
@@ -46359,4 +46369,24 @@ is_a: DC:0000147 ! Fanconi Anemia
 id: OMIM:617247
 name: Fanconi Anemia, Complementation Group U; FANCU
 is_a: DC:0000147 ! Fanconi Anemia
+
+[Term]
+id: OMIM:617248
+name: 3-methylglutaconic Aciduria, Type Viii; MGCA8
+is_a: DC:0000004 ! 3-Methylglutaconic Aciduria
+
+[Term]
+id: OMIM:617253
+name: Seckel Syndrome 10; SCKL10
+is_a: DC:0000401 ! Seckel Syndrome
+
+[Term]
+id: OMIM:617255
+name: Lissencephaly 8; LIS8
+is_a: DC:0000253 ! Lissencephaly
+
+[Term]
+id: OMIM:617258
+name: Myopathy, Myofibrillar, 8; MFM8
+is_a: DC:0000305 ! Myopathy, Myofibrillar
 
