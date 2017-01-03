@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 19:12:2016 11:47
+date: 03:01:2017 11:28
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -5982,6 +5982,13 @@ name: Preimplantation Embryonic Lethality
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2016-12-05T11:55:35Z
+
+[Term]
+id: DC:0000734
+name: Uncombable Hair Syndrome
+is_a: DC:0000138 ! Disease Cluster
+created_by: smb
+creation_date: 2017-01-03T11:24:35Z
 
 [Term]
 id: OMIM:100050
@@ -14238,8 +14245,8 @@ is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:191480
-name: Uncombable Hair Syndrome
-is_a: DC:0000138 ! Disease Cluster
+name: Uncombable Hair Syndrome 1
+is_a: DC:0000734 ! Uncombable Hair Syndrome
 
 [Term]
 id: OMIM:191482
@@ -14319,6 +14326,11 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:192100
 name: Uvula, Bifid
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:192200
+name: Varicose Veins
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
@@ -46376,6 +46388,16 @@ name: 3-methylglutaconic Aciduria, Type Viii; MGCA8
 is_a: DC:0000004 ! 3-Methylglutaconic Aciduria
 
 [Term]
+id: OMIM:617251
+name: Uncombable Hair Syndrome 2; UHS2
+is_a: DC:0000734 ! Uncombable Hair Syndrome
+
+[Term]
+id: OMIM:617252
+name: Uncombable Hair Syndrome 3; UHS3
+is_a: DC:0000734 ! Uncombable Hair Syndrome
+
+[Term]
 id: OMIM:617253
 name: Seckel Syndrome 10; SCKL10
 is_a: DC:0000401 ! Seckel Syndrome
@@ -46389,4 +46411,34 @@ is_a: DC:0000253 ! Lissencephaly
 id: OMIM:617258
 name: Myopathy, Myofibrillar, 8; MFM8
 is_a: DC:0000305 ! Myopathy, Myofibrillar
+
+[Term]
+id: OMIM:617260
+name: Global Developmental Delay, Absent or Hypoplastic Corpus Callosum, and Dysmorphic Facies; GDACCF
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617268
+name: Neurodevelopmental Disorder with Hypotonia, Seizures, and Absent Language; NDHSAL
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617270
+name: Mental Retardation, Autosomal Recessive 58; MRT58
+is_a: DC:0000655 ! Mental Retardation, Autosomal Recessive
+
+[Term]
+id: OMIM:617272
+name: Glaucoma 3, Primary Congenital, E; GLC3E
+is_a: DC:0000172 ! Glaucoma
+
+[Term]
+id: OMIM:617275
+name: Tooth Agenesis, Selective, 9; STHAG9
+is_a: DC:0000439 ! Tooth Agenesis, Selective
+
+[Term]
+id: OMIM:617280
+name: Atrial Fibrillation, Familial, 18; ATFB18
+is_a: DC:0000042 ! Atrial Fibrillation, Familial
 
