@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 03:01:2017 11:28
+date: 09:01:2017 10:58
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -46441,4 +46441,19 @@ is_a: DC:0000439 ! Tooth Agenesis, Selective
 id: OMIM:617280
 name: Atrial Fibrillation, Familial, 18; ATFB18
 is_a: DC:0000042 ! Atrial Fibrillation, Familial
+
+[Term]
+id: OMIM:617282
+name: Dystonia, Childhood-Onset, with Optic Atrophy and Basal Ganglia Abnormalities; DYTOABG
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617284
+name: Dystonia 28, Childhood-Onset; DYT28
+is_a: DC:0000126 ! Dystonia
+
+[Term]
+id: OMIM:617290
+name: Epilepsy, Early-Onset, Vitamin B6-Dependent; EPVB6D
+is_a: DC:0000138 ! Disease Cluster
 
