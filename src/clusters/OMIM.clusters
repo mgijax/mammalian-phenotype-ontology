@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 09:01:2017 10:58
+date: 16:01:2017 11:15
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -46323,6 +46323,11 @@ name: Sudden Cardiac Failure, Alcohol-Induced; SCFAI
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
+id: OMIM:617225
+name: Spastic Paraplegia 78, Autosomal Recessive; SPG78
+is_a: DC:0000410 ! Spastic Paraplegia
+
+[Term]
 id: OMIM:617228
 name: Combined Oxidative Phosphorylation Deficiency 31; COXPD31
 is_a: DC:0000092 ! Combined Oxidative Phosphorylation Deficiency
@@ -46428,6 +46433,11 @@ name: Mental Retardation, Autosomal Recessive 58; MRT58
 is_a: DC:0000655 ! Mental Retardation, Autosomal Recessive
 
 [Term]
+id: OMIM:617271
+name: Nephronophthisis 20; NPHP20
+is_a: DC:0000316 ! Nephronophthisis
+
+[Term]
 id: OMIM:617272
 name: Glaucoma 3, Primary Congenital, E; GLC3E
 is_a: DC:0000172 ! Glaucoma
@@ -46438,9 +46448,19 @@ name: Tooth Agenesis, Selective, 9; STHAG9
 is_a: DC:0000439 ! Tooth Agenesis, Selective
 
 [Term]
+id: OMIM:617276
+name: Epileptic Encephalopathy, Early Infantile, 48; EIEE48
+is_a: DC:0000137 ! Epileptic Encephalopathy, Early Infantile
+
+[Term]
 id: OMIM:617280
 name: Atrial Fibrillation, Familial, 18; ATFB18
 is_a: DC:0000042 ! Atrial Fibrillation, Familial
+
+[Term]
+id: OMIM:617281
+name: Epileptic Encephalopathy, Early Infantile, 49; EIEE49
+is_a: DC:0000137 ! Epileptic Encephalopathy, Early Infantile
 
 [Term]
 id: OMIM:617282
@@ -46455,5 +46475,20 @@ is_a: DC:0000126 ! Dystonia
 [Term]
 id: OMIM:617290
 name: Epilepsy, Early-Onset, Vitamin B6-Dependent; EPVB6D
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617294
+name: Epidermolysis Bullosa Simplex, Generalized, with Scarring and Hair Loss; EBSSH
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617296
+name: Spastic Paraplegia, Intellectual Disability, Nystagmus, and Obesity;
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617300
+name: Hydrops Fetalis, Nonimmune, and/or Atrial Septal Defect, Susceptibility To; HFASD
 is_a: DC:0000138 ! Disease Cluster
 
