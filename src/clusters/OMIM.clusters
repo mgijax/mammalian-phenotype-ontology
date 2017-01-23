@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 16:01:2017 11:15
+date: 23:01:2017 15:24
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -46488,7 +46488,32 @@ name: Spastic Paraplegia, Intellectual Disability, Nystagmus, and Obesity;
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
+id: OMIM:617297
+name: Amelogenesis Imperfecta, Type IJ; AI1J
+is_a: DC:0000022 ! Amelogenesis Imperfecta
+
+[Term]
 id: OMIM:617300
 name: Hydrops Fetalis, Nonimmune, and/or Atrial Septal Defect, Susceptibility To; HFASD
 is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617301
+name: Glycine Encephalopathy with Normal Serum Glycine
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617302
+name: Optic Atrophy 11; OPA11
+is_a: DC:0000333 ! Optic Atrophy
+
+[Term]
+id: OMIM:617303
+name: Mucopolysaccharidosis-Plus Syndrome; MPSPS
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617304
+name: Retinitis Pigmentosa 77; RP77
+is_a: DC:0000386 ! Retinitis Pigmentosa
 
