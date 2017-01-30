@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 23:01:2017 15:24
+date: 30:01:2017 14:21
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -1869,7 +1869,7 @@ creation_date: 2013-09-05T10:37:05Z
 id: DC:0000228
 name: Iridogoniodysgenesis
 comment: See genetic heterogeneity of OMIM 601631.
-is_a: DC:0000138 ! Disease Cluster
+is_obsolete: true
 created_by: smb
 creation_date: 2013-09-05T10:38:28Z
 
@@ -4831,7 +4831,7 @@ creation_date: 2013-10-16T14:29:10Z
 id: DC:0000594
 name: Sclerocornea
 comment: See Inheritance of OMIM 181700.
-is_a: DC:0000138 ! Disease Cluster
+is_obsolete: true
 created_by: smb
 creation_date: 2013-10-16T14:31:16Z
 
@@ -5991,6 +5991,13 @@ created_by: smb
 creation_date: 2017-01-03T11:24:35Z
 
 [Term]
+id: DC:0000735
+name: Anterior Segment Dysgenesis
+is_a: DC:0000138 ! Disease Cluster
+created_by: smb
+creation_date: 2017-01-30T14:10:43Z
+
+[Term]
 id: OMIM:100050
 name: Aarskog Syndrome, Autosomal Dominant
 is_a: DC:0000138 ! Disease Cluster
@@ -6556,7 +6563,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:107250
 name: Anterior segment mesenchymal dysgenesis
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000735 ! Anterior Segment Dysgenesis
 
 [Term]
 id: OMIM:107290
@@ -9304,7 +9311,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:137600
 name: IRIDOGONIODYSGENESIS, TYPE 2
-is_a: DC:0000228 ! Iridogoniodysgenesis
+is_a: DC:0000735 ! Anterior Segment Dysgenesis
 
 [Term]
 id: OMIM:137700
@@ -13194,7 +13201,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:181700
 name: Sclerocornea, Autosomal Dominant
-is_a: DC:0000594 ! Sclerocornea
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:181750
@@ -21263,7 +21270,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:269400
 name: Sclerocornea, Autosomal Recessive
-is_a: DC:0000594 ! Sclerocornea
+is_a: DC:0000735 ! Anterior Segment Dysgenesis
 
 [Term]
 id: OMIM:269500
@@ -23785,6 +23792,11 @@ is_a: DC:0000615 ! Immunodeficiency
 [Term]
 id: OMIM:300989
 name: Meester-Loeys Syndrome; MRLS
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:300990
+name: Midface Hypoplasia, Hearing Impairment, Elliptocytosis, and Nephrocalcinosis; MFHIEN
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
@@ -26860,7 +26872,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:601631
 name: IRIDOGONIODYSGENESIS, TYPE 1
-is_a: DC:0000228 ! Iridogoniodysgenesis
+is_a: DC:0000735 ! Anterior Segment Dysgenesis
 
 [Term]
 id: OMIM:601634
@@ -28385,7 +28397,7 @@ is_a: DC:0000070 ! Cataract
 [Term]
 id: OMIM:604229
 name: Peters anomaly
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000735 ! Anterior Segment Dysgenesis
 
 [Term]
 id: OMIM:604232
@@ -33666,7 +33678,7 @@ is_a: DC:0000654 ! Mental Retardation, Autosomal Dominant
 [Term]
 id: OMIM:610256
 name: Aphakia, congenital primary
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000735 ! Anterior Segment Dysgenesis
 
 [Term]
 id: OMIM:610260
@@ -46516,4 +46528,29 @@ is_a: DC:0000138 ! Disease Cluster
 id: OMIM:617304
 name: Retinitis Pigmentosa 77; RP77
 is_a: DC:0000386 ! Retinitis Pigmentosa
+
+[Term]
+id: OMIM:617306
+name: Coloboma, Osteopetrosis, Microphthalmia, Macrocephaly, Albinism, and Deafness; COMMAD
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617308
+name: Bile Acid Synthesis Defect, Congenital, 6; CBAS6
+is_a: DC:0000196 ! Bile Acid Synthesis Defect, Congenital
+
+[Term]
+id: OMIM:617315
+name: Anterior Segment Dysgenesis 6; ASGD6
+is_a: DC:0000735 ! Anterior Segment Dysgenesis
+
+[Term]
+id: OMIM:617319
+name: Anterior Segment Dysgenesis 8; ASGD8
+is_a: DC:0000735 ! Anterior Segment Dysgenesis
+
+[Term]
+id: OMIM:617320
+name: Ichthyosis, Congenital, Autosomal Recessive 12; ARCI12
+is_a: DC:0000652 ! Ichthyosis, Congenital, Autosomal Recessive
 
