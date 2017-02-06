@@ -65069,6 +65069,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_1990956 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1990956">
+        <rdfs:label rdf:datatype="&xsd;string">fibroblast chemotaxis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0060326"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_2000021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_2000021">
