@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 30:01:2017 14:21
+date: 06:02:2017 11:09
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -46553,4 +46553,14 @@ is_a: DC:0000735 ! Anterior Segment Dysgenesis
 id: OMIM:617320
 name: Ichthyosis, Congenital, Autosomal Recessive 12; ARCI12
 is_a: DC:0000652 ! Ichthyosis, Congenital, Autosomal Recessive
+
+[Term]
+id: OMIM:617321
+name: Yao Syndrome; YAOS
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617323
+name: Mental Retardation, Autosomal Recessive 59; MRT59
+is_a: DC:0000655 ! Mental Retardation, Autosomal Recessive
 
