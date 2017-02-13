@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 06:02:2017 11:09
+date: 13:02:2017 09:49
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -5996,6 +5996,13 @@ name: Anterior Segment Dysgenesis
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2017-01-30T14:10:43Z
+
+[Term]
+id: DC:0000736
+name: Cerebroretinal Microangiopathy with Calcifications and Cysts
+is_a: DC:0000138 ! Disease Cluster
+created_by: smb
+creation_date: 2017-02-13T09:41:15Z
 
 [Term]
 id: OMIM:100050
@@ -23800,6 +23807,11 @@ name: Midface Hypoplasia, Hearing Impairment, Elliptocytosis, and Nephrocalcinos
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
+id: OMIM:300991
+name: Ciliary Dyskinesia, Primary, 36, X-Linked; CILD36
+is_a: DC:0000086 ! Ciliary Dyskinesia, Primary
+
+[Term]
 id: OMIM:301000
 name: Wiskott-Aldrich Syndrome; WAS
 is_a: DC:0000613 ! Wiskott-Aldrich Syndrome
@@ -35477,8 +35489,8 @@ is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:612199
-name: Cerebroretinal Microangiopathy with Calcifications and Cysts; CRMCC
-is_a: DC:0000138 ! Disease Cluster
+name: Cerebroretinal Microangiopathy with Calcifications and Cysts 1; CRMCC1
+is_a: DC:0000736 ! Cerebroretinal Microangiopathy with Calcifications and Cysts
 
 [Term]
 id: OMIM:612201
@@ -46563,4 +46575,39 @@ is_a: DC:0000138 ! Disease Cluster
 id: OMIM:617323
 name: Mental Retardation, Autosomal Recessive 59; MRT59
 is_a: DC:0000655 ! Mental Retardation, Autosomal Recessive
+
+[Term]
+id: OMIM:617330
+name: Hypotonia, Ataxia, and Delayed Development Syndrome; HADDS
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617333
+name: Intellectual Developmental Disorder with Dysmorphic Facies and Ptosis; IDDDFP
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:617336
+name: Nemaline Myopathy 11, Autosomal Recessive; NEM11
+is_a: DC:0000314 ! Nemaline Myopathy
+
+[Term]
+id: OMIM:617337
+name: Ectodermal Dysplasia 12, Hypohidrotic/Hair/Tooth/Nail Type; ECTD12
+is_a: DC:0000128 ! Ectodermal Dysplasia
+
+[Term]
+id: OMIM:617339
+name: Epileptic Encephalopathy, Early Infantile, 51; EIEE51
+is_a: DC:0000137 ! Epileptic Encephalopathy, Early Infantile
+
+[Term]
+id: OMIM:617341
+name: Cerebroretinal Microangiopathy with Calcifications and Cysts 2;
+is_a: DC:0000736 ! Cerebroretinal Microangiopathy with Calcifications and Cysts
+
+[Term]
+id: OMIM:617343
+name: Hyperparathyroidism 4; HRPT4
+is_a: DC:0000201 ! Hyperparathyroidism
 
