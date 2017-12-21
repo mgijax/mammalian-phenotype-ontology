@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1513874471625" name="http://purl.obolibrary.org/obo/" uri="upheno-preimporter.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1513874471625" name="http://purl.obolibrary.org/obo/hsapdv.owl" uri="hsapdv_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1513874471625" name="http://purl.obolibrary.org/obo/temporary/5140a674-088d-4b48-83e3-761a078507e3" uri="ro_extra.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1513874471625" name="http://purl.obolibrary.org/obo/upheno/imports/chebi_import.owl" uri="chebi_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1513874471625" name="http://purl.obolibrary.org/obo/upheno/imports/doid_import.owl" uri="doid_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1513874471625" name="http://purl.obolibrary.org/obo/upheno/imports/fbbt_import.owl" uri="fbbt_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1513874471625" name="http://purl.obolibrary.org/obo/upheno/imports/fbbt_phenotype.owl" uri="fbbt_phenotype.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1513874471625" name="http://purl.obolibrary.org/obo/upheno/imports/go_import.owl" uri="go_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1513874471625" name="http://purl.obolibrary.org/obo/upheno/imports/go_phenotype.owl" uri="go_phenotype.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1513874471625" name="http://purl.obolibrary.org/obo/upheno/imports/imports/wbbt_import.owl" uri="wbbt_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1513874471625" name="http://purl.obolibrary.org/obo/upheno/imports/mpath_import.owl" uri="mpath_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1513874471625" name="http://purl.obolibrary.org/obo/upheno/imports/mpath_phenotype.owl" uri="mpath_phenotype.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1513874471625" name="http://purl.obolibrary.org/obo/upheno/imports/nbo_import.owl" uri="nbo_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1513874471625" name="http://purl.obolibrary.org/obo/upheno/imports/nbo_phenotype.owl" uri="nbo_phenotype.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1513874471625" name="http://purl.obolibrary.org/obo/upheno/imports/pato_import.owl" uri="pato_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1513874471625" name="http://purl.obolibrary.org/obo/upheno/imports/pr_import.owl" uri="pr_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1513874471625" name="http://purl.obolibrary.org/obo/upheno/imports/ro_import.owl" uri="ro_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1513874471625" name="http://purl.obolibrary.org/obo/upheno/imports/so_import.owl" uri="so_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1513874471625" name="http://purl.obolibrary.org/obo/upheno/imports/uberon_import.owl" uri="uberon_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1513874471625" name="http://purl.obolibrary.org/obo/upheno/imports/uberon_phenotype.owl" uri="uberon_phenotype.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1513874471625" name="http://purl.obolibrary.org/obo/upheno/imports/wbbt_phenotype.owl" uri="wbbt_phenotype.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1513874471625" name="duplicate:http://purl.obolibrary.org/obo/x-bfo.owl" uri="extra.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1513874471625" name="duplicate:http://purl.obolibrary.org/obo/x-bfo.owl" uri="grouping_phenotypes.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1513887867568" name="http://purl.obolibrary.org/obo/" uri="upheno-preimporter.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1513887867568" name="http://purl.obolibrary.org/obo/hsapdv.owl" uri="hsapdv_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1513887867568" name="http://purl.obolibrary.org/obo/temporary/5140a674-088d-4b48-83e3-761a078507e3" uri="ro_extra.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1513887867568" name="http://purl.obolibrary.org/obo/upheno/imports/chebi_import.owl" uri="chebi_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1513887867568" name="http://purl.obolibrary.org/obo/upheno/imports/doid_import.owl" uri="doid_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1513887867568" name="http://purl.obolibrary.org/obo/upheno/imports/fbbt_import.owl" uri="fbbt_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1513887867568" name="http://purl.obolibrary.org/obo/upheno/imports/fbbt_phenotype.owl" uri="fbbt_phenotype.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1513887867568" name="http://purl.obolibrary.org/obo/upheno/imports/go_import.owl" uri="go_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1513887867568" name="http://purl.obolibrary.org/obo/upheno/imports/go_phenotype.owl" uri="go_phenotype.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1513887867568" name="http://purl.obolibrary.org/obo/upheno/imports/imports/wbbt_import.owl" uri="wbbt_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1513887867568" name="http://purl.obolibrary.org/obo/upheno/imports/mpath_import.owl" uri="mpath_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1513887867568" name="http://purl.obolibrary.org/obo/upheno/imports/mpath_phenotype.owl" uri="mpath_phenotype.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1513887867568" name="http://purl.obolibrary.org/obo/upheno/imports/nbo_import.owl" uri="nbo_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1513887867568" name="http://purl.obolibrary.org/obo/upheno/imports/nbo_phenotype.owl" uri="nbo_phenotype.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1513887867568" name="http://purl.obolibrary.org/obo/upheno/imports/pato_import.owl" uri="pato_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1513887867568" name="http://purl.obolibrary.org/obo/upheno/imports/pr_import.owl" uri="pr_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1513887867568" name="http://purl.obolibrary.org/obo/upheno/imports/ro_import.owl" uri="ro_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1513887867568" name="http://purl.obolibrary.org/obo/upheno/imports/so_import.owl" uri="so_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1513887867568" name="http://purl.obolibrary.org/obo/upheno/imports/uberon_import.owl" uri="uberon_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1513887867568" name="http://purl.obolibrary.org/obo/upheno/imports/uberon_phenotype.owl" uri="uberon_phenotype.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1513887867568" name="http://purl.obolibrary.org/obo/upheno/imports/wbbt_phenotype.owl" uri="wbbt_phenotype.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1513887867568" name="duplicate:http://purl.obolibrary.org/obo/x-bfo.owl" uri="extra.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1513887867568" name="duplicate:http://purl.obolibrary.org/obo/x-bfo.owl" uri="grouping_phenotypes.owl"/>
     </group>
 </catalog>
