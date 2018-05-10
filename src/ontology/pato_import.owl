@@ -4715,6 +4715,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0001775 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001775">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001769"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dorsal-ventral polarity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001776 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001776">
@@ -7901,6 +7910,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002519">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000141"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancellous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002539 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002539">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000052"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ring shaped</rdfs:label>
     </owl:Class>
     
 
