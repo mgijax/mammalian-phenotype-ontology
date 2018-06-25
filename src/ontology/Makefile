@@ -135,3 +135,9 @@ external/uberon/%.owl:
 
 external/mirror/%.owl:
 	wget $(OBO)/$*.owl -O $@
+
+# Create a read-only OBO subset with logical defs
+mp-edit.obo: mp-edit.owl
+	owltools --use-catalog $< --add-obo-shorthand-to-properties -o -f obo --no-check $@
+subsets/mp-ldefs.obo: mp-edit.obo
+	obo-filter-tags.pl -t intersection_of -t id -t name $< | obo-grep.pl -r intersection_of - | grep -v ^owl-axioms > $@
