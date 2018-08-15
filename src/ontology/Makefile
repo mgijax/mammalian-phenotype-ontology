@@ -1,4 +1,7 @@
-all: mp.obo mp.owl all-subsets mp-inferred.obo
+OBO=http://purl.obolibrary.org/obo
+RELEASE_URIBASE= $(OBO)/mp/releases/`date +%Y-%m-%d`
+
+all: mp.obo mp.owl all-subsets mp-inferred.obo mp-base.owl
 
 mp.obo: build/mp-simple.obo
 	owltools $< --make-subset-by-properties -o -f obo $@.tmp && grep -v ^remark: $@.tmp > $@
@@ -27,6 +30,10 @@ mp-inferred.obo: mp-edit.owl
 	owltools  --use-catalog $<  --assert-inferred-subclass-axioms --markIsInferred --allowEquivalencies --reasoner-query -r elk MP_0000001 --make-ontology-from-results mp-inferred -o -f obo $@.tmp --reasoner-dispose && grep -v ^owl-axioms $@.tmp > $@
 
 build/mp.owl: build/mp-simple.obo
+
+# Create "base" release file containing MP-asserted axioms, no external axioms, and no inferences.
+mp-base.owl: mp-edit.owl catalog-v001.xml
+	owltools --use-catalog $< --remove-imports-declarations --set-ontology-id -v $(RELEASE_URIBASE)/$@ $(OBO)/mp/$@ -o -f owl $@.tmp && cp $@.tmp $@ && touch $@ && rm $@.tmp
 
 ## TEMPORARY: use this to make a test mp-edit.owl. This target will be
 ## eliminated when mp-edit.owl becomes the live version
