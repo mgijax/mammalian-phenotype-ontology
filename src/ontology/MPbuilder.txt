@@ -1,0 +1,7 @@
+java -jar owltools-oort-all.jar --catalog-xml catalog-v001.xml  --ignoreLock --skip-release-folder --outdir build --simple --allow-overwrite --no-reasoner mp-edit.owl
+
+java -DentityExmpansionLimit=4086000 -Djava.awt.headless=true -classpath owltools-runner-all.jar owltools.cli.CommandLineInterface build/mp-simple.obo --make-subset-by-properties -o -f obo mp.obo.tmp && grep -v ^remark: mp.obo.tmp > mp.obo
+
+java -Xms2G -Xmx6G -DentityExmpansionLimit=4086000 -Djava.awt.headless=true -classpath owltools-runner-all.jar owltools.cli.CommandLineInterface  --use-catalog mp-edit.owl  --assert-inferred-subclass-axioms --markIsInferred --allowEquivalencies --reasoner-query -r elk MP_0000001 --make-ontology-from-results mp-inferred -o -f obo mp-inferred.obo.tmp --reasoner-dispose && grep -v ^owl-axioms mp-inferred.obo.tmp > mp-inferred.obo
+
+java -Xms2G -Xmx6G -DentityExmpansionLimit=4086000 -Djava.awt.headless=true -classpath owltools-runner-all.jar owltools.cli.CommandLineInterface --use-catalog mp-edit.owl --remove-imports-declarations --set-ontology-id -v http://purl.obolibrary.org/obo/mp/releases/`date +%Y-%m-%d`/mp-base.owl http://purl.obolibrary.org/obo/mp/mp-base.owl -o -f owl mp-base.owl.tmp && cp mp-base.owl.tmp mp-base.owl && touch mp-base.owl && rm mp-base.owl.tmp?
