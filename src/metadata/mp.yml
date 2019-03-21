@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/mp
+
+idspace: MP
+base_url: /obo/mp
+
+products:
+- mp.owl: https://raw.githubusercontent.com/obophenotype/mammalian-phenotype-ontology/master/mp.owl
+- mp.obo: https://raw.githubusercontent.com/obophenotype/mammalian-phenotype-ontology/master/mp.obo
+
+term_browser: ontobee
+example_terms:
+- mp_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/obophenotype/mammalian-phenotype-ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/obophenotype/mammalian-phenotype-ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/MP?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/obophenotype/mammalian-phenotype-ontology/master/
