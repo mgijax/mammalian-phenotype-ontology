@@ -1,0 +1,4679 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_64",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormal development (of organs or tissues) or an abnormal structure resulting from such growth.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "The word dysplasia as commonly used refers to a precursor state to neoplasia. This is not the context used for this MPATH term."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "developmental dysplasia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_62",
+      "meta" : {
+        "definition" : {
+          "val" : "Formation of an epithelium bounded cavity not associated with neoplasia.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cyst"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_68",
+      "meta" : {
+        "definition" : {
+          "val" : "A blind ended outpouching through the wall of a tubular organ or bounded cavity.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "diverticulum"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_66",
+      "meta" : {
+        "definition" : {
+          "val" : "Increase in the diameter of an orifice or tubular structure beyond its normal dimensions.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "dilatation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_361",
+      "meta" : {
+        "definition" : {
+          "val" : "Local lesion of the skin, often colored by hyperpigmentation or increased vascularity. May be predominantly epidermal, adnexal, melanocytic, vascular, or mesodermal, or a compound overgrowth of these tissues. Not necessarily pre-malignant. (M-8720/0).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "mole (sensu melanocytic nevus)",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "naevus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_240",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasm derived from endothelial cells. May be of capillary or cavernous type with large vascular channels. (M-9130/0 + M-9120/0 respectively).",
+          "xrefs" : [ "PMID:8569146" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Hemangioendothelioma, benign",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Angioendothelioma.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hemangioma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_360",
+      "meta" : {
+        "definition" : {
+          "val" : "A potentially malignant lesion, melanoma in situ is the first phase of growth of melanoma, in which it is still confined to the epithelial domain (epidermis and adnexa) and has not passed through the basement membrane. (M-8720/2).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "level I melanoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "melanoma in situ"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_242",
+      "meta" : {
+        "definition" : {
+          "val" : "Malignant neoplasm derived from pluripotential mesenchymal stem cells or endothelial cells of blood vessels. (M-9120/3).",
+          "xrefs" : [ "PMID:8569146" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Hemangioma malignant",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "hemangioendothelioma malignant, angiosarcoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "hemangioendothelioma malignant.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hemangiosarcoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_121",
+      "meta" : {
+        "definition" : {
+          "val" : "A localised deposition of clotted or partially clotted extravasated blood.",
+          "xrefs" : [ "ISBN:0781727286" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Bruise",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hematoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_120",
+      "meta" : {
+        "definition" : {
+          "val" : "A red/purple patch caused by extravasation of blood into the skin. Larger than petechiae.",
+          "xrefs" : [ "ISBN:0781727286" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "May also be used for any organ, although more generally used with respect to the skin."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "ecchymosis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_244",
+      "meta" : {
+        "definition" : {
+          "val" : "Glioma derived from astrocytes, both benign and malignant forms (M-9400/3).",
+          "xrefs" : [ "ISBN-13:9783794515530" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Astrocytic glioma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "astroglioma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Also see comments in Weiss, W.W, Israel, M. Cobbs, C., et al. (2002) Oncogene 21, 7453-7463."
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "astrocytoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_365",
+      "meta" : {
+        "definition" : {
+          "val" : "Benign or malignant neoplasm derived from the lining cells of the pleura and peritoneum, composed of spindle cells or fibrous tissue which may enclose glandlike spaces lined by cuboidal cells. Epithelioid, fibrous, cystis, papillary, and sarcomatoid variants. (M- 9050/3).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "mesothelioma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_243",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasm of the neurones, glia or meninges of the CNS.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "central nervous system tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_246",
+      "meta" : {
+        "definition" : {
+          "val" : "Benign neoplasm derived from the epithelial cells of the choroid plexus. (M-9390/0).",
+          "xrefs" : [ "ISBN-13:9783794515530" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "choroid plexus papilloma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_366",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasms derived from the neuroendocrine system.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "neuroendocrine tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_124",
+      "meta" : {
+        "definition" : {
+          "val" : "An area of necrosis resulting from a sudden cessation of arterial or venous blood supply.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "infarct"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_127",
+      "meta" : {
+        "definition" : {
+          "val" : "A reduction in size of organs or tissues as a result of cell death, loss of cellularity of whatever cause, reduced cellular proliferation or decreased cellular volume.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "atrophy"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_247",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasm derived from the ependymal cells lining the ventricles and aqueduct of the brain and the central canal of the spinal cord. Malignant or benign. (M-9391/3).",
+          "xrefs" : [ "ISBN-13:9783794515530" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Also see general scheme in Weiss, W.W, Israel, M. Cobbs, C., et al. (2002) Oncogene 21, 7453-7463."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "ependymoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_126",
+      "meta" : {
+        "definition" : {
+          "val" : "Defects in growth (changes in proliferation or mass) and differentiation of cells tissues or organs.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "growth and differentiation defect"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_0",
+      "meta" : {
+        "definition" : {
+          "val" : "Pathological structure or process",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "pathological entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_249",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasm derived from astrocytes and oligodendrocytes. (M-9380/3, M-9440/3).",
+          "xrefs" : [ "ISBN-13:9783794515530" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Also see comments in: Weiss, W.W, Israel, M. Cobbs, C., et al. (2002) Oncogene 21, 7453-7463."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "glioma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_2",
+      "meta" : {
+        "definition" : {
+          "val" : "Complete and irreversible cessation of metabolic activity.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cell death"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_1",
+      "meta" : {
+        "definition" : {
+          "val" : "The sum of morphological and functional disturbances induced by cell and tissue damage, either from intrinsic gene dysfunction or as a result of external factors.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cell and tissue damage"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_4",
+      "meta" : {
+        "definition" : {
+          "val" : "Morpholological changes after intravital (Pathologic) death of one or more cells, or of a portion of tissue or organ, resulting from irreversible damage;characterised by mitochondrial swelling, nuclear pyknosis, karyolysis, swollen and abnormally pale basophilic staining; or karyorrhexis, rupture and fragmentation of the nucleus. Energy independent cf. Apoptosis MPATH 3.",
+          "xrefs" : [ "ISBN:0781727286" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "necrosis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_70",
+      "meta" : {
+        "definition" : {
+          "val" : "An abnormal passage between two internal organs or leading from a cavity to the body surface.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "fistula"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_74",
+      "meta" : {
+        "definition" : {
+          "val" : "A focal malformation resembling a neoplasm which results from faulty development of an organ; composed of an abnormal mixture of tissue elements, or an abnormal proportion of a single element. Growth and location are usually normal for that tissue cf. Heterotopia/Choristoma MPATH:76/MPATH:477.",
+          "xrefs" : [ "ISBN:0781727286" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hamartoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_352",
+      "meta" : {
+        "definition" : {
+          "val" : "Tumors of the liver and biliary apparatus.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hepatic tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_351",
+      "meta" : {
+        "definition" : {
+          "val" : "A neoplasm in the anterior mediastinum, originating from thymic tissue, usually benign, and frequently encapsulated; occasionally invasive, but metastases are rare; histologically, consists of any type of thymic epithelial cell as well as lymphocytes that are usually abundant. (M-8580/1).",
+          "xrefs" : [ "ISBN:0781727286" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "thymoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_596",
+      "meta" : {
+        "definition" : {
+          "val" : "The organic response of tissues to external insult, injury or underlying genetic or epigenetic lesion.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "pathological process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_354",
+      "meta" : {
+        "definition" : {
+          "val" : "Malignant tumor derived from the bile duct epithelium. (M8160/3).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cholangiocarcinoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_233",
+      "meta" : {
+        "definition" : {
+          "val" : "Well circumscribed tumor of the basal cells of the epidermis. Rare mitotic figures, benign. (M8147/0).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "basal cell adenoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Benign basal cell tumor",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "basal cell tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_474",
+      "meta" : {
+        "definition" : {
+          "val" : "Dilation of a tubular structure.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Often associated with an obstruction."
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "ectasia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_232",
+      "meta" : {
+        "definition" : {
+          "val" : "Multiple small benign nodules derived from basal cells of hair follicles enclosing small cornified cell containing cysts. (M-8100/0).",
+          "xrefs" : [ "URL:http://emice.nci.nih.gov/emice/mouse_models/organ_models/skin_models" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "hair follicle tumor",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Epithelioma adenoides cysticum",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "benign",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "trichoepithelioma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_353",
+      "meta" : {
+        "definition" : {
+          "val" : "Benign neoplasm derived from hepatocytes. (M- 8170/0).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "nodule type A",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "hepatic adenoma, benign, liver cell tumor, benign",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "hepatoma, benign",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hepatocellular adenoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_356",
+      "meta" : {
+        "definition" : {
+          "val" : "Malignant neoplasm of the liver of unknown origin . Liver blastemal cells, neoplastic hepatocytes, oval cells and biliary epithelial cells have been proposed. (M- 8970/3).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "tumor, mixed, poorly differentiated",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "embryonal hepatoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hepatoblastoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_235",
+      "meta" : {
+        "definition" : {
+          "val" : "Tumor of venous or arterial vessels or capillaries.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "blood vessel tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_597",
+      "meta" : {
+        "definition" : {
+          "val" : "Processes occurring during cell and tissue damage of either intrinsic or extrinsic etiology.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cell and tissue damage process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_476",
+      "meta" : {
+        "definition" : {
+          "val" : "A lesion formed by a dilated capillary or terminal artery.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "telangiectasia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_234",
+      "meta" : {
+        "definition" : {
+          "val" : "Malignant neoplasm of the basal cells of the epidermis with local invasion. (M-8090/3).",
+          "xrefs" : [ "URL:http://emice.nci.nih.gov/emice/mouse_models/organ_models/skin_models" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "basal cell carcinoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_358",
+      "meta" : {
+        "definition" : {
+          "val" : "Tumors derived from melanocytes.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "melanocytic tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_599",
+      "meta" : {
+        "definition" : {
+          "val" : "developmental process abnormalities",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "developmental process abnormalities"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_236",
+      "meta" : {
+        "definition" : {
+          "val" : ".A benign neoplasm of fibrous tissue in which there are multiple large and small dilated vascular channels ( M9160/0).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Telangiectatic fibroma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "angiofibroma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_357",
+      "meta" : {
+        "definition" : {
+          "val" : "Malignant tumor derived from hepatocytes. (M- 8170/3).",
+          "xrefs" : [ "Book: Bannasche; P and Zerban; H. Preneoplastic and neoplastic lesions of the rat iver. In; Pathology of neoplasia and preneoplasia in rodents; P. Bannasch and W. Goessner; Editors. 1997. Schattauer; Stuttgart. p. 18-63" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "carcinoma, trabecular (liver)",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "nodule type B",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "hepatoma, malignant",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "carcinoma, trabecular",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hepatocellular carcinoma"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_related_synonym"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_359",
+      "meta" : {
+        "definition" : {
+          "val" : "Tumor of neurectodermal origin, usually melanocytes, showing dense deposition of melanin granules, although amelanotic melanomas have been reported. (M-8720/3).",
+          "xrefs" : [ "Book: Klein-Szanto; A.J.; Neoplastic and preneoplastic lesions of the mouse skin; in Pathology of neoplasia and preneoplasia in rodents; P. Bannasch and W. Goessner; Editors. 1997. Schattauer; Stuttgart. p. 1-18" ]
+        },
+        "xrefs" : [ {
+          "val" : "URL: http://emice.nci.nih.gov/emice/mouse_models/organ_models/skin_models/malignant_melanoma#melanoma_table"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "melanosarcoma, malignant melanoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "melanosarcoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "melanoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_238",
+      "meta" : {
+        "definition" : {
+          "val" : "A benign neoplasm frequently arising in the cerebellum composed of capillary vessel forming endothelial cells and stromal cells. (M-9161/1).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Angioblastoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hemangioblastoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_119",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormal release of whole blood or the cellular component from the circulation.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hemorrhage and non-specified extravasation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_81",
+      "meta" : {
+        "definition" : {
+          "val" : "Presence of a hole/channel through a normally imperforate structure often a membrane or septum.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "perforation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_86",
+      "meta" : {
+        "definition" : {
+          "val" : "Developmental defect characteristic of a particular organ or organ system which may be a recognised syndrome or a complex defect showing multiple manifestations.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "organ specific developmental defect"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_89",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormal development of the heart or vascular tissue resulting in morphological abnormality.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cardiovascular developmental defect"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_342",
+      "meta" : {
+        "definition" : {
+          "val" : "Leukaemias of the myeloid lineage.",
+          "xrefs" : [ "PMID:12070033" ]
+        },
+        "xrefs" : [ {
+          "val" : "URL:http://www.bloodjournal.org/cgi/content/full/100/1/238/DC1/2"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "granulocytic leukaemia",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "myeloid leukaemia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_105",
+      "meta" : {
+        "definition" : {
+          "val" : "Lesions leading to or consequent on failure of, or atypical movement of, blood throughout the body.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "circulatory disorder"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_346",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2011-03-22T01:12:01Z"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "autoimmune mediated disease"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_90",
+      "meta" : {
+        "definition" : {
+          "val" : "Localised dilation of an artery or heart chamber usually due to an acquired or congenital weakness of the wall of the artery or chamber.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "aneurysm"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_97",
+      "meta" : {
+        "definition" : {
+          "val" : "Follows the presence of a hematoma in the wall of an artery Splitting of the media occurs, blood enters the split through a tear in the intima.",
+          "xrefs" : [ "ISBN:0781727286" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "dissecting aneurysm"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_98",
+      "meta" : {
+        "definition" : {
+          "val" : "A stretching and widening of the lymphatic vessels.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Lymphectasia",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "telangiectasia lymphatica",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "lymphangiectasis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_570",
+      "meta" : {
+        "definition" : {
+          "val" : "Tumors of the peripheral nervous system.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "peripheral nervous system tumors"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_451",
+      "meta" : {
+        "definition" : {
+          "val" : "Malignant neoplasm of transitional cells (M-8120/3).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "transitional cell carcinoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_450",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasms of transitional epithelia, eg kidney, ureter , bladder , cervix.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "transitional cell tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_571",
+      "meta" : {
+        "definition" : {
+          "val" : "Tumor composed of the epithelial components of the most proximal (trichogenic) portion of the hair follicle associated with an aberrent hair cortex type of cornification (ghost cells or shadow cells). The most primitive cellular component consists of basophilic cells having scanty cytoplasm and nuclei that occasionally overlap to some extent. In humans mineralisation is common.",
+          "xrefs" : [ "See: Gat; U.; DasGupta; R.; Degenstein; L. and Fuchs; E. (1998) De Novo hair follicle morphogenesis and hair tumors in mice expressing a truncated beta-catenin in skin Cell; 95; 605-614." ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "pilomatricoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_695",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2011-02-19T05:12:17Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "spindle cell sarcoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_574",
+      "meta" : {
+        "definition" : {
+          "val" : "Persistence of metanephrogenic blastema or its presence in the wrong place or at the wrong time. Associated with hyperplastic nephrogenic rests.",
+          "xrefs" : [ "PMID:8383276" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "nephroblastomatosis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_331",
+      "meta" : {
+        "definition" : {
+          "val" : "Tumor derived from sex cord/stromal cells; Sertoli cells and can occur in both testis and ovary. (M-8640/1).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "arrhenoblastoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "gonadal stromal tumor",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "sustentacluar tumor",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "sex cord stromal tumor",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Androblastoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "sertoli cell tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_213",
+      "meta" : {
+        "definition" : {
+          "val" : "Inflammation with a recent onset, characterised histologically by primarily granulocyte infiltration, edema and hyperemia.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "The five classical signs of inflammation: Rubor, tumor, calor, dolor, functio laesa (Galen 300BC)."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "acute inflammation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_576",
+      "meta" : {
+        "definition" : {
+          "val" : "Basaloid neoplasm with numerous mature hair follicles and hair formation.",
+          "xrefs" : [ "URL:http://emice.nci.nih.gov/emice/mouse_models/organ_models/skin_models" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "trichofolliculoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_212",
+      "meta" : {
+        "definition" : {
+          "val" : "A tissue reaction to an internal or external injury.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "inflammation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_575",
+      "meta" : {
+        "definition" : {
+          "val" : "This is a new diagnostic term that the MMHC pathology panel felt best described a diagnostically challenging set of tumors that share the feature of being compose of basaloid cells showing follicular differentiation to some extent. These tumors are common in GEM involving the hedgehog signaling pathway and frequently have more than one of the histologic patterns listed below. The designation of benign and malignant has been excluded from the primary diagnosis purposely, as this is frequently difficult to determine in these characteristically well circumscribed tumors. The presence of a disorganized (non-palisaded) sheet-like growth pattern, tumor necrosis, or numerous mitoses are felt to represent malignant transformation.",
+          "xrefs" : [ "URL:http://emice.nci.nih.gov/emice/mouse_models/organ_models/skin_models" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "basaloid follicular neoplasms"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_335",
+      "meta" : {
+        "definition" : {
+          "val" : "Proliferative disorders and malignancies of the lymphoid and non lymphoid haematopoietic lineages.",
+          "xrefs" : [ "URL:http://www.bloodjournal.org/cgi/content/full/100/1/238/DC1/2" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hematopoietic/lymphoid malignancies/disorder"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_214",
+      "meta" : {
+        "definition" : {
+          "val" : "Chronic inflammatory condition characterised by infiltration of primarily lymphocytes.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "chronic inflammation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_579",
+      "meta" : {
+        "definition" : {
+          "val" : "Loss of epithelium and the basement membrane (full thickness). Cf Erosion.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "ulcer"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_219",
+      "meta" : {
+        "definition" : {
+          "val" : "Tumors of the skin, its constituent structures and glands including the mammary gland, apocrine and eccrine glands, hair follicles and associated structures.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "adnexal and skin appendage tumor"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+      "type" : "PROPERTY",
+      "lbl" : "has_alternative_id"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_218",
+      "meta" : {
+        "definition" : {
+          "val" : "A tumor resulting from abnormal and uncontrolled autonomous new cell growth (proliferation)that may be benign or malignant.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "neoplasm"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_14",
+      "meta" : {
+        "definition" : {
+          "val" : "A pathological process of loss or degradation of function, or structural integrity, of a tissue, organ or cell.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "process of degenerative change"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_200",
+      "meta" : {
+        "definition" : {
+          "val" : "Inflammation of a muscle.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Initis",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "myositis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_442",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasms of stratified squamous epithelial cells.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "squamous cell tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_321",
+      "meta" : {
+        "definition" : {
+          "val" : "Mixed germ cell neoplasm contaning elements of embryonal carcinoma and teratoma (M-9081/3).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "teratocarcinoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_565",
+      "meta" : {
+        "definition" : {
+          "val" : "Tumors of neuronal and non-neuronal cells derived from embryonic neurepithelium.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "tumors of neurepithelial tissue"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_323",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasms derived from the non-germ cell derived tissues of the testis and ovary.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "gonadal somatic cell tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_564",
+      "meta" : {
+        "definition" : {
+          "val" : "Develop primarily through increasing anaplasia of well differentiated gliomas, mainly astrocytomas or oligodendrogliomas. Typically large and contain cells of different sizes with irrregular nuclei and atypical mitotic figures. (M-9440/3).",
+          "xrefs" : [ "ISBN-13:9783794515530" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "monstrocytoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "glioblastoma multiforme",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Also see Weiss, W.W, Israel, M. Cobbs, C., et al. (2002) Oncogene 21, 7453-7463."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "glioblastoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_201",
+      "meta" : {
+        "definition" : {
+          "val" : "Inflammation of a blood vessel.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "lymphangiitis",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "phlebitis",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "arteritis",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "angiitis",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "vasculitis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_322",
+      "meta" : {
+        "definition" : {
+          "val" : "Generally benign germ cell derived tumors of male or female containing derivatives from all three germ layers with differentiation in the malignant form being poor. Malignant tumors are highly metatstatic. (M-9080/1).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "teratoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_446",
+      "meta" : {
+        "definition" : {
+          "val" : "Malignant tumor derived from stratified squamous cells. (M-8070/3).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "carcinoma, epidermoid ( sensu epidermal derived tumors)",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "squamous cell carcinoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_445",
+      "meta" : {
+        "definition" : {
+          "val" : "A benign tumor consisting of villous or arborescent outgrowths of fibrovascular stroma covered by neoplastic epithelial cells (M-8050/0).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "papilloma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_566",
+      "meta" : {
+        "definition" : {
+          "val" : "tumors of the meninges",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "tumors of the meninges"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_328",
+      "meta" : {
+        "definition" : {
+          "val" : "Tumor derived from Leydig cells (M-8650/1).",
+          "xrefs" : [ "Mahler M; Sundberg JP ( 1997) Spontaneous Leydig cell tumors in inbred laboratory mice Lab Animal Science 47:148-52" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Leydig cell adenoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Interstitial cell tumor, benign",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "leydig cell tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_31",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormal accumulation of air in the interstitial connective tissue of a structure. Sensu Lung: Pulmonary emphysema; characterised by abnormal increase in the size of air (alveolar) spaces distal to the terminal bronchiole with degenerative changes in their walls and reduction in their number.",
+          "xrefs" : [ "ISBN:0781727286" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "emphysema"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_34",
+      "meta" : {
+        "definition" : {
+          "val" : "Extracellular deposition of amyloid protein.",
+          "xrefs" : [ "ISBN:0781727286" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Amyloidosis",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Any group of chemically diverse proteins that appears microscopically homogeneous, but is composed of linear non-branching aggregated fibrils aranged in sheets when see under the electron microscope."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "amyloid deposition"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_33",
+      "meta" : {
+        "definition" : {
+          "val" : "Accumulation of substances within, on the surface of or between cells.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "intracellular and extracellular accumulation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_28",
+      "meta" : {
+        "definition" : {
+          "val" : "Characterised by irregular lipid deposits in the wall of arteries, causing narrowing of their lumens and proceeding eventually to fibrosis and calcification.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Note that in mouse and rats the initial lesions are mostly in the medial layer while in human they occur in the intima."
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "atherosclerosis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_27",
+      "meta" : {
+        "definition" : {
+          "val" : "Changes characterized by erosion of articular cartilage, either primary or secondary to trauma or other conditions. Not primarily an inflammatory process.",
+          "xrefs" : [ "ISBN:0781727286" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "osteoarthrosis",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Degenerative joint disease",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "arthrosis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_25",
+      "meta" : {
+        "definition" : {
+          "val" : "Degenerative process characteristic of a particular tissue.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "tissue specific degenerative process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_310",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasms derived from germ cells. May be gonadal or extragonadal and are derived from primordial germ cells.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "germ cell tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_431",
+      "meta" : {
+        "definition" : {
+          "val" : "A benign neoplasm derived from pluripotential mesenchymal stem cells of connective tissue, consisting chiefly of polyhedral and stellate cells that are loosely embedded in a soft mucoid matrix. May show multiple differentiated components. (M-8840/0).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "myxoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_551",
+      "meta" : {
+        "definition" : {
+          "val" : "A connective tissue neoplasm, usually highly malignant, formed by proliferation of mesodermal cells.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "sarcoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_675",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2011-02-19T04:09:12Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "psoriasiform dermatitis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_312",
+      "meta" : {
+        "definition" : {
+          "val" : "Undifferentiated germ cell tumor of the ovary composed of solid sheets of large polygonal cells with rim of clear cytoplasm (M-9060/3).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Seminoma (sensu male)",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "dysgerminoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_433",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasms of the nerve sheath.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "nerve sheath tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_435",
+      "meta" : {
+        "definition" : {
+          "val" : "Peripheral nerve tumor consisting of chaotic arrays of wavy schwann cell bundles and fibroblasts interspersed within a matrix rich in collagen and mucopolysaccharide. (M9540/0).",
+          "xrefs" : [ "ISBN-13:9783794515530" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "neurofibroma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_556",
+      "meta" : {
+        "definition" : {
+          "val" : "Lesions which in some cases have the potential to become progressively growing malignant tumors.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "potentially cancerous lesions"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_555",
+      "meta" : {
+        "definition" : {
+          "val" : "Deposition of any homogeneous inorganic material.",
+          "xrefs" : [ "ISBN:0781727286" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "mineralisation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_316",
+      "meta" : {
+        "definition" : {
+          "val" : "Malignant neoplasm of the testis/ovary including various elements of germ cell tumors (M-9085/3).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Mixed teratoma and seminoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "mixed germ cell tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_437",
+      "meta" : {
+        "definition" : {
+          "val" : "Malignant neoplasm derived from Schwann cells. (M-9540/3).",
+          "xrefs" : [ "ISBN-13:9783794515530" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "malignant peripheral nerve sheath tumor",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "neurofibrosarcoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_315",
+      "meta" : {
+        "definition" : {
+          "val" : "Gonadal neoplasms that consist of aggregates of germ cells and sex cord elements (M-9073/1).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Gonocytoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "gonadoblastoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_438",
+      "meta" : {
+        "definition" : {
+          "val" : "May be malignant or benign, Schwann cell derived tumor considered to be neurectodermal with some acquired mesenchymal features. (M-9560/0).",
+          "xrefs" : [ "ISBN-13:9783794515530" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "neurilemoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "neurinoma, benign",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "schwannoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_317",
+      "meta" : {
+        "definition" : {
+          "val" : "Tumor derived from spermatogenic cells resembling spermatogenia or spermatocytes. NOS ( M9061/3).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Germinoma, malignant",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "spermatocytoma, malignant.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "dysgerminoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "spermatoblastoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "seminoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_36",
+      "meta" : {
+        "definition" : {
+          "val" : "Intra or extracellular deposition of calcium usually as calcium phosphate.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "calcium deposition"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_420",
+      "meta" : {
+        "definition" : {
+          "val" : "Benign hamartomatous malformation of the lymphatic ducts. Usually found in the skin and may be superficial or deep. (M-9170/0).",
+          "xrefs" : [ "ISBN:0781727286" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "Hygroma",
+          "xrefs" : [ "ISBN:0-19-261976-4" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "lymphangioma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_423",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasms derived from myogenic lineages or predominantly composed of cells showing myomatous differentiation.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "myomatous tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_426",
+      "meta" : {
+        "definition" : {
+          "val" : "Malignant tumor derived form pluripotential mesenchymal stem cells or smooth muscle cells. (M- 8890/3).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "leiomyosarcoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_425",
+      "meta" : {
+        "definition" : {
+          "val" : "Benign neoplasm derived from smooth muscle cells. (M-8890/0).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "leiomyoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_549",
+      "meta" : {
+        "definition" : {
+          "val" : "Any of various types of malignant neoplasm derived from epithelial cells, chiefly glandular (adenocarcinoma) or squamous (squamous cell carcinoma).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "carcinoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_428",
+      "meta" : {
+        "definition" : {
+          "val" : "Malignant tumor of striated muscle or pluripotential mesenchymal stem cells. (M-8900/3).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "rhabdomyosarcoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_309",
+      "meta" : {
+        "definition" : {
+          "val" : "Germ cell and non-germ cell tumors of the testis and ovary.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "gonadal tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_308",
+      "meta" : {
+        "definition" : {
+          "val" : "Malignant neoplasm derived from the calcitonin producing C-cells of the thyroid gland. (M-8510/3, M-8345/3).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Medullary carcinoma, parafollicular cell",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "tumor c-cell malignant",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "thyroid C-cell carcinoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_429",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasms resembling primitive mesenchymal tissue with a soft mucous matrix.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "myxomatous tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_56",
+      "meta" : {
+        "definition" : {
+          "val" : "Structural, physical or other general defect of prenatal development of the embryo and the placenta, or such as are acquired in the adult.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "developmental or adult structural  defect"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_55",
+      "meta" : {
+        "definition" : {
+          "val" : "Developmental and structural abnormalities occurring during embryonic development or during adult life.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "developmental and structural abnormality"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_530",
+      "meta" : {
+        "definition" : {
+          "val" : "Diffuse proliferation of mature plasma cells. Clonal by definition. Includes the equivalent of human myeloma (ICD-O 9732/3).",
+          "xrefs" : [ "PMID:12070034" ]
+        },
+        "xrefs" : [ {
+          "val" : "URL: http://emice.nci.nih.gov/emice/mouse_models/organ_models/hema_models/hema_mouse_class"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Myeloma ( human )",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Plasma cell neoplasms"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/mpath#part_of",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "part of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_532",
+      "meta" : {
+        "definition" : {
+          "val" : "Diffuse proliferation of mature plasma cells. Clonal by definition.",
+          "xrefs" : [ "PMID:12070034" ]
+        },
+        "xrefs" : [ {
+          "val" : "URL: http://emice.nci.nih.gov/emice/mouse_models/organ_models/hema_models/hema_mouse_class"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Tissue, usually lymph nodes, that contain unusually large numbers of normal appearing plasma cells. While these may be plasmacytomas, additional work is needed to confirm this latter diagnosis."
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "plasmacytoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_536",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasms of precursor T cells.",
+          "xrefs" : [ "PMID:12070034" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "precursor T-cell neoplasms"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_415",
+      "meta" : {
+        "definition" : {
+          "val" : "Tumors derived from the lipogenic lineage or showing predominantly lipomatous differentiation.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "lipomatous tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_535",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasms derived from cells of the T lymphocyte lineage.",
+          "xrefs" : [ "PMID:12070034" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "T-cell neoplasms"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_417",
+      "meta" : {
+        "definition" : {
+          "val" : "Benign neoplasia derived from lipoblasts or lipocytes of white or brown fat. May be angiomatous or hibernomatous. (M- 8850/0).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "lipoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_416",
+      "meta" : {
+        "definition" : {
+          "val" : "Benign renal neoplasm composed of fat, vascular, and smooth muscle elements. Associated with tuberous sclerosis in humans. Aetiology unknown, but the combination of elements may reflect a lesion specific pattern of metaplasia. (M-8860/0).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "angiomyolipoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_537",
+      "meta" : {
+        "definition" : {
+          "val" : "Precursor T cell derived neoplasia. Most commonly found in the thymus.",
+          "xrefs" : [ "PMID:12070034" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "thymic lymphoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "precursor T-cell lymphoblastic lymphoma/leukaemia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_419",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasms of the lymphatic vessels.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "lymphatic vessel tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_418",
+      "meta" : {
+        "definition" : {
+          "val" : "Malignant neoplasms which probably originate in primitive mesenchymal stem cell populations differentiating down a lipomatous pathway. (M-8850/3).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "liposarcoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_519",
+      "meta" : {
+        "definition" : {
+          "val" : "Lymphomas originating in peripheral B cells.",
+          "xrefs" : [ "PMID:12070034" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Mature B-cell neoplasms"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_404",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasms of the soft and connective tissues.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "soft tissue tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_403",
+      "meta" : {
+        "definition" : {
+          "val" : "A neoplasm composed of derivatives of CHIEF cells usually in single encapsulated nodular masses surrounded with sustentacular cells. ( M- 8711/0).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "glomus tumor",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "non-chromaffin paragangliomas",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "chemodectomas",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "paraganglioma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "type" : "PROPERTY",
+      "lbl" : "definition"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_405",
+      "meta" : {
+        "definition" : {
+          "val" : "Believed to arise from primitive notochord remnants . Usually occurs along the axial skeleton and is characterised by the presence of bubble cells containing large unstained cytoplasmic vacuoles with central or eccentricc nuclei. Benign but locally invasive. (M-9370/3).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "chordoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_408",
+      "meta" : {
+        "definition" : {
+          "val" : "Malignant tumor derived from pluripotential mesenchymal stem cells; fibroblasts, fibrocytes (M-8810/3).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "fibrosarcoma",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "soft tissue fibrosarcoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_407",
+      "meta" : {
+        "definition" : {
+          "val" : "Benign neoplasm of fibroblasts/fibrocytes with poor/moderate cellularity. (M-8810/0).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "\"Soft tissue\" qualifier removed by Pathology Panel to increase scope of term."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "fibroma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_629",
+      "meta" : {
+        "definition" : {
+          "val" : "Deep cutaneous hemangioma with large dilated vascular spaces that manifests spontaneous involution.",
+          "xrefs" : [ "ISBN:0781727286" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cavernous hemangioma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_194",
+      "meta" : {
+        "definition" : {
+          "val" : "Tissue response to inappropriate immune/inflammatory process.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immune mediated disease"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_196",
+      "meta" : {
+        "definition" : {
+          "val" : "Inflammation of the skin.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "dermatitis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_195",
+      "meta" : {
+        "definition" : {
+          "val" : "Inflammation of a joint.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "arthritis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_198",
+      "meta" : {
+        "definition" : {
+          "val" : "An anemic/erythrocytopenic condition resulting from an increased rate of immune mediated erythrocyte destruction.",
+          "xrefs" : [ "ISBN:0781727286" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immune mediated hemolytic anaemia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_197",
+      "meta" : {
+        "definition" : {
+          "val" : "Renal disease characterised by diffuse inflammatory changes in glomeruli not in response to an infectious agent or treatment.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "glomerulonephritis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_513",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasms of the B or T cell lineage.",
+          "xrefs" : [ "PMID:12070034" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Lymphoid neoplasms"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_516",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasm of the B cell lymphoid lineage.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "B-cell neoplasms"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_515",
+      "meta" : {
+        "definition" : {
+          "val" : "Hematological neoplasias of non-lymphoid origin.",
+          "xrefs" : [ "PMID:12070033" ]
+        },
+        "xrefs" : [ {
+          "val" : "URL:http://www.bloodjournal.org/cgi/content/full/100/1/238/DC1/2"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Non-Lymphoid neoplasias"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_181",
+      "meta" : {
+        "definition" : {
+          "val" : "Reactive formation of fibrous tissue.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "fibrosis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_184",
+      "meta" : {
+        "definition" : {
+          "val" : "Any pathological thickening or hardening of a tissue.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Induration",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "sclerosis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_188",
+      "meta" : {
+        "definition" : {
+          "val" : "Inappropriate or aberrant activation or suppression of the immune or inflammatory response.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immunopathological process"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+      "type" : "PROPERTY",
+      "lbl" : "has_obo_namespace"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+      "type" : "PROPERTY",
+      "lbl" : "has_obo_format_version"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_622",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormal retention of lipids within a cell. Physically apparent as lipid within liposomes of parenchymal cells.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "fatty degeneration",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "lipidosis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "adipose degeneration",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "fatty change",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Most commonly associated with degenerative change in the liver."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "steatosis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_502",
+      "meta" : {
+        "definition" : {
+          "val" : "Leukaemia in which neoplastic cells are poorly or moderately differentiated with a monocytic but no neutrophilic component. At least 20% of the cells must be blasts.",
+          "xrefs" : [ "PMID:12070033" ]
+        },
+        "xrefs" : [ {
+          "val" : "URL:http://www.bloodjournal.org/cgi/content/full/100/1/238/DC1/2"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "monocytic leukaemia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_504",
+      "meta" : {
+        "definition" : {
+          "val" : "Solid tumor mass composed of non-lymphoid haematopoietic cells.",
+          "xrefs" : [ "PMID:12070033" ]
+        },
+        "xrefs" : [ {
+          "val" : "URL:http://www.bloodjournal.org/cgi/content/full/100/1/238/DC1/2"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "non-lymphoid hematopoietic sarcomas"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_625",
+      "meta" : {
+        "definition" : {
+          "val" : "Tearing away or separation of two structures or parts.",
+          "xrefs" : [ "ISBN:0781727286" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "avulsion"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_506",
+      "meta" : {
+        "definition" : {
+          "val" : "Solid tumor mass composed predominantly of histiocytic cells (M-9775/3).",
+          "xrefs" : [ "PMID:12070033" ]
+        },
+        "xrefs" : [ {
+          "val" : "URL:http://www.bloodjournal.org/cgi/content/full/100/1/238/DC1/2"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Kupffer cell sarcoma (sensu liver)",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "reticulum cell sarcoma, type A",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "reticulum cell sarcoma, type A, reticulosarcoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "malignant lymphoma, histiocytic type",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "histiocytic lymphoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "histiocytic sarcoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_608",
+      "meta" : {
+        "definition" : {
+          "val" : "A circumscribed collection of purulent exudate frequently associated with swelling and other signs of inflammation.",
+          "xrefs" : [ "ISBN:0781727286" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Generally occur following damage or infection with subsequent inflammatory response. Result of the body`s defensive reaction to foreign material."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abscess"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_607",
+      "meta" : {
+        "definition" : {
+          "val" : "Physical entity or structure associated with normal or abnormal tissue healing or repair following extrinsic or intrinsic damage.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "healing and repair structure"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_291",
+      "meta" : {
+        "definition" : {
+          "val" : "Derived from calcitonin-producing cells (thyroid). In humans a type of carcinoma composed of epithelial elements with considerable lymphoid stroma (breast). Not yet reported in mice. (M-8510/3).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Medullary adenocarcinoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "medullary carcinoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_295",
+      "meta" : {
+        "definition" : {
+          "val" : "A malignant neoplasm derived from a glandular epithelium, in which solid tumors show papillary structures projecting onto fibrovascular stroma. (M-8260/3).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "papillary adenocarcinoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_176",
+      "meta" : {
+        "definition" : {
+          "val" : "Replacement of connective tissue by fibro-fatty deposits and scar tissue.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "connective tissue replacement"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_175",
+      "meta" : {
+        "definition" : {
+          "val" : "The process, normal or abnormal, of damage repair or wound closure.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "healing and repair process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_299",
+      "meta" : {
+        "definition" : {
+          "val" : "Originating from differentiated cells of the pineal parenchyma. Not to be confused with human pinealoma (syn: germinoma) non-gonadal germ cell tumors found in the pineal believed to be atypical teratomas. May be benign or malignant. If ectopic teratomas/teratocarcinomas use MP322 or MP321. (M-9360/1).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "pinealoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_298",
+      "meta" : {
+        "definition" : {
+          "val" : "A benign neoplasm derived from glandular epithelium, in which cysts contain folds or papillary projections into the lumen. (M-8450/0).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "papillary cystadenoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_851",
+      "meta" : {
+        "definition" : {
+          "val" : "acquired dysmorphology of the external pinna following trauma or infection.",
+          "xrefs" : [ "MPATH:curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Paul"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2012-03-24T03:29:48Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "auricular deformation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_850",
+      "meta" : {
+        "definition" : {
+          "val" : "Morphological abnormality following trauma or related insult such as infection.",
+          "xrefs" : [ "MPATH:curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2012-03-24T03:28:03Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Paul"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "post-traumatic structural abnormality"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_615",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of the heart muscle or myocardium proper.",
+          "xrefs" : [ ":NCI Thesaurus / A7567983" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Cardiomyopathies may be classified as either primary or secondary, on the basis of etiology, or on the pathophysiology of the lesion: hypertrophic, dilated, or restrictive."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cardiomyopathy"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_718",
+      "meta" : {
+        "definition" : {
+          "val" : "Generally benign germ cell derived tumors of male or female containing derivatives from all three germ layers with differentiation in the malignant form being poor. Pre-sacral tumors located in the retrorectal space between the rectum and the sacrococcygeal part of the spine.",
+          "xrefs" : [ ":" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Paul"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2011-06-06T03:39:01Z"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "pre-sacral teratoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_160",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormal transformation of an fully differentiated adult cell or tissue of one kind into a differentiated tissue of another kind. An adult instance of developmental transdifferentiation MPATH:85 Traditionally defined as a form of abnormal regeneration in which a type of cell different from that found normally in a given location is produced.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "metaplasia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_162",
+      "meta" : {
+        "definition" : {
+          "val" : "Metaplasia occurring within epithelia.",
+          "xrefs" : [ "ISBN:0781727286" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "epithelial metaplasia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_164",
+      "meta" : {
+        "definition" : {
+          "val" : "Appearance of heterotopic gastric epithelium.",
+          "xrefs" : [ "ISBN:0781727286" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "gastric metaplasia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_287",
+      "meta" : {
+        "definition" : {
+          "val" : "Usually pancreatic B cell derived tumors mostly producing insulin. (M- 8150/0).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "adenomatosis",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Adenoma, endocrine pancreas",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "islet (pancreatic) cell tumor benign",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "islet cell adenoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_723",
+      "meta" : {
+        "definition" : {
+          "val" : "Systemic manifestation of MPATH: 407.",
+          "xrefs" : [ "ICDO:M-8822/1" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Aggressive Fibromatosis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Desmoid Tumor",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : " Musculoaponeurotic Fibromatosis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Plantar Fibromatosis (Ledderhose Disease)",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2011-06-06T04:11:04Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Paul"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "fibromatosis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_602",
+      "meta" : {
+        "definition" : {
+          "val" : "An organ or a tissue with an abnormal increase in the number of cells as a consequence of cell proliferation.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hyperplastic tissue"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_722",
+      "meta" : {
+        "definition" : {
+          "val" : "Benign stromal tumors of the soft tissue with skeletal muscle differentiation.",
+          "xrefs" : [ "ICD-O:M-8900/0", "PMID:3525381" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Adult and fetal types."
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2011-06-06T03:59:49Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Paul"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "rhabdomyoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_604",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormal increase or decrease in the rate of cell growth or cell division including associated changes in the differentiation state of adult cells.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Excludes abnormalities of developmental proliferation and differentiation."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "defective growth and differentiation process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_603",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomically located instance of pathological response or entity.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "pathological anatomical entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_605",
+      "meta" : {
+        "definition" : {
+          "val" : "A tissue or group of cells in which there has been abnormal transformation of an fully differentiated adult cell or tissue of one kind into a differentiated tissue of another kind.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Nearly exclusively used in an adult context."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "metaplastic tissue"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_707",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2011-02-20T08:44:41Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "angiolipoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_709",
+      "meta" : {
+        "definition" : {
+          "val" : "Malignant tumor of striated muscle or pluripotential mesenchymal stem cells composed mainly of small round cells, with some partial skeletal muscle differentiation.",
+          "xrefs" : [ "ICD-O:8920/3" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2011-06-06T03:24:13Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Paul"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "alveolar rhabdomyosarcoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_150",
+      "meta" : {
+        "definition" : {
+          "val" : "Hyperplasia of the Malpighian layer (prickle cell) of the epidermis.",
+          "xrefs" : [ "ISBN:0781727286" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "acanthosis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_271",
+      "meta" : {
+        "definition" : {
+          "val" : "Spontaneous intestinal adenoma formation. Polyps increase in number, causing symptoms of chronic colitis and potentially transform into adenocarcinoma. (M-8220/0).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "adenomatous polyposis coli"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_392",
+      "meta" : {
+        "definition" : {
+          "val" : "Malignant neoplasm derived form pluripotential mesenchymal cells, chondrocytes or chondroblasts. No production of osteoid. (M-9220/3).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "chondrosarcoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_270",
+      "meta" : {
+        "definition" : {
+          "val" : "A benign epithelial neoplasm in which the tumor cells may form glands or glandlike structures. In different instances this may remain a benign tumor or progress to malignancy.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "adenoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_154",
+      "meta" : {
+        "definition" : {
+          "val" : "Thickening of the surface layers (stratum corneum) in the skin or other stratified squamous epithelium. Cf. ortho- and para-keratosis.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "hyperparakeratosis",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "cornification",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "hyperorthokeratosis",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hyperkeratosis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_396",
+      "meta" : {
+        "definition" : {
+          "val" : "Benign neoplasm derived from osteoblasts or osteocytes composed of very dense bone with predominantly woven structure. ( M-9180/0).",
+          "xrefs" : [ "Book: Luz; A and Gessner; W. ; Neoplastic bone lesions of the mouse; in Pathology of neoplasia and preneoplasia in rodents; P. Bannasch and W. Goessner; Editors. 1997. Schattauer; Stuttgart. p. 142-154" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "medullary osteoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "osteoid osteoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "spongious osteoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "compact osteoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "trabecular osteoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "cancellous osteoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "juxtacortical osteoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "osteoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_277",
+      "meta" : {
+        "definition" : {
+          "val" : "A benign neoplasm derived from glandular epithelium, in which cystic accumulations of retained secretions are formed. (M-8440/0).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cystadenoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_156",
+      "meta" : {
+        "definition" : {
+          "val" : "Thickening of the surface cell layer of a stratified squamous epithelium with retention of nuclei in the cells of the stratum corneum.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "parakeratosis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_398",
+      "meta" : {
+        "definition" : {
+          "val" : "Generally benign neoplasms of CHIEF cells arising from neuroectodermal tissues, found in various parts of the body. Note that until recently, glomus tumors were believed to be derived from specialised vascular cells, which is incorrect. Paraganglioma is the preferred term.The nomenclature for pheochromocytoma and paraganglioma is inconsistent. The term paraganglioma is used to refer to any extra-adrenal tumor of the paraganglion system or nonfunctional tumor of the paraganglion system. Functional tumors are referred extra-adrenal pheochromocytoma.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "paragangliomas and glomus tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_397",
+      "meta" : {
+        "definition" : {
+          "val" : "Malignant neoplasm derived form mesenchymal stem cells, osteoblasts or osteocytes. Highly invasive and destructive tumor rising in the skeleton with osteoid and immature woven bone. (M-9180/3).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "osteogenic sarcoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "osteosarcoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_278",
+      "meta" : {
+        "definition" : {
+          "val" : "Originates in the follicular cells of thyroid follicles. Papillary, solid and follicular forms. (M- 8330/3).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Follicular carcinoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "follicular adenocarcinoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_710",
+      "meta" : {
+        "definition" : {
+          "val" : "Malignant mesenchymal tumor that morphologically and phenotypically resembles embryonal skeletal muscle.",
+          "xrefs" : [ "ICD-O:8910/3", "ICDO-:8912/3" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Embryonal Sarcoma",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Malignant Rhabdomyoma",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Myosarcoma ",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : " Rhabdopoietic Sarcoma",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : " Sarcoma Botryoides [Soft Tissues]",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2011-06-06T03:31:11Z"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Includes spindle cell, botryoid, anaplastic."
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Paul"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "embryonal rhabdomyosarcoma"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_broad_synonym"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_exact_synonym"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "type" : "PROPERTY",
+      "lbl" : "database_cross_reference"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_262",
+      "meta" : {
+        "definition" : {
+          "val" : "A biphasic tumor containing a primitive epithelial component, that may resemble well-differentiated fetal adenocarcinoma and a primitive mesenchymal stroma, which occasionally has foci of osteosarcoma, chondrosarcoma or rhadomyosarcoma. (M-8972/3).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "pulmonary blastoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_261",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonal tumor thought to be derived from metanephric blastema. Mono, bi or triphasic, sometimes with heterotypic differentiation. (M-8960/3).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "nephroma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "nephroblastoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_264",
+      "meta" : {
+        "definition" : {
+          "val" : "Tumors with epithelial invaginations/linings and a fibrillary and fibrocytic stroma. (M-9000 - M-9030).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "fibroepithelial tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_266",
+      "meta" : {
+        "definition" : {
+          "val" : "A benign neoplasm derived from glandular epithelium, in which there is a abundant stroma of proliferating fibroblasts and connective tissue. (M-9010/0).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "fibroadenoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_387",
+      "meta" : {
+        "definition" : {
+          "val" : "Hamartomatous malformation of odontogenic tissue. It may vary from nondescript masses of dental tissue (complex odontoma) to multiple well-formed teeth (compound odontoma). Cf ameloblastic fibro-odontoma. (M-9280/0).",
+          "xrefs" : [ "ISBN:0781727286" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "odontoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_268",
+      "meta" : {
+        "definition" : {
+          "val" : "Malignant neoplasm of epithelial cells in glandular or glandlike pattern. (M-8140/3).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "adenocarcinoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_388",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasms of bone and cartilage.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "osseous and chondromatous tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_267",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasms derived from glandular epithelial cells.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "glandular tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_149",
+      "meta" : {
+        "definition" : {
+          "val" : "Benign proliferation of epidermal cells with hyperkeratosis. Variable growth pattern, regular to papillary (exophytic squamous cell hyperplasia).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "squamous cell hyperplasia",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "epidermal hyperplasia.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "squamous hyperplasia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_370",
+      "meta" : {
+        "definition" : {
+          "val" : "Primitive neuroectodermal tumors (PNET) are neoplasms derived from primitive neural stem cells either in the CNS or the periphery . These are small-cell, malignant embryonal tumors showing divergent differentiation of variable degree along neuronal, glial, or rarely mesenchymal lines. (M-9473/3, M-9364/3).",
+          "xrefs" : [ "ISBN-13:9783794515530" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "PNET",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "primitive neurectodermal tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_490",
+      "meta" : {
+        "definition" : {
+          "val" : "Benign neoplastic growth containing areas of adenomatous structure (progression).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "polypoid adenoma, cellular polyp.",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "adenomatous polyp"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_251",
+      "meta" : {
+        "definition" : {
+          "val" : "meningioma",
+          "xrefs" : [ "ISBN-13:9783794515530" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Sarcoma, meningeal ( sensu malignant tumor)",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Benign or malignant neoplasm derived from the meninges. (M-9530/0)."
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "meningioma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_250",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasm derived from the primitive neurectodermal cells of the cerebellum. (M-9470/3). May be considered by some authorities a synonym of PNET in the CNS.",
+          "xrefs" : [ "ISBN-13:9783794515530" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Also see Weiss, W.W, Israel, M. Cobbs, C., et al. (2002) Oncogene 21, 7453-7463."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "medulloblastoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_371",
+      "meta" : {
+        "definition" : {
+          "val" : "Neuroendocrine cell derived anaplastic carcinoma composed of small cells, usually of the lung producing a variety of peptide hormones. (M-8041/3). 1.2.3.4 of MMHCC classification.",
+          "xrefs" : [ "PMID:15059877" ]
+        },
+        "xrefs" : [ {
+          "val" : "URL: http://emice.nci.nih.gov/mouse_models/organ_models/lung_models/murinecancer/tumorclass"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "oat cell carcinoma",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "see: Meuwissen, R., Linn, S.C., Linnoila, R.I. et al. (2003) Induction of small cell lung cancer by somatic inactivation of both Trp53 and Rb1 in a conditional mouse model. Cancer cell, 4: 181-189. AND Calbo, J., Meuwissen, R., van Montfort, E. et al. (2005) Genotype-phenotype relationships in a mouse model for human small-cell lung cancer. Cold Spring Harbor symposia on quantitative biology, 70: 225-232. AND Meuwissen, R. and Berns, A. (2005) Mouse models for human lung cancer. Genes & development, 19: 643-664."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "small cell carcinoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_252",
+      "meta" : {
+        "definition" : {
+          "val" : "Benign or malignant neoplasm derived form oligodendrocytes (M-9450/3).",
+          "xrefs" : [ "ISBN-13:9783794515530" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Glioma, oligodendritic, benign",
+          "xrefs" : [ "Pathbase: Curation" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "glioma oligodendritic, malignant",
+          "xrefs" : [ "Pathbase: Curation" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Also see Weiss, W.W, Israel, M. Cobbs, C., et al. (2002) Oncogene 21, 7453-7463."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "oligodendroglioma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_373",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasms derived from neuroepithelial precursors.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Renamed from neuroepitheliomatous tumor, to reflect primitive origins of this class of tumor."
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "CNS progenitor tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_376",
+      "meta" : {
+        "definition" : {
+          "val" : "A malignant neoplasm characterized by immature, poorly differentiated nerve cells of embryonic type. (M-9500/3).",
+          "xrefs" : [ "ISBN-13:9783794515530" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "neuroblastoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_375",
+      "meta" : {
+        "definition" : {
+          "val" : "A benign neoplasm composed of mature ganglionic neurons scattered singly or in clumps within a relatively abundant and dense stroma of neurofibrils and collagenous fibers. (M-9490/0).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "ganglioneuroma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_254",
+      "meta" : {
+        "definition" : {
+          "val" : "Tumors showing mutiple histological componants/differentiation.",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "complex tumor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_496",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasms of non-lymphoid haematopoietic lineage. Must have at least 20% blast cells to meet this definition.",
+          "xrefs" : [ "PMID:12070033" ]
+        },
+        "xrefs" : [ {
+          "val" : "URL:http://www.bloodjournal.org/cgi/content/full/100/1/238/DC1/2"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Non-Lymphoid leukaemias"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_378",
+      "meta" : {
+        "definition" : {
+          "val" : "Malignant juvenile neoplasm of the eye derived from primitive retinal precursor cells. (M- 9510/3).",
+          "xrefs" : [ "Pathbase: Curation" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "retinoblastoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_377",
+      "meta" : {
+        "definition" : {
+          "val" : "A catecholamine-secreting tumor arising from the chromaffin cells of the sympathetic nervous system or adrenal medulla. May be benign or malignant. [See MPATH 398]. (M- 8510/3).",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "pheochromocytoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MPATH_379",
+      "meta" : {
+        "definition" : {
+          "val" : "Neoplasm arising from the tissues of the odontogenic apparatus. These tumors are derived from ectodermal tissue (epithelial tumors) or from mesodermal tissue (connective tissue tumors) or are composed of both components (mixed or composite odontogenic tumors) .",
+          "xrefs" : [ "Pathbase: Pathology Committee" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "mouse_pathology.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "odontogenic tumor"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_405",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_404"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_219",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_536",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_535"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_710",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_428"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_119",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_105"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_723",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_407"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_322",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_254"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_425",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_423"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_378",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_373"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_435",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_433"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_233",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_270"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_356",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_352"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_291",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_267"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_66",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_56"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_407",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_404"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_328",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_323"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_506",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_504"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_316",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_310"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_516",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_513"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_89",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_86"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_277",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_270"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_404",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_417",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_415"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_622",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_33"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_437",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_433"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_429",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_404"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_308",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_549"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_565",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_243"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_353",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_270"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_68",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_56"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_603",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_0"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_271",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_556"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_377",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_366"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_247",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_249"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_718",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_322"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_451",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_450"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_335",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_321",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_310"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_156",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_154"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_213",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_212"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_446",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_549"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_423",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_404"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_62",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_56"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_162",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_605"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_312",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_310"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_420",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_74"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_218",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_603"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_98",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_89"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_246",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_565"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_532",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_530"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_376",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_373"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_490",
+      "pred" : "http://purl.obolibrary.org/obo/mpath#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_271"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_234",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_575"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_278",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_268"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_86",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_55"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_354",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_352"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_342",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_496"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_164",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_162"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_176",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_175"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_445",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_556"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_200",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_212"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_555",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_33"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_851",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_850"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_446",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_219"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_408",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_551"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_366",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_250",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_373"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_36",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_555"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_242",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_235"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_370",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_373"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_416",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_254"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_160",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_604"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_1",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_603"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_388",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_232",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_575"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_235",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_124",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_105"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_530",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_516"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_420",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_419"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_346",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_194"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_387",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_74"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_397",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_388"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_387",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_379"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_579",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_1"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_4",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_604",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_596"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_605",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_126"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_240",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_235"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_331",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_323"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_379",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_233",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_219"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_105",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_603"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_551",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_707",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_415"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_442",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_575",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_219"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_357",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_549"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_262",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_254"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_308",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_267"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_181",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_176"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_309",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_14",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_597"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_408",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_404"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_426",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_551"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_722",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_423"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_513",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_335"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_317",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_310"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_608",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_607"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_127",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_604"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_428",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_423"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_149",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_419",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_404"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_437",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_551"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_121",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_119"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_268",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_549"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_519",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_516"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_252",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_249"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_496",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_515"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_370",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_570"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_371",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_366"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_675",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_196"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_373",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_565"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_361",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_358"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_504",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_551"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_316",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_254"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_197",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_212"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_428",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_551"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_504",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_335"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_515",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_335"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_28",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_25"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_270",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_267"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_251",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_451",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_549"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_264",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_416",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_415"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_33",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_1"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_446",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_442"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_357",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_352"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_625",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_56"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_371",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_549"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_537",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_536"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_2",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_597"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_195",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_212"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_359",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_358"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_321",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_254"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_615",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_25"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_415",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_404"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_599",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_596"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_438",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_433"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_214",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_212"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_418",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_415"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_566",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_243"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_549",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_55",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_603"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_576",
+      "pred" : "http://purl.obolibrary.org/obo/mpath#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_575"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_270",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_556"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_433",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_570"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_315",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_310"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_238",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_235"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_246",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_264"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_426",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_423"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_34",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_33"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_25",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_14"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_56",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_55"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_695",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_551"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_74",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_56"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_387",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_254"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_353",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_352"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_850",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_56"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_201",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_212"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_266",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_264"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_31",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_25"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_268",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_267"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_358",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_219"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_298",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_270"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_375",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_570"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_236",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_235"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_249",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_565"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_287",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_270"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_64",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_599"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_629",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_240"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_556",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_535",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_513"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_291",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_549"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_476",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_474"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_564",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_249"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_596",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_0"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_322",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_310"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_597",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_596"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_70",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_56"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_323",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_309"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_574",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_64"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_407",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_551"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_321",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_549"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_365",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_602",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_126"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_244",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_249"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_431",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_429"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_310",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_309"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_403",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_398"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_418",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_551"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_299",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_267"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_81",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_56"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_398",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_366"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_234",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_549"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_490",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_270"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_709",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_428"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_261",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_254"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_267",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_433",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_404"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_154",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_149"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_184",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_176"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_396",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_388"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_571",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_575"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_98",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_474"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_188",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_596"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_242",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_551"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_474",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_66"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_198",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_212"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_27",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_25"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_607",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_603"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_120",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_119"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_212",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_194"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_271",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_267"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_126",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_603"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_445",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_264"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_295",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_268"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_254",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_97",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_90"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_175",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_596"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_194",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_188"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_360",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_556"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_243",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_196",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_212"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_502",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_342"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_352",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_354",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_549"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_450",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_90",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_56"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_570",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_351",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_556"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_392",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_388"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_150",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_149"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_360",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_358"
+    } ],
+    "id" : "http://purl.obolibrary.org/obo/mp/imports/mpath_import.owl",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ],
+      "version" : "http://purl.obolibrary.org/obo/mp/releases/2019-03-21/imports/mpath_import.owl"
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}
