@@ -27,3 +27,26 @@ $(ONT).owl: $(SRC)
 
 labels.csv: $(SRC)
 	robot query --use-graphs true -f csv -i $(SRC) --query ../sparql/term_table.sparql $@
+	
+	
+	IMPORT_SEED_FILES = $(patsubst %, imports/%_terms_combined.txt, $(IMPORTS))
+
+	all_imports: $(IMPORT_FILES)
+	 
+	@ -253,20 +249,6 @@ imports/%_terms_combined.txt: seed.txt imports/%_terms.txt
+	# -- Generate Import Modules --
+	#
+	# This pattern uses ROBOT to generate an import module
+
+MIRROR_FILES = $(patsubst %, mirror/%.owl, $(IMPORTS))
+
+mirror/merged_mirror.owl: $(MIRROR_FILES)
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) merge $(addprefix -i , $(MIRROR_FILES)) -o $@; fi 
+
+signature.txt: $(IMPORT_SEED_FILES)
+	cat $^ | grep -v ^# | sort | uniq >  $@
+
+imports/all_import.owl: mirror/merged_mirror.owl signature.txt
+	$(ROBOT) extract -i $< -T signature.txt --method BOT \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
+.PRECIOUS: imports/all_import.owl
