@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: mp/releases/2019-03-21/imports/cl_import.owl
+data-version: mp/releases/2019-03-22/imports/cl_import.owl
 ontology: mp/imports/cl_import
 owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0000000>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0000108>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0000160>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0000359>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0000540>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0000748>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0001067>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0001068>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0002590>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0008029>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0008030>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0009001>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0011112>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_1000314>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_1000321>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_1000323>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_1000325>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_1000326>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_1000327>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_1000488>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0001909>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0007269>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0014055>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0015106>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0030103>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0032782>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0046879>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0061535>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0098976>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0098977>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000018>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000059>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000483>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000955>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001154>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001983>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002049>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002115>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002116>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0005388>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0008859>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0008861>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002215>))\n\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/CL_0000108> (cholinergic neuron)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CL_0000108> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/GO_0014055>))\n\n# Class: <http://purl.obolibrary.org/obo/CL_0000748> (retinal bipolar neuron)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CL_0000748> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0061535> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0098976>))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_0001068> (ILC1)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CL_0001068> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0001067> ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/GO_0001909>))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_0002590> (smooth muscle cell of the brain vasculature)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CL_0002590> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000359> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0002049> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000955>)))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_0008029> (inhibitory neuron)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CL_0008029> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000540> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0007269> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0098977>)))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_0008030> (excitatory neuron)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CL_0008030> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000540> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0007269> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0098976>)))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_0009001> (compound eye retinal cell)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CL_0009001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0005388> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000018>)))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_0011112> (magnocellular neurosecretory cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CL_0011112> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000540> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/GO_0030103>)))\nSubClassOf(<http://purl.obolibrary.org/obo/CL_0011112> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000540> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/GO_0046879>)))\n\n# Class: <http://purl.obolibrary.org/obo/CL_1000314> (gastric cardiac gland goblet cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CL_1000314> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000483> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008859>))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_1000321> (large intestine crypt goblet cell)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CL_1000321> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000160> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001983> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000059>)))))\nSubClassOf(<http://purl.obolibrary.org/obo/CL_1000321> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000483> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001983> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000059>))))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_1000323> (pylroric gastric gland goblet cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CL_1000323> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000483> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008861>))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_1000325> (jejunal goblet cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CL_1000325> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000483> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002115>))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_1000326> (ileal goblet cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CL_1000326> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000483> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002116>))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_1000327> (appendix goblet cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CL_1000327> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000483> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001154>))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_1000488> (cholangiocyte)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CL_1000488> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0015106> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0032782>))))\n\n\n)
 
@@ -7741,6 +7741,22 @@ intersection_of: RO:0002104 PR:000001865
 relationship: RO:0002202 CL:0000894 ! DN1 thymic pro-T cell
 
 [Term]
+id: CL:0000944
+name: Be2 cell
+namespace: cell
+def: "A Be cell that facilitates development of T-helper 2 (Th2) phenotype T cells, and secretes high levels of interleukin-2, interleukin-10, interleukin-4, and interleukin-6." [GO_REF:0000031, GOC:dsd, GOC:msz, GOC:tfm, PMID:11101868, PMID:20224569]
+comment: Be2 cells are also reportedly capable of secreting IL-13 and TNF. They are also reportedly CD11b-negative and B220-positive.
+synonym: "B effector 2 cell" EXACT [PMID:11101868, PMID:20224569]
+synonym: "B effector cell type 2" RELATED []
+is_a: CL:0000968 {is_inferred="true"} ! Be cell
+intersection_of: CL:0000968 ! Be cell
+intersection_of: RO:0002215 GO:0032613
+intersection_of: RO:0002215 GO:0032623
+intersection_of: RO:0002215 GO:0032633
+intersection_of: RO:0002215 GO:0032635
+intersection_of: RO:0002215 GO:0045630
+
+[Term]
 id: CL:0000945
 name: lymphocyte of B lineage
 namespace: cell
@@ -8065,6 +8081,22 @@ intersection_of: lacks_plasma_membrane_part GO:0071738
 intersection_of: lacks_plasma_membrane_part PR:000003516
 intersection_of: RO:0002104 PR:000001408
 relationship: RO:0002202 CL:0000963 ! Bm3-delta B cell
+
+[Term]
+id: CL:0000968
+name: Be cell
+namespace: cell
+def: "A mature B cell that produces cytokines that can influence CD4 T cell differentiation." [GO_REF:0000031, GOC:msz, GOC:tfm, PMID:11101868, PMID:20224569]
+synonym: "B effector cell" EXACT []
+synonym: "effector B cell" EXACT []
+synonym: "effector B lymphocyte" EXACT []
+synonym: "effector B-cell" EXACT []
+synonym: "effector B-lymphocyte" EXACT []
+is_a: CL:0000785 {is_inferred="true"} ! mature B cell
+intersection_of: CL:0000785 ! mature B cell
+intersection_of: RO:0002104 PR:000001289
+intersection_of: RO:0002215 GO:0001816
+intersection_of: RO:0002215 GO:0043370
 
 [Term]
 id: CL:0000970
@@ -8606,6 +8638,30 @@ comment: VSAO relationship simplified OBO_REL:integral_part_of VSAO:0000118
 xref: VSAO:0000117
 is_a: CL:0000062 ! osteoblast
 relationship: BFO:0000050 UBERON:0002481
+
+[Term]
+id: CL:0001041
+name: CD8-positive, CXCR3-positive, alpha-beta regulatory T cell
+namespace: cell
+def: "A CD8-positive alpha-beta-positive T cell with the phenotype CXCR3-positive and having suppressor function. They are capable of producing IL-10, suppressing proliferation, and suppressing IFN-gamma production." [GOC:dsd, PMID:19609979]
+comment: These cells may be the human equivalent of murine CD8-positive, CD122-positive alpha-beta regulatory T cell. They are also found in the CD45RA-negative and CD62L-positive fraction.
+synonym: "CD8+CXCR3+ T cell" EXACT []
+synonym: "CD8+CXCR3+ T lymphocyte" EXACT []
+synonym: "CD8+CXCR3+ T(reg)" EXACT []
+synonym: "CD8+CXCR3+ T-cell" EXACT []
+synonym: "CD8+CXCR3+ T-lymphocyte " EXACT []
+synonym: "CD8+CXCR3+ Treg" EXACT []
+synonym: "CD8-positive, CXCR3-positive, alpha-beta regulatory T lymphocyte" EXACT []
+synonym: "CD8-positive, CXCR3-positive, alpha-beta regulatory T-cell" EXACT []
+synonym: "CD8-positive, CXCR3-positive, alpha-beta regulatory T-lymphocyte" EXACT []
+synonym: "CD8-positive, CXCR3-positive, T(reg)" EXACT []
+synonym: "CD8-positive, CXCR3-positive, Treg" EXACT []
+is_a: CL:0000795 {is_inferred="true"} ! CD8-positive, alpha-beta regulatory T cell
+intersection_of: CL:0000795 ! CD8-positive, alpha-beta regulatory T cell
+intersection_of: BFO:0000051 PR:000001207
+intersection_of: RO:0002215 GO:0032613
+intersection_of: RO:0002215 GO:0032689
+intersection_of: RO:0002215 GO:0042130
 
 [Term]
 id: CL:0001044
@@ -19130,6 +19186,14 @@ id: has_not_completed
 name: has_not_completed
 
 [Typedef]
+id: has_relational_adjective
+name: has_relational_adjective
+namespace: uberon
+comment: Used to connect a class to an adjectival form of its label. For example, a class with label 'intestine' may have a relational adjective 'intestinal'.
+xref: UBPROP:0000007
+is_metadata_tag: true
+
+[Typedef]
 id: immediate_transformation_of
 name: immediate_transformation_of
 synonym: "direct_transformation_of" EXACT [https://orcid.org/0000-0002-6601-2165]
@@ -19146,4 +19210,11 @@ expand_expression_to: "http://purl.obolibrary.org/obo/BFO_0000051 exactly 0 ?Y" 
 id: lacks_plasma_membrane_part
 name: lacks_plasma_membrane_part
 expand_expression_to: "http://purl.obolibrary.org/obo/BFO_0000051 exactly 0 (http://purl.obolibrary.org/obo/GO_0005886 and http://purl.obolibrary.org/obo/BFO_0000051 some ?Y)" []
+
+[Typedef]
+id: seeAlso
+name: see also
+namespace: uberon
+xref: http://www.w3.org/2000/01/rdf-schema#seeAlso
+is_metadata_tag: true
 
