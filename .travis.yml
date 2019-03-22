@@ -25,4 +25,4 @@ notifications:
 
 # perform quality checks
 script: 
-  - cd src/ontology && sh run.sh make test
+  - cd src/ontology && sh run0.sh make test
