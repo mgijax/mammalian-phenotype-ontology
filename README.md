@@ -4,7 +4,7 @@
 
  * https://build.berkeleybop.org/job/build-mp-edit/
 
-The obo release at JAX is handled from here
+The obo release at JAX is handled from here.
 
 ## Project Page
 
