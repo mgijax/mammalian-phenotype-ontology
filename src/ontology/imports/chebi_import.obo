@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: mp/releases/2019-03-21/imports/chebi_import.owl
+data-version: mp/releases/2019-03-22/imports/chebi_import.owl
 ontology: mp/imports/chebi_import
 
 [Term]
@@ -6988,6 +6988,79 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "73.02950"
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "CCC([O-])=O" xsd:string
 
 [Term]
+id: CHEBI:17303
+name: morphine
+namespace: chebi_ontology
+alt_id: CHEBI:14622
+alt_id: CHEBI:25419
+alt_id: CHEBI:44202
+alt_id: CHEBI:7001
+def: "A morphinane alkaloid that is a highly potent opiate analgesic psychoactive drug. Morphine acts directly on the central nervous system (CNS) to relieve pain but has a high potential for addiction, with tolerance and both physical and psychological dependence developing rapidly. Morphine is the most abundant opiate found in Papaver somniferum (the opium poppy)." []
+subset: 3_STAR
+synonym: "(-)-morphine" RELATED [ChemIDplus]
+synonym: "(5alpha,6alpha)-17-methyl-7,8-didehydro-4,5-epoxymorphinan-3,6-diol" RELATED [ChEBI]
+synonym: "(5alpha,6alpha)-didehydro-4,5-epoxy-17-methylmorphinan-3,6-diol" RELATED [NIST_Chemistry_WebBook]
+synonym: "(5R,6S,9R,13S,14R)-4,5-epoxy-N-methyl-7-morphinen-3,6-diol" RELATED [ChemIDplus]
+synonym: "(7R,7AS,12BS)-3-METHYL-2,3,4,4A,7,7A-HEXAHYDRO-1H-4,12-METHANO[1]BENZOFURO[3,2-E]ISOQUINOLINE-7,9-DIOL" RELATED [PDBeChem]
+synonym: "17-methyl-7,8-didehydro-4,5alpha-epoxymorphinan-3,6alpha-diol" EXACT IUPAC_NAME [IUPAC]
+synonym: "morfina" RELATED [ChEBI]
+synonym: "Morphia" RELATED [ChemIDplus]
+synonym: "Morphin" RELATED [ChemIDplus]
+synonym: "Morphine" EXACT [KEGG_COMPOUND]
+synonym: "morphinum" RELATED [ChemIDplus]
+synonym: "morphium" RELATED [ChemIDplus]
+xref: Beilstein:93704 "Beilstein"
+xref: CAS:57-27-2 "KEGG COMPOUND"
+xref: Drug_Central:1845 "DrugCentral"
+xref: DrugBank:DB00295
+xref: KEGG:C01516
+xref: KEGG:D08233
+xref: KNApSAcK:C00001889
+xref: MetaCyc:MORPHINE
+xref: PDB:1Q0Y
+xref: PDBeChem:MOI
+xref: PMID:12593758 "Europe PMC"
+xref: PMID:15019787 "Europe PMC"
+xref: PMID:17171884 "Europe PMC"
+xref: PMID:17667569 "Europe PMC"
+xref: PMID:19371311 "Europe PMC"
+xref: PMID:20071451 "Europe PMC"
+xref: PMID:23292329 "Europe PMC"
+xref: PMID:23325235 "Europe PMC"
+xref: PMID:23555556 "Europe PMC"
+xref: PMID:23927484 "Europe PMC"
+xref: PMID:23988259 "Europe PMC"
+xref: PMID:24096538 "Europe PMC"
+xref: PMID:24306419 "Europe PMC"
+xref: PMID:27735107 "Europe PMC"
+xref: PMID:27815868 "Europe PMC"
+xref: PMID:27866460 "Europe PMC"
+xref: PMID:29368335 "Europe PMC"
+xref: PMID:9231550 "Europe PMC"
+xref: Reaxys:93704 "Reaxys"
+xref: VSDB:2982
+xref: Wikipedia:Morphine
+is_a: CHEBI:25418 ! morphinane alkaloid
+is_a: CHEBI:38164 ! organic heteropentacyclic compound
+is_a: CHEBI:50996 ! tertiary amino compound
+relationship: has_parent_hydride CHEBI:35649 ! morphinan
+relationship: has_role CHEBI:35482 ! opioid analgesic
+relationship: has_role CHEBI:35620 ! vasodilator agent
+relationship: has_role CHEBI:35703 ! xenobiotic
+relationship: has_role CHEBI:38867 ! anaesthetic
+relationship: has_role CHEBI:55322 ! mu-opioid receptor agonist
+relationship: has_role CHEBI:76924 ! plant metabolite
+relationship: has_role CHEBI:78298 ! environmental contaminant
+relationship: is_conjugate_base_of CHEBI:58097 ! morphine(1+)
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C17H19NO3" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C17H19NO3/c1-18-7-6-17-10-3-5-13(20)16(17)21-15-12(19)4-2-9(14(15)17)8-11(10)18/h2-5,10-11,13,16,19-20H,6-8H2,1H3/t10-,11+,13-,16-,17-/m0/s1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "BQJCRHHNABKAKU-KBQPJGBKSA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "285.33770" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "285.13649" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@]12C=C[C@H](O)[C@@H]3Oc4c(O)ccc5C[C@H]1N(C)CC[C@@]23c45" xsd:string
+
+[Term]
 id: CHEBI:17325
 name: 3-hydroxy-3-methylglutarate(2-)
 namespace: chebi_ontology
@@ -11329,6 +11402,15 @@ synonym: "benzoate anion" RELATED [ChEBI]
 is_a: CHEBI:35757 ! monocarboxylic acid anion
 
 [Term]
+id: CHEBI:22723
+name: benzoic acids
+namespace: chebi_ontology
+def: "Any aromatic carboxylic acid that consists of benzene in which at least a single hydrogen has been substituted by a carboxy group." []
+subset: 3_STAR
+is_a: CHEBI:22712 ! benzenes
+is_a: CHEBI:33859 ! aromatic carboxylic acid
+
+[Term]
 id: CHEBI:22727
 name: benzopyran
 namespace: chebi_ontology
@@ -11592,8 +11674,8 @@ namespace: chebi_ontology
 subset: 3_STAR
 synonym: ">C=O" RELATED [IUPAC]
 synonym: "carbonyl" EXACT IUPAC_NAME [IUPAC]
-synonym: "carbonyl group" EXACT [UniProt]
 synonym: "carbonyl group" EXACT [ChEBI]
+synonym: "carbonyl group" EXACT [UniProt]
 is_a: CHEBI:51422 ! organodiyl group
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "CO" xsd:string
@@ -12764,6 +12846,15 @@ subset: 3_STAR
 is_a: CHEBI:23677 ! diazole
 
 [Term]
+id: CHEBI:24782
+name: imide
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "imide" EXACT [ChEBI]
+synonym: "imides" RELATED [ChEBI]
+is_a: CHEBI:33257 ! secondary amide
+
+[Term]
 id: CHEBI:24828
 name: indoles
 namespace: chebi_ontology
@@ -13326,6 +13417,15 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "151.04007
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC(C([O-])=O)c1ccccc1" xsd:string
 
 [Term]
+id: CHEBI:25179
+name: melanins
+namespace: chebi_ontology
+alt_id: CHEBI:6727
+subset: 1_STAR
+is_a: CHEBI:26195 ! polyphenol
+relationship: has_role CHEBI:26130 ! biological pigment
+
+[Term]
 id: CHEBI:25185
 name: menaquinones
 namespace: chebi_ontology
@@ -13416,6 +13516,22 @@ def: "Compounds containing a benzene skeleton substituted with one methoxy group
 subset: 3_STAR
 synonym: "monomethoxybenzenes" RELATED [ChEBI]
 is_a: CHEBI:51683 ! methoxybenzenes
+
+[Term]
+id: CHEBI:25248
+name: methyl ester
+namespace: chebi_ontology
+def: "Any carboxylic ester resulting from the formal condensation of a carboxy group with methanol." []
+subset: 3_STAR
+synonym: "carboxylic acid methyl ester" RELATED [ChEBI]
+synonym: "carboxylic acid methyl esters" RELATED [ChEBI]
+is_a: CHEBI:33308 ! carboxylic ester
+relationship: has_functional_parent CHEBI:17790 ! methanol
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C2H3O2R" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "59.044" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "59.01330" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "COC([*])=O" xsd:string
 
 [Term]
 id: CHEBI:25255
@@ -13594,6 +13710,15 @@ is_a: CHEBI:23906 ! monoatomic cation
 property_value: http://purl.obolibrary.org/obo/chebi/charge "+1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "0.00000" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[*+]" xsd:string
+
+[Term]
+id: CHEBI:25418
+name: morphinane alkaloid
+namespace: chebi_ontology
+def: "An  isoquinoline alkaloid based on a morphinan skeleton and its substituted derivatives." []
+subset: 3_STAR
+synonym: "morphinane alkaloids" RELATED [ChEBI]
+is_a: CHEBI:24921 ! isoquinoline alkaloid
 
 [Term]
 id: CHEBI:25435
@@ -14385,6 +14510,16 @@ def: "A compound that contains two or more hydroxy groups." []
 subset: 3_STAR
 synonym: "polyols" RELATED [ChEBI]
 is_a: CHEBI:33822 ! organic hydroxy compound
+
+[Term]
+id: CHEBI:26195
+name: polyphenol
+namespace: chebi_ontology
+def: "Members of the class of phenols that contain 2 or more benzene rings each of which is substituted by at least one hydroxy group." []
+subset: 3_STAR
+synonym: "polyphenols" RELATED [ChEBI]
+xref: Wikipedia:Polyphenol
+is_a: CHEBI:33853 ! phenols
 
 [Term]
 id: CHEBI:26214
@@ -16549,6 +16684,81 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "QIVBCDIJIAJPQS-UH
 property_value: http://purl.obolibrary.org/obo/chebi/mass "204.22526" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "204.08988" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "NC(Cc1c[nH]c2ccccc12)C(O)=O" xsd:string
+
+[Term]
+id: CHEBI:27958
+name: cocaine
+namespace: chebi_ontology
+alt_id: CHEBI:23346
+alt_id: CHEBI:3801
+alt_id: CHEBI:41642
+def: "A tropane alkaloid obtained from leaves of the South American shrub Erythroxylon coca." []
+subset: 3_STAR
+synonym: "(-)-cocaine" RELATED [ChEBI]
+synonym: "(1R,2R,3S,5S)-2-(methoxycarbonyl)tropan-3-yl benzoate" EXACT IUPAC_NAME [IUPAC]
+synonym: "2-methyl-3beta-hydroxy-1alphaH,5alphaH-tropane-2beta-carboxylate benzoate (ester)" RELATED [NIST_Chemistry_WebBook]
+synonym: "[1R-(exo,exo)]-3-(benzoyloxy)-8-methyl-8-azabicyclo[3.2.1]octane-2-carboxylic acid, methyl ester" RELATED [NIST_Chemistry_WebBook]
+synonym: "Benzoylmethylecgonine" RELATED [ChemIDplus]
+synonym: "beta-Cocain" RELATED [KEGG_COMPOUND]
+synonym: "Cocain" RELATED [DrugBank]
+synonym: "Cocaina" RELATED [DrugBank]
+synonym: "COCAINE" EXACT [PDBeChem]
+synonym: "Cocaine" EXACT [KEGG_COMPOUND]
+synonym: "cocainum" RELATED [ChEBI]
+synonym: "Kokain" RELATED [ChemIDplus]
+synonym: "Kokain" RELATED [ChEBI]
+synonym: "l-Cocain" RELATED [KEGG_COMPOUND]
+synonym: "l-cocaine" RELATED [ChemIDplus]
+synonym: "methyl (1R,2R,3S,5S)-3-(benzoyloxy)-8-methyl-8-azabicyclo[3.2.1]octane-2-carboxylate" EXACT IUPAC_NAME [IUPAC]
+synonym: "methyl [1R-(exo,exo)]-3-(benzoyloxy)-8-methyl-8-azabicyclo[3.2.1]octane-2-carboxylate" RELATED [ChEBI]
+synonym: "methyl benzoylecgonine" RELATED [ChemIDplus]
+synonym: "Neurocaine" RELATED [ChemIDplus]
+xref: Beilstein:3621912 "Beilstein"
+xref: Beilstein:5291037 "Beilstein"
+xref: Beilstein:91034 "Beilstein"
+xref: CAS:50-36-2 "NIST Chemistry WebBook"
+xref: Drug_Central:723 "DrugCentral"
+xref: DrugBank:DB00907
+xref: Gmelin:170209 "Gmelin"
+xref: KEGG:C01416
+xref: KEGG:D00110
+xref: KNApSAcK:C00002285
+xref: MetaCyc:CPD-9776
+xref: PDBeChem:COC
+xref: PMID:11416615 "Europe PMC"
+xref: PMID:11853120 "Europe PMC"
+xref: PMID:14962054 "Europe PMC"
+xref: PMID:17551070 "Europe PMC"
+xref: PMID:19536276 "Europe PMC"
+xref: PMID:21150772 "Europe PMC"
+xref: PMID:25303034 "Europe PMC"
+xref: Reaxys:5291037 "Reaxys"
+xref: Reaxys:91034 "Reaxys"
+xref: Wikipedia:Cocaine
+is_a: CHEBI:25248 ! methyl ester
+is_a: CHEBI:36054 ! benzoate ester
+is_a: CHEBI:37332 ! tropane alkaloid
+is_a: CHEBI:50996 ! tertiary amino compound
+relationship: has_role CHEBI:35337 ! central nervous system stimulant
+relationship: has_role CHEBI:35524 ! sympathomimetic agent
+relationship: has_role CHEBI:35640 ! adrenergic uptake inhibitor
+relationship: has_role CHEBI:35703 ! xenobiotic
+relationship: has_role CHEBI:36333 ! local anaesthetic
+relationship: has_role CHEBI:38633 ! sodium channel blocker
+relationship: has_role CHEBI:50514 ! vasoconstrictor agent
+relationship: has_role CHEBI:50949 ! serotonin uptake inhibitor
+relationship: has_role CHEBI:51039 ! dopamine uptake inhibitor
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:76924 ! plant metabolite
+relationship: has_role CHEBI:78298 ! environmental contaminant
+relationship: is_conjugate_base_of CHEBI:60056 ! cocaine(1+)
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C17H21NO4" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C17H21NO4/c1-18-12-8-9-13(18)15(17(20)21-2)14(10-12)22-16(19)11-6-4-3-5-7-11/h3-7,12-15H,8-10H2,1-2H3/t12-,13+,14-,15+/m0/s1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "ZPUCINDJVBIVPJ-LJISPDSOSA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "303.35290" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "303.14706" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@]12CC[C@]([H])([C@H]([C@H](C1)OC(=O)c1ccccc1)C(=O)OC)N2C" xsd:string
 
 [Term]
 id: CHEBI:28024
@@ -19888,6 +20098,64 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "1059.5614
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "N[C@@H](CCCNC(N)=N)C(=O)N1CCC[C@H]1C(=O)N1CCC[C@H]1C(=O)NCC(=O)N[C@@H](Cc1ccccc1)C(=O)N[C@@H](CO)C(=O)N1CCC[C@H]1C(=O)N[C@@H](Cc1ccccc1)C(=O)N[C@@H](CCCNC(N)=N)C(O)=O" xsd:string
 
 [Term]
+id: CHEBI:32111
+name: saccharin
+namespace: chebi_ontology
+alt_id: CHEBI:49717
+def: "A 1,2-benzisothiazole having a keto-group at the 3-position and two oxo substituents at the 1-position. It is used as an artificial sweetening agent." []
+subset: 3_STAR
+synonym: "1,1-Dioxo-1,2-benzisothiazol-3(2H)-one" RELATED [NIST_Chemistry_WebBook]
+synonym: "1,1-Dioxo-1,2-dihydro-benzo[d]isothiazol-3-one" RELATED [NIST_Chemistry_WebBook]
+synonym: "1,2-Benzisothiazol-3(2H)-one 1,1-dioxide" RELATED [ChemIDplus]
+synonym: "1,2-benzisothiazol-3(2H)-one 1,1-dioxide" EXACT IUPAC_NAME [IUPAC]
+synonym: "1,2-Benzisothiazolin-3-one 1,1-dioxide" RELATED [NIST_Chemistry_WebBook]
+synonym: "1,2-Dihydro-2-ketobenzisosulfonazole" RELATED [ChemIDplus]
+synonym: "1,2-Dihydro-2-ketobenzisosulphonazole" RELATED [ChemIDplus]
+synonym: "2,3-Dihydro-3-oxobenzisosulfonazole" RELATED [ChemIDplus]
+synonym: "2,3-Dihydro-3-oxobenzisosulphonazole" RELATED [ChemIDplus]
+synonym: "3-Hydroxybenzisothiazole-S,S-dioxide" RELATED [ChemIDplus]
+synonym: "Anhydro-o-sulfaminebenzoic acid" RELATED [ChemIDplus]
+synonym: "Benzo-2-sulphimide" RELATED [ChemIDplus]
+synonym: "Benzoic acid sulfimide" RELATED [ChemIDplus]
+synonym: "Benzoic sulfimide" RELATED [ChemIDplus]
+synonym: "Benzoic sulphimide" RELATED [ChemIDplus]
+synonym: "Benzosulfimide" RELATED [ChemIDplus]
+synonym: "Benzosulphimide" RELATED [ChemIDplus]
+synonym: "Benzoylsulfonic Imide" RELATED [ChemIDplus]
+synonym: "o-Benzoic sulfimide" RELATED [ChemIDplus]
+synonym: "o-Benzosulfimide" RELATED [ChemIDplus]
+synonym: "o-Sulfobenzimide" RELATED [ChemIDplus]
+synonym: "o-Sulfobenzoic acid imide" RELATED [ChemIDplus]
+synonym: "Saccharimide" RELATED [ChemIDplus]
+synonym: "Saccharin" EXACT [KEGG_DRUG]
+synonym: "Saccharine" RELATED [ChemIDplus]
+xref: Beilstein:6888 "Beilstein"
+xref: CAS:81-07-2 "KEGG DRUG"
+xref: Gmelin:4203 "Gmelin"
+xref: HMDB:HMDB0029723
+xref: KEGG:D01085
+xref: MetaCyc:CPD-5581
+xref: PDBeChem:LSA
+xref: PMID:24456165 "Europe PMC"
+xref: PMID:24549104 "Europe PMC"
+xref: PMID:24739358 "Europe PMC"
+xref: PMID:24780866 "Europe PMC"
+xref: Reaxys:6888 "Reaxys"
+xref: Wikipedia:Saccharin
+is_a: CHEBI:55505 ! 1,2-benzisothiazole
+is_a: CHEBI:90852 ! N-sulfonylcarboxamide
+relationship: has_role CHEBI:35703 ! xenobiotic
+relationship: has_role CHEBI:50505 ! sweetening agent
+relationship: has_role CHEBI:78298 ! environmental contaminant
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C7H5NO3S" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C7H5NO3S/c9-7-5-3-1-2-4-6(5)12(10,11)8-7/h1-4H,(H,8,9)" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "CVHZOJJKTDOEJC-UHFFFAOYSA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "183.18500" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "182.99901" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "O=C1NS(=O)(=O)c2ccccc12" xsd:string
+
+[Term]
 id: CHEBI:32439
 name: alaninate
 namespace: chebi_ontology
@@ -21660,6 +21928,16 @@ def: "A derivative of an oxoacid RkE(=O)l(OH)m (l =/= 0) in which an acidic hydr
 subset: 3_STAR
 synonym: "primary amide" EXACT [IUPAC]
 synonym: "primary amides" EXACT IUPAC_NAME [IUPAC]
+is_a: CHEBI:32988 ! amide
+
+[Term]
+id: CHEBI:33257
+name: secondary amide
+namespace: chebi_ontology
+def: "A derivative of two oxoacids RkE(=O)l(OH)m (l =/= 0) in which two acyl groups are attached to the amino or substituted amino group." []
+subset: 3_STAR
+synonym: "secondary amide" EXACT IUPAC_NAME [IUPAC]
+synonym: "secondary amides" EXACT IUPAC_NAME [IUPAC]
 is_a: CHEBI:32988 ! amide
 
 [Term]
@@ -24681,6 +24959,19 @@ subset: 3_STAR
 is_a: CHEBI:35480 ! analgesic
 
 [Term]
+id: CHEBI:35482
+name: opioid analgesic
+namespace: chebi_ontology
+def: "A narcotic or opioid substance, synthetic or semisynthetic agent producing profound analgesia, drowsiness, and changes in mood." []
+subset: 3_STAR
+synonym: "narcotic" RELATED [ChEBI]
+synonym: "narcotic analgesic" RELATED [ChEBI]
+synonym: "narcotic analgesics" RELATED [ChEBI]
+synonym: "narcotics" RELATED [ChEBI]
+synonym: "opioid analgesics" RELATED [ChEBI]
+is_a: CHEBI:35480 ! analgesic
+
+[Term]
 id: CHEBI:35488
 name: central nervous system depressant
 namespace: chebi_ontology
@@ -25178,6 +25469,23 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "ZGXJTSGNIOSYLO-UH
 property_value: http://purl.obolibrary.org/obo/chebi/mass "131.12990" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "131.05824" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[NH3+]CC(=O)CCC([O-])=O" xsd:string
+
+[Term]
+id: CHEBI:35649
+name: morphinan
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "morphinan" EXACT IUPAC_NAME [IUPAC]
+xref: Beilstein:1375527 "Beilstein"
+is_a: CHEBI:25418 ! morphinane alkaloid
+is_a: CHEBI:38515 ! isoquinoline alkaloid fundamental parent
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C16H21N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C16H21N/c1-2-6-13-12(5-1)11-15-14-7-3-4-8-16(13,14)9-10-17-15/h1-2,5-6,14-15,17H,3-4,7-11H2/t14-,15+,16-/m0/s1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "INAXVFBXDYWQFN-XHSDSOJGSA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "227.34468" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "227.16740" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@@]12CCCC[C@@]11CCN[C@@H]2Cc2ccccc12" xsd:string
 
 [Term]
 id: CHEBI:35664
@@ -25982,6 +26290,19 @@ is_a: CHEBI:22587 ! antiviral agent
 is_a: CHEBI:36043 ! antimicrobial drug
 
 [Term]
+id: CHEBI:36054
+name: benzoate ester
+namespace: chebi_ontology
+def: "Esters of benzoic acid or substituted benzoic acids." []
+subset: 3_STAR
+synonym: "benzoate ester" EXACT [ChEBI]
+synonym: "benzoate esters" RELATED [ChEBI]
+synonym: "benzoic acid esters" RELATED [ChEBI]
+is_a: CHEBI:33308 ! carboxylic ester
+is_a: CHEBI:62732 ! aromatic ester
+relationship: has_functional_parent CHEBI:22723 ! benzoic acids
+
+[Term]
 id: CHEBI:36059
 name: hydroxy monocarboxylic acid anion
 namespace: chebi_ontology
@@ -26249,6 +26570,19 @@ synonym: "macrocyclic tetrapyrrole" RELATED [ChEBI]
 synonym: "macrocyclic tetrapyrroles" EXACT IUPAC_NAME [IUPAC]
 is_a: CHEBI:26932 ! tetrapyrrole
 is_a: CHEBI:47882 ! cyclic polypyrrole
+
+[Term]
+id: CHEBI:36333
+name: local anaesthetic
+namespace: chebi_ontology
+def: "Any member of a group of drugs that reversibly inhibit the propagation of signals along nerves. Wide variations in potency, stability, toxicity, water-solubility and duration of action determine the route used for administration, e.g. topical, intravenous, epidural or spinal block." []
+subset: 3_STAR
+synonym: "anesthesique local" RELATED [ChEBI]
+synonym: "local anaesthetic" EXACT IUPAC_NAME [IUPAC]
+synonym: "local anaesthetics" RELATED [ChEBI]
+synonym: "local anesthetics" RELATED [ChEBI]
+synonym: "Lokalanaesthetikum" RELATED [ChEBI]
+is_a: CHEBI:38867 ! anaesthetic
 
 [Term]
 id: CHEBI:36338
@@ -27137,6 +27471,17 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "311.29555
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(C)CCCC(C)CCCC(C)CCCC(C)CC([O-])=O" xsd:string
 
 [Term]
+id: CHEBI:37332
+name: tropane alkaloid
+namespace: chebi_ontology
+alt_id: CHEBI:27154
+alt_id: CHEBI:27155
+subset: 3_STAR
+synonym: "tropane alkaloids" RELATED [ChEBI]
+is_a: CHEBI:22315 ! alkaloid
+is_a: CHEBI:38295 ! azabicycloalkane
+
+[Term]
 id: CHEBI:37395
 name: mucopolysaccharide
 namespace: chebi_ontology
@@ -27416,6 +27761,15 @@ synonym: "protein kinase inhibitors" RELATED [ChEBI]
 is_a: CHEBI:76668 ! EC 2.7.* (P-containing group transferase) inhibitor
 
 [Term]
+id: CHEBI:37716
+name: mixed diacylamine
+namespace: chebi_ontology
+def: "Any imide in which the acyl substituents are any two from carboacyl, sulfonyl and phosphoryl" []
+subset: 3_STAR
+synonym: "mixed diacylamines" RELATED [ChEBI]
+is_a: CHEBI:24782 ! imide
+
+[Term]
 id: CHEBI:37733
 name: EC 3.1.1.8 (cholinesterase) inhibitor
 namespace: chebi_ontology
@@ -27635,6 +27989,15 @@ is_a: CHEBI:37887 ! adrenergic antagonist
 is_a: CHEBI:48539 ! alpha-adrenergic drug
 
 [Term]
+id: CHEBI:37947
+name: benzothiazoles
+namespace: chebi_ontology
+subset: 3_STAR
+is_a: CHEBI:27171 ! organic heterobicyclic compound
+is_a: CHEBI:38101 ! organonitrogen heterocyclic compound
+is_a: CHEBI:38106 ! organosulfur heterocyclic compound
+
+[Term]
 id: CHEBI:37955
 name: H1-receptor antagonist
 namespace: chebi_ontology
@@ -27810,6 +28173,14 @@ xref: KEGG:C02169
 is_a: CHEBI:52214 ! ligand
 
 [Term]
+id: CHEBI:38164
+name: organic heteropentacyclic compound
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "organic heteropentacyclic compounds" RELATED [ChEBI]
+is_a: CHEBI:38166 ! organic heteropolycyclic compound
+
+[Term]
 id: CHEBI:38166
 name: organic heteropolycyclic compound
 namespace: chebi_ontology
@@ -27952,6 +28323,15 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "CIWBSHSKHKDKBQ-JL
 property_value: http://purl.obolibrary.org/obo/chebi/mass "175.11618" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "175.02481" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@@]1(OC(=O)C(O)=C1[O-])[C@@H](O)CO" xsd:string
+
+[Term]
+id: CHEBI:38295
+name: azabicycloalkane
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "azabicycloalkanes" RELATED [ChEBI]
+is_a: CHEBI:27171 ! organic heterobicyclic compound
+is_a: CHEBI:38101 ! organonitrogen heterocyclic compound
 
 [Term]
 id: CHEBI:38304
@@ -28246,6 +28626,16 @@ synonym: "membrane transport modulators" RELATED [ChEBI]
 is_a: CHEBI:52208 ! biophysical role
 
 [Term]
+id: CHEBI:38633
+name: sodium channel blocker
+namespace: chebi_ontology
+def: "An agent that inhibits sodium influx through cell membranes." []
+subset: 3_STAR
+synonym: "Na channel blocker" RELATED [ChEBI]
+synonym: "sodium channel blockers" RELATED [ChEBI]
+is_a: CHEBI:39000 ! sodium channel modulator
+
+[Term]
 id: CHEBI:38700
 name: organic sodium salt
 namespace: chebi_ontology
@@ -28522,6 +28912,14 @@ synonym: "Alkylbenzol" RELATED [ChEBI]
 is_a: CHEBI:22712 ! benzenes
 is_a: CHEBI:33847 ! monocyclic arene
 relationship: has_parent_hydride CHEBI:16716 ! benzene
+
+[Term]
+id: CHEBI:39000
+name: sodium channel modulator
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "sodium channel modulators" RELATED [ChEBI]
+is_a: CHEBI:38632 ! membrane transport modulator
 
 [Term]
 id: CHEBI:39015
@@ -31818,6 +32216,14 @@ is_a: CHEBI:38101 ! organonitrogen heterocyclic compound
 is_a: CHEBI:64459 ! biaryl
 
 [Term]
+id: CHEBI:50514
+name: vasoconstrictor agent
+namespace: chebi_ontology
+def: "Drug used to cause constriction of the blood vessels." []
+subset: 3_STAR
+is_a: CHEBI:35554 ! cardiovascular drug
+
+[Term]
 id: CHEBI:50523
 name: butenolide
 namespace: chebi_ontology
@@ -32322,6 +32728,20 @@ def: "A compound formally derived from ammonia by replacing three hydrogen atoms
 subset: 3_STAR
 synonym: "tertiary amino compounds" RELATED [ChEBI]
 is_a: CHEBI:50047 ! organic amino compound
+
+[Term]
+id: CHEBI:51039
+name: dopamine uptake inhibitor
+namespace: chebi_ontology
+def: "A dopaminergic agent that blocks the transport of dopamine into axon terminals or into storage vesicles within terminals. Most of the adrenergic uptake inhibitors also inhibit dopamine uptake." []
+subset: 3_STAR
+synonym: "DARI" RELATED [ChEBI]
+synonym: "dopamine reuptake inhibitor" RELATED [ChEBI]
+synonym: "dopamine reuptake inhibitors" RELATED [ChEBI]
+synonym: "dopamine uptake inhibitors" RELATED [ChEBI]
+synonym: "DRI" RELATED [ChEBI]
+xref: Wikipedia:Dopamine_uptake_inhibitor
+is_a: CHEBI:48560 ! dopaminergic agent
 
 [Term]
 id: CHEBI:51060
@@ -33183,6 +33603,19 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "1181.5730
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(C)C[C@H](NC(=O)CNC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1c[nH]c2ccccc12)NC(=O)[C@H](Cc1c[nH]cn1)NC(=O)[C@@H]1CCC(=O)N1)C(=O)N[C@@H](CCCNC(N)=N)C(=O)N1CCC[C@H]1C(=O)NCC(N)=O" xsd:string
 
 [Term]
+id: CHEBI:55322
+name: mu-opioid receptor agonist
+namespace: chebi_ontology
+alt_id: CHEBI:50136
+def: "A compound that exhibits agonist activity at the mu-opioid receptor." []
+subset: 3_STAR
+synonym: "mu opioid agonist" RELATED [ChEBI]
+synonym: "mu-opioid agonists" RELATED [ChEBI]
+synonym: "mu-opioid receptor agonists" RELATED [ChEBI]
+is_a: CHEBI:60599 ! mu-opioid agent
+is_a: CHEBI:60606 ! opioid receptor agonist
+
+[Term]
 id: CHEBI:55370
 name: imidazolidinone
 namespace: chebi_ontology
@@ -33190,6 +33623,15 @@ def: "An imidazolidine containing one or more oxo groups." []
 subset: 3_STAR
 synonym: "imidazolidinones" RELATED [ChEBI]
 is_a: CHEBI:38261 ! imidazolidines
+
+[Term]
+id: CHEBI:55505
+name: 1,2-benzisothiazole
+namespace: chebi_ontology
+def: "A benzothiazole consisting of a benzene ring fused to an isothiazole." []
+subset: 3_STAR
+synonym: "1,2-benzisothiazoles" RELATED [ChEBI]
+is_a: CHEBI:37947 ! benzothiazoles
 
 [Term]
 id: CHEBI:5615
@@ -33749,6 +34191,26 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "FFFHZYDWPBMWHY-UH
 property_value: http://purl.obolibrary.org/obo/chebi/mass "135.18500" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "135.03540" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[NH3+]C(CCS)C([O-])=O" xsd:string
+
+[Term]
+id: CHEBI:58097
+name: morphine(1+)
+namespace: chebi_ontology
+def: "The conjugate acid of morphine arising from protonation of the tertiary amino group; major species at pH 7.3." []
+subset: 3_STAR
+synonym: "17-methyl-7,8-didehydro-4,5alpha-epoxymorphinan-17-ium-3,6alpha-diol" EXACT IUPAC_NAME [IUPAC]
+synonym: "morphine" RELATED [UniProt]
+synonym: "morphine cation" RELATED [ChEBI]
+is_a: CHEBI:25697 ! organic cation
+is_a: CHEBI:35274 ! ammonium ion
+relationship: is_conjugate_acid_of CHEBI:17303 ! morphine
+property_value: http://purl.obolibrary.org/obo/chebi/charge "+1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C17H20NO3" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C17H19NO3/c1-18-7-6-17-10-3-5-13(20)16(17)21-15-12(19)4-2-9(14(15)17)8-11(10)18/h2-5,10-11,13,16,19-20H,6-8H2,1H3/p+1/t10-,11+,13-,16-,17-/m0/s1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "BQJCRHHNABKAKU-KBQPJGBKSA-O" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "286.34560" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "286.14377" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@]12C=C[C@H](O)[C@@H]3Oc4c(O)ccc5C[C@H]1[NH+](C)CC[C@@]23c45" xsd:string
 
 [Term]
 id: CHEBI:58104
@@ -34695,6 +35157,29 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "115.06333
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[O-]C(=O)[C@@H]1CCC[NH2+]1" xsd:string
 
 [Term]
+id: CHEBI:60056
+name: cocaine(1+)
+namespace: chebi_ontology
+def: "The conjugate base of cocaine arising from protonation of the tertiary amino group; major species at pH 7.3." []
+subset: 3_STAR
+synonym: "(1R,2R,3S,5S)-3-(benzoyloxy)-2-(methoxycarbonyl)-8-methyl-8-azoniabicyclo[3.2.1]octane" EXACT IUPAC_NAME [IUPAC]
+synonym: "cocaine" RELATED [UniProt]
+synonym: "cocaine cation" RELATED [ChEBI]
+xref: Gmelin:2542129 "Gmelin"
+xref: Gmelin:341636 "Gmelin"
+is_a: CHEBI:35274 ! ammonium ion
+is_a: CHEBI:37332 ! tropane alkaloid
+relationship: has_role CHEBI:77746 ! human metabolite
+relationship: is_conjugate_acid_of CHEBI:27958 ! cocaine
+property_value: http://purl.obolibrary.org/obo/chebi/charge "+1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C17H22NO4" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C17H21NO4/c1-18-12-8-9-13(18)15(17(20)21-2)14(10-12)22-16(19)11-6-4-3-5-7-11/h3-7,12-15H,8-10H2,1-2H3/p+1/t12-,13+,14-,15+/m0/s1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "ZPUCINDJVBIVPJ-LJISPDSOSA-O" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "304.36090" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "304.15433" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@]12CC[C@]([H])([C@H]([C@H](C1)OC(=O)c1ccccc1)C(=O)OC)[NH+]2C" xsd:string
+
+[Term]
 id: CHEBI:60059
 name: dermatan anion
 namespace: chebi_ontology
@@ -34911,6 +35396,38 @@ property_value: http://purl.obolibrary.org/obo/chebi/charge "-2" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C10H11MoN5O8PS3" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "552.33000" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "553.85615" xsd:string
+
+[Term]
+id: CHEBI:60598
+name: opioid agent
+namespace: chebi_ontology
+def: "Any agent that acts on an opioid receptor or affects the life cycle of an opioid  transmitter." []
+subset: 3_STAR
+synonym: "opioid agents" RELATED [ChEBI]
+is_a: CHEBI:35942 ! neurotransmitter agent
+
+[Term]
+id: CHEBI:60599
+name: mu-opioid agent
+namespace: chebi_ontology
+def: "Any agent that acts on a mu-opioid receptor." []
+subset: 3_STAR
+synonym: "mu-opioid agents" RELATED [ChEBI]
+is_a: CHEBI:60598 ! opioid agent
+
+[Term]
+id: CHEBI:60606
+name: opioid receptor agonist
+namespace: chebi_ontology
+def: "An agent that selectively binds to and activates an opioid receptor." []
+subset: 3_STAR
+synonym: "opiate agonist" RELATED [ChEBI]
+synonym: "opiate agonists" RELATED [ChEBI]
+synonym: "opioid agonist" RELATED [ChEBI]
+synonym: "opioid agonists" RELATED [ChEBI]
+synonym: "opioid receptor agonists" RELATED [ChEBI]
+is_a: CHEBI:48705 ! agonist
+is_a: CHEBI:60598 ! opioid agent
 
 [Term]
 id: CHEBI:60643
@@ -35370,6 +35887,16 @@ synonym: "phospholipid anion" RELATED [ChEBI]
 synonym: "phospholipid anions" RELATED [ChEBI]
 is_a: CHEBI:58945 ! organophosphate oxoanion
 relationship: is_conjugate_base_of CHEBI:16247 ! phospholipid
+
+[Term]
+id: CHEBI:62732
+name: aromatic ester
+namespace: chebi_ontology
+def: "An ester where the ester linkage is bonded directly to an aromatic system." []
+subset: 3_STAR
+synonym: "aromatic esters" RELATED [ChEBI]
+is_a: CHEBI:33659 ! organic aromatic compound
+is_a: CHEBI:35701 ! ester
 
 [Term]
 id: CHEBI:62761
@@ -39462,6 +39989,24 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "C4H6N2O3R2" xsd:st
 property_value: http://purl.obolibrary.org/obo/chebi/mass "130.102" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "130.03784" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[NH3+]C(C(NC(C([O-])=O)*)=O)*" xsd:string
+
+[Term]
+id: CHEBI:90852
+name: N-sulfonylcarboxamide
+namespace: chebi_ontology
+def: "A mixed diacylamine resulting from the formal condensation of the nitrogen of a carboxamide with a sulphonic acid." []
+subset: 3_STAR
+synonym: "N-acylsulfonamide" RELATED [ChEBI]
+synonym: "N-acylsulfonamides" RELATED [ChEBI]
+synonym: "N-carboacylsulfonamide" RELATED [ChEBI]
+synonym: "N-carboacylsulfonamides" RELATED [ChEBI]
+synonym: "N-sulfonylcarboxamides" RELATED [ChEBI]
+is_a: CHEBI:37716 ! mixed diacylamine
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "CNO3SR3" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "106.082" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "105.95989" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "C(=O)(N(S(*)(=O)=O)*)*" xsd:string
 
 [Term]
 id: CHEBI:91007

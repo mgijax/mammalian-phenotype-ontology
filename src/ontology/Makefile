@@ -65,6 +65,7 @@ IMPORTS =  nbo pr go uberon ro chebi pato cl mpath
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_FILES = $(foreach n,$(IMPORT_ROOTS), $(foreach f,$(FORMATS), $(n).$(f)))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
+IMPORT_SEED_FILES = $(patsubst %, imports/%_terms_combined.txt, $(IMPORTS))
 
 all_imports: $(IMPORT_FILES)
  
@@ -249,6 +250,20 @@ imports/%_terms_combined.txt: seed.txt imports/%_terms.txt
 # -- Generate Import Modules --
 #
 # This pattern uses ROBOT to generate an import module
+
+MIRROR_FILES = $(patsubst %, mirror/%.owl, $(IMPORTS))
+
+mirror/merged_mirror.owl: $(MIRROR_FILES)
+	$(ROBOT) merge $(addprefix -i , $(MIRROR_FILES)) -o $@
+
+signature.txt: $(IMPORT_SEED_FILES)
+	cat $^ | grep -v ^# | sort | uniq >  $@
+
+imports/all_import.owl: mirror/merged_mirror.owl signature.txt
+	$(ROBOT) extract -i $< -T signature.txt --method BOT \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
+.PRECIOUS: imports/all_import.owl
+
 imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt
 	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
@@ -272,7 +287,7 @@ imports/%_import.json: imports/%_import.owl
 mirror/nbo.trigger: $(SRC)
 
 mirror/nbo.owl: mirror/nbo.trigger
-	echo "skipping $@" #$(ROBOT) convert -I http://purl.obolibrary.org/obo/nbo/nbo-base.owl -o $@.tmp.owl && mv $@.tmp.owl $@
+	$(ROBOT) convert -I http://purl.obolibrary.org/obo/nbo/nbo-base.owl -o $@.tmp.owl && mv $@.tmp.owl $@
 
 .PRECIOUS: mirror/%.owl
 
