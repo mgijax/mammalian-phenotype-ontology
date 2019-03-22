@@ -7659,6 +7659,16 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NBO_0002379 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002379">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000152"/>
+        <nbo:IAO_0000115>&quot;Maternal behavior related to the nursing offspring.&quot; [NBOC:GVG]</nbo:IAO_0000115>
+        <rdfs:label xml:lang="en">nursing behavior</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NBO_0002436 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002436">
