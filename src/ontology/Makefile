@@ -2,7 +2,7 @@ OBO=http://purl.obolibrary.org/obo
 RELEASE_URIBASE= $(OBO)/mp/releases/`date +%Y-%m-%d`
 
 # all-subsets mp-inferred.obo mp-base.owl
-all: mp.obo mp.owl 
+all: mp.obo mp.owl all-subsets mp-inferred.obo mp-base.owl
 
 mp.obo: build/mp-simple.obo
 	owltools $< --make-subset-by-properties -o -f obo $@.tmp && grep -v ^remark: $@.tmp > $@
