@@ -2,10 +2,11 @@ OBO=http://purl.obolibrary.org/obo
 RELEASE_URIBASE= $(OBO)/mp/releases/`date +%Y-%m-%d`
 
 # all-subsets mp-inferred.obo mp-base.owl
-all: mp.obo mp.owl all-subsets mp-inferred.obo mp-base.owl
+all: mp.obo mp.owl mp-inferred.obo mp-base.owl
 
+#  --make-subset-by-properties
 mp.obo: build/mp-simple.obo
-	owltools $< --make-subset-by-properties -o -f obo $@.tmp && grep -v ^remark: $@.tmp > $@
+	owltools $< -o -f obo $@.tmp && grep -v ^remark: $@.tmp > $@
 
 mp.owl: build/mp.owl
 	cp -p $< $@
@@ -24,7 +25,7 @@ mirror-catalog.xml: mp-edit.owl
 
 # Note: we currently use no-reasoner for now, until we can trust all inferences
 build/mp-simple.obo: mp-edit.owl catalog-v001.xml
-	ontology-release-runner --catalog-xml catalog-v001.xml $(OORT_ARGS) --ignoreLock --skip-release-folder --outdir build --simple --allow-overwrite --no-reasoner $<
+	ontology-release-runner --catalog-xml catalog-v001.xml $(OORT_ARGS) --ignoreLock --no-subsets --skip-release-folder --outdir build --simple --skip-ontology-checks --allow-overwrite --no-reasoner $<
 
 # TODO: once equivalence have been sorted, remove --allowEquivalencies
 mp-inferred.obo: mp-edit.owl
