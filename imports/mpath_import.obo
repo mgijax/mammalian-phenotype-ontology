@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: mp/releases/2019-03-21/imports/mpath_import.owl
+data-version: mp/releases/2019-03-22/imports/mpath_import.owl
 ontology: mp/imports/mpath_import
 
 [Term]

@@ -37,11 +37,11 @@ ERROR	duplicate_label	MP:0000355	rdfs:label	obsolete Increased Purkinje Cell Siz
 ERROR	duplicate_label	MP:0000882	rdfs:label	obsolete Increased Purkinje Cell Size	
 ERROR	duplicate_label	MP:0000357	rdfs:label	obsolete Decreased Purkinje Cell Size	
 ERROR	duplicate_label	MP:0000883	rdfs:label	obsolete Decreased Purkinje Cell Size	
-WARN	annotation_whitespace	0122de6a9f5666e582ea69244906b9a6	oboInOwl:hasDbXref	PMID:20144910 	
-WARN	annotation_whitespace	1cf4685902b24eb0819d88b0455e1de9	oboInOwl:hasDbXref	PMID:20144910 	
-WARN	annotation_whitespace	5106b326c04811ec2bcbbf8ce10fd650	oboInOwl:hasDbXref	PMID:23909279 	
-WARN	annotation_whitespace	8280a3058627eb4092a39b683a567b0b	oboInOwl:hasDbXref	PMID:20144910 	
-WARN	annotation_whitespace	aa1a5b2af2ac434324c8d74c6abf7e59	oboInOwl:hasDbXref	 CL:0000625	
+WARN	annotation_whitespace	0167c6c979fce2a5f445a3937e2baf0b	oboInOwl:hasDbXref	PMID:20144910 	
+WARN	annotation_whitespace	197c80459c4d38a9f8fbfd91667a82c2	oboInOwl:hasDbXref	 CL:0000625	
+WARN	annotation_whitespace	50450f1c946431d01e07b154ad211e98	oboInOwl:hasDbXref	PMID:23909279 	
+WARN	annotation_whitespace	70c59b0963838b0cb6fc30e242aee4cf	oboInOwl:hasDbXref	PMID:20144910 	
+WARN	annotation_whitespace	87b47095b847493fceb0b888f23fa2a9	oboInOwl:hasDbXref	PMID:20144910 	
 WARN	annotation_whitespace	MP:0000181	oboInOwl:hasRelatedSynonym	abnormal circulating beta-lipoprotein level 	
 WARN	annotation_whitespace	MP:0000182	oboInOwl:hasRelatedSynonym	increased circulating beta-lipoprotein level 	
 WARN	annotation_whitespace	MP:0000183	oboInOwl:hasRelatedSynonym	decreased circulating beta-lipoprotein level 	
@@ -3017,7 +3017,7 @@ WARN	multiple_asserted_superclasses	MP:0008277	rdfs:subClassOf	MP:0008272
 WARN	multiple_asserted_superclasses	MP:0008279	rdfs:subClassOf	MP:0001155	
 WARN	multiple_asserted_superclasses	MP:0008279	rdfs:subClassOf	MP:0001932	
 WARN	multiple_asserted_superclasses	MP:0008280	rdfs:subClassOf	MP:0001648	
-WARN	multiple_asserted_superclasses	MP:0008280	rdfs:subClassOf	MP:0003698	
+WARN	multiple_asserted_superclasses	MP:0008280	rdfs:subClassOf	MP:0020362	
 WARN	multiple_asserted_superclasses	MP:0008297	rdfs:subClassOf	MP:0000313	
 WARN	multiple_asserted_superclasses	MP:0008297	rdfs:subClassOf	MP:0008296	
 WARN	multiple_asserted_superclasses	MP:0008304	rdfs:subClassOf	MP:0004300	
@@ -5973,8 +5973,12 @@ WARN	multiple_asserted_superclasses	MP:0020348	rdfs:subClassOf	MP:0000966
 WARN	multiple_asserted_superclasses	MP:0020348	rdfs:subClassOf	MP:0006092	
 WARN	multiple_asserted_superclasses	MP:0020349	rdfs:subClassOf	MP:0002376	
 WARN	multiple_asserted_superclasses	MP:0020349	rdfs:subClassOf	MP:0003156	
+WARN	multiple_asserted_superclasses	MP:0020362	rdfs:subClassOf	MP:0003698	
+WARN	multiple_asserted_superclasses	MP:0020362	rdfs:subClassOf	MP:0020363	
 WARN	multiple_asserted_superclasses	MP:0020363	rdfs:subClassOf	MP:0001919	
 WARN	multiple_asserted_superclasses	MP:0020363	rdfs:subClassOf	MP:0005621	
+WARN	multiple_asserted_superclasses	MP:0020364	rdfs:subClassOf	MP:0003699	
+WARN	multiple_asserted_superclasses	MP:0020364	rdfs:subClassOf	MP:0020363	
 WARN	multiple_asserted_superclasses	MP:0020386	rdfs:subClassOf	MP:0001846	
 WARN	multiple_asserted_superclasses	MP:0020386	rdfs:subClassOf	MP:0005666	
 WARN	multiple_asserted_superclasses	MP:0020395	rdfs:subClassOf	MP:0001360	
@@ -6657,14 +6661,10 @@ WARN	multiple_asserted_superclasses	MP:0030930	rdfs:subClassOf	MP:0000569
 WARN	multiple_asserted_superclasses	MP:0030930	rdfs:subClassOf	MP:0011627	
 WARN	multiple_asserted_superclasses	MP:0030931	rdfs:subClassOf	MP:0001188	
 WARN	multiple_asserted_superclasses	MP:0030931	rdfs:subClassOf	MP:0006078	
+WARN	multiple_asserted_superclasses	MP:0030932	rdfs:subClassOf	MP:0001851	
+WARN	multiple_asserted_superclasses	MP:0030932	rdfs:subClassOf	MP:0005205	
 WARN	multiple_asserted_superclasses	MP:3000003	rdfs:subClassOf	MP:0003791	
 WARN	multiple_asserted_superclasses	MP:3000003	rdfs:subClassOf	MP:0008052	
-WARN	missing_definition	GO:0003017	IAO:0000115		
-WARN	missing_definition	GO:0003017	IAO:0000600		
-WARN	missing_definition	GO:0021506	IAO:0000115		
-WARN	missing_definition	GO:0021506	IAO:0000600		
-WARN	missing_definition	GO:0021507	IAO:0000115		
-WARN	missing_definition	GO:0021507	IAO:0000600		
 WARN	missing_definition	IAO:0000115	IAO:0000115		
 WARN	missing_definition	IAO:0000115	IAO:0000600		
 WARN	missing_definition	IAO:0100001	IAO:0000115		
@@ -19690,12 +19690,14 @@ WARN	missing_definition	MP:0030928	IAO:0000600
 WARN	missing_definition	MP:0030929	IAO:0000600		
 WARN	missing_definition	MP:0030930	IAO:0000600		
 WARN	missing_definition	MP:0030931	IAO:0000600		
+WARN	missing_definition	MP:0030932	IAO:0000600		
+WARN	missing_definition	MP:0030933	IAO:0000600		
+WARN	missing_definition	MP:0030934	IAO:0000600		
+WARN	missing_definition	MP:0030935	IAO:0000600		
 WARN	missing_definition	MP:3000001	IAO:0000600		
 WARN	missing_definition	MP:3000003	IAO:0000600		
 WARN	missing_definition	MP:3000004	IAO:0000600		
 WARN	missing_definition	MP:3000005	IAO:0000600		
-WARN	missing_definition	RO:0000057	IAO:0000115		
-WARN	missing_definition	RO:0000057	IAO:0000600		
 WARN	missing_definition	RO:0002503	IAO:0000115		
 WARN	missing_definition	RO:0002503	IAO:0000600		
 WARN	missing_definition	RO:0002573	IAO:0000115		
@@ -19730,8 +19732,6 @@ WARN	missing_definition	http://purl.obolibrary.org/obo/mp/mp-equivalent-axioms-s
 WARN	missing_definition	http://purl.obolibrary.org/obo/mp/mp-equivalent-axioms-subq#results_in_death_of	IAO:0000600		
 WARN	missing_definition	http://purl.obolibrary.org/obo/mp/mp-equivalent-axioms-subq#results_in_directed_movement_of	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/mp/mp-equivalent-axioms-subq#results_in_directed_movement_of	IAO:0000600		
-WARN	missing_definition	http://semanticscience.org/resource/SIO_000658	IAO:0000115		
-WARN	missing_definition	http://semanticscience.org/resource/SIO_000658	IAO:0000600		
 WARN	missing_definition	oboInOwl:SubsetProperty	IAO:0000115		
 WARN	missing_definition	oboInOwl:SubsetProperty	IAO:0000600		
 WARN	missing_definition	oboInOwl:consider	IAO:0000115		
@@ -19756,8 +19756,6 @@ WARN	missing_definition	oboInOwl:inSubset	IAO:0000115
 WARN	missing_definition	oboInOwl:inSubset	IAO:0000600		
 WARN	missing_definition	oboInOwl:logical-definition-view-relation	IAO:0000115		
 WARN	missing_definition	oboInOwl:logical-definition-view-relation	IAO:0000600		
-WARN	missing_definition	oboInOwl:shorthand	IAO:0000115		
-WARN	missing_definition	oboInOwl:shorthand	IAO:0000600		
 INFO	lowercase_definition	MP:0000001	IAO:0000115	the observable morphological, physiological, behavioral and other characteristics of mammalian organisms that are manifested through development and lifespan	
 INFO	lowercase_definition	MP:0000003	IAO:0000115	any structural anomaly of the connective tissue composed of fat cells enmeshed in areolar tissue	
 INFO	lowercase_definition	MP:0000005	IAO:0000115	increased amount of the thermogenic form of adipose tissue that is composed of brown adipocytes	
@@ -32440,22 +32438,17 @@ INFO	lowercase_definition	MP:0030928	IAO:0000115	increase in the average length 
 INFO	lowercase_definition	MP:0030929	IAO:0000115	visually detectable excess of pigment present on the finger or toe surface	
 INFO	lowercase_definition	MP:0030930	IAO:0000115	visually detectable dilution of pigment present on the finger or toe surface	
 INFO	lowercase_definition	MP:0030931	IAO:0000115	visually detectable excess of pigment present on the surface of the nipple and/or areola	
+INFO	lowercase_definition	MP:0030932	IAO:0000115	an accumulation of pus or white blood cells in the anterior chamber of the eye, appearing as a whitish or gray fluid between the cornea and the iris	
+INFO	lowercase_definition	MP:0030933	IAO:0000115	hemorrhage within the anterior chamber of the eye	
+INFO	lowercase_definition	MP:0030934	IAO:0000115	reduced ability of a primordial germ cell population to undergo expansion by cell division	
+INFO	lowercase_definition	MP:0030935	IAO:0000115	increase in the number of primordial germ cells undergoing programmed cell death	
 INFO	lowercase_definition	MP:3000001	IAO:0000115	any structural anomaly of the pear shaped trilaminar embryonic stage in which the primititve streak elongates, the epiblast cells migrate medially towards the streak, enter the primitive groove and migrate laterally to organize into the intraembryonic mesoderm (epithelio-mesenchymal transition) between the embryonic ectoderm and primitive endoderm; the notochordal process forms and extends, and the disc becomes pear shaped as the notochordal process grows	
 INFO	lowercase_definition	MP:3000003	IAO:0000115	any structural anomaly of the serous salivary glands which reside adjacent to the moats surrounding the circumvallate and foliate papillae just anterior to the posterior third of the tongue, anterior to the terminal sulcus; these exocrine glands secrete lingual lipase initiating the process of lipid hydrolysis in the mouth and empty their serous secretion into the base of the moats around the foliate and circumvallate papillae; their secretion presumably flushes material from the moat to enable the taste buds to respond rapidly to changing stimuli.	
 INFO	lowercase_definition	MP:3000004	IAO:0000115	any structural anomaly of the translucent fold of the mucous membrane of the conjunctiva present in some animals that can be drawn across the eye for protection and to moisten it while maintaining visibility; in many mammals, a small, vestigial portion of the membrane remains in the corner of the eye; in mice, the nictitating membrane is very small and composed of a very thin core of cartilage covered by loose connective tissue	
 INFO	lowercase_definition	MP:3000005	IAO:0000115	any structural anomaly of the upper dilated end of the nasolacrimal duct that is lodged in a deep groove formed by the lacrimal bone and frontal process of the maxilla; it connects the lacrimal canaliculi, which drain tears from the eye's surface, and the nasolacrimal duct, which conveys this fluid into the nasal cavity; like the nasolacrimal duct, the sac is lined by stratified columnar epithelium with mucus-secreting goblet cells, and is surrounded by connective tissue	
-INFO	missing_superclass	CL:0002091	rdfs:subClassOf		
-INFO	missing_superclass	CL:0002093	rdfs:subClassOf		
-INFO	missing_superclass	GO:0003017	rdfs:subClassOf		
-INFO	missing_superclass	GO:0007067	rdfs:subClassOf		
-INFO	missing_superclass	GO:0007126	rdfs:subClassOf		
-INFO	missing_superclass	GO:0031512	rdfs:subClassOf		
-INFO	missing_superclass	GO:0031513	rdfs:subClassOf		
-INFO	missing_superclass	GO:0072372	rdfs:subClassOf		
-INFO	missing_superclass	GO:0098856	rdfs:subClassOf		
-INFO	missing_superclass	MPATH:418	rdfs:subClassOf		
 INFO	missing_superclass	MP:0000001	rdfs:subClassOf		
 INFO	missing_superclass	NBO:0000049	rdfs:subClassOf		
+INFO	missing_superclass	NBO:0002379	rdfs:subClassOf		
 INFO	missing_superclass	PATO:0000622	rdfs:subClassOf		
 INFO	missing_superclass	PATO:0001775	rdfs:subClassOf		
 INFO	missing_superclass	PATO:0002539	rdfs:subClassOf		
@@ -32483,4 +32476,3 @@ INFO	missing_superclass	UBERON:0015189	rdfs:subClassOf
 INFO	missing_superclass	UBERON:0015855	rdfs:subClassOf		
 INFO	missing_superclass	UBERON:0016634	rdfs:subClassOf		
 INFO	missing_superclass	UBERON:0022421	rdfs:subClassOf		
-INFO	missing_superclass	http://purl.obolibrary.org/obo/nbo.owl/NBO_0002379	rdfs:subClassOf		

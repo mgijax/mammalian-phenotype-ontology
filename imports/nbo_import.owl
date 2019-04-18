@@ -11,7 +11,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/nbo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2019-03-21/imports/nbo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2019-03-22/imports/nbo_import.owl"/>
     </owl:Ontology>
     
 
@@ -7655,6 +7655,16 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:IAO_0000115>&quot;Behavior as a result of sensitivity to an anasthetic intake.&quot; [NBOC:GVG]</nbo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <rdfs:label xml:lang="en">behavioral response to anesthetic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0002379 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002379">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000152"/>
+        <nbo:IAO_0000115>&quot;Maternal behavior related to the nursing offspring.&quot; [NBOC:GVG]</nbo:IAO_0000115>
+        <rdfs:label xml:lang="en">nursing behavior</rdfs:label>
     </owl:Class>
     
 
