@@ -32,6 +32,11 @@ $(ONT).owl: $(SRC)
 	$(ROBOT) merge --input $< \
 		annotate --ontology-iri $(URIBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY) \
 		convert -o $@.tmp.owl && mv $@.tmp.owl $@
+		
+$(ONT).obo: $(ONT)-simple-non-classified.owl
+	$(ROBOT) annotate --input $< --ontology-iri $(URIBASE)/$(ONT).owl --version-iri $(ONTBASE)/releases/$(TODAY) \
+	convert --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
+
 
 labels.csv: $(SRC)
 	robot query --use-graphs true -f csv -i $(SRC) --query ../sparql/term_table.sparql $@
