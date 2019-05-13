@@ -215,7 +215,7 @@ $(ONT)-full.owl: $(SRC) $(OTHER_SRC)
 # Consider adding remove --term "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" 
 
 $(ONT)-simple-non-classified.owl: $(SRC) $(OTHER_SRC) $(ONTOLOGYTERMS)
-	$(ROBOT) remove --input $< --select imports --trim false \
+	$(ROBOT) remove --input $< --select imports --trim true \
 		merge  $(patsubst %, -i %, $(OTHER_SRC))  \
 		remove --axioms equivalent \
 		relax \
