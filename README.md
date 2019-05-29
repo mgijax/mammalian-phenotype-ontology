@@ -3,6 +3,7 @@
 ## Jenkins Job
 
  * https://build.berkeleybop.org/job/build-mp-edit/
+ * https://build.obolibrary.io/job/obofoundry/job/pipeline-mp/ (experimental, ODK)
 
 The obo release at JAX is handled from here.
 
