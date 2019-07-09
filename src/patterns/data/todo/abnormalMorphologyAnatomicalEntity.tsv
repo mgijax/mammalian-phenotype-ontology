@@ -1,0 +1,15 @@
+defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
+http://purl.obolibrary.org/obo/MP_0008521	abnormal Bowman membrane	http://purl.obolibrary.org/obo/UBERON_0004370	anterior limiting lamina of cornea
+http://purl.obolibrary.org/obo/MP_0004915	abnormal Reichert's cartilage morphology	http://purl.obolibrary.org/obo/UBERON_0004368	Reichert's cartilage
+http://purl.obolibrary.org/obo/MP_0002660	abnormal caput epididymis morphology	http://purl.obolibrary.org/obo/UBERON_0004358	caput epididymis
+http://purl.obolibrary.org/obo/MP_0002662	abnormal cauda epididymis morphology	http://purl.obolibrary.org/obo/UBERON_0004360	cauda epididymis
+http://purl.obolibrary.org/obo/MP_0009372	abnormal cumulus oophorus	http://purl.obolibrary.org/obo/UBERON_0001306	cumulus oophorus
+http://purl.obolibrary.org/obo/MP_0005032	abnormal ectoplacental cone morphology	http://purl.obolibrary.org/obo/UBERON_0004364	ectoplacental cone
+http://purl.obolibrary.org/obo/MP_0002718	abnormal inner cell mass morphology	http://purl.obolibrary.org/obo/UBERON_0000087	inner cell mass
+http://purl.obolibrary.org/obo/MP_0010118	abnormal intermediate mesoderm	http://purl.obolibrary.org/obo/UBERON_0003064	intermediate mesoderm
+http://purl.obolibrary.org/obo/MP_0000778	abnormal nervous system tract morphology	http://purl.obolibrary.org/obo/UBERON_0001018	axon tract
+http://purl.obolibrary.org/obo/MP_0000799	abnormal precentral gyrus morphology	http://purl.obolibrary.org/obo/UBERON_0002703	precentral gyrus
+http://purl.obolibrary.org/obo/MP_0000923	abnormal roof plate morphology	http://purl.obolibrary.org/obo/UBERON_0003054	roof plate
+http://purl.obolibrary.org/obo/MP_0006029	abnormal sclerotome morphology	http://purl.obolibrary.org/obo/UBERON_0003089	sclerotome
+http://purl.obolibrary.org/obo/MP_0001051	abnormal somatic motor system morphology	http://purl.obolibrary.org/obo/UBERON_0003945	somatic motor system
+http://purl.obolibrary.org/obo/MP_0003955	abnormal ultimobranchial body morphology	http://purl.obolibrary.org/obo/UBERON_0003092	ultimobranchial body
