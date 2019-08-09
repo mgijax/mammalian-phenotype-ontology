@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: mp/releases/2019-03-22/imports/mpath_import.owl
+data-version: mp/releases/2019-07-09/imports/mpath_import.owl
 ontology: mp/imports/mpath_import
 
 [Term]
@@ -1389,6 +1389,7 @@ id: MPATH:576
 name: trichofolliculoma
 namespace: mouse_pathology.ontology
 def: "Basaloid neoplasm with numerous mature hair follicles and hair formation." [URL:http\://emice.nci.nih.gov/emice/mouse_models/organ_models/skin_models]
+is_a: MPATH:575 ! basaloid follicular neoplasms
 relationship: part_of MPATH:575 ! basaloid follicular neoplasms
 
 [Term]

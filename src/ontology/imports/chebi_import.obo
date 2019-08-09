@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: mp/releases/2019-03-22/imports/chebi_import.owl
+data-version: mp/releases/2019-07-09/imports/chebi_import.owl
 ontology: mp/imports/chebi_import
 
 [Term]
@@ -932,10 +932,13 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "C(*)(=N[O-])*" xsd:
 id: CHEBI:142590
 name: 3-aminoisobutanoic acid zwitterion
 namespace: chebi_ontology
-subset: 2_STAR
+def: "Zwitterionic form of 3-aminoisobutyric acid arising from migration of a proton from the carboxy group to the amino group; major species at pH 7.3." []
+subset: 3_STAR
 synonym: "3-aminoisobutanoate" RELATED [UniProt]
-synonym: "3-ammonio-2-methylpropanoate" EXACT IUPAC_NAME [IUPAC]
+synonym: "3-ammonio-2-methylpropanoate" RELATED [ChEBI]
+synonym: "3-azaniumyl-2-methylpropanoate" EXACT IUPAC_NAME [IUPAC]
 is_a: CHEBI:35238 ! amino acid zwitterion
+relationship: is_conjugate_acid_of CHEBI:49096 ! 3-aminoisobutyrate
 relationship: is_tautomer_of CHEBI:27389 ! 3-aminoisobutyric acid
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C4H9NO2" xsd:string
@@ -1048,12 +1051,19 @@ name: xanthine
 namespace: chebi_ontology
 def: "A purine nucleobase found in humans and other organisms." []
 subset: 3_STAR
+synonym: "2,6-dioxopurine" RELATED [ChEBI]
+synonym: "2,6-dioxopurines" RELATED [ChEBI]
+synonym: "xanthine" EXACT [ChEBI]
+synonym: "xanthines" RELATED [ChEBI]
 xref: ECMDB:ECMDB00292
 xref: KNApSAcK:C00019660
+xref: PMID:1557408 "Europe PMC"
 xref: PMID:24629268 "Europe PMC"
+xref: PMID:9007687 "Europe PMC"
 xref: YMDB:YMDB00263
 is_a: CHEBI:25810 ! oxopurine
 is_a: CHEBI:26386 ! purine nucleobase
+relationship: has_functional_parent CHEBI:16235 ! guanine
 relationship: has_role CHEBI:78675 ! fundamental metabolite
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C5H4N4O2" xsd:string
@@ -1194,6 +1204,7 @@ xref: YMDB:YMDB00227
 is_a: CHEBI:23217 ! cholines
 relationship: has_role CHEBI:25512 ! neurotransmitter
 relationship: has_role CHEBI:33284 ! nutrient
+relationship: has_role CHEBI:50904 ! allergen
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:76924 ! plant metabolite
@@ -2755,10 +2766,10 @@ synonym: "(2R,3s,4S)-pentane-1,2,3,4,5-pentol" RELATED [HMDB]
 synonym: "Adonitol" RELATED [KEGG_COMPOUND]
 synonym: "D-Adonitol" RELATED [KEGG_COMPOUND]
 synonym: "D-Ribitol" RELATED [KEGG_COMPOUND]
-synonym: "D-ribitol" RELATED [UniProt]
 synonym: "L-ribitol" RELATED [ChEBI]
 synonym: "meso-ribitol" EXACT IUPAC_NAME [IUPAC]
 synonym: "Ribitol" EXACT [KEGG_COMPOUND]
+synonym: "ribitol" EXACT [UniProt]
 xref: Beilstein:1720524 "ChemIDplus"
 xref: CAS:488-81-3 "KEGG COMPOUND"
 xref: Gmelin:82894 "Gmelin"
@@ -3794,6 +3805,55 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "17.00329"
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[O-][H]" xsd:string
 
 [Term]
+id: CHEBI:16235
+name: guanine
+namespace: chebi_ontology
+alt_id: CHEBI:14371
+alt_id: CHEBI:14372
+alt_id: CHEBI:24443
+alt_id: CHEBI:42948
+alt_id: CHEBI:5563
+def: "A 2-aminopurine carrying a 6-oxo substituent." []
+subset: 3_STAR
+synonym: "2-amino-1,9-dihydro-6H-purin-6-one" EXACT IUPAC_NAME [IUPAC]
+synonym: "2-Amino-6-hydroxypurine" RELATED [KEGG_COMPOUND]
+synonym: "2-amino-6-oxopurine" RELATED [ChEBI]
+synonym: "G" RELATED [ChEBI]
+synonym: "Gua" RELATED [CBN]
+synonym: "GUANINE" EXACT [PDBeChem]
+synonym: "Guanine" EXACT [KEGG_COMPOUND]
+synonym: "guanine" EXACT [UniProt]
+xref: Beilstein:147911 "Beilstein"
+xref: CAS:73-40-5 "KEGG COMPOUND"
+xref: DrugBank:DB02377
+xref: Gmelin:431879 "Gmelin"
+xref: HMDB:HMDB0000132
+xref: KEGG:C00242
+xref: KNApSAcK:C00001501
+xref: MetaCyc:GUANINE
+xref: PDBeChem:GUN
+xref: PMID:22770225 "Europe PMC"
+xref: PMID:8070089 "Europe PMC"
+xref: Reaxys:147911 "Reaxys"
+xref: Wikipedia:Guanine
+is_a: CHEBI:20702 ! 2-aminopurines
+is_a: CHEBI:25810 ! oxopurine
+is_a: CHEBI:26386 ! purine nucleobase
+relationship: has_parent_hydride CHEBI:35589 ! 9H-purine
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+relationship: has_role CHEBI:77746 ! human metabolite
+relationship: has_role CHEBI:84735 ! algal metabolite
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C5H5N5O" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C5H5N5O/c6-5-9-3-2(4(11)10-5)7-1-8-3/h1H,(H4,6,7,8,9,10,11)" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "UYTPUPDQBNUYGX-UHFFFAOYSA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "151.126" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "151.04941" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "C12=C(N=C(NC1=O)N)NC=N2" xsd:string
+
+[Term]
 id: CHEBI:16236
 name: ethanol
 namespace: chebi_ontology
@@ -4063,10 +4123,6 @@ is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:25703 ! organic phosphate
 is_a: CHEBI:37734 ! phosphoric ester
 relationship: is_conjugate_acid_of CHEBI:62643 ! anionic phospholipid
-property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "C5H6O8PR3" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "225.070" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "224.98003" xsd:string
 
 [Term]
 id: CHEBI:16285
@@ -5351,7 +5407,6 @@ xref: PMID:21791173 "Europe PMC"
 xref: Reaxys:3664503 "Reaxys"
 is_a: CHEBI:36147 ! oxo dicarboxylate
 relationship: has_functional_parent CHEBI:30921 ! glutarate(2-)
-relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 relationship: has_role CHEBI:84735 ! algal metabolite
@@ -7051,6 +7106,7 @@ relationship: has_role CHEBI:38867 ! anaesthetic
 relationship: has_role CHEBI:55322 ! mu-opioid receptor agonist
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:78298 ! environmental contaminant
+relationship: has_role CHEBI:88188 ! drug allergen
 relationship: is_conjugate_base_of CHEBI:58097 ! morphine(1+)
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C17H19NO3" xsd:string
@@ -7275,15 +7331,18 @@ xref: KNApSAcK:C00001502
 xref: MetaCyc:HYPOXANTHINE
 xref: PDBeChem:HPA
 xref: PMID:14253484 "Europe PMC"
+xref: PMID:1557408 "Europe PMC"
 xref: PMID:22735334 "Europe PMC"
 xref: PMID:23400363 "Europe PMC"
 xref: PMID:23670363 "Europe PMC"
+xref: PMID:8016081 "Europe PMC"
 xref: Reaxys:5811 "Reaxys"
 xref: Wikipedia:Hypoxanthine
 xref: YMDB:YMDB00555
 is_a: CHEBI:25810 ! oxopurine
 is_a: CHEBI:26386 ! purine nucleobase
 is_a: CHEBI:67142 ! nucleobase analogue
+relationship: has_functional_parent CHEBI:16708 ! adenine
 relationship: has_role CHEBI:78675 ! fundamental metabolite
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C5H4N4O" xsd:string
@@ -7441,10 +7500,12 @@ xref: HMDB:HMDB0000892
 xref: KEGG:C00803
 xref: KNApSAcK:C00001208
 xref: LIPID_MAPS_instance:LMFA01010005 "LIPID MAPS"
+xref: PDBeChem:LEA
 xref: PDBeChem:PEI
 xref: PMID:20507156 "Europe PMC"
 xref: PPDB:3130
 xref: Reaxys:969454 "Reaxys"
+xref: Wikipedia:Valeric_acid
 is_a: CHEBI:26666 ! short-chain fatty acid
 is_a: CHEBI:39418 ! straight-chain saturated fatty acid
 relationship: has_role CHEBI:76924 ! plant metabolite
@@ -7770,7 +7831,6 @@ synonym: "PEA" RELATED [ChEBI]
 synonym: "PETN" RELATED [ChEBI]
 synonym: "pEtN" RELATED [ChEBI]
 synonym: "Phosphoethanolamine" RELATED [KEGG_COMPOUND]
-synonym: "phosphonoethanolamine" RELATED [ChEBI]
 synonym: "phosphoric acid 2-aminoethyl phenyl ester" RELATED [ChEBI]
 synonym: "phosphoryl-ethanolamine" RELATED [ChEBI]
 xref: Beilstein:1758916 "Beilstein"
@@ -7918,6 +7978,7 @@ xref: Wikipedia:Uracil
 is_a: CHEBI:26432 ! pyrimidine nucleobase
 is_a: CHEBI:38337 ! pyrimidone
 relationship: has_role CHEBI:50266 ! prodrug
+relationship: has_role CHEBI:50904 ! allergen
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
@@ -8278,6 +8339,7 @@ relationship: has_role CHEBI:49167 ! anti-asthmatic drug
 relationship: has_role CHEBI:50857 ! anti-allergic agent
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
+relationship: has_role CHEBI:88188 ! drug allergen
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C21H30O5" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C21H30O5/c1-19-7-5-13(23)9-12(19)3-4-14-15-6-8-21(26,17(25)11-22)20(15,2)10-16(24)18(14)19/h9,14-16,18,22,24,26H,3-8,10-11H2,1-2H3/t14-,15-,16-,18+,19-,20-,21-/m0/s1" xsd:string
@@ -10849,6 +10911,15 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "330.32865
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@@]12CCCC[C@]1(C)[C@@]1([H])CC[C@]3(C)[C@]([H])(CC[C@@]3([H])[C@]1([H])CC2)[C@H](C)CCC" xsd:string
 
 [Term]
+id: CHEBI:20702
+name: 2-aminopurines
+namespace: chebi_ontology
+def: "Any aminopurine having the amino substituent at the 2-position." []
+subset: 3_STAR
+synonym: "2-aminopurines" EXACT [ChEBI]
+is_a: CHEBI:22527 ! aminopurine
+
+[Term]
 id: CHEBI:20706
 name: 6-aminopurines
 namespace: chebi_ontology
@@ -11674,8 +11745,8 @@ namespace: chebi_ontology
 subset: 3_STAR
 synonym: ">C=O" RELATED [IUPAC]
 synonym: "carbonyl" EXACT IUPAC_NAME [IUPAC]
-synonym: "carbonyl group" EXACT [ChEBI]
 synonym: "carbonyl group" EXACT [UniProt]
+synonym: "carbonyl group" EXACT [ChEBI]
 is_a: CHEBI:51422 ! organodiyl group
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "CO" xsd:string
@@ -16075,6 +16146,7 @@ xref: CAS:144-90-1 "KEGG COMPOUND"
 xref: Gmelin:1520758 "Gmelin"
 xref: HMDB:HMDB0003911
 xref: KEGG:C05145
+xref: LIPID_MAPS_instance:LMFA01100054 "LIPID MAPS"
 xref: MetaCyc:3-AMINO-ISOBUTYRATE
 xref: PMID:11785300 "Europe PMC"
 xref: PMID:14576092 "Europe PMC"
@@ -17235,6 +17307,7 @@ xref: Gmelin:16269 "Gmelin"
 xref: KEGG:C00070
 xref: WebElements:Cu
 is_a: CHEBI:33366 ! copper group element atom
+is_a: CHEBI:88184 ! metal allergen
 relationship: has_role CHEBI:27027 ! micronutrient
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
@@ -17867,7 +17940,6 @@ synonym: "carboxylic anions" RELATED [ChEBI]
 is_a: CHEBI:25696 ! organic anion
 is_a: CHEBI:35406 ! oxoanion
 relationship: is_conjugate_base_of CHEBI:33575 ! carboxylic acid
-property_value: http://purl.obolibrary.org/obo/chebi/charge "-1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "CO2R" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "44.00950" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "43.98983" xsd:string
@@ -19190,6 +19262,7 @@ relationship: has_functional_parent CHEBI:15366 ! acetic acid
 relationship: has_role CHEBI:22676 ! auxin
 relationship: has_role CHEBI:27026 ! toxin
 relationship: has_role CHEBI:35219 ! plant growth retardant
+relationship: has_role CHEBI:50904 ! allergen
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:76956 ! Aspergillus metabolite
@@ -22041,7 +22114,7 @@ is_a: CHEBI:24432 ! biological role
 id: CHEBI:33282
 name: antibacterial agent
 namespace: chebi_ontology
-def: "A substance that kills or slows the growth of bacteria." []
+def: "A substance (or active part thereof) that kills or slows the growth of bacteria." []
 subset: 3_STAR
 synonym: "antibacterial agents" RELATED [ChEBI]
 synonym: "antibacterials" RELATED [ChEBI]
@@ -24696,7 +24769,6 @@ def: "A sterol in which the hydroxy group at position 3 has beta- configuration.
 subset: 3_STAR
 synonym: "3beta-hydroxysteroids" RELATED [ChEBI]
 synonym: "3beta-sterols" RELATED [ChEBI]
-synonym: "a 3beta-hydroxysterol" RELATED [UniProt]
 is_a: CHEBI:15889 ! sterol
 is_a: CHEBI:36836 ! 3beta-hydroxy steroid
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
@@ -26164,7 +26236,7 @@ def: "A steroid ester obtained by formal condensation of the carboxy group of an
 subset: 3_STAR
 synonym: "3-hydroxysteroid ester" RELATED [ChEBI]
 synonym: "3-hydroxysteroid esters" RELATED [ChEBI]
-synonym: "a steryl ester" RELATED [UniProt]
+synonym: "a sterol ester" RELATED [UniProt]
 synonym: "Sterol ester" EXACT [KEGG_COMPOUND]
 synonym: "Steryl ester" RELATED [KEGG_COMPOUND]
 xref: KEGG:C01958
@@ -27741,7 +27813,6 @@ subset: 3_STAR
 synonym: "Man" RELATED [JCBN]
 synonym: "manno-hexose" EXACT IUPAC_NAME [IUPAC]
 synonym: "mannose" EXACT IUPAC_NAME [IUPAC]
-synonym: "mannose" EXACT [UniProt]
 xref: PMID:16180318 "Europe PMC"
 xref: PMID:24407290 "Europe PMC"
 is_a: CHEBI:33917 ! aldohexose
@@ -27940,7 +28011,9 @@ synonym: "octyl alcohol" RELATED [ChEBI]
 synonym: "Oktanol" RELATED [ChEBI]
 synonym: "Oktylalkohol" RELATED [ChEBI]
 xref: CAS:29063-28-3 "ChemIDplus"
+is_a: CHEBI:134179 ! volatile organic compound
 is_a: CHEBI:24026 ! fatty alcohol
+is_a: CHEBI:2571 ! aliphatic alcohol
 relationship: has_parent_hydride CHEBI:17590 ! octane
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C8H18O" xsd:string
@@ -30243,7 +30316,6 @@ name: ornithinium(1+)
 namespace: chebi_ontology
 subset: 3_STAR
 synonym: "2,5-diammoniopentanoate" EXACT IUPAC_NAME [IUPAC]
-synonym: "ornithine" RELATED [UniProt]
 synonym: "ornithine monocation" RELATED [JCBN]
 synonym: "ornithinium" EXACT IUPAC_NAME [IUPAC]
 synonym: "ornithinium(1+)" EXACT [JCBN]
@@ -31519,6 +31591,7 @@ synonym: "beta-aminoisobutyrate" RELATED [ChEBI]
 xref: PMID:17190852 "Europe PMC"
 is_a: CHEBI:49095 ! beta-amino-acid anion
 relationship: has_role CHEBI:25212 ! metabolite
+relationship: is_conjugate_base_of CHEBI:142590 ! 3-aminoisobutanoic acid zwitterion
 relationship: is_conjugate_base_of CHEBI:27389 ! 3-aminoisobutyric acid
 property_value: http://purl.obolibrary.org/obo/chebi/charge "-1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C4H8NO2" xsd:string
@@ -32487,7 +32560,7 @@ is_a: CHEBI:52209 ! aetiopathogenetic role
 id: CHEBI:50904
 name: allergen
 namespace: chebi_ontology
-def: "A chemical compound which causes the onset of an allergic reaction by interacting with any of the molecular pathways involved in an allergy." []
+def: "A chemical compound, or part thereof, which causes the onset of an allergic reaction by interacting with any of the molecular pathways involved in an allergy." []
 subset: 3_STAR
 synonym: "alergeno" RELATED [ChEBI]
 synonym: "allergene" RELATED [ChEBI]
@@ -32548,6 +32621,8 @@ synonym: "ATP:protein phosphotransferase (non-specific) inhibitor" RELATED [ChEB
 synonym: "ATP:protein phosphotransferase (non-specific) inhibitors" RELATED [ChEBI]
 synonym: "betaIIPKC inhibitor" RELATED [ChEBI]
 synonym: "betaIIPKC inhibitors" RELATED [ChEBI]
+synonym: "BR serine/threonine-protein kinase 2 inhibitor" RELATED [ChEBI]
+synonym: "BR serine/threonine-protein kinase 2 inhibitors" RELATED [ChEBI]
 synonym: "calcium-dependent protein kinase C inhibitor" RELATED [ChEBI]
 synonym: "calcium-dependent protein kinase C inhibitors" RELATED [ChEBI]
 synonym: "calcium/phospholipid-dependent protein kinase inhibitor" RELATED [ChEBI]
@@ -32605,6 +32680,8 @@ synonym: "M phase-specific cdc2 kinase inhibitor" RELATED [ChEBI]
 synonym: "M phase-specific cdc2 kinase inhibitors" RELATED [ChEBI]
 synonym: "mitogen-activated S6 kinase inhibitor" RELATED [ChEBI]
 synonym: "mitogen-activated S6 kinase inhibitors" RELATED [ChEBI]
+synonym: "MKNK2 inhibitor" RELATED [ChEBI]
+synonym: "MKNK2 inhibitors" RELATED [ChEBI]
 synonym: "non-specific serine/threonine protein kinase (EC 2.7.11.1) inhibitor" RELATED [ChEBI]
 synonym: "non-specific serine/threonine protein kinase (EC 2.7.11.1) inhibitors" RELATED [ChEBI]
 synonym: "non-specific serine/threonine protein kinase inhibitor" RELATED [ChEBI]
@@ -34034,7 +34111,7 @@ subset: 3_STAR
 synonym: "creatine" RELATED [UniProt]
 synonym: "{[amino(iminio)methyl](methyl)amino}acetate" EXACT IUPAC_NAME [IUPAC]
 xref: MetaCyc:CREATINE
-is_a: CHEBI:35238 ! amino acid zwitterion
+is_a: CHEBI:27369 ! zwitterion
 relationship: is_conjugate_acid_of CHEBI:66924 ! creatinate
 relationship: is_tautomer_of CHEBI:16919 ! creatine
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
@@ -34636,6 +34713,7 @@ xref: PMID:3622432 "Europe PMC"
 xref: PMID:6821040 "Europe PMC"
 xref: Reaxys:605318 "Reaxys"
 is_a: CHEBI:53212 ! isocyanates
+relationship: has_role CHEBI:50904 ! allergen
 relationship: has_role CHEBI:68495 ! apoptosis inducer
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C2H3NO" xsd:string
@@ -35054,7 +35132,7 @@ name: N-acyl-D-alpha-amino acid anion
 namespace: chebi_ontology
 def: "The conjugate base of an N-acyl-D-alpha-amino acid arising from deprotonation of the C-1 carboxy group." []
 subset: 3_STAR
-synonym: "a N-acyl-D-amino acid" RELATED [UniProt]
+synonym: "an N-acyl-D-amino acid" RELATED [UniProt]
 synonym: "N-acyl-D-alpha-amino acid(1-)" RELATED [ChEBI]
 is_a: CHEBI:29067 ! carboxylic acid anion
 relationship: is_conjugate_base_of CHEBI:15778 ! N-acyl-D-amino acid
@@ -36546,8 +36624,8 @@ name: sphingomyelin
 namespace: chebi_ontology
 def: "Any of a class of phospholipids in which the amino group of a sphingoid base is in amide linkage with one of several fatty acids, while the terminal hydroxy group of the sphingoid base is esterified to phosphorylcholine." []
 subset: 3_STAR
+synonym: "an N-(acyl)-sphingosylphosphocholine" RELATED [UniProt]
 synonym: "Ceramide phosphocholine" RELATED [LIPID_MAPS]
-synonym: "N-(acyl)-sphingosylphosphocholine" RELATED [UniProt]
 xref: LIPID_MAPS_class:LMSP0301 "LIPID MAPS"
 xref: PMID:27242221 "Europe PMC"
 is_a: CHEBI:140325 ! secondary carboxamide
@@ -36920,12 +36998,12 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "NC(CCCNC(N)=O)C([O-
 id: CHEBI:66924
 name: creatinate
 namespace: chebi_ontology
-def: "An alpha-amino acid anion that is the conjugate base of creatine, obtained by deprotonation of the carboxy group." []
+def: "A monocarboxylic acid anion that is the conjugate base of creatine, obtained by deprotonation of the carboxy group." []
 subset: 3_STAR
 synonym: "(N-methylcarbamimidamido)acetate" RELATED [ChEBI]
 synonym: "N-[amino(imino)methyl]-N-methylglycinate" RELATED [ChEBI]
 synonym: "{[imino(amino)methyl](methyl)amino}acetate" EXACT IUPAC_NAME [IUPAC]
-is_a: CHEBI:33558 ! alpha-amino-acid anion
+is_a: CHEBI:35757 ! monocarboxylic acid anion
 relationship: is_conjugate_base_of CHEBI:16919 ! creatine
 relationship: is_conjugate_base_of CHEBI:57947 ! creatine zwitterion
 property_value: http://purl.obolibrary.org/obo/chebi/charge "-1" xsd:string
@@ -37317,11 +37395,10 @@ namespace: chebi_ontology
 def: "A carbohydrate acid anion obtained by deprotonation of any aldonic acid. Major structure at pH 7.3 of aldonate compounds." []
 subset: 3_STAR
 synonym: "aldonates" RELATED [ChEBI]
-synonym: "an aldonate" RELATED [UniProt]
 is_a: CHEBI:33721 ! carbohydrate acid anion
 relationship: is_conjugate_acid_of CHEBI:22301 ! aldonic acid
 property_value: http://purl.obolibrary.org/obo/chebi/charge "-1" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "C3H5O4" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "(CH2O)n.C2H3O3" xsd:string
 
 [Term]
 id: CHEBI:72695
