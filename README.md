@@ -7,7 +7,7 @@
 
 The obo release at JAX is handled from here.
 
-We are planning to deprecate the berkleybop server process in the next few months. If you are currently getting the MP file directly from berkleybop, please switch to using the purl (http://purl.obolibrary.org/obo/mp.obo and  http://purl.obolibrary.org/obo/mp.owl) or getting the files directly from the MGI ftp site (http://www.informatics.jax.org/downloads/reports/index.html#pheno).
+We are planning to deprecate the berkleybop server process in the next few weeks. If you are currently getting the MP file directly from berkleybop, please switch to using the purl (http://purl.obolibrary.org/obo/mp.obo and  http://purl.obolibrary.org/obo/mp.owl) or getting the files directly from the MGI ftp site (http://www.informatics.jax.org/downloads/reports/index.html#pheno).
 
 ## Project Page
 
