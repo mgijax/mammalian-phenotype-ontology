@@ -3864,6 +3864,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MPATH_605"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_576",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_575"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/MPATH_312",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MPATH_310"
@@ -3876,13 +3880,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MPATH_603"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/MPATH_98",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MPATH_89"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/MPATH_246",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MPATH_565"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_98",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_89"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/MPATH_532",
       "pred" : "is_a",
@@ -4228,13 +4232,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MPATH_415"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/MPATH_33",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MPATH_1"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/MPATH_446",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MPATH_442"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_33",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_1"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/MPATH_357",
       "pred" : "is_a",
@@ -4320,13 +4324,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MPATH_310"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/MPATH_238",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MPATH_235"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/MPATH_246",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MPATH_264"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_238",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_235"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/MPATH_426",
       "pred" : "is_a",
@@ -4360,6 +4364,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MPATH_352"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_266",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_264"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/MPATH_850",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MPATH_56"
@@ -4367,10 +4375,6 @@
       "sub" : "http://purl.obolibrary.org/obo/MPATH_201",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MPATH_212"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/MPATH_266",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MPATH_264"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/MPATH_31",
       "pred" : "is_a",
@@ -4544,13 +4548,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MPATH_575"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/MPATH_98",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MPATH_474"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/MPATH_188",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MPATH_596"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_98",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_474"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/MPATH_242",
       "pred" : "is_a",
@@ -4596,13 +4600,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MPATH_268"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/MPATH_254",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MPATH_218"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/MPATH_97",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MPATH_90"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MPATH_254",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MPATH_218"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/MPATH_175",
       "pred" : "is_a",
@@ -4669,7 +4673,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/mp/releases/2019-03-21/imports/mpath_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/mp/releases/2019-07-09/imports/mpath_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

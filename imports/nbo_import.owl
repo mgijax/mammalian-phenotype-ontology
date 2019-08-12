@@ -11,7 +11,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/nbo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2019-03-21/imports/nbo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2019-07-09/imports/nbo_import.owl"/>
     </owl:Ontology>
     
 
@@ -472,6 +472,12 @@
     <!-- http://purl.obolibrary.org/obo/GO_0050966 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050966"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0050967 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050967"/>
     
 
 
@@ -6522,6 +6528,35 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NBO_0000752 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000752">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000331"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#in_response_to"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050967"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000331"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#in_response_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050967"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <nbo:created_by>gkoutos</nbo:created_by>
+        <nbo:namespace>behavior_ontology</nbo:namespace>
+        <dc:date>2012-03-17T03:59:12Z</dc:date>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electrical nociceptive behavior</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NBO_0000754 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000754">
@@ -7655,6 +7690,16 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:IAO_0000115>&quot;Behavior as a result of sensitivity to an anasthetic intake.&quot; [NBOC:GVG]</nbo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <rdfs:label xml:lang="en">behavioral response to anesthetic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0002379 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002379">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000152"/>
+        <nbo:IAO_0000115>&quot;Maternal behavior related to the nursing offspring.&quot; [NBOC:GVG]</nbo:IAO_0000115>
+        <rdfs:label xml:lang="en">nursing behavior</rdfs:label>
     </owl:Class>
     
 

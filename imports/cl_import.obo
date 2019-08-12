@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: mp/releases/2019-03-21/imports/cl_import.owl
+data-version: mp/releases/2019-07-09/imports/cl_import.owl
 ontology: mp/imports/cl_import
 owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0000000>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0000108>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0000160>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0000359>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0000540>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0000748>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0001067>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0001068>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0002590>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0008029>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0008030>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0009001>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0011112>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_1000314>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_1000321>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_1000323>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_1000325>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_1000326>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_1000327>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_1000488>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0001909>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0007269>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0014055>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0015106>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0030103>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0032782>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0046879>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0061535>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0098976>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0098977>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000018>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000059>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000483>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000955>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001154>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001983>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002049>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002115>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002116>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0005388>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0008859>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0008861>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002215>))\n\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/CL_0000108> (cholinergic neuron)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CL_0000108> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/GO_0014055>))\n\n# Class: <http://purl.obolibrary.org/obo/CL_0000748> (retinal bipolar neuron)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CL_0000748> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0061535> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0098976>))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_0001068> (ILC1)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CL_0001068> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0001067> ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/GO_0001909>))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_0002590> (smooth muscle cell of the brain vasculature)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CL_0002590> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000359> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0002049> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000955>)))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_0008029> (inhibitory neuron)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CL_0008029> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000540> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0007269> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0098977>)))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_0008030> (excitatory neuron)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CL_0008030> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000540> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0007269> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0098976>)))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_0009001> (compound eye retinal cell)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CL_0009001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0005388> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000018>)))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_0011112> (magnocellular neurosecretory cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CL_0011112> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000540> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/GO_0030103>)))\nSubClassOf(<http://purl.obolibrary.org/obo/CL_0011112> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000540> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/GO_0046879>)))\n\n# Class: <http://purl.obolibrary.org/obo/CL_1000314> (gastric cardiac gland goblet cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CL_1000314> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000483> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008859>))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_1000321> (large intestine crypt goblet cell)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CL_1000321> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000160> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001983> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000059>)))))\nSubClassOf(<http://purl.obolibrary.org/obo/CL_1000321> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000483> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001983> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000059>))))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_1000323> (pylroric gastric gland goblet cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CL_1000323> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000483> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008861>))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_1000325> (jejunal goblet cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CL_1000325> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000483> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002115>))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_1000326> (ileal goblet cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CL_1000326> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000483> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002116>))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_1000327> (appendix goblet cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CL_1000327> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000483> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001154>))))\n\n# Class: <http://purl.obolibrary.org/obo/CL_1000488> (cholangiocyte)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CL_1000488> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0015106> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0032782>))))\n\n\n)
 
@@ -3716,7 +3716,7 @@ id: CL:0000508
 name: type G enteroendocrine cell
 namespace: cell
 def: "An endocrine cell found in the pyloric gland mucosa (antral mucosa) of the stomach of mammals and responsible for the secretion of gastrin and enkephalin. Most abundant in pyloric antrum, pyramidal in form with a narrow apex bearing long microvilli." [GOC:tfm, ISBN:0517223651, MESH:A03.492.766.440.300]
-synonym: "G cell " EXACT []
+synonym: "G cell" EXACT []
 xref: BTO:0004108
 xref: FMA:67609
 is_a: CL:0000164 ! enteroendocrine cell
@@ -6733,7 +6733,7 @@ name: mast cell progenitor
 namespace: cell
 def: "A progenitor cell of the mast cell lineage. Markers for this cell are FceRIa-low, CD117-positive, CD9-positive, T1/ST2-positive, SCA1-negative, and lineage-negative." [GOC:add, GOC:dsd, http://www.copewithcytokines.de, PMCID:PMC1183570, PMCID:PMC1312421, PMID:8629001, PMID:9354811]
 comment: MCP are CD16-positive, CD32-positive, CD34-positive, CD45-positive, integrin beta-7-positive, and lin-negative (CD2, CD3e, CD4, CD5, CD8a, CD14, CD19, CD20, CD27, integrin alpha-M, ly6c, ly6g, NCAM-1, and ter119). These cells also express the transcription factors GATA-1, GATA-2, and MITF, but not C/EBPa.
-synonym: "CFU-Mast " RELATED []
+synonym: "CFU-Mast" RELATED []
 synonym: "CFU-MC" RELATED []
 synonym: "colony forming unit mast cell" RELATED []
 synonym: "MCP" EXACT []
@@ -7680,6 +7680,19 @@ intersection_of: RO:0002215 GO:0001913
 relationship: RO:0002202 CL:0000896 ! activated CD4-positive, alpha-beta T cell
 
 [Term]
+id: CL:0000935
+name: CD4-negative, CD8-negative, alpha-beta intraepithelial T cell
+namespace: cell
+def: "A CD4-negative, CD8-negative, alpha-beta intraepithelial T cell that is found in the columnar epithelium of the gastrointestinal tract." [GO_REF:0000031, GOC:add, GOC:pam, PMID:11685222]
+synonym: "CD4-negative, CD8-negative, alpha-beta intraepithelial T lymphocyte" EXACT []
+synonym: "CD4-negative, CD8-negative, alpha-beta intraepithelial T-cell" EXACT []
+synonym: "CD4-negative, CD8-negative, alpha-beta intraepithelial T-lymphocyte" EXACT []
+is_a: CL:0000797 {is_inferred="true"} ! alpha-beta intraepithelial T cell
+intersection_of: CL:0000797 ! alpha-beta intraepithelial T cell
+intersection_of: lacks_plasma_membrane_part PR:000001004
+intersection_of: lacks_plasma_membrane_part PR:000025403
+
+[Term]
 id: CL:0000936
 name: early lymphoid progenitor
 namespace: cell
@@ -7739,6 +7752,22 @@ intersection_of: lacks_plasma_membrane_part PR:000001012
 intersection_of: RO:0002104 PR:000001015
 intersection_of: RO:0002104 PR:000001865
 relationship: RO:0002202 CL:0000894 ! DN1 thymic pro-T cell
+
+[Term]
+id: CL:0000944
+name: Be2 cell
+namespace: cell
+def: "A Be cell that facilitates development of T-helper 2 (Th2) phenotype T cells, and secretes high levels of interleukin-2, interleukin-10, interleukin-4, and interleukin-6." [GO_REF:0000031, GOC:dsd, GOC:msz, GOC:tfm, PMID:11101868, PMID:20224569]
+comment: Be2 cells are also reportedly capable of secreting IL-13 and TNF. They are also reportedly CD11b-negative and B220-positive.
+synonym: "B effector 2 cell" EXACT [PMID:11101868, PMID:20224569]
+synonym: "B effector cell type 2" RELATED []
+is_a: CL:0000968 {is_inferred="true"} ! Be cell
+intersection_of: CL:0000968 ! Be cell
+intersection_of: RO:0002215 GO:0032613
+intersection_of: RO:0002215 GO:0032623
+intersection_of: RO:0002215 GO:0032633
+intersection_of: RO:0002215 GO:0032635
+intersection_of: RO:0002215 GO:0045630
 
 [Term]
 id: CL:0000945
@@ -8016,11 +8045,8 @@ def: "A germinal center B cell that founds a germinal center, and has the phenot
 comment: Bm2' B cells are also reportedly CD10-positive, CD39-negative, CD44-negative, CD71-positive, CD77-negative, IgM-positive, IgG-negative, IgA-negative, and IgE-negative.
 synonym: "Bm2' B lymphocyte" EXACT []
 synonym: "Bm2' B-cell" EXACT []
-synonym: "Bm2' B-lymphocyte" EXACT []
 synonym: "Bm2-prime B cell" EXACT []
-synonym: "Bm2-prime B lymphocyte " EXACT []
-synonym: "Bm2-prime B-cell " EXACT []
-synonym: "Bm2-prime B-lymphocyte " EXACT []
+synonym: "Bm2-prime B-lymphocyte" EXACT []
 synonym: "germinal center founder cell" RELATED []
 is_a: CL:0000844 {is_inferred="true"} ! germinal center B cell
 intersection_of: CL:0000844 ! germinal center B cell
@@ -8065,6 +8091,22 @@ intersection_of: lacks_plasma_membrane_part GO:0071738
 intersection_of: lacks_plasma_membrane_part PR:000003516
 intersection_of: RO:0002104 PR:000001408
 relationship: RO:0002202 CL:0000963 ! Bm3-delta B cell
+
+[Term]
+id: CL:0000968
+name: Be cell
+namespace: cell
+def: "A mature B cell that produces cytokines that can influence CD4 T cell differentiation." [GO_REF:0000031, GOC:msz, GOC:tfm, PMID:11101868, PMID:20224569]
+synonym: "B effector cell" EXACT []
+synonym: "effector B cell" EXACT []
+synonym: "effector B lymphocyte" EXACT []
+synonym: "effector B-cell" EXACT []
+synonym: "effector B-lymphocyte" EXACT []
+is_a: CL:0000785 {is_inferred="true"} ! mature B cell
+intersection_of: CL:0000785 ! mature B cell
+intersection_of: RO:0002104 PR:000001289
+intersection_of: RO:0002215 GO:0001816
+intersection_of: RO:0002215 GO:0043370
 
 [Term]
 id: CL:0000970
@@ -8606,6 +8648,29 @@ comment: VSAO relationship simplified OBO_REL:integral_part_of VSAO:0000118
 xref: VSAO:0000117
 is_a: CL:0000062 ! osteoblast
 relationship: BFO:0000050 UBERON:0002481
+
+[Term]
+id: CL:0001041
+name: CD8-positive, CXCR3-positive, alpha-beta regulatory T cell
+namespace: cell
+def: "A CD8-positive alpha-beta-positive T cell with the phenotype CXCR3-positive and having suppressor function. They are capable of producing IL-10, suppressing proliferation, and suppressing IFN-gamma production." [GOC:dsd, PMID:19609979]
+comment: These cells may be the human equivalent of murine CD8-positive, CD122-positive alpha-beta regulatory T cell. They are also found in the CD45RA-negative and CD62L-positive fraction.
+synonym: "CD8+CXCR3+ T cell" EXACT []
+synonym: "CD8+CXCR3+ T lymphocyte" EXACT []
+synonym: "CD8+CXCR3+ T(reg)" EXACT []
+synonym: "CD8+CXCR3+ T-cell" EXACT []
+synonym: "CD8+CXCR3+ Treg" EXACT []
+synonym: "CD8-positive, CXCR3-positive, alpha-beta regulatory T lymphocyte" EXACT []
+synonym: "CD8-positive, CXCR3-positive, alpha-beta regulatory T-cell" EXACT []
+synonym: "CD8-positive, CXCR3-positive, alpha-beta regulatory T-lymphocyte" EXACT []
+synonym: "CD8-positive, CXCR3-positive, T(reg)" EXACT []
+synonym: "CD8-positive, CXCR3-positive, Treg" EXACT []
+is_a: CL:0000795 {is_inferred="true"} ! CD8-positive, alpha-beta regulatory T cell
+intersection_of: CL:0000795 ! CD8-positive, alpha-beta regulatory T cell
+intersection_of: BFO:0000051 PR:000001207
+intersection_of: RO:0002215 GO:0032613
+intersection_of: RO:0002215 GO:0032689
+intersection_of: RO:0002215 GO:0042130
 
 [Term]
 id: CL:0001044
@@ -9947,7 +10012,7 @@ def: "A neuroendocrine cell found in the epithelium of the lungs and respiratory
 synonym: "bronchiolar Kulchitsky cell" EXACT []
 synonym: "Kultschitzky cell of bronchiole" EXACT []
 synonym: "P cell" BROAD []
-synonym: "respiratory enterochromaffin cell " EXACT []
+synonym: "respiratory enterochromaffin cell" EXACT []
 xref: FMA:14118
 is_a: CL:0000165 ! neuroendocrine cell
 created_by: tmeehan
@@ -10824,7 +10889,7 @@ id: CL:0002166
 name: epithelial cell of Malassez
 namespace: cell
 def: "An epithelial cell that remains from the disintegration of the epithelial root sheath involved in the development of teeth." [GOC:tfm, ISBN:0517223651, ISBN:0815129521]
-synonym: "epithelial cell rests of Malassez " EXACT []
+synonym: "epithelial cell rests of Malassez" EXACT []
 synonym: "epithelial debris of Malassez" EXACT []
 xref: FMA:62987
 is_a: CL:0002159 {is_inferred="true"} ! general ecto-epithelial cell
@@ -13165,7 +13230,7 @@ id: CL:0002484
 name: epithelial melanocyte
 namespace: cell
 def: "A melanocyte that produces pigment in the epithelium." [GOC:tfm, MP:0009388]
-comment: The text defintion reference to the MP term appears to reference an epidermal melanocyte term. This term represents any melanocyte in any epithelium. 
+comment: The text defintion reference to the MP term appears to reference an epidermal melanocyte term. This term represents any melanocyte in any epithelium.
 is_a: CL:0000148 {is_inferred="true"} ! melanocyte
 intersection_of: CL:0000148 ! melanocyte
 intersection_of: BFO:0000050 UBERON:0000483
@@ -14749,7 +14814,7 @@ is_a: CL:0005018 ! ghrelin secreting cell
 id: CL:0005020
 name: lymphangioblast
 namespace: cell
-def: "Lymphatic progenitor cells. " [CL:CVS]
+def: "Lymphatic progenitor cells." [CL:CVS]
 comment: Usually express Prox1, or prox1b.
 is_a: CL:0000048 {is_inferred="true"} ! multi fate stem cell
 intersection_of: CL:0000048 ! multi fate stem cell
@@ -14780,9 +14845,19 @@ created_by: Ceri
 creation_date: 2012-01-12T05:21:09Z
 
 [Term]
+id: CL:0005024
+name: somatomotor neuron
+def: "A motor neuron that innervates a skeletal muscle.  These motor neurons are all excitatory and cholinergic." [ZFIN:CVS]
+synonym: "somatic motor neuron" EXACT []
+is_a: CL:0008014 ! excitatory motor neuron
+intersection_of: CL:0000100 ! motor neuron
+intersection_of: RO:0002130 UBERON:0014892
+relationship: RO:0002215 GO:0014055
+
+[Term]
 id: CL:0005026
 name: hepatoblast
-def: "Multi fate stem cell that gives rise to to both hepatocytes and cholangiocytes as descendants." [GOC:CVS, PMID:18356246, PMID:20483998 ]
+def: "Multi fate stem cell that gives rise to to both hepatocytes and cholangiocytes as descendants." [GOC:CVS, PMID:18356246, PMID:20483998]
 is_a: CL:0000048 ! multi fate stem cell
 
 [Term]
@@ -14927,6 +15002,13 @@ def: "A skeletal muscle satellite cell that divides by stem cell division.  A pr
 intersection_of: CL:0000594 ! skeletal muscle satellite cell
 intersection_of: RO:0000053 PATO:0001400
 intersection_of: RO:0002215 GO:0017145
+
+[Term]
+id: CL:0008014
+name: excitatory motor neuron
+def: "A motor neuron that is capable of directly inducing muscle contraction." []
+comment: In vertebrates, all motor neurons are excitatory, but various types of inhibitory motor neurons exist in invertebrates.
+is_a: CL:0000100 ! motor neuron
 
 [Term]
 id: CL:0008017
@@ -15184,11 +15266,21 @@ intersection_of: BFO:0000050 UBERON:0003124
 [Term]
 id: CL:0011108
 name: colon epithelial cell
-def: "Epithelial cell that is part of the colon epithelium. " [GOC:NV]
+def: "Epithelial cell that is part of the colon epithelium." [GOC:NV]
 synonym: "colonic epithelial cell" EXACT []
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0001155
 relationship: BFO:0000050 UBERON:0000397
+
+[Term]
+id: CL:0011111
+name: gonadotropin releasing neuron
+def: "Neuroendocrine cells that are born in the nasal placode during embryonic development and migrate through the nose and forebrain to the hypothalamus, where they regulate reproduction." [GOC:NV, PMID:21828096]
+synonym: "GnRH neuron" EXACT []
+synonym: "GnRH-secreting neuron" EXACT []
+is_a: CL:0000540 ! neuron
+intersection_of: CL:0000540 ! neuron
+intersection_of: RO:0002215 GO:0032274
 
 [Term]
 id: CL:0011112
@@ -15208,7 +15300,7 @@ intersection_of: BFO:0000050 UBERON:0000395
 id: CL:0011115
 name: precursor cell
 def: "A cell that, by division or terminal differentiation, can give rise to other cell types." [GOC:dos]
-comment: Work is needed on GO 'cell differentiation' before it is clear whether the equivalent class definition 'native cell' that capable_of some 'cell differentiation' works. Also, may want to consider merging this with non-terminally differentiated cell. 
+comment: Work is needed on GO 'cell differentiation' before it is clear whether the equivalent class definition 'native cell' that capable_of some 'cell differentiation' works. Also, may want to consider merging this with non-terminally differentiated cell.
 is_a: CL:0000003 ! native cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: RO:0002215 GO:0030154
@@ -17940,7 +18032,7 @@ relationship: BFO:0000050 UBERON:0009697
 [Term]
 id: CL:1001586
 name: mammary gland glandular cell
-def: "Glandular cell of mammary epithelium. Example: glandular cells of large and intermediate ducts, glandular cells in terminal ducts." [NPX:PDR;HPA\:HPA]
+def: "Glandular cell of mammary epithelium. Example: glandular cells of large and intermediate ducts, glandular cells in terminal ducts." [HPA:HPA, NPX:PDR]
 synonym: "breast glandular cell" RELATED [CALOHA:TS-1272]
 synonym: "breast glandular cells" RELATED [CALOHA:TS-1272]
 synonym: "mammary glandular cell" RELATED [CALOHA:TS-1272]
@@ -17995,7 +18087,7 @@ relationship: BFO:0000050 UBERON:0004544
 [Term]
 id: CL:1001591
 name: oviduct glandular cell
-def: "Glandular cell of oviduct epithelium. Example: peg cells, ciliated cells." [NPX:PDR;HPA\:HPA]
+def: "Glandular cell of oviduct epithelium. Example: peg cells, ciliated cells." [HPA:HPA, NPX:PDR]
 synonym: "fallopian tube glandular cell" RELATED [CALOHA:TS-1277]
 synonym: "fallopian tube glandular cells" RELATED [CALOHA:TS-1277]
 synonym: "uterine tube glandular cell" RELATED [CALOHA:TS-1277]
@@ -18019,7 +18111,7 @@ relationship: BFO:0000050 UBERON:0002029
 [Term]
 id: CL:1001593
 name: parathyroid glandular cell
-def: "Glandular cell of parathyroid epithelium. Example: Parathyroid chief cell and parathyroid oxyphil cells." [NPX:PDR;HPA\:HPA]
+def: "Glandular cell of parathyroid epithelium. Example: Parathyroid chief cell and parathyroid oxyphil cells." [HPA:HPA, NPX:PDR]
 synonym: "parathyroid gland glandular cell" RELATED [CALOHA:TS-1279]
 synonym: "parathyroid gland glandular cells" RELATED [CALOHA:TS-1279]
 xref: CALOHA:TS-1279
@@ -18041,7 +18133,7 @@ relationship: BFO:0000050 UBERON:0003354
 [Term]
 id: CL:1001596
 name: salivary gland glandular cell
-def: "Glandular cell of salivary gland. Example: Serous cells, mucous cells, cuboidal epithelial cells of the intercalated ducts, simple cuboidal epithelium of the striated ducts, epithelial cells of excretory ducts." [NPX:PDR;HPA\:HPA]
+def: "Glandular cell of salivary gland. Example: Serous cells, mucous cells, cuboidal epithelial cells of the intercalated ducts, simple cuboidal epithelium of the striated ducts, epithelial cells of excretory ducts." [HPA:HPA, NPX:PDR]
 synonym: "salivary gland glandular cells" RELATED [CALOHA:TS-1282]
 xref: CALOHA:TS-1282
 intersection_of: CL:0000150 ! glandular epithelial cell
@@ -18061,7 +18153,7 @@ relationship: BFO:0000050 UBERON:0004805
 [Term]
 id: CL:1001598
 name: small intestine glandular cell
-def: "A glandular cell found in the epithelium of the small intestine. Example: Enterocytes, Goblet cells, enteroendocrine cells; Paneth cells; M cells; Somatostatin-secreting Cells (D-cells) ." [NCI_Thesaurus:Small_Intestinal_Glandular_Cell;NPX\:PDR]
+def: "A glandular cell found in the epithelium of the small intestine. Example: Enterocytes, Goblet cells, enteroendocrine cells; Paneth cells; M cells; Somatostatin-secreting Cells (D-cells) ." [NCI_Thesaurus:Small_Intestinal_Glandular_Cell, NPX:PDR]
 synonym: "small bowel glandular cell" RELATED [CALOHA:TS-1286]
 synonym: "small intestinal glandular cell" RELATED [CALOHA:TS-1286]
 synonym: "small intestine glandular cells" RELATED [CALOHA:TS-1286]
@@ -18074,7 +18166,7 @@ relationship: BFO:0000050 UBERON:0001902
 [Term]
 id: CL:1001599
 name: pancreas exocrine glandular cell
-def: "Glandular cell of exocrine pancreas epithelium. Example: pancreatic acinar cell, glandular cells in pancreatic canaliculi, glandular cells in pancreatic ducts." [NPX:PDR;HPA\:HPA]
+def: "Glandular cell of exocrine pancreas epithelium. Example: pancreatic acinar cell, glandular cells in pancreatic canaliculi, glandular cells in pancreatic ducts." [HPA:HPA, NPX:PDR]
 synonym: "exocrine pancreas glandular cell" RELATED [CALOHA:TS-1242]
 synonym: "pancreas exocrine glandular cells" RELATED [CALOHA:TS-1242]
 xref: BTO:0000028
@@ -18108,7 +18200,7 @@ relationship: BFO:0000050 UBERON:0013694
 [Term]
 id: CL:1001603
 name: lung macrophage
-def: "Circulating macrophages and tissue macrophages (alveolar macrophages) of lung." [NPX:PDR;HPA\:HPA]
+def: "Circulating macrophages and tissue macrophages (alveolar macrophages) of lung." [HPA:HPA, NPX:PDR]
 synonym: "lung macrophages" RELATED [CALOHA:TS-0576]
 xref: CALOHA:TS-0576
 intersection_of: CL:0000235 ! macrophage
@@ -19130,6 +19222,14 @@ id: has_not_completed
 name: has_not_completed
 
 [Typedef]
+id: has_relational_adjective
+name: has_relational_adjective
+namespace: uberon
+comment: Used to connect a class to an adjectival form of its label. For example, a class with label 'intestine' may have a relational adjective 'intestinal'.
+xref: UBPROP:0000007
+is_metadata_tag: true
+
+[Typedef]
 id: immediate_transformation_of
 name: immediate_transformation_of
 synonym: "direct_transformation_of" EXACT [https://orcid.org/0000-0002-6601-2165]
@@ -19146,4 +19246,11 @@ expand_expression_to: "http://purl.obolibrary.org/obo/BFO_0000051 exactly 0 ?Y" 
 id: lacks_plasma_membrane_part
 name: lacks_plasma_membrane_part
 expand_expression_to: "http://purl.obolibrary.org/obo/BFO_0000051 exactly 0 (http://purl.obolibrary.org/obo/GO_0005886 and http://purl.obolibrary.org/obo/BFO_0000051 some ?Y)" []
+
+[Typedef]
+id: seeAlso
+name: see also
+namespace: uberon
+xref: http://www.w3.org/2000/01/rdf-schema#seeAlso
+is_metadata_tag: true
 
