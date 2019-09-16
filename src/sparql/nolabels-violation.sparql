@@ -4,10 +4,12 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX replaced_by: <http://purl.obolibrary.org/obo/IAO_0100001>
 
 SELECT ?cls WHERE {
-	?cls a owl:Class
+	?cls a owl:Class .
+	?cls ?p ?x .
 	FILTER NOT EXISTS {?cls rdfs:label ?lab}
 	FILTER NOT EXISTS {?cls replaced_by: ?replCls}
-        FILTER (!isBlank(?cls))
-        FILTER ( regex(str(?cls), "^http://purl.obolibrary.org/obo/GO_"))
+	FILTER (!isBlank(?cls))
+	FILTER (?p!=rdf:type)
+	FILTER ( regex(str(?cls), "^http://purl.obolibrary.org/obo/GO_"))
 }
 ORDER BY ?cls
