@@ -11,7 +11,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/nbo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2019-07-09/imports/nbo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2019-09-16/imports/nbo_import.owl"/>
     </owl:Ontology>
     
 
@@ -48,6 +48,12 @@
     <!-- http://purl.obolibrary.org/obo/nbo.owl#namespace -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/nbo.owl#namespace"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
     
 
 
@@ -521,12 +527,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000338"/>
-        <nbo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A change of place or position of part of an organism that does not involve the entire organism [NBO:SMAC]</nbo:IAO_0000115>
+        <nbo:IAO_0000115>A change of place or position of part of an organism that does not involve the entire organism [NBO:SMAC]</nbo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym>stationary movement</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">body part movement</rdfs:label>
+        <rdfs:label>body part movement</rdfs:label>
     </owl:Class>
     
 
@@ -538,7 +544,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">whole body movement</rdfs:label>
+        <rdfs:label>whole body movement</rdfs:label>
     </owl:Class>
     
 
@@ -553,7 +559,7 @@
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym>affective behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>mood</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emotional behavior</rdfs:label>
+        <rdfs:label>emotional behavior</rdfs:label>
     </owl:Class>
     
 
@@ -568,7 +574,7 @@
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym>learning and/or memory behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0007611</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">learning and/or memory behavior</rdfs:label>
+        <rdfs:label>learning and/or memory behavior</rdfs:label>
     </owl:Class>
     
 
@@ -577,13 +583,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000001"/>
-        <nbo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The act of moving any of the tissues and hard structures surrounding the mouth other than teeth, jaws or filter structures [NBO:AC]</nbo:IAO_0000115>
+        <nbo:IAO_0000115>The act of moving any of the tissues and hard structures surrounding the mouth other than teeth, jaws or filter structures [NBO:AC]</nbo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouth part movement</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other moved mouth parts</oboInOwl:hasNarrowSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouth movement</rdfs:label>
+        <oboInOwl:hasNarrowSynonym>mouth part movement</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>other moved mouth parts</oboInOwl:hasNarrowSynonym>
+        <rdfs:label>mouth movement</rdfs:label>
     </owl:Class>
     
 
@@ -596,7 +602,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:xref>GO:0007622</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhythmic behavior</rdfs:label>
+        <rdfs:label>rhythmic behavior</rdfs:label>
     </owl:Class>
     
 
@@ -626,7 +632,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T12:58:40Z</dc:date>
         <oboInOwl:hasExactSynonym>pathological locomotory behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locomotory behavior phenotype</rdfs:label>
+        <rdfs:label>locomotory behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -635,14 +641,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <nbo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavior directly related to the production of offspring [NBO:AC]</nbo:IAO_0000115>
+        <nbo:IAO_0000115>Behavior directly related to the production of offspring [NBO:AC]</nbo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">reproduction</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>reproductive behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0019098</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproductive behavior</rdfs:label>
+        <rdfs:label>reproductive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -657,7 +663,7 @@
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym>social behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0035176</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social behavior</rdfs:label>
+        <rdfs:label>social behavior</rdfs:label>
     </owl:Class>
     
 
@@ -671,7 +677,7 @@
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:xref>HP:0001250</oboInOwl:xref>
         <oboInOwl:xref>MP:0002064</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seizures/epilepsy</rdfs:label>
+        <rdfs:label>seizures/epilepsy</rdfs:label>
     </owl:Class>
     
 
@@ -688,7 +694,7 @@
         <oboInOwl:hasExactSynonym xml:lang="en">locomotion</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0007626</oboInOwl:xref>
         <oboInOwl:xref>GO:0008344</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locomotory behavior</rdfs:label>
+        <rdfs:label>locomotory behavior</rdfs:label>
     </owl:Class>
     
 
@@ -703,7 +709,7 @@
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym>mating behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0007617</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mating behavior</rdfs:label>
+        <rdfs:label>mating behavior</rdfs:label>
     </owl:Class>
     
 
@@ -720,7 +726,7 @@
         <oboInOwl:hasExactSynonym>aggressive behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>agonism</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0002118</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior</rdfs:label>
+        <rdfs:label>aggressive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -735,7 +741,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym>fear/anxiety related behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear/anxiety related behavior</rdfs:label>
+        <rdfs:label>fear/anxiety related behavior</rdfs:label>
     </owl:Class>
     
 
@@ -744,12 +750,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000001"/>
-        <nbo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A change in place or position of the portion of the organism containing the brain, mouth and main sense organs [NBO:SMAC]</nbo:IAO_0000115>
+        <nbo:IAO_0000115>A change in place or position of the portion of the organism containing the brain, mouth and main sense organs [NBO:SMAC]</nbo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">move head</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head movement</rdfs:label>
+        <rdfs:label>head movement</rdfs:label>
     </owl:Class>
     
 
@@ -764,7 +770,7 @@
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym>learning behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0007612</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">learning behavior</rdfs:label>
+        <rdfs:label>learning behavior</rdfs:label>
     </owl:Class>
     
 
@@ -779,7 +785,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">shake head</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head shaking</rdfs:label>
+        <rdfs:label>head shaking</rdfs:label>
     </owl:Class>
     
 
@@ -794,7 +800,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:xref>GO:0030431</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sleeping behavior</rdfs:label>
+        <rdfs:label>sleeping behavior</rdfs:label>
     </owl:Class>
     
 
@@ -809,7 +815,7 @@
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym>epileptic seizure</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>unprovoked seizure</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seizures</rdfs:label>
+        <rdfs:label>seizures</rdfs:label>
     </owl:Class>
     
 
@@ -818,15 +824,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <nbo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The act of using body parts to pick at, rub and or remove material from exterior covering, e.g., fur, scales, feathers, skin [NBO:SMAC]</nbo:IAO_0000115>
+        <nbo:IAO_0000115>The act of using body parts to pick at, rub and or remove material from exterior covering, e.g., fur, scales, feathers, skin [NBO:SMAC]</nbo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">groom</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>grooming behaviour</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hygiene</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>hygiene</oboInOwl:hasRelatedSynonym>
         <oboInOwl:xref>GO:0007625</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grooming behavior</rdfs:label>
+        <rdfs:label>grooming behavior</rdfs:label>
     </owl:Class>
     
 
@@ -841,7 +847,7 @@
         <dc:date>2011-04-14T01:09:28Z</dc:date>
         <oboInOwl:xref>HP:0000752</oboInOwl:xref>
         <oboInOwl:xref>MP:0001399</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hyperactivity</rdfs:label>
+        <rdfs:label>hyperactivity</rdfs:label>
     </owl:Class>
     
 
@@ -856,7 +862,7 @@
         <dc:date>2011-04-14T01:18:37Z</dc:date>
         <oboInOwl:xref>HP:0003470</oboInOwl:xref>
         <oboInOwl:xref>MP:0000753</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paralysis</rdfs:label>
+        <rdfs:label>paralysis</rdfs:label>
     </owl:Class>
     
 
@@ -869,8 +875,8 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sexual actions</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sexual activity</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>sexual actions</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>sexual activity</rdfs:label>
     </owl:Class>
     
 
@@ -882,7 +888,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emission behavior</rdfs:label>
+        <rdfs:label>emission behavior</rdfs:label>
     </owl:Class>
     
 
@@ -895,7 +901,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">produce sound</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral control of production of sound</rdfs:label>
+        <rdfs:label>behavioral control of production of sound</rdfs:label>
     </owl:Class>
     
 
@@ -910,7 +916,7 @@
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym>vocalization behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">vocalize</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vocalization behavior</rdfs:label>
+        <rdfs:label>vocalization behavior</rdfs:label>
     </owl:Class>
     
 
@@ -941,7 +947,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:xref>GO:0007588</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral control of excretion</rdfs:label>
+        <rdfs:label>behavioral control of excretion</rdfs:label>
     </owl:Class>
     
 
@@ -967,11 +973,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030421"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <nbo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The behavioral control of defecation. [wikipedia:defecation]</nbo:IAO_0000115>
+        <nbo:IAO_0000115>The behavioral control of defecation. [wikipedia:defecation]</nbo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral control of defecation</rdfs:label>
+        <rdfs:label>behavioral control of defecation</rdfs:label>
     </owl:Class>
     
 
@@ -1014,7 +1020,7 @@
         <oboInOwl:hasExactSynonym>micturition</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">urinate</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0060073</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral control of urination</rdfs:label>
+        <rdfs:label>behavioral control of urination</rdfs:label>
     </owl:Class>
     
 
@@ -1040,12 +1046,12 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007589"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <nbo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavior associated with and resulting in the production and subsequent release of any substance or product elaborated, and released by a cell or gland [NBO:SMAC]</nbo:IAO_0000115>
+        <nbo:IAO_0000115>Behavior associated with and resulting in the production and subsequent release of any substance or product elaborated, and released by a cell or gland [NBO:SMAC]</nbo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">secrete</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral control of external secretion</rdfs:label>
+        <rdfs:label>behavioral control of external secretion</rdfs:label>
     </owl:Class>
     
 
@@ -1087,7 +1093,7 @@
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">tear release</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>tear secretion</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral control of lacrimation</rdfs:label>
+        <rdfs:label>behavioral control of lacrimation</rdfs:label>
     </owl:Class>
     
 
@@ -1096,12 +1102,19 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000043">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000280"/>
+        <obo:IAO_0000115>A behavior that occurs between two individuals, such as parent and child, and involves an emotional attachment that implies a special and focused relationship.</obo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym>forming of peer relationship</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonding behavior</rdfs:label>
+        <rdfs:label>bonding behavior</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000043"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A behavior that occurs between two individuals, such as parent and child, and involves an emotional attachment that implies a special and focused relationship.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:29327315</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1109,12 +1122,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000044">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000011"/>
-        <nbo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavior associated with protection, or assisting growth and development of young. [NBO:AC]</nbo:IAO_0000115>
+        <nbo:IAO_0000115>Behavior associated with protection, or assisting growth and development of young. [NBO:AC]</nbo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:xref>GO:0060746</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parental behavior</rdfs:label>
+        <rdfs:label>parental behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1129,7 +1142,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">protection of offspring</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protection of offspring behavior</rdfs:label>
+        <rdfs:label>protection of offspring behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1145,7 +1158,7 @@
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasAlternativeId>NBO:0000625</oboInOwl:hasAlternativeId>
         <oboInOwl:hasExactSynonym>social playing behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social play</rdfs:label>
+        <rdfs:label>social play</rdfs:label>
     </owl:Class>
     
 
@@ -1158,7 +1171,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thermoregulation behavior</rdfs:label>
+        <rdfs:label>thermoregulation behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1167,12 +1180,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000051"/>
-        <nbo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavior associated with two or more individuals&apos; achieving or maintaining close and extensive bodily contact; to nestle closely with another [NBO:AC]</nbo:IAO_0000115>
+        <nbo:IAO_0000115>Behavior associated with two or more individuals&apos; achieving or maintaining close and extensive bodily contact; to nestle closely with another [NBO:AC]</nbo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">huddle</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">huddling behavior</rdfs:label>
+        <rdfs:label>huddling behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1189,7 +1202,7 @@
         <oboInOwl:hasExactSynonym>nursing behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>suckling behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0001967</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">suckling behavior</rdfs:label>
+        <rdfs:label>suckling behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1204,7 +1217,7 @@
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">walking</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0007628</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">walking behavior</rdfs:label>
+        <rdfs:label>walking behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1213,13 +1226,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000027"/>
-        <nbo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The act of dragging claws or nails over a surface [NBO:AC]</nbo:IAO_0000115>
+        <nbo:IAO_0000115>The act of dragging claws or nails over a surface [NBO:AC]</nbo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">scratch</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">scratching behavior</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scratching</rdfs:label>
+        <rdfs:label>scratching</rdfs:label>
     </owl:Class>
     
 
@@ -1240,7 +1253,7 @@
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <oboInOwl:hasExactSynonym>eating behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0042755</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of eating behavior</rdfs:label>
+        <rdfs:label>regulation of eating behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1261,7 +1274,7 @@
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <oboInOwl:hasExactSynonym>drinking behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0042756</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of drinking behavior</rdfs:label>
+        <rdfs:label>regulation of drinking behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1274,7 +1287,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shaking</rdfs:label>
+        <rdfs:label>shaking</rdfs:label>
     </owl:Class>
     
 
@@ -1283,14 +1296,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000073">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000747"/>
-        <nbo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The act of repeated grinding, tearing, and or crushing with teeth or jaws [NBO:SMAC]</nbo:IAO_0000115>
+        <nbo:IAO_0000115>The act of repeated grinding, tearing, and or crushing with teeth or jaws [NBO:SMAC]</nbo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">chew</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">gnaw</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>mastication</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chewing</rdfs:label>
+        <rdfs:label>chewing</rdfs:label>
     </owl:Class>
     
 
@@ -1299,12 +1312,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000075">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <nbo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A very broad category including the partial or complete performance of adult functional behaviors in non-functional contexts, as well as interactive behaviors peculiar to immature animals [NBO:AC]</nbo:IAO_0000115>
+        <nbo:IAO_0000115>A very broad category including the partial or complete performance of adult functional behaviors in non-functional contexts, as well as interactive behaviors peculiar to immature animals [NBO:AC]</nbo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">play</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">playing behavior</rdfs:label>
+        <rdfs:label>playing behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1322,7 +1335,7 @@
         <oboInOwl:hasExactSynonym xml:lang="en">post-copulatory behavior</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>post-mating behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0045297</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">post-mating behavior</rdfs:label>
+        <rdfs:label>post-mating behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1350,13 +1363,13 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001845"/>
-        <nbo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The act of bringing an object or substance into the body by swallowing, surrounding or absorbing it [NBO:SMAC]</nbo:IAO_0000115>
+        <nbo:IAO_0000115>The act of bringing an object or substance into the body by swallowing, surrounding or absorbing it [NBO:SMAC]</nbo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <oboInOwl:hasExactSynonym>feeding behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0007631</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feeding behavior</rdfs:label>
+        <rdfs:label>feeding behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1388,7 +1401,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <oboInOwl:xref>GO:0048512</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circadian behavior</rdfs:label>
+        <rdfs:label>circadian behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1402,7 +1415,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <oboInOwl:hasExactSynonym>depression related behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">depression behavior</rdfs:label>
+        <rdfs:label>depression behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1415,7 +1428,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">novelty response behavior</rdfs:label>
+        <rdfs:label>novelty response behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1429,7 +1442,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T10:00:42Z</dc:date>
         <oboInOwl:hasExactSynonym>fear-related behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear-related behavior</rdfs:label>
+        <rdfs:label>fear-related behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1443,7 +1456,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T10:01:25Z</dc:date>
         <oboInOwl:hasExactSynonym>anxiety-related behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anxiety-related behavior</rdfs:label>
+        <rdfs:label>anxiety-related behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1457,7 +1470,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T10:18:11Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear behavior towards situation/environment</rdfs:label>
+        <rdfs:label>fear behavior towards situation/environment</rdfs:label>
     </owl:Class>
     
 
@@ -1472,7 +1485,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T10:18:39Z</dc:date>
         <oboInOwl:xref>HP:0000756</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agoraphobia behavior</rdfs:label>
+        <rdfs:label>agoraphobia behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1485,7 +1498,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T10:22:03Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to novel environment</rdfs:label>
+        <rdfs:label>response to novel environment</rdfs:label>
     </owl:Class>
     
 
@@ -1498,7 +1511,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T10:23:07Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to novel object</rdfs:label>
+        <rdfs:label>response to novel object</rdfs:label>
     </owl:Class>
     
 
@@ -1511,7 +1524,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T10:24:44Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to novel odor</rdfs:label>
+        <rdfs:label>response to novel odor</rdfs:label>
     </owl:Class>
     
 
@@ -1524,7 +1537,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T10:28:39Z</dc:date>
         <oboInOwl:xref>GO:0035640</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exploration behavior</rdfs:label>
+        <rdfs:label>exploration behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1537,7 +1550,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T10:32:40Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retropulsion</rdfs:label>
+        <rdfs:label>retropulsion</rdfs:label>
     </owl:Class>
     
 
@@ -1552,7 +1565,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T10:36:56Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear-related retropulsion</rdfs:label>
+        <rdfs:label>fear-related retropulsion</rdfs:label>
     </owl:Class>
     
 
@@ -1565,7 +1578,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T10:49:00Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coping behavior</rdfs:label>
+        <rdfs:label>coping behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1679,7 +1692,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T11:02:17Z</dc:date>
         <oboInOwl:hasExactSynonym>gender-related aggressive behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gender-related aggressive behavior</rdfs:label>
+        <rdfs:label>gender-related aggressive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1692,7 +1705,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T11:03:36Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior towards females</rdfs:label>
+        <rdfs:label>aggressive behavior towards females</rdfs:label>
     </owl:Class>
     
 
@@ -1719,7 +1732,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T11:08:55Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">impulsive behavior</rdfs:label>
+        <rdfs:label>impulsive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1734,7 +1747,7 @@
         <dc:date>2011-03-31T11:14:04Z</dc:date>
         <oboInOwl:hasExactSynonym>physical aggression behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>violent behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical aggression behavior</rdfs:label>
+        <rdfs:label>physical aggression behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1748,7 +1761,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T11:42:15Z</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">agonism</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agonistic behavior</rdfs:label>
+        <rdfs:label>agonistic behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1757,12 +1770,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000122">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
-        <nbo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any behavior that tends to prevent further or future attack, often by signalling a willingness to yield or surrender [NBO:AC]</nbo:IAO_0000115>
+        <nbo:IAO_0000115>Any behavior that tends to prevent further or future attack, often by signalling a willingness to yield or surrender [NBO:AC]</nbo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T11:43:11Z</dc:date>
         <oboInOwl:hasExactSynonym>submissive behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">submissive behavior</rdfs:label>
+        <rdfs:label>submissive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1799,13 +1812,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000127">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
-        <nbo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavior by which an animal removes itself spatially from an agonistic encounter in which it is not the winner [NBO:AC]</nbo:IAO_0000115>
+        <nbo:IAO_0000115>Behavior by which an animal removes itself spatially from an agonistic encounter in which it is not the winner [NBO:AC]</nbo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T11:49:03Z</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">retreat</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>retreat behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retreat behavior</rdfs:label>
+        <rdfs:label>retreat behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1818,7 +1831,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T12:16:00Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">irritability behavior</rdfs:label>
+        <rdfs:label>irritability behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1831,7 +1844,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T12:22:11Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agitation behavior</rdfs:label>
+        <rdfs:label>agitation behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1850,7 +1863,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T12:40:37Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid consumption</rdfs:label>
+        <rdfs:label>liquid consumption</rdfs:label>
     </owl:Class>
     
 
@@ -1880,7 +1893,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T12:40:53Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alcohol consumption</rdfs:label>
+        <rdfs:label>alcohol consumption</rdfs:label>
     </owl:Class>
     
 
@@ -1911,7 +1924,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T12:41:14Z</dc:date>
         <oboInOwl:xref>GO:0045187</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water consumption</rdfs:label>
+        <rdfs:label>water consumption</rdfs:label>
     </owl:Class>
     
 
@@ -1949,7 +1962,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T12:41:50Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid preference/aversion</rdfs:label>
+        <rdfs:label>liquid preference/aversion</rdfs:label>
     </owl:Class>
     
 
@@ -1979,7 +1992,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T12:42:46Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food consumption</rdfs:label>
+        <rdfs:label>food consumption</rdfs:label>
     </owl:Class>
     
 
@@ -2007,7 +2020,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T12:43:07Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food preference/aversion</rdfs:label>
+        <rdfs:label>food preference/aversion</rdfs:label>
     </owl:Class>
     
 
@@ -2037,7 +2050,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T12:50:41Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saccharin consumption</rdfs:label>
+        <rdfs:label>saccharin consumption</rdfs:label>
     </owl:Class>
     
 
@@ -2065,7 +2078,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T12:58:43Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food preference</rdfs:label>
+        <rdfs:label>food preference</rdfs:label>
     </owl:Class>
     
 
@@ -2093,7 +2106,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T12:59:08Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food aversion</rdfs:label>
+        <rdfs:label>food aversion</rdfs:label>
     </owl:Class>
     
 
@@ -2121,7 +2134,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T02:16:59Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mating frequency</rdfs:label>
+        <rdfs:label>mating frequency</rdfs:label>
     </owl:Class>
     
 
@@ -2133,7 +2146,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T02:17:36Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mating receptivity</rdfs:label>
+        <rdfs:label>mating receptivity</rdfs:label>
     </owl:Class>
     
 
@@ -2145,7 +2158,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T02:24:12Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social investigation</rdfs:label>
+        <rdfs:label>social investigation</rdfs:label>
     </owl:Class>
     
 
@@ -2159,7 +2172,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T02:32:21Z</dc:date>
         <oboInOwl:xref>GO:0042711</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maternal behavior</rdfs:label>
+        <rdfs:label>maternal behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2172,7 +2185,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T02:33:34Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maternal nurturing behavior</rdfs:label>
+        <rdfs:label>maternal nurturing behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2184,7 +2197,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T02:35:33Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maternal crouching</rdfs:label>
+        <rdfs:label>maternal crouching</rdfs:label>
     </owl:Class>
     
 
@@ -2198,7 +2211,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T02:42:29Z</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">retrieval</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">offspring retrieval</rdfs:label>
+        <rdfs:label>offspring retrieval</rdfs:label>
     </owl:Class>
     
 
@@ -2210,7 +2223,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T02:53:42Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nesting behavior</rdfs:label>
+        <rdfs:label>nesting behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2222,7 +2235,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T02:54:15Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nest building behavior</rdfs:label>
+        <rdfs:label>nest building behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2256,7 +2269,7 @@
         <dc:date>2011-03-31T03:00:57Z</dc:date>
         <oboInOwl:hasExactSynonym>REM sleep</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>paradoxical sleep</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rapid eye movement sleep</rdfs:label>
+        <rdfs:label>rapid eye movement sleep</rdfs:label>
     </owl:Class>
     
 
@@ -2284,7 +2297,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T03:09:27Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sleep duration</rdfs:label>
+        <rdfs:label>sleep duration</rdfs:label>
     </owl:Class>
     
 
@@ -2313,7 +2326,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T03:15:38Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REM duration</rdfs:label>
+        <rdfs:label>REM duration</rdfs:label>
     </owl:Class>
     
 
@@ -2341,7 +2354,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T03:15:49Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REM frequency</rdfs:label>
+        <rdfs:label>REM frequency</rdfs:label>
     </owl:Class>
     
 
@@ -2355,7 +2368,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-03-31T03:22:26Z</dc:date>
         <oboInOwl:xref>GO:0007623</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circadian rhythm</rdfs:label>
+        <rdfs:label>circadian rhythm</rdfs:label>
     </owl:Class>
     
 
@@ -2370,7 +2383,7 @@
         <dc:date>2011-04-01T01:49:03Z</dc:date>
         <oboInOwl:hasExactSynonym>memory behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0007613</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory behavior</rdfs:label>
+        <rdfs:label>memory behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2387,7 +2400,7 @@
         <oboInOwl:hasExactSynonym>conditional learning</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0008306</oboInOwl:xref>
         <rdfs:comment>The formation of associations among stimuli and responses.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">associative learning behavior</rdfs:label>
+        <rdfs:label>associative learning behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2401,7 +2414,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-01T01:54:09Z</dc:date>
         <oboInOwl:xref>GO:0008355</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olfactory learning behavior</rdfs:label>
+        <rdfs:label>olfactory learning behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2430,7 +2443,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-01T01:56:08Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor learning</rdfs:label>
+        <rdfs:label>motor learning</rdfs:label>
     </owl:Class>
     
 
@@ -2442,7 +2455,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-01T01:57:20Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial learning</rdfs:label>
+        <rdfs:label>spatial learning</rdfs:label>
     </owl:Class>
     
 
@@ -2473,7 +2486,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-01T01:58:41Z</dc:date>
         <oboInOwl:xref>GO:0042297</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vocal learning</rdfs:label>
+        <rdfs:label>vocal learning</rdfs:label>
     </owl:Class>
     
 
@@ -2487,7 +2500,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-01T03:59:07Z</dc:date>
         <oboInOwl:xref>GO:0007614</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short-term memory</rdfs:label>
+        <rdfs:label>short-term memory</rdfs:label>
     </owl:Class>
     
 
@@ -2501,7 +2514,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-01T03:59:10Z</dc:date>
         <oboInOwl:xref>GO:0007616</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long-term memory</rdfs:label>
+        <rdfs:label>long-term memory</rdfs:label>
     </owl:Class>
     
 
@@ -2516,7 +2529,7 @@
         <dc:date>2011-04-02T07:38:45Z</dc:date>
         <oboInOwl:hasExactSynonym>explicit memory</oboInOwl:hasExactSynonym>
         <rdfs:comment>Encoded by the hippocampus, entorhinal cortex, and perirhinal cortex but store possibly in the medial temporal lobe.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">declarative memory</rdfs:label>
+        <rdfs:label>declarative memory</rdfs:label>
     </owl:Class>
     
 
@@ -2531,7 +2544,7 @@
         <dc:date>2011-04-03T08:57:28Z</dc:date>
         <oboInOwl:hasExactSynonym>Pavlovian conditioning</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>respondent conditioning</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classical conditioning</rdfs:label>
+        <rdfs:label>classical conditioning</rdfs:label>
     </owl:Class>
     
 
@@ -2561,7 +2574,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-03T08:58:27Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear conditioning</rdfs:label>
+        <rdfs:label>fear conditioning</rdfs:label>
     </owl:Class>
     
 
@@ -2573,7 +2586,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-03T09:01:08Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">avoidance learning behavior</rdfs:label>
+        <rdfs:label>avoidance learning behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2587,7 +2600,7 @@
         <dc:date>2011-04-03T09:04:57Z</dc:date>
         <oboInOwl:hasExactSynonym>Garcia conditioning</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0001661</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conditioned taste aversion</rdfs:label>
+        <rdfs:label>conditioned taste aversion</rdfs:label>
     </owl:Class>
     
 
@@ -2604,7 +2617,7 @@
         <oboInOwl:hasExactSynonym>instrumental learning</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0035106</oboInOwl:xref>
         <rdfs:comment>Operant conditioning is distinguished from classical conditioning in that operant conditioning deals with the modification of &quot;voluntary behavior&quot; or operant behavior.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">operant conditioning behavior</rdfs:label>
+        <rdfs:label>operant conditioning behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2616,7 +2629,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-03T09:11:00Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">latent learning behavior</rdfs:label>
+        <rdfs:label>latent learning behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2629,7 +2642,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-04T03:22:16Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">active avoidance learning behavior</rdfs:label>
+        <rdfs:label>active avoidance learning behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2642,7 +2655,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-04T03:22:53Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passive avoidance learning behavior</rdfs:label>
+        <rdfs:label>passive avoidance learning behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2672,7 +2685,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-04T03:36:48Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conditioned emotional response</rdfs:label>
+        <rdfs:label>conditioned emotional response</rdfs:label>
     </owl:Class>
     
 
@@ -2684,7 +2697,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-04T03:40:11Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conditioned place preference behavior</rdfs:label>
+        <rdfs:label>conditioned place preference behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2696,7 +2709,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-04T03:42:37Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contextual conditioning behavior</rdfs:label>
+        <rdfs:label>contextual conditioning behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2708,7 +2721,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-04T03:43:11Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cued conditioning behavior</rdfs:label>
+        <rdfs:label>cued conditioning behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2737,7 +2750,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-04T03:55:46Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eye blink conditioning behavior</rdfs:label>
+        <rdfs:label>eye blink conditioning behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2766,7 +2779,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-04T03:57:01Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jaw movement conditioning behavior</rdfs:label>
+        <rdfs:label>jaw movement conditioning behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2796,7 +2809,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-04T06:34:21Z</dc:date>
         <oboInOwl:hasExactSynonym>pathological vestibular behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vestibular behavior phenotype</rdfs:label>
+        <rdfs:label>vestibular behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -2813,7 +2826,7 @@
         <oboInOwl:hasExactSynonym>behavioral homeostasis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>maintenance behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>perception of need</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motivation behavior</rdfs:label>
+        <rdfs:label>motivation behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2826,7 +2839,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-04T08:51:24Z</dc:date>
         <oboInOwl:xref>HP:0000708</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral phenotype</rdfs:label>
+        <rdfs:label>behavioral phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -2840,7 +2853,7 @@
         <dc:date>2011-04-04T08:51:52Z</dc:date>
         <oboInOwl:hasExactSynonym>hysteria</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>pathological anxiety disorder</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathological anxiety</rdfs:label>
+        <rdfs:label>pathological anxiety</rdfs:label>
     </owl:Class>
     
 
@@ -2854,7 +2867,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-04T08:52:18Z</dc:date>
         <oboInOwl:hasExactSynonym>phobic disorder</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phobia</rdfs:label>
+        <rdfs:label>phobia</rdfs:label>
     </owl:Class>
     
 
@@ -2869,7 +2882,7 @@
         <dc:date>2011-04-04T08:52:42Z</dc:date>
         <oboInOwl:hasExactSynonym>OCD</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0000722</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsessive-compulsive disorder</rdfs:label>
+        <rdfs:label>obsessive-compulsive disorder</rdfs:label>
     </owl:Class>
     
 
@@ -2881,7 +2894,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-04T08:55:19Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mood disorder</rdfs:label>
+        <rdfs:label>mood disorder</rdfs:label>
     </owl:Class>
     
 
@@ -2898,7 +2911,7 @@
         <oboInOwl:hasExactSynonym>bipolar affective disorder</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>manic depression</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>NBO:0000258</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bipolar disorder</rdfs:label>
+        <rdfs:label>bipolar disorder</rdfs:label>
     </owl:Class>
     
 
@@ -2911,7 +2924,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-04T08:56:39Z</dc:date>
         <oboInOwl:xref>HP:0000709</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">psychotic disorder</rdfs:label>
+        <rdfs:label>psychotic disorder</rdfs:label>
     </owl:Class>
     
 
@@ -2925,7 +2938,7 @@
         <dc:date>2011-04-04T08:59:01Z</dc:date>
         <oboInOwl:xref>HP:0000751</oboInOwl:xref>
         <rdfs:comment>(http://www.cliffsnotes.com/study_guide/Classifying-Psychological-Disorders.topicArticleId-25438,articleId-25396.html).</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personality disorder</rdfs:label>
+        <rdfs:label>personality disorder</rdfs:label>
     </owl:Class>
     
 
@@ -2955,7 +2968,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-04T09:01:18Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cognitive behavior phenotype</rdfs:label>
+        <rdfs:label>cognitive behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -2968,7 +2981,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-04T09:01:50Z</dc:date>
         <oboInOwl:xref>HP:0000726</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dementia</rdfs:label>
+        <rdfs:label>dementia</rdfs:label>
     </owl:Class>
     
 
@@ -2997,7 +3010,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-04T09:02:16Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feeding behavior phenotype</rdfs:label>
+        <rdfs:label>feeding behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -3028,7 +3041,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-04T09:07:58Z</dc:date>
         <oboInOwl:hasExactSynonym>verbal aggression behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vocal aggression behavior</rdfs:label>
+        <rdfs:label>vocal aggression behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3040,7 +3053,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-04T09:16:35Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attraction-related behavior</rdfs:label>
+        <rdfs:label>attraction-related behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3053,7 +3066,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-04T09:30:27Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavior stemming from intelligence</rdfs:label>
+        <rdfs:label>behavior stemming from intelligence</rdfs:label>
     </owl:Class>
     
 
@@ -3062,13 +3075,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000296">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
-        <nbo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavior that facilitates the restoration of normal interactions between parties that recently engaged in a conflict.[NBO:AC]</nbo:IAO_0000115>
+        <nbo:IAO_0000115>Behavior that facilitates the restoration of normal interactions between parties that recently engaged in a conflict.[NBO:AC]</nbo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-19T09:50:09Z</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">reconciliation</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">reconciliation behavior</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conciliation behavior</rdfs:label>
+        <rdfs:label>conciliation behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3082,7 +3095,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-04T09:49:14Z</dc:date>
         <oboInOwl:hasExactSynonym>forgetting</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory loss behavior</rdfs:label>
+        <rdfs:label>memory loss behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3096,7 +3109,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-04T09:53:48Z</dc:date>
         <oboInOwl:hasExactSynonym>memory storage behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory storage behavior</rdfs:label>
+        <rdfs:label>memory storage behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3113,7 +3126,7 @@
         <oboInOwl:hasExactSynonym>behavior involving perception</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>perception behavior</oboInOwl:hasExactSynonym>
         <rdfs:comment>Example: moving head to watch passing object.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sensation behavior</rdfs:label>
+        <rdfs:label>sensation behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3129,7 +3142,7 @@
         <oboInOwl:hasExactSynonym>behavior</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0007610</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavior process</rdfs:label>
+        <rdfs:label>behavior process</rdfs:label>
     </owl:Class>
     
 
@@ -3162,7 +3175,7 @@
         <oboInOwl:hasExactSynonym>behavioral response to visual stimulus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>behavioural response to visual stimulus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>visual behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual behavior</rdfs:label>
+        <rdfs:label>visual behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3176,7 +3189,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-05T10:37:02Z</dc:date>
         <oboInOwl:xref>GO:0007634</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">optokinetic behavior</rdfs:label>
+        <rdfs:label>optokinetic behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3214,7 +3227,7 @@
         <dc:date>2011-04-05T10:38:17Z</dc:date>
         <oboInOwl:hasExactSynonym>hearing behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0031223</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auditory behavior</rdfs:label>
+        <rdfs:label>auditory behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3228,7 +3241,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-05T10:40:36Z</dc:date>
         <oboInOwl:hasExactSynonym>proprioception</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vestibular behavior</rdfs:label>
+        <rdfs:label>vestibular behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3240,7 +3253,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-05T10:44:05Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">balance</rdfs:label>
+        <rdfs:label>balance</rdfs:label>
     </owl:Class>
     
 
@@ -3271,7 +3284,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-05T10:48:17Z</dc:date>
         <oboInOwl:xref>GO:0007635</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemosensory behavior</rdfs:label>
+        <rdfs:label>chemosensory behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3302,7 +3315,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-05T10:48:52Z</dc:date>
         <oboInOwl:xref>GO:0042048</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olfactory behavior</rdfs:label>
+        <rdfs:label>olfactory behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3333,7 +3346,7 @@
         <dc:date>2011-04-05T10:50:50Z</dc:date>
         <oboInOwl:hasExactSynonym>gustatory behavior</oboInOwl:hasExactSynonym>
         <rdfs:comment>Taste can be described as five basic sensations, sweet, sour, salty, bitter and umamy which can be combined in various ways to make all other taste sensations.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">taste behavior</rdfs:label>
+        <rdfs:label>taste behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3365,7 +3378,7 @@
         <dc:date>2011-04-05T11:00:51Z</dc:date>
         <oboInOwl:hasExactSynonym>thermosensation behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0040040</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thermosensory behavior</rdfs:label>
+        <rdfs:label>thermosensory behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3379,7 +3392,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-05T11:01:08Z</dc:date>
         <rdfs:comment>Sensations arising from the internal organs (the viscera), such as pain or the sense of fullness of the stomach or bladder, may therefore be included, although they are usually considered separately as visceral sensations. Pain arising from the viscera is often felt as though it comes from some part of the body surface or underlying tissue.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">somatic sensation related behavior</rdfs:label>
+        <rdfs:label>somatic sensation related behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3409,7 +3422,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-05T11:09:42Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hot sensation behavior</rdfs:label>
+        <rdfs:label>hot sensation behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3439,7 +3452,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-05T11:09:56Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cold sensation behavior</rdfs:label>
+        <rdfs:label>cold sensation behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3451,7 +3464,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-05T11:11:48Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cutaneous sensation behavior</rdfs:label>
+        <rdfs:label>cutaneous sensation behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3482,7 +3495,7 @@
         <dc:date>2011-04-05T11:13:27Z</dc:date>
         <oboInOwl:hasExactSynonym>nociception</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>pain</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nociceptive behavior</rdfs:label>
+        <rdfs:label>nociceptive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3511,7 +3524,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-05T11:36:23Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">touch related behavior</rdfs:label>
+        <rdfs:label>touch related behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3541,7 +3554,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-05T12:38:39Z</dc:date>
         <oboInOwl:hasExactSynonym>chemical nociception behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical nociceptive behavior</rdfs:label>
+        <rdfs:label>chemical nociceptive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3571,7 +3584,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-05T12:39:46Z</dc:date>
         <oboInOwl:hasExactSynonym>mechanical nociception behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mechanical nociceptive behavior</rdfs:label>
+        <rdfs:label>mechanical nociceptive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3601,7 +3614,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-05T12:41:15Z</dc:date>
         <oboInOwl:hasExactSynonym>thermal nociception behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thermal nociceptive behavior</rdfs:label>
+        <rdfs:label>thermal nociceptive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3614,7 +3627,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-05T12:45:31Z</dc:date>
         <oboInOwl:hasExactSynonym>chemically-elicited antinociception behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemically-elicited antinociceptive behavior</rdfs:label>
+        <rdfs:label>chemically-elicited antinociceptive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3627,7 +3640,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-05T02:08:47Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kinesthetic behavior</rdfs:label>
+        <rdfs:label>kinesthetic behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3641,7 +3654,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-05T03:32:44Z</dc:date>
         <oboInOwl:hasAlternativeId>NBO:0000340</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor coordination</rdfs:label>
+        <rdfs:label>motor coordination</rdfs:label>
     </owl:Class>
     
 
@@ -3654,7 +3667,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-05T03:49:12Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">limb coordination</rdfs:label>
+        <rdfs:label>limb coordination</rdfs:label>
     </owl:Class>
     
 
@@ -3669,7 +3682,7 @@
         <dc:date>2011-04-05T04:10:52Z</dc:date>
         <oboInOwl:hasExactSynonym>large muscle coordination</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>whole body coordination</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gross motor coordination</rdfs:label>
+        <rdfs:label>gross motor coordination</rdfs:label>
     </owl:Class>
     
 
@@ -3682,7 +3695,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-06T09:30:15Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">posture</rdfs:label>
+        <rdfs:label>posture</rdfs:label>
     </owl:Class>
     
 
@@ -3712,7 +3725,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-06T09:30:45Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">body posture</rdfs:label>
+        <rdfs:label>body posture</rdfs:label>
     </owl:Class>
     
 
@@ -3742,7 +3755,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-06T09:31:06Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">limb posture</rdfs:label>
+        <rdfs:label>limb posture</rdfs:label>
     </owl:Class>
     
 
@@ -3755,7 +3768,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-06T09:31:29Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resting posture</rdfs:label>
+        <rdfs:label>resting posture</rdfs:label>
     </owl:Class>
     
 
@@ -3768,7 +3781,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-06T09:44:37Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terrestrial locomotory behavior</rdfs:label>
+        <rdfs:label>terrestrial locomotory behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3781,7 +3794,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-06T10:07:23Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gait</rdfs:label>
+        <rdfs:label>gait</rdfs:label>
     </owl:Class>
     
 
@@ -3794,7 +3807,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-06T10:08:59Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stride</rdfs:label>
+        <rdfs:label>stride</rdfs:label>
     </owl:Class>
     
 
@@ -3807,9 +3820,9 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-06T12:33:07Z</dc:date>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">swim</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>swim</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>swimming</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aquatic locomotion</rdfs:label>
+        <rdfs:label>aquatic locomotion</rdfs:label>
     </owl:Class>
     
 
@@ -3822,7 +3835,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-06T01:15:21Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">directional control of locomotion</rdfs:label>
+        <rdfs:label>directional control of locomotion</rdfs:label>
     </owl:Class>
     
 
@@ -3835,7 +3848,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-06T01:16:55Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locomotory orientation behavior</rdfs:label>
+        <rdfs:label>locomotory orientation behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3849,7 +3862,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-06T01:17:27Z</dc:date>
         <oboInOwl:xref>GO:0042330</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">taxis</rdfs:label>
+        <rdfs:label>taxis</rdfs:label>
     </owl:Class>
     
 
@@ -3865,7 +3878,7 @@
         <oboInOwl:hasExactSynonym>geotactic behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>gravitaxis</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0042332</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gravitactic behavior</rdfs:label>
+        <rdfs:label>gravitactic behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3881,7 +3894,7 @@
         <oboInOwl:hasExactSynonym>positive geotactic behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>positive gravitaxis</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0048061</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positive gravitactic behavior</rdfs:label>
+        <rdfs:label>positive gravitactic behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3895,7 +3908,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-06T01:45:18Z</dc:date>
         <oboInOwl:hasExactSynonym>stereotaxis</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thigmotaxis</rdfs:label>
+        <rdfs:label>thigmotaxis</rdfs:label>
     </owl:Class>
     
 
@@ -3908,7 +3921,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-06T01:59:20Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mechanical stimulus taxis</rdfs:label>
+        <rdfs:label>mechanical stimulus taxis</rdfs:label>
     </owl:Class>
     
 
@@ -3923,7 +3936,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-06T02:35:38Z</dc:date>
         <rdfs:comment>Movevents listed here are involuntary, but may be also generated by free will, like blinking of the eyelids and respiratory movements.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">involuntary movement behavior</rdfs:label>
+        <rdfs:label>involuntary movement behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3955,7 +3968,7 @@
         <dc:date>2011-04-06T02:36:55Z</dc:date>
         <oboInOwl:hasAlternativeId>NBO:0000004</oboInOwl:hasAlternativeId>
         <oboInOwl:hasExactSynonym>reflex behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reflexive behavior</rdfs:label>
+        <rdfs:label>reflexive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -3971,7 +3984,7 @@
         <oboInOwl:hasExactSynonym>infant reflex</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>infantile reflex</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>newborn reflex</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primitive reflex</rdfs:label>
+        <rdfs:label>primitive reflex</rdfs:label>
     </owl:Class>
     
 
@@ -3985,7 +3998,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-06T02:55:21Z</dc:date>
         <oboInOwl:hasExactSynonym>alarm reaction</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">startle reflex</rdfs:label>
+        <rdfs:label>startle reflex</rdfs:label>
     </owl:Class>
     
 
@@ -3999,7 +4012,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-06T03:25:21Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sucking reflex</rdfs:label>
+        <rdfs:label>sucking reflex</rdfs:label>
     </owl:Class>
     
 
@@ -4013,7 +4026,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-06T03:32:28Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">voluntary movement behavior</rdfs:label>
+        <rdfs:label>voluntary movement behavior</rdfs:label>
     </owl:Class>
     
 
@@ -4026,7 +4039,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-06T04:28:27Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cranial nerve related reflex</rdfs:label>
+        <rdfs:label>cranial nerve related reflex</rdfs:label>
     </owl:Class>
     
 
@@ -4040,7 +4053,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-06T04:28:58Z</dc:date>
         <oboInOwl:hasExactSynonym>pupillary reflex</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pupillary light reflex</rdfs:label>
+        <rdfs:label>pupillary light reflex</rdfs:label>
     </owl:Class>
     
 
@@ -4055,7 +4068,7 @@
         <dc:date>2011-04-06T06:08:06Z</dc:date>
         <oboInOwl:hasExactSynonym>blink reflex</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>blinking</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corneal reflex</rdfs:label>
+        <rdfs:label>corneal reflex</rdfs:label>
     </owl:Class>
     
 
@@ -4071,7 +4084,7 @@
         <oboInOwl:hasExactSynonym>VOR</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>oculovestibular reflex</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>vestibuloocular reflex</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vestibulo-ocular reflex</rdfs:label>
+        <rdfs:label>vestibulo-ocular reflex</rdfs:label>
     </owl:Class>
     
 
@@ -4084,7 +4097,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-06T06:16:20Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physiologic nystagmus</rdfs:label>
+        <rdfs:label>physiologic nystagmus</rdfs:label>
     </owl:Class>
     
 
@@ -4099,7 +4112,7 @@
         <dc:date>2011-04-06T06:17:32Z</dc:date>
         <oboInOwl:hasExactSynonym>gag reflex</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>swallowing reflex</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pharyngeal reflex</rdfs:label>
+        <rdfs:label>pharyngeal reflex</rdfs:label>
     </owl:Class>
     
 
@@ -4128,7 +4141,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-07T01:19:38Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sleeping behavior phenotype</rdfs:label>
+        <rdfs:label>sleeping behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -4144,7 +4157,7 @@
         <oboInOwl:hasExactSynonym>&lt;new synonym&gt;</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>teeth grinding</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0003763</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bruxism</rdfs:label>
+        <rdfs:label>bruxism</rdfs:label>
     </owl:Class>
     
 
@@ -4156,7 +4169,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-08T12:22:02Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eye movement</rdfs:label>
+        <rdfs:label>eye movement</rdfs:label>
     </owl:Class>
     
 
@@ -4168,7 +4181,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-08T12:22:13Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tail movement</rdfs:label>
+        <rdfs:label>tail movement</rdfs:label>
     </owl:Class>
     
 
@@ -4182,7 +4195,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-08T12:25:53Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual pursuit</rdfs:label>
+        <rdfs:label>visual pursuit</rdfs:label>
     </owl:Class>
     
 
@@ -4201,7 +4214,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-08T12:27:51Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locomotor activation behavior</rdfs:label>
+        <rdfs:label>locomotor activation behavior</rdfs:label>
     </owl:Class>
     
 
@@ -4213,7 +4226,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-08T12:28:10Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vertical activity</rdfs:label>
+        <rdfs:label>vertical activity</rdfs:label>
     </owl:Class>
     
 
@@ -4226,7 +4239,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-08T12:28:25Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spontaneous movement behavior</rdfs:label>
+        <rdfs:label>spontaneous movement behavior</rdfs:label>
     </owl:Class>
     
 
@@ -4243,7 +4256,7 @@
         <oboInOwl:hasExactSynonym xml:lang="en">allo-hygiene behavior</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>allogrooming</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">allohygiene</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social grooming</rdfs:label>
+        <rdfs:label>social grooming</rdfs:label>
     </owl:Class>
     
 
@@ -4256,7 +4269,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-08T01:02:16Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attention behavior</rdfs:label>
+        <rdfs:label>attention behavior</rdfs:label>
     </owl:Class>
     
 
@@ -4286,7 +4299,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-08T01:25:53Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">form perception behavior</rdfs:label>
+        <rdfs:label>form perception behavior</rdfs:label>
     </owl:Class>
     
 
@@ -4316,7 +4329,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-08T01:29:05Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">depth perception behavior</rdfs:label>
+        <rdfs:label>depth perception behavior</rdfs:label>
     </owl:Class>
     
 
@@ -4346,7 +4359,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-08T01:31:08Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">distance perception behavior</rdfs:label>
+        <rdfs:label>distance perception behavior</rdfs:label>
     </owl:Class>
     
 
@@ -4360,7 +4373,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-08T01:52:36Z</dc:date>
         <rdfs:comment>It refers to the consequence of the failure of an organism to respond adequately to mental, emotional or physical demands, whether actual or imagined.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stress related behavior</rdfs:label>
+        <rdfs:label>stress related behavior</rdfs:label>
     </owl:Class>
     
 
@@ -4373,7 +4386,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-08T01:55:58Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral alarm</rdfs:label>
+        <rdfs:label>behavioral alarm</rdfs:label>
     </owl:Class>
     
 
@@ -4401,7 +4414,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-08T02:18:40Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhythmic behavior phenotype</rdfs:label>
+        <rdfs:label>rhythmic behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -4430,7 +4443,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-08T02:19:42Z</dc:date>
         <oboInOwl:hasExactSynonym>pathological circadian behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circadian behavior phenotype</rdfs:label>
+        <rdfs:label>circadian behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -4443,7 +4456,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-08T03:20:06Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parasomnia</rdfs:label>
+        <rdfs:label>parasomnia</rdfs:label>
     </owl:Class>
     
 
@@ -4456,7 +4469,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-08T03:37:10Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NREM parasomnia</rdfs:label>
+        <rdfs:label>NREM parasomnia</rdfs:label>
     </owl:Class>
     
 
@@ -4488,7 +4501,7 @@
         <oboInOwl:hasExactSynonym>DD-NOS</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>depressive disorder not otherwise specified</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0000716</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">depressive disorder</rdfs:label>
+        <rdfs:label>depressive disorder</rdfs:label>
     </owl:Class>
     
 
@@ -4502,7 +4515,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-10T02:18:47Z</dc:date>
         <oboInOwl:xref>GO:0003053</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circadian regulation of heart rate</rdfs:label>
+        <rdfs:label>circadian regulation of heart rate</rdfs:label>
     </owl:Class>
     
 
@@ -4515,7 +4528,7 @@
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-10T02:21:01Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circadian regulation of systemic arterial blood pressure</rdfs:label>
+        <rdfs:label>circadian regulation of systemic arterial blood pressure</rdfs:label>
     </owl:Class>
     
 
@@ -4530,7 +4543,7 @@
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-10T02:22:58Z</dc:date>
         <oboInOwl:hasExactSynonym>circadian thermoregulation</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circadian temperature homeostasis</rdfs:label>
+        <rdfs:label>circadian temperature homeostasis</rdfs:label>
     </owl:Class>
     
 
@@ -4555,12 +4568,12 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000270"/>
-        <nbo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Observable characteristic of feeding behavior that relates to eating.&quot; [NBO:GVG]</nbo:IAO_0000115>
+        <nbo:IAO_0000115>&quot;Observable characteristic of feeding behavior that relates to eating.&quot; [NBO:GVG]</nbo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-10T10:39:39Z</dc:date>
         <oboInOwl:hasExactSynonym>eating disorder</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eating behavior phenotype</rdfs:label>
+        <rdfs:label>eating behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -4585,13 +4598,13 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000270"/>
-        <nbo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Observable characteristic of feeding behavior that relates to drinking.&quot; [NBO:GVG]</nbo:IAO_0000115>
+        <nbo:IAO_0000115>&quot;Observable characteristic of feeding behavior that relates to drinking.&quot; [NBO:GVG]</nbo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-10T10:40:49Z</dc:date>
         <oboInOwl:hasExactSynonym>drinking disorder</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>pathological drinking behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drinking behavior phenotype</rdfs:label>
+        <rdfs:label>drinking behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -4638,7 +4651,7 @@
 (&apos;regulation of drinking behavior&apos; and (has_quality some 
 (&apos;increased frequency&apos; and towards some &apos;liquid consumption&apos; and owl:qualifier some chronic)))</oboInOwl:note>
         <oboInOwl:xref>MP:0002119</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dipsosis</rdfs:label>
+        <rdfs:label>dipsosis</rdfs:label>
     </owl:Class>
     
 
@@ -4696,7 +4709,7 @@ and
 owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:xref>HP:0001959</oboInOwl:xref>
         <oboInOwl:xref>MP:0001426</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polydipsia</rdfs:label>
+        <rdfs:label>polydipsia</rdfs:label>
     </owl:Class>
     
 
@@ -4743,7 +4756,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 (&apos;regulation of drinking behavior&apos; and (has_quality some 
 (&apos;increased frequency&apos; and (towards some &apos;liquid consumption&apos;) and (owl:qualifier some &apos;temporally extended&apos;))))</oboInOwl:note>
         <oboInOwl:xref>MP:0005111</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hyperdipsia</rdfs:label>
+        <rdfs:label>hyperdipsia</rdfs:label>
     </owl:Class>
     
 
@@ -4773,7 +4786,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-10T10:41:10Z</dc:date>
         <oboInOwl:xref>MP:0001438</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aphagia</rdfs:label>
+        <rdfs:label>aphagia</rdfs:label>
     </owl:Class>
     
 
@@ -4788,12 +4801,12 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007631"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <nbo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The act of moving food from the mouth cavity to the esophagus through coordinated muscular movements [NBO:AC]</nbo:IAO_0000115>
+        <nbo:IAO_0000115>The act of moving food from the mouth cavity to the esophagus through coordinated muscular movements [NBO:AC]</nbo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-10T10:39:39Z</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">swallow</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">swallowing</rdfs:label>
+        <rdfs:label>swallowing</rdfs:label>
     </owl:Class>
     
 
@@ -4825,7 +4838,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasExactSynonym>hyperphagia</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0000724</oboInOwl:xref>
         <oboInOwl:xref>MP:0001433</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyphagia</rdfs:label>
+        <rdfs:label>polyphagia</rdfs:label>
     </owl:Class>
     
 
@@ -4838,7 +4851,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-10T10:41:10Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male sexual activity</rdfs:label>
+        <rdfs:label>male sexual activity</rdfs:label>
     </owl:Class>
     
 
@@ -4851,7 +4864,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:53:29Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recognition memory</rdfs:label>
+        <rdfs:label>recognition memory</rdfs:label>
     </owl:Class>
     
 
@@ -4864,7 +4877,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:56:14Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual object recognition</rdfs:label>
+        <rdfs:label>visual object recognition</rdfs:label>
     </owl:Class>
     
 
@@ -4877,7 +4890,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T02:02:11Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long term object recognition memory</rdfs:label>
+        <rdfs:label>long term object recognition memory</rdfs:label>
     </owl:Class>
     
 
@@ -4889,7 +4902,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T02:03:00Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short term object recognition memory</rdfs:label>
+        <rdfs:label>short term object recognition memory</rdfs:label>
     </owl:Class>
     
 
@@ -4901,7 +4914,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T02:09:28Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual short term memory</rdfs:label>
+        <rdfs:label>visual short term memory</rdfs:label>
     </owl:Class>
     
 
@@ -4914,7 +4927,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T02:10:17Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial working memory</rdfs:label>
+        <rdfs:label>spatial working memory</rdfs:label>
     </owl:Class>
     
 
@@ -4927,7 +4940,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T02:14:26Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial memory</rdfs:label>
+        <rdfs:label>spatial memory</rdfs:label>
     </owl:Class>
     
 
@@ -4940,7 +4953,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T02:17:28Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short term spatial memory</rdfs:label>
+        <rdfs:label>short term spatial memory</rdfs:label>
     </owl:Class>
     
 
@@ -4954,7 +4967,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T07:58:09Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maternal grooming</rdfs:label>
+        <rdfs:label>maternal grooming</rdfs:label>
     </owl:Class>
     
 
@@ -4967,7 +4980,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T08:03:48Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">barbering behavior</rdfs:label>
+        <rdfs:label>barbering behavior</rdfs:label>
     </owl:Class>
     
 
@@ -4983,7 +4996,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasAlternativeId>NBO:0000083</oboInOwl:hasAlternativeId>
         <oboInOwl:hasExactSynonym>whisker trimming</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>MP:0001446</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hetero-barbering</rdfs:label>
+        <rdfs:label>hetero-barbering</rdfs:label>
     </owl:Class>
     
 
@@ -5013,7 +5026,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T08:24:37Z</dc:date>
         <oboInOwl:hasExactSynonym>pathological social behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social behavior phenotype</rdfs:label>
+        <rdfs:label>social behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -5030,7 +5043,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasExactSynonym>stereotypy</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0000733</oboInOwl:xref>
         <oboInOwl:xref>MP:0001408</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stereotypic behavior</rdfs:label>
+        <rdfs:label>stereotypic behavior</rdfs:label>
     </owl:Class>
     
 
@@ -5059,7 +5072,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T08:31:34Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kinesthetic behavior phenotype</rdfs:label>
+        <rdfs:label>kinesthetic behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -5068,13 +5081,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000570">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000020"/>
-        <nbo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Movement of the head in the vertical plane. [NBO:GVG]</nbo:IAO_0000115>
+        <nbo:IAO_0000115>Movement of the head in the vertical plane. [NBO:GVG]</nbo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T08:39:38Z</dc:date>
         <oboInOwl:hasExactSynonym>head nodding</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">nod head</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head bobbing</rdfs:label>
+        <rdfs:label>head bobbing</rdfs:label>
     </owl:Class>
     
 
@@ -5087,7 +5100,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T08:43:33Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multidirectional head movement</rdfs:label>
+        <rdfs:label>multidirectional head movement</rdfs:label>
     </owl:Class>
     
 
@@ -5100,7 +5113,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T09:20:48Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">optokinetic reflex</rdfs:label>
+        <rdfs:label>optokinetic reflex</rdfs:label>
     </owl:Class>
     
 
@@ -5115,7 +5128,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <dc:date>2011-04-14T10:15:17Z</dc:date>
         <oboInOwl:hasExactSynonym>horripilation</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>piloerection</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pilomotor reflex</rdfs:label>
+        <rdfs:label>pilomotor reflex</rdfs:label>
     </owl:Class>
     
 
@@ -5129,7 +5142,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T10:19:59Z</dc:date>
         <oboInOwl:hasExactSynonym>Preyer&apos;s reflex</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pinna reflex</rdfs:label>
+        <rdfs:label>pinna reflex</rdfs:label>
     </owl:Class>
     
 
@@ -5142,7 +5155,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T10:24:14Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">postural reflex</rdfs:label>
+        <rdfs:label>postural reflex</rdfs:label>
     </owl:Class>
     
 
@@ -5156,7 +5169,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T10:28:56Z</dc:date>
         <oboInOwl:hasExactSynonym>righting response</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">righting reflex</rdfs:label>
+        <rdfs:label>righting reflex</rdfs:label>
     </owl:Class>
     
 
@@ -5170,7 +5183,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T10:44:18Z</dc:date>
         <oboInOwl:hasExactSynonym>VCR</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vestibulocollic reflex</rdfs:label>
+        <rdfs:label>vestibulocollic reflex</rdfs:label>
     </owl:Class>
     
 
@@ -5184,7 +5197,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T10:52:19Z</dc:date>
         <oboInOwl:hasExactSynonym>vibrissa reflex</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vibrissae reflex</rdfs:label>
+        <rdfs:label>vibrissae reflex</rdfs:label>
     </owl:Class>
     
 
@@ -5200,7 +5213,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasExactSynonym>hindlimb extension reflex</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>limb clasping</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>limb grasping</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clutching reflex</rdfs:label>
+        <rdfs:label>clutching reflex</rdfs:label>
     </owl:Class>
     
 
@@ -5215,7 +5228,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <dc:date>2011-04-14T11:08:01Z</dc:date>
         <oboInOwl:xref>HP:0002179</oboInOwl:xref>
         <oboInOwl:xref>MP:0002880</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opisthotonus</rdfs:label>
+        <rdfs:label>opisthotonus</rdfs:label>
     </owl:Class>
     
 
@@ -5228,7 +5241,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T11:09:10Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tetanic spasm</rdfs:label>
+        <rdfs:label>tetanic spasm</rdfs:label>
     </owl:Class>
     
 
@@ -5241,7 +5254,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T11:10:55Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spasm</rdfs:label>
+        <rdfs:label>spasm</rdfs:label>
     </owl:Class>
     
 
@@ -5259,7 +5272,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasExactSynonym>trembling</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0001337</oboInOwl:xref>
         <oboInOwl:xref>MP:0000745</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tremor</rdfs:label>
+        <rdfs:label>tremor</rdfs:label>
     </owl:Class>
     
 
@@ -5290,7 +5303,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <dc:date>2011-04-14T11:25:59Z</dc:date>
         <oboInOwl:xref>HP:0001251</oboInOwl:xref>
         <oboInOwl:xref>MP:0001393</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ataxia</rdfs:label>
+        <rdfs:label>ataxia</rdfs:label>
     </owl:Class>
     
 
@@ -5319,7 +5332,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T11:32:30Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor coordination phenotype</rdfs:label>
+        <rdfs:label>motor coordination phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -5334,7 +5347,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <dc:date>2011-04-14T01:24:20Z</dc:date>
         <oboInOwl:xref>HP:0001332</oboInOwl:xref>
         <oboInOwl:xref>MP:0005323</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dystonia</rdfs:label>
+        <rdfs:label>dystonia</rdfs:label>
     </owl:Class>
     
 
@@ -5347,7 +5360,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:43:30Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long-term spatial memory</rdfs:label>
+        <rdfs:label>long-term spatial memory</rdfs:label>
     </owl:Class>
     
 
@@ -5376,7 +5389,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T03:07:16Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emotional behavior phenotype</rdfs:label>
+        <rdfs:label>emotional behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -5392,7 +5405,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasExactSynonym>impassivity</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>perfunctoriness</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0000741</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apathy</rdfs:label>
+        <rdfs:label>apathy</rdfs:label>
     </owl:Class>
     
 
@@ -5406,7 +5419,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T03:20:48Z</dc:date>
         <oboInOwl:xref>HP:0000746</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delusion</rdfs:label>
+        <rdfs:label>delusion</rdfs:label>
     </owl:Class>
     
 
@@ -5419,7 +5432,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T03:33:25Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social inhibition</rdfs:label>
+        <rdfs:label>social inhibition</rdfs:label>
     </owl:Class>
     
 
@@ -5432,7 +5445,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T03:34:29Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sexual inhibition</rdfs:label>
+        <rdfs:label>sexual inhibition</rdfs:label>
     </owl:Class>
     
 
@@ -5464,7 +5477,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasExactSynonym>pathological forgetting</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>retention loss</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0000747</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forgetfulness</rdfs:label>
+        <rdfs:label>forgetfulness</rdfs:label>
     </owl:Class>
     
 
@@ -5477,7 +5490,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T03:51:13Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cognitive behavior</rdfs:label>
+        <rdfs:label>cognitive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -5491,7 +5504,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T03:52:31Z</dc:date>
         <oboInOwl:xref>HP:0000738</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hallucination</rdfs:label>
+        <rdfs:label>hallucination</rdfs:label>
     </owl:Class>
     
 
@@ -5523,7 +5536,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <dc:date>2011-04-14T03:54:02Z</dc:date>
         <oboInOwl:hasExactSynonym>paracusia</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0008765</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual hallucination</rdfs:label>
+        <rdfs:label>visual hallucination</rdfs:label>
     </owl:Class>
     
 
@@ -5554,7 +5567,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T03:56:24Z</dc:date>
         <oboInOwl:xref>HP:0002367</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auditory hallucination</rdfs:label>
+        <rdfs:label>auditory hallucination</rdfs:label>
     </owl:Class>
     
 
@@ -5585,7 +5598,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T03:58:15Z</dc:date>
         <oboInOwl:hasExactSynonym>phantosmia</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olfactory hallucination</rdfs:label>
+        <rdfs:label>olfactory hallucination</rdfs:label>
     </owl:Class>
     
 
@@ -5599,8 +5612,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T04:39:42Z</dc:date>
         <oboInOwl:hasExactSynonym>communicating</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signal exchange</oboInOwl:hasNarrowSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">communication behavior</rdfs:label>
+        <oboInOwl:hasNarrowSynonym>signal exchange</oboInOwl:hasNarrowSynonym>
+        <rdfs:label>communication behavior</rdfs:label>
     </owl:Class>
     
 
@@ -5615,7 +5628,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <dc:date>2011-04-14T04:40:59Z</dc:date>
         <oboInOwl:hasExactSynonym>non-verbal communication behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>nonverbal communication behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nonverbal communication behavior</rdfs:label>
+        <rdfs:label>nonverbal communication behavior</rdfs:label>
     </owl:Class>
     
 
@@ -5628,7 +5641,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T04:46:09Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eye contact</rdfs:label>
+        <rdfs:label>eye contact</rdfs:label>
     </owl:Class>
     
 
@@ -5640,7 +5653,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T04:51:05Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laughing behavior</rdfs:label>
+        <rdfs:label>laughing behavior</rdfs:label>
     </owl:Class>
     
 
@@ -5653,7 +5666,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T04:57:19Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavior stemming from insight</rdfs:label>
+        <rdfs:label>behavior stemming from insight</rdfs:label>
     </owl:Class>
     
 
@@ -5666,7 +5679,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T05:00:59Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">frustration behavior</rdfs:label>
+        <rdfs:label>frustration behavior</rdfs:label>
     </owl:Class>
     
 
@@ -5680,7 +5693,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T05:06:03Z</dc:date>
         <oboInOwl:xref>HP:0002300</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">selective mutism</rdfs:label>
+        <rdfs:label>selective mutism</rdfs:label>
     </owl:Class>
     
 
@@ -5694,7 +5707,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T05:20:29Z</dc:date>
         <oboInOwl:xref>HP:0010529</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">echolalia</rdfs:label>
+        <rdfs:label>echolalia</rdfs:label>
     </owl:Class>
     
 
@@ -5707,7 +5720,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-19T03:36:00Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">avoidance behavior</rdfs:label>
+        <rdfs:label>avoidance behavior</rdfs:label>
     </owl:Class>
     
 
@@ -5722,7 +5735,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <dc:date>2011-04-19T03:49:55Z</dc:date>
         <oboInOwl:hasExactSynonym>defense</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>defensive behaviour</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protective behavior</rdfs:label>
+        <rdfs:label>protective behavior</rdfs:label>
     </owl:Class>
     
 
@@ -5734,7 +5747,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-05-06T03:56:31Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">discrimination learning</rdfs:label>
+        <rdfs:label>discrimination learning</rdfs:label>
     </owl:Class>
     
 
@@ -5749,7 +5762,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <dc:date>2011-05-27T11:42:33Z</dc:date>
         <oboInOwl:hasExactSynonym>unprovoked seizure</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0001275</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epilepsy</rdfs:label>
+        <rdfs:label>epilepsy</rdfs:label>
     </owl:Class>
     
 
@@ -5778,7 +5791,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-05-27T11:56:52Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">involuntary movement behavior phenotype</rdfs:label>
+        <rdfs:label>involuntary movement behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -5807,7 +5820,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-05-27T11:57:12Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">voluntary movement behavior phenotype</rdfs:label>
+        <rdfs:label>voluntary movement behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -5824,7 +5837,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasExactSynonym>localized seizure</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0007359</oboInOwl:xref>
         <rdfs:comment>Partial seizures begin with an electrical discharge in one limited area of the brain.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial seizure</rdfs:label>
+        <rdfs:label>partial seizure</rdfs:label>
     </owl:Class>
     
 
@@ -5839,7 +5852,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <dc:date>2011-05-27T12:51:40Z</dc:date>
         <oboInOwl:xref>HP:0002349</oboInOwl:xref>
         <rdfs:comment>Depending on the area of cerebral cortex involved, symptoms may be motor, cognitive, sensory, autonomic, or affective. Consciousness is not impaired.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simple partial seizure</rdfs:label>
+        <rdfs:label>simple partial seizure</rdfs:label>
     </owl:Class>
     
 
@@ -5856,7 +5869,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasExactSynonym>temporal lobe seizure</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0002384</oboInOwl:xref>
         <oboInOwl:xref>MP:0002195</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complex partial seizure</rdfs:label>
+        <rdfs:label>complex partial seizure</rdfs:label>
     </owl:Class>
     
 
@@ -5872,7 +5885,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasExactSynonym>focal clonic seizure</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>motor seizure</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0002266</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simple partial seizure with motor signs</rdfs:label>
+        <rdfs:label>simple partial seizure with motor signs</rdfs:label>
     </owl:Class>
     
 
@@ -5901,7 +5914,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-05-27T03:06:17Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sensation behavior phenotype</rdfs:label>
+        <rdfs:label>sensation behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -5930,7 +5943,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-05-27T03:20:39Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">somatic sensation related behavior phenotype</rdfs:label>
+        <rdfs:label>somatic sensation related behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -5958,7 +5971,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-05-27T03:21:20Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cutaneous sensation behavior phenotype</rdfs:label>
+        <rdfs:label>cutaneous sensation behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -5987,7 +6000,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-05-27T03:22:16Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auditory behavior phenotype</rdfs:label>
+        <rdfs:label>auditory behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -6017,7 +6030,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-05-27T03:22:59Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual behavior phenotype</rdfs:label>
+        <rdfs:label>visual behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -6046,7 +6059,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-05-27T03:26:33Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemosensory behavior phenotype</rdfs:label>
+        <rdfs:label>chemosensory behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -6075,7 +6088,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-05-27T03:28:54Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olfactory behavior phenotype</rdfs:label>
+        <rdfs:label>olfactory behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -6091,7 +6104,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasExactSynonym>primarily generalized seizure</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0002197</oboInOwl:xref>
         <rdfs:comment>Primary generalized seizures begin with a widespread electrical discharge that involves both sides of the brain at once.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">generalized seizure</rdfs:label>
+        <rdfs:label>generalized seizure</rdfs:label>
     </owl:Class>
     
 
@@ -6104,7 +6117,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-05-27T03:49:54Z</dc:date>
         <oboInOwl:xref>HP:0007334</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial seizure evolving to secondarily generalized seizure</rdfs:label>
+        <rdfs:label>partial seizure evolving to secondarily generalized seizure</rdfs:label>
     </owl:Class>
     
 
@@ -6120,7 +6133,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasExactSynonym>petit mal seizure</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0002121</oboInOwl:xref>
         <oboInOwl:xref>MP:0003216</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">absence seizures</rdfs:label>
+        <rdfs:label>absence seizures</rdfs:label>
     </owl:Class>
     
 
@@ -6137,7 +6150,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasExactSynonym>drop attack</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>drop seizure</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0010819</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atonic seizure</rdfs:label>
+        <rdfs:label>atonic seizure</rdfs:label>
     </owl:Class>
     
 
@@ -6155,7 +6168,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:xref>HP:0002123</oboInOwl:xref>
         <oboInOwl:xref>MP:0000243</oboInOwl:xref>
         <rdfs:comment>Symmetric jerking of the extremities.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myoclonic seizure</rdfs:label>
+        <rdfs:label>myoclonic seizure</rdfs:label>
     </owl:Class>
     
 
@@ -6173,7 +6186,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:xref>HP:0002069</oboInOwl:xref>
         <oboInOwl:xref>MP:0003997</oboInOwl:xref>
         <rdfs:comment>The seizures are divided into two phases, the tonic phase and the clonic phase, hence the name of the seizure, though a tonic clonic seizure will often be preceded by an aura.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tonic clonic seizure</rdfs:label>
+        <rdfs:label>tonic clonic seizure</rdfs:label>
     </owl:Class>
     
 
@@ -6188,7 +6201,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <dc:date>2011-05-27T05:09:15Z</dc:date>
         <oboInOwl:xref>HP:0010818</oboInOwl:xref>
         <oboInOwl:xref>MP:0002826</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tonic seizure</rdfs:label>
+        <rdfs:label>tonic seizure</rdfs:label>
     </owl:Class>
     
 
@@ -6204,7 +6217,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasExactSynonym>febrile convulsion</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>fever fit</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0002373</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">febrile seizure</rdfs:label>
+        <rdfs:label>febrile seizure</rdfs:label>
     </owl:Class>
     
 
@@ -6218,7 +6231,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-05-27T05:47:13Z</dc:date>
         <oboInOwl:hasExactSynonym>non-epileptic seizure</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">provoked seizure</rdfs:label>
+        <rdfs:label>provoked seizure</rdfs:label>
     </owl:Class>
     
 
@@ -6232,7 +6245,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-05-27T05:59:47Z</dc:date>
         <oboInOwl:xref>HP:0002133</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">status epilepticus</rdfs:label>
+        <rdfs:label>status epilepticus</rdfs:label>
     </owl:Class>
     
 
@@ -6246,7 +6259,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-05-28T11:59:31Z</dc:date>
         <oboInOwl:xref>HP:0007270</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atypical absence seizure</rdfs:label>
+        <rdfs:label>atypical absence seizure</rdfs:label>
     </owl:Class>
     
 
@@ -6259,7 +6272,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-05-28T12:32:11Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug induced seizure</rdfs:label>
+        <rdfs:label>drug induced seizure</rdfs:label>
     </owl:Class>
     
 
@@ -6273,7 +6286,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-05-28T12:35:56Z</dc:date>
         <oboInOwl:xref>HP:0002173</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypoglycemia induced seizure</rdfs:label>
+        <rdfs:label>hypoglycemia induced seizure</rdfs:label>
     </owl:Class>
     
 
@@ -6286,7 +6299,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-05-28T01:42:36Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electrical stimulation induced seizure</rdfs:label>
+        <rdfs:label>electrical stimulation induced seizure</rdfs:label>
     </owl:Class>
     
 
@@ -6299,7 +6312,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-05-28T03:46:52Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kindling induced seizure</rdfs:label>
+        <rdfs:label>kindling induced seizure</rdfs:label>
     </owl:Class>
     
 
@@ -6312,7 +6325,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-05-28T03:50:30Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electrical kindling induced seizure</rdfs:label>
+        <rdfs:label>electrical kindling induced seizure</rdfs:label>
     </owl:Class>
     
 
@@ -6327,7 +6340,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <dc:date>2011-05-28T05:51:10Z</dc:date>
         <oboInOwl:hasExactSynonym>unilateral clonic seizure</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0006813</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemiclonic seizure</rdfs:label>
+        <rdfs:label>hemiclonic seizure</rdfs:label>
     </owl:Class>
     
 
@@ -6350,7 +6363,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasExactSynonym>jackknife convulsions</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0002391</oboInOwl:xref>
         <oboInOwl:xref>HP:0011097</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infantile spasm</rdfs:label>
+        <rdfs:label>infantile spasm</rdfs:label>
     </owl:Class>
     
 
@@ -6364,7 +6377,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-05-28T08:04:53Z</dc:date>
         <oboInOwl:xref>HP:0002199</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypocalcemia induced seizure</rdfs:label>
+        <rdfs:label>hypocalcemia induced seizure</rdfs:label>
     </owl:Class>
     
 
@@ -6378,7 +6391,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-05-28T08:34:10Z</dc:date>
         <oboInOwl:xref>HP:0001327</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">photostimulation induced seizure</rdfs:label>
+        <rdfs:label>photostimulation induced seizure</rdfs:label>
     </owl:Class>
     
 
@@ -6393,7 +6406,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <dc:date>2011-05-28T11:12:42Z</dc:date>
         <oboInOwl:hasExactSynonym>gelastic seizure</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0010821</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gelastic epilepsy</rdfs:label>
+        <rdfs:label>gelastic epilepsy</rdfs:label>
     </owl:Class>
     
 
@@ -6408,7 +6421,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <dc:date>2011-05-28T11:18:45Z</dc:date>
         <oboInOwl:hasExactSynonym>dacrystic seizure</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0010820</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dacrystic epilepsy</rdfs:label>
+        <rdfs:label>dacrystic epilepsy</rdfs:label>
     </owl:Class>
     
 
@@ -6420,7 +6433,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-02-16T01:16:13Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior by intent</rdfs:label>
+        <rdfs:label>aggressive behavior by intent</rdfs:label>
     </owl:Class>
     
 
@@ -6432,7 +6445,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-02-16T01:16:31Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior by means</rdfs:label>
+        <rdfs:label>aggressive behavior by means</rdfs:label>
     </owl:Class>
     
 
@@ -6446,7 +6459,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-02-16T02:27:08Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social aggression behavior</rdfs:label>
+        <rdfs:label>social aggression behavior</rdfs:label>
     </owl:Class>
     
 
@@ -6475,7 +6488,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-16T05:57:42Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial perception</rdfs:label>
+        <rdfs:label>spatial perception</rdfs:label>
     </owl:Class>
     
 
@@ -6487,7 +6500,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-17T09:51:17Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jaw movement</rdfs:label>
+        <rdfs:label>jaw movement</rdfs:label>
     </owl:Class>
     
 
@@ -6499,7 +6512,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-17T09:53:29Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blinking</rdfs:label>
+        <rdfs:label>blinking</rdfs:label>
     </owl:Class>
     
 
@@ -6511,7 +6524,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-17T09:54:30Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eyelid movement</rdfs:label>
+        <rdfs:label>eyelid movement</rdfs:label>
     </owl:Class>
     
 
@@ -6523,7 +6536,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-16T05:23:06Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perception behavior by means</rdfs:label>
+        <rdfs:label>perception behavior by means</rdfs:label>
     </owl:Class>
     
 
@@ -6552,7 +6565,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-17T03:59:12Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electrical nociceptive behavior</rdfs:label>
+        <rdfs:label>electrical nociceptive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -6582,7 +6595,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-19T11:08:01Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rapid eye movement sleep phenotype</rdfs:label>
+        <rdfs:label>rapid eye movement sleep phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -6611,7 +6624,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-19T02:08:56Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproductive behavior phenotype</rdfs:label>
+        <rdfs:label>reproductive behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -6640,7 +6653,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-19T02:10:16Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mating behavior phenotype</rdfs:label>
+        <rdfs:label>mating behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -6669,7 +6682,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-19T02:10:54Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sexual activity phenotype</rdfs:label>
+        <rdfs:label>sexual activity phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -6698,7 +6711,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-19T02:22:41Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">copulation phenotype</rdfs:label>
+        <rdfs:label>copulation phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -6727,7 +6740,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-19T02:23:03Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male sexual activity phenotype</rdfs:label>
+        <rdfs:label>male sexual activity phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -6756,7 +6769,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-19T02:33:56Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">learning and/or memory behavior phenotype</rdfs:label>
+        <rdfs:label>learning and/or memory behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -6785,7 +6798,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-19T02:34:12Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">learning behavior phenotype</rdfs:label>
+        <rdfs:label>learning behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -6814,7 +6827,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-19T02:34:26Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory behavior behavior</rdfs:label>
+        <rdfs:label>memory behavior behavior</rdfs:label>
     </owl:Class>
     
 
@@ -6842,7 +6855,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-19T03:46:31Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emission behavior phenotype</rdfs:label>
+        <rdfs:label>emission behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -6871,7 +6884,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-19T03:46:55Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral control of excretion phenotype</rdfs:label>
+        <rdfs:label>behavioral control of excretion phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -6900,7 +6913,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-19T03:47:09Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral control of defecation phenotype</rdfs:label>
+        <rdfs:label>behavioral control of defecation phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -6929,7 +6942,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-19T03:48:16Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral control of urination phenotype</rdfs:label>
+        <rdfs:label>behavioral control of urination phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -6957,7 +6970,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-20T05:24:59Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral control of production of sound phenotype</rdfs:label>
+        <rdfs:label>behavioral control of production of sound phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -6985,7 +6998,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-20T05:25:03Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral control of external secretion phenotype</rdfs:label>
+        <rdfs:label>behavioral control of external secretion phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -7014,7 +7027,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-20T05:28:58Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral control of lacrimation phenotype</rdfs:label>
+        <rdfs:label>behavioral control of lacrimation phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -7043,7 +7056,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-20T05:34:04Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vocalization behavior phenotype</rdfs:label>
+        <rdfs:label>vocalization behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -7072,7 +7085,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:created_by>gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2012-03-23T10:05:56Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emotional conditioning</rdfs:label>
+        <rdfs:label>emotional conditioning</rdfs:label>
     </owl:Class>
     
 
@@ -7412,7 +7425,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
         <nbo:IAO_0000115>&quot;Behavior related to the intake of substances.&quot; [NBOC:GVG]</nbo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
-        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingest</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>ingest</oboInOwl:hasBroadSynonym>
         <rdfs:label xml:lang="en">consumption behavior</rdfs:label>
     </owl:Class>
     
@@ -7860,7 +7873,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
         <nbo:IAO_0000115 xml:lang="en">Behavior in which one animal causes the death of another.</nbo:IAO_0000115>
-        <nbo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</nbo:created_by>
+        <nbo:created_by>Luke Slater</nbo:created_by>
         <oboInOwl:hasExactSynonym xml:lang="en">killing</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">kill</rdfs:label>
     </owl:Class>
@@ -7872,7 +7885,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
         <nbo:IAO_0000115 xml:lang="en">Agonistic behavior involving direct physical contact including (but not limited to) biting, kicking, grabbing.</nbo:IAO_0000115>
-        <nbo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</nbo:created_by>
+        <nbo:created_by>Luke Slater</nbo:created_by>
         <rdfs:label xml:lang="en">contact aggression</rdfs:label>
     </owl:Class>
     
@@ -7883,7 +7896,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020063">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
         <nbo:IAO_0000115 xml:lang="en">Forcible alteration of behavior of one animal by another.</nbo:IAO_0000115>
-        <nbo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</nbo:created_by>
+        <nbo:created_by>Luke Slater</nbo:created_by>
         <rdfs:label xml:lang="en">coercion</rdfs:label>
     </owl:Class>
     
@@ -7894,7 +7907,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020084">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000010"/>
         <nbo:IAO_0000115 xml:lang="en">Active search for possible mates.</nbo:IAO_0000115>
-        <nbo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</nbo:created_by>
+        <nbo:created_by>Luke Slater</nbo:created_by>
         <rdfs:label xml:lang="en">mate finding behavior</rdfs:label>
     </owl:Class>
     
@@ -7905,7 +7918,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
         <nbo:IAO_0000115 xml:lang="en">A behavior on the part of one individual associated with evaluating the fighting ability or correlates of fighting ability of a potential opponent.</nbo:IAO_0000115>
-        <nbo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</nbo:created_by>
+        <nbo:created_by>Luke Slater</nbo:created_by>
         <rdfs:label xml:lang="en">assessment behavior</rdfs:label>
     </owl:Class>
     
@@ -7916,7 +7929,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
         <nbo:IAO_0000115 xml:lang="en">Behavior that signifies hostility and predicts an increased probability of attack.</nbo:IAO_0000115>
-        <nbo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</nbo:created_by>
+        <nbo:created_by>Luke Slater</nbo:created_by>
         <rdfs:label xml:lang="en">threat</rdfs:label>
     </owl:Class>
     
@@ -7927,7 +7940,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020111">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
         <nbo:IAO_0000115 xml:lang="en">Behavior in which one animal causes bodily damage to another.</nbo:IAO_0000115>
-        <nbo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</nbo:created_by>
+        <nbo:created_by>Luke Slater</nbo:created_by>
         <oboInOwl:hasExactSynonym xml:lang="en">injuring</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">injure</rdfs:label>
     </owl:Class>
@@ -7939,7 +7952,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020112">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
         <nbo:IAO_0000115 xml:lang="en">Carrying or manipulation of infants or equivalent items to reduce chances of aggression on carrier by other animals.</nbo:IAO_0000115>
-        <nbo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</nbo:created_by>
+        <nbo:created_by>Luke Slater</nbo:created_by>
         <rdfs:label xml:lang="en">agonistic buffering</rdfs:label>
     </owl:Class>
     
@@ -7950,7 +7963,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020141">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
         <nbo:IAO_0000115 xml:lang="en">Chasing of one animal by another during an agonistic conflict.</nbo:IAO_0000115>
-        <nbo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</nbo:created_by>
+        <nbo:created_by>Luke Slater</nbo:created_by>
         <rdfs:label xml:lang="en">agonistic chase</rdfs:label>
     </owl:Class>
     
@@ -7963,7 +7976,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000470"/>
         <nbo:IAO_0000115 xml:lang="en">Alarm behavior triggered by agonistic actions or postures</nbo:IAO_0000115>
         <nbo:IAO_0000115 xml:lang="en">Alarm behavior triggered by agonistic actions or postures.</nbo:IAO_0000115>
-        <nbo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</nbo:created_by>
+        <nbo:created_by>Luke Slater</nbo:created_by>
         <rdfs:label xml:lang="en">agonistic alarm</rdfs:label>
     </owl:Class>
     
@@ -7974,7 +7987,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020182">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
         <nbo:IAO_0000115 xml:lang="en">Increasing intensity of directed agonistic behavior.</nbo:IAO_0000115>
-        <nbo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</nbo:created_by>
+        <nbo:created_by>Luke Slater</nbo:created_by>
         <rdfs:label xml:lang="en">escalation</rdfs:label>
     </owl:Class>
     
@@ -7985,7 +7998,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020220">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
         <nbo:IAO_0000115 xml:lang="en">Behavior that serves to exlude an animal from a group.</nbo:IAO_0000115>
-        <nbo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</nbo:created_by>
+        <nbo:created_by>Luke Slater</nbo:created_by>
         <rdfs:label xml:lang="en">exclusion</rdfs:label>
     </owl:Class>
     
@@ -7996,7 +8009,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020239">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
         <nbo:IAO_0000115 xml:lang="en">Display behavior by the winner of a prior agonistic contest.</nbo:IAO_0000115>
-        <nbo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</nbo:created_by>
+        <nbo:created_by>Luke Slater</nbo:created_by>
         <rdfs:label xml:lang="en">triumph</rdfs:label>
     </owl:Class>
     
@@ -8007,7 +8020,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020254">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000010"/>
         <nbo:IAO_0000115 xml:lang="en">Any of several behaviors directed towards one animal unwilling to mate by another eager to do so.</nbo:IAO_0000115>
-        <nbo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</nbo:created_by>
+        <nbo:created_by>Luke Slater</nbo:created_by>
         <rdfs:label xml:lang="en">sexual harassment</rdfs:label>
     </owl:Class>
     
@@ -8018,7 +8031,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020255">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
         <nbo:IAO_0000115 xml:lang="en">An acitvity that seems irrelevant to its behavioral context to a human observer and often occurs when its performer is in a conflict situation.</nbo:IAO_0000115>
-        <nbo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</nbo:created_by>
+        <nbo:created_by>Luke Slater</nbo:created_by>
         <rdfs:label xml:lang="en">displacement behavior</rdfs:label>
     </owl:Class>
     
@@ -8029,7 +8042,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020279">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
         <nbo:IAO_0000115 xml:lang="en">Behaviors that appear to signifiy lack of hostility and to reduce chances of attack.</nbo:IAO_0000115>
-        <nbo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</nbo:created_by>
+        <nbo:created_by>Luke Slater</nbo:created_by>
         <rdfs:label xml:lang="en">appeasement</rdfs:label>
     </owl:Class>
     
@@ -8040,7 +8053,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020298">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000010"/>
         <nbo:IAO_0000115 xml:lang="en">Usually interference by members of one sex in the completion of courtship or mating activities by one or more members of the same sex.</nbo:IAO_0000115>
-        <nbo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</nbo:created_by>
+        <nbo:created_by>Luke Slater</nbo:created_by>
         <rdfs:label xml:lang="en">sexual interference</rdfs:label>
     </owl:Class>
     
@@ -8051,7 +8064,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020299">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000010"/>
         <nbo:IAO_0000115 xml:lang="en">Behavior associated with refusing courtship or solicitation behaviors by avoidance, retreat, or other active repulsion of suitor.</nbo:IAO_0000115>
-        <nbo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</nbo:created_by>
+        <nbo:created_by>Luke Slater</nbo:created_by>
         <rdfs:label xml:lang="en">mate rejection</rdfs:label>
     </owl:Class>
     

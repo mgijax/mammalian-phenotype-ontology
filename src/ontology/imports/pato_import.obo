@@ -1,5 +1,15 @@
 format-version: 1.2
-data-version: mp/releases/2019-07-09/imports/pato_import.owl
+data-version: mp/releases/2019-09-16/imports/pato_import.owl
+subsetdef: abnormal_slim "Abnormal/normal slim"
+subsetdef: absent_slim "Absent/present slim"
+subsetdef: attribute_slim "Attribute slim"
+subsetdef: cell_quality "cell_quality"
+subsetdef: disposition_slim "Disposition slim"
+subsetdef: hpo_slim "Human phenotype slim"
+subsetdef: mpath_slim "Pathology slim"
+subsetdef: relational_slim "Relational slim: types of quality that require an additional entity in order to exist"
+subsetdef: scalar_slim "Scalar slim"
+subsetdef: value_slim "Value slim"
 ontology: mp/imports/pato_import
 
 [Term]
@@ -8,7 +18,6 @@ name: quality
 namespace: quality
 alt_id: PATO:0000072
 def: "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities" [PATOC:GVG]
-synonym: "trait" EXACT []
 
 [Term]
 id: PATO:0000004
@@ -49,6 +58,7 @@ def: "A composite chromatic quality composed of hue, saturation and intensity pa
 subset: attribute_slim
 synonym: "colour" EXACT []
 synonym: "relative color" EXACT []
+is_a: PATO:0000051 ! morphology
 is_a: PATO:0001300 ! optical quality
 
 [Term]
@@ -150,7 +160,7 @@ namespace: quality
 def: "A physical quality which inheres in a bearer by virtue of the number of the bearer's repetitive actions in a particular time." [Wikipedia:http\://en.wikipedia.org/wiki/frequency]
 subset: attribute_slim
 subset: scalar_slim
-is_a: PATO:0000161 ! rate
+is_a: PATO:0050000 ! rate of occurence
 
 [Term]
 id: PATO:0000047
@@ -231,7 +241,7 @@ subset: attribute_slim
 subset: hpo_slim
 synonym: "distribution" EXACT []
 synonym: "pattern" RELATED []
-is_a: PATO:0000140 ! position
+is_a: PATO:0000051 ! morphology
 
 [Term]
 id: PATO:0000062
@@ -276,7 +286,6 @@ alt_id: PATO:0001226
 def: "The number of entities of this type that are part of the whole organism." [PATOC:GVG]
 comment: This term was originally named "presence". It has been renamed to reduce ambiguity. Consider annotating with the reciprocal relation,PATO:0001555, has_number_of. For example, rather than E=fin ray Q=count in organism C=10, say E=organism Q=has number of E2= fin ray C=10.
 subset: attribute_slim
-synonym: "count" EXACT []
 synonym: "count in organism" RELATED []
 synonym: "number" RELATED []
 synonym: "presence" RELATED []
@@ -1123,7 +1132,7 @@ subset: abnormal_slim
 subset: mpath_slim
 subset: value_slim
 synonym: "average" RELATED []
-is_a: PATO:0000069 ! deviation(from_normal)
+is_a: PATO:0000068 ! qualitative
 relationship: is_opposite_of PATO:0000460 ! abnormal
 
 [Term]
@@ -2440,6 +2449,7 @@ def: "A optical quality inhering in a bearer by virtue of the bearer's lacking o
 subset: mpath_slim
 subset: value_slim
 synonym: "clear" EXACT []
+synonym: "hyaline" EXACT []
 is_a: PATO:0000957 ! opacity
 relationship: is_opposite_of PATO:0000963 ! opaque
 
@@ -3290,7 +3300,7 @@ def: "A length quality which is equal to the length of any straight line segment
 subset: attribute_slim
 subset: mpath_slim
 subset: scalar_slim
-is_a: PATO:0000122 ! length
+is_a: PATO:0001708 ! 1-D extent
 
 [Term]
 id: PATO:0001340
@@ -4141,7 +4151,7 @@ namespace: quality
 comment: This term will be obsoleted; Use GO:growth and PATO:rate.
 subset: attribute_slim
 subset: scalar_slim
-is_a: PATO:0000161 ! rate
+is_a: PATO:0050001 ! rate of continuous process
 
 [Term]
 id: PATO:0001493
@@ -4513,6 +4523,7 @@ synonym: "number" RELATED []
 synonym: "number of" EXACT []
 xref: OBO_REL:has_part
 is_a: PATO:0001241 ! physical object quality
+relationship: reciprocal_of PATO:0000070 ! amount
 
 [Term]
 id: PATO:0001558
@@ -4522,6 +4533,7 @@ def: "A quality of a process inhering in a bearer by virtue of the bearer's lack
 subset: relational_slim
 subset: value_slim
 is_a: PATO:0001564 ! extra or missing processual parts
+relationship: reciprocal_of PATO:0000462 ! absent
 
 [Term]
 id: PATO:0001559
@@ -4701,7 +4713,7 @@ relationship: is_opposite_of PATO:0001577 ! increased permeability
 id: PATO:0001579
 name: contractility
 namespace: quality
-def: "A physical quality inhering in a bearer by virtue of the bearer's disposition to shrink or contract." [WordNet:WordNet]
+def: "A physical quality that is the ability to contract or shrink." [WordNet:WordNet]
 subset: attribute_slim
 subset: disposition_slim
 subset: scalar_slim
@@ -5811,7 +5823,7 @@ namespace: quality
 def: "An 1-D extent quality inhering in two-dimensional bearer by virtue of being equal to the distance around it." [Wikipedia:http\://en.wikipedia.org/wiki/Perimeter]
 subset: attribute_slim
 subset: scalar_slim
-is_a: PATO:0000122 ! length
+is_a: PATO:0001708 ! 1-D extent
 
 [Term]
 id: PATO:0001712
@@ -7228,6 +7240,7 @@ def: "The bearer of this quality has_part = n, where n is the normal amount for 
 subset: relational_slim
 synonym: "having physical part" EXACT []
 is_a: PATO:0001555 ! has number of
+relationship: reciprocal_of PATO:0002050 ! normal amount
 
 [Term]
 id: PATO:0001906
@@ -7696,6 +7709,7 @@ subset: relational_slim
 synonym: "lacks all physical parts of type" EXACT []
 xref: OBO_REL:lacks_part
 is_a: PATO:0001999 ! lacks parts or has fewer parts of type
+relationship: reciprocal_of PATO:0000462 ! absent
 
 [Term]
 id: PATO:0002001
@@ -8523,7 +8537,7 @@ creation_date: 2009-10-05T01:27:56Z
 
 [Term]
 id: PATO:0002104
-name: inflammatory
+name: inflamed
 namespace: quality
 def: "A compositional quality inhering in an bearer by virtue of the bearer's infiltration by leukocytes, local edema and accumulation of plasma proteins." [PATOC:GVG]
 subset: mpath_slim
@@ -10396,6 +10410,20 @@ namespace: quality
 def: "A malformed quality inhering in a bearer by virtue of the bearer's gross morphology containing what are normally ventral structures and missing some or all of what are normally dorsal structures." [PATOC:EJS]
 is_a: PATO:0000646 ! malformed
 created_by: segerdel
+
+[Term]
+id: PATO:0050000
+name: rate of occurence
+namespace: quality
+def: "The number of repeated events per unit time, occurring in a repeating series. (e.g. the number of heart beats occurring over 1 minute)" [https://orcid.org/0000-0002-9943-9018]
+is_a: PATO:0000161 ! rate
+
+[Term]
+id: PATO:0050001
+name: rate of continuous process
+namespace: quality
+def: "The rate of output of a continuous process. Example include: growth rate, cell migration rate, enzyme reaction rate." [https://orcid.org/0000-0002-9943-9018]
+is_a: PATO:0000161 ! rate
 
 [Typedef]
 id: correlates_with
