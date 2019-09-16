@@ -487,6 +487,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/NBO_0000043",
       "meta" : {
+        "definition" : {
+          "val" : "A behavior that occurs between two individuals, such as parent and child, and involves an emotional attachment that implies a special and focused relationship.",
+          "xrefs" : [ "PMID:29327315" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "forming of peer relationship",
@@ -8605,13 +8609,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NBO_0000644"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NBO_0000331",
-      "pred" : "http://purl.obolibrary.org/obo/nbo#in_response_to",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0019233"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000356",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NBO_0000355"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NBO_0000331",
+      "pred" : "http://purl.obolibrary.org/obo/nbo#in_response_to",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0019233"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000586",
       "pred" : "is_a",
@@ -8833,13 +8837,13 @@
       "pred" : "http://purl.obolibrary.org/obo/nbo#by_means",
       "obj" : "http://purl.obolibrary.org/obo/NBO_0000037"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NBO_0000571",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NBO_0000020"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000546",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NBO_0000539"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NBO_0000571",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NBO_0000020"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000754",
       "pred" : "is_a",
@@ -9025,13 +9029,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NBO_0001679"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NBO_0000174",
-      "pred" : "http://purl.obolibrary.org/obo/nbo#is_about",
-      "obj" : "http://purl.obolibrary.org/obo/NBO_0000339"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000134",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NBO_0000079"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NBO_0000174",
+      "pred" : "http://purl.obolibrary.org/obo/nbo#is_about",
+      "obj" : "http://purl.obolibrary.org/obo/NBO_0000339"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000117",
       "pred" : "is_a",
@@ -9297,13 +9301,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NBO_0000355"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NBO_0000162",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NBO_0000754"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000469",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NBO_0000313"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NBO_0000162",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NBO_0000754"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000778",
       "pred" : "is_a",
@@ -9429,13 +9433,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NBO_0000003"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NBO_0000296",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NBO_0000121"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000749",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NBO_0000750"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NBO_0000296",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NBO_0000121"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000515",
       "pred" : "is_a",
@@ -9573,13 +9577,13 @@
       "pred" : "http://purl.obolibrary.org/obo/nbo#in_response_to",
       "obj" : "http://purl.obolibrary.org/obo/GO_0007606"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NBO_0001763",
-      "pred" : "http://purl.obolibrary.org/obo/nbo#in_response_to",
-      "obj" : "http://purl.obolibrary.org/obo/NBO_0000131"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000605",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NBO_0000011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NBO_0001763",
+      "pred" : "http://purl.obolibrary.org/obo/nbo#in_response_to",
+      "obj" : "http://purl.obolibrary.org/obo/NBO_0000131"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000014",
       "pred" : "is_a",
@@ -9813,13 +9817,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0050802"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NBO_0000553",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NBO_0000554"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000323",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NBO_0000322"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NBO_0000553",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NBO_0000554"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000157",
       "pred" : "is_a",
@@ -10301,13 +10305,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NBO_0000084"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NBO_0000555",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NBO_0000556"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000388",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NBO_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NBO_0000555",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NBO_0000556"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000314",
       "pred" : "is_a",
@@ -10406,7 +10410,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/mp/releases/2019-07-09/imports/nbo_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/mp/releases/2019-09-16/imports/nbo_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {

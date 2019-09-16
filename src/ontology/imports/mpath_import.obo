@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: mp/releases/2019-07-09/imports/mpath_import.owl
+data-version: mp/releases/2019-09-16/imports/mpath_import.owl
 ontology: mp/imports/mpath_import
 
 [Term]
@@ -436,7 +436,7 @@ is_a: MPATH:249 ! glioma
 id: MPATH:254
 name: complex tumor
 namespace: mouse_pathology.ontology
-def: "Tumors showing mutiple histological componants/differentiation." [Pathbase: Pathology Committee]
+def: "Tumors showing multiple histological componants/differentiation." [Pathbase: Pathology Committee]
 is_a: MPATH:218 ! neoplasm
 
 [Term]
