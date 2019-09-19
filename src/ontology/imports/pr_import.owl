@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/pr_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2019-09-16/imports/pr_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2019-09-19/imports/pr_import.owl"/>
     </owl:Ontology>
     
 
@@ -8385,55 +8385,55 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
         <owl:annotatedTarget>AAT</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
         <owl:annotatedTarget>ASAT</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
         <owl:annotatedTarget>AST</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
         <owl:annotatedTarget>AspAT</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
         <owl:annotatedTarget>SGO-T</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
         <owl:annotatedTarget>SGOT</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
         <owl:annotatedTarget>aspartate aminotransferase</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
         <owl:annotatedTarget>aspartate transaminase</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
         <owl:annotatedTarget>serum glutamic oxaloacetic transaminase</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
@@ -8452,7 +8452,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>cAST</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -38716,7 +38716,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>An immunoglobulin lambda-like polypeptide 1 that is encoded in the genome of human.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>UniProtKB:P15814</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:P15814</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>CD179 antigen-like family member B (human)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>CD179b (human)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Ig lambda-5 (human)</oboInOwl:hasExactSynonym>
@@ -38734,25 +38734,25 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An immunoglobulin lambda-like polypeptide 1 that is encoded in the genome of human.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:WCB</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UniProtKB:P15814</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:P15814</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P15814"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>CD179 antigen-like family member B (human)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>UniProtKB:P15814</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:P15814</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P15814"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>CD179b (human)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>UniProtKB:P15814</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:P15814</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P15814"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Ig lambda-5 (human)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>UniProtKB:P15814</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:P15814</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P15814"/>
@@ -38765,19 +38765,19 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P15814"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>immunoglobulin omega polypeptide (human)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>UniProtKB:P15814</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:P15814</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P15814"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>immunoglobulin-related protein 14.1 (human)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>UniProtKB:P15814</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:P15814</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P15814"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>IGL1</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>UniProtKB:P15814</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:P15814</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -38953,7 +38953,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>An erythroid transcription factor that is encoded in the genome of human.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>Reactome:R-HSA-996772</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UniProtKB:P15976</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:P15976</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>GATA-1 (human)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>GATA-binding factor 1 (human)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>NF-E1 DNA-binding protein (human)</oboInOwl:hasExactSynonym>
@@ -38971,7 +38971,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An erythroid transcription factor that is encoded in the genome of human.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UniProtKB:P15976</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:P15976</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P15976"/>
@@ -38983,19 +38983,19 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P15976"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>GATA-1 (human)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>UniProtKB:P15976</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:P15976</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P15976"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>GATA-binding factor 1 (human)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>UniProtKB:P15976</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:P15976</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P15976"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>NF-E1 DNA-binding protein (human)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>UniProtKB:P15976</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:P15976</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P15976"/>
@@ -39008,19 +39008,19 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P15976"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>ERYF1</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>UniProtKB:P15976</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:P15976</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P15976"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>GF-1 (human)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>UniProtKB:P15976</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:P15976</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P15976"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>GF1</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>UniProtKB:P15976</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:P15976</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 

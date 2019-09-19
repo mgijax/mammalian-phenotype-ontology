@@ -1,4 +1,4 @@
-SET jenkins=https://build.obolibrary.io/job/obofoundry/job/pipeline-mp/job/master/lastSuccessfulBuild/artifact/imports/
+SET jenkins=https://build.obolibrary.io/job/obofoundry/job/pipeline-mp/job/master/lastSuccessfulBuild/artifact/src/ontology/imports/
 powershell -Command "Invoke-WebRequest %jenkins%chebi_import.owl -OutFile imports\chebi_import.owl"
 powershell -Command "Invoke-WebRequest %jenkins%cl_import.owl -OutFile imports\cl_import.owl"
 powershell -Command "Invoke-WebRequest %jenkins%go_import.owl -OutFile imports\go_import.owl"
