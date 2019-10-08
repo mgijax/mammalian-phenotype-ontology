@@ -1,4 +1,5 @@
 # Source for Mammalian Phenotype Ontology
+[![Build Status](https://travis-ci.org/obophenotype/mammalian-phenotype-ontology?branch=master)](https://travis-ci.org/obophenotype/mammalian-phenotype-ontology)
 
 ## Jenkins Job
 
