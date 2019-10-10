@@ -227,654 +227,437 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0036145>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
-
-
 
 ############################
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/MP_0000249> (abnormality of blood vessel physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0000249> (<http://purl.obolibrary.org/obo/MP_0000249>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0000249> "Any functional anomaly of the blood vessel."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0000249> "abnormality of blood vessel physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0000249> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001981>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0000609> (abnormality of liver physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0000609> (<http://purl.obolibrary.org/obo/MP_0000609>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0000609> "Any functional anomaly of the liver."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0000609> "abnormality of liver physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0000609> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002107>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0001348> (abnormality of lacrimal gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0001348> (<http://purl.obolibrary.org/obo/MP_0001348>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001348> "Any functional anomaly of the lacrimal gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0001348> "abnormality of lacrimal gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0001348> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001817>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0001533> (abnormality of skeletal system physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0001533> (<http://purl.obolibrary.org/obo/MP_0001533>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001533> "Any functional anomaly of the skeletal system."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0001533> "abnormality of skeletal system physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0001533> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001434>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0001544> (abnormality of cardiovascular system physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0001544> (<http://purl.obolibrary.org/obo/MP_0001544>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001544> "Any functional anomaly of the cardiovascular system."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0001544> "abnormality of cardiovascular system physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0001544> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004535>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0001545> (abnormality of hematopoietic system physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0001545> (<http://purl.obolibrary.org/obo/MP_0001545>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001545> "Any functional anomaly of the hematopoietic system."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0001545> "abnormality of hematopoietic system physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0001545> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002390>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0001663> (abnormality of digestive system physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0001663> (<http://purl.obolibrary.org/obo/MP_0001663>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001663> "Any functional anomaly of the digestive system."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0001663> "abnormality of digestive system physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0001663> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001007>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0001790> (abnormality of immune system physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0001790> (<http://purl.obolibrary.org/obo/MP_0001790>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001790> "Any functional anomaly of the immune system."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0001790> "abnormality of immune system physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0001790> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002405>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0001881> (abnormality of mammary gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0001881> (<http://purl.obolibrary.org/obo/MP_0001881>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001881> "Any functional anomaly of the mammary gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0001881> "abnormality of mammary gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0001881> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001911>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0001908> (abnormality of parietal lobe physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0001908> (<http://purl.obolibrary.org/obo/MP_0001908>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001908> "Any functional anomaly of the parietal lobe."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0001908> "abnormality of parietal lobe physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0001908> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001872>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0001919> (abnormality of reproductive system physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0001919> (<http://purl.obolibrary.org/obo/MP_0001919>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001919> "Any functional anomaly of the reproductive system."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0001919> "abnormality of reproductive system physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0001919> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000990>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0001983> (abnormality of olfactory system physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0001983> (<http://purl.obolibrary.org/obo/MP_0001983>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001983> "Any functional anomaly of the olfactory system."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0001983> "abnormality of olfactory system physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0001983> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0005725>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0001985> (abnormality of gustatory system physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0001985> (<http://purl.obolibrary.org/obo/MP_0001985>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001985> "Any functional anomaly of the gustatory system."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0001985> "abnormality of gustatory system physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0001985> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001033>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0002106> (abnormality of muscle organ physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0002106> (<http://purl.obolibrary.org/obo/MP_0002106>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0002106> "Any functional anomaly of the muscle organ."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0002106> "abnormality of muscle organ physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0002106> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001630>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0002133> (abnormality of respiratory system physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0002133> (<http://purl.obolibrary.org/obo/MP_0002133>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0002133> "Any functional anomaly of the respiratory system."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0002133> "abnormality of respiratory system physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0002133> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001004>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0002136> (abnormality of kidney physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0002136> (<http://purl.obolibrary.org/obo/MP_0002136>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0002136> "Any functional anomaly of the kidney."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0002136> "abnormality of kidney physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0002136> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002113>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0002139> (abnormality of hepatobiliary system physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0002139> (<http://purl.obolibrary.org/obo/MP_0002139>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0002139> "Any functional anomaly of the hepatobiliary system."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0002139> "abnormality of hepatobiliary system physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0002139> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002423>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0002164> (abnormality of gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0002164> (<http://purl.obolibrary.org/obo/MP_0002164>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0002164> "Any functional anomaly of the gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0002164> "abnormality of gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0002164> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002530>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0002693> (abnormality of pancreas physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0002693> (<http://purl.obolibrary.org/obo/MP_0002693>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0002693> "Any functional anomaly of the pancreas."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0002693> "abnormality of pancreas physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0002693> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001264>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0002876> (abnormality of thyroid gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0002876> (<http://purl.obolibrary.org/obo/MP_0002876>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0002876> "Any functional anomaly of the thyroid gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0002876> "abnormality of thyroid gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0002876> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002046>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0002909> (abnormality of adrenal gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0002909> (<http://purl.obolibrary.org/obo/MP_0002909>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0002909> "Any functional anomaly of the adrenal gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0002909> "abnormality of adrenal gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0002909> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002369>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0002991> (abnormality of sebaceous gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0002991> (<http://purl.obolibrary.org/obo/MP_0002991>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0002991> "Any functional anomaly of the sebaceous gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0002991> "abnormality of sebaceous gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0002991> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001821>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0003252> (abnormality of bile duct physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0003252> (<http://purl.obolibrary.org/obo/MP_0003252>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003252> "Any functional anomaly of the bile duct."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003252> "abnormality of bile duct physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003252> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002394>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0003431> (abnormality of parathyroid gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0003431> (<http://purl.obolibrary.org/obo/MP_0003431>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003431> "Any functional anomaly of the parathyroid gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003431> "abnormality of parathyroid gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003431> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001132>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0003438> (abnormality of carotid body physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0003438> (<http://purl.obolibrary.org/obo/MP_0003438>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003438> "Any functional anomaly of the carotid body."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003438> "abnormality of carotid body physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003438> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001629>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0003507> (abnormality of ovary physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0003507> (<http://purl.obolibrary.org/obo/MP_0003507>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003507> "Any functional anomaly of the ovary."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003507> "abnormality of ovary physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003507> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000992>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0003589> (abnormality of ureter physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0003589> (<http://purl.obolibrary.org/obo/MP_0003589>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003589> "Any functional anomaly of the ureter."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003589> "abnormality of ureter physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003589> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000056>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0003607> (abnormality of prostate gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0003607> (<http://purl.obolibrary.org/obo/MP_0003607>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003607> "Any functional anomaly of the prostate gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003607> "abnormality of prostate gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003607> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002367>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0003633> (abnormality of nervous system physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0003633> (<http://purl.obolibrary.org/obo/MP_0003633>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003633> "Any functional anomaly of the nervous system."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003633> "abnormality of nervous system physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003633> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001016>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0003698> (abnormality of male reproductive system physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0003698> (<http://purl.obolibrary.org/obo/MP_0003698>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003698> "Any functional anomaly of the male reproductive system."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003698> "abnormality of male reproductive system physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003698> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000079>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0003699> (abnormality of female reproductive system physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0003699> (<http://purl.obolibrary.org/obo/MP_0003699>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003699> "Any functional anomaly of the female reproductive system."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003699> "abnormality of female reproductive system physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003699> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000474>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0003762> (abnormality of immune organ physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0003762> (<http://purl.obolibrary.org/obo/MP_0003762>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003762> "Any functional anomaly of the immune organ."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003762> "abnormality of immune organ physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003762> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0005057>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0003763> (abnormality of thymus physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0003763> (<http://purl.obolibrary.org/obo/MP_0003763>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003763> "Any functional anomaly of the thymus."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003763> "abnormality of thymus physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003763> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002370>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0003878> (abnormality of ear physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0003878> (<http://purl.obolibrary.org/obo/MP_0003878>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003878> "Any functional anomaly of the ear."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003878> "abnormality of ear physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003878> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001690>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0004183> (abnormality of sympathetic nervous system physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0004183> (<http://purl.obolibrary.org/obo/MP_0004183>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0004183> "Any functional anomaly of the sympathetic nervous system."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0004183> "abnormality of sympathetic nervous system physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0004183> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000013>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0004264> (abnormality of extraembryonic structure physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0004264> (<http://purl.obolibrary.org/obo/MP_0004264>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0004264> "Any functional anomaly of the extraembryonic structure."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0004264> "abnormality of extraembryonic structure physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0004264> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000478>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0004742> (abnormality of vestibular system physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0004742> (<http://purl.obolibrary.org/obo/MP_0004742>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0004742> "Any functional anomaly of the vestibular system."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0004742> "abnormality of vestibular system physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0004742> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004681>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0004884> (abnormality of testis physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0004884> (<http://purl.obolibrary.org/obo/MP_0004884>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0004884> "Any functional anomaly of the testis."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0004884> "abnormality of testis physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0004884> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000473>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0005085> (abnormality of gall bladder physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0005085> (<http://purl.obolibrary.org/obo/MP_0005085>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0005085> "Any functional anomaly of the gall bladder."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0005085> "abnormality of gall bladder physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0005085> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002110>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0005167> (abnormality of blood brain barrier physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0005167> (<http://purl.obolibrary.org/obo/MP_0005167>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0005167> "Any functional anomaly of the blood brain barrier."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0005167> "abnormality of blood brain barrier physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0005167> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000120>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0005253> (abnormality of camera-type eye physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0005253> (<http://purl.obolibrary.org/obo/MP_0005253>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0005253> "Any functional anomaly of the camera-type eye."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0005253> "abnormality of camera-type eye physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0005253> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000019>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0005310> (abnormality of saliva-secreting gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0005310> (<http://purl.obolibrary.org/obo/MP_0005310>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0005310> "Any functional anomaly of the saliva-secreting gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0005310> "abnormality of saliva-secreting gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0005310> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001044>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0005423> (abnormality of somatic nervous system physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0005423> (<http://purl.obolibrary.org/obo/MP_0005423>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0005423> "Any functional anomaly of the somatic nervous system."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0005423> "abnormality of somatic nervous system physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0005423> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000012>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0005501> (abnormality of zone of skin physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0005501> (<http://purl.obolibrary.org/obo/MP_0005501>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0005501> "Any functional anomaly of the zone of skin."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0005501> "abnormality of zone of skin physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0005501> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000014>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0005502> (abnormality of renal system physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0005502> (<http://purl.obolibrary.org/obo/MP_0005502>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0005502> "Any functional anomaly of the renal system."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0005502> "abnormality of renal system physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0005502> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001008>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0005595> (abnormality of blood vessel smooth muscle physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0005595> (<http://purl.obolibrary.org/obo/MP_0005595>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0005595> "Any functional anomaly of the blood vessel smooth muscle."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0005595> "abnormality of blood vessel smooth muscle physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0005595> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004237>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0005645> (abnormality of hypothalamus physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0005645> (<http://purl.obolibrary.org/obo/MP_0005645>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0005645> "Any functional anomaly of the hypothalamus."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0005645> "abnormality of hypothalamus physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0005645> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001898>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0005646> (abnormality of pituitary gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0005646> (<http://purl.obolibrary.org/obo/MP_0005646>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0005646> "Any functional anomaly of the pituitary gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0005646> "abnormality of pituitary gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0005646> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000007>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0005647> (abnormality of reproductive gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0005647> (<http://purl.obolibrary.org/obo/MP_0005647>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0005647> "Any functional anomaly of the reproductive gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0005647> "abnormality of reproductive gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0005647> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003937>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0005666> (abnormality of adipose tissue physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0005666> (<http://purl.obolibrary.org/obo/MP_0005666>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0005666> "Any functional anomaly of the adipose tissue."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0005666> "abnormality of adipose tissue physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0005666> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001013>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0005670> (abnormality of white adipose tissue physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0005670> (<http://purl.obolibrary.org/obo/MP_0005670>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0005670> "Any functional anomaly of the white adipose tissue."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0005670> "abnormality of white adipose tissue physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0005670> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001347>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0006088> (abnormality of blood-cerebrospinal fluid barrier physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0006088> (<http://purl.obolibrary.org/obo/MP_0006088>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0006088> "Any functional anomaly of the blood-cerebrospinal fluid barrier."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0006088> "abnormality of blood-cerebrospinal fluid barrier physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0006088> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003210>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0006276> (abnormality of autonomic nervous system physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0006276> (<http://purl.obolibrary.org/obo/MP_0006276>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0006276> "Any functional anomaly of the autonomic nervous system."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0006276> "abnormality of autonomic nervous system physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0006276> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002410>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0006277> (abnormality of parasympathetic nervous system physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0006277> (<http://purl.obolibrary.org/obo/MP_0006277>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0006277> "Any functional anomaly of the parasympathetic nervous system."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0006277> "abnormality of parasympathetic nervous system physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0006277> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0008737> (abnormality of spleen physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0008737> (<http://purl.obolibrary.org/obo/MP_0008737>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0008737> "Any functional anomaly of the spleen."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0008737> "abnormality of spleen physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0008737> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002106>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0008932> (abnormality of embryonic tissue physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0008932> (<http://purl.obolibrary.org/obo/MP_0008932>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0008932> "Any functional anomaly of the embryonic tissue."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0008932> "abnormality of embryonic tissue physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0008932> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0005291>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0009671> (abnormality of uterus physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0009671> (<http://purl.obolibrary.org/obo/MP_0009671>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0009671> "Any functional anomaly of the uterus."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0009671> "abnormality of uterus physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0009671> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000995>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0010038> (abnormality of placenta physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0010038> (<http://purl.obolibrary.org/obo/MP_0010038>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0010038> "Any functional anomaly of the placenta."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0010038> "abnormality of placenta physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0010038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001987>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0010147> (abnormality of endocrine pancreas physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0010147> (<http://purl.obolibrary.org/obo/MP_0010147>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0010147> "Any functional anomaly of the endocrine pancreas."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0010147> "abnormality of endocrine pancreas physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0010147> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000016>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0010148> (abnormality of exocrine pancreas physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0010148> (<http://purl.obolibrary.org/obo/MP_0010148>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0010148> "Any functional anomaly of the exocrine pancreas."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0010148> "abnormality of exocrine pancreas physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0010148> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000017>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0010154> (abnormality of gastroesophageal sphincter physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0010154> (<http://purl.obolibrary.org/obo/MP_0010154>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0010154> "Any functional anomaly of the gastroesophageal sphincter."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0010154> "abnormality of gastroesophageal sphincter physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0010154> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004550>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0010155> (abnormality of intestine physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0010155> (<http://purl.obolibrary.org/obo/MP_0010155>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0010155> "Any functional anomaly of the intestine."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0010155> "abnormality of intestine physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0010155> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000160>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0010156> (abnormality of crypt of Lieberkuhn of small intestine physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0010156> (<http://purl.obolibrary.org/obo/MP_0010156>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0010156> "Any functional anomaly of the crypt of Lieberkuhn of small intestine."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0010156> "abnormality of crypt of Lieberkuhn of small intestine physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0010156> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001241>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0010172> (abnormality of epithelium of mammary gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0010172> (<http://purl.obolibrary.org/obo/MP_0010172>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0010172> "Any functional anomaly of the epithelium of mammary gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0010172> "abnormality of epithelium of mammary gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0010172> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003244>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0010368> (abnormality of lymphatic part of lymphoid system physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0010368> (<http://purl.obolibrary.org/obo/MP_0010368>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0010368> "Any functional anomaly of the lymphatic part of lymphoid system."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0010368> "abnormality of lymphatic part of lymphoid system physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0010368> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0006558>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0010386> (abnormality of urinary bladder physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0010386> (<http://purl.obolibrary.org/obo/MP_0010386>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0010386> "Any functional anomaly of the urinary bladder."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0010386> "abnormality of urinary bladder physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0010386> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001255>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0010680> (abnormality of integumentary adnexa physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0010680> (<http://purl.obolibrary.org/obo/MP_0010680>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0010680> "Any functional anomaly of the integumentary adnexa."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0010680> "abnormality of integumentary adnexa physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0010680> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0006003>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0010746> (abnormality of pre-Botzinger complex physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0010746> (<http://purl.obolibrary.org/obo/MP_0010746>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0010746> "Any functional anomaly of the pre-Botzinger complex."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0010746> "abnormality of pre-Botzinger complex physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0010746> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0006007>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0011194> (abnormality of hair follicle physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0011194> (<http://purl.obolibrary.org/obo/MP_0011194>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0011194> "Any functional anomaly of the hair follicle."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0011194> "abnormality of hair follicle physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0011194> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002073>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0011698> (abnormality of brown adipose tissue physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0011698> (<http://purl.obolibrary.org/obo/MP_0011698>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0011698> "Any functional anomaly of the brown adipose tissue."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0011698> "abnormality of brown adipose tissue physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0011698> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001348>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0011728> (abnormality of pineal body physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0011728> (<http://purl.obolibrary.org/obo/MP_0011728>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0011728> "Any functional anomaly of the pineal body."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0011728> "abnormality of pineal body physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0011728> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001905>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0011781> (abnormality of bulbo-urethral gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0011781> (<http://purl.obolibrary.org/obo/MP_0011781>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0011781> "Any functional anomaly of the bulbo-urethral gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0011781> "abnormality of bulbo-urethral gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0011781> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002366>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0011926> (abnormality of cardial valve physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0011926> (<http://purl.obolibrary.org/obo/MP_0011926>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0011926> "Any functional anomaly of the cardial valve."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0011926> "abnormality of cardial valve physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0011926> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000946>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0012006> (abnormality of hippocampal formation physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0012006> (<http://purl.obolibrary.org/obo/MP_0012006>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0012006> "Any functional anomaly of the hippocampal formation."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0012006> "abnormality of hippocampal formation physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0012006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002421>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0012018> (abnormality of fallopian tube physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0012018> (<http://purl.obolibrary.org/obo/MP_0012018>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0012018> "Any functional anomaly of the fallopian tube."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0012018> "abnormality of fallopian tube physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0012018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003889>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0012020> (abnormality of olfactory epithelium physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0012020> (<http://purl.obolibrary.org/obo/MP_0012020>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0012020> "Any functional anomaly of the olfactory epithelium."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0012020> "abnormality of olfactory epithelium physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0012020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001997>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0012028> (abnormality of visceral endoderm physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0012028> (<http://purl.obolibrary.org/obo/MP_0012028>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0012028> "Any functional anomaly of the visceral endoderm."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0012028> "abnormality of visceral endoderm physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0012028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004877>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0013300> (abnormality of submandibular gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0013300> (<http://purl.obolibrary.org/obo/MP_0013300>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013300> "Any functional anomaly of the submandibular gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013300> "abnormality of submandibular gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013300> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001736>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0013326> (abnormality of female reproductive gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0013326> (<http://purl.obolibrary.org/obo/MP_0013326>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013326> "Any functional anomaly of the female reproductive gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013326> "abnormality of female reproductive gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013326> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0005398>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0013327> (abnormality of male reproductive gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0013327> (<http://purl.obolibrary.org/obo/MP_0013327>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013327> "Any functional anomaly of the male reproductive gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013327> "abnormality of male reproductive gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013327> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0005399>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0013368> (abnormality of sweat gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0013368> (<http://purl.obolibrary.org/obo/MP_0013368>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013368> "Any functional anomaly of the sweat gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013368> "abnormality of sweat gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013368> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001820>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0013391> (abnormality of tarsal gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0013391> (<http://purl.obolibrary.org/obo/MP_0013391>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013391> "Any functional anomaly of the tarsal gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013391> "abnormality of tarsal gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013391> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001818>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0013450> (abnormality of lacrimal apparatus physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0013450> (<http://purl.obolibrary.org/obo/MP_0013450>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013450> "Any functional anomaly of the lacrimal apparatus."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013450> "abnormality of lacrimal apparatus physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013450> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001750>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0013532> (abnormality of parotid gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0013532> (<http://purl.obolibrary.org/obo/MP_0013532>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013532> "Any functional anomaly of the parotid gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013532> "abnormality of parotid gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013532> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001831>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0013534> (abnormality of major salivary gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0013534> (<http://purl.obolibrary.org/obo/MP_0013534>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013534> "Any functional anomaly of the major salivary gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013534> "abnormality of major salivary gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013534> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001829>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0013535> (abnormality of minor salivary gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0013535> (<http://purl.obolibrary.org/obo/MP_0013535>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013535> "Any functional anomaly of the minor salivary gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013535> "abnormality of minor salivary gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013535> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001830>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0013536> (abnormality of sublingual gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0013536> (<http://purl.obolibrary.org/obo/MP_0013536>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013536> "Any functional anomaly of the sublingual gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013536> "abnormality of sublingual gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013536> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001832>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0013555> (abnormality of apocrine gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0013555> (<http://purl.obolibrary.org/obo/MP_0013555>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013555> "Any functional anomaly of the apocrine gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013555> "abnormality of apocrine gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013555> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0008974>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0013556> (abnormality of holocrine gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0013556> (<http://purl.obolibrary.org/obo/MP_0013556>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013556> "Any functional anomaly of the holocrine gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013556> "abnormality of holocrine gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013556> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0012344>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0013557> (abnormality of merocrine gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0013557> (<http://purl.obolibrary.org/obo/MP_0013557>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013557> "Any functional anomaly of the merocrine gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013557> "abnormality of merocrine gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013557> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0010243>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0013559> (abnormality of exocrine gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0013559> (<http://purl.obolibrary.org/obo/MP_0013559>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013559> "Any functional anomaly of the exocrine gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013559> "abnormality of exocrine gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013559> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002365>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0013561> (abnormality of endocrine gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0013561> (<http://purl.obolibrary.org/obo/MP_0013561>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013561> "Any functional anomaly of the endocrine gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013561> "abnormality of endocrine gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013561> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002368>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0013570> (abnormality of neuroendocrine gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0013570> (<http://purl.obolibrary.org/obo/MP_0013570>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013570> "Any functional anomaly of the neuroendocrine gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013570> "abnormality of neuroendocrine gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013570> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0010133>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0013596> (abnormality of vomeronasal organ physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0013596> (<http://purl.obolibrary.org/obo/MP_0013596>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013596> "Any functional anomaly of the vomeronasal organ."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013596> "abnormality of vomeronasal organ physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013596> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002255>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0013902> (abnormality of seminal vesicle physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0013902> (<http://purl.obolibrary.org/obo/MP_0013902>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013902> "Any functional anomaly of the seminal vesicle."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013902> "abnormality of seminal vesicle physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013902> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000998>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0014030> (abnormality of mucous gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0014030> (<http://purl.obolibrary.org/obo/MP_0014030>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0014030> "Any functional anomaly of the mucous gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0014030> "abnormality of mucous gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0014030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000414>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0014031> (abnormality of submucosal gland physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0014031> (<http://purl.obolibrary.org/obo/MP_0014031>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0014031> "Any functional anomaly of the submucosal gland."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0014031> "abnormality of submucosal gland physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0014031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0011148>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0014047> (abnormality of gut-associated lymphoid tissue physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0014047> (<http://purl.obolibrary.org/obo/MP_0014047>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0014047> "Any functional anomaly of the gut-associated lymphoid tissue."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0014047> "abnormality of gut-associated lymphoid tissue physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0014047> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001962>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0014190> (abnormality of epididymis physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0014190> (<http://purl.obolibrary.org/obo/MP_0014190>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0014190> "Any functional anomaly of the epididymis."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0014190> "abnormality of epididymis physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0014190> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001301>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0014200> (abnormality of respiratory tract epithelium physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0014200> (<http://purl.obolibrary.org/obo/MP_0014200>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0014200> "Any functional anomaly of the respiratory tract epithelium."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0014200> "abnormality of respiratory tract epithelium physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0014200> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004802>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0014201> (abnormality of intestinal epithelium physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0014201> (<http://purl.obolibrary.org/obo/MP_0014201>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0014201> "Any functional anomaly of the intestinal epithelium."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0014201> "abnormality of intestinal epithelium physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0014201> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001277>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0020371> (abnormality of glymphatic system physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0020371> (<http://purl.obolibrary.org/obo/MP_0020371>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0020371> "Any functional anomaly of the glymphatic system."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0020371> "abnormality of glymphatic system physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0020371> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0036145>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0020412> (abnormality of amnion physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0020412> (<http://purl.obolibrary.org/obo/MP_0020412>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0020412> "Any functional anomaly of the amnion."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0020412> "abnormality of amnion physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0020412> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000305>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0020517> (abnormality of visceral yolk sac physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0020517> (<http://purl.obolibrary.org/obo/MP_0020517>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0020517> "Any functional anomaly of the visceral yolk sac."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0020517> "abnormality of visceral yolk sac physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0020517> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0008852>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0020860> (abnormality of cornea physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0020860> (<http://purl.obolibrary.org/obo/MP_0020860>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0020860> "Any functional anomaly of the cornea."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0020860> "abnormality of cornea physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0020860> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000964>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0030144> (abnormality of facial muscle physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0030144> (<http://purl.obolibrary.org/obo/MP_0030144>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0030144> "Any functional anomaly of the facial muscle."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0030144> "abnormality of facial muscle physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0030144> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0030802> (abnormality of tendon physiology)
+# Class: <http://purl.obolibrary.org/obo/MP_0030802> (<http://purl.obolibrary.org/obo/MP_0030802>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0030802> "Any functional anomaly of the tendon."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0030802> "abnormality of tendon physiology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0030802> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000043>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 
