@@ -1,0 +1,431 @@
+Prefix(:=<urn:unnamed:ontology#ont1#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<urn:unnamed:ontology#ont1>
+
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0000649>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0001059>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0001221>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0001345>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0002269>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0003205>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0003643>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0003644>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0003776>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0004833>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0004894>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0004895>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0004970>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0005548>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0006175>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0006228>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0009064>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0009164>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0009201>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0009212>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0009359>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0009417>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0009418>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0011304>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0011346>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0011363>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0011422>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0011423>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0011844>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0012506>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0012507>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0012508>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0013295>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0013319>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0013366>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0013455>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0013567>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0013585>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0013586>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0014078>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0014184>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0014185>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0030140>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0030466>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0030584>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000460>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001623>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000014>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000074>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000325>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000362>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000473>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000941>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000955>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000992>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000995>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000996>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000997>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000998>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001133>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001134>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001213>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001225>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001228>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001231>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001232>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001264>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001295>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001577>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001630>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001769>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001776>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001782>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001817>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001818>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001821>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001833>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001890>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001891>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002106>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002113>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002123>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002124>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002369>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002370>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003889>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004053>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004103>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/MP_0000649> (sebaceous gland atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0000649> "Partial or complete wasting (loss) of sebaceous gland tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0000649> "atrophy of the sebaceous gland"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0000649> "sebaceous gland atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0000649> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001821>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0001059> (cranial nerve II atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001059> "Partial or complete wasting (loss) of cranial nerve II tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001059> "atrophy of the cranial nerve II"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0001059> "cranial nerve II atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0001059> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000941>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0001221> (skin epidermis atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001221> "Partial or complete wasting (loss) of skin epidermis tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001221> "atrophy of the skin epidermis"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0001221> "skin epidermis atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0001221> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001003>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0001345> (tarsal gland atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001345> "Partial or complete wasting (loss) of tarsal gland tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001345> "atrophy of the tarsal gland"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0001345> "tarsal gland atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0001345> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001818>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0002269> (muscle organ atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0002269> "Partial or complete wasting (loss) of muscle organ tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0002269> "atrophy of the muscle organ"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0002269> "muscle organ atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0002269> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001630>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0003205> (testis atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003205> "Partial or complete wasting (loss) of testis tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0003205> "atrophy of the testis"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003205> "testis atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003205> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000473>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0003643> (spleen atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003643> "Partial or complete wasting (loss) of spleen tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0003643> "atrophy of the spleen"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003643> "spleen atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003643> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002106>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0003644> (thymus atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003644> "Partial or complete wasting (loss) of thymus tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0003644> "atrophy of the thymus"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003644> "thymus atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003644> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002370>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0003776> (lip atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003776> "Partial or complete wasting (loss) of lip tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0003776> "atrophy of the lip"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003776> "lip atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003776> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001833>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0004833> (ovary atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0004833> "Partial or complete wasting (loss) of ovary tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0004833> "atrophy of the ovary"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0004833> "ovary atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0004833> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000992>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0004894> (uterus atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0004894> "Partial or complete wasting (loss) of uterus tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0004894> "atrophy of the uterus"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0004894> "uterus atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0004894> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000995>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0004895> (vagina atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0004895> "Partial or complete wasting (loss) of vagina tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0004895> "atrophy of the vagina"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0004895> "vagina atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0004895> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000996>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0004970> (kidney atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0004970> "Partial or complete wasting (loss) of kidney tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0004970> "atrophy of the kidney"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0004970> "kidney atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0004970> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002113>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0005548> (pigmented layer of retina atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0005548> "Partial or complete wasting (loss) of pigmented layer of retina tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0005548> "atrophy of the pigmented layer of retina"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0005548> "pigmented layer of retina atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0005548> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001782>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0006175> (optic choroid atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0006175> "Partial or complete wasting (loss) of optic choroid tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0006175> "atrophy of the optic choroid"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0006175> "optic choroid atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0006175> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001776>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0006228> (iris atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0006228> "Partial or complete wasting (loss) of iris tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0006228> "atrophy of the iris"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0006228> "iris atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0006228> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001769>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0009064> (fallopian tube atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0009064> "Partial or complete wasting (loss) of fallopian tube tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0009064> "atrophy of the fallopian tube"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0009064> "fallopian tube atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0009064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003889>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0009164> (exocrine pancreas atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0009164> "Partial or complete wasting (loss) of exocrine pancreas tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0009164> "atrophy of the exocrine pancreas"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0009164> "exocrine pancreas atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0009164> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000017>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0009201> (external male genitalia atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0009201> "Partial or complete wasting (loss) of external male genitalia tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0009201> "atrophy of the external male genitalia"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0009201> "external male genitalia atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0009201> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004053>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0009212> (mammalian vulva atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0009212> "Partial or complete wasting (loss) of mammalian vulva tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0009212> "atrophy of the mammalian vulva"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0009212> "mammalian vulva atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0009212> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000997>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0009359> (endometrium atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0009359> "Partial or complete wasting (loss) of endometrium tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0009359> "atrophy of the endometrium"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0009359> "endometrium atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0009359> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001295>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0009417> (skeletal muscle tissue atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0009417> "Partial or complete wasting (loss) of skeletal muscle tissue tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0009417> "atrophy of the skeletal muscle tissue"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0009417> "skeletal muscle tissue atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0009417> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001134>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0009418> (cardiac muscle tissue atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0009418> "Partial or complete wasting (loss) of cardiac muscle tissue tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0009418> "atrophy of the cardiac muscle tissue"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0009418> "cardiac muscle tissue atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0009418> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001133>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0011304> (renal papilla atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0011304> "Partial or complete wasting (loss) of renal papilla tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0011304> "atrophy of the renal papilla"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0011304> "renal papilla atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0011304> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001228>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0011346> (nephron tubule atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0011346> "Partial or complete wasting (loss) of nephron tubule tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0011346> "atrophy of the nephron tubule"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0011346> "nephron tubule atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0011346> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001231>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0011363> (renal glomerulus atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0011363> "Partial or complete wasting (loss) of renal glomerulus tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0011363> "atrophy of the renal glomerulus"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0011363> "renal glomerulus atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0011363> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000074>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0011422> (renal medulla atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0011422> "Partial or complete wasting (loss) of renal medulla tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0011422> "atrophy of the renal medulla"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0011422> "renal medulla atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0011422> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000362>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0011423> (cortex of kidney atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0011423> "Partial or complete wasting (loss) of cortex of kidney tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0011423> "atrophy of the cortex of kidney"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0011423> "cortex of kidney atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0011423> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001225>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0011844> (collecting duct of renal tubule atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0011844> "Partial or complete wasting (loss) of collecting duct of renal tubule tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0011844> "atrophy of the collecting duct of renal tubule"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0011844> "collecting duct of renal tubule atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0011844> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001232>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0012506> (brain atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0012506> "Partial or complete wasting (loss) of brain tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0012506> "atrophy of the brain"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0012506> "brain atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0012506> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000955>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0012507> (midbrain atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0012507> "Partial or complete wasting (loss) of midbrain tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0012507> "atrophy of the midbrain"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0012507> "midbrain atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0012507> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001891>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0012508> (forebrain atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0012508> "Partial or complete wasting (loss) of forebrain tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0012508> "atrophy of the forebrain"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0012508> "forebrain atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0012508> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001890>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0013295> (pancreas atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013295> "Partial or complete wasting (loss) of pancreas tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013295> "atrophy of the pancreas"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013295> "pancreas atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013295> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001264>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0013319> (seminal vesicle atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013319> "Partial or complete wasting (loss) of seminal vesicle tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013319> "atrophy of the seminal vesicle"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013319> "seminal vesicle atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013319> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000998>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0013366> (adrenal gland atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013366> "Partial or complete wasting (loss) of adrenal gland tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013366> "atrophy of the adrenal gland"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013366> "adrenal gland atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013366> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002369>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0013455> (lacrimal gland atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013455> "Partial or complete wasting (loss) of lacrimal gland tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013455> "atrophy of the lacrimal gland"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013455> "lacrimal gland atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013455> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001817>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0013567> (gastric gland atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013567> "Partial or complete wasting (loss) of gastric gland tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013567> "atrophy of the gastric gland"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013567> "gastric gland atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013567> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000325>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0013585> (cortex of thymus atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013585> "Partial or complete wasting (loss) of cortex of thymus tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013585> "atrophy of the cortex of thymus"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013585> "cortex of thymus atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013585> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002123>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0013586> (medulla of thymus atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013586> "Partial or complete wasting (loss) of medulla of thymus tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013586> "atrophy of the medulla of thymus"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013586> "medulla of thymus atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013586> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002124>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0014078> (intestinal villus atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0014078> "Partial or complete wasting (loss) of intestinal villus tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0014078> "atrophy of the intestinal villus"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0014078> "intestinal villus atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0014078> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001213>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0014184> (hindbrain atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0014184> "Partial or complete wasting (loss) of hindbrain tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0014184> "atrophy of the hindbrain"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0014184> "hindbrain atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0014184> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0014185> (cerebellum atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0014185> "Partial or complete wasting (loss) of cerebellum tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0014185> "atrophy of the cerebellum"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0014185> "cerebellum atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0014185> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002037>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0030140> (facial muscle atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0030140> "Partial or complete wasting (loss) of facial muscle tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0030140> "atrophy of the facial muscle"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0030140> "facial muscle atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0030140> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0030466> (alveolar ridge atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0030466> "Partial or complete wasting (loss) of alveolar ridge tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0030466> "atrophy of the alveolar ridge"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0030466> "alveolar ridge atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0030466> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004103>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0030584> (zone of skin atrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0030584> "Partial or complete wasting (loss) of zone of skin tissue that was once present."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0030584> "atrophy of the zone of skin"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0030584> "zone of skin atrophy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0030584> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000014>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+
+)
