@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=false, version=2" prefer="public" xml:base="">
         <uri id="Automatically generated entry, Timestamp=1569338358152" name="http://purl.obolibrary.org/obo/mp/imports/chebi_import.owl" uri="imports/chebi_import.owl"/>
         <uri id="Automatically generated entry, Timestamp=1569338358152" name="http://purl.obolibrary.org/obo/mp/imports/cl_import.owl" uri="imports/cl_import.owl"/>
         <uri id="Automatically generated entry, Timestamp=1569338358152" name="http://purl.obolibrary.org/obo/mp/imports/go_import.owl" uri="imports/go_import.owl"/>
@@ -10,6 +10,6 @@
         <uri id="Automatically generated entry, Timestamp=1569338358152" name="http://purl.obolibrary.org/obo/mp/imports/pr_import.owl" uri="imports/pr_import.owl"/>
         <uri id="Automatically generated entry, Timestamp=1569338358152" name="http://purl.obolibrary.org/obo/mp/imports/ro_import.owl" uri="imports/ro_import.owl"/>
         <uri id="Automatically generated entry, Timestamp=1569338358152" name="http://purl.obolibrary.org/obo/mp/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1569338358152" name="http://purl.obolibrary.org/obo/mp/patterns/definitions.owl" uri="patterns/definitions.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1569338358152" name="http://purl.obolibrary.org/obo/mp/patterns/definitions.owl" uri="../patterns/definitions.owl"/>
       </group>
 </catalog>
