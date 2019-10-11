@@ -43,9 +43,22 @@ robot_diff_jenkins.txt:
 	#$(ROBOT) diff --left mp.obo --right-iri https://build.berkeleybop.org/job/build-mp-edit/lastSuccessfulBuild/artifact/src/ontology/mp.obo -o obo_$@
 
 labels.csv: $(SRC)
-	robot query --use-graphs true -f csv -i $(SRC) --query ../sparql/term_table.sparql $@
+	$(ROBOT) query --use-graphs true -f csv -i $(SRC) --query ../sparql/term_table.sparql $@
 	
-	
+#######################################################
+##### Code for removing patternised classes ###########
+#######################################################
+
+patternised_classes.txt: .FORCE
+	$(ROBOT) query -f csv -i ../patterns/definitions.owl --query ../sparql/mp_terms.sparql $@
+	sed -i 's/http[:][/][/]purl.obolibrary.org[/]obo[/]//g' $@
+	sed -i '/^[^M]/d' $@
+
+remove_patternised_classes: $(SRC) patternised_classes.txt
+	sed -i -r "/^EquivalentClasses[(][<].*($(shell cat patternised_classes.txt | xargs | sed -e 's/ /\|/g'))/d" mp-edit.owl
+
+#$(ROBOT) remove -i $< -T patternised_classes.txt --axioms equivalent --preserve-structure false -o $(SRC).ofn && mv $(SRC).ofn $(SRC)
+
 #IMPORT_SEED_FILES = $(patsubst %, imports/%_terms_combined.txt, $(IMPORTS))
 
 #	all_imports: $(IMPORT_FILES)
