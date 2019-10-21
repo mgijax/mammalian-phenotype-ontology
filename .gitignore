@@ -37,3 +37,4 @@ src/patterns/reserved_iris.txt
 src/patterns/tmp
 src/patterns/mp.csv
 src/ontology/mp-down.owl
+src/ontology/Dockerfile
