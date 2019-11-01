@@ -53,6 +53,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MP_0014185>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0030140>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0030466>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0030584>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0030986>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000460>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001623>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000014>))
@@ -97,6 +98,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002123>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002124>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002369>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002370>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002435>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003889>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004053>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004103>))
@@ -287,6 +289,10 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0030466> ObjectSomeValuesFr
 # Class: <http://purl.obolibrary.org/obo/MP_0030584> (<http://purl.obolibrary.org/obo/MP_0030584>)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0030584> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000014>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0030986> (<http://purl.obolibrary.org/obo/MP_0030986>)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0030986> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002435>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 
 )

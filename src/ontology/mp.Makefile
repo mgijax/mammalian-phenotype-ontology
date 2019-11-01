@@ -55,7 +55,7 @@ patternised_classes.txt: .FORCE
 	sed -i '/^[^M]/d' $@
 
 remove_patternised_classes: $(SRC) patternised_classes.txt
-	sed -i -r "/^EquivalentClasses[(][<].*($(shell cat patternised_classes.txt | xargs | sed -e 's/ /\|/g'))/d" mp-edit.owl
+	sed -i -r "/^EquivalentClasses[(][<]http[:][/][/]purl.obolibrary.org[/]obo[/]($(shell cat patternised_classes.txt | xargs | sed -e 's/ /\|/g'))/d" mp-edit.owl
 
 #$(ROBOT) remove -i $< -T patternised_classes.txt --axioms equivalent --preserve-structure false -o $(SRC).ofn && mv $(SRC).ofn $(SRC)
 

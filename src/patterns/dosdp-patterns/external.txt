@@ -1,1 +1,8 @@
 http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcess.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalFunctionalityOfAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/atrophiedAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedLengthOfAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedSizeOfAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/blisteredAnatomicalEntity.yaml
