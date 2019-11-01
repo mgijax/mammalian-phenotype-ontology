@@ -296,7 +296,7 @@ mirror/nbo.owl: mirror/nbo.trigger
 mirror/pr.trigger: $(SRC)
 
 mirror/pr.owl: mirror/pr.trigger
-	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I http://purl.obolibrary.org/obo/pr.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I http://purl.obolibrary.org/obo/pr.owl.gz -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
 
@@ -442,11 +442,12 @@ pattern_clean:
 pattern_schema_checks: update_patterns
 	@if [ $(PAT) = true ]; then $(PATTERN_TESTER) $(PATTERNDIR)/dosdp-patterns/; fi
 
-
 #This command is a workaround for the absence of -N and -i in wget of alpine (the one ODK depend on now). It downloads all patterns specified in external.txt
 update_patterns: .FORCE
+	rm -f $(PATTERNDIR)/dosdp-patterns/*.yaml.1
 	wget -i $(PATTERNDIR)/dosdp-patterns/external.txt --backups=1 -P $(PATTERNDIR)/dosdp-patterns
-	rm $(PATTERNDIR)/dosdp-patterns/*.yaml.1
+	rm -f $(PATTERNDIR)/dosdp-patterns/*.yaml.1
+
 
 $(PATTERNDIR)/pattern.owl: pattern_schema_checks update_patterns
 	@if [ $(PAT) = true ]; then $(DOSDPT) prototype --obo-prefixes --template=$(PATTERNDIR)/dosdp-patterns --outfile=$@; fi
@@ -492,5 +493,8 @@ prepare_patterns:
 
 
 
+
+update_repo:
+	sh ../scripts/update_repo.sh
 
 include mp.Makefile
