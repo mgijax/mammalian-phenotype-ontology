@@ -1,0 +1,33 @@
+defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
+MP:0020207	abnormal heart right atrium weight	UBERON:0002078	right cardiac atrium
+MP:0020206	abnormal heart left atrium weight	UBERON:0002079	left cardiac atrium
+MP:0020205	abnormal heart right ventricle weight	UBERON:0002080	heart right ventricle
+MP:0020204	abnormal heart left ventricle weight	UBERON:0002084	heart left ventricle
+MP:0020166	abnormal tibialis anterior weight	UBERON:0001385	tibialis anterior
+MP:0020165	abnormal soleus weight	UBERON:0001389	soleus muscle
+MP:0020164	abnormal quadriceps weight	UBERON:0001377	quadriceps femoris
+MP:0013188	abnormal gastrocnemius weight	UBERON:0001388	gastrocnemius
+MP:0012783	abnormal extensor digitorum longus weight	UBERON:0001386	extensor digitorum longus
+MP:0012775	abnormal brain weight	UBERON:0000955	brain
+MP:0012689	abnormal adrenal gland weight	UBERON:0002369	adrenal gland
+MP:0012687	abnormal heart atrium weight	UBERON:0002081	cardiac atrium
+MP:0011798	abnormal urinary bladder weight	UBERON:0001255	urinary bladder
+MP:0010237	abnormal skeletal muscle weight	UBERON:0001134	skeletal muscle tissue
+MP:0008978	abnormal vagina weight	UBERON:0000996	vagina
+MP:0008937	abnormal pituitary gland weight	UBERON:0000007	pituitary gland
+MP:0005629	abnormal lung weight	UBERON:0002048	lung
+MP:0004960	abnormal prostate gland weight	UBERON:0002367	prostate gland
+MP:0004954	abnormal thymus weight	UBERON:0002370	thymus
+MP:0004951	abnormal spleen weight	UBERON:0002106	spleen
+MP:0004927	abnormal epididymis weight	UBERON:0001301	epididymis
+MP:0004908	abnormal seminal vesicle weight	UBERON:0000998	seminal vesicle
+MP:0004903	abnormal uterus weight	UBERON:0000995	uterus
+MP:0004857	abnormal heart weight	UBERON:0000948	heart
+MP:0004854	abnormal ovary weight	UBERON:0000992	ovary
+MP:0004850	abnormal testis weight	UBERON:0000473	testis
+MP:0004847	abnormal liver weight	UBERON:0002107	liver
+MP:0004257	abnormal placenta weight	UBERON:0001987	placenta
+MP:0004233	abnormal muscle weight	UBERON:0001630	muscle organ
+MP:0002845	abnormal aortic weight	UBERON:0000947	aorta
+MP:0002707	abnormal kidney weight	UBERON:0002113	kidney
+MP:0001259	abnormal body weight	UBERON:0000468	multicellular organism
