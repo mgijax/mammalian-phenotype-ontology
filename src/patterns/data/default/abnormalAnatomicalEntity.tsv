@@ -1,0 +1,16 @@
+defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
+MP:0010118	abnormal intermediate mesoderm morphology	UBERON:0003064	intermediate mesoderm
+MP:0009372	abnormal cumulus oophorus morphology	UBERON:0001306	cumulus oophorus
+MP:0008864	abnormal intestinal secretion	UBERON:0002466	intestine secretion
+MP:0008521	abnormal Bowman membrane morphology	UBERON:0004370	anterior limiting lamina of cornea
+MP:0006029	abnormal sclerotome morphology	UBERON:0003089	sclerotome
+MP:0005032	abnormal ectoplacental cone morphology	UBERON:0004364	ectoplacental cone
+MP:0004915	abnormal Reichert's cartilage morphology	UBERON:0004368	Reichert's cartilage
+MP:0003955	abnormal ultimobranchial body morphology	UBERON:0003092	ultimobranchial body
+MP:0002718	abnormal inner cell mass morphology	UBERON:0000087	inner cell mass
+MP:0002662	abnormal cauda epididymis morphology	UBERON:0004360	cauda epididymis
+MP:0002660	abnormal caput epididymis morphology	UBERON:0004358	caput epididymis
+MP:0001051	abnormal somatic motor system morphology	UBERON:0003945	somatic motor system
+MP:0000923	abnormal roof plate morphology	UBERON:0003054	roof plate
+MP:0000799	abnormal precentral gyrus morphology	UBERON:0002703	precentral gyrus
+MP:0000778	abnormal nervous system tract morphology	UBERON:0001018	axon tract
