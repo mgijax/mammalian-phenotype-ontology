@@ -1,0 +1,4 @@
+defined_class	defined_class_label	abscess	abscess_label	anatomical_entity	anatomical_entity_label
+MP:0030462	tooth abscess	MPATH:608	abscess	UBERON:0001091	calcareous tooth
+MP:0003332	liver abscess	MPATH:608	abscess	UBERON:0002107	liver
+MP:0003302	perirectal abscess	MPATH:608	abscess	UBERON:0001052	rectum
