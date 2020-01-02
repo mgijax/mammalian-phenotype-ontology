@@ -57,14 +57,6 @@ patternised_classes.txt: .FORCE
 remove_patternised_classes: $(SRC) patternised_classes.txt
 	sed -i -r "/^EquivalentClasses[(][<]http[:][/][/]purl.obolibrary.org[/]obo[/]($(shell cat patternised_classes.txt | xargs | sed -e 's/ /\|/g'))/d" mp-edit.owl
 
-# Temporary override of this target to resolve download issues
-mirror/uberon.owl: mirror/uberon.trigger
-#	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L -o $@.tmp.owl $(URIBASE)/uberon.owl && mv $@.tmp.owl $@; fi
-	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://www.ebi.ac.uk/ols/ontologies/uberon/download -o $@.tmp.owl && mv $@.tmp.owl $@; fi
-
-mirror/mpath.owl: mirror/mpath.trigger
-	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://www.ebi.ac.uk/ols/ontologies/mpath/download -o $@.tmp.owl && mv $@.tmp.owl $@; fi
-
 #$(ROBOT) remove -i $< -T patternised_classes.txt --axioms equivalent --preserve-structure false -o $(SRC).ofn && mv $(SRC).ofn $(SRC)
 
 #IMPORT_SEED_FILES = $(patsubst %, imports/%_terms_combined.txt, $(IMPORTS))
