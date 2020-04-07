@@ -200,7 +200,7 @@ Travis builds should now be activated
 1. Open template.owl in Protege and check that it all looks as expected.
 1. Run the command `robot merge -i mp-edit.owl -i template.owl --collapse-import-closure false -o mp-edit.ofn`. This will merge the previously generated template OWL axioms into a new file called mp-edit.ofn.
 1. Delete `mp-edit.owl` and rename `mp-edit.ofn` to `mp-edit.owl`.
-1. Open mp-edit.owl and check that unexpected stuff has happened. Typical checks: 
+1. Open mp-edit.owl and ensure that no unexpected stuff has happened. Typical checks: 
    1. Make sure at least one of your newly created classes is there, and looks good 
    1. There should not be any entities floating around without labels
    1. The Ontology IRI in the Active ontology tab should still be the mp PURL
