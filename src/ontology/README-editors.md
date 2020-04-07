@@ -191,3 +191,17 @@ Note: if you have only just created this project you will need to authorize trav
  3. Click the tick symbol next to mammalian-phenotype-ontology
 
 Travis builds should now be activated
+
+# How to merge a template into MP-EDIT
+
+1. Copy the template file to src/ontology. For illustration, we assume here that the file is called "Viral_terms4_6_20.tsv"
+1. With your command line (CMD or terminal) navigate to the src/ontology directory
+1. Run the command: `robot merge -i mp-edit.owl template --template Viral_terms4_6_20.tsv --output template.owl`
+1. Open template.owl in Protege and check that it all looks as expected.
+1. Run the command `robot merge -i mp-edit.owl -i template.owl --collapse-import-closure false -o mp-edit.ofn`. This will merge the previously generated template OWL axioms into mp-edit.owl.
+1. Delete `mp-edit.owl` and rename `mp-edit.ofn` to `mp-edit.owl`.
+1. Open mp-edit.owl and check that unexpected stuff has happened. Typical checks: 
+   1. Make sure at least one of your newly created classes is there, and looks good 
+   1. There should not be any entities floating around without labels
+   1. The Ontology IRI in the Active ontology tab should still be the mp PURL
+1. As a last test check the git diff. Dont get confused by some spurious changes involving `xsd:string`. Safe to be ignored. I think you could avoid those (but you dont have to) by simply loading mp-edit.owl in Protege und saving it again. This will correct the serialisation to what it was, but again, not important.
