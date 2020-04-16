@@ -31,7 +31,7 @@ pipeline {
 	// finding artifacts.
 	ONTOLOGY_FILE_HINT = 'mp'
 	// Ontology repo information.
-	TARGET_ONTOLOGY_BRANCH = 'master'
+	TARGET_ONTOLOGY_BRANCH = 'expanding_uberon_test'
 	TARGET_ONTOLOGY_URL = 'https://github.com/obophenotype/mammalian-phenotype-ontology.git'
 	// The people to call when things go bad or go well. It is a
 	// comma-space "separated" string.
