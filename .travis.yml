@@ -16,6 +16,7 @@ script: cd src/ontology && sh run.sh make test
 branches:
   only:
     - master
+    - main
     - test-travis
 
 ### Add your own lists here
