@@ -20,7 +20,7 @@ HP:0001939	rdfs:subClassOf	MP:0005376	HumanCurated	Abnormality of metabolism/hom
 HP:0000816	rdfs:subClassOf	MP:0005384	HumanCurated	Abnormality of Krebs cycle metabolism	cellular phenotype	https://orcid.org/0000-0003-4606-0597
 HP:0040127	rdfs:subClassOf	MP:0010771	HumanCurated	Abnormal sweat homeostasis	integument phenotype	https://orcid.org/0000-0003-4606-0597
 HP:0040127	rdfs:subClassOf	MP:0005379	HumanCurated	Abnormal sweat homeostasis	endocrine/exocrine gland phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0011017	rdfs:subClassOf	MP:0005384	HumanCurated	abnormality of cell physiology	cellular phenotype	https://orcid.org/0000-0003-4606-0597
+HP:0025354	rdfs:subClassOf	MP:0005384	HumanCurated	Abnormal cellular phenotype	cellular phenotype	https://orcid.org/0000-0003-4606-0597
 HP:0003565	rdfs:subClassOf	MP:0005397	HumanCurated	elevated erythrocyte sedimentation rate	hematopoietic system phenotype	https://orcid.org/0000-0003-4606-0597
 HP:0001787	rdfs:subClassOf	MP:0005389	HumanCurated	Abnormal delivery	reproductive system phenotype	https://orcid.org/0000-0003-4606-0597
 HP:0001194	rdfs:subClassOf	MP:0005380	HumanCurated	Abnormalities of placenta or umbilical cord	embryo phenotype	https://orcid.org/0000-0003-4606-0597
@@ -58,8 +58,8 @@ HP:0100013	rdfs:subClassOf	MP:0002006	HumanCurated	Neoplasm of the breast	tumori
 HP:0001626	rdfs:subClassOf	MP:0005385	HumanCurated	Abnormality of the cardiovascular system	cardiovascular system phenotype	https://orcid.org/0000-0003-4606-0597
 HP:0000598	rdfs:subClassOf	MP:0005377	HumanCurated	Abnormality of the ear	hearing/vestibular/ear phenotype	https://orcid.org/0000-0003-4606-0597
 HP:0000818	rdfs:subClassOf	MP:0005379	HumanCurated	Abnormality of the endocrine system	endocrine/exocrine gland phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0003117	rdfs:subClassOf	MP:0005376	HumanCurated	Abnormality of circulating hormone level	homeostasis/metabolism phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0012029	rdfs:subClassOf	MP:0005376	HumanCurated	Abnormality of urine hormone level	homeostasis/metabolism phenotype	https://orcid.org/0000-0003-4606-0597
+HP:0003117	rdfs:subClassOf	MP:0005376	HumanCurated	Abnormal circulating hormone level	homeostasis/metabolism phenotype	https://orcid.org/0000-0003-4606-0597
+HP:0012029	rdfs:subClassOf	MP:0005376	HumanCurated	Abnormal urine hormone level	homeostasis/metabolism phenotype	https://orcid.org/0000-0003-4606-0597
 HP:0100568	rdfs:subClassOf	MP:0002006	HumanCurated	Neoplasm of the endocrine system	tumorigenesis	https://orcid.org/0000-0003-4606-0597
 HP:0000478	rdfs:subClassOf	MP:0005391	HumanCurated	Abnormality of the eye	vision/eye phenotype	https://orcid.org/0000-0003-4606-0597
 HP:0000078	rdfs:subClassOf	MP:0005389	HumanCurated	Abnormality of the genital system	reproductive system phenotype	https://orcid.org/0000-0003-4606-0597
