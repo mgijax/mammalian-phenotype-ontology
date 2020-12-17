@@ -1,9 +1,9 @@
 # Source for Mammalian Phenotype Ontology
-[![Build Status](https://travis-ci.org/obophenotype/mammalian-phenotype-ontology.svg?branch=master)](https://travis-ci.org/obophenotype/mammalian-phenotype-ontology)
+[![Build Status](https://travis-ci.com/obophenotype/mammalian-phenotype-ontology.svg?branch=main)](https://travis-ci.com/obophenotype/mammalian-phenotype-ontology)
 
 ## Jenkins Job
 
- * https://build.berkeleybop.org/job/build-mp-edit/ (no longer in use)
+
  * https://build.obolibrary.io/job/obofoundry/job/pipeline-mp/ (Primary release pipeline, now in use, ODK)
  * https://build.obolibrary.io/job/obophenotype/job/mammalian-phenotype-ontology/ (Experimental pipeline. Running whatever branch is specified [here](https://github.com/obophenotype/mammalian-phenotype-ontology/blob/92251f6b095bb831b7a52f05a987f5342588b8b0/Jenkinsfile#L34)
 
