@@ -42,4 +42,7 @@ src/patterns/data/default/*.ofn
 src/patterns/data/default/*.txt
 src/ontology/patternised_classes.txt
 src/ontology/tmp/
+src/ontology/reports/
 src/patterns/pattern_owl_seed.txt
+src/ontology/qc.owl
+src/ontology/ontologyterms-test.txt
