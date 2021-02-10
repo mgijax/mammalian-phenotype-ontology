@@ -6,3 +6,5 @@ http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedLengthOfAn
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedSizeOfAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/blisteredAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abscessInLocation.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalWeightOfAnatomicalEntity.yaml

@@ -1,4 +1,4 @@
-Prefix(:=<urn:unnamed:ontology#ont1#>)
+Prefix(:=<urn:unnamed:ontology#ont1>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -10,9 +10,12 @@ Ontology(<urn:unnamed:ontology#ont1>
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MPATH_608>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000125>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000460>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000470>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000574>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000587>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001236>))
@@ -24,11 +27,14 @@ Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBi
 Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcessInLocation.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalFunctionalityOfAnatomicalEntity.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntity.yaml>))
+Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalWeightOfAnatomicalEntity.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedLengthOfAnatomicalEntity.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedSizeOfAnatomicalEntity.yaml>))
+Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns-dev/abscessInLocation.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns-dev/atrophiedAnatomicalEntity.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns-dev/blisteredAnatomicalEntity.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
@@ -73,6 +79,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntity.yaml> "abnormal 'anatomical entity' morphology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntity.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001062>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
+# Class: <http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalWeightOfAnatomicalEntity.yaml> (abnormality of 'anatomical entity' weight)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalWeightOfAnatomicalEntity.yaml> "An abnormal increase or decrease of weight or an abnormal distribution of mass in the 'anatomical entity'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalWeightOfAnatomicalEntity.yaml> "abnormalWeightOfAnatomicalEntity"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalWeightOfAnatomicalEntity.yaml> "abnormality of 'anatomical entity' weight"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalWeightOfAnatomicalEntity.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000125> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001062>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
 # Class: <http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedLengthOfAnatomicalEntity.yaml> (decreased length of 'anatomical entity')
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedLengthOfAnatomicalEntity.yaml> "Decreased length or shortening of the 'anatomical entity'."^^xsd:string)
@@ -89,6 +102,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedSizeOfAnatomicalEntity.yaml> "decreased size of the 'anatomical entity'"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedSizeOfAnatomicalEntity.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000587> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001062>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
+# Class: <http://purl.obolibrary.org/obo/upheno/patterns-dev/abscessInLocation.yaml> ('anatomical entity' abscess)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/patterns-dev/abscessInLocation.yaml> "The presence of an abscess of the 'anatomical entity'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/patterns-dev/abscessInLocation.yaml> "abscessInLocation"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns-dev/abscessInLocation.yaml> "'anatomical entity' abscess"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/patterns-dev/abscessInLocation.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000470> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/MPATH_608> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
 # Class: <http://purl.obolibrary.org/obo/upheno/patterns-dev/atrophiedAnatomicalEntity.yaml> ('anatomical entity' atrophy)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/patterns-dev/atrophiedAnatomicalEntity.yaml> "Partial or complete wasting (loss) of 'anatomical entity' tissue that was once present."^^xsd:string)
@@ -99,7 +119,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/patterns-dev/atrophiedA
 
 # Class: <http://purl.obolibrary.org/obo/upheno/patterns-dev/blisteredAnatomicalEntity.yaml> (abnormally blistered 'anatomical entity')
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/patterns-dev/blisteredAnatomicalEntity.yaml> "An abnormally blistered 'anatomical entity'."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/patterns-dev/blisteredAnatomicalEntity.yaml> "Abnormal local accumulation of fluid underneath the surface causing a blistered 'anatomical entity'."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/patterns-dev/blisteredAnatomicalEntity.yaml> "blisteredAnatomicalEntity"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/upheno/patterns-dev/blisteredAnatomicalEntity.yaml> "'anatomical entity' with blister"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns-dev/blisteredAnatomicalEntity.yaml> "abnormally blistered 'anatomical entity'"^^xsd:string)
