@@ -26,13 +26,14 @@ import_group:
     - id: nbo
       mirror_from: http://purl.obolibrary.org/obo/nbo/nbo-base.owl
     - id: pr
-      mirror_from: http://purl.obolibrary.org/obo/pr.owl.gz
+      use_gzipped: TRUE
       is_large: TRUE
     - id: go
     - id: uberon 
     - id: ro
     - id: chebi
-      mirror_from: http://purl.obolibrary.org/obo/chebi.owl.gz
+      use_gzipped: TRUE
+      is_large: TRUE
     - id: pato
     - id: cl
       mirror_from: http://purl.obolibrary.org/obo/cl/cl-base.owl
