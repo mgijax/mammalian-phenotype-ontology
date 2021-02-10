@@ -27,6 +27,7 @@ import_group:
       mirror_from: http://purl.obolibrary.org/obo/nbo/nbo-base.owl
     - id: pr
       mirror_from: http://purl.obolibrary.org/obo/pr.owl.gz
+      is_large: TRUE
     - id: go
     - id: uberon 
     - id: ro

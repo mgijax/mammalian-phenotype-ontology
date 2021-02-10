@@ -3,13 +3,6 @@
 ## If you need to customize your Makefile, make
 ## changes here rather than in the main Makefile
 
-
-
-
-#
-
-
-
 qc.owl: $(SRC)
 	$(ROBOT) query --use-graphs true -f csv -i $< --query ../sparql/mp_terms.sparql ontologyterms-test.txt && \
 	$(ROBOT) remove --input $< --select imports \
