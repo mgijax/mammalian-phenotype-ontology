@@ -1,5 +1,5 @@
 # Source for Mammalian Phenotype Ontology
-[![Build Status](https://travis-ci.com/obophenotype/mammalian-phenotype-ontology.svg?branch=main)](https://travis-ci.com/obophenotype/mammalian-phenotype-ontology)
+![Build Status](https://github.com/obophenotype/mammalian-phenotype-ontology/workflows/CI/badge.svg)
 
 ## Jenkins Job
 
