@@ -2,7 +2,6 @@ id: mp
 title: "Mammalian Phenotype Ontology"
 github_org: obophenotype
 repo: mammalian-phenotype-ontology
-report_fail_on: none
 use_dosdps: TRUE
 dosdp_tools_options: "--obo-prefixes=true --restrict-axioms-to=logical"
 allow_equivalents: assert-only
@@ -40,3 +39,8 @@ import_group:
     - id: mpath
 robot_java_args: '-Xmx8G'
 allow_equivalents: asserted-only
+robot_report:
+  fail_on : ERROR
+  use_labels : False
+  report_on :
+    - edit
