@@ -24,8 +24,11 @@ CATALOG=                    catalog-v001.xml
 ROBOT=                      robot --catalog $(CATALOG)
 RELEASEDIR=                 ../..
 REPORTDIR=                  reports
+TEMPLATEDIR=                ../templates
 TMPDIR=                     tmp
+SCRIPTSDIR=                 ../scripts
 SPARQLDIR =                 ../sparql
+COMPONENTSDIR =             components
 REPORT_FAIL_ON =            ERROR
 REPORT_LABEL =              
 REPORT_PROFILE_OPTS =       
@@ -39,7 +42,7 @@ OBODATE ?=                  $(shell date +'%d:%m:%Y %H:%M')
 VERSION=                    $(TODAY)
 ANNOTATE_ONTOLOGY_VERSION = annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION)
 OTHER_SRC =                 $(PATTERNDIR)/definitions.owl 
-ONTOLOGYTERMS =             tmp/ontologyterms.txt
+ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 PATTERNDIR=                 ../patterns
 DOSDP_SCHEMA=                http:// # change to PURL when ready.
 PATTERN_TESTER=              simple_pattern_tester.py
@@ -173,9 +176,9 @@ prepare_initial_release: prepare_release
 # ------------------------
 
 # seed.txt contains all referenced entities
-IMPORTSEED=tmp/seed.txt
-SRCMERGED=tmp/merged-$(SRC)
-PRESEED=tmp/pre_seed.txt
+IMPORTSEED=$(TMPDIR)/seed.txt
+SRCMERGED=$(TMPDIR)/merged-$(SRC)
+PRESEED=$(TMPDIR)/pre_seed.txt
 
 $(SRCMERGED): $(SRC)
 	$(ROBOT) remove --input $< --select imports --trim false \
@@ -186,9 +189,12 @@ $(PRESEED): $(SRCMERGED)
 	cat $@.tmp | sort | uniq >  $@
 
 
-# Ugly hack which should be replaced by the dynamic import revision pipeline
-$(IMPORTSEED): $(PRESEED) prepare_patterns $(PATTERNDIR)/all_pattern_terms.txt 
-	if [ $(IMP) = true ]; then cat $(PRESEED) $(PATTERNDIR)/all_pattern_terms.txt | sort | uniq > $@; fi
+
+ALLSEED = $(PRESEED)  $(PATTERNDIR)/all_pattern_terms.txt \
+
+
+$(IMPORTSEED):  prepare_patterns  $(ALLSEED) 
+	if [ $(IMP) = true ]; then cat $(ALLSEED) | sort | uniq > $@; fi
 
 
 ANNOTATION_PROPERTIES=rdfs:label IAO:0000115 
@@ -213,17 +219,28 @@ imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt
 ## Module for ontology: pr
 
 imports/pr_import.owl: mirror/pr.owl imports/pr_terms_combined.txt
-	if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/pr_terms_combined.txt --force true --individuals include --method BOT \
+	if [ $(IMP) = true ] && [ $(IMP_LARGE) = true ]; then $(ROBOT) extract -i $< -T imports/pr_terms_combined.txt --force true --individuals include --method BOT \
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/postprocess-module.ru \
 		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 ## Module for ontology: chebi
 
 imports/chebi_import.owl: mirror/chebi.owl imports/chebi_terms_combined.txt
-	if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/chebi_terms_combined.txt --force true --individuals include --method BOT \
+	if [ $(IMP) = true ] && [ $(IMP_LARGE) = true ]; then $(ROBOT) extract -i $< -T imports/chebi_terms_combined.txt --force true --individuals include --method BOT \
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/postprocess-module.ru \
 		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 
+.PHONY: refresh-imports
+refresh-imports:
+	make IMP=true MIR=true PAT=false IMP_LARGE=true all_imports -B
+
+.PHONY: refresh-imports-excluding-large
+refresh-imports-excluding-large:
+	make IMP=true MIR=true PAT=false IMP_LARGE=false all_imports -B
+
+.PHONY: refresh-%
+refresh-%:
+	make IMP=true IMP_LARGE=true MIR=true PAT=false imports/$*_import.owl -B
 
 
 
@@ -234,6 +251,7 @@ imports/chebi_import.owl: mirror/chebi.owl imports/chebi_terms_combined.txt
 
 IMP=true # Global parameter to bypass import generation
 MIR=true # Global parameter to bypass mirror generation
+IMP_LARGE=true # Global parameter to bypass handling of large imports
 PAT=true # Global parameter to bypass pattern generation
 
 ## ONTOLOGY: nbo
@@ -250,7 +268,7 @@ mirror/nbo.owl: mirror/nbo.trigger
 mirror/pr.trigger: $(SRC)
 
 mirror/pr.owl: mirror/pr.trigger
-	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/pr.owl.gz -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+	if [ $(MIR) = true ] && [ $(IMP) = true ] && [ $(IMP_LARGE) = true ]; then $(ROBOT) convert -I $(URIBASE)/pr.owl.gz -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: mirror/%.owl
 
 
@@ -286,7 +304,7 @@ mirror/ro.owl: mirror/ro.trigger
 mirror/chebi.trigger: $(SRC)
 
 mirror/chebi.owl: mirror/chebi.trigger
-	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/chebi.owl.gz -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+	if [ $(MIR) = true ] && [ $(IMP) = true ] && [ $(IMP_LARGE) = true ]; then $(ROBOT) convert -I $(URIBASE)/chebi.owl.gz -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: mirror/%.owl
 
 
@@ -523,10 +541,10 @@ $(ONT)-simple-non-classified.owl: $(SRC) $(OTHER_SRC) $(ONTOLOGYTERMS)
 
 .PHONY: validate_idranges
 validate_idranges:
-	amm ../scripts/validate_id_ranges.sc mp-idranges.owl
+	amm $(SCRIPTSDIR)/validate_id_ranges.sc mp-idranges.owl
 
 .PHONY: update_repo
 update_repo:
-	sh ../scripts/update_repo.sh
+	sh $(SCRIPTSDIR)/update_repo.sh
 
 include mp.Makefile
