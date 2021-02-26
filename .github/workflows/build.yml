@@ -22,7 +22,7 @@ jobs:
       - name: Run ontology release
         env:
           DEFAULT_BRANCH: main
-        run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' prepare_release IMP=true PAT=false IMP_LARGE=false && echo "Release finished. Note: large ontologies imports are not built due to memory restrictions on Github actions."
+        run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' prepare_release IMP=true PAT=false IMP_LARGE=false && echo 'Release finished. Note: large ontologies imports are not built due to memory restrictions on Github actions.'
       - name: Upload Release Artifacts
         uses: actions/upload-artifact@v2
         with:
