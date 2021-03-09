@@ -43,12 +43,17 @@ labels.csv: $(SRC)
 #######################################################
 
 patternised_classes.txt: .FORCE
-	$(ROBOT) query -f csv -i ../patterns/definitions.owl --query ../sparql/mp_terms.sparql $@
-	sed -i 's/http[:][/][/]purl.obolibrary.org[/]obo[/]//g' $@
-	sed -i '/^[^M]/d' $@
+	$(ROBOT) query -f csv -i ../patterns/definitions.owl --query ../sparql/mp_terms.sparql $@.tmp
+	sed -i 's/http[:][/][/]purl.obolibrary.org[/]obo[/]//g' $@.tmp
+	sed -i '/^[^M]/d' $@.tmp
+	cat $@.tmp | tr -s '\r\n' '|' > $@
+	truncate -s -1 $@ && rm -f $@.tmp
+
 
 remove_patternised_classes: $(SRC) patternised_classes.txt
-	sed -i -r "/^EquivalentClasses[(][<]http[:][/][/]purl.obolibrary.org[/]obo[/]($(shell cat patternised_classes.txt | xargs | sed -e 's/ /\|/g'))/d" mp-edit.owl
+	sed -i -r "/^EquivalentClasses[(][<]http[:][/][/]purl.obolibrary.org[/]obo[/]($(shell cat patternised_classes.txt))/d" $(SRC)
+
+
 
 #$(ROBOT) remove -i $< -T patternised_classes.txt --axioms equivalent --preserve-structure false -o $(SRC).ofn && mv $(SRC).ofn $(SRC)
 
@@ -57,9 +62,9 @@ remove_patternised_classes: $(SRC) patternised_classes.txt
 #	all_imports: $(IMPORT_FILES)
 	 
 #	@ -253,20 +249,6 @@ imports/%_terms_combined.txt: seed.txt imports/%_terms.txt
-	# -- Generate Import Modules --
-	#
-	# This pattern uses ROBOT to generate an import module
+# -- Generate Import Modules --
+#
+# This pattern uses ROBOT to generate an import module
 
 #MIRROR_FILES = $(patsubst %, mirror/%.owl, $(IMPORTS))
 
