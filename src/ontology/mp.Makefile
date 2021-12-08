@@ -54,6 +54,8 @@ remove_patternised_classes: $(SRC) patternised_classes.txt
 	sed -i -r "/^EquivalentClasses[(][<]http[:][/][/]purl.obolibrary.org[/]obo[/]($(shell cat patternised_classes.txt))/d" $(SRC)
 
 
+eq:
+	amm $(SCRIPTSDIR)/eq.sc $(SRC) $@.owl
 
 #$(ROBOT) remove -i $< -T patternised_classes.txt --axioms equivalent --preserve-structure false -o $(SRC).ofn && mv $(SRC).ofn $(SRC)
 

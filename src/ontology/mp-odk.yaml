@@ -28,7 +28,10 @@ import_group:
       use_gzipped: TRUE
       is_large: TRUE
     - id: go
-    - id: uberon 
+    - id: uberon
+    - id: upheno
+      module_type: custom
+      mirror_from: https://bbop-ontologies.s3.amazonaws.com/upheno/current/upheno-release/all/upheno_all_with_relations.owl
     - id: ro
     - id: chebi
       use_gzipped: TRUE
