@@ -80,3 +80,15 @@ eq:
 #	$(ROBOT) extract -i $< -T signature.txt --method BOT \
 #		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
 #.PRECIOUS: imports/all_import.owl
+
+UPHENO_JAR="https://github.com/obophenotype/upheno-dev/raw/master/src/scripts/upheno-relationship-augmentation.jar"
+
+syn_upheno_generator:
+	wget $(UPHENO_JAR) -O ../scripts/upheno-relationship-augmentation.jar
+
+tmp/phenotype_classes.txt: $(SRC)
+	$(ROBOT) query -i $< --query ../sparql/mp_terms.sparql $@
+
+components/eq-relations.owl: $(SRC) tmp/phenotype_classes.txt
+	java -jar ../scripts/upheno-relationship-augmentation.jar $< $(TMPDIR) tmp/phenotype_classes.txt &&\
+	$(ROBOT) annotate -i tmp/upheno_has_phenotype_affecting.owl --ontology-iri $(ONTBASE)/$@ -o $@

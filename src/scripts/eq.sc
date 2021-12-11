@@ -13,6 +13,8 @@ def main(inputFile: os.Path, outputFile: os.Path): Unit = {
   val HasPart = ObjectProperty("http://purl.obolibrary.org/obo/BFO_0000051")
   val InheresIn = ObjectProperty("http://purl.obolibrary.org/obo/RO_0000052")
   val manager = OWLManager.createOWLOntologyManager()
+  val df = OWLManager.getOWLDataFactory()
+  val relO = manager.createOntology()
   val inputOntology = manager.loadOntology(IRI.create(inputFile.toIO))
   val allAxioms = inputOntology.getAxioms(Imports.INCLUDED).asScala.to(Set)
   // just for example...

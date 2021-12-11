@@ -46,3 +46,4 @@ src/ontology/reports/
 src/patterns/pattern_owl_seed.txt
 src/ontology/qc.owl
 src/ontology/ontologyterms-test.txt
+src/ontology/imports/upheno_terms_combined.txt

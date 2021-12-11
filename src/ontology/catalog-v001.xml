@@ -11,6 +11,7 @@
         <uri id="Automatically generated entry, Timestamp=1569338358152" name="http://purl.obolibrary.org/obo/mp/imports/ro_import.owl" uri="imports/ro_import.owl"/>
         <uri id="Automatically generated entry, Timestamp=1569338358152" name="http://purl.obolibrary.org/obo/mp/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
         <uri id="Automatically generated entry, Timestamp=1569338358152" name="http://purl.obolibrary.org/obo/mp/imports/upheno_import.owl" uri="imports/upheno_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1569338358152" name="http://purl.obolibrary.org/obo/mp/components/eq-relations.owl" uri="components/eq-relations.owl"/>
         <uri id="Automatically generated entry, Timestamp=1569338358152" name="http://purl.obolibrary.org/obo/mp/patterns/definitions.owl" uri="../patterns/definitions.owl"/>
       </group>
 </catalog>

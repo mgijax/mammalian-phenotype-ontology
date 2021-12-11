@@ -30,8 +30,8 @@ import_group:
     - id: go
     - id: uberon
     - id: upheno
-      module_type: custom
-      mirror_from: https://bbop-ontologies.s3.amazonaws.com/upheno/current/upheno-release/all/upheno_all_with_relations.owl
+      module_type: mirror
+      mirror_from: https://raw.githubusercontent.com/obophenotype/upheno-dev/master/src/ontology/components/upheno-relations.owl
     - id: ro
     - id: chebi
       use_gzipped: TRUE
