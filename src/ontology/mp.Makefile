@@ -13,6 +13,9 @@ qc.owl: $(SRC)
 		filter --select ontology --term-file ontologyterms-test.txt --trim false \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
 
+test_hp_compatible: $(SRC)
+	$(ROBOT) merge -i $< -I $(URIBASE)/hp/hp-base.owl reason
+
 test_obo: qc.owl
 	$(ROBOT) annotate --input $< --ontology-iri $(URIBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY) \
 		convert --check false -f obo $(OBO_FORMAT_OPTIONS) -o qc.tmp.obo && grep -v ^owl-axioms qc.tmp.obo > mp.obo && rm qc.tmp.obo
