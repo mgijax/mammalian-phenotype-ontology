@@ -94,7 +94,7 @@ all_main: $(MAIN_FILES)
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
 
-IMPORTS =  nbo pr go uberon upheno ro chebi pato cl mpath
+IMPORTS =  nbo pr go uberon ro chebi pato cl mpath
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -240,10 +240,6 @@ imports/pr_import.owl: mirror/pr.owl imports/pr_terms_combined.txt
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/postprocess-module.ru \
 		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 
-## Module for ontology: upheno
-
-imports/upheno_import.owl: mirror/upheno.owl
-	echo "ERROR: You have configured your default module type to be custom; this behavior needs to be overwritten in mp.Makefile!" && false
 ## Module for ontology: chebi
 
 imports/chebi_import.owl: mirror/chebi.owl imports/chebi_terms_combined.txt
@@ -318,15 +314,6 @@ mirror/uberon.trigger: $(SRC)
 mirror/uberon.owl: mirror/uberon.trigger
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/uberon.owl --create-dirs -o mirror/uberon.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/uberon.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: mirror/uberon.owl
-
-
-## ONTOLOGY: upheno
-## Copy of upheno is re-downloaded whenever source changes
-mirror/upheno.trigger: $(SRC)
-
-mirror/upheno.owl: mirror/upheno.trigger
-	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://bbop-ontologies.s3.amazonaws.com/upheno/current/upheno-release/all/upheno_all_with_relations.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
-.PRECIOUS: mirror/upheno.owl
 
 
 ## ONTOLOGY: ro
