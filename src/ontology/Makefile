@@ -38,8 +38,8 @@ REPORT_FAIL_ON =            ERROR
 REPORT_LABEL =              
 REPORT_PROFILE_OPTS =       
 OBO_FORMAT_OPTIONS =        
-SPARQL_VALIDATION_CHECKS =  
-SPARQL_EXPORTS =            
+SPARQL_VALIDATION_CHECKS =  owldef-self-reference iri-range label-with-iri 
+SPARQL_EXPORTS =            basic-report class-count-by-prefix edges xrefs obsoletes synonyms 
 ODK_VERSION_MAKEFILE =      v1.3.0
 
 TODAY ?=                    $(shell date +%Y-%m-%d)
@@ -69,7 +69,7 @@ RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-simple-non-classified $(ONT)-full 
 all: odkversion test all_assets
 
 .PHONY: test
-test: odkversion dosdp_validation sparql_test robot_reports 
+test: odkversion dosdp_validation sparql_test robot_reports $(REPORTDIR)/validate_profile_owl2dl_$(ONT).owl.txt
 	$(ROBOT) reason --input $(SRC) --reasoner ELK  --equivalent-classes-allowed asserted-only --exclude-tautologies structural --output test.owl && rm test.owl && echo "Success"
 
 .PHONY: odkversion
@@ -206,7 +206,7 @@ CLEANFILES=$(MAIN_FILES) $(SRCMERGED)
 prepare_release: all
 	rsync -R $(RELEASE_ASSETS) $(RELEASEDIR) &&\
 	mkdir -p $(RELEASEDIR)/patterns && cp -rf $(PATTERN_RELEASE_FILES) $(RELEASEDIR)/patterns &&\
-	rm -f $(patsubst %, ./%, $(CLEANFILES)) &&\
+	rm -f $(CLEANFILES) &&\
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on your git hosting site such as GitHub or GitLab"
 
 .PHONY: prepare_initial_release
@@ -427,7 +427,7 @@ PATTERN_CLEAN_FILES=../patterns/all_pattern_terms.txt \
 # the environment does not malicously set `PATTERN_CLEAN_FILES` to `\`.
 .PHONY: pattern_clean
 pattern_clean:
-	rm -f $(patsubst %, ./%, $(PATTERN_CLEAN_FILES))
+	rm -f $(PATTERN_CLEAN_FILES)
 
 .PHONY: patterns
 patterns dosdp:
@@ -638,8 +638,9 @@ update_repo:
 .PHONY: clean
 clean:
 	make pattern_clean
-	rm -rf ./tmp/* ./mirror/*
-	rm -f $(patsubst %, ./%, $(CLEANFILES))
+	[ -n "$(MIRRORDIR)" ] && [ $(MIRRORDIR) != "." ] && [ $(MIRRORDIR) != "/" ] && [ $(MIRRORDIR) != ".." ] && [ -d ./$(MIRRORDIR) ] && rm -rf ./$(MIRRORDIR)/*
+	[ -n "$(TMPDIR)" ] && [ $(TMPDIR) != "." ] && [ $(TMPDIR) != "/" ] && [ $(TMPDIR) != ".." ] && [ -d ./$(TMPDIR) ] && rm -rf ./$(TMPDIR)/*
+	rm -f $(CLEANFILES)
 
 .PHONY: help
 help:
