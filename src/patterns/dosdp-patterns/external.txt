@@ -8,3 +8,4 @@ http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomica
 http://purl.obolibrary.org/obo/upheno/patterns-dev/blisteredAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abscessInLocation.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalWeightOfAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/cystInLocation.yaml
