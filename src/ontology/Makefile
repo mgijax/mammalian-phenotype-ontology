@@ -97,7 +97,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  nbo pr go uberon upheno ro chebi pato cl mpath
+IMPORTS =  nbo pr go uberon ro chebi pato cl mpath
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -271,13 +271,6 @@ $(IMPORTDIR)/pr_import.owl: $(MIRRORDIR)/pr.owl $(IMPORTDIR)/pr_terms_combined.t
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/postprocess-module.ru \
 		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 
-## Module for ontology: upheno
-
-$(IMPORTDIR)/upheno_import.owl: $(MIRRORDIR)/upheno.owl $(IMPORTDIR)/upheno_terms_combined.txt
-	if [ $(IMP) = true ]; then $(ROBOT) merge -i $< \
-		query --update ../sparql/preprocess-module.ru --update ../sparql/inject-subset-declaration.ru --update ../sparql/postprocess-module.ru \
-		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@; fi
-
 ## Module for ontology: chebi
 
 $(IMPORTDIR)/chebi_import.owl: $(MIRRORDIR)/chebi.owl $(IMPORTDIR)/chebi_terms_combined.txt
@@ -357,13 +350,6 @@ mirror-go: | $(TMPDIR)
 .PRECIOUS: $(MIRRORDIR)/uberon.owl
 mirror-uberon: | $(TMPDIR)
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/uberon.owl --create-dirs -o $(MIRRORDIR)/uberon.owl --retry 4 --max-time 200 && $(ROBOT) convert -i $(MIRRORDIR)/uberon.owl -o $@.tmp.owl && mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
-
-
-## ONTOLOGY: upheno
-.PHONY: mirror-upheno
-.PRECIOUS: $(MIRRORDIR)/upheno.owl
-mirror-upheno: | $(TMPDIR)
-	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://raw.githubusercontent.com/obophenotype/upheno-dev/master/src/ontology/components/upheno-relations.owl -o $@.tmp.owl && mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
 
 
 ## ONTOLOGY: ro
