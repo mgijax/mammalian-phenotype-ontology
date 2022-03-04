@@ -92,6 +92,6 @@ syn_upheno_generator:
 tmp/phenotype_classes.txt: $(SRC)
 	$(ROBOT) query -i $< --query ../sparql/mp_terms.sparql $@
 
-components/eq-relations.owl: $(SRC) tmp/phenotype_classes.txt
+components/eq-relations.owl: mp.owl tmp/phenotype_classes.txt
 	java -jar ../scripts/upheno-relationship-augmentation.jar $< $(TMPDIR) tmp/phenotype_classes.txt &&\
 	$(ROBOT) annotate -i tmp/upheno_has_phenotype_affecting.owl --ontology-iri $(ONTBASE)/$@ -o $@
