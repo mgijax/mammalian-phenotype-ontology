@@ -1,15 +1,11 @@
-PREFIX oio: <http://www.geneontology.org/formats/oboInOwl#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX never_in_taxon: <http://purl.obolibrary.org/obo/RO_0002161>
+PREFIX present_in_taxon: <http://purl.obolibrary.org/obo/RO_0002175>
 
-SELECT ?term ?xl ?y ?yl ?z ?zl WHERE {
-  ?term rdfs:subClassOf ?y ;
-     rdfs:label ?xl .
-  ?y rdfs:subClassOf+ ?z ;
-     rdfs:label ?yl .
-  ?term rdfs:subClassOf ?z .
-  ?z rdfs:label ?zl .
-  
+SELECT ?term ?property ?taxon
+WHERE {
+  VALUES ?property { never_in_taxon: present_in_taxon: }
+  ?term ?property ?taxon .
+  FILTER (!isIRI(?taxon) || !STRSTARTS(STR(?taxon), "http://purl.obolibrary.org/obo/NCBITaxon_"))
   FILTER(isIRI(?term) && (STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/MP_") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/MP_") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/mp[#]") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/mp-edit[#]") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/mp/") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/mp-edit/")))
 }
 
