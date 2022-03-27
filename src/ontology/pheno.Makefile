@@ -39,5 +39,5 @@ $(TMPDIR)/upheno_has_phenotype_affecting.owl: ../scripts/upheno-relationship-aug
 $(TMPDIR)/upheno-relations.owl: | $(TMPDIR)
 	wget $(UPHENO_RELATIONS) -O $@
 
-$(COMPONENTSDIR)/eq-relations.owl: $(TMPDIR)/upheno_has_phenotype_affecting.owl $(TMPDIR)/upheno-relations.owl
-	$(ROBOT) merge $(patsubst %, -i %, $^) annotate --ontology-iri $(ONTBASE)/$@ -o $@
+$(COMPONENTSDIR)/eq-relations.owl: $(TMPDIR)/upheno_has_phenotype_affecting.owl $(TMPDIR)/upheno-relations.owl $(SRC)
+	$(ROBOT) merge $(patsubst %, -i %, $^) reason materialize --term UPHENO:0000003 --term UPHENO:0000001 filter --term UPHENO:0000003 --term UPHENO:0000001 --trim false annotate --ontology-iri $(ONTBASE)/$@ -o $@
