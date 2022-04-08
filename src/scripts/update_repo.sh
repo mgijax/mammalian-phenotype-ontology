@@ -22,6 +22,7 @@ cp -r target/$OID/src/sparql/* $SRCDIR/sparql/
 mkdir -p $ROOTDIR/.github
 mkdir -p $ROOTDIR/.github/workflows
 cp -n target/$OID/.github/workflows/qc.yml $ROOTDIR/.github/workflows/qc.yml
+cp -n target/$OID/.github/workflows/diff.yml $ROOTDIR/.github/workflows/diff.yml
 
 
 echo "WARNING: These files should be manually migrated: mkdocs.yaml, .gitignore, src/ontology/catalog.xml (if you added a new import or component)"
