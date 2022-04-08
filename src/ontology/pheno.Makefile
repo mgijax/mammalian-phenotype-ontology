@@ -47,4 +47,4 @@ $(TMPDIR)/upheno-relations-materialized.owl: $(TMPDIR)/upheno-relations-merged-r
 	$(RELATION_GRAPH) --ontology-file $< --output-file $@ --mode owl --property 'http://purl.obolibrary.org/obo/UPHENO_0000001' --property 'http://purl.obolibrary.org/obo/UPHENO_0000003'
 
 $(COMPONENTSDIR)/eq-relations.owl: $(TMPDIR)/upheno-relations-materialized.owl
-	$(ROBOT) merge -i $< filter --term UPHENO:0000003 --term UPHENO:0000001 --trim false annotate --ontology-iri $(ONTBASE)/$@ -o $@
+	$(ROBOT) merge -i $(TMPDIR)/upheno-relations-materialized.owl reduce filter --term UPHENO:0000003 --term UPHENO:0000001 --trim false annotate --ontology-iri $(ONTBASE)/$@ -o $@
