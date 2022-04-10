@@ -28,6 +28,7 @@ import_group:
       use_gzipped: TRUE
       is_large: TRUE
     - id: go
+      mirror_from: http://purl.obolibrary.org/obo/go/go-base.owl
     - id: uberon
     - id: ro
     - id: chebi
