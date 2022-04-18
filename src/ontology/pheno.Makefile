@@ -41,10 +41,12 @@ $(TMPDIR)/upheno-relations.owl: | $(TMPDIR)
 	wget $(UPHENO_RELATIONS) -O $@
 
 $(TMPDIR)/upheno-relations-merged-reasoned.owl: $(TMPDIR)/upheno_has_phenotype_affecting.owl $(TMPDIR)/upheno-relations.owl $(SRC)
-	$(ROBOT) merge -i $(SRC) unmerge -i $@ merge -i $(TMPDIR)/upheno_has_phenotype_affecting.owl -i $(TMPDIR)/upheno-relations.owl reason materialize --term UPHENO:0000003 materialize --term UPHENO:0000001 -o $@
+	$(ROBOT) merge -i $(SRC) unmerge -i $@ \
+		merge -i $(TMPDIR)/upheno_has_phenotype_affecting.owl -i $(TMPDIR)/upheno-relations.owl \
+		reason query --update ../sparql/eq-process-anatomy.ru materialize --term UPHENO:0000003 --term UPHENO:0000001 --term UPHENO:0000005 -o $@
 
-$(TMPDIR)/upheno-relations-materialized.owl: $(TMPDIR)/upheno-relations-merged-reasoned.owl
-	$(RELATION_GRAPH) --ontology-file $< --output-file $@ --mode owl --property 'http://purl.obolibrary.org/obo/UPHENO_0000001' --property 'http://purl.obolibrary.org/obo/UPHENO_0000003'
+#$(TMPDIR)/upheno-relations-materialized.owl: $(TMPDIR)/upheno-relations-merged-reasoned.owl
+#	$(RELATION_GRAPH) --ontology-file $< --output-file $@ --mode owl --property 'http://purl.obolibrary.org/obo/UPHENO_0000001' --property 'http://purl.obolibrary.org/obo/UPHENO_0000003'
 
-$(COMPONENTSDIR)/eq-relations.owl: $(TMPDIR)/upheno-relations-materialized.owl
-	$(ROBOT) merge -i $(TMPDIR)/upheno-relations-materialized.owl reduce filter --term UPHENO:0000003 --term UPHENO:0000001 --trim false annotate --ontology-iri $(ONTBASE)/$@ -o $@
+$(COMPONENTSDIR)/eq-relations.owl: $(TMPDIR)/upheno-relations-merged-reasoned.owl
+	$(ROBOT) merge -i $(TMPDIR)/upheno-relations-merged-reasoned.owl reduce filter --term UPHENO:0000003 --term UPHENO:0000005 --term UPHENO:0000001 --trim false annotate --ontology-iri $(ONTBASE)/$@ -o $@

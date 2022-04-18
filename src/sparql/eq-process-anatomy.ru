@@ -1,0 +1,41 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix IAO: <http://purl.obolibrary.org/obo/IAO_>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix oio: <http://www.geneontology.org/formats/oboInOwl#>
+prefix def: <http://purl.obolibrary.org/obo/IAO_0000115>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX RO: <http://purl.obolibrary.org/obo/RO_>
+PREFIX UPHENO: <http://purl.obolibrary.org/obo/UPHENO_>
+
+#Get all GO process bearers and their related anatomy
+
+INSERT {
+  ?cls UPHENO:0000005 ?anatomical_entity
+}
+
+WHERE 
+{
+  values ?characteristic { RO:0000052 RO:0002314 }
+  ?cls a owl:Class.
+  ?cls owl:equivalentClass ?subq .
+  ?subq owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000051> ;
+  			   owl:someValuesFrom ?eq .
+  ?eq owl:intersectionOf ?r .
+  ?r rdf:rest ?q .
+  ?q rdf:rest|rdf:first ?t .
+  ?t owl:onProperty 	
+	?characteristic .
+  ?t owl:someValuesFrom ?bearer .
+  ?bearer rdfs:subClassOf+ <http://purl.obolibrary.org/obo/GO_0008150> .
+  ?bearer rdfs:subClassOf+ ?occurs_in .
+  ?occurs_in owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000066> ;
+  		   owl:someValuesFrom ?anatomical_entity .
+  
+  FILTER NOT EXISTS {
+    ?cls owl:deprecated "true"^^xsd:boolean
+  }
+ FILTER( !isBlank(?cls) && STRSTARTS(str(?cls), "http://purl.obolibrary.org/obo/MP_"))
+ FILTER( !isBlank(?anatomical_entity) && STRSTARTS(str(?anatomical_entity), "http://purl.obolibrary.org/obo/UBERON_"))
+
+}
