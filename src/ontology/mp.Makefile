@@ -57,6 +57,8 @@ remove_patternised_classes: $(SRC) patternised_classes.txt
 	sed -i -r "/^EquivalentClasses[(][<]http[:][/][/]purl.obolibrary.org[/]obo[/]($(shell cat patternised_classes.txt))/d" $(SRC)
 
 
+eq:
+	amm $(SCRIPTSDIR)/eq.sc $(SRC) $@.owl
 
 #$(ROBOT) remove -i $< -T patternised_classes.txt --axioms equivalent --preserve-structure false -o $(SRC).ofn && mv $(SRC).ofn $(SRC)
 
@@ -81,3 +83,5 @@ remove_patternised_classes: $(SRC) patternised_classes.txt
 #	$(ROBOT) extract -i $< -T signature.txt --method BOT \
 #		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
 #.PRECIOUS: imports/all_import.owl
+
+include pheno.Makefile
