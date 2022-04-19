@@ -10,9 +10,9 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/nbo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2021-12-15/imports/nbo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2022-04-19/imports/nbo_import.owl"/>
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/nbo/releases/2021-02-15/nbo-base.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-15</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-04-19</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1696,6 +1696,20 @@
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:xref>GO:0042711</oboInOwl:xref>
         <rdfs:label>maternal behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0000151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000044"/>
+        <obo:IAO_0000115>&quot;Behavior of a father towards his offspring.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <dc:date>2011-03-31T02:32:53Z</dc:date>
+        <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:xref>GO:0042712</oboInOwl:xref>
+        <rdfs:label>paternal behavior</rdfs:label>
     </owl:Class>
     
 
