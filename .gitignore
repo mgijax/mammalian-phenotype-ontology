@@ -47,3 +47,5 @@ src/patterns/pattern_owl_seed.txt
 src/ontology/qc.owl
 src/ontology/ontologyterms-test.txt
 src/ontology/imports/*_terms_combined.txt
+build/robot.bat
+build/robot.jar
