@@ -331,7 +331,7 @@ Post-traumatic stress symptoms / disorder (PTSD)	--	--	--	--	--	--	Posttraumatic
 Priapism	priapism	MP:0003415					Priapism	HP:0200023			orcid:0000-0003-4606-0597|orcid:0000-0002-6490-7723	PMID:32732087	
 Productive (wet) cough	coughing	MP:0031088	broad	10	broad	10	Productive cough	HP:0031245	exact	10	orcid:0000-0003-4606-0597|orcid:0000-0002-6490-7723	PMID:32574165	
 Proximal tubule brush border loss	proximal convoluted tubule brush border loss	MP:0011352	exact	10	--	--	--	--	--	--	orcid:0000-0003-4606-0597|orcid:0000-0002-6490-7723	PMID:32327202	
-Pseudo-chilblain lesions (chilblain‐like acral eruptions, "COVID finger / toes")	--	--	--	--	--	--	Pseudo-chilblains on toes	HP:0034036	exact	10	orcid:0000-0003-4606-0597 	PMID:32348545, PMID:32390279	SEE HPO GITHUB ISSUE
+Pseudo-chilblain lesions (chilblain‐like acral eruptions, 'COVID finger / toes')	--	--	--	--	--	--	Pseudo-chilblains on toes	HP:0034036	exact	10	orcid:0000-0003-4606-0597 	PMID:32348545, PMID:32390279	SEE HPO GITHUB ISSUE
 Pulmonary alveolar edema	pulmonary alveolar edema	MP:0010894	exact	10	narrow	10	Pulmonary edema	HP:0100598	broad	10	orcid:0000-0003-4606-0597|orcid:0000-0002-6490-7723	PMID:32526193	
 Pulmonary alveolar hemorrhage	pulmonary alveolar hemorrhage	MP:0010909	exact	10	broad	10	Diffuse alveolar hemorrhage	HP:0025420	narrow	10	orcid:0000-0003-4606-0597|orcid:0000-0002-6490-7723	PMID:32620220	
 Red eye	--	--	--	--	--	--	Red eye	HP:0025337	exact	10	orcid:0000-0003-4606-0597|orcid:0000-0002-6490-7723	PMID:32585259	https://github.com/mgijax/mammalian-phenotype-ontology/issues/3494
