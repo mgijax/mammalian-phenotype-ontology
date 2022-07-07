@@ -11,6 +11,8 @@ The obo release at JAX is handled from here.
 
 We have deprecated the berkleybop server process. If you are currently getting the MP file directly from berkleybop, please switch to using the purl (http://purl.obolibrary.org/obo/mp.obo and  http://purl.obolibrary.org/obo/mp.owl) or getting the files directly from the MGI ftp site (http://www.informatics.jax.org/downloads/reports/index.html#pheno).
 
+The OBO formatted file, mp.obo, on the MGI site is renamed to MPheno_OBO.ontology. 
+
 ## Project Page
 
  * https://github.com/obophenotype/mammalian-phenotype-ontology/
