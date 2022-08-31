@@ -49,3 +49,15 @@ src/ontology/ontologyterms-test.txt
 src/ontology/imports/*_terms_combined.txt
 build/robot.bat
 build/robot.jar
+mp-base.json
+mp-base.obo
+mp-base.owl
+mp-full.json
+mp-full.obo
+mp-full.owl
+mp-simple-non-classified.json
+mp-simple-non-classified.obo
+mp-simple-non-classified.owl
+mp.json
+mp.obo
+mp.owl
