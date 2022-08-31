@@ -10,9 +10,9 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/nbo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2022-04-19/imports/nbo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2022-08-31/imports/nbo_import.owl"/>
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/nbo/releases/2021-02-15/nbo-base.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-04-19</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-08-31</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -253,12 +253,6 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_35703 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35703"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0007588 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007588"/>
     
 
 
@@ -773,67 +767,6 @@
         <oboInOwl:hasExactSynonym xml:lang="en">vocalize</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label>vocalization behavior</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NBO_0000038 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000038">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000035"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#is_about"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007588"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000035"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007588"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>&quot;The elimination by an organism of the waste products that arise as a result of metabolic activity. These products include water, carbon dioxide (CO2), and nitrogenous compounds.&quot; [wikipedia:Excretion]</obo:IAO_0000115>
-        <dc:date>2011-04-14T01:03:39Z</dc:date>
-        <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
-        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:xref>GO:0007588</oboInOwl:xref>
-        <rdfs:label>behavioral control of excretion</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NBO_0000039 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000039">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000038"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#is_about"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030421"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000038"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030421"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>The behavioral control of defecation. [wikipedia:defecation]</obo:IAO_0000115>
-        <dc:date>2011-04-14T01:03:39Z</dc:date>
-        <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
-        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label>behavioral control of defecation</rdfs:label>
     </owl:Class>
     
 
@@ -4959,64 +4892,6 @@
         <oboInOwl:created_by>gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label>emission behavior phenotype</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NBO_0000769 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000769">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000038"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000768"/>
-        <obo:IAO_0000115>&quot;Observable characteristic of behaviour related to the elimination by an organism of the waste products that arise as a result of metabolic activity. These products include water, carbon dioxide (CO2), and nitrogenous compounds.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <dc:date>2012-03-19T03:46:55Z</dc:date>
-        <oboInOwl:created_by>gkoutos</oboInOwl:created_by>
-        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label>behavioral control of excretion phenotype</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NBO_0000770 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000770">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000039"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000769"/>
-        <obo:IAO_0000115>&quot;Observable characteristic of behaviour related to the expulsion of feces from the rectum.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <dc:date>2012-03-19T03:47:09Z</dc:date>
-        <oboInOwl:created_by>gkoutos</oboInOwl:created_by>
-        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label>behavioral control of defecation phenotype</rdfs:label>
     </owl:Class>
     
 
