@@ -10,9 +10,9 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/mpath_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2021-12-15/imports/mpath_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2022-08-31/imports/mpath_import.owl"/>
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/mpath/2020-05-19/mpath.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-15</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-08-31</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -2891,24 +2891,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MPATH_62 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_62">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_56"/>
-        <obo:IAO_0000115>Formation of an epithelium bounded cavity not associated with neoplasia.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>MPATH:62</oboInOwl:id>
-        <rdfs:label>cyst</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_62"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Formation of an epithelium bounded cavity not associated with neoplasia.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MPATH_622 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_622">
@@ -3077,24 +3059,6 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A focal malformation resembling a neoplasm which results from faulty development of an organ; composed of an abnormal mixture of tissue elements, or an abnormal proportion of a single element. Growth and location are usually normal for that tissue cf. Heterotopia/Choristoma MPATH:76/MPATH:477.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0781727286</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MPATH_81 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_81">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_56"/>
-        <obo:IAO_0000115>Presence of a hole/channel through a normally imperforate structure often a membrane or septum.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>MPATH:81</oboInOwl:id>
-        <rdfs:label>perforation</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_81"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Presence of a hole/channel through a normally imperforate structure often a membrane or septum.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
