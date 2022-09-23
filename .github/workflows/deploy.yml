@@ -17,14 +17,17 @@ jobs:
       - name: work around permission issue
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
         
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
       - name: Update release files
         run: cd src/ontology/ && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' GITHUB_ACTION=true prepare_release_fast
-      
       - name: Run release
         uses: softprops/action-gh-release@v1
-        if: startsWith(github.ref, 'refs/tags/')
         with:
+          generate_release_notes: true
           draft: true
+          tag_name: v${{ steps.date.outputs.date }}
           files: |
             mp.owl
             mp.obo
