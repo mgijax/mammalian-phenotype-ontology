@@ -23,19 +23,19 @@ export_formats:
 import_group:
   products: 
     - id: nbo
-      mirror_from: http://purl.obolibrary.org/obo/nbo/nbo-base.owl
+      mirror_from: http://purl.obolibrary.org/obo/nbo.owl
+      module_type: filter
     - id: pr
-      use_gzipped: TRUE
-      is_large: TRUE
+      mirror_from: https://raw.githubusercontent.com/obophenotype/pro_obo_slim/master/pr_slim.owl
     - id: go
     - id: uberon 
     - id: ro
     - id: chebi
-      use_gzipped: TRUE
-      is_large: TRUE
+      mirror_from: https://raw.githubusercontent.com/obophenotype/chebi_obo_slim/main/chebi_slim.owl
     - id: pato
+      make_base: true
     - id: cl
-      mirror_from: http://purl.obolibrary.org/obo/cl/cl-base.owl
+      mirror_from: http://purl.obolibrary.org/obo/cl/cl-simple.owl
     - id: mpath
 robot_java_args: '-Xmx8G'
 allow_equivalents: asserted-only
