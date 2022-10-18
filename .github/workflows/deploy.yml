@@ -23,7 +23,7 @@ jobs:
       - name: Update release files
         run: cd src/ontology/ && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' GITHUB_ACTION=true prepare_release_fast
       - name: Run release
-        uses: softprops/action-gh-release@v1
+        uses: gaoDean/action-gh-release@v1
         with:
           generate_release_notes: true
           draft: true
