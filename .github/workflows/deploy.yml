@@ -12,7 +12,7 @@ jobs:
       max-parallel: 1
     steps:
       - name: Checkout main branch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: work around permission issue
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
@@ -23,7 +23,7 @@ jobs:
       - name: Update release files
         run: cd src/ontology/ && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' GITHUB_ACTION=true prepare_release_fast
       - name: Run release
-        uses: softprops/action-gh-release@v1
+        uses: gaoDean/action-gh-release@v1
         with:
           generate_release_notes: true
           draft: true
