@@ -1786,3 +1786,6 @@ http://purl.obolibrary.org/obo/MP_0005270	abnormal zygomatic bone morphology	htt
 http://purl.obolibrary.org/obo/MP_0013384	abnormal Zymbal's gland morphology	http://purl.obolibrary.org/obo/UBERON_1000022	Zymbal's gland
 http://purl.obolibrary.org/obo/MP_0031449	abnormal nasal cartilage morphology	http://purl.obolibrary.org/obo/UBERON_0001823	nasal cartilage
 http://purl.obolibrary.org/obo/MP_0003755	abnormal palate morphology	http://purl.obolibrary.org/obo/UBERON_0007375	roof of mouth
+http://purl.obolibrary.org/obo/MP_0021202	abnormal palatopharyngeus muscle morphology	http://purl.obolibrary.org/obo/UBERON_0010234	palatopharyngeus muscle
+http://purl.obolibrary.org/obo/MP_0021203	abnormal palatine aponeurosis morphology	http://purl.obolibrary.org/obo/UBERON_0014780	palatine aponeurosis
+http://purl.obolibrary.org/obo/MP_0021204	abnormal superior pharyngeal constrictor muscle morphology	http://purl.obolibrary.org/obo/UBERON_0006329	superior pharyngeal constrictor
