@@ -15,9 +15,9 @@
      xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2022-10-01/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2022-10-24/imports/cl_import.owl"/>
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/cl/releases/2022-09-15/cl-simple.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-10-01</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-10-24</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -16806,7 +16806,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedTarget>A neurosecretory neuron residing mainly in the hypothalamic supraoptic and paraventricular nuclei and in a number of smaller accessory cell groups between these two nuclei, that is capable of secreting the hormones oxytocin or vasopressin, and sometimes both, into the systemic circulation.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:nv</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MP:0009467</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:10711808</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:10711808</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
