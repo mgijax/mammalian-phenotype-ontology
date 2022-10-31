@@ -12,9 +12,9 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/pato_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2022-10-28/imports/pato_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2022-10-31/imports/pato_import.owl"/>
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/pato/releases/2022-08-31/pato.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-10-28</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-10-31</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -2984,7 +2984,7 @@ See https://github.com/pato-ontology/pato/issues/331.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000623"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A quality inhering in a bearer by virtue of the bearer&apos;s protruding or projecting from the body.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>sdvc:sdvc</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sdvc:sdvc</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5312,7 +5312,7 @@ See https://github.com/pato-ontology/pato/issues/331.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001463"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A quality inhering in a cell&apos;s plasma membrane by virtue of a brief fluctuation in the bearer&apos;s potential caused by the rapid opening and closing of voltage-gated ion channels.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Wikipedia:http://en.wikipedia.org/wiki/Action_potential</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:http://en.wikipedia.org/wiki/Action_potential</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5985,7 +5985,7 @@ See https://github.com/pato-ontology/pato/issues/331.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001548"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A physical quality inhering in an entity exhibiting the physical characteristics of an amorphous (non-crystalline) form of matter between a gas and a solid that has a definite volume, but no definite shape.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://www.chemistry-dictionary.com/definition/liquid.php</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:http://www.chemistry-dictionary.com/definition/liquid.php</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -10531,7 +10531,7 @@ See https://github.com/pato-ontology/pato/issues/331.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001940"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A size quality inhering in a bearer by virtue of the bearer&apos;s being many folds greater relative to the normal average.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PATOC:UMH</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:UMH</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -11020,7 +11020,7 @@ See https://github.com/pato-ontology/pato/issues/331.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002021"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A convex 3-D shape quality inhering in a bearer by virtue of the bearer&apos;s resembling a cone (a 3-D shape with a round cross section that tapers).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:http://en.wikipedia.org/wiki/Cone_(geometry)</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:http://en.wikipedia.org/wiki/Cone_(geometry)</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -11763,6 +11763,69 @@ See https://github.com/pato-ontology/pato/issues/331.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002168"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An angular placement quality inhering in a bearer by virtue of the bearer being changed in position in relation to another entity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002169">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001786"/>
+        <obo:IAO_0000115>A shape quality inhering in a bearer by virtue of the bearer&apos;s being split along the median axis.</obo:IAO_0000115>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-2061-091X"/>
+        <oboInOwl:creation_date>2010-02-03T04:37:15Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0002169</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#value_slim"/>
+        <rdfs:label>split medially</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002169"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A shape quality inhering in a bearer by virtue of the bearer&apos;s being split along the median axis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002170 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002170">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001786"/>
+        <obo:IAO_0000115>A shape quality inhering in a bearer by virtue of the bearer&apos;s being split asymmetrically on one side.</obo:IAO_0000115>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-2061-091X"/>
+        <oboInOwl:creation_date>2010-02-03T04:37:40Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0002170</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#value_slim"/>
+        <rdfs:label>split laterally</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002170"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A shape quality inhering in a bearer by virtue of the bearer&apos;s being split asymmetrically on one side.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002171">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001786"/>
+        <obo:IAO_0000115>A shape quality inhering in a bearer by virtue of the bearer&apos;s being split on two side.</obo:IAO_0000115>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-2061-091X"/>
+        <oboInOwl:creation_date>2010-02-03T04:37:53Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0002171</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#value_slim"/>
+        <rdfs:label>split bilaterally</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002171"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A shape quality inhering in a bearer by virtue of the bearer&apos;s being split on two side.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -12584,7 +12647,7 @@ See https://github.com/pato-ontology/pato/issues/331.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002318"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A shape constituting a transition between a rectangle and a circle; a closed curve, of which the circle and ellipse are special cases, whose parametric equation is x = a.cos2/rt, y = b.cos2/rt</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiktionary:superellipse</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>wiktionary:superellipse</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
