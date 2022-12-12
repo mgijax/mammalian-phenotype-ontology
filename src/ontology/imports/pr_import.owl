@@ -11,9 +11,9 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/pr_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2022-11-15/imports/pr_import.owl"/>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/pr/obophenotype/releases/2022-11-08/pr_slim.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-11-15</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2022-12-12/imports/pr_import.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/pr/obophenotype/releases/2022-12-09/pr_slim.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-12-12</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -318,7 +318,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33708"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>protein residue</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -506,14 +506,14 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PRO:WCB</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:WCB</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>natural protein</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
@@ -540,7 +540,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000000008"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein with a core domain composition consisting of a signal peptide, a variable propeptide region and a Transforming growth factor beta like domain (Pfam:PF00019), which is a cystine-knot domain containing four conserved beta strands, S1-S4, which form two antiparallel beta sheets (SI-S2 and S3-S4) interconnected by three disulfide bridges in a knot-like topology. Cystines [II-V] and [III-VI] form a ring through which the remaining disulfide bond (Cys[I-IV]) penetrates. Insertion of different variable regions into this common motif has given rise to various subclasses of the growth factor cystine-knot domain.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:CNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:CNA</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -563,13 +563,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000000017"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A type II interferon that is a translation product of the human IFNG gene or a 1:1 ortholog thereof. The core domain structure consists of an Interferon gamma domain (Pfam:PF00714) that is four-helical cytokine domain with an additional helix in one of the crossover connections. It is a cytokine produced by lymphocytes activated by specific antigens or mitogens that has important immunoregulatory functions.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:CNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:CNA</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000000017"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IFNG</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -610,7 +610,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000000033"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein with a core domain composition consisting of an N-terminal cytosolic domain, a type II transmembrane domain and a C-terminal TNF domain (Pfam:PF00229).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:CNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:CNA</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -653,13 +653,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000000085"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A thrombospondin subgroup B that is a translation product of the human COMP gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:CNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:CNA</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000000085"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>COMP</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -690,13 +690,13 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A tumor necrosis factor, TNF-like that is a translation product of the human TNF gene or a 1:1 ortholog thereof. Tumour necrosis factor alpha (TNF) is a pleiotropic cytokine that mediates apoptosis, cell proliferation, immunomodulation, inflammation, viral replication, allergy, arthritis, septic shock, insulin resistance, autoimmune diseases, and other pathological conditions. TNF transduces these cellular responses through two distinct receptors: type I, which are expressed on all cell types, and type II, which are expressed only on cells of the immune system and endothelial cells.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:11053079</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PRO:CNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:CNA</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000000134"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>TNF</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -730,7 +730,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein with a core domain composition consisting of a propeptide region and an Interleukin-1 / 18 domain.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:8001745</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PRO:CNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:CNA</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -760,7 +760,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001092"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>fam:IL-17</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -784,14 +784,14 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001135"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interleukin-1 that is a translation product of the human IL1A gene or a 1:1 ortholog thereof. Critical mediator of the immune and inflammatory responses.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:CNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:CNA</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Wikipedia:Interleukin_1</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001135"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL1A</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -821,13 +821,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001136"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interleukin-1 that is a translation product of the human IL1B gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:CNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:CNA</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001136"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL1B</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -856,13 +856,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001317"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human IL7 gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:JAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:JAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001317"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL7</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -883,7 +883,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001335"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein with a core domain architecture consisting of an N-terminal Interleukin 10 (Pfam:PF00726) domain.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:CNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:CNA</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -910,13 +910,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001368"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human IL12A gene or a 1:1 ortholog thereof. It associates with interleukin-12 subunit beta to form the interleukin-23. Interleukin-12 subunit alpha associates with interleukin-27 subunit beta to form the interleukin-35.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:CNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:CNA</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001368"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL12A</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -951,13 +951,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001369"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human IL12B gene or a 1:1 ortholog thereof. Interleukin-12 subunit beta associates with interleukin-12 subunit alpha or interleukin-23 subunit alpha to form the interleukin-23.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:CNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:CNA</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001369"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL12B</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -990,13 +990,13 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human IL13 gene or a 1:1 ortholog thereof. Interleukin-13 is a pleiotropic cytokine which may be important in the regulation of the inflammatory and immune responses. It inhibits inflammatory cytokine production and synergises with IL-2 in regulating interferon-gamma synthesis. The sequences of IL-4 and IL-13 are distantly related.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PANTHER:PTHR11322</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PRO:CNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:CNA</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001370"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL13</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -1025,13 +1025,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001373"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human IL15 gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:CNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:CNA</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001373"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL15</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -1053,13 +1053,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001374"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human IL16 gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:CNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:CNA</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001374"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL16</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -1089,13 +1089,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001376"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human IL18 gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:CNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:CNA</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001376"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL18</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -1134,13 +1134,13 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human IL2 gene or a 1:1 ortholog thereof. Interleukin-2 has a dual role in maintaining tolerance and contributing to immunity.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:18062768</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PRO:CNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:CNA</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001379"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL2</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -1164,13 +1164,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001382"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human IL21 gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:CNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:CNA</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001382"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL21</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -1198,14 +1198,14 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001384"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human IL23A gene or a 1:1 ortholog thereof. Interleukin-23 subunit alpha associates with interleukin-12 subunit beta to form the interleukin-23, a heterodimeric cytokine which functions in innate and adaptive immunity.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:CNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:CNA</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UniProtKB:Q9NPF7</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001384"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL23A</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -1246,13 +1246,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001387"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human IL3 gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:CNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:CNA</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001387"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL3</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -1289,13 +1289,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001391"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human IL4 gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:JAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:JAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001391"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL4</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -1325,13 +1325,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001392"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human IL5 gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:CNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:CNA</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001392"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL5</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -1364,13 +1364,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001393"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human IL6 gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:JAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:JAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001393"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL6</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -1412,13 +1412,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001395"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human CXCL8 gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:WCB</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:WCB</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001395"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>CXCL8</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -1449,13 +1449,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001396"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human IL9 gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:JAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:JAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001396"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL9</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -1481,13 +1481,13 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A class 2 cytokine, IL-10 type that is a translation product of the human IL10 gene or a 1:1 ortholog thereof. Active interleukin-10 inhibits the synthesis of a number of cytokines, including IFN-gamma, IL-2, IL-3, TNF and GM-CSF produced by activated macrophages and by helper T cells. Structurally, IL-10 is a protein of about 160 amino acids that contains four conserved cysteines involved in disulfide bonds.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PANTHER:PTHR11585:SF1</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PRO:JAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:JAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001471"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL10</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -1508,7 +1508,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001946"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein with core architecture consisting of a fairly small cytoplasmic region, a transmembrane domain, and an extracellular domain containing a TNF(Tumour Necrosis Factor) family domain (Pfam:PF00229).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:WCB</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:WCB</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1537,13 +1537,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000002107"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A tumor necrosis factor ligand superfamily member 10/11 that is a translation product of the human TNFSF11 gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:WCB</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:WCB</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000002107"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>TNFSF11</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -1599,13 +1599,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000003777"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human ADIPOQ gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000003777"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>ADIPOQ</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -1647,13 +1647,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000003809"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human AFP gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000003809"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>AFP</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -1683,13 +1683,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000003847"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A serpin that is a translation product of the human AGT gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:CNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:CNA</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000003847"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>AGT</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -1727,13 +1727,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000003918"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human ALB gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000003918"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>ALB</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -1822,13 +1822,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000003968"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human ALPL gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000003968"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>ALPL</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -1862,13 +1862,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000004155"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human APOE gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000004155"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>APOE</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -1893,13 +1893,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000005867"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human CRH gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000005867"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>CRH</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -1927,13 +1927,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000005897"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human CRP gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000005897"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>CRP</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -1961,13 +1961,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000007034"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human ELN gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000007034"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>ELN</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -1989,13 +1989,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000007141"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human EPO gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000007141"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>EPO</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -2022,13 +2022,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000007785"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human GAD1 gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000007785"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>GAD1</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -2062,13 +2062,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000007856"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human GAST gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000007856"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>GAST</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -2095,13 +2095,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000007891"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human GCG gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000007891"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>GCG</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -2124,13 +2124,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008056"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human GLUD1 gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008056"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>GLUD1</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -2173,7 +2173,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human GOT1 gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
@@ -2233,13 +2233,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
         <owl:annotatedTarget>transaminase A</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>GOT1</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -2279,7 +2279,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008208"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An alanine aminotransferase that is a translation product of the human GPT gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008208"/>
@@ -2321,7 +2321,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008208"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>GPT</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -2358,13 +2358,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008924"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interferon beta that is a translation product of the human IFNB1 gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008924"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IFNB1</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -2398,19 +2398,19 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An insulin family protein that is a translation product of the human INS gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
         <owl:annotatedTarget>insulin</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>INS</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -2438,25 +2438,25 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000009182"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human IGF1 gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000009182"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
         <owl:annotatedTarget>IGF-I</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000009182"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
         <owl:annotatedTarget>MGF</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000009182"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IGF1</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -2493,13 +2493,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000009758"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human LEP gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000009758"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>LEP</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -2532,13 +2532,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000011107"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human NEB gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000011107"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>NEB</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -2574,13 +2574,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000011374"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human NPPA gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000011374"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>NPPA</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -2618,13 +2618,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000012037"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human ORM1 gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000012037"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>ORM1</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -2655,13 +2655,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000013164"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human PPY gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000013164"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>PPY</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -2688,13 +2688,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000013246"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A somatotropin hormone family member that is a translation product of the human PRL gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000013246"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>PRL</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -2717,13 +2717,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000013429"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human PTH gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000013429"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>PTH</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -2746,13 +2746,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000013883"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An angiotensinogenase that is a translation product of the human REN gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000013883"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>REN</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -2775,13 +2775,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000015665"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human SST gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000015665"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>SST</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -2812,13 +2812,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000016275"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human TFF2 gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000016275"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>TFF2</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -2850,13 +2850,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000016480"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human TNFRSF11B gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000016480"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>TNFRSF11B</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -2896,20 +2896,20 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018263"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An organic amino compound that consists of amino acid residues (unmodified amino-acid residues and/or modified amino-acid residues) linked by peptide bonds or derivatives of such bonds.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PRO:JSG</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018263"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>peptide</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018263"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>polypeptide</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -2947,26 +2947,26 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is produced as the result of proteolytic processing of a longer protein.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>ClvPrd</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>peptide</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>polypeptide</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -3003,13 +3003,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018270"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interferon gamma that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018270"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IFNG/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -3048,13 +3048,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018271"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interferon gamma that has been processed by proteolytic cleavage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018271"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IFNG/ClvPrd</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -3093,13 +3093,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018285"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A tumor necrosis factor that has been processed by proteolytic cleavage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018285"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>TNF/ClvPrd</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -3138,13 +3138,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018344"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interleukin-1 alpha that has been processed by proteolytic cleavage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018344"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL1A/ClvPrd</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -3183,13 +3183,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018345"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interleukin-1 beta that has been processed by proteolytic cleavage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018345"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL1B/ClvPrd</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -3227,13 +3227,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018387"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interleukin-7 that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018387"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL7/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -3271,13 +3271,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018432"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interleukin-12 subunit alpha that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018432"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL12A/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -3315,13 +3315,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018434"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interleukin-12 subunit beta that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018434"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL12B/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -3360,13 +3360,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018435"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interleukin-16 that has been processed by proteolytic cleavage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018435"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL16/ClvPrd</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -3405,13 +3405,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018438"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interleukin-18 that has been processed by proteolytic cleavage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018438"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL18/ClvPrd</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -3449,13 +3449,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018442"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interleukin-2 that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018442"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL2/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -3493,13 +3493,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018450"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interleukin-3 that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018450"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL3/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -3537,13 +3537,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018452"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interleukin-4 that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018452"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL4/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -3581,13 +3581,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018454"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interleukin-5 that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018454"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL5/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -3625,13 +3625,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018456"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interleukin-6 that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018456"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL6/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -3669,13 +3669,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018460"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interleukin-8 that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018460"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>CXCL8/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -3714,13 +3714,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018461"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interleukin-8 that has been processed by proteolytic cleavage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018461"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>CXCL8/ClvPrd</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -3758,13 +3758,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018463"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interleukin-9 that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018463"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL9/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -3802,13 +3802,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018500"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interleukin-10 that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018500"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL10/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -3847,13 +3847,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018721"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A tumor necrosis factor ligand superfamily member 11 that has been processed by proteolytic cleavage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018721"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>TNFSF11/ClvPrd</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -3891,13 +3891,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018910"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An adiponectin that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018910"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>ADIPOQ/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -3935,13 +3935,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018921"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An alpha-fetoprotein that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018921"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>AFP/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -3980,13 +3980,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018931"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An angiotensinogen that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018931"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>AGT/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -4025,13 +4025,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018932"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An angiotensinogen, signal peptide removed form that has been processed by proteolytic cleavage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018932"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>AGT/ClvPrd</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -4069,13 +4069,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018949"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An albumin that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018949"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>ALB/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -4114,13 +4114,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018950"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An albumin that has been processed by proteolytic cleavage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018950"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>ALB/ClvPrd</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -4158,13 +4158,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018966"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An alkaline phosphatase, tissue-nonspecific isozyme that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018966"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>ALPL/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -4202,13 +4202,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019028"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An apolipoprotein E that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019028"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>APOE/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -4247,13 +4247,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019483"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A corticoliberin that has been processed by proteolytic cleavage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019483"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>CRH/ClvPrd</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -4291,13 +4291,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019499"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A C-reactive protein that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019499"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>CRP/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -4336,13 +4336,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019500"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A C-reactive protein that has been processed by proteolytic cleavage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019500"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>CRP/ClvPrd</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -4380,13 +4380,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019797"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An erythropoietin that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019797"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>EPO/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -4425,13 +4425,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019798"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An erythropoietin that has been processed by proteolytic cleavage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019798"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>EPO/ClvPrd</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -4469,13 +4469,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019972"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A gastrin that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019972"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>GAST/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -4514,13 +4514,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019973"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A gastrin that has been processed by proteolytic cleavage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019973"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>GAST/ClvPrd</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -4558,13 +4558,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019979"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A pro-glucagon that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019979"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>GCG/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -4603,13 +4603,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019980"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A pro-glucagon that has been processed by proteolytic cleavage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019980"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>GCG/ClvPrd</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -4647,13 +4647,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000020259"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interferon beta 1 that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000020259"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IFNB1/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -4692,20 +4692,20 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000020310"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An insulin gene translation product that has had the signal peptide removed. Proinsulin consists of the insulin B and A chains linked by the C-peptide. Example: UniProtKB:P01308, 25-110.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000020310"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>INS/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000020310"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>insulin, signal peptide removed form</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -4743,13 +4743,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000020357"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An insulin-like growth factor I that has been processed by proteolytic cleavage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000020357"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IGF1/ClvPrd</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -4787,13 +4787,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000020774"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An atrial natriuretic factor that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000020774"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>NPPA/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -4832,13 +4832,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000020775"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An atrial natriuretic factor that has been processed by proteolytic cleavage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000020775"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>NPPA/ClvPrd</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -4876,13 +4876,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000020835"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An alpha-1-acid glycoprotein 1 that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000020835"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>ORM1/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -4920,13 +4920,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021065"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A pancreatic prohormone that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021065"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>PPY/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -4965,13 +4965,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021066"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A pancreatic prohormone that has been processed by proteolytic cleavage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021066"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>PPY/ClvPrd</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -5009,13 +5009,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021095"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A prolactin that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021095"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>PRL/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -5053,13 +5053,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021169"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A parathyroid hormone that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021169"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>PTH/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -5098,13 +5098,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021170"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A parathyroid hormone that has been processed by proteolytic cleavage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021170"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>PTH/ClvPrd</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -5142,13 +5142,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021577"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A somatostatin that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021577"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>SST/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -5187,13 +5187,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021578"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A somatostatin that has been processed by proteolytic cleavage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021578"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>SST/ClvPrd</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -5231,13 +5231,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021699"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A tumor necrosis factor receptor superfamily member 11B that has had the signal peptide removed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021699"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>TNFRSF11B/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -5263,7 +5263,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021935"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A part of a protein that is removed during the protein maturation process.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021935"/>
@@ -5288,7 +5288,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000024939"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IFNB</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -5312,7 +5312,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that binds to a specific cell surface receptor complex known as the IFN-gamma receptor (IFNGR), a complex of two IFNGR1 and two IFNGR2 chains.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:9607096</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PRO:MSY</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5351,13 +5351,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000025416"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A cartilage oligomeric matrix protein that has been processed by proteolytic cleavage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000025416"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>COMP/ClvPrd</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -5381,7 +5381,7 @@
         <owl:annotatedTarget>A protein that consists solely of an Interferon alpha/beta domain (Pfam:PF00143) and which binds to a specific cell surface receptor complex known as the IFN-alpha receptor (IFNAR), a heterodimer of IFNAR1 and IFNAR2 chains.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:15233997</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:9607096</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PRO:MSY</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5404,7 +5404,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is primarily known as an irreversible serine protease inhibitor active against S1, S8 and C14 peptidases. There are both extra- and intra-cellular serpins, which are found in all groups of organisms with the notable exception of fungi. Serpin contains a copy of the Serpin (Pfam:PF00079) domain.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>InterPro:IPR000215</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PRO:CNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:CNA</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5424,13 +5424,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000029968"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a standalone version of the Hormone_1 domain (Pfam:PF00103). In the immature form, the domain is preceded by a signal peptide.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000029968"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>fam:GH1</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -5459,13 +5459,13 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An angiotensinogen proteolytic cleavage product that is formed via the action of renin on angiotensinogen, signal peptide removed form.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:18793332</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000036008"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>ang I</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -5496,13 +5496,13 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An angiotensinogen proteolytic cleavage product that is formed via the action of angiotensin converting enzyme on angiotensin I.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:18793332</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000036009"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>ang II</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -5540,13 +5540,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000044520"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interleukin-23 subunit alpha that has had the signal peptide removed. Example: UniProtKB:Q9NPF7, 20-189.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000044520"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IL23A/SigPep-</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -5567,13 +5567,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000045358"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of a gene that encodes a standalone Insulin (Pfam:PF00049) domain preceded by a signal peptide.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000045358"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>fam:INS</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -5594,13 +5594,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050025"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the mouse Ren1 or Ren2 genes, 1:1 orthologs thereof, or a semi-ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050025"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>fam:angiotensinogenase</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
@@ -5621,13 +5621,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050219"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein that is a translation product of the human GPT or GPT2 genes, 1:1 orthologs thereof, or a semi-ortholog thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050219"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>fam:ALAT</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
