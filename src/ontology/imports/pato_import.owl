@@ -12,9 +12,9 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/pato_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2022-11-15/imports/pato_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2022-12-12/imports/pato_import.owl"/>
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/pato/releases/2022-11-09/pato.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-11-15</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-12-12</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -5333,7 +5333,7 @@ See https://github.com/pato-ontology/pato/issues/331.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001464"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A quality that is equal to the potential energy per unit charge associated with a static (time-invariant) electric field, also called the electrostatic potential.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Wikipedia:http://en.wikipedia.org/wiki/Electric_potential</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:http://en.wikipedia.org/wiki/Electric_potential</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5357,27 +5357,6 @@ See https://github.com/pato-ontology/pato/issues/331.</rdfs:comment>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATO_0001466 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001466">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000406"/>
-        <obo:IAO_0000115>A curvature quality inhering in a bearer by virtue of the bearer&apos;s being curved towards the front of an organism.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>curved anterior</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>curved superior (human torso)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>PATO:0001466</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#value_slim"/>
-        <rdfs:label>curved rostral</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001466"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A curvature quality inhering in a bearer by virtue of the bearer&apos;s being curved towards the front of an organism.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PATO_0001468 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001468">
@@ -5394,6 +5373,27 @@ See https://github.com/pato-ontology/pato/issues/331.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001468"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A curvature quality inhering in a bearer by virtue of the bearer&apos;s being curved towards the back or upper surface of an organism.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001469 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001469">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000406"/>
+        <obo:IAO_0000115>A curvature quality inhering in a bearer by virtue of the bearer&apos;s being curved towards the abdomen of an organism.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>curved anterior (human torso)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>curved inferior (human head)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001469</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#value_slim"/>
+        <rdfs:label>curved ventral</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001469"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A curvature quality inhering in a bearer by virtue of the bearer&apos;s being curved towards the abdomen of an organism.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -8312,7 +8312,7 @@ See https://github.com/pato-ontology/pato/issues/331.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001711"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An 1-D extent quality inhering in two-dimensional bearer by virtue of being equal to the distance around it.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:http://en.wikipedia.org/wiki/Perimeter</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:http://en.wikipedia.org/wiki/Perimeter</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -11021,7 +11021,7 @@ See https://github.com/pato-ontology/pato/issues/331.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002021"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A convex 3-D shape quality inhering in a bearer by virtue of the bearer&apos;s resembling a cone (a 3-D shape with a round cross section that tapers).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:http://en.wikipedia.org/wiki/Cone_(geometry)</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:http://en.wikipedia.org/wiki/Cone_(geometry)</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 

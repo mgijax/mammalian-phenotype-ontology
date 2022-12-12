@@ -15,9 +15,9 @@
      xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2022-11-15/imports/cl_import.owl"/>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/cl/releases/2022-10-28/cl-simple.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-11-15</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2022-12-12/imports/cl_import.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/cl/releases/2022-11-25/cl-simple.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-12-12</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1053,9 +1053,11 @@ N1 SubclassOf (
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011115"/>
         <obo:IAO_0000115>A relatively undifferentiated cell that retains the ability to divide and proliferate throughout life to provide progenitor cells that can differentiate into specialized cells.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>CALOHA:TS-2086</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:63368</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>animal stem cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>This term applies to metazoan. For plant stem cells, consider using PO:0004011 ‘initial cell’ or its parent PO:0004010 ‘meristematic cell’.</rdfs:comment>
         <rdfs:label>stem cell</rdfs:label>
     </owl:Class>
@@ -1092,7 +1094,9 @@ N1 SubclassOf (
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000035"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasExactSynonym>epithelial stem cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>epithelial fate stem cell</rdfs:label>
     </owl:Class>
     
@@ -1236,7 +1240,7 @@ N1 SubclassOf (
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:1104740</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Monoblast</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.copewithcytokines.de</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.copewithcytokines.de</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -2142,7 +2146,7 @@ N1 SubclassOf (
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000094"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A leukocyte with abundant granules in the cytoplasm.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:amm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:amm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D006098</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Granulocyte</oboInOwl:hasDbXref>
@@ -2202,15 +2206,15 @@ N1 SubclassOf (
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dsd</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:068340007X</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:068340007X</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D008407</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMCID:PMC1312421</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMCID:PMC1312421</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMCID:PMC2855166</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:15153310</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:16455980</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:19671378</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:212366338</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9354811</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:9354811</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000097"/>
@@ -2228,7 +2232,7 @@ N1 SubclassOf (
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000097"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>tissue basophil</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>ISBN:068340007X</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:068340007X</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -2770,7 +2774,7 @@ N1 SubclassOf (
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Ectoderm destined to be nervous tissue.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:068340007X</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:068340007X</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -3333,8 +3337,10 @@ N1 SubclassOf (
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000163">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000151"/>
         <obo:IAO_0000115>A cell of an endocrine gland, ductless glands that secrete substances which are released directly into the circulation and which influence metabolism and other body functions.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>FMA:83809</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>endocrinocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>endocrine cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3634,7 +3640,7 @@ N1 SubclassOf (
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000173"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A D cell located in the pancreas. Peripherally placed within the islets like type A cells; contains somatostatin.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:0517223651</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:0517223651</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3666,7 +3672,7 @@ N1 SubclassOf (
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000175"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A progesterone secreting cell in the corpus luteum. The large luteal cells develop from the granulosa cells. The small luteal cells develop from the theca cells.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D008184</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D008184</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -4071,6 +4077,8 @@ N1 SubclassOf (
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000212">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
         <obo:IAO_0000115>A cell that takes up and metabolizes substances.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>absorptive cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5412,12 +5420,12 @@ N1 SubclassOf (
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Langerhans cell is a conventional dendritic cell that has plasma membrane part CD207. A Langerhans cell is a stellate dendritic cell of myeloid origin, that appears clear on light microscopy and has a dark-staining, indented nucleus and characteristic inclusions (Birbeck granules) in the cytoplasm; Langerhans cells are found principally in the stratum spinosum of the epidermis, but they also occur in other stratified epithelia and have been identified in the lung, lymph nodes, spleen, and thymus.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:amm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:amm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0721601464</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0781735149</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMCID:PMC2346585</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17850486</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:17850486</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5490,7 +5498,7 @@ N1 SubclassOf (
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A cell capable of producting norepiniphrine. Norepiniphrine is a catecholamine with multiple roles including as a hormone and a neurotransmitter. In addition, epiniphrine is synthesized from norepiniphrine by the actions of the phenylethanolamine N-methyltransferase enzyme.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:068340007X</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:068340007X</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5597,7 +5605,7 @@ N1 SubclassOf (
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dsd</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:19923473</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9354811</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:9354811</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5634,7 +5642,7 @@ N1 SubclassOf (
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A CD4-positive, alpha-beta T cell that cooperates with other lymphocytes via direct contact or cytokine release to initiate a variety of immune functions.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pam</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:pam</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0781735149</oboInOwl:hasDbXref>
@@ -5672,8 +5680,10 @@ N1 SubclassOf (
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A connective tissue cell of an organ found in the loose connective tissue. These are most often associated with the uterine mucosa and the ovary as well as the hematopoietic system and elsewhere.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0002064</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:83624</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>stromal cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6108,7 +6118,7 @@ N1 SubclassOf (
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A CD4-positive, alpha-beta T cell that has the phenotype T-bet-positive, CXCR3-positive, CCR6-negative, and is capable of producing interferon-gamma.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pam</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:pam</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:19375293</oboInOwl:hasDbXref>
@@ -6163,7 +6173,7 @@ N1 SubclassOf (
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A CD4-positive, alpha-beta T cell that has the phenotype GATA-3-positive, CXCR3-negative, CCR6-negative, and is capable of producing interleukin-4.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pam</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:pam</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:19375293</oboInOwl:hasDbXref>
@@ -6562,6 +6572,7 @@ N1 SubclassOf (
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1001610"/>
         <obo:IAO_0000115>A hematopoietic progenitor cell that is committed to the granulocyte and monocyte lineages. These cells are CD123-positive, and do not express Gata1 or Gata2 but do express C/EBPa, and Pu.1.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasBroadSynonym>CFU-C , Colony forming unit in culture</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym>CFU-GM</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>GMP</oboInOwl:hasExactSynonym>
@@ -6569,6 +6580,7 @@ N1 SubclassOf (
         <oboInOwl:hasExactSynonym>granulocyte-macrophage progenitor</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>granulocyte/monocyte precursor</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>granulocyte/monocyte progenitor</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Originally described in the dendritic cell ontology (DC_CL:0000042)(PMID:19243617). GMPs are reportedly CD16-positive, CD32-positive, CD34-positive, CD38-positive, CD45RA-positive, CD110-negative, CD117-positive, CD123-positive, and SCA1-negative.</rdfs:comment>
         <rdfs:label>granulocyte monocyte progenitor cell</rdfs:label>
     </owl:Class>
@@ -6576,7 +6588,7 @@ N1 SubclassOf (
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000557"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A hematopoietic progenitor cell that is committed to the granulocyte and monocyte lineages. These cells are CD123-positive, and do not express Gata1 or Gata2 but do express C/EBPa, and Pu.1.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:amm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:amm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dsd</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
@@ -6587,13 +6599,13 @@ N1 SubclassOf (
         <oboInOwl:hasDbXref>PMID:16551251</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:16647566</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/CFU-GM</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.copewithcytokines.de</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.copewithcytokines.de</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000557"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
         <owl:annotatedTarget>CFU-C , Colony forming unit in culture</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.copewithcytokines.de</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.copewithcytokines.de</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000557"/>
@@ -6994,11 +7006,13 @@ N1 SubclassOf (
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000677"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002563"/>
         <obo:IAO_0000115>An epithelial cell that has its apical plasma membrane folded into microvilli to provide ample surface for the absorption of nutrients from the intestinal lumen.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0000398</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:62122</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D020895</oboInOwl:hasDbXref>
         <oboInOwl:hasNarrowSynonym>differentiated enterocyte</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>mature enterocyte</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>enterocyte</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7289,7 +7303,7 @@ N1 SubclassOf (
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A secretory cell that is grouped together with other cells of the same type to form grape shaped clusters known as acini (singular acinus).</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.copewithcytokines.de</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.copewithcytokines.de</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -7516,9 +7530,11 @@ N1 SubclassOf (
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000681"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0009004"/>
         <obo:IAO_0000115>Astrocyte-like radial glial cell that extends vertically throughout the retina, with the nucleus are usually in the middle of the inner nuclear layer.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0003064</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Muller glia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Müller cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>Mueller cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7557,7 +7573,7 @@ N1 SubclassOf (
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000639">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000637"/>
-        <obo:IAO_0000115>A basophillic chromophil cell that of the anterior pituitary gland.</obo:IAO_0000115>
+        <obo:IAO_0000115>A basophilic chromophil cell that of the anterior pituitary gland.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FMA:83094</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>basophil cell of anterior lobe of hypophysis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>beta cell</oboInOwl:hasRelatedSynonym>
@@ -7567,7 +7583,7 @@ N1 SubclassOf (
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000639"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A basophillic chromophil cell that of the anterior pituitary gland.</owl:annotatedTarget>
+        <owl:annotatedTarget>A basophilic chromophil cell that of the anterior pituitary gland.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -8549,12 +8565,12 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any of the immature or mature forms of a granular leukocyte that in its mature form has an irregularly shaped, pale-staining nucleus that is partially constricted into two lobes, and with cytoplasm that contains coarse, bluish-black granules of variable size. Basophils contain vasoactive amines such as histamine and serotonin, which are released on appropriate stimulation. A basophil is CD123-positive, CD193-positive, CD203c-positive, and FceRIa-positive.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:amm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:amm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dsd</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0721601464</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D001491</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMCID:PMC2626675</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMCID:PMC2626675</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:11927641</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:19741522</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:21236338</oboInOwl:hasDbXref>
@@ -8594,11 +8610,11 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any of the immature or mature forms of a granular leukocyte with a nucleus that usually has two lobes connected by one or more slender threads of chromatin, and cytoplasm containing coarse, round granules that are uniform in size and which can be stained by the dye eosin. Eosinophils are CD9-positive, CD191-positive, and CD193-positive.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:amm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:amm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dsd</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0721601464</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMCID:PMC2626675</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMCID:PMC2626675</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:10914487</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:1662676</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -8641,7 +8657,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any of the immature or mature forms of a granular leukocyte that in its mature form has a nucleus with three to five lobes connected by slender threads of chromatin, and cytoplasm containing fine inconspicuous granules and stainable by neutral dyes.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:amm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:amm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0721601464</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -8745,7 +8761,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasDbXref>PMCID:PMC538703</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:15549123</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:17332250</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17850486</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:17850486</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:20304825</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -8836,8 +8852,8 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0721601464</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0781735149</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:19447676</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20081059</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20839338</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:20081059</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:20839338</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:20951740</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Plasma_cell</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -8869,11 +8885,11 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedTarget>A memory B cell is a mature B cell that is long-lived, readily activated upon re-encounter of its antigenic determinant, and has been selected for expression of higher affinity immunoglobulin. This cell type has the phenotype CD19-positive, CD20-positive, MHC Class II-positive, and CD138-negative.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dsd</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:rhs</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:rhs</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0781735149</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20081059</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20839338</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:20081059</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:20839338</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Memory_B_cell</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -8904,12 +8920,12 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedTarget>A naive B cell is a mature B cell that has the phenotype surface IgD-positive, surface IgM-positive, CD20-positive, CD27-negative and that has not yet been activated by antigen in the periphery.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dsd</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:rhs</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:rhs</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0781765196</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:19447676</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20081059</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20839338</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:20081059</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:20839338</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:20933013</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22343568</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -9126,7 +9142,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A CD8-positive, alpha-beta T cell that is capable of killing target cells in an antigen specific manner with the phenotype perforin-positive and granzyme B-positive.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pam</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:pam</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0781735149</oboInOwl:hasDbXref>
@@ -9367,11 +9383,13 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000802">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000801"/>
         <obo:IAO_0000115>A gamma-delta intraepithelial T cell that has the phenotype CD8-alpha alpha-positive.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasBroadSynonym>IEL</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym>intraepithelial lymphocyte</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym>CD8-positive, gamma-delta intraepithelial T lymphocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>CD8-positive, gamma-delta intraepithelial T-cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>CD8-positive, gamma-delta intraepithelial T-lymphocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>CD8-alpha alpha positive, gamma-delta intraepithelial T cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -9698,7 +9716,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A long-lived, antigen-experienced T cell that has acquired a memory phenotype including distinct surface markers and the ability to differentiate into an effector T cell upon antigen reexposure.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pam</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:pam</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0781735149</oboInOwl:hasDbXref>
@@ -9808,12 +9826,12 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedTarget>An immature B cell is a B cell that has the phenotype surface IgM-positive and surface IgD-negative, and have not undergone class immunoglobulin class switching or peripheral encounter with antigen and activation.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dsd</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:rhs</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:rhs</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0781735149</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20081059</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20839338</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:20081059</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:20839338</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000816"/>
@@ -9847,7 +9865,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000817"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A precursor B cell is a B cell with the phenotype CD10-positive.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:rhs</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:rhs</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -10151,7 +10169,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A lymphoid progenitor cell that is committed to the natural killer cell lineage, expressing CD122 (IL-15) receptor, but lacking many of the phenotypic characteristics of later stages of natural killer cell development such as expression of NK activating and inhibitory molecules. In human this cell has the phenotype CD34-positive, CD45RA-positive, CD10-positive, CD117-negative, and CD161 negative.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pam</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:pam</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:11532393</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:12457618</oboInOwl:hasDbXref>
@@ -10222,7 +10240,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasDbXref>ISBN:0781735149</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:12633665</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:16551251</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18432934</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:18432934</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000826"/>
@@ -10305,10 +10323,10 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dsd</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMCID:PMC1183570</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMCID:PMC1312421</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMCID:PMC1312421</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:8629001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9354811</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.copewithcytokines.de</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:9354811</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.copewithcytokines.de</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -10555,6 +10573,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000785"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_2000074"/>
         <obo:IAO_0000115>A mature B cell that is located in the marginal zone of the spleen with the phenotype CD23-negative and CD21-positive and expressing a B cell receptor usually reactive to bacterial cell wall components or senescent self components such as oxidized-LDL. This cell type is also described as being CD19-positive, B220-positive, IgM-high, AA4-negative, CD35-high.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasBroadSynonym>MZ B cell</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym>MZ B lymphocyte</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym>MZ B-cell</oboInOwl:hasBroadSynonym>
@@ -10565,6 +10584,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasBroadSynonym>marginal zone B-lymphocyte</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym>B cell of marginal zone of spleen</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>marginal zone of spleen B cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>MZ B cells are reportedly CD1-positive (mice), CD20-positive, CD48-positive, CD84-positive, CD150-positive, CD229-positive, and CD352-positive.</rdfs:comment>
         <rdfs:label>marginal zone B cell of spleen</rdfs:label>
     </owl:Class>
@@ -10898,7 +10918,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A recently activated CD4-positive, alpha-beta T cell with the phenotype CD69-positive, CD62L-negative, CD127-negative, and CD25-positive.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pam</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:pam</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -10951,7 +10971,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Mature T cell not yet exposed to antigen with the phenotype CCR7-positive, CD45RA-positive, and CD127-positive. This cell type is also described as being CD25-negative, CD62L-high and CD44-low.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pam</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:pam</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:19100699</oboInOwl:hasDbXref>
@@ -10991,7 +11011,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>CD4-positive, alpha-beta T cell with the phenotype RORgamma-t-positive, CXCR3-negative, CCR6-positive, and capable of producing IL-17.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pam</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:pam</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:20303875</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:20969597</oboInOwl:hasDbXref>
@@ -11081,7 +11101,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>CD4-positive, alpha-beta memory T cell with the phenotype CCR7-positive, CD127-positive, CD45RA-negative, CD45RO-positive, and CD25-negative.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pam</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:pam</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22343568</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -11123,7 +11143,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>CD4-positive, alpha-beta memory T cell with the phenotype CCR7-negative, CD127-positive, CD45RA-negative, CD45RO-positive, and CD25-negative.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pam</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:pam</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22343568</oboInOwl:hasDbXref>
@@ -11164,7 +11184,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A CD8-positive, alpha-beta T cell with the phenotype CD69-positive, CD62L-negative, CD127-negative, CD25-positive, and CCR7-negative.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pam</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:pam</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -11198,7 +11218,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>CD8-positive, alpha-beta memory T cell with the phenotype CCR7-positive, CD127-positive, CD45RA-negative, CD45RO-positive, and CD25-negative.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pam</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:pam</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:20146720</oboInOwl:hasDbXref>
@@ -11240,7 +11260,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A CD8-positive, alpha-beta T cell with the phenotype CD69-positive, CD62L-negative, CD127-negative, and CD25-positive, that secretes cytokines.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pam</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:pam</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:20146720</oboInOwl:hasDbXref>
@@ -11325,7 +11345,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A effector T cell that provides help in the form of secreted cytokines to other immune cells.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pam</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:pam</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:18395547</oboInOwl:hasDbXref>
@@ -11362,7 +11382,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>CD8-positive, alpha-beta memory T cell with the phenotype CCR7-negative, CD127-positive, CD45RA-negative, CD45RO-positive, and CD25-negative.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pam</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:pam</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:20146720</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22343568</oboInOwl:hasDbXref>
@@ -11406,7 +11426,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An immature alpha-beta T-cell that express Egr2. These cells give rise to T cells expressing NK markers.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pam</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:pam</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:17589542</oboInOwl:hasDbXref>
@@ -11444,7 +11464,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A mature gamma-delta T cell located in the epidermis that regulates wound healing.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pam</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:pam</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:11976459</oboInOwl:hasDbXref>
@@ -11467,7 +11487,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedTarget>Cell committed to natural killer cell lineage that has the phenotype CD122-positive, CD34-positive, and CD117-positive. This cell type lacks expression of natural killer receptor proteins.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dsd</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pam</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:pam</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:16551251</oboInOwl:hasDbXref>
@@ -11503,7 +11523,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A lymphocyte of B lineage with the commitment to express an immunoglobulin complex.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:rhs</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:rhs</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0781735149</oboInOwl:hasDbXref>
@@ -11557,11 +11577,11 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A small pre-B-II cell is a pre-B-II cell that is Rag1-positive, Rag2-positive, pre-BCR-negative, and BCR-negative, is not proliferating, and carries a DNA rearrangement of one or more immunoglobulin light chain genes.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dsd</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:rhs</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:rhs</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:16551251</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18432934</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:18432934</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:9785673</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -11590,7 +11610,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A pre-B-II cell is a precursor B cell that expresses immunoglobulin mu heavy chain (IgHmu+), and lack expression of CD34, TdT, immunoglobulin kappa light chain and immunoglobulin lambda light chain.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dsd</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:rhs</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:rhs</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:9785673</oboInOwl:hasDbXref>
@@ -11621,7 +11641,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A transitional stage B cell that migrates from the bone marrow into the peripheral circulation, and finally to the spleen. This cell type has the phenotype surface IgM-positive, surface IgD-negative, CD21-negative, CD23-negative, and CD62L-negative, and CD93-positive. This cell type has also been described as IgM-high, CD19-positive, B220-positive, AA4-positive, and CD23-negative.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dsd</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:msz</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:msz</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMCID:PMC2193793</oboInOwl:hasDbXref>
@@ -11659,7 +11679,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A transitional stage B cell that has the phenotype surface IgM-positive, surface IgD-postive, CD21-positive, CD23-positive, CD62L-negative, CD93-positive and is located in the splenic B follicles. This cell type has also been described as IgM-high, CD19-positive, B220-positive, AA4-positive, and CD23-positive.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dsd</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:msz</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:msz</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMCID:PMC2193793</oboInOwl:hasDbXref>
@@ -11696,7 +11716,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000960"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A transitional stage B cell that expresses surface IgM and IgD, and CD62L. This cell type appears to be an anergic B cell that does not proliferate upon BCR signaling, is found in the spleen and lymph nodes, and has the phenotype surface IgM-positive, surface IgD-positive, CD21-positive, CD23-positive, CD62L-positive, and CD93-positive. This cell type has also been described as IgM-low, CD19-positive, B220-positive, AA4-positive, and CD23-positive (i.e. this cell-type is distinguished from T2 cells by surface expression of IgM).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:msz</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:msz</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:12810111</oboInOwl:hasDbXref>
@@ -11735,7 +11755,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000974"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A fully differentiated plasma cell that lives for years, as opposed to months, secretes immunoglobulin, and has the phenotype weakly CD19-positive, CD20-negative, CD38-negative, strongly CD138-positive, MHC Class II-negative, surface immunoglobulin-negative, IgD-negative, and strongly CXCR4-positive. The majority of these cells of this type reside in the bone marrow.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:msz</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:msz</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:9780781765190</oboInOwl:hasDbXref>
@@ -11761,7 +11781,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000975"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A fully differentiated plasma cell that lives for months.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:msz</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:msz</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:16014527</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -11799,7 +11819,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An activated mature (naive or memory) B cell that is secreting immunoglobulin, typified by being CD27-positive, CD38-positive, CD138-negative.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dsd</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:msz</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:msz</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMCID:PMC2673126</oboInOwl:hasDbXref>
@@ -11859,9 +11879,9 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000990"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Conventional dendritic cell is a dendritic cell that is CD11c-high.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:amm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:amm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17850486</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:17850486</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -12287,7 +12307,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:ak</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dsd</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMCID:PMC1312421</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMCID:PMC1312421</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -12604,7 +12624,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedTarget>A pro-B cell that is CD22-positive, CD34-positive, CD38-positive and TdT-positive (has TdT activity). Pre-BCR is expressed on the cell surface. Cell is CD19-negative, CD20-negative, complement receptor type 2-negative and CD10-low. D-to-J recombination of the heavy chain occurs at this stage.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dsd</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18432934</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:18432934</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -12637,7 +12657,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedTarget>A pre-B cell precursor is CD19-low, CD22-positive , CD34-positive, CD38-positive.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dsd</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18432934</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:18432934</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -12699,7 +12719,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedTarget>A type I pneumocyte is a flattened, branched pneumocyte that covers more than 98% of the alveolar surface. This large cell has thin (50-100 nm) cytoplasmic extensions to form the air-blood barrier essential for normal gas exchange.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:20054144</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.copewithcytokines.de</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.copewithcytokines.de</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -12740,7 +12760,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0412046911</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:8540632</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.copewithcytokines.de</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.copewithcytokines.de</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -12985,7 +13005,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A chromaffin cell of the adrenal medulla that produces norepinephrine.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:068340007X</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:068340007X</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -13017,12 +13037,14 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002088">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000710"/>
         <obo:IAO_0000115>This is a cell found in the gastrointestinal tract of mammals and serves as a pacemaker that triggers gut contraction. ICCs mediate inputs from the enteric nervous system to smooth muscle cells and are thought to be the cells from which gastrointestinal stromal tumors (GISTs) arise.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
         <oboInOwl:creation_date>2010-07-22T03:26:00Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>BTO:0003914</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:86573</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>ICC</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>intestinal pacemaker cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Some argue this cell type is of mesenchymal origin.</rdfs:comment>
         <rdfs:label>interstitial cell of Cajal</rdfs:label>
     </owl:Class>
@@ -13068,7 +13090,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>One of two small cells formed by the first and second meiotic division of oocytes.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:068340007X</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:068340007X</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Polar_body</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -13094,7 +13116,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A small cell formed by the first meiotic division of oocytes.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:068340007X</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:068340007X</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002091"/>
@@ -13160,7 +13182,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A small cell formed by the second meiotic division of oocytes. In mammals, the second polar body may fail to form unless the ovum has been penetrated by a sperm cell.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:068340007X</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:068340007X</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002093"/>
@@ -13354,7 +13376,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The dead keratin-filled squamous cell of the stratum corneum. This cell type lacks a nucleus.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:068340007X</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:068340007X</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -13756,7 +13778,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002196"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>hepatic progenitor cell</owl:annotatedTarget>
-        <dc:contributor rdf:resource="http://orcid.org/000-0003-1940-6740"/>
+        <terms:contributor rdf:resource="http://orcid.org/0000-0003-1940-6740"/>
         <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1038/s12276-020-0483-0"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -16346,7 +16368,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0005010"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
         <owl:annotatedTarget>Intercalated cells are also called “mitochondria-rich cells”, reflecting the high levels of round mitochondria at their apical pole, or in their cytoplasm, a distribution that is quite different from that of other kidney tubule cells, which accumulated mitochondria around the basolateral membrane. These cells also have numerous irregular apical microvilli compared with the surrounding segment-specific cells. Intercalated cells lack a central cilium, at least in the cortex, which also differentiates them from the adjacent principal cells.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25632105</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25632105</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -16725,7 +16747,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A stem cell found in the interstitial compartment of the neonatal testis; it is capable of self-renewal as well as differentiation into steroidogenic cells (adult Leydig cells). Intermediate stages of development include progenitor Leydig cells and immature Leydig cells.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:21181888</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://orcid.org/0000-0002-0819-0473</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0002-0819-0473</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -16808,7 +16830,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0011003"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A neurosecretory neuron residing mainly in the hypothalamic supraoptic and paraventricular nuclei and in a number of smaller accessory cell groups between these two nuclei, that is capable of secreting the hormones oxytocin or vasopressin, and sometimes both, into the systemic circulation.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:nv</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:nv</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MP:0009467</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:10711808</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -16832,7 +16854,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An interneuron that uses GABA as a vesicular neurotransmitter.  These interneurons are inhibitory</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:CellBLAST</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:nv</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:nv</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:29724907</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -18170,7 +18192,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_1001589"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Glandular cell of duodenal epithelium. Example: Enterocytes, Goblet cells, enteroendocrine cells; Paneth cells; M cells; Brunner&apos;s gland cell.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NPX:PDR</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPX:PDR</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_1001589"/>
@@ -18196,7 +18218,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Glandular cell of parathyroid epithelium. Example: Parathyroid chief cell and parathyroid oxyphil cells.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>HPA:HPA</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NPX:PDR</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPX:PDR</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_1001593"/>
@@ -18231,7 +18253,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A glandular cell found in the epithelium of the small intestine. Example: Enterocytes, Goblet cells, enteroendocrine cells; Paneth cells; M cells; Somatostatin-secreting Cells (D-cells) .</owl:annotatedTarget>
         <oboInOwl:hasDbXref>NCI_Thesaurus:Small_Intestinal_Glandular_Cell</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NPX:PDR</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPX:PDR</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_1001598"/>
@@ -18274,7 +18296,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Glandular cell of exocrine pancreas epithelium. Example: pancreatic acinar cell, glandular cells in pancreatic canaliculi, glandular cells in pancreatic ducts.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>HPA:HPA</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NPX:PDR</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPX:PDR</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_1001599"/>
@@ -18306,7 +18328,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_1001601"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Hormone secreting cell located in the cortex of adrenal gland. Glandular cells in the adrenal cortex secrete mineralocorticoids, glucocorticoids and androgens.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NPX:PDR</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPX:PDR</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_1001601"/>
@@ -18343,7 +18365,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Circulating macrophages and tissue macrophages (alveolar macrophages) of lung.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>HPA:HPA</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NPX:PDR</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPX:PDR</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_1001603"/>
@@ -18369,7 +18391,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_1001610"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Hematopoietic cells resident in the bone marrow. Include: hematopoietic stem cells (lymphoid stem cells and myeloid stem cells) and the precursor cells for thrombocytes, erythrocytes, basophils, neutrophils, eosinophils, monocytes and lymphocytes.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NPX:PDR</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPX:PDR</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_1001610"/>
@@ -18400,7 +18422,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_1001611"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Neuron of the cerebellum.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NPX:PDR</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPX:PDR</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_1001611"/>
@@ -18550,13 +18572,13 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_2000060"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A trophoblast of placental villi.  These cells fuse to form synctial  trophoplast - the placental side of the interface between the placenta and maternal blood sinusoids in the decidua.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:31049600</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:31049600</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_2000060"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>vCTB</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:31049600</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:31049600</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
