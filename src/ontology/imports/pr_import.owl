@@ -11,9 +11,9 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/pr_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2022-12-12/imports/pr_import.owl"/>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/pr/obophenotype/releases/2022-12-09/pr_slim.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-12-12</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2022-12-28/imports/pr_import.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/pr/obophenotype/releases/2022-12-16/pr_slim.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-12-28</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -453,6 +453,34 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any macromolecular complex composed of two or more polypeptide subunits, which may or may not be identical. Protein complexes may have other associated non-protein prosthetic groups, such as nucleotides, metal ions or carbohydrate groups.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:go_curators</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0071746 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0071746">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032991"/>
+        <obo:IAO_0000115>A protein complex composed of two identical immunoglobulin heavy chains of an IgA isotype and two identical immunoglobulin light chains, held together by disulfide bonds, sometimes complexed with J chain or J chain and secretory component, and present in the extracellular space, in mucosal areas or other tissues, or circulating in the blood or lymph.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>IgA antibody</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0071746</oboInOwl:id>
+        <rdfs:comment>Note that an IgA immunoglobulin complex has the function of antigen binding if a suitable antigen is available.</rdfs:comment>
+        <rdfs:label>IgA immunoglobulin complex, circulating</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0071746"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A protein complex composed of two identical immunoglobulin heavy chains of an IgA isotype and two identical immunoglobulin light chains, held together by disulfide bonds, sometimes complexed with J chain or J chain and secretory component, and present in the extracellular space, in mucosal areas or other tissues, or circulating in the blood or lymph.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ISBN:0781765196</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:16362985</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0071746"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>IgA antibody</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1592,6 +1620,18 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000003777"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>ACRP30</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000003777"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>APM1</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000003777"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>GBP28</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
     </owl:Axiom>
@@ -1612,18 +1652,6 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000003777"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>ACDC</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000003777"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>ACRP30</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000003777"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>APM1</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
     </owl:Axiom>
     
