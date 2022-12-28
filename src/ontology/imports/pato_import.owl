@@ -12,9 +12,9 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/pato_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2022-12-12/imports/pato_import.owl"/>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/pato/releases/2022-11-09/pato.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-12-12</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2022-12-28/imports/pato_import.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/pato/releases/2022-12-15/pato.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-12-28</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -3170,7 +3170,7 @@ See https://github.com/pato-ontology/pato/issues/331.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000643"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A quality inhering in a bearer by virtue of the bearer&apos;s bodily structure that has protruded through an abnormal opening in the wall that contains it.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spinalstenosis:spinalstenosis</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>spinalstenosis:spinalstenosis</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -3194,7 +3194,7 @@ See https://github.com/pato-ontology/pato/issues/331.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000644"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A physical quality inhering in an organ or tissue by virtue of the bearer&apos;s exhibiting an increased number of cells, typically associated with an increase in size.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Hyperplasia</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Hyperplasia</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -3220,7 +3220,7 @@ See https://github.com/pato-ontology/pato/issues/331.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A physical quality inhering in an organ or tissue by virtue of the bearer&apos;s exhibiting a decreased number of cells, typically associated with a decrease in size.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Hyperplasia</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Hypoplasia</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5333,7 +5333,7 @@ See https://github.com/pato-ontology/pato/issues/331.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001464"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A quality that is equal to the potential energy per unit charge associated with a static (time-invariant) electric field, also called the electrostatic potential.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:http://en.wikipedia.org/wiki/Electric_potential</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:http://en.wikipedia.org/wiki/Electric_potential</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5806,7 +5806,7 @@ See https://github.com/pato-ontology/pato/issues/331.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001511"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A disfunctional quality held by the bearer when the latter is unable to perform a regular function(s).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATC:MAH</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATC:MAH</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -8838,7 +8838,7 @@ See https://github.com/pato-ontology/pato/issues/331.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001786"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A shape quality inhering in a bearer by virtue of the bearer&apos;s being divided or broken up into parts or divisions.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">die.net:die.net</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>die.net:die.net</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -12627,7 +12627,7 @@ See https://github.com/pato-ontology/pato/issues/331.</rdfs:comment>
 6.It possesses rotational symmetry.
 7.One pair of opposite sides are parallel and congruent.
 8.Two pairs of adjacent angles are supplementary.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>wikipedia:Parallelogram</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wikipedia:Parallelogram</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
