@@ -28,6 +28,9 @@ jobs:
       - name: Refreshing components
         run: cd src/ontology/ && docker run -v $PWD/../../:/work -w /work/src/ontology -e ROBOT_JAVA_ARGS='-Xmx10G' -e JAVA_OPTS='-Xmx10G' --rm obolibrary/odklite make IMP=false IMP_LARGE=false GITHUB_ACTION=true ../patterns/definitions.owl
       
+      - name: Remove patternized classes
+        run: cd src/ontology/ && docker run -v $PWD/../../:/work -w /work/src/ontology -e ROBOT_JAVA_ARGS='-Xmx10G' -e JAVA_OPTS='-Xmx10G' --rm obolibrary/odklite make GITHUB_ACTION=true remove_patternised_classes
+      
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
