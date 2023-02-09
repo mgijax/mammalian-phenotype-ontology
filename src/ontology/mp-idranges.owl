@@ -55,3 +55,11 @@ Datatype: idrange:4
     EquivalentTo: 
         xsd:integer[> 3000000 , <= 4000000]
 
+Datatype: idrange:5
+
+    Annotations: 
+        allocatedto: "anna"
+    
+    EquivalentTo: 
+        xsd:integer[> 30000 , <= 40000]
+
