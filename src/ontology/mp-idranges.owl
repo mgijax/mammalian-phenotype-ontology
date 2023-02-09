@@ -34,7 +34,7 @@ Datatype: idrange:1
 Datatype: idrange:2
 
     Annotations: 
-        allocatedto: "Cindy Smith"
+        allocatedto: "smb"
     
     EquivalentTo: 
         xsd:integer[> 10000 , <= 20000]
@@ -54,3 +54,4 @@ Datatype: idrange:4
     
     EquivalentTo: 
         xsd:integer[> 3000000 , <= 4000000]
+
