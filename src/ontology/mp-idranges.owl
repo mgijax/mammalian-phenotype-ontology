@@ -61,5 +61,5 @@ Datatype: idrange:5
         allocatedto: "anna"
     
     EquivalentTo: 
-        xsd:integer[> 30000 , <= 40000]
+        xsd:integer[> 31465 , <= 40000]
 
