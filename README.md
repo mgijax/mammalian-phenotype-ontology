@@ -10,8 +10,8 @@ We have deprecated the Jenkins server process. If you are currently getting the 
 The OBO formatted file, mp.obo, on the MGI site is renamed to MPheno_OBO.ontology. 
 
 The retired Jenkins urls will soon be inactive
- * https://build.obolibrary.io/job/obofoundry/job/pipeline-mp/ (Primary release pipeline, now in use, ODK)
- * https://build.obolibrary.io/job/obophenotype/job/mammalian-phenotype-ontology/ (Experimental pipeline. Running whatever branch is specified [here](https://github.com/obophenotype/mammalian-phenotype-ontology/blob/92251f6b095bb831b7a52f05a987f5342588b8b0/Jenkinsfile#L34)
+
+The build is now running through GitHub Actions. New releases are put together in GitHub releases with the MP OBO, OWL, and JSON files available from the MGI FTP site.
 
 
 ## Project Page
