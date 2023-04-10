@@ -8,11 +8,12 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/nbo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2023-02-01/imports/nbo_import.owl"/>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/nbo/releases/2021-02-15/nbo.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-02-01</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2023-04-10/imports/nbo_import.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/nbo/releases/2023-02-21/nbo.owl"/>
+        <owl:versionInfo>2023-04-10</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -34,9 +35,39 @@
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/date -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
     
 
 
@@ -52,9 +83,21 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     
 
 
@@ -67,6 +110,12 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-equivalent -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-equivalent"/>
     
 
 
@@ -123,13 +172,27 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <obo:IAO_0000115>&quot;Behavior related to the complex psychophysiological experience of an individual&apos;s state of mind as interacting with biochemical (internal) and environmental (external) influences.&quot; [wikipedia:Emotions]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym>affective behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>mood</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label>emotional behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000001"/>
+        <obo:IAO_0000115>The act of moving any of the tissues and hard structures surrounding the mouth other than teeth, jaws or filter structures [NBO:AC]</obo:IAO_0000115>
+        <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasNarrowSynonym>mouth part movement</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>other moved mouth parts</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label>mouth movement</rdfs:label>
     </owl:Class>
     
 
@@ -178,7 +241,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <obo:IAO_0000115>&quot;Behavior related to the interactions between organisms for the purpose of mating.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym>mating behaviour</oboInOwl:hasExactSynonym>
@@ -192,7 +254,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
-        <obo:IAO_0000115>&quot;A behavioral interaction between organisms in which one organism has the intention of inflicting damage on another individual using physical or verbal means.&quot; [wikipedia:Aggression]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym>aggression</oboInOwl:hasExactSynonym>
@@ -209,7 +270,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <obo:IAO_0000115>&quot;Emotional behavior related to fear or anxiety.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym>fear/anxiety related behaviour</oboInOwl:hasExactSynonym>
@@ -238,7 +298,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000001"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000020"/>
-        <obo:IAO_0000115>&quot;Movement of the head in the horizontal plane.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym xml:lang="en">shake head</oboInOwl:hasExactSynonym>
@@ -252,7 +311,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000024">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000008"/>
-        <obo:IAO_0000115>&quot;Behavior related to the readily reversible state of reduced awareness and metabolic activity that occurs periodically in many animals.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -281,11 +339,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000037">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <obo:IAO_0000115>&quot;A behavior in which an organism produces sounds by a mechanism involving its respiratory system.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
-        <oboInOwl:hasExactSynonym>vocalization behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">vocalize</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>vocalization behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label>vocalization behavior</rdfs:label>
     </owl:Class>
@@ -339,7 +396,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000079"/>
-        <obo:IAO_0000115>&quot;Specific actions of a newborn or infant mammal that result in the derivation of nourishment from the breast.&quot; [GOC:dph]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasAlternativeId>NBO:0000046</oboInOwl:hasAlternativeId>
@@ -370,7 +426,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000063">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <obo:IAO_0000115>&quot;A feeding behavior associated with the intake or the frequency of intake or preference or manner of intake of food.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym>eating behaviour</oboInOwl:hasExactSynonym>
@@ -383,7 +438,7 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000073 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000073">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000007"/>
         <obo:IAO_0000115>The act of repeated grinding, tearing, and or crushing with teeth or jaws [NBO:SMAC]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
@@ -415,7 +470,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000084">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007622"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000008"/>
-        <obo:IAO_0000115>&quot;Behavior related to any biological process in an organism that recurs with a regularity of approximately 24 hours.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -428,7 +482,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000085">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
-        <obo:IAO_0000115>&quot;Emotional behavior related to a state of low mood  and aversion to activity.&quot; [wikipedia:Depression]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym>depression related behaviour</oboInOwl:hasExactSynonym>
@@ -442,7 +495,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000086">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
-        <obo:IAO_0000115>&quot;Behavior related to the exploration/investigation of a novel object, situation or environment.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -455,7 +507,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000091">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000018"/>
-        <obo:IAO_0000115>&quot;An emotional behavior related to a feeling of uneasiness or nervousness triggered by a specified triggering stimulus such as pain or the threat of danger.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T10:00:42Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym>fear-related behaviour</oboInOwl:hasExactSynonym>
@@ -469,7 +520,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000092">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000018"/>
-        <obo:IAO_0000115>&quot;An emotional behavior related to a feeling of uneasiness or nervousness triggered by an identifiable triggering stimulus.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T10:01:25Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym>anxiety-related behaviour</oboInOwl:hasExactSynonym>
@@ -483,7 +533,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000097">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000086"/>
-        <obo:IAO_0000115>&quot;Behavior related to the exploration/investigation of a novel environment.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T10:22:03Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -496,7 +545,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000098">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000086"/>
-        <obo:IAO_0000115>&quot;Behavior related to the exploration/investigation of a novel obhject.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T10:23:07Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -509,7 +557,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000086"/>
-        <obo:IAO_0000115>&quot;Behavior related to the exploration/investigation of a novel odor.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T10:24:44Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -522,7 +569,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000101">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000013"/>
-        <obo:IAO_0000115>&quot;Moving backwards.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T10:32:40Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -537,7 +583,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000091"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000097"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000101"/>
-        <obo:IAO_0000115>&quot;Moving backwards in response to a fear stimulus.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T10:36:56Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -550,7 +595,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <obo:IAO_0000115>&quot;Behavioral response to the presidency of the stressor where it becomes necessary to attempt some means of coping with the stress.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T10:49:00Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -563,7 +607,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000104">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000015"/>
-        <obo:IAO_0000115>&quot;Exhibiting a domineering, assault posture and/or hostile physical action towards humans.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T10:50:52Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym>aggressive behavior towards humans</oboInOwl:hasExactSynonym>
@@ -577,7 +620,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000107">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000015"/>
-        <obo:IAO_0000115>&quot;Exhibiting a domineering, assault posture and/or hostile physical action towards mice.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T10:51:50Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym>aggressive behavior towards mice</oboInOwl:hasExactSynonym>
@@ -592,7 +634,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000110">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000015"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000107"/>
-        <obo:IAO_0000115>&quot;Exhibiting a domineering, assault posture and/or hostile physical action towards male mice.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T10:52:56Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym>aggressive behavior towards male mice</oboInOwl:hasExactSynonym>
@@ -607,7 +648,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000111">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000015"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000107"/>
-        <obo:IAO_0000115>&quot;Exhibiting a domineering, assault posture and/or hostile physical action towards female mice.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T10:53:07Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym>aggressive behavior towards female mice</oboInOwl:hasExactSynonym>
@@ -621,7 +661,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000112">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000015"/>
-        <obo:IAO_0000115>&quot;Exhibiting a domineering, assault posture and/or hostile physical action toward inanimate objects.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T10:53:44Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym>aggressive behavior towards inanimate objects</oboInOwl:hasExactSynonym>
@@ -635,7 +674,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000119">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <obo:IAO_0000115>&quot;A behavior that occur quickly without control, planning, or consideration of the consequences of that behavior.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T11:08:55Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -649,7 +687,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000125">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000011"/>
-        <obo:IAO_0000115>&quot;A behavior associated with the tendency of an organism towards being passive and willing to yield towards male mice.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T11:44:25Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym>submissive behavior towards male mice</oboInOwl:hasExactSynonym>
@@ -663,7 +700,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000131">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000079"/>
-        <obo:IAO_0000115>&quot;A drinking behavior associated with the intake of alcohol.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T12:40:53Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -676,7 +712,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000134">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000079"/>
-        <obo:IAO_0000115>&quot;A feeding behavior associated with the intake of food.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T12:42:46Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -689,7 +724,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000136">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000134"/>
-        <obo:IAO_0000115>&quot;A feeding behavior associated with the intake of saccharin.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T12:50:41Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -726,7 +760,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000150">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000044"/>
-        <obo:IAO_0000115>&quot;Behavior of a mother towards her offspring.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T02:32:21Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -739,7 +772,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000151">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000044"/>
-        <obo:IAO_0000115>&quot;Behavior of a father towards his offspring.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T02:32:53Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -752,7 +784,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000152">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000150"/>
-        <obo:IAO_0000115>&quot;Maternal behavior related to the brining up her offspring.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T02:33:34Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -778,7 +809,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000155">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000044"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <obo:IAO_0000115>&quot;Behavior related to the parent&apos;s tendency to collect stray offspring and return them to a defined location.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T02:42:29Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym xml:lang="en">retrieval</oboInOwl:hasExactSynonym>
@@ -872,7 +902,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000180">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000607"/>
-        <obo:IAO_0000115>&quot;A type of memory that allows the recall of something from several seconds to as long as a minute.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-01T03:59:07Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -938,7 +967,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000217">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000210"/>
-        <obo:IAO_0000115>&quot;Avoidance learning when the action occurs.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-04T03:22:16Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -951,7 +979,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000218">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000210"/>
-        <obo:IAO_0000115>&quot;Avoidance learning when no action occurs.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-04T03:22:53Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -1096,7 +1123,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000323">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000607"/>
-        <obo:IAO_0000115>&quot;Behavior related to the sensation of odors.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-05T10:48:52Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -1226,7 +1252,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000342">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000339"/>
-        <obo:IAO_0000115>&quot;The coordination of limb movement.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-05T03:49:12Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -1239,7 +1264,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000355">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000607"/>
-        <obo:IAO_0000115>&quot;Intentionally or habitually assumed arrangement of the body and its limbs.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-06T09:30:15Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -1252,7 +1276,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000357">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000355"/>
-        <obo:IAO_0000115>&quot;Intentionally or habitually assumed arrangement of the limbs.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-06T09:31:06Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -1265,7 +1288,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000358">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000355"/>
-        <obo:IAO_0000115>&quot;Intentionally or habitually assumed arrangement of the body and its limbs in inactivity.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-06T09:31:29Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -1291,7 +1313,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000362">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000361"/>
-        <obo:IAO_0000115>&quot;A behavioral pattern characterized by the distance covered by as many steps as there are legs.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-06T10:08:59Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -1304,7 +1325,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000371">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000013"/>
-        <obo:IAO_0000115>&quot;Behavior related to the movement of an organism from one location to another through a liquid medium.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-06T12:33:07Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym>swim</oboInOwl:hasExactSynonym>
@@ -1349,7 +1369,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000388">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000001"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NBO_0000403"/>
-        <obo:IAO_0000115>&quot;Behavior related to movements that occur independent of planning.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-06T02:35:38Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -1363,7 +1382,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000389">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000388"/>
-        <obo:IAO_0000115>&quot;Behavior related to involuntary movement in response to a stimulus.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-06T02:36:55Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasAlternativeId>NBO:0000004</oboInOwl:hasAlternativeId>
@@ -1406,7 +1424,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000403">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000001"/>
-        <obo:IAO_0000115>&quot;Behavior related to movements executed with intent.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-06T03:32:28Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -1436,11 +1453,18 @@
         <obo:IAO_0000115>&quot;An involuntary blinking of the eyelids elicited by stimulation of the cornea.&quot; [wikipedia:Corneal_reflex]</obo:IAO_0000115>
         <dc:date>2011-04-06T06:08:06Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasDbXref>GO:0060082</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>blink reflex</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>blinking</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label>corneal reflex</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000415"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>GO:0060082</owl:annotatedTarget>
+        <dc:contributor>http://orcid.org/0000-0002-4277-2151</dc:contributor>
+    </owl:Axiom>
     
 
 
@@ -1504,7 +1528,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000446">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007601"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000001"/>
-        <obo:IAO_0000115>&quot;Selectively track a moving object.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-08T12:25:53Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -1560,8 +1583,8 @@
         <dc:date>2011-04-08T12:35:02Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym xml:lang="en">allo-hygiene behavior</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>allogrooming</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">allohygiene</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>allogrooming</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label>social grooming</rdfs:label>
     </owl:Class>
@@ -1572,7 +1595,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000536">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000084"/>
-        <obo:IAO_0000115>&quot;Any process in which an organism modulates its heart rate at different values with a regularity of approximately 24 hours.&quot; [GOC:rl]</obo:IAO_0000115>
         <dc:date>2011-04-10T02:18:47Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -1599,7 +1621,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000538">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000084"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <obo:IAO_0000115>&quot;Any homeostatic process in which an organism modulates its internal body temperature at different values with a regularity of approximately 24 hours.&quot; [GOC:dbh]</obo:IAO_0000115>
         <dc:date>2011-04-10T02:22:58Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym>circadian thermoregulation</oboInOwl:hasExactSynonym>
@@ -1640,7 +1661,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000552">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000551"/>
-        <obo:IAO_0000115>&quot;A visual object recognition that lasts hours to months and critically depends on a transfer of the information from short term object recognition memory using repeated rehearsals.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T02:02:11Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -1705,7 +1725,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000559">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000152"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000450"/>
-        <obo:IAO_0000115>&quot;Behavior related to the activity in which a mother cleans or maintains the body or the appearance of her offsprings.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T07:58:09Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -1718,7 +1737,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000560">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000027"/>
-        <obo:IAO_0000115>&quot;Behavior relating to the plucking of fur/hair or whiskers/vibrissae.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T08:03:48Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -1731,27 +1749,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000561">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000560"/>
-        <obo:IAO_0000115>&quot;Behavior related to the barbering of other individuals of a cohort.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T08:04:13Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasAlternativeId>NBO:0000083</oboInOwl:hasAlternativeId>
         <oboInOwl:hasExactSynonym>whisker trimming</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label>hetero-barbering</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NBO_0000567 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000567">
-        <obo:IAO_0000115>&quot;A pathological behavior associated with repetitive or ritualistic movement, posture, or utterance.&quot; [wikipedia:Stereotypy]</obo:IAO_0000115>
-        <dc:date>2011-04-14T08:28:29Z</dc:date>
-        <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
-        <oboInOwl:hasExactSynonym>stereotypic behaviour</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>stereotypy</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label>stereotypic behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1763,8 +1766,8 @@
         <obo:IAO_0000115>Movement of the head in the vertical plane. [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T08:39:38Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
-        <oboInOwl:hasExactSynonym>head nodding</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">nod head</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>head nodding</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label>head bobbing</rdfs:label>
     </owl:Class>
@@ -1775,7 +1778,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000571">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000020"/>
-        <obo:IAO_0000115>&quot;Movement of the head in multiple directions.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T08:43:33Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -1816,7 +1818,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000576">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000389"/>
-        <obo:IAO_0000115>&quot;A reflex that elucidates a characteristic ear twitch in response to an auditory stimulus.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T10:19:59Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym>Preyer&apos;s reflex</oboInOwl:hasExactSynonym>
@@ -1830,7 +1831,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000577">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000389"/>
-        <obo:IAO_0000115>&quot;A reflex that maintains body position and equilibrium either during rest or during movement.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T10:24:14Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -1843,7 +1843,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000578">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000577"/>
-        <obo:IAO_0000115>&quot;A reflex process in which an animal immediately tries to turn over after being placed in a supine position.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T10:28:56Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym>righting response</oboInOwl:hasExactSynonym>
@@ -1857,7 +1856,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000581">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000577"/>
-        <obo:IAO_0000115>&quot;A reflex which results from activation of afferents from the vestibular organs and uses neck movements to stabilize the head position in space.&quot; [JAX:]</obo:IAO_0000115>
         <dc:date>2011-04-14T10:44:18Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym>VCR</oboInOwl:hasExactSynonym>
@@ -1885,7 +1883,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000584">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000389"/>
-        <obo:IAO_0000115>&quot;A mouse reflex that elicidated the clasping of front and/or hind feet almost immediately upon being lifted by tail.&quot; [EUROPHENOME:]</obo:IAO_0000115>
         <dc:date>2011-04-14T10:55:22Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym>hindlimb extension reflex</oboInOwl:hasExactSynonym>
@@ -1901,7 +1898,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000599">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000556"/>
-        <obo:IAO_0000115>&quot;A type of memory that allows one to store and manage information about one&apos;s environment and its spatial orientation lasting hours to months.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:43:30Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -1914,7 +1910,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000607">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <obo:IAO_0000115>&quot;Behaviour related to cognitive processes.&quot; [NBO:JH]</obo:IAO_0000115>
         <dc:date>2011-04-14T03:51:13Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -1935,64 +1930,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NBO_0000686 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000686">
-        <obo:IAO_0000115>&quot;Paroxysmal events that mimic an epileptic seizure but do not involve abnormal, rhythmic discharges of cortical neurons.&quot; [wikipedia:http\://en.wikipedia.org/wiki/Non-epileptic_seizure]</obo:IAO_0000115>
-        <dc:date>2011-05-27T05:47:13Z</dc:date>
-        <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
-        <oboInOwl:hasExactSynonym>non-epileptic seizure</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label>provoked seizure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NBO_0000709 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000709">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000686"/>
-        <obo:IAO_0000115>&quot;A type of seizure induced by the administration of a drug.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <dc:date>2011-05-28T12:32:11Z</dc:date>
-        <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
-        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label>drug induced seizure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NBO_0000724 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000724">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000686"/>
-        <obo:IAO_0000115>&quot;A type of seizure induced by exposure to an electrical stimulus.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <dc:date>2011-05-28T01:42:36Z</dc:date>
-        <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
-        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label>electrical stimulation induced seizure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NBO_0000728 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000728">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000686"/>
-        <obo:IAO_0000115>&quot;A type of seizure induced by kindling, a repeated administration of electrical stimulus which eventually results changes in the brain.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <dc:date>2011-05-28T03:50:30Z</dc:date>
-        <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
-        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label>electrical kindling induced seizure</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NBO_0001571 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001571">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009416"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000607"/>
-        <obo:IAO_0000115>&quot;Behavior as a result of a light stimulus, electromagnetic radiation of wavelengths classified as infrared, visible or ultraviolet light.&quot; [NBO:GVG]</obo:IAO_0000115>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <rdfs:label xml:lang="en">behavioral response to light</rdfs:label>
     </owl:Class>
@@ -2003,7 +1945,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001679">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000607"/>
-        <obo:IAO_0000115>&quot;Behavior as a result of a xenobiotic compound (compound foreign to living organisms) stimulus.&quot; [NBOC:GVG]</obo:IAO_0000115>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <rdfs:label xml:lang="en">behavioral response to xenobiotics</rdfs:label>
     </owl:Class>
@@ -2014,7 +1955,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001728">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001679"/>
-        <obo:IAO_0000115>&quot;Behavior as a result of sensitivity to an addictive substance intake.&quot; [NBOC:GVG]</obo:IAO_0000115>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <rdfs:label xml:lang="en">behavioral response to addictive substance</rdfs:label>
     </owl:Class>
@@ -2025,7 +1965,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001763">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001728"/>
-        <obo:IAO_0000115>&quot;Behavior as a result of sensitivity to cocaine alcohol.&quot; [NBOC:GVG]</obo:IAO_0000115>
         <rdfs:label xml:lang="en">behavioral response to alcohol</rdfs:label>
     </owl:Class>
     
@@ -2035,7 +1974,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001915">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <obo:IAO_0000115>&quot;Behavior related to the intake of cocaine.&quot; [NBOC:GVG]</obo:IAO_0000115>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <rdfs:label xml:lang="en">cocaine consumption</rdfs:label>
     </owl:Class>
@@ -2046,7 +1984,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001987">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001728"/>
-        <obo:IAO_0000115>&quot;Behavior as a result of sensitivity to cocaine intake.&quot; [NBOC:GVG]</obo:IAO_0000115>
         <rdfs:label xml:lang="en">behavioral response to cocaine</rdfs:label>
     </owl:Class>
     
@@ -2056,7 +1993,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001728"/>
-        <obo:IAO_0000115>&quot;Behavior as a result of sensitivity to morphine&quot; [NBOC:GVG]</obo:IAO_0000115>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <rdfs:label xml:lang="en">behavioral response to morphine</rdfs:label>
     </owl:Class>
@@ -2067,7 +2003,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001728"/>
-        <obo:IAO_0000115>&quot;Behavior as a result of sensitivity to nicotine intake.&quot; [NBOC:GVG]</obo:IAO_0000115>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <rdfs:label xml:lang="en">behavioral response to nicotine</rdfs:label>
     </owl:Class>
@@ -2078,7 +2013,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002234">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <obo:IAO_0000115>&quot;Any process that modulates the frequency, rate or extent of consumption of an addictive substance, the specific actions or reactions of an organism in response to external or internal stimuli.&quot; [NBOC:GVG]</obo:IAO_0000115>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <rdfs:label xml:lang="en">regulation of consumption of an addictive substance</rdfs:label>
     </owl:Class>
@@ -2089,7 +2023,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002362">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001679"/>
-        <obo:IAO_0000115>&quot;Behavior as a result of sensitivity to an anasthetic intake.&quot; [NBOC:GVG]</obo:IAO_0000115>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <rdfs:label xml:lang="en">behavioral response to anesthetic</rdfs:label>
     </owl:Class>
@@ -2100,12 +2033,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002379">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000152"/>
-        <obo:IAO_0000115>&quot;Maternal behavior related to the nursing offspring.&quot; [NBOC:GVG]</obo:IAO_0000115>
         <rdfs:label xml:lang="en">nursing behavior</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
 
