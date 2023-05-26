@@ -37,7 +37,7 @@ Datatype: idrange:2
         allocatedto: "smb"
     
     EquivalentTo: 
-        xsd:integer[> 10000 , <= 20000]
+        xsd:integer[> 14200 , <= 20000]
 
 Datatype: idrange:3
 
