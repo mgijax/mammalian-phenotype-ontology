@@ -15,9 +15,9 @@
      xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2023-04-10/imports/cl_import.owl"/>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/cl/releases/2023-03-21/cl-simple.owl"/>
-        <owl:versionInfo>2023-04-10</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2023-06-16/imports/cl_import.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/cl/releases/2023-05-22/cl-simple.owl"/>
+        <owl:versionInfo>2023-06-16</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -200,6 +200,22 @@
     <!-- http://purl.obolibrary.org/obo/cl#added_for_HCA -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/cl#added_for_HCA">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cl#eye_upper_slim -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/cl#eye_upper_slim">
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     </owl:AnnotationProperty>
     
@@ -609,8 +625,11 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <cito:citesAsAuthority rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/22402613"/>
         <oboInOwl:hasDbXref>RO:0002103</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>synapsed_by</oboInOwl:id>
+        <oboInOwl:shorthand>synapsed_by</oboInOwl:shorthand>
         <rdfs:label xml:lang="en">synapsed by</rdfs:label>
+        <rdfs:label>synapsed by</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/RO_0002103"/>
@@ -712,6 +731,69 @@ N1 SubclassOf (
         <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
         <rdfs:label xml:lang="en">has potential to directly develop into</rdfs:label>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002488 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002488">
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002488"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+        </owl:propertyChainAxiom>
+        <obo:IAO_0000115>x existence starts during y if and only if the time point at which x starts is after or equivalent to the time point at which y starts and before or equivalent to the time point at which y ends. Formally: x existence starts during y iff α(x) &gt;= α(y) &amp; α(x) &lt;= ω(y).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:hasDbXref>RO:0002488</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>existence_starts_during</oboInOwl:id>
+        <oboInOwl:shorthand>existence_starts_during</oboInOwl:shorthand>
+        <rdfs:label>existence starts during</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002491 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002491">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002488"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002492"/>
+        <obo:IAO_0000115>x exists during y if and only if: 1) the time point at which x begins to exist is after or equal to the time point at which y begins and 2) the time point at which x ceases to exist is before or equal to the point at which y ends. Formally: x existence starts and ends during y iff α(x) &gt;= α(y) &amp; α(x) &lt;= ω(y) &amp; ω(x) &lt;= ω(y) &amp; ω(x) &gt;= α(y)</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:hasDbXref>RO:0002491</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>exists during</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>existence_starts_and_ends_during</oboInOwl:id>
+        <oboInOwl:shorthand>existence_starts_and_ends_during</oboInOwl:shorthand>
+        <rdfs:comment>The relations here were created based on work originally by Fabian Neuhaus and David Osumi-Sutherland. The work has not yet been vetted and errors in definitions may have occurred during transcription.</rdfs:comment>
+        <rdfs:label>existence starts and ends during</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002492 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002492">
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002492"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+        </owl:propertyChainAxiom>
+        <obo:IAO_0000115>Relation between continuant c and occurrent s, such that every instance of c ceases to exist during some s, if it does not die prematurely.</obo:IAO_0000115>
+        <obo:IAO_0000115>x existence ends during y if and only if the time point at which x ends is before or equivalent to the time point at which y ends and after or equivalent to the point at which y starts. Formally: x existence ends during y iff ω(x) &lt;= ω(y) and ω(x) &gt;= α(y).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:hasDbXref>RO:0002492</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>ceases_to_exist_during</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>existence_ends_during</oboInOwl:id>
+        <oboInOwl:shorthand>existence_ends_during</oboInOwl:shorthand>
+        <rdfs:comment>The relations here were created based on work originally by Fabian Neuhaus and David Osumi-Sutherland. The work has not yet been vetted and errors in definitions may have occurred during transcription.</rdfs:comment>
+        <rdfs:label>existence ends during</rdfs:label>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/RO_0002492"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Relation between continuant c and occurrent s, such that every instance of c ceases to exist during some s, if it does not die prematurely.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -849,6 +931,7 @@ N1 SubclassOf (
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
@@ -885,6 +968,7 @@ N1 SubclassOf (
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000015"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000413"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
@@ -958,6 +1042,7 @@ N1 SubclassOf (
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>An euploid male germ cell of an early stage of spermatogenesis.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>BTO:0000958</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-2193</oboInOwl:hasDbXref>
@@ -1061,6 +1146,7 @@ N1 SubclassOf (
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
@@ -1172,6 +1258,7 @@ N1 SubclassOf (
         <oboInOwl:hasExactSynonym>blood forming stem cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>hemopoietic stem cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>colony forming unit hematopoietic</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Markers differ between species, and two sets of markers have been described for mice. HSCs are reportedly CD34-positive, CD45-positive, CD48-negative, CD150-positive, CD133-positive, and CD244-negative.</rdfs:comment>
         <rdfs:label>hematopoietic stem cell</rdfs:label>
@@ -1208,6 +1295,7 @@ N1 SubclassOf (
         <oboInOwl:hasRelatedSynonym>burst forming unit erythroid</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>colony forming unit erythroid</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>erythroid stem cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <rdfs:label>erythroid progenitor cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1712,11 +1800,9 @@ N1 SubclassOf (
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Skeletogenic cell that secretes osteoid, is capable of producing mineralized (hydroxyapatite) matrix, is located adjacent to or within osteoid tissue, and arises from the transformation of a preosteoblast cell.</obo:IAO_0000115>
-        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0001593</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-0720</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:66780</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>non-encoded relationships from VSAO - capable_of_producing VSAO:0000020</rdfs:comment>
         <rdfs:label>osteoblast</rdfs:label>
     </owl:Class>
@@ -1754,9 +1840,11 @@ N1 SubclassOf (
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000067"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000710"/>
         <obo:IAO_0000115>A neurectoderm derived cell that lines the neural lumen.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0001724</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:70550</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>ependymocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>ependymal cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1983,8 +2071,10 @@ N1 SubclassOf (
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000082">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000066"/>
         <obo:IAO_0000115>An epithelial cell of the lung.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0004299</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>lung epithelial cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>epithelial cell of lung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2015,15 +2105,15 @@ N1 SubclassOf (
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000083"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000066"/>
-        <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000083"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An epithelial cell of the pancreas.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000083"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000066"/>
+        <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
     </owl:Axiom>
     
 
@@ -2122,13 +2212,11 @@ N1 SubclassOf (
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A specialized phagocytic cell associated with the absorption and removal of the mineralized matrix of bone tissue, which typically differentiates from monocytes. This cell has the following markers: tartrate-resistant acid phosphatase type 5-positive, PU.1-positive, c-fos-positive, nuclear factor NF-kappa-B p100 subunit-positive, tumor necrosis factor receptor superfamily member 11A-positive and macrophage colony-stimulating factor 1 receptor-positive.</obo:IAO_0000115>
-        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0000968</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-0721</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:66781</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D010010</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>chondroclast</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Morphology: Highly vesicular; markers: Surface: RANK, cFMS (MCSF receptor); Secreted: cathepsin K and TRAP (tartate resistant acid phosphatase); transcription factors: PU.1, cFOS, MITF, NFkB (p52); role or process: tissue remodelling: bone resorption; lineage: hematopoietic, myeloid.</rdfs:comment>
         <rdfs:label>osteoclast</rdfs:label>
     </owl:Class>
@@ -2229,6 +2317,7 @@ N1 SubclassOf (
         <oboInOwl:hasExactSynonym>labrocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>mastocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>tissue basophil</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Mast cells are generally integrin beta-7-negative and positive for TLR2, TLR3, TLR4, TLR5, TLR7, TLR9, C3aR, C5aR, CR3, CR4, VEGF, FGF2, and renin. They can express MHC Class I and II on their surface. Activated murine mast cells (IgE+Antigen) were capable of expressing the following co-stimulatory molecules: CD95 (Fas), CD120b, CD137 (4-1BB), CD153 (CD30L), CD154 (CD40L), GITR, ICOSL, OX40L, PD-L1, and PD-L2. Note that there was some mouse strain variation. Mast cells have also been demonstrated to produce bFGF, CCL2, CCL4, CCL5, CCL11, CCL20, CXCL2, CXCL8, CXCL10, GM-CSF, IFN-gamma, IL-1, IL-2, IL-3, IL-8, IL-10, IL-11, IL-12, IL-13, IL-16, IL-25, IL-18, MIP-1, prostaglandin D2, SCF, TGF-beta, TNF-alpha, TSLP, VEGF, and XCL1. They express the transcription factors Transcription factors AP-1, GATA1, MITF, Notch2, PIAS3, PU.1, and STAT5.</rdfs:comment>
         <rdfs:label>mast cell</rdfs:label>
@@ -2328,11 +2417,13 @@ N1 SubclassOf (
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000100">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000527"/>
         <obo:IAO_0000115>An efferent neuron that passes from the central nervous system or a ganglion toward or to a muscle and conducts an impulse that causes or inhibits movement.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0000312</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FBbt:00005123</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:83617</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>WBbt:0005409</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>motoneuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>motor neuron</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2446,7 +2537,7 @@ N1 SubclassOf (
     <!-- http://purl.obolibrary.org/obo/CL_0000109 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000109">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4033050"/>
         <oboInOwl:hasDbXref>MESH:D059331</oboInOwl:hasDbXref>
         <rdfs:label>adrenergic neuron</rdfs:label>
     </owl:Class>
@@ -2457,9 +2548,17 @@ N1 SubclassOf (
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000110">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <obo:IAO_0000115>A neuron that uses neuropeptides as transmitters.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FBbt:00004101</oboInOwl:hasDbXref>
         <rdfs:label>peptidergic neuron</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000110"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A neuron that uses neuropeptides as transmitters.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:23040809</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>doi:10.1016/B978-012589762-4/50021-9</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2670,10 +2769,12 @@ N1 SubclassOf (
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000127">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000126"/>
         <obo:IAO_0000115>A class of large neuroglial (macroglial) cells in the central nervous system - the largest and most numerous neuroglial cells in the brain and spinal cord. Astrocytes (from &apos;star&apos; cells) are irregularly shaped with many long processes, including those with &apos;end feet&apos; which form the glial (limiting) membrane and directly and indirectly contribute to the blood-brain barrier. They regulate the extracellular ionic and chemical environment, and &apos;reactive astrocytes&apos; (along with microglia) respond to injury.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0000099</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-0060</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:54537</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>astrocytic glia</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Astrocytes are reportedly CD68-negative, CD121a-positive, CD184-positive, CD192-positive, CRF-positive, EGFR-positive, GFAP-positive, GLUT1-positive, MBP-negative, and NGFR-positive.</rdfs:comment>
         <rdfs:label>astrocyte</rdfs:label>
     </owl:Class>
@@ -2705,11 +2806,13 @@ N1 SubclassOf (
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A class of large neuroglial (macroglial) cells in the central nervous system. Form the insulating myelin sheath of axons in the central nervous system.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0000962</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-0709</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:54540</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>OLs</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>oligodendroglia</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Oligodendrocytes are reportedly MDP-positive and CD4-negative.</rdfs:comment>
         <rdfs:label>oligodendrocyte</rdfs:label>
     </owl:Class>
@@ -2980,13 +3083,11 @@ N1 SubclassOf (
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A mature osteoblast that has become embedded in the bone matrix. They occupy a small cavity, called lacuna, in the matrix and are connected to adjacent osteocytes via protoplasmic projections called canaliculi.</obo:IAO_0000115>
-        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasBroadSynonym>bone cell</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>BTO:0002038</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-1167</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:66779</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>VSAO:0000124</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>VSAO relationship simplified OBO_REL:integral_part_of VSAO:0000118</rdfs:comment>
         <rdfs:label>osteocyte</rdfs:label>
     </owl:Class>
@@ -3058,6 +3159,7 @@ N1 SubclassOf (
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000738"/>
         <obo:IAO_0000115>A cell capable of processing and presenting lipid and protein antigens to T cells in order to initiate an immune response.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>APC</oboInOwl:hasBroadSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <rdfs:comment>Note change of name; nearly all somatic cells can present antigens to T cells via MHC Class I complexes leading to effector responses, but professional antigen presenting cells constitutively express MHC Class II as well as costimulatory molecules, and thus can initiate immune responses via T cells.</rdfs:comment>
         <rdfs:label>professional antigen presenting cell</rdfs:label>
     </owl:Class>
@@ -3183,6 +3285,7 @@ N1 SubclassOf (
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000152">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000151"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>A cell of an exocrine gland; i.e. a gland that discharges its secretion via a duct.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FMA:16014</oboInOwl:hasDbXref>
         <rdfs:label>exocrine cell</rdfs:label>
@@ -3273,31 +3376,25 @@ N1 SubclassOf (
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000158">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000157"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002328"/>
-        <obo:IAO_0000115>Epithelial progenitor cell of the lung. Club cells are dome-shaped with short microvilli but no cilia. They function to protect the bronchiolar epithelium. Club cells also multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002202"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
+        <obo:IAO_0000115>A non-mucous, epithelial secretory cell that is part of the tracheobronchial tree. A club cell has short microvilli but no cilia. A club cell is able to multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium and it also protects the tracheobronchial epithelium.</obo:IAO_0000115>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0004811</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:14119</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Clara cell</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>bronchiolar non-ciliated cell</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>club cell of bronchiole</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>club cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000158"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0002328"/>
-        <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000158"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Epithelial progenitor cell of the lung. Club cells are dome-shaped with short microvilli but no cilia. They function to protect the bronchiolar epithelium. Club cells also multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium.</owl:annotatedTarget>
+        <owl:annotatedTarget>A non-mucous, epithelial secretory cell that is part of the tracheobronchial tree. A club cell has short microvilli but no cilia. A club cell is able to multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium and it also protects the tracheobronchial epithelium.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1183/09031936.00146609</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>DOI:https://doi.org/10.1378/chest.12-2762</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:28128362</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:29874100</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:7905712</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3373,6 +3470,7 @@ N1 SubclassOf (
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000163">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000151"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>A cell of an endocrine gland, ductless glands that secrete substances which are released directly into the circulation and which influence metabolism and other body functions.</obo:IAO_0000115>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>FMA:83809</oboInOwl:hasDbXref>
@@ -3704,6 +3802,7 @@ The modern definition of neurosecretion has evolved to include the release of an
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000178">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4030031"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3789,13 +3888,11 @@ The modern definition of neurosecretion has evolved to include the release of an
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000183"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002078"/>
         <obo:IAO_0000115>Contractile cells resembling smooth muscle cells that are present in glands, notably the mammary gland, and aid in secretion. This cell has long weaving dendritic processes containing myofilament.</obo:IAO_0000115>
-        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0002309</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-2379</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:67799</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>basket epithelial cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>myoepitheliocyte</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>myoepithelial cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3813,7 +3910,6 @@ The modern definition of neurosecretion has evolved to include the release of an
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000187">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000183"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000393"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -4004,7 +4100,7 @@ The modern definition of neurosecretion has evolved to include the release of an
     <!-- http://purl.obolibrary.org/obo/CL_0000206 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000206">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000101"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000197"/>
         <obo:IAO_0000115>A cell specialized to detect chemical substances and relay that information centrally in the nervous system. Chemoreceptors may monitor external stimuli, as in taste and olfaction, or internal stimuli, such as the concentrations of oxygen and carbon dioxide in the blood.</obo:IAO_0000115>
         <rdfs:label>chemoreceptor cell</rdfs:label>
     </owl:Class>
@@ -4342,6 +4438,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasDbXref>FMA:81100</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>RBC</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>red blood cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>erythrocyte</rdfs:label>
     </owl:Class>
@@ -4382,6 +4479,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasExactSynonym>anucleate thrombocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>blood platelet</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>enucleate thrombocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Platelets are reportedly CCR1-positive, CCR2-negative, CCR3-positive, CCR4-positive, CCR5-negative, CCR6-negative, CCR7-negative, CCR8-negative, CCR9-negative, CCR10-negative, CD16-positive, CD23-positive, CD32-positive, CD40-positive, CD41-positive CD42-positive, CD61-positive, CD62P-positive, CD64-positive, CD89-positive, CD102-positive, CD147-positive (activated platelets), CD154-positive (activated platelets), CD162-positive, CD209, CD282-positive, CD284-positive, CD289-positive, CD181-negative, CD182-negative, CD183-negative, CD184-positive, CLEC2-positive, GPVI-positive, JAMC-positive, PAR1-positive, PAR2-negative, PAR3-positive, PAR4-positive, TSP1-positive, and TXA2R-positive. Platelets can reportedly produce CCL2, CCL3, CCL5, CCL7, CCL17, CD40L, CXCL1, CXCL4, CXCL4L1, CXCL5, CXCL7, CXCL8, CXCL12, EGF, factor V, factor VII, factor XI, factor XIII, bFGF, histamine, IGF-1, IL-1beta, PAI-1, PDGF, plasminogen, protein S, serotonin, TGF-beta, TFPI, VEGF, and vWF.</rdfs:comment>
         <rdfs:label>platelet</rdfs:label>
@@ -4416,6 +4514,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000219"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000325"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000473"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>Any cell capable of ingesting particulate matter via phagocytosis.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>BTO:0001044</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:83806</oboInOwl:hasDbXref>
@@ -4452,6 +4551,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasDbXref>FMA:83585</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D008264</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>histiocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Morphology: Diameter 30_M-80 _M, abundant cytoplasm, low N/C ratio, eccentric nucleus. Irregular shape with pseudopods, highly adhesive. Contain vacuoles and phagosomes, may contain azurophilic granules; markers: Mouse &amp; Human: CD68, in most cases CD11b. Mouse: in most cases F4/80+; role or process: immune, antigen presentation, &amp; tissue remodelling; lineage: hematopoietic, myeloid.</rdfs:comment>
         <rdfs:label>macrophage</rdfs:label>
@@ -4489,6 +4589,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasExactSynonym>B lymphocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>B-cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>B-lymphocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>B cell</rdfs:label>
     </owl:Class>
@@ -4592,6 +4693,7 @@ The modern definition of neurosecretion has evolved to include the release of an
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000287">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000210"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#eye_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>eye photoreceptor cell</rdfs:label>
     </owl:Class>
@@ -4894,7 +4996,6 @@ The modern definition of neurosecretion has evolved to include the release of an
     <!-- http://purl.obolibrary.org/obo/CL_0000349 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000349">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
         <rdfs:label>extraembryonic cell</rdfs:label>
     </owl:Class>
@@ -5026,15 +5127,18 @@ The modern definition of neurosecretion has evolved to include the release of an
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000402">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000099"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000117"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_2000029"/>
+        <obo:IAO_0000115>An interneuron that has its cell body in a central nervous system.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
+        <rdfs:comment>Interneurons are commonly described as being only found in the central nervous system. However, in CL we define &apos;interneuron&apos; more broadly as any neuron that is neither a motor neuron nor a sensory neuron, regardless of its location, so we need this term to refer strictly to interneurons of the central nervous system.</rdfs:comment>
         <rdfs:label>CNS interneuron</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000402"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000099"/>
-        <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An interneuron that has its cell body in a central nervous system.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>doi:10.1016/B978-0-12-817424-1.00001-X</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5060,6 +5164,7 @@ The modern definition of neurosecretion has evolved to include the release of an
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000408">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000015"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000300"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <oboInOwl:hasDbXref>BTO:0001277</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-0949</oboInOwl:hasDbXref>
         <rdfs:label>male gamete</rdfs:label>
@@ -5224,6 +5329,7 @@ The modern definition of neurosecretion has evolved to include the release of an
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000442">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000473"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>A cell with extensive dendritic processes found in the B cell areas (primary follicles and germinal centers) of lymphoid tissue. They are unrelated to the dendritic cell associated with T cells. Follicular dendritic cells have Fc receptors and C3b receptors, but unlike other dendritic cells, they do not process or present antigen in a way that allows recognition by T cells. Instead, they hold antigen in the form of immune complexes on their surfaces for long periods and can present antigen to B cells during an immune response.</obo:IAO_0000115>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0004267</oboInOwl:hasDbXref>
@@ -5888,7 +5994,6 @@ The modern definition of neurosecretion has evolved to include the release of an
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000518">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000234"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>A phagocyte in vertebrates that is able to phagocytosis.</obo:IAO_0000115>
         <rdfs:label>phagocyte (sensu Vertebrata)</rdfs:label>
     </owl:Class>
@@ -6204,6 +6309,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasDbXref>FMA:83518</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>rubriblast</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>pronormoblast</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <rdfs:label>proerythroblast</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6532,6 +6638,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasExactSynonym>megacaryocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>megalocaryocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>megalokaryocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Megakaryocytes are reportedly CD181-positive and CD182-positive.</rdfs:comment>
         <rdfs:label>megakaryocyte</rdfs:label>
@@ -6646,6 +6753,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasDbXref>BTO:0001173</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-0864</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D012156</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <rdfs:label>reticulocyte</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6717,6 +6825,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasDbXref>BTO:0004044</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:67766</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>amacrine neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#eye_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>amacrine cell</rdfs:label>
     </owl:Class>
@@ -6743,8 +6852,10 @@ The modern definition of neurosecretion has evolved to include the release of an
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A mesenchymal stem cell capable of developing into blood vessel endothelium.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasExactSynonym>angioblast</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>chondroplast</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>These cells are reportedly CD31-positive, CD34-positive, CD144-positive, CD309-positive, and TAL1-positive.</rdfs:comment>
         <rdfs:label>angioblastic mesenchymal cell</rdfs:label>
     </owl:Class>
@@ -6907,6 +7018,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasDbXref>BTO:0000876</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-0638</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:62864</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Morphology: Mononuclear cell, diameter, 14 to 20 _M, N/C ratio 2:1-1:1. Nucleus may appear in variety of shapes: round, kidney, lobulated, or convoluted. Fine azurophilic granules present; markers: CD11b (shared with other myeloid cells), human: CD14, mouse: F4/80-mid,GR1-low; location: Blood, but can be recruited into tissues; role or process: immune &amp; tissue remodelling; lineage: hematopoietic, myeloid.</rdfs:comment>
         <rdfs:label>monocyte</rdfs:label>
@@ -7525,6 +7637,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasDbXref>BTO:0003064</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Muller glia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Müller cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#eye_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>Mueller cell</rdfs:label>
     </owl:Class>
@@ -7601,9 +7714,11 @@ The modern definition of neurosecretion has evolved to include the release of an
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000644">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000127"/>
         <obo:IAO_0000115>Type of radial astrocyte in the cerebellar cortex that have their cell bodies in the Purkinje cell layer and processes that extend into the molecular layer, terminating with bulbous endfeet at the pial surface. Bergmann glia express high densities of glutamate transporters that limit diffusion of the neurotransmitter glutamate during its release from synaptic terminals. Besides their role in early development of the cerebellum, Bergmann glia are also required for the pruning or addition of synapses.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>FMA:54559</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Bergmann astrocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Bergmann glial cell of cerebellum</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>Bergmann glial cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7941,6 +8056,7 @@ The modern definition of neurosecretion has evolved to include the release of an
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000670">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000039"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000219"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>A primordial germ cell is a diploid germ cell precursors that transiently exist in the embryo before they enter into close association with the somatic cells of the gonad and become irreversibly committed as germ cells.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FMA:70567</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>gonocyte</oboInOwl:hasExactSynonym>
@@ -7991,8 +8107,10 @@ The modern definition of neurosecretion has evolved to include the release of an
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000151"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
         <obo:IAO_0000115>A neuron that is capable of some neurotansmission by glutamate secretion.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>FBbt:00100291</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>WBbt:0006829</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -8117,8 +8235,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CL_0000700 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000700">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000151"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4033050"/>
         <obo:IAO_0000115>A neuron that releases dopamine as a neurotransmitter.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>BTO:0004032</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FBbt:00005131</oboInOwl:hasDbXref>
@@ -8224,6 +8341,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>An achromatic cell of the myeloid or lymphoid lineages capable of ameboid movement, found in blood or other tissue.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0000751</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-0549</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:62852</oboInOwl:hasDbXref>
@@ -8231,6 +8349,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasExactSynonym>leucocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>white blood cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>immune cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>leukocyte</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -8262,6 +8381,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasExactSynonym>RGC</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>gangliocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>ganglion cell of retina</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#eye_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>retinal ganglion cell</rdfs:label>
     </owl:Class>
@@ -8282,6 +8402,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0004120</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>horizontal cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#eye_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>retina horizontal cell</rdfs:label>
     </owl:Class>
@@ -8349,6 +8470,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0009004"/>
         <obo:IAO_0000115>A bipolar neuron found in the retina and having connections with photoreceptors cells and neurons in the inner plexiform layer.</obo:IAO_0000115>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#eye_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>retinal bipolar neuron</rdfs:label>
     </owl:Class>
@@ -8361,10 +8483,28 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0000749 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000749">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000748"/>
+        <obo:IAO_0000115>A bipolar neuron found in the retina and having connections with photoreceptors cells and neurons in the inner half of the inner plexiform layer. These cells depolarize in response to light stimulation of their corresponding photoreceptors.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
+        <rdfs:label>ON-bipolar cell</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000749"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A bipolar neuron found in the retina and having connections with photoreceptors cells and neurons in the inner half of the inner plexiform layer. These cells depolarize in response to light stimulation of their corresponding photoreceptors.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:14689473</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0000751 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000751">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000748"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000749"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002103"/>
@@ -8420,11 +8560,9 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cell of the monocyte, granulocyte, mast cell, megakaryocyte, or erythroid lineage.</obo:IAO_0000115>
-        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0001441</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-0647</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D022423</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>myeloid cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -8483,6 +8621,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasDbXref>FMA:83504</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D004900</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>normoblast</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <rdfs:label>erythroblast</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -8508,6 +8647,8 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000738"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
         <obo:IAO_0000115>A cell of the monocyte, granulocyte, or mast cell lineage.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>myeloid leukocyte</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -8538,6 +8679,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasDbXref>FMA:62862</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>basophilic leucocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>basophilic leukocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Matures in the bone marrow and account for &lt;1% of leukocytes in the peripheral blood, spleen, and bone marrow. Basophils are described as being CD11a-positive, CD11b-positive, CD13-positive, CD15-positive, CD18-positive, CD21-positive, CD25-positive, CD29-positive, CD35-positive, CD40-positive, CD40L-positive, CD44-positive, CD45R-negative, CD46-positive, CD49a-positive, CD49b-positive, CD49d-positive, CD55-positive, CD59-positive, CD62L-positive, CD63-positive, CD69-positive, CD90-negative, CD116-positive, CD117-negative, CD124-positive, CD125-positive, CD131-positive, CD161-positive, CD184-positive, CD191-positive, CD192-positive, CD197-positive, CD200R3-positive, CD218-positive, CD282-positive, CD284-positive, CD289-positive, CD290-positive, CD294-positive, natural killer cell receptor 2B4-positive, smad1-positive, CD3-negative, CD4-negative, CD7-negative, CD8-negative, CD14-negative, CD15-negative, CD16-negative, CD19-negative, CD20-negative, CD34-negative, CD36-negative, CD45R-negative, CD56-negative, CD57-negative, CD235a-negative, and GR1-negative. Transcription factors- GATA1-positive, PU.1-positive.</rdfs:comment>
         <rdfs:label>basophil</rdfs:label>
@@ -8583,6 +8725,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasExactSynonym>eosinophilic granulocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>eosinophilic leucocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>eosinophilic leukocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Eosinophils are also CD14-negative, CD32-positive, CD44-positive, CD48-positive, CD69-positive, CD192-negative, MBP1-positive, MBP2-positive, TLR2-negative, TLR4-negative, and lineage-negative (B220, CD2, CD14, CD19, CD56, CD71, CD117, CD123, CD235a (glycophorin A), and TER119). The cytokines IL-3, IL-5, and GM-CSF are involved in their development and differentiation. Usually considered CD16-negative, CD16 is observed on eosinophilic metamyelocyte.</rdfs:comment>
         <rdfs:label>eosinophil</rdfs:label>
@@ -8631,6 +8774,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasExactSynonym>neutrophil leukocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>neutrophilic leucocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>neutrophilic leukocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>neutrophil</rdfs:label>
     </owl:Class>
@@ -8664,11 +8808,13 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A dendritic cell of the myeloid lineage.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasBroadSynonym>interdigitating cell</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym>veiled cell</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>BTO:0004721</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>CD11c+CD123- DC</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>mDC</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>These cells are CD1a-negative, CD1b-positive, CD11a-positive, CD11c-positive, CD13-positive, CD14-negative, CD20-negative, CD21-negative, CD33-positive, CD40-negative, CD50-positive, CD54-positive, CD58-positive, CD68-negative, CD80-negative, CD83-negative, CD85j-positive, CD86-positive, CD89-negative, CD95-positive, CD120a-negative, CD120b-positive, CD123-negative, CD178-negative, CD206-negative, CD207-negative, CD209-negative, and TNF-alpha-negative. Upon TLR stimulation, they are capable of producing high levels of TNF-alpha, IL-6, CXCL8 (IL-8).</rdfs:comment>
         <rdfs:label>myeloid dendritic cell</rdfs:label>
     </owl:Class>
@@ -8730,6 +8876,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasExactSynonym>plasmacytoid T cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>plasmacytoid monocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>type 2 DC</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>plasmacytoid dendritic cell</rdfs:label>
     </owl:Class>
@@ -8820,6 +8967,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasExactSynonym>plasmocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>effector B cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>effector B-cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Plasma cells develop in the spleen and migrate to the bone marrow. Plasma cells are also reportedly CD5-negative, CD10-negative, CD19-positive, CD20-negative, CD21-negative, CD22-negative, CD23-negative, CD24-negative, CD25-negative, CD27-positive, CD34-negative, CD38-positive, CD40-positive, CD43-positive, CD45-positive, CD48-positive, CD53-low, CD80-negative, CD81-positive, CD86-positive, CD95-positive, CD196-negative, CD229-positive, CD270-positive, CD352-positive, CD361-positive, and IgD-negative. Transcription factors: BLIMP1-positive, IRF4-positive, PAX5-negative, SpiB-negative, Ets1-negative, and XBP1-positive.</rdfs:comment>
         <rdfs:label>plasma cell</rdfs:label>
@@ -8929,6 +9077,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasExactSynonym>alpha-beta T lymphocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>alpha-beta T-cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>alpha-beta T-lymphocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <rdfs:label>alpha-beta T cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -9247,6 +9396,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasExactSynonym>gamma-delta T-lymphocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>gammadelta T cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>gd T cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Note that gamma-delta T cells have both thymic and extrathymic differentiation pathways.</rdfs:comment>
         <rdfs:label>gamma-delta T cell</rdfs:label>
@@ -9804,6 +9954,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasExactSynonym>immature B-cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>immature B-lymphocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>newly formed B cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Immature B cells are also reportedly CD5-positive, CD10-positive, CD19-positive, CD20-positive, CD21-positive, CD22-positive, CD24-positive, CD25-negative, CD27-negative, CD34-negative, CD38-positive, CD40-positive, CD43-negative, CD45-positive, CD48-positive, CD53-positive, CD79a-positive, CD80-negative, CD81-positive, CD86-negative, CD95-negative, CD127-negative, CD138-negative, CD185-positive, CD196-positive, MHCII/HLA-DR-positive, RAG-positive, TdT-negative, Vpre-B-negative, and preBCR-negative. Transcription factors expressed: Pax5-positive.</rdfs:comment>
         <rdfs:label>immature B cell</rdfs:label>
@@ -10382,6 +10533,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasDbXref>CALOHA:TS-0448</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>MPP</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>hemopoietic progenitor cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Markers differ between mouse and human.</rdfs:comment>
         <rdfs:label>hematopoietic multipotent progenitor cell</rdfs:label>
@@ -10468,6 +10620,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasDbXref>FMA:86713</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>mononuclear leukocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>peripheral blood mononuclear cell</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <rdfs:label>mononuclear cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -11817,7 +11970,6 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CL_0000988 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000988">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
         <obo:IAO_0000115>A cell of a hematopoietic lineage.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>BTO:0000574</oboInOwl:hasDbXref>
@@ -11852,6 +12004,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasExactSynonym>cDC</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>dendritic reticular cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>type 1 DC</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Originally described in the dendritic cell ontology (DC_CL:0000003)(PMID:19243617) These cells are also CD20-negative, MHCII-positive.</rdfs:comment>
         <rdfs:label>conventional dendritic cell</rdfs:label>
@@ -11947,8 +12100,10 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0001035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>A connective tissue cell found in bone.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9990-8331"/>
         <oboInOwl:creation_date>2011-11-16T04:28:16Z</oboInOwl:creation_date>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>bone cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -12041,6 +12196,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9990-8331"/>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-30T20:20:48Z</terms:date>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>innate lymphoid cell</rdfs:label>
     </owl:Class>
@@ -12313,6 +12469,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <obo:IAO_0000115>A hematopoietic progenitor cell that is capable of developing into only one lineage of hematopoietic cells.</obo:IAO_0000115>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
         <oboInOwl:creation_date>2010-01-06T03:43:20Z</oboInOwl:creation_date>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <rdfs:label>hematopoietic lineage restricted progenitor cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -12338,6 +12495,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <obo:IAO_0000115>A hematopoietic oligopotent progenitor cell that has the ability to differentiate into limited cell types but lacks lineage cell markers and self renewal capabilities.</obo:IAO_0000115>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
         <oboInOwl:creation_date>2010-01-06T03:43:27Z</oboInOwl:creation_date>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <rdfs:comment>This cell type is intended to be compatible with any vertebrate hematopoietic oligopotent progenitor cell.  For mammalian hematopoietic oligopotent progenitor cells known to be lineage-negative, please use the term &apos;hematopoietic oligopotent progenitor cell&apos; (CL_0001060).</rdfs:comment>
         <rdfs:label>hematopoietic oligopotent progenitor cell</rdfs:label>
     </owl:Class>
@@ -13062,6 +13220,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000021"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>One of two small cells formed by the first and second meiotic division of oocytes.</obo:IAO_0000115>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
         <oboInOwl:creation_date>2010-08-23T09:49:53Z</oboInOwl:creation_date>
@@ -13364,6 +13523,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002153">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000225"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000311"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
@@ -13462,6 +13622,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002167">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000098"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000206"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000710"/>
         <obo:IAO_0000115>A specialized cell involved in sensory perception of smell.</obo:IAO_0000115>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
@@ -13751,6 +13912,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CL_0002196 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002196">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
         <obo:IAO_0000115>A transient hepatic stem cell observed after liver injury with a high nuclear to cytoplasm ratio that can differentiate into mature hepatocytes and bile duct cells. Arises from more than one tissue.</obo:IAO_0000115>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -13799,9 +13961,11 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002202">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002632"/>
         <obo:IAO_0000115>An epithelial cell of the tracheobronchial tree.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
         <oboInOwl:creation_date>2010-09-02T02:09:14Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>FMA:66816</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>epithelial cell of tracheobronchial tree</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -14047,6 +14211,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:creation_date>2010-09-13T04:09:27Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>FMA:70606</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>PE cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#eye_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>In a consensus model of unidirectional secretion, aqueous humour is formed by transferring solute, principally NaCl, from stroma to posterior chamber, with water passively following the osmotic gradient. Unidirectional secretion comprises three sequential steps. First, NaCl is transferred from the stromal interstitium into the pigmented ciliary epithelial (PE) cells. Second, solute passes from the PE into the non-pigmented ciliary epithelial (NPE) cells through gap junctions. Finally, NPE cells release Na+ and Cl− into the aqueous humour.</rdfs:comment>
         <rdfs:label>pigmented ciliary epithelial cell</rdfs:label>
@@ -14138,7 +14303,6 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CL_0002319 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002319">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
         <obo:IAO_0000115>A cell that is part of the nervous system.</obo:IAO_0000115>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
@@ -14160,14 +14324,15 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CL_0002320 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002320">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
         <obo:IAO_0000115>A cell of the supporting or framework tissue of the body, arising chiefly from the embryonic mesoderm and including adipose tissue, cartilage, and bone.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
         <oboInOwl:creation_date>2010-09-15T03:01:54Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CALOHA:TS-2096</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:63875</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D003239</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>connective tissue cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -14204,25 +14369,6 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A cell of the embryo.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>FMA:0618947256</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CL_0002328 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002328">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002202"/>
-        <obo:IAO_0000115>An epithelial cell of the bronchus.</obo:IAO_0000115>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
-        <oboInOwl:creation_date>2010-09-20T02:00:00Z</oboInOwl:creation_date>
-        <oboInOwl:hasDbXref>BTO:0002922</oboInOwl:hasDbXref>
-        <rdfs:label>bronchial epithelial cell</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002328"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An epithelial cell of the bronchus.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -14290,6 +14436,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CL_0002351 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002351">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
         <obo:IAO_0000115>A progenitor cell that is able to differentiate into the pancreas alpha, beta and delta endocrine cells. This cell type expresses neurogenin-3 and Isl-1.</obo:IAO_0000115>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
@@ -14537,7 +14684,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CL_0002371 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002371">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>A cell of an organism that does not pass on its genetic material to the organism&apos;s offspring (i.e. a non-germ line cell).</obo:IAO_0000115>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
         <oboInOwl:creation_date>2010-09-24T09:44:42Z</oboInOwl:creation_date>
@@ -14786,6 +14933,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasDbXref>BTO:0001372</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-1042</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>immature T-cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <rdfs:label>immature T cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -15236,6 +15384,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A progenitor cell of the central nervous system that can differentiate into oligodendrocytes or type-2 astrocytes. This cell originates from multiple structures within the developing brain including the medial ganglion eminence and the lateral ganglionic eminence. These cells migrate throughout the central nervous system and persist into adulthood where they play an important role in remyelination of injured neurons.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1773-2692"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
         <oboInOwl:creation_date>2010-11-10T02:51:34Z</oboInOwl:creation_date>
@@ -15244,6 +15393,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasBroadSynonym>oligodendrocyte-type 2 astrocyte (O-2A) progenitor cell</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym>oligodendrocyte/type-2 astrocyte progenitor cell</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>MESH:D000073637</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>This cell type can be purified from optic nerves and other regions of the embryonic, postnatal and adult rat CNS and can be differentiated in vitro to oligodendrocytes and type-2 astrocytes. Some references use the terms &apos;oligodendrocyte precursor cell&apos; and &apos;oligodendrocyte type-2 astrocyte (O-2A) progenitor&apos; to refer to the same entity (e.g., PMID:10704434), while others describe an oligodendrocyte type-2 astrocyte (O-2A) progenitor cell as the precurosr to oligodendrocyte- and type-2 astrocyte- progenitor cells (e.g, ISBN:9780702028991).</rdfs:comment>
         <rdfs:label>oligodendrocyte precursor cell</rdfs:label>
     </owl:Class>
@@ -15374,16 +15524,16 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002484"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000148"/>
-        <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002484"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A melanocyte that produces pigment in the epithelium.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MP:0009388</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002484"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000148"/>
+        <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
     </owl:Axiom>
     
 
@@ -15392,9 +15542,11 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002485">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000148"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0009004"/>
         <obo:IAO_0000115>A melanocyte of the retina. This cell type is distinct from pigmented retinal epithelium.</obo:IAO_0000115>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
         <oboInOwl:creation_date>2010-12-03T03:25:32Z</oboInOwl:creation_date>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#eye_upper_slim"/>
         <rdfs:label>retinal melanocyte</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -15567,7 +15719,6 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CL_0002494 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002494">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
         <obo:IAO_0000115>A cell located in the heart, including both muscle and non muscle cells.</obo:IAO_0000115>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
@@ -15752,10 +15903,12 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002553">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000057"/>
         <obo:IAO_0000115>A fibroblast that is part of lung.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
         <oboInOwl:creation_date>2011-02-28T05:11:03Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>BTO:0000764</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-0575</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>fibroblast of lung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -15869,7 +16022,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002573">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000125"/>
-        <obo:IAO_0000115>A glial cell that ensheathes axons of neuron in the peripheral nervous system and are necessary for their maintainance and function.</obo:IAO_0000115>
+        <obo:IAO_0000115>A glial cell that myelinates or ensheathes axons in the peripheral nervous system.</obo:IAO_0000115>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
         <oboInOwl:creation_date>2011-03-02T01:19:27Z</oboInOwl:creation_date>
@@ -15877,13 +16030,21 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasDbXref>CALOHA:TS-0898</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D012583</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
+        <rdfs:comment>A myelinating Schwann cell wraps around a single axon. Myelination occurs in larger diameter axons, while a process called ensheathment occurs on smaller diameter axons in which a single cell wraps around multiple small, unmyelinated axons separating them with a thin layer of cytoplasm. The structure formed is called a Remak bundle.</rdfs:comment>
         <rdfs:label>Schwann cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002573"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A glial cell that ensheathes axons of neuron in the peripheral nervous system and are necessary for their maintainance and function.</owl:annotatedTarget>
+        <owl:annotatedTarget>A glial cell that myelinates or ensheathes axons in the peripheral nervous system.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:16807057</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002573"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>A myelinating Schwann cell wraps around a single axon. Myelination occurs in larger diameter axons, while a process called ensheathment occurs on smaller diameter axons in which a single cell wraps around multiple small, unmyelinated axons separating them with a thin layer of cytoplasm. The structure formed is called a Remak bundle.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:16807057</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -16469,6 +16630,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0007000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
@@ -16495,6 +16657,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0007002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>Skeletogenic cell that has the potential to develop into a cementoblast.</obo:IAO_0000115>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9114-8737"/>
         <oboInOwl:creation_date>2012-06-15T04:37:13Z</oboInOwl:creation_date>
@@ -16513,6 +16676,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0007003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -16562,6 +16726,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0007009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>Skeletogenic cell that has the potential to develop into a chondroblast; and arises from neural crest, meseosdermal and notochordal and connective tissue cells.</obo:IAO_0000115>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9114-8737"/>
         <oboInOwl:creation_date>2012-06-27T10:44:01Z</oboInOwl:creation_date>
@@ -16580,6 +16745,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0007010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0001035"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -16594,11 +16760,9 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Skeletogenic cell that has the potential to transform into an osteoblast, and develops from neural crest or mesodermal cells.</obo:IAO_0000115>
-        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9114-8737"/>
         <oboInOwl:creation_date>2012-06-27T10:57:21Z</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>osteoprogenitor cell</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>preosteoblast</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -16615,6 +16779,8 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0008000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000187"/>
         <obo:IAO_0000115>Any muscle cell in which the fibers are not organised into sarcomeres.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>non-striated muscle cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -16777,11 +16943,13 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0010012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_2000029"/>
         <obo:IAO_0000115>A CNS neuron of the cerebral cortex.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-7258-9596"/>
         <oboInOwl:hasDbXref>BTO:0004102</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:84104</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>cortical neuron</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>neuron of cerebral cortex</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>cerebral cortex neuron</rdfs:label>
         <rdfs:seeAlso>https://github.com/obophenotype/cell-ontology/issues/1359</rdfs:seeAlso>
     </owl:Class>
@@ -16920,8 +17088,10 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000127"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_2000005"/>
         <obo:IAO_0000115>An astrocyte of the forebrain.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-3837-8864"/>
         <oboInOwl:hasExactSynonym>forebrain astrocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>astrocyte of the forebrain</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -16939,8 +17109,10 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000117"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_2000029"/>
         <obo:IAO_0000115>A CNS neuron of the forebrain.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-3837-8864"/>
         <oboInOwl:hasExactSynonym>forebrain neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>neuron of the forebrain</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -17117,6 +17289,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1000272">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000151"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:label>lung secretory cell</rdfs:label>
     </owl:Class>
     
@@ -17393,6 +17566,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <obo:IAO_0000115>An epithelial cell that is part of the conjunctiva.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FMA:70552</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>epithelial cell of conjunctiva</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#eye_upper_slim"/>
         <rdfs:label>conjunctival epithelial cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -17613,17 +17787,10 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CL_1000497 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1000497">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
         <oboInOwl:hasDbXref>KUPO:0001010</oboInOwl:hasDbXref>
         <rdfs:label>kidney cell</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_1000497"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
-        <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
-    </owl:Axiom>
     
 
 
@@ -17811,7 +17978,6 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1001434">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000101"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000402"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0012001"/>
         <obo:IAO_0000115>A neuron residing in the olfactory bulb that serve to process and refine signals arising from olfactory sensory neurons</obo:IAO_0000115>
         <rdfs:label>olfactory bulb interneuron</rdfs:label>
     </owl:Class>
@@ -17939,9 +18105,11 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1001474">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
         <obo:IAO_0000115>The inhibitory projection neurons located in the striatum that integrate glutamatergic signals arising from the cerebral cortex and thalamus.</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0004778</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>striatal medium spiny neuron</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>medium-sized densely spiny neuron</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>medium spiny neuron</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -18090,8 +18258,6 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1001566">
         <obo:IAO_0000115>OBSOLETE. A respiratory stem cell found at the junction of the terminal (conductive) bronchiole and the respiratory bronchiole, which gives rise to alveolar cell types and club cells in response to lung injury.</obo:IAO_0000115>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CL_0002638"/>
-        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Duplicated term - merged into CL:0002638</rdfs:comment>
         <rdfs:label>obsolete bronchioalveolar stem cells</rdfs:label>
         <rdfs:seeAlso>https://github.com/obophenotype/cell-ontology/issues/1443</rdfs:seeAlso>
@@ -18111,8 +18277,10 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1001567">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000082"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002139"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasRelatedSynonym>endothelial cell of lung</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>pulmonary vessel endothelial cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>lung endothelial cell</rdfs:label>
     </owl:Class>
     
@@ -18409,7 +18577,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CL_2000004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_2000004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002319"/>
         <obo:IAO_0000115>Any cell that is part of a pituitary gland.</obo:IAO_0000115>
         <terms:contributor rdf:resource="https://www.wikidata.org/entity/Q35563349"/>
         <oboInOwl:creation_date>2014-03-26T22:14:56Z</oboInOwl:creation_date>
@@ -18447,7 +18615,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CL_2000021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_2000021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>Any native cell that is part of a sebaceous gland.</obo:IAO_0000115>
         <terms:contributor rdf:resource="https://www.wikidata.org/entity/Q35563349"/>
         <oboInOwl:creation_date>2014-06-24T23:17:00Z</oboInOwl:creation_date>
@@ -18485,7 +18653,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CL_2000030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_2000030">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002319"/>
         <obo:IAO_0000115>Any native cell that is part of a hypothalamus.</obo:IAO_0000115>
         <terms:contributor rdf:resource="https://www.wikidata.org/entity/Q35563349"/>
         <oboInOwl:creation_date>2014-06-25T01:17:50Z</oboInOwl:creation_date>
@@ -18601,7 +18769,9 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000402"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011005"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1001611"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <terms:contributor rdf:resource="http://orcid.org/0000-0001-7258-9596"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>A GABAergic interneuron whose soma is located in the cerebellar cortex.</rdfs:comment>
         <rdfs:label>cerebellar inhibitory GABAergic interneuron</rdfs:label>
     </owl:Class>
@@ -18700,6 +18870,36 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any cell that is located within the interstitium between the cells most prominent in defining a given tissue. &quot;Interstitial cell&quot; is a morphological term and refers to a variety of cells with differing origins and phenotypes.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:24987007</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4033050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4033050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000151"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <obo:IAO_0000115>A neuron that releases catecholamine as a neurotransmitter.</obo:IAO_0000115>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6677-8489"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-18T12:07:45Z</terms:date>
+        <rdfs:comment>Frequently used when describing the developing nervous system in zebrafish. A catecholaminergic neuron expresses tyrosine hydroxylase (TH), tyrosine hydroxylase 2 (TH2), aromatic amino acid decarboxylase (AADC), dopamine b-hydroxylase (DBH), and phenylethanolamine-N-methyl transferase (PEMT), which are enzymes necessary for catecholamine synthesis.</rdfs:comment>
+        <rdfs:label>catecholaminergic neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4033050"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A neuron that releases catecholamine as a neurotransmitter.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:0521442516</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:12094209</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4033050"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>Frequently used when describing the developing nervous system in zebrafish. A catecholaminergic neuron expresses tyrosine hydroxylase (TH), tyrosine hydroxylase 2 (TH2), aromatic amino acid decarboxylase (AADC), dopamine b-hydroxylase (DBH), and phenylethanolamine-N-methyl transferase (PEMT), which are enzymes necessary for catecholamine synthesis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:10191060</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:12128258</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:34880760</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-2244-7917</oboInOwl:hasDbXref>
     </owl:Axiom>
 </rdf:RDF>
 

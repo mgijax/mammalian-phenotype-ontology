@@ -12,9 +12,9 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/pato_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2023-04-10/imports/pato_import.owl"/>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/pato/releases/2023-02-17/pato.owl"/>
-        <owl:versionInfo>2023-04-10</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2023-06-16/imports/pato_import.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/pato/releases/2023-05-18/pato.owl"/>
+        <owl:versionInfo>2023-06-16</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -5373,25 +5373,6 @@ See https://github.com/pato-ontology/pato/issues/331.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A quality that is equal to the potential energy per unit charge associated with a static (time-invariant) electric field, also called the electrostatic potential.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>Wikipedia:http://en.wikipedia.org/wiki/Electric_potential</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001465 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001465">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000646"/>
-        <obo:IAO_0000115>A malformed quality inhering in a bearer by virtue of the bearer&apos;s all-encompassing, grotesque morphological defects.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>PATO:0001465</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#value_slim"/>
-        <rdfs:label>monstrous</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001465"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A malformed quality inhering in a bearer by virtue of the bearer&apos;s all-encompassing, grotesque morphological defects.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PATOC:GVG</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
