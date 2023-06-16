@@ -11,9 +11,9 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/nbo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2023-04-10/imports/nbo_import.owl"/>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/nbo/releases/2023-02-21/nbo.owl"/>
-        <owl:versionInfo>2023-04-10</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2023-06-16/imports/nbo_import.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/nbo/releases/2023-05-02/nbo.owl"/>
+        <owl:versionInfo>2023-06-16</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1527,10 +1527,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000446">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007601"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000314"/>
+        <obo:IAO_0000115>Selective tracking that follows a moving object by eye.</obo:IAO_0000115>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-4277-2151"/>
         <dc:date>2011-04-08T12:25:53Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:comment>Original definition: Selectively track a moving object (Source: NBO:GVG).</rdfs:comment>
         <rdfs:label>visual pursuit</rdfs:label>
     </owl:Class>
     
