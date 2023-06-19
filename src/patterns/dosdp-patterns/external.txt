@@ -16,3 +16,5 @@ http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedWidthOfAna
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfPartOfAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/necroticAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/fibroticAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalConstrictionOfAnatomicalEntity.yaml
+
