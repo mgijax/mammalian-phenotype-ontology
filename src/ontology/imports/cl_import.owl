@@ -15,9 +15,9 @@
      xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2023-06-20/imports/cl_import.owl"/>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/cl/releases/2023-05-22/cl-simple.owl"/>
-        <owl:versionInfo>2023-06-20</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2023-07-01/imports/cl_import.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/cl/releases/2023-06-22/cl-simple.owl"/>
+        <owl:versionInfo>2023-07-01</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -216,6 +216,14 @@
     <!-- http://purl.obolibrary.org/obo/cl#eye_upper_slim -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/cl#eye_upper_slim">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim">
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     </owl:AnnotationProperty>
     
@@ -451,6 +459,12 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#is_metadata_tag -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#note -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#note"/>
     
 
 
@@ -1189,6 +1203,7 @@ N1 SubclassOf (
         <oboInOwl:hasDbXref>CALOHA:TS-2086</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:63368</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>animal stem cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>This term applies to metazoan. For plant stem cells, consider using PO:0004011 ‘initial cell’ or its parent PO:0004010 ‘meristematic cell’.</rdfs:comment>
         <rdfs:label>stem cell</rdfs:label>
@@ -1320,6 +1335,7 @@ N1 SubclassOf (
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
         <obo:IAO_0000115>A cell that is within the developmental lineage of gametes and is able to pass along its genetic material to offspring.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ubprop#_upper_level"/>
         <rdfs:comment>Originally this term had some plant germ line cell children.</rdfs:comment>
         <rdfs:label>germ line cell</rdfs:label>
@@ -1653,7 +1669,9 @@ N1 SubclassOf (
         <oboInOwl:hasDbXref>BTO:0000452</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-0362</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:63877</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C12482</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>VHOG:0001482</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>These cells may be vimentin-positive, fibronectin-positive, fsp1-positive, MMP-1-positive, collagen I-positive, collagen III-positive, and alpha-SMA-negative.</rdfs:comment>
         <rdfs:label>fibroblast</rdfs:label>
@@ -1872,6 +1890,7 @@ N1 SubclassOf (
         <oboInOwl:hasDbXref>FMA:66768</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>WBbt:0003672</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>epitheliocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>epithelial cell</rdfs:label>
     </owl:Class>
@@ -2048,6 +2067,7 @@ N1 SubclassOf (
         <obo:IAO_0000115>A cell found predominately in the blood.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FMA:62844</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D001773</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <rdfs:label>blood cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2141,6 +2161,7 @@ N1 SubclassOf (
         <oboInOwl:hasExactSynonym>T-lymphocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>immature T cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>mature T cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>T cell</rdfs:label>
     </owl:Class>
@@ -2668,9 +2689,16 @@ N1 SubclassOf (
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000120">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000117"/>
+        <obo:IAO_0000115>A neuron of the vertebrate central nervous system that is small in size. This general class includes small neurons in the granular layer of the cerebellar cortex, cerebral cortex neurons that are not pyramidal cells and small neurons without axons found in the olfactory bulb.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>BTO:0003393</oboInOwl:hasDbXref>
         <rdfs:label>granule cell</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000120"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A neuron of the vertebrate central nervous system that is small in size. This general class includes small neurons in the granular layer of the cerebellar cortex, cerebral cortex neurons that are not pyramidal cells and small neurons without axons found in the olfactory bulb.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://medical-dictionary.thefreedictionary.com/granule+cell"/>
+    </owl:Axiom>
     
 
 
@@ -2725,6 +2753,7 @@ N1 SubclassOf (
         <oboInOwl:hasDbXref>FMA:54536</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>neuroglial cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>neuroglia</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <rdfs:comment>Not all glial cells develop from glioblasts, with microglia developing from the mesoderm instead. See https://github.com/obophenotype/cell-ontology/issues/1571</rdfs:comment>
         <rdfs:label>glial cell</rdfs:label>
     </owl:Class>
@@ -3060,6 +3089,7 @@ N1 SubclassOf (
         <oboInOwl:hasDbXref>FMA:63880</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>adipocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>adipose cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>fat cell</rdfs:label>
     </owl:Class>
@@ -3222,6 +3252,7 @@ N1 SubclassOf (
         <oboInOwl:hasDbXref>MESH:D008544</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>VHOG:0001679</oboInOwl:hasDbXref>
         <oboInOwl:hasNarrowSynonym>melanophore</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>melanocyte</rdfs:label>
     </owl:Class>
@@ -3288,6 +3319,7 @@ N1 SubclassOf (
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>A cell of an exocrine gland; i.e. a gland that discharges its secretion via a duct.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FMA:16014</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <rdfs:label>exocrine cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3391,7 +3423,7 @@ N1 SubclassOf (
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A non-mucous, epithelial secretory cell that is part of the tracheobronchial tree. A club cell has short microvilli but no cilia. A club cell is able to multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium and it also protects the tracheobronchial epithelium.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1183/09031936.00146609</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>DOI:https://doi.org/10.1378/chest.12-2762</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOI:10.1378/chest.12-2762</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:28128362</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:29874100</oboInOwl:hasDbXref>
@@ -3475,6 +3507,7 @@ N1 SubclassOf (
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>FMA:83809</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>endocrinocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>endocrine cell</rdfs:label>
     </owl:Class>
@@ -3947,6 +3980,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasDbXref>CALOHA:TS-2158</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:9727</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>skeletal muscle cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>cell of skeletal muscle</rdfs:label>
     </owl:Class>
@@ -3979,6 +4013,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasExactSynonym>SMCs</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>myocytes, smooth muscle</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>smooth muscle fiber</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>smooth muscle cell</rdfs:label>
     </owl:Class>
@@ -4552,6 +4587,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasDbXref>MESH:D008264</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>histiocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Morphology: Diameter 30_M-80 _M, abundant cytoplasm, low N/C ratio, eccentric nucleus. Irregular shape with pseudopods, highly adhesive. Contain vacuoles and phagosomes, may contain azurophilic granules; markers: Mouse &amp; Human: CD68, in most cases CD11b. Mouse: in most cases F4/80+; role or process: immune, antigen presentation, &amp; tissue remodelling; lineage: hematopoietic, myeloid.</rdfs:comment>
         <rdfs:label>macrophage</rdfs:label>
@@ -4590,6 +4626,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasExactSynonym>B-cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>B-lymphocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>B cell</rdfs:label>
     </owl:Class>
@@ -4997,6 +5034,7 @@ The modern definition of neurosecretion has evolved to include the release of an
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000349">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <rdfs:label>extraembryonic cell</rdfs:label>
     </owl:Class>
     
@@ -5460,6 +5498,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasDbXref>MESH:D003713</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>interdigitating cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>veiled cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>dendritic cell</rdfs:label>
     </owl:Class>
@@ -5776,6 +5815,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0002064</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:83624</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>stromal cell</rdfs:label>
     </owl:Class>
@@ -6092,6 +6132,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasDbXref>VHOG:0001483</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>WBbt:0003679</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>nerve cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>These cells are also reportedly CD4-negative and CD200-positive. They are also capable of producing CD40L and IFN-gamma.</rdfs:comment>
         <rdfs:label>neuron</rdfs:label>
@@ -7019,6 +7060,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasDbXref>CALOHA:TS-0638</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:62864</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Morphology: Mononuclear cell, diameter, 14 to 20 _M, N/C ratio 2:1-1:1. Nucleus may appear in variety of shapes: round, kidney, lobulated, or convoluted. Fine azurophilic granules present; markers: CD11b (shared with other myeloid cells), human: CD14, mouse: F4/80-mid,GR1-low; location: Blood, but can be recruited into tissues; role or process: immune &amp; tissue remodelling; lineage: hematopoietic, myeloid.</rdfs:comment>
         <rdfs:label>monocyte</rdfs:label>
@@ -7146,6 +7188,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000039"/>
         <obo:IAO_0000115>The reproductive cell in multicellular organisms.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>BTO:0000535</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C12597</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>VHOG:0001534</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>WBbt:0006796</oboInOwl:hasDbXref>
         <rdfs:label>germ cell</rdfs:label>
@@ -7433,6 +7476,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasDbXref>MESH:D007694</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>VHOG:0001697</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>NK cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>natural killer cell</rdfs:label>
     </owl:Class>
@@ -8346,6 +8390,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasDbXref>CALOHA:TS-0549</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:62852</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D007962</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C12529</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>leucocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>white blood cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>immune cell</oboInOwl:hasRelatedSynonym>
@@ -8438,6 +8483,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasExactSynonym>cardiac myocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>cardiomyocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>heart muscle cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>This class encompasses the muscle cells responsible for heart* contraction in both vertebrates and arthropods.  The ultrastucture of a wide range of arthropod heart cells has been examined including spiders, horseshoe crabs, crustaceans (see Sherman, 1973 and refs therein) and insects (see Lehmacher et al (2012) and refs therein).  According to these refs, the cells participating in heart contraction in all cases are transversely striated.  Insects hearts additionally contain ostial cells, also transversely striated muscle cells, but which do not participate in heart contraction.</rdfs:comment>
         <rdfs:label>cardiac muscle cell</rdfs:label>
@@ -12103,6 +12149,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-9990-8331"/>
         <oboInOwl:creation_date>2011-11-16T04:28:16Z</oboInOwl:creation_date>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>bone cell</rdfs:label>
     </owl:Class>
@@ -12875,6 +12922,12 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000157"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000322"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000272"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_4040003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A type II pneumocyte is a pneumocyte that modulates the fluid surrounding the alveolar epithelium by secreting and recycling surfactants. This cell type also contributes to tissue repair and can differentiate after injury into a type I pneumocyte. Thicker than squamous alveolar cells, have a rounded apical surface that projects above the level of surrounding epithelium. The free surface is covered by short microvilli.</obo:IAO_0000115>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
@@ -15367,7 +15420,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A mature CD8-positive, CD4-negative alpha-beta T cell found in the thymus that is CD24-low and has high expression of the T cell receptor.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http:www.immgen.org/index_content.html</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.immgen.org/index_content.html</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -15524,16 +15577,16 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002484"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000148"/>
+        <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002484"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A melanocyte that produces pigment in the epithelium.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MP:0009388</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002484"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000148"/>
-        <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
     </owl:Axiom>
     
 
@@ -16882,6 +16935,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002319"/>
         <obo:IAO_0000115>Any cell in the retina, the innermost layer or coating at the back of the eyeball, which is sensitive to light and in which the optic nerve terminates.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>PMID:10702418</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <rdfs:label>retinal cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -18103,10 +18157,13 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CL_1001474 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1001474">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
-        <obo:IAO_0000115>The inhibitory projection neurons located in the striatum that integrate glutamatergic signals arising from the cerebral cortex and thalamus.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000617"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_2000029"/>
+        <obo:IAO_0000115>An inhibitory, GABAergic projection neuron in the striatum that integrates glutamatergic signals arising from the cerebral cortex and thalamus.</obo:IAO_0000115>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0004778</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>gamma-aminobutyric acid (GABA)ergic spiny projection neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>gamma-aminobutyric acid ergic spiny projection neuron</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>striatal medium spiny neuron</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>medium-sized densely spiny neuron</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
@@ -18115,8 +18172,21 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_1001474"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The inhibitory projection neurons located in the striatum that integrate glutamatergic signals arising from the cerebral cortex and thalamus.</owl:annotatedTarget>
+        <owl:annotatedTarget>An inhibitory, GABAergic projection neuron in the striatum that integrates glutamatergic signals arising from the cerebral cortex and thalamus.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>MP:0008462</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>doi:10.1073/pnas.242428599</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_1001474"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>gamma-aminobutyric acid (GABA)ergic spiny projection neuron</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>doi:10.1073/pnas.242428599</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_1001474"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>gamma-aminobutyric acid ergic spiny projection neuron</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>doi:10.1073/pnas.242428599</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_1001474"/>
@@ -18900,6 +18970,46 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasDbXref>PMID:12128258</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:34880760</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-2244-7917</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4040003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4040003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000322"/>
+        <obo:IAO_0000115>Precursor of type II pneumocyte. These cells do not have lamellar bodies, which are a marker of type II pneumocyte maturity.</obo:IAO_0000115>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0819-0473"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-06-02T09:19:31Z</terms:date>
+        <oboInOwl:hasExactSynonym>fetal alveolar pre-type II epithelial cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fetal pre-type 2 pneumocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fetal pre-type II alveolar epithelial cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:note>According to PMID:1316350 this cell type does not yet produce surfactant. According to PMID:9109447 and PMID:12114192 this cell type produces low levels of surfactant that can be increased by administration of very low-density lipoproteins. This cell type is of medical relevance, as a central feature of the fetal respiratory distress syndrome seems to be the presence in the lung of abundant pre-type II alveolar epithelial cells (PMID:1316350).</oboInOwl:note>
+        <rdfs:label>fetal pre-type II pneumocyte</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4040003"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Precursor of type II pneumocyte. These cells do not have lamellar bodies, which are a marker of type II pneumocyte maturity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:1316350</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4040003"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>fetal alveolar pre-type II epithelial cell</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:9624168</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4040003"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>fetal pre-type 2 pneumocyte</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-0819-0473</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4040003"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>fetal pre-type II alveolar epithelial cell</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:12114192</oboInOwl:hasDbXref>
     </owl:Axiom>
 </rdf:RDF>
 
