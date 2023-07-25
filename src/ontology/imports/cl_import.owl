@@ -12,12 +12,13 @@
      xmlns:core="http://purl.obolibrary.org/obo/uberon/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:uberon="http://purl.obolibrary.org/obo/uberon#"
      xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2023-07-01/imports/cl_import.owl"/>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/cl/releases/2023-06-22/cl-simple.owl"/>
-        <owl:versionInfo>2023-07-01</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2023-07-25/imports/cl_import.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/cl/releases/2023-07-20/cl-simple.owl"/>
+        <owl:versionInfo>2023-07-25</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -54,6 +55,33 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">2012-04-05: 
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: &apos;Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions&apos;  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can&apos;t be evaluated by those criteria. 
+
+On the specifics of the proposed definition:
+
+We don&apos;t have definitions of &apos;meaning&apos; or &apos;expression&apos; or &apos;property&apos;. For &apos;reference&apos; in the intended sense I think we use the term &apos;denotation&apos;. For &apos;expression&apos;, I think we you mean symbol, or identifier. For &apos;meaning&apos; it differs for class and property. For class we want documentation that let&apos;s the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let&apos;s the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The &apos;intended reader&apos; part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  </obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
         <rdfs:label>definition</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -77,6 +105,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
@@ -92,11 +126,15 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000700 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000700">
+        <obo:IAO_0000111 xml:lang="en">has ontology root term</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">Ontology annotation property. Relates an ontology to a term that is a designated root term of the ontology. Display tools like OLS can use terms annotated with this property as the starting point for rendering the ontology class hierarchy. There can be more than one root.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Nicolas Matentzoglu</obo:IAO_0000117>
         <oboInOwl:hasDbXref>IAO:0000700</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>has_ontology_root_term</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <oboInOwl:shorthand>has_ontology_root_term</oboInOwl:shorthand>
+        <rdfs:label xml:lang="en">has ontology root term</rdfs:label>
         <rdfs:label>has ontology root term</rdfs:label>
         <rdfs:label>preferred_root</rdfs:label>
     </owl:AnnotationProperty>
@@ -106,6 +144,13 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
+        <obo:IAO_0000111 xml:lang="en">term replaced by</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">Use on obsolete terms, relating the term to another term that can be used as a substitute</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000119>
+        <rdfs:comment xml:lang="en">Add as annotation triples in the granting ontology</rdfs:comment>
+        <rdfs:label xml:lang="en">term replaced by</rdfs:label>
         <rdfs:label>term replaced by</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -134,6 +179,12 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002259">
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002575 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002575"/>
     
 
 
@@ -197,6 +248,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/cl#abbreviation -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/cl#abbreviation">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/cl#added_for_HCA -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/cl#added_for_HCA">
@@ -225,6 +284,22 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim">
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/uberon#PLURAL -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#PLURAL">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/uberon/core#MISSPELLING -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon/core#MISSPELLING">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </owl:AnnotationProperty>
     
 
@@ -548,6 +623,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <rdfs:label>part_of</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections"/>
         <rdfs:seeAlso rdf:resource="http://ontologydesignpatterns.org/wiki/Submissions:PartOf"/>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wiki.geneontology.org/Part_of</rdfs:seeAlso>
         <rdfs:seeAlso>http://www.obofoundry.org/ro/#OBO_REL:part_of</rdfs:seeAlso>
     </owl:ObjectProperty>
     
@@ -609,6 +685,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:shorthand>located_in</oboInOwl:shorthand>
         <rdfs:label xml:lang="en">located in</rdfs:label>
         <rdfs:label>located in</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wiki.geneontology.org/Located_in</rdfs:seeAlso>
     </owl:ObjectProperty>
     
 
@@ -733,6 +810,28 @@ N1 SubclassOf (
         <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/RO_0002259"/>
         <rdfs:label xml:lang="en">develops into</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002207 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002207">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115>Candidate definition: x directly_develops from y if and only if there exists some developmental process (GO:0032502) p such that x and y both participate in p, and x is the output of p and y is the input of p, and a substantial portion of the matter of x comes from y, and the start of x is coincident with or after the end of y.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-7073-9172"/>
+        <obo:IAO_0000119>FBbt</obo:IAO_0000119>
+        <obo:RO_0002575 rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+        <oboInOwl:hasDbXref>RO:0002207</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>has developmental precursor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>directly_develops_from</oboInOwl:id>
+        <oboInOwl:shorthand>directly_develops_from</oboInOwl:shorthand>
+        <rdfs:comment>TODO - add child relations from DOS</rdfs:comment>
+        <rdfs:label xml:lang="en">directly develops from</rdfs:label>
+        <rdfs:label>directly develops from</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -2781,6 +2880,7 @@ N1 SubclassOf (
         <oboInOwl:hasDbXref>CALOHA:TS-2027</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:54538</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>macrogliocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>macroglia</oboInOwl:hasRelatedSynonym>
         <rdfs:label>macroglial cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2789,6 +2889,13 @@ N1 SubclassOf (
         <owl:annotatedTarget>A neuroglial cell of ectodermal origin, i.e., the astrocytes and oligodendrocytes considered together.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0721662544</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000126"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>macroglia</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>doi:10.1152/physrev.2001.81.2.871</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon#PLURAL"/>
     </owl:Axiom>
     
 
@@ -2887,9 +2994,9 @@ N1 SubclassOf (
         <oboInOwl:hasDbXref>FMA:54540</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>brain-resident macrophage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>hortega cells</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>microglia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>microgliocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>MF.microglia.CNS</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>microglia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Unlike macroglial cells, microglial cells  arise from hematopoietic stem cells in the yolk sac during early embryogenesis that populate the central nervous system. They derive from embryonic mesoderm and are not from neuroectoderm where glioblast develops from. Markers: Mouse: CD11b+, F4/80+, CD68+. They represent ~12% of the cells in the CNS, but they are not uniformly distributed within the CNS. A normal adult mouse brain has approximately 3.5x10e6 microglia. Microglia are also reportedly CD3-negative, CD4-positive, CD8-negative, CD11b-positive, CD11c-high, CD14-negative, CD19-negative, CD45-low, CD56-negative, CD163-negative, CD200R-positive, CD281-positive, CD282-positive, CD283-positive, CD284-positive, CD285-positive, CD286-positive, CD287-positive, CD288-positive, CD289-positive, Gr1-negative, nestin-positive, and PU.1-positive.</rdfs:comment>
         <rdfs:label>microglial cell</rdfs:label>
@@ -2923,6 +3030,13 @@ N1 SubclassOf (
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>microgliocyte</owl:annotatedTarget>
         <oboInOwl:hasDbXref>http://www.copewithcytokines.de/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000129"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>microglia</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>doi:10.1038/s41598-020-66092-9</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon#PLURAL"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000129"/>
@@ -5947,6 +6061,24 @@ The modern definition of neurosecretion has evolved to include the release of an
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0000512 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000512">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000151"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
+        <obo:IAO_0000115>A paracrine cell is a secretory cell that secretes an agonist into intercellular spaces in which it diffuses to a target cell other than that which produced it.</obo:IAO_0000115>
+        <rdfs:label>paracrine cell</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000512"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A paracrine cell is a secretory cell that secretes an agonist into intercellular spaces in which it diffuses to a target cell other than that which produced it.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ISBN:0198529171</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0000513 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000513">
@@ -6866,6 +6998,8 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasDbXref>BTO:0004044</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:67766</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>amacrine neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>AC</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>ACs</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#eye_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>amacrine cell</rdfs:label>
@@ -6877,6 +7011,21 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D025042</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>WikipediaVersioned:Amacrine_cell&amp;oldid=1023572246</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000561"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>AC</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>doi:10.1038/s41598-020-66092-9</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000561"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>ACs</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>doi:10.1038/s41598-020-66092-9</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon#PLURAL"/>
     </owl:Axiom>
     
 
@@ -7030,6 +7179,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasDbXref>BTO:0001036</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-0866</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:67748</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>cone</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>retinal cone cell</rdfs:label>
     </owl:Class>
@@ -7038,6 +7188,12 @@ The modern definition of neurosecretion has evolved to include the release of an
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>One of the two photoreceptor cell types in the vertebrate retina. In cones the photopigment is in invaginations of the cell membrane of the outer segment. Cones are less sensitive to light than rods, but they provide vision with higher spatial and temporal acuity, and the combination of signals from cones with different pigments allows color vision.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>MESH:D017949</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000573"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>cone</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>doi:10.1038/s41598-020-66092-9</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -7370,6 +7526,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasDbXref>BTO:0001024</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-0870</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:67747</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>rod</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>retinal rod cell</rdfs:label>
     </owl:Class>
@@ -7378,6 +7535,12 @@ The modern definition of neurosecretion has evolved to include the release of an
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>One of the two photoreceptor cell types of the vertebrate retina. In rods the photopigment is in stacks of membranous disks separate from the outer cell membrane. Rods are more sensitive to light than cones, but rod mediated vision has less spatial and temporal resolution than cone vision.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>MESH:D017948</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000604"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>rod</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>doi:10.1038/s41598-020-66092-9</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -7679,6 +7842,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <obo:IAO_0000115>Astrocyte-like radial glial cell that extends vertically throughout the retina, with the nucleus are usually in the middle of the inner nuclear layer.</obo:IAO_0000115>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0003064</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Muller cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Muller glia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Müller cell</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#eye_upper_slim"/>
@@ -7691,6 +7855,13 @@ The modern definition of neurosecretion has evolved to include the release of an
         <owl:annotatedTarget>Astrocyte-like radial glial cell that extends vertically throughout the retina, with the nucleus are usually in the middle of the inner nuclear layer.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:NV</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:21911394</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000636"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Muller cell</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>doi:10.21769/BioProtoc.4179</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#MISSPELLING"/>
     </owl:Axiom>
     
 
@@ -7739,16 +7910,67 @@ The modern definition of neurosecretion has evolved to include the release of an
     <!-- http://purl.obolibrary.org/obo/CL_0000642 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000642">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000163"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000512"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000630"/>
-        <obo:IAO_0000115>A supportive cell of the vertebrate pituitary that provides macromolecular transport and secretes hormones.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_2000004"/>
+        <obo:IAO_0000115>An agranular supporting cell of the anterior pituitary (adenohypophysis) that is characterized by a star-like morphology and ability to form follicles. Folliculostellate cells communicate with each other and with endocrine cells via gap junctions.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>folliculo-stellate cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pituitary folliculostellate cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>FS cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>FSC</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Sox2-positive stem cell</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>Folliculostellate cells are a heterogeneous group of cells rather than a single cell type, with different morphology and gene expression profiles. Due to this heterogeneity, it is unclear if different properties that have been attributed to folliculostellate cells (pluripotent, proliferative, phagocytic) are common in all folliculostellate cells or limited to particular subsets.</rdfs:comment>
         <rdfs:label>folliculostellate cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000642"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A supportive cell of the vertebrate pituitary that provides macromolecular transport and secretes hormones.</owl:annotatedTarget>
+        <owl:annotatedTarget>An agranular supporting cell of the anterior pituitary (adenohypophysis) that is characterized by a star-like morphology and ability to form follicles. Folliculostellate cells communicate with each other and with endocrine cells via gap junctions.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>JB:jb</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:10495875</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:15961560</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>doi:10.23937/2572-407X.1510006</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000642"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>folliculo-stellate cell</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>doi:10.23937/2572-407X.1510006</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000642"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>pituitary folliculostellate cell</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:34734454</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000642"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>FS cell</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:34734454</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000642"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>FSC</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>doi:10.23937/2572-407X.1510006</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000642"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>Sox2-positive stem cell</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:34734454</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000642"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>Folliculostellate cells are a heterogeneous group of cells rather than a single cell type, with different morphology and gene expression profiles. Due to this heterogeneity, it is unclear if different properties that have been attributed to folliculostellate cells (pluripotent, proliferative, phagocytic) are common in all folliculostellate cells or limited to particular subsets.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:18287078</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:31620083</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:34734454</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>doi:10.23937/2572-407X.1510006</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -8423,9 +8645,10 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasDbXref>BTO:0001800</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:67765</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D012165</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>RGC</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>gangliocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>ganglion cell of retina</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>RGC</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>RGCs</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#eye_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>retinal ganglion cell</rdfs:label>
@@ -8435,6 +8658,21 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The set of neurons that receives neural inputs via bipolar, horizontal and amacrine cells. The axons of these cells make up the optic nerve.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:dph</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000740"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>RGC</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>doi:10.1038/s41598-020-66092-9</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000740"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>RGCs</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>doi:10.1038/s41598-020-66092-9</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon#PLURAL"/>
     </owl:Axiom>
     
 
@@ -8447,6 +8685,8 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0004120</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>horizontal cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>HC</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>HCs</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#eye_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>retina horizontal cell</rdfs:label>
@@ -8456,6 +8696,21 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A neuron that laterally connects other neurons in the inner nuclear layer of the retina.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0195088433</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000745"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>HC</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>doi:10.1038/s41598-020-66092-9</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000745"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>HCs</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>doi:10.1038/s41598-020-66092-9</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon#PLURAL"/>
     </owl:Axiom>
     
 
@@ -8516,6 +8771,9 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0009004"/>
         <obo:IAO_0000115>A bipolar neuron found in the retina and having connections with photoreceptors cells and neurons in the inner plexiform layer.</obo:IAO_0000115>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <oboInOwl:hasRelatedSynonym>BC</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>BCs</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>BPs</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#eye_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>retinal bipolar neuron</rdfs:label>
@@ -8525,6 +8783,29 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A bipolar neuron found in the retina and having connections with photoreceptors cells and neurons in the inner plexiform layer.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:14689473</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000748"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>BC</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>doi:10.1038/s41598-020-66092-9</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000748"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>BCs</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>doi:10.1038/s41598-020-66092-9</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon#PLURAL"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000748"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>BPs</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GSE137537</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon#PLURAL"/>
     </owl:Axiom>
     
 
@@ -12086,22 +12367,38 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0001031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000120"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1001611"/>
-        <obo:IAO_0000115>Granule cell that is part of the cerebellum.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_2000028"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0002362"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An excitatory granule cell with a soma located in the granular layer of cerebellar cortex. A mature cerebellar granule cell has short dendrites with a characteristic claw-like appearance and a long axon that ascends to the molecular layer where it bifurcates (except in non-teleost fish, where it does not bifurcate) and extends mediolaterally to form parallel fibers.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>BTO:0004278</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>granule cell of the cerebellum</oboInOwl:hasExactSynonym>
+        <rdfs:comment>It has been noted in at least some mammalian species that granule cells are the most numerous cell type in the cerebellum and in the brain, with at least 99% of all cerebellar neurons being granule cells.</rdfs:comment>
         <rdfs:label>cerebellar granule cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0001031"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000120"/>
-        <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An excitatory granule cell with a soma located in the granular layer of cerebellar cortex. A mature cerebellar granule cell has short dendrites with a characteristic claw-like appearance and a long axon that ascends to the molecular layer where it bifurcates (except in non-teleost fish, where it does not bifurcate) and extends mediolaterally to form parallel fibers.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GOC:mah</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>doi:10.12688/f1000research.15021.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>doi:10.3389/fncir.2020.611841</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0001031"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Granule cell that is part of the cerebellum.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:mah</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>granule cell of the cerebellum</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>doi:10.3389/fncir.2020.611841</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0001031"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>It has been noted in at least some mammalian species that granule cells are the most numerous cell type in the cerebellum and in the brain, with at least 99% of all cerebellar neurons being granule cells.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>doi:10.3389/fncir.2020.611841</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -14682,6 +14979,48 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0002362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002362">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000031"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002319"/>
+        <obo:IAO_0000115>A cell located in the outermost proliferative zone of the external germinal layer that can differentiate into astroglial cells and granule cells. This cell type is glial fibrillary acidic protein-positive and HNK1-positive.</obo:IAO_0000115>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
+        <oboInOwl:creation_date>2010-09-22T01:40:44Z</oboInOwl:creation_date>
+        <oboInOwl:hasBroadSynonym>granule cell precursor</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>granule cell progenitor</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasRelatedSynonym>GCP</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>cerebellar granule cell precursor</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002362"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A cell located in the outermost proliferative zone of the external germinal layer that can differentiate into astroglial cells and granule cells. This cell type is glial fibrillary acidic protein-positive and HNK1-positive.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:14745007</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002362"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget>granule cell precursor</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>doi:10.3389/fncir.2020.611841</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002362"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget>granule cell progenitor</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>doi:10.3389/fncir.2020.611841</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002362"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>GCP</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>doi:10.3389/fncir.2020.611841</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0002368 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002368">
@@ -15242,16 +15581,16 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002432"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000810"/>
-        <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002432"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A CD4-positive, CD8-negative thymocyte that is CD24-positive and expresses high levels of the alpha-beta T cell receptor.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.immgen.org/index_content.html</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002432"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000810"/>
+        <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
     </owl:Axiom>
     
 
@@ -18696,6 +19035,26 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_2000021"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any native cell that is part of a sebaceous gland.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GOC:TermGenie</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_2000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_2000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000679"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1001611"/>
+        <obo:IAO_0000115>Any glutamatergic neuron that is part of a cerebellum.</obo:IAO_0000115>
+        <terms:contributor rdf:resource="https://www.wikidata.org/entity/Q35563349"/>
+        <oboInOwl:creation_date>2014-06-25T00:24:10Z</oboInOwl:creation_date>
+        <oboInOwl:id>CL:2000028</oboInOwl:id>
+        <rdfs:label>cerebellum glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_2000028"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Any glutamatergic neuron that is part of a cerebellum.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:TermGenie</oboInOwl:hasDbXref>
     </owl:Axiom>
     
