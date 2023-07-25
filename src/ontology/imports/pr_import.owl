@@ -10,11 +10,12 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:vocab="https://w3id.org/semapv/vocab/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/pr_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2023-07-01/imports/pr_import.owl"/>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/pr/obophenotype/releases/2023-06-22/pr_slim.owl"/>
-        <owl:versionInfo>2023-07-01</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2023-07-25/imports/pr_import.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/pr/obophenotype/releases/2023-07-19/pr_slim.owl"/>
+        <owl:versionInfo>2023-07-25</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -169,6 +170,12 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand"/>
+    
+
+
+    <!-- https://w3id.org/semapv/vocab/crossSpeciesExactMatch -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/semapv/vocab/crossSpeciesExactMatch"/>
     
 
 
@@ -766,6 +773,7 @@
         <oboInOwl:id>PR:000000017</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>interferon gamma</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P01579"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000000017"/>
@@ -856,6 +864,7 @@
         <oboInOwl:id>PR:000000085</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>cartilage oligomeric matrix protein</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P49747"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000000085"/>
@@ -892,6 +901,7 @@
         <oboInOwl:id>PR:000000134</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>tumor necrosis factor</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P01375"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000000134"/>
@@ -987,6 +997,7 @@
         <oboInOwl:id>PR:000001135</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>interleukin-1 alpha</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P01583"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001135"/>
@@ -1024,6 +1035,7 @@
         <oboInOwl:id>PR:000001136</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>interleukin-1 beta</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P01584"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001136"/>
@@ -1059,6 +1071,7 @@
         <oboInOwl:id>PR:000001317</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>interleukin-7</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P13232"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001317"/>
@@ -1113,6 +1126,7 @@
         <oboInOwl:id>PR:000001368</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>interleukin-12 subunit alpha</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P29459"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001368"/>
@@ -1153,6 +1167,7 @@
         <oboInOwl:id>PR:000001369</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>interleukin-12 subunit beta</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P29460"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001369"/>
@@ -1190,6 +1205,7 @@
         <oboInOwl:id>PR:000001370</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>interleukin-13</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P35225"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001370"/>
@@ -1225,6 +1241,7 @@
         <oboInOwl:id>PR:000001373</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>interleukin-15</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P40933"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001373"/>
@@ -1289,6 +1306,7 @@
         <oboInOwl:id>PR:000001376</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>interleukin-18</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_Q14116"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001376"/>
@@ -1333,6 +1351,7 @@
         <oboInOwl:id>PR:000001379</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>interleukin-2</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P60568"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001379"/>
@@ -1364,6 +1383,7 @@
         <oboInOwl:id>PR:000001382</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>interleukin-21</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_Q9HBE4"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001382"/>
@@ -1398,6 +1418,7 @@
         <oboInOwl:id>PR:000001384</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>interleukin-23 subunit alpha</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_Q9NPF7"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001384"/>
@@ -1446,6 +1467,7 @@
         <oboInOwl:id>PR:000001387</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>interleukin-3</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P08700"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001387"/>
@@ -1489,6 +1511,7 @@
         <oboInOwl:id>PR:000001391</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>interleukin-4</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P05112"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001391"/>
@@ -1525,6 +1548,7 @@
         <oboInOwl:id>PR:000001392</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>interleukin-5</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P05113"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001392"/>
@@ -1564,6 +1588,7 @@
         <oboInOwl:id>PR:000001393</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>interleukin-6</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P05231"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001393"/>
@@ -1612,6 +1637,7 @@
         <oboInOwl:id>PR:000001395</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>interleukin-8</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P10145"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001395"/>
@@ -1649,6 +1675,7 @@
         <oboInOwl:id>PR:000001396</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>interleukin-9</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P15248"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001396"/>
@@ -1679,6 +1706,7 @@
         <oboInOwl:id>PR:000001471</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>interleukin-10</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P22301"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001471"/>
@@ -1736,6 +1764,7 @@
         <oboInOwl:id>PR:000002107</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>tumor necrosis factor ligand superfamily member 11</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_O14788"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000002107"/>
@@ -1792,6 +1821,7 @@
         <oboInOwl:id>PR:000003777</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>adiponectin</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_Q15848"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000003777"/>
@@ -1846,6 +1876,7 @@
         <oboInOwl:id>PR:000003809</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>alpha-fetoprotein</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P02771"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000003809"/>
@@ -1926,6 +1957,7 @@
         <oboInOwl:id>PR:000003918</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>albumin</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P02768"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000003918"/>
@@ -2021,6 +2053,7 @@
         <oboInOwl:id>PR:000003968</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>alkaline phosphatase, tissue-nonspecific isozyme</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P05186"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000003968"/>
@@ -2061,6 +2094,7 @@
         <oboInOwl:id>PR:000004155</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>apolipoprotein E</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P02649"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000004155"/>
@@ -2092,6 +2126,7 @@
         <oboInOwl:id>PR:000005867</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>corticoliberin</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P06850"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000005867"/>
@@ -2126,6 +2161,7 @@
         <oboInOwl:id>PR:000005897</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>C-reactive protein</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P02741"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000005897"/>
@@ -2160,6 +2196,7 @@
         <oboInOwl:id>PR:000007034</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>elastin</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P15502"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000007034"/>
@@ -2188,6 +2225,7 @@
         <oboInOwl:id>PR:000007141</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>erythropoietin</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P01588"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000007141"/>
@@ -2221,6 +2259,7 @@
         <oboInOwl:id>PR:000007785</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>glutamate decarboxylase 1</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_Q99259"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000007785"/>
@@ -2261,6 +2300,7 @@
         <oboInOwl:id>PR:000007856</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>gastrin</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P01350"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000007856"/>
@@ -2294,6 +2334,7 @@
         <oboInOwl:id>PR:000007891</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>pro-glucagon</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P01275"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000007891"/>
@@ -2323,6 +2364,7 @@
         <oboInOwl:id>PR:000008056</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>glutamate dehydrogenase 1, mitochondrial</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P00367"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008056"/>
@@ -2478,6 +2520,7 @@
         <oboInOwl:id>PR:000008208</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>alanine aminotransferase 1</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P24298"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008208"/>
@@ -2597,6 +2640,7 @@
         <oboInOwl:id>PR:000009054</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>insulin gene translation product</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P01308"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
@@ -2637,6 +2681,7 @@
         <oboInOwl:id>PR:000009182</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>insulin-like growth factor I</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P05019"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000009182"/>
@@ -2692,6 +2737,7 @@
         <oboInOwl:id>PR:000009758</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>leptin</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P41159"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000009758"/>
@@ -2731,6 +2777,7 @@
         <oboInOwl:id>PR:000011107</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>nebulin</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P20929"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000011107"/>
@@ -2817,6 +2864,7 @@
         <oboInOwl:id>PR:000012037</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>alpha-1-acid glycoprotein 1</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P02763"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000012037"/>
@@ -2854,6 +2902,7 @@
         <oboInOwl:id>PR:000013164</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>pancreatic prohormone</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P01298"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000013164"/>
@@ -2887,6 +2936,7 @@
         <oboInOwl:id>PR:000013246</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>prolactin</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P01236"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000013246"/>
@@ -2916,6 +2966,7 @@
         <oboInOwl:id>PR:000013429</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>parathyroid hormone</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P01270"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000013429"/>
@@ -2945,6 +2996,7 @@
         <oboInOwl:id>PR:000013883</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>renin</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P00797"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000013883"/>
@@ -2974,6 +3026,7 @@
         <oboInOwl:id>PR:000015665</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>somatostatin</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_P61278"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000015665"/>
@@ -3011,6 +3064,7 @@
         <oboInOwl:id>PR:000016275</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>trefoil factor 2</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_Q03403"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000016275"/>
@@ -3049,6 +3103,7 @@
         <oboInOwl:id>PR:000016480</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>tumor necrosis factor receptor superfamily member 11B</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_O00300"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000016480"/>
@@ -5821,6 +5876,7 @@
         <oboInOwl:id>PR:000050219</oboInOwl:id>
         <rdfs:comment>Category=family.</rdfs:comment>
         <rdfs:label>alanine aminotransferase</rdfs:label>
+        <vocab:crossSpeciesExactMatch rdf:resource="http://purl.obolibrary.org/obo/PR_000050341"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050219"/>
