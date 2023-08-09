@@ -16,9 +16,9 @@
      xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2023-07-26/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2023-08-09/imports/cl_import.owl"/>
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/cl/releases/2023-07-20/cl-simple.owl"/>
-        <owl:versionInfo>2023-07-26</owl:versionInfo>
+        <owl:versionInfo>2023-08-09</owl:versionInfo>
     </owl:Ontology>
     
 
