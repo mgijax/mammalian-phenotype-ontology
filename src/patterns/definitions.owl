@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2023-08-09/patterns/definitions.owl>
-Annotation(owl:versionInfo "2023-08-09")
+<http://purl.obolibrary.org/obo/mp/releases/2023-08-25/patterns/definitions.owl>
+Annotation(owl:versionInfo "2023-08-25")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032941>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MPATH_608>))
@@ -2296,6 +2296,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MP_0014201>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0014286>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0014287>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0014291>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0014299>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0014300>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0014302>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0014305>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0020067>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0020069>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0020139>))
@@ -13629,6 +13633,22 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0014287> ObjectSomeValuesFr
 # Class: <http://purl.obolibrary.org/obo/MP_0014291> (<http://purl.obolibrary.org/obo/MP_0014291>)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0014291> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000587> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002470>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0014299> (<http://purl.obolibrary.org/obo/MP_0014299>)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0014299> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000586> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001844>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0014300> (<http://purl.obolibrary.org/obo/MP_0014300>)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0014300> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000587> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001844>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0014302> (<http://purl.obolibrary.org/obo/MP_0014302>)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0014302> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000600> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001844>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/MP_0014305> (<http://purl.obolibrary.org/obo/MP_0014305>)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0014305> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000574> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001844>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/MP_0020067> (<http://purl.obolibrary.org/obo/MP_0020067>)
 

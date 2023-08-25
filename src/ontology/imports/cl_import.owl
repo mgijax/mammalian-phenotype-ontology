@@ -10,15 +10,16 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:cito="http://purl.org/spar/cito/"
      xmlns:core="http://purl.obolibrary.org/obo/uberon/core#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:uberon="http://purl.obolibrary.org/obo/uberon#"
      xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2023-08-09/imports/cl_import.owl"/>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/cl/releases/2023-07-20/cl-simple.owl"/>
-        <owl:versionInfo>2023-08-09</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2023-08-25/imports/cl_import.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/cl/releases/2023-08-24/cl-simple.owl"/>
+        <owl:versionInfo>2023-08-25</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -55,33 +56,6 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">2012-04-05: 
-Barry Smith
-
-The official OBI definition, explaining the meaning of a class or property: &apos;Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions&apos;  is terrible.
-
-Can you fix to something like:
-
-A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
-
-Alan Ruttenberg
-
-Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can&apos;t be evaluated by those criteria. 
-
-On the specifics of the proposed definition:
-
-We don&apos;t have definitions of &apos;meaning&apos; or &apos;expression&apos; or &apos;property&apos;. For &apos;reference&apos; in the intended sense I think we use the term &apos;denotation&apos;. For &apos;expression&apos;, I think we you mean symbol, or identifier. For &apos;meaning&apos; it differs for class and property. For class we want documentation that let&apos;s the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let&apos;s the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The &apos;intended reader&apos; part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
-
-Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
-
-We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  </obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <rdfs:label xml:lang="en">definition</rdfs:label>
         <rdfs:label>definition</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -126,15 +100,13 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/IAO_0000700 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000700">
-        <obo:IAO_0000111 xml:lang="en">has ontology root term</obo:IAO_0000111>
-        <obo:IAO_0000115 xml:lang="en">Ontology annotation property. Relates an ontology to a term that is a designated root term of the ontology. Display tools like OLS can use terms annotated with this property as the starting point for rendering the ontology class hierarchy. There can be more than one root.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Nicolas Matentzoglu</obo:IAO_0000117>
         <oboInOwl:hasDbXref>IAO:0000700</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>external</oboInOwl:hasOBONamespace>
         <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>has_ontology_root_term</oboInOwl:id>
+        <oboInOwl:is_class_level rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_class_level>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <oboInOwl:shorthand>has_ontology_root_term</oboInOwl:shorthand>
-        <rdfs:label xml:lang="en">has ontology root term</rdfs:label>
         <rdfs:label>has ontology root term</rdfs:label>
         <rdfs:label>preferred_root</rdfs:label>
     </owl:AnnotationProperty>
@@ -144,13 +116,6 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
-        <obo:IAO_0000111 xml:lang="en">term replaced by</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-        <obo:IAO_0000115 xml:lang="en">Use on obsolete terms, relating the term to another term that can be used as a substitute</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000119>
-        <rdfs:comment xml:lang="en">Add as annotation triples in the granting ontology</rdfs:comment>
-        <rdfs:label xml:lang="en">term replaced by</rdfs:label>
         <rdfs:label>term replaced by</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -409,6 +374,12 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
+    <!-- http://purl.org/dc/terms/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
     <!-- http://purl.org/spar/cito/citesAsAuthority -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/spar/cito/citesAsAuthority"/>
@@ -525,6 +496,12 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#is_class_level -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_class_level"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#is_inferred -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_inferred"/>
@@ -570,6 +547,12 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://www.w3.org/2002/07/owl#deprecated -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#deprecated"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/depicted_by -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/depicted_by"/>
     
 
 
@@ -677,7 +660,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000116 xml:lang="en">Most location relations will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/</obo:IAO_0000116>
         <obo:IAO_0000118 xml:lang="en">located_in</obo:IAO_0000118>
         <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
-        <dc:source>http://www.obofoundry.org/ro/#OBO_REL:located_in</dc:source>
+        <terms:source>http://www.obofoundry.org/ro/#OBO_REL:located_in</terms:source>
         <oboInOwl:hasDbXref>RO:0001025</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>located_in</oboInOwl:id>
@@ -1368,9 +1351,9 @@ N1 SubclassOf (
         <oboInOwl:hasDbXref>FMA:86475</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D006412</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>VHOG:0001485</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>HSC</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>blood forming stem cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>hemopoietic stem cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>HSC</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>colony forming unit hematopoietic</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
@@ -1386,6 +1369,12 @@ N1 SubclassOf (
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:19022770</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Hematopoietic_stem_cell</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000037"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>HSC</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
     </owl:Axiom>
     
 
@@ -1424,6 +1413,18 @@ N1 SubclassOf (
         <owl:annotatedTarget>A progenitor cell committed to the erythroid lineage.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0721601464</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000038"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>BFU-E</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000038"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>CFU-E</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
     </owl:Axiom>
     
 
@@ -1490,6 +1491,12 @@ N1 SubclassOf (
         <oboInOwl:hasDbXref>PMID:1104740</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Monoblast</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.copewithcytokines.de</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000040"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>CFU-M</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
     </owl:Axiom>
     
 
@@ -1559,10 +1566,10 @@ N1 SubclassOf (
         <obo:IAO_0000115>A progenitor cell committed to myeloid lineage, including the megakaryocyte and erythroid lineages.</obo:IAO_0000115>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0004730</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>CMP</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>common myeloid precursor</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>CFU-GEMM</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>CFU-S</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>CMP</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>colony forming unit granulocyte, erythrocyte, macrophage, and megakaryocyte</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>multipotential myeloid stem cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>myeloid stem cell</oboInOwl:hasRelatedSynonym>
@@ -1587,21 +1594,24 @@ N1 SubclassOf (
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000049"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>CMP</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>ISBN:0878932437</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000049"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>CFU-GEMM</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0878932437</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000049"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>CFU-S</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0878932437</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000049"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>CMP</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:0878932437</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000049"/>
@@ -1678,10 +1688,10 @@ N1 SubclassOf (
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
         <obo:IAO_0000115>A oligopotent progenitor cell committed to the lymphoid lineage.</obo:IAO_0000115>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <oboInOwl:hasExactSynonym>CLP</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>common lymphocyte precursor</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>common lymphocyte progenitor</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>common lymphoid precursor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>CLP</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>ELP</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>committed lymphopoietic stem cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>early lymphocyte progenitor</oboInOwl:hasRelatedSynonym>
@@ -1706,6 +1716,18 @@ N1 SubclassOf (
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:10407577</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:16551251</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000051"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>CLP</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000051"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>ELP</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
     </owl:Axiom>
     
 
@@ -1992,6 +2014,7 @@ N1 SubclassOf (
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>epithelial cell</rdfs:label>
+        <foaf:depicted_by rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.swissbiopics.org/api/image/Epithelial_cells.svg</foaf:depicted_by>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000066"/>
@@ -2224,15 +2247,15 @@ N1 SubclassOf (
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000083"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An epithelial cell of the pancreas.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000083"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000066"/>
         <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000083"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An epithelial cell of the pancreas.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -3074,10 +3097,10 @@ N1 SubclassOf (
         <oboInOwl:hasDbXref>BTO:0002625</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>BTO:0003298</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:70546</oboInOwl:hasDbXref>
-        <oboInOwl:hasNarrowSynonym>BMSC</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>bone marrow stromal cells</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>colony-forming unit-fibroblast</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>marrow stromal cells</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasRelatedSynonym>BMSC</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>CFU-F</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>MSC</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>mesenchymal precursor cell</oboInOwl:hasRelatedSynonym>
@@ -3119,8 +3142,21 @@ N1 SubclassOf (
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000134"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>BMSC</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000134"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>CFU-F</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000134"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>MSC</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:11378515</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000134"/>
@@ -3302,7 +3338,7 @@ N1 SubclassOf (
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000145">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000738"/>
         <obo:IAO_0000115>A cell capable of processing and presenting lipid and protein antigens to T cells in order to initiate an immune response.</obo:IAO_0000115>
-        <oboInOwl:hasBroadSynonym>APC</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasRelatedSynonym>APC</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <rdfs:comment>Note change of name; nearly all somatic cells can present antigens to T cells via MHC Class I complexes leading to effector responses, but professional antigen presenting cells constitutively express MHC Class II as well as costimulatory molecules, and thus can initiate immune responses via T cells.</rdfs:comment>
         <rdfs:label>professional antigen presenting cell</rdfs:label>
@@ -3313,6 +3349,12 @@ N1 SubclassOf (
         <owl:annotatedTarget>A cell capable of processing and presenting lipid and protein antigens to T cells in order to initiate an immune response.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0781735149</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000145"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>APC</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
     </owl:Axiom>
     
 
@@ -3576,25 +3618,9 @@ N1 SubclassOf (
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CL_0000161 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000161">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000151"/>
-        <rdfs:label>acid secreting cell</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000161"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000151"/>
-        <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CL_0000162 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000162">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000161"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002659"/>
         <obo:IAO_0000115>A large, oval stomach epithelial cell with a central nucleus; source of gastric acid. Secretes HCl.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>BTO:0001780</oboInOwl:hasDbXref>
@@ -4074,6 +4100,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasExactSynonym>muscle fiber</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>myocyte</oboInOwl:hasExactSynonym>
         <rdfs:label>muscle cell</rdfs:label>
+        <foaf:depicted_by rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.swissbiopics.org/api/image/Muscle_cells.svg</foaf:depicted_by>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000187"/>
@@ -4182,6 +4209,18 @@ The modern definition of neurosecretion has evolved to include the release of an
         <owl:annotatedTarget>The peripheral receptor for pain. Includes receptors which are sensitive to painful mechanical stimuli, extreme heat or cold, and chemical stimuli. All mammalian nociceptors are free nerve endings.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>MESH:D009619</oboInOwl:hasDbXref>
     </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000198"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>nociceptor</owl:annotatedTarget>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://meshb.nlm.nih.gov/record/ui?ui=D009619</rdfs:seeAlso>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000198"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>nocireceptor</owl:annotatedTarget>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.thefreedictionary.com/nocireceptor</rdfs:seeAlso>
+    </owl:Axiom>
     
 
 
@@ -4289,6 +4328,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasDbXref>CALOHA:TS-0868</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:86740</oboInOwl:hasDbXref>
         <rdfs:label>photoreceptor cell</rdfs:label>
+        <foaf:depicted_by rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.swissbiopics.org/api/image/Photoreceptor_cell.svg</foaf:depicted_by>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000210"/>
@@ -5076,7 +5116,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000333"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A cell derived from the specialized ectoderm flanking each side of the embryonic neural plate, which after the closure of the neural tube, forms masses of cells that migrate out from the dorsal aspect of the neural tube to spread throughout the body.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>MESH:A16.254.600</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>doi:10.1016/j.stem.2015.02.017</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -6186,11 +6226,13 @@ The modern definition of neurosecretion has evolved to include the release of an
         <obo:IAO_0000115>A cell from the outer syncytial layer of the trophoblast of an early mammalian embryo, directly associated with the maternal blood supply. It secretes hCG in order to maintain progesterone secretion and sustain a pregnancy.</obo:IAO_0000115>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>FMA:83043</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>plasmidotrophoblast</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>syncytial trophoblast</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>syntrophoblast</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>syncytial trophoblast cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>syncytiotrophoblastic cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>plasmidotrophoblast cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>syntrophoblast cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:label>syncytiotrophoblast cell</rdfs:label>
+        <rdfs:seeAlso>https://github.com/obophenotype/cell-ontology/issues/2100</rdfs:seeAlso>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000525"/>
@@ -6198,6 +6240,18 @@ The modern definition of neurosecretion has evolved to include the release of an
         <owl:annotatedTarget>A cell from the outer syncytial layer of the trophoblast of an early mammalian embryo, directly associated with the maternal blood supply. It secretes hCG in order to maintain progesterone secretion and sustain a pregnancy.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0323052908</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000525"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>syncytial trophoblast cell</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:11787150</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000525"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>syncytiotrophoblastic cell</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:21733368</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -6268,6 +6322,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>These cells are also reportedly CD4-negative and CD200-positive. They are also capable of producing CD40L and IFN-gamma.</rdfs:comment>
         <rdfs:label>neuron</rdfs:label>
+        <foaf:depicted_by rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.swissbiopics.org/api/image/Neuron_cells.svg</foaf:depicted_by>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
@@ -6496,7 +6551,6 @@ The modern definition of neurosecretion has evolved to include the release of an
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An immature, nucleated erythrocyte occupying the stage of erythropoeisis that follows formation of erythroid progenitor cells. This cell is CD71-positive, has both a nucleus and a nucleolus, and lacks hematopoeitic lineage markers.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0721601464</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MESH:A11.118.290.350.200</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:1638021</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -6516,6 +6570,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasExactSynonym>metazoan cell</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ubprop#_upper_level"/>
         <rdfs:label>animal cell</rdfs:label>
+        <foaf:depicted_by rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.swissbiopics.org/api/image/Animal_cells.svg</foaf:depicted_by>
     </owl:Class>
     
 
@@ -6844,12 +6899,12 @@ The modern definition of neurosecretion has evolved to include the release of an
         <obo:IAO_0000115>A hematopoietic progenitor cell that is committed to the granulocyte and monocyte lineages. These cells are CD123-positive, and do not express Gata1 or Gata2 but do express C/EBPa, and Pu.1.</obo:IAO_0000115>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasBroadSynonym>CFU-C , Colony forming unit in culture</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasExactSynonym>CFU-GM</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>GMP</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>colony forming unit granulocyte macrophage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>granulocyte-macrophage progenitor</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>granulocyte/monocyte precursor</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>granulocyte/monocyte progenitor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>CFU-GM</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>GMP</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Originally described in the dendritic cell ontology (DC_CL:0000042)(PMID:19243617). GMPs are reportedly CD16-positive, CD32-positive, CD34-positive, CD38-positive, CD45RA-positive, CD110-negative, CD117-positive, CD123-positive, and SCA1-negative.</rdfs:comment>
         <rdfs:label>granulocyte monocyte progenitor cell</rdfs:label>
@@ -6880,22 +6935,6 @@ The modern definition of neurosecretion has evolved to include the release of an
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000557"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>CFU-GM</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>ISBN:0721601464</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMCID:PMC2213186</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMCID:PMC548021</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000557"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>GMP</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>ISBN:0721601464</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMCID:PMC2213186</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMCID:PMC548021</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000557"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>colony forming unit granulocyte macrophage</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0721601464</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMCID:PMC2213186</oboInOwl:hasDbXref>
@@ -6908,6 +6947,24 @@ The modern definition of neurosecretion has evolved to include the release of an
         <oboInOwl:hasDbXref>ISBN:0721601464</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMCID:PMC2213186</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMCID:PMC548021</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000557"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>CFU-GM</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:0721601464</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMCID:PMC2213186</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMCID:PMC548021</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000557"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>GMP</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:0721601464</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMCID:PMC2213186</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMCID:PMC548021</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
     </owl:Axiom>
     
 
@@ -7082,6 +7139,7 @@ The modern definition of neurosecretion has evolved to include the release of an
         <obo:IAO_0000115>A cell that originates in the neural crest, that has certain cytochemical and ultrastructural characteristics and is found scattered throughout the body; types include melanocytes, the cells of the chromaffin system, and cells in the hypothalamus, hypophysis, thyroid, parathyroids, lungs, gastrointestinal tract, and pancreas. This cell type concentrates the amino acid precursors of certain amines and decarboxylate them, forming amines that function as regulators and neurotransmitters. This cell type produces substances such as epinephrine, norepinephrine, dopamine, serotonin, enkephalin, somatostatin, neurotensin, and substance P, the actions of which may affect contiguous cells, nearby groups of cells, or distant cells, thus functioning as local or systemic hormones. The name is an acronym for amine precursor uptake and decarboxylation cell.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>BTO:0003866</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:83114</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D001078</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>APUD cell</oboInOwl:hasExactSynonym>
         <rdfs:label>amine precursor uptake and decarboxylation cell</rdfs:label>
     </owl:Class>
@@ -7091,7 +7149,6 @@ The modern definition of neurosecretion has evolved to include the release of an
         <owl:annotatedTarget>A cell that originates in the neural crest, that has certain cytochemical and ultrastructural characteristics and is found scattered throughout the body; types include melanocytes, the cells of the chromaffin system, and cells in the hypothalamus, hypophysis, thyroid, parathyroids, lungs, gastrointestinal tract, and pancreas. This cell type concentrates the amino acid precursors of certain amines and decarboxylate them, forming amines that function as regulators and neurotransmitters. This cell type produces substances such as epinephrine, norepinephrine, dopamine, serotonin, enkephalin, somatostatin, neurotensin, and substance P, the actions of which may affect contiguous cells, nearby groups of cells, or distant cells, thus functioning as local or systemic hormones. The name is an acronym for amine precursor uptake and decarboxylation cell.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0721662544</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MESH:A11.070</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -7432,8 +7489,8 @@ The modern definition of neurosecretion has evolved to include the release of an
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>An erythrocyte lacking a nucleus.</obo:IAO_0000115>
-        <oboInOwl:hasBroadSynonym>RBC</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym>red blood cell</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasRelatedSynonym>RBC</oboInOwl:hasRelatedSynonym>
         <rdfs:label>enucleate erythrocyte</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7448,6 +7505,12 @@ The modern definition of neurosecretion has evolved to include the release of an
         <owl:annotatedTarget>An erythrocyte lacking a nucleus.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000595"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>RBC</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
     </owl:Axiom>
     
 
@@ -7567,7 +7630,7 @@ The modern definition of neurosecretion has evolved to include the release of an
     <!-- http://purl.obolibrary.org/obo/CL_0000617 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000617">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000161"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000151"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
         <obo:IAO_0000115>A neuron that uses GABA as a vesicular neurotransmitter</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FBbt:00007228</oboInOwl:hasDbXref>
@@ -9742,6 +9805,12 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0781735149</oboInOwl:hasDbXref>
     </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000798"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>gd T cell</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
+    </owl:Axiom>
     
 
 
@@ -11191,6 +11260,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000881">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000878"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4033054"/>
         <obo:IAO_0000115>A central nervous system macrophage found in small blood vessels in the brain. Markers include CD14+CD16+CD163+.</obo:IAO_0000115>
         <rdfs:comment>Markers: Human/monkey, mice: CD163. Human: CD14+CD16+CD163+.</rdfs:comment>
         <rdfs:label>perivascular macrophage</rdfs:label>
@@ -13301,11 +13371,11 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <obo:IAO_0000115>A neuroendocrine cell found in the epithelium of the lungs and respiratory tract. This cell type is rounded or elliptical in shape, situated mainly in the basal part of the epithelium; regulates bronchial secretion, smooth muscle contraction, lobular growth, ciliary activity and chemoreception. Cell has an electron-lucent cytoplasm, contains numerous dense-cored vesicles with a clear halo between the core and the limiting membrane.</obo:IAO_0000115>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
         <oboInOwl:creation_date>2010-06-28T08:24:30Z</oboInOwl:creation_date>
-        <oboInOwl:hasBroadSynonym>P cell</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>FMA:14118</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Kultschitzky cell of bronchiole</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>bronchiolar Kulchitsky cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>respiratory enterochromaffin cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>P cell</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Feyrter cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -13315,6 +13385,12 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0412046911</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0517223651</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002066"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>P cell</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
     </owl:Axiom>
     
 
@@ -15581,16 +15657,16 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002432"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000810"/>
+        <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002432"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A CD4-positive, CD8-negative thymocyte that is CD24-positive and expresses high levels of the alpha-beta T cell receptor.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.immgen.org/index_content.html</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002432"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000810"/>
-        <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
     </owl:Axiom>
     
 
@@ -15727,6 +15803,12 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.immgen.org/index_content.html</oboInOwl:hasDbXref>
     </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002436"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>T.4SP24-.Th</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
+    </owl:Axiom>
     
 
 
@@ -15780,11 +15862,11 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1773-2692"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
         <oboInOwl:creation_date>2010-11-10T02:51:34Z</oboInOwl:creation_date>
-        <oboInOwl:hasBroadSynonym>O-2A/OPC</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasBroadSynonym>O2A/OPC</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym>oligodendrocyte-type 2 astrocyte (O-2A) progenitor cell</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym>oligodendrocyte/type-2 astrocyte progenitor cell</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>MESH:D000073637</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>O-2A/OPC</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>O2A/OPC</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>This cell type can be purified from optic nerves and other regions of the embryonic, postnatal and adult rat CNS and can be differentiated in vitro to oligodendrocytes and type-2 astrocytes. Some references use the terms &apos;oligodendrocyte precursor cell&apos; and &apos;oligodendrocyte type-2 astrocyte (O-2A) progenitor&apos; to refer to the same entity (e.g., PMID:10704434), while others describe an oligodendrocyte type-2 astrocyte (O-2A) progenitor cell as the precurosr to oligodendrocyte- and type-2 astrocyte- progenitor cells (e.g, ISBN:9780702028991).</rdfs:comment>
         <rdfs:label>oligodendrocyte precursor cell</rdfs:label>
@@ -15804,18 +15886,6 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002453"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
-        <owl:annotatedTarget>O-2A/OPC</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:24133281</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002453"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
-        <owl:annotatedTarget>O2A/OPC</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:11756508</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002453"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
         <owl:annotatedTarget>oligodendrocyte-type 2 astrocyte (O-2A) progenitor cell</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:2253328</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -15825,6 +15895,20 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <owl:annotatedTarget>oligodendrocyte/type-2 astrocyte progenitor cell</owl:annotatedTarget>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-0819-0473"/>
         <oboInOwl:hasDbXref>PMID:24133281</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002453"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>O-2A/OPC</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:24133281</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002453"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>O2A/OPC</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:11756508</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#abbreviation"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002453"/>
@@ -17251,6 +17335,7 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0008034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4033054"/>
         <obo:IAO_0000115>Mural cells are pericytes and the vascular smooth muscle cells (vSMCs) of the microcirculation.</obo:IAO_0000115>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-7073-9172"/>
@@ -19329,6 +19414,25 @@ radial glial cells acting as neural progenitors throughout life.</rdfs:comment>
         <oboInOwl:hasDbXref>PMID:12128258</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:34880760</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-2244-7917</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4033054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4033054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <obo:IAO_0000115>A cell that is adjacent to a vessel. A perivascular cell plays a crucial role in maintaining vascular function and tissue homeostasis. This cell type regulates vessel integrity and flow dynamics.</obo:IAO_0000115>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6677-8489"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-22T13:40:28Z</terms:date>
+        <rdfs:label>perivascular cell</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4033054"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A cell that is adjacent to a vessel. A perivascular cell plays a crucial role in maintaining vascular function and tissue homeostasis. This cell type regulates vessel integrity and flow dynamics.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:24928499</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:27889329</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
