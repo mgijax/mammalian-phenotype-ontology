@@ -1,3 +1,4 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/MP_0002772	brachypodia	http://purl.obolibrary.org/obo/UBERON_0002470	autopod region
 http://purl.obolibrary.org/obo/MP_0004708	short lumbar vertebrae	http://purl.obolibrary.org/obo/UBERON_0002414	lumbar vertebra
+http://purl.obolibrary.org/obo/MP_0014305	decreased cochlea length	http://purl.obolibrary.org/obo/UBERON_0001844	cochlea

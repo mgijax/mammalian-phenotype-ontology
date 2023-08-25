@@ -1,2 +1,3 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 http://purl.obolibrary.org/obo/MP_0031504	macrostomia	http://purl.obolibrary.org/obo/UBERON_0000165	mouth
+http://purl.obolibrary.org/obo/MP_0014302	increased cochlea width	http://purl.obolibrary.org/obo/UBERON_0001844	cochlea
