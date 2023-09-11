@@ -11,9 +11,9 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mp/imports/nbo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2023-08-29/imports/nbo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mp/releases/2023-09-11/imports/nbo_import.owl"/>
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/nbo/releases/2023-07-04/nbo.owl"/>
-        <owl:versionInfo>2023-08-29</owl:versionInfo>
+        <owl:versionInfo>2023-09-11</owl:versionInfo>
     </owl:Ontology>
     
 
