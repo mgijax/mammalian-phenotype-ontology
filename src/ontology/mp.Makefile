@@ -128,7 +128,7 @@ $(TRANSLATIONDIR)/$(ONT)-%.owl: $(TRANSLATIONDIR)/$(ONT)-profile-%.owl $(TRANSLA
 	query --query ../sparql/relegate-updated-labels-to-candidate-status.sparql $(REPORTDIR)/updated-labels-to-candidate-status-$*.tsv \
 	query --update ../sparql/relegate-updated-labels-to-candidate-status.ru \
 	query --update ../sparql/rm-original-translation.ru \
-	remove --base-iri $(URIBASE)/HP --axioms external --preserve-structure false --trim false \
+	remove --base-iri $(URIBASE)/MP --axioms external --preserve-structure false --trim false \
 	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@
 .PRECIOUS: $(TRANSLATIONDIR)/$(ONT)-%.owl
 
