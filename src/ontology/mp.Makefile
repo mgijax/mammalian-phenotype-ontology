@@ -95,6 +95,7 @@ TRANSLATED_ONTOLOGIES=$(patsubst %, $(TRANSLATIONDIR)/$(ONT)-%.owl, $(LANGUAGES)
 prepare_translations:
 	$(MAKE) IMP=false COMP=false PAT=false MIR=false $(TRANSLATED_ONTOLOGIES)
 
+
 # The Babelon schema required for the translation to RDF
 BABELON_SCHEMA=https://raw.githubusercontent.com/monarch-initiative/babelon/main/src/schema/babelon.yaml
 $(TRANSLATIONDIR)/babelon.yaml:
@@ -136,6 +137,3 @@ $(ONT)-international.owl: $(ONT).owl $(TRANSLATED_ONTOLOGIES)
 	$(ROBOT) merge $(patsubst %, -i %, $^) \
 		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
 
-xxx:
-	$(MAKE) $(TRANSLATIONDIR)/$(ONT)-ja.synonyms.owl
-	$(MAKE) $(TRANSLATIONDIR)/$(ONT)-ja.owl
