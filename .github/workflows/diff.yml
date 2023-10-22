@@ -12,7 +12,7 @@ on:
 jobs:
   edit_file:
     runs-on: ubuntu-latest
-    container: obolibrary/odklite:v1.3.1
+    container: obolibrary/odklite:v1.4.3
     steps:
       - uses: actions/checkout@v2
       # Checks-out main branch under "main" directory
