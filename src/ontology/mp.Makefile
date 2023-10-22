@@ -81,3 +81,59 @@ remove_patternised_classes: $(SRC) patternised_classes.txt
 #	$(ROBOT) extract -i $< -T signature.txt --method BOT \
 #		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
 #.PRECIOUS: imports/all_import.owl
+
+
+#######################################################
+##### MP-international edition ########################
+#######################################################
+
+LANGUAGES=ja
+TRANSLATIONDIR=translations
+TRANSLATED_ONTOLOGIES=$(patsubst %, $(TRANSLATIONDIR)/$(ONT)-%.owl, $(LANGUAGES))
+
+.PHONY: prepare_translations
+prepare_translations:
+	$(MAKE) IMP=false COMP=false PAT=false MIR=false $(TRANSLATED_ONTOLOGIES)
+
+
+# The Babelon schema required for the translation to RDF
+BABELON_SCHEMA=https://raw.githubusercontent.com/monarch-initiative/babelon/main/src/schema/babelon.yaml
+$(TRANSLATIONDIR)/babelon.yaml:
+	mkdir -p $(TRANSLATIONDIR)
+	wget "$(BABELON_SCHEMA)" -O $@
+
+# Synonyms are not usually translated, so they should be provided as a ROBOT template
+$(TRANSLATIONDIR)/$(ONT)-%.synonyms.owl: $(TRANSLATIONDIR)/$(ONT)-%.synonyms.tsv
+	$(ROBOT) template --template $< --output $@
+.PRECIOUS: $(TRANSLATIONDIR)/$(ONT)-%.synonyms.owl
+
+# This is a very hacky goal that should ideally be handled by linkml
+# We have to inject annotation property declaration to ensure the converted file is really usable by ROBOT
+$(TRANSLATIONDIR)/$(ONT)-profile-%.owl: $(TRANSLATIONDIR)/$(ONT)-%.babelon.tsv $(TRANSLATIONDIR)/babelon.yaml
+	linkml-convert -t rdf -s $(TRANSLATIONDIR)/babelon.yaml -C Profile -S translations $< -o $@.tmp
+	echo "babelon:source_language a owl:AnnotationProperty ." >> $@.tmp
+	echo "babelon:source_value a owl:AnnotationProperty ." >> $@.tmp
+	echo "babelon:translation_language a owl:AnnotationProperty ." >> $@.tmp
+	echo "babelon:translation_status a owl:AnnotationProperty ." >> $@.tmp
+	echo "<http://purl.obolibrary.org/obo/IAO_0000115> a owl:AnnotationProperty ." >> $@.tmp
+	sed -i '1s/^/@prefix babelon: <https:\/\/w3id.org\/babelon\/> . \n/' $@.tmp
+	$(ROBOT) merge -i $@.tmp query --update ../sparql/tag-source-language.ru --update ../sparql/rm-rdf.ru -o $@	
+.PRECIOUS: $(TRANSLATIONDIR)/$(ONT)-profile-%.owl
+
+# This goal creates a Japanese version of the ontology
+# And a report that includes which labels have changed (and moves those to "CANDIDATE" status). This also ideally does not belong here (babelon toolkit)
+$(TRANSLATIONDIR)/$(ONT)-%.owl: $(TRANSLATIONDIR)/$(ONT)-profile-%.owl $(TRANSLATIONDIR)/$(ONT)-%.synonyms.owl $(ONT).owl
+	mkdir -p $(REPORTDIR)
+	robot merge -i $(TRANSLATIONDIR)/$(ONT)-profile-$*.owl -i $(TRANSLATIONDIR)/$(ONT)-$*.synonyms.owl -i $(ONT).owl \
+	query --query ../sparql/relegate-updated-labels-to-candidate-status.sparql $(REPORTDIR)/updated-labels-to-candidate-status-$*.tsv \
+	query --update ../sparql/relegate-updated-labels-to-candidate-status.ru \
+	query --update ../sparql/rm-original-translation.ru \
+	remove --base-iri $(URIBASE)/MP --axioms external --preserve-structure false --trim false \
+	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@
+.PRECIOUS: $(TRANSLATIONDIR)/$(ONT)-%.owl
+
+# Main release goal for the international edition
+$(ONT)-international.owl: $(ONT).owl $(TRANSLATED_ONTOLOGIES)
+	$(ROBOT) merge $(patsubst %, -i %, $^) \
+		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
+
