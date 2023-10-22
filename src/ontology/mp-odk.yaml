@@ -15,6 +15,7 @@ release_artefacts:
   - base
   - simple-non-classified
   - full
+  - custom-mp-international
 primary_release: simple-non-classified
 export_formats:
   - owl
