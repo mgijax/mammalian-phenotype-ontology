@@ -6,11 +6,16 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
-    container: obolibrary/odkfull:v1.4.3
-    strategy:
-      max-parallel: 1
+    runs-on: macos-latest
     steps:
+      - uses: docker-practice/actions-setup-docker@master
+      - run: |
+          set -x
+          docker version
+
+      - name: Install ODK
+        run: docker pull obolibrary/odklite
+
       - name: Checkout main branch
         uses: actions/checkout@v3
 
