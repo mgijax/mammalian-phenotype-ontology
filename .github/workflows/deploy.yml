@@ -38,6 +38,7 @@ jobs:
             mp-full.owl
             mp-full.obo
             mp-full.json
+            mp-international.owl
             mp-simple-non-classified.owl
             mp-simple-non-classified.obo
             mp-simple-non-classified.json
