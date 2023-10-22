@@ -15,7 +15,7 @@ WHERE {
     oboInOwl:inSubset
     dcterms:contributor  }
   ?term ?property ?value .
-  FILTER(isIRI(?term) && (STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/MP_") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/MP_") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/mp[#]") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/mp-edit[#]") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/mp/") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/mp-edit/")))
+  FILTER(isIRI(?term) && (STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/MP_") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/mp[#]") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/mp-edit[#]") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/mp/") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/mp-edit/")))
   FILTER (!isIRI(?value))
 }
 
