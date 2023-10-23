@@ -14,7 +14,7 @@ jobs:
           docker version
 
       - name: Install ODK
-        run: docker pull obolibrary/odklite
+        run: docker pull obolibrary/odkfull
 
       - name: Checkout main branch
         uses: actions/checkout@v3
