@@ -46,6 +46,9 @@ jobs:
             mp-full.obo
             mp-full.json
             mp-international.owl
+            src/ontology/translations/mp-ja.babelon.tsv
+            src/ontology/translations/mp-ja.owl
+            src/ontology/translations/mp-profile-ja.owl
             mp-simple-non-classified.owl
             mp-simple-non-classified.obo
             mp-simple-non-classified.json

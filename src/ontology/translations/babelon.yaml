@@ -11,6 +11,7 @@ prefixes:
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
   HP: http://purl.obolibrary.org/obo/HP_
+  MP: http://purl.obolibrary.org/obo/MP_
   owl: http://www.w3.org/2002/07/owl#
   IAO: http://purl.obolibrary.org/obo/IAO_
 default_prefix: babelon
