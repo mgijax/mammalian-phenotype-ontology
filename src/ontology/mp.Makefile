@@ -124,11 +124,10 @@ $(TRANSLATIONDIR)/$(ONT)-profile-%.owl: $(TRANSLATIONDIR)/$(ONT)-%.babelon.tsv $
 # And a report that includes which labels have changed (and moves those to "CANDIDATE" status). This also ideally does not belong here (babelon toolkit)
 $(TRANSLATIONDIR)/$(ONT)-%.owl: $(TRANSLATIONDIR)/$(ONT)-profile-%.owl $(TRANSLATIONDIR)/$(ONT)-%.synonyms.owl $(ONT).owl
 	mkdir -p $(REPORTDIR)
-	robot merge -i $(TRANSLATIONDIR)/$(ONT)-profile-$*.owl -i $(TRANSLATIONDIR)/$(ONT)-$*.synonyms.owl -i $(ONT).owl \
-	query --query ../sparql/relegate-updated-labels-to-candidate-status.sparql $(REPORTDIR)/updated-labels-to-candidate-status-$*.tsv \
-	query --update ../sparql/relegate-updated-labels-to-candidate-status.ru \
-	query --update ../sparql/rm-original-translation.ru \
-	remove --base-iri $(URIBASE)/MP --axioms external --preserve-structure false --trim false \
+	$(ROBOT) merge -i $(TRANSLATIONDIR)/$(ONT)-profile-$*.owl -i $(TRANSLATIONDIR)/$(ONT)-$*.synonyms.owl -i $(ONT).owl -o $(TMPDIR)/$(ONT)-$*-merged.ttl
+	update --data=$(TMPDIR)/$(ONT)-$*-merged.ttl --update=../sparql/relegate-updated-labels-to-candidate-status.ru --update=../sparql/rm-original-translation.ru > $(TMPDIR)/$(ONT)-$*-updated.ttl
+	arq --query=../sparql/relegate-updated-labels-to-candidate-status.sparql --data=$(TMPDIR)/$(ONT)-$*-merged.ttl --results=TSV > $(REPORTDIR)/updated-labels-to-candidate-status-$*.tsv
+	$(ROBOT) remove -i $(TMPDIR)/$(ONT)-$*-updated.ttl --base-iri $(URIBASE)/MP --axioms external --preserve-structure false --trim false \
 	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@
 .PRECIOUS: $(TRANSLATIONDIR)/$(ONT)-%.owl
 
@@ -136,4 +135,12 @@ $(TRANSLATIONDIR)/$(ONT)-%.owl: $(TRANSLATIONDIR)/$(ONT)-profile-%.owl $(TRANSLA
 $(ONT)-international.owl: $(ONT).owl $(TRANSLATED_ONTOLOGIES)
 	$(ROBOT) merge $(patsubst %, -i %, $^) \
 		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
+
+xxx:
+	robot merge -i $(TRANSLATIONDIR)/$(ONT)-profile-ja.owl -i $(TRANSLATIONDIR)/$(ONT)-ja.synonyms.owl -i $(ONT).owl \
+	remove --base-iri $(URIBASE)/MP --axioms external --preserve-structure false --trim false \
+	query --query ../sparql/relegate-updated-labels-to-candidate-status.sparql $(REPORTDIR)/updated-labels-to-candidate-status-ja.tsv \
+	query --update ../sparql/relegate-updated-labels-to-candidate-status.ru \
+	query --update ../sparql/rm-original-translation.ru \
+	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output test-int.owl
 
