@@ -49,6 +49,7 @@ jobs:
             src/ontology/translations/mp-ja.babelon.tsv
             src/ontology/translations/mp-ja.owl
             src/ontology/translations/mp-profile-ja.owl
+            src/ontology/reports/updated-labels-to-candidate-status-ja.tsv
             mp-simple-non-classified.owl
             mp-simple-non-classified.obo
             mp-simple-non-classified.json
