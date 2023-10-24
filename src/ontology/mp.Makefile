@@ -125,7 +125,7 @@ $(TRANSLATIONDIR)/$(ONT)-profile-%.owl: $(TRANSLATIONDIR)/$(ONT)-%.babelon.tsv $
 $(TRANSLATIONDIR)/$(ONT)-%.owl: $(TRANSLATIONDIR)/$(ONT)-profile-%.owl $(TRANSLATIONDIR)/$(ONT)-%.synonyms.owl $(ONT).owl
 	mkdir -p $(REPORTDIR)
 	$(ROBOT) merge -i $(TRANSLATIONDIR)/$(ONT)-profile-$*.owl -i $(TRANSLATIONDIR)/$(ONT)-$*.synonyms.owl -i $(ONT).owl -o $(TMPDIR)/$(ONT)-$*-merged.ttl
-	update --data=$(TMPDIR)/$(ONT)-$*-merged.ttl --update=../sparql/relegate-updated-labels-to-candidate-status.ru --update=../sparql/rm-original-translation.ru > $(TMPDIR)/$(ONT)-$*-updated.ttl
+	update --data=$(TMPDIR)/$(ONT)-$*-merged.ttl --update=../sparql/relegate-updated-labels-to-candidate-status.ru --update=../sparql/rm-original-translation.ru --dump >> $(TMPDIR)/$(ONT)-$*-updated.ttl
 	arq --query=../sparql/relegate-updated-labels-to-candidate-status.sparql --data=$(TMPDIR)/$(ONT)-$*-merged.ttl --results=TSV > $(REPORTDIR)/updated-labels-to-candidate-status-$*.tsv
 	$(ROBOT) remove -i $(TMPDIR)/$(ONT)-$*-updated.ttl --base-iri $(URIBASE)/MP --axioms external --preserve-structure false --trim false \
 	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@
