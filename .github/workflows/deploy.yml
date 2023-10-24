@@ -27,7 +27,7 @@ jobs:
         run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
       
       - name: Update release files
-        run: cd src/ontology/ && docker run -v $PWD/../../:/work -w /work/src/ontology -e ROBOT_JAVA_ARGS='-Xmx10G' -e JAVA_OPTS='-Xmx10G' --rm obolibrary/odklite make GITHUB_ACTION=true prepare_release_fast
+        run: cd src/ontology/ && docker run -v $PWD/../../:/work -w /work/src/ontology -e ROBOT_JAVA_ARGS='-Xmx10G' -e JAVA_OPTS='-Xmx10G' --rm obolibrary/odkfull make GITHUB_ACTION=true prepare_release_fast
       
       - name: Run release
         uses: gaoDean/action-gh-release@6b61bb5648ddc1241deb73ea6b72c3a1e1f9e445
