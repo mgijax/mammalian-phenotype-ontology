@@ -17,7 +17,7 @@ INSERT {
 
 #SELECT ?term ?property ?translation_lang
 WHERE {
-  VALUES ?property { rdfs:label definition: exact_synonym: } 
+  VALUES ?property { rdfs:label definition: } 
   ?term ?property ?value .
 
   ?ax a owl:Axiom ;
