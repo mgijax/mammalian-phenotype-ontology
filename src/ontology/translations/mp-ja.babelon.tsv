@@ -35,7 +35,7 @@ MP:0000040	en	ja	rdfs:label	absent middle ear ossicles	OFFICIAL	中耳骨片の�
 MP:0000041	en	ja	rdfs:label	absent endolymphatic duct	OFFICIAL	内リンパ管の欠如
 MP:0000042	en	ja	rdfs:label	abnormal organ of Corti morphology	OFFICIAL	コルチ器官の異常
 MP:0000043	en	ja	rdfs:label	organ of Corti degeneration	OFFICIAL	コルチ器官の退行変性
-MP:0000044	en	ja	rdfs:label	absent organ of Corti	OFFICIAL	コルチ器官の欠如
+MP:0000044	en	ja	rdfs:label	absent organ of Corti	OFFICIAL	コルチ器欠如
 MP:0000045	en	ja	rdfs:label	abnormal hair cell morphology	OFFICIAL	有毛細胞の形態異常
 MP:0000046	en	ja	rdfs:label	abnormal sulcus ampullaris morphology	OFFICIAL	膨大部溝の形態異常
 MP:0000047	en	ja	rdfs:label	obsolete abnormal interdental cells	OFFICIAL	OBSOLETE
@@ -412,7 +412,7 @@ MP:0000525	en	ja	rdfs:label	renal tubular acidosis	OFFICIAL	尿細管性アシ�
 MP:0000526	en	ja	rdfs:label	small inner medullary pyramid	OFFICIAL	髄質内錐体の矮小化
 MP:0000527	en	ja	rdfs:label	abnormal kidney development	OFFICIAL	腎臓の発生異常
 MP:0000528	en	ja	rdfs:label	delayed kidney development	OFFICIAL	腎臓の発生遅延
-MP:0000530	en	ja	rdfs:label	abnormal kidney blood vessel morphology	OFFICIAL	腎臓の脈管構造異常
+MP:0000530	en	ja	rdfs:label	abnormal kidney vasculature morphology	OFFICIAL	腎臓の脈管構造異常
 MP:0000531	en	ja	rdfs:label	right pulmonary isomerism	OFFICIAL	肺の右側異性
 MP:0000532	en	ja	rdfs:label	kidney vascular congestion	OFFICIAL	腎臓脈管のうっ血
 MP:0000533	en	ja	rdfs:label	kidney hemorrhage	OFFICIAL	腎出血
@@ -450,13 +450,13 @@ MP:0000567	en	ja	rdfs:label	truncated digits	OFFICIAL	欠指症
 MP:0000568	en	ja	rdfs:label	ectopic digits	OFFICIAL	異所性の指
 MP:0000569	en	ja	rdfs:label	abnormal digit pigmentation	OFFICIAL	指色素沈着の異常
 MP:0000571	en	ja	rdfs:label	interdigital webbing	OFFICIAL	趾間部の水かき
-MP:0000572	en	ja	rdfs:label	abnormal autopod morphology	OFFICIAL	自脚形態異常
-MP:0000573	en	ja	rdfs:label	enlarged hind paws	OFFICIAL	後脚の巨大化
+MP:0000572	en	ja	rdfs:label	abnormal autopod morphology	OFFICIAL	自由四肢の末端部（自脚）の形態異常
+MP:0000573	en	ja	rdfs:label	increased hindlimb autopod size	OFFICIAL	後脚の巨大化
 MP:0000574	en	ja	rdfs:label	abnormal foot pad morphology	OFFICIAL	足底の形態異常
 MP:0000575	en	ja	rdfs:label	increased foot pad pigmentation	OFFICIAL	濃い色の足底
 MP:0000576	en	ja	rdfs:label	clubfoot	OFFICIAL	弯足
 MP:0000577	en	ja	rdfs:label	absent eccrine glands	OFFICIAL	前足裏のエクリン腺欠如
-MP:0000578	en	ja	rdfs:label	ulcerated paws	OFFICIAL	潰瘍の足
+MP:0000578	en	ja	rdfs:label	ulcerated autopod	OFFICIAL	自由四肢の末端部（自脚）の潰瘍化
 MP:0000579	en	ja	rdfs:label	abnormal nail morphology	OFFICIAL	爪の形態異常
 MP:0000580	en	ja	rdfs:label	deformed nails	OFFICIAL	奇形の爪
 MP:0000581	en	ja	rdfs:label	obsolete ventral nails/ hair	OFFICIAL	OBSOLETE
@@ -811,7 +811,7 @@ MP:0000998	en	ja	rdfs:label	absent synovial joint capsule	OFFICIAL	関節包の�
 MP:0000999	en	ja	rdfs:label	abnormal golgi tendon organ morphology	OFFICIAL	ゴルジ腱紡錘の形態異常
 MP:0001000	en	ja	rdfs:label	absent golgi tendon organ	OFFICIAL	ゴルジ腱紡錘の欠如
 MP:0001001	en	ja	rdfs:label	abnormal chemoreceptor morphology	OFFICIAL	化学受容器の形態異常
-MP:0001002	en	ja	rdfs:label	abnormal taste bud morphology	OFFICIAL	味蕾の形態異常
+MP:0001002	en	ja	rdfs:label	obsolete abnormal taste bud morphology	OFFICIAL	味蕾の形態異常
 MP:0001003	en	ja	rdfs:label	abnormal olfactory receptor morphology	OFFICIAL	嗅覚受容体の形態異常
 MP:0001004	en	ja	rdfs:label	abnormal retina photoreceptor morphology	OFFICIAL	網膜視細胞の形態異常
 MP:0001005	en	ja	rdfs:label	abnormal retina rod cell morphology	OFFICIAL	網膜杆体細胞の形態異常
@@ -1076,14 +1076,14 @@ MP:0001316	en	ja	rdfs:label	corneal scarring	OFFICIAL	角膜の瘢痕
 MP:0001317	en	ja	rdfs:label	abnormal pupil morphology	OFFICIAL	瞳孔の形態異常
 MP:0001318	en	ja	rdfs:label	pupil opacity	OFFICIAL	瞳孔混濁
 MP:0001319	en	ja	rdfs:label	irregularly shaped pupil	OFFICIAL	瞳孔の形態異常
-MP:0001320	en	ja	rdfs:label	small pupils	OFFICIAL	瞳孔の矮小化
+MP:0001320	en	ja	rdfs:label	small pupil	OFFICIAL	瞳孔の矮小化
 MP:0001322	en	ja	rdfs:label	abnormal iris morphology	OFFICIAL	虹彩の形態異常
 MP:0001323	en	ja	rdfs:label	obsolete iris opacity	OFFICIAL	OBSOLETE
 MP:0001324	en	ja	rdfs:label	abnormal eye pigmentation	OFFICIAL	眼の色素沈着異常
 MP:0001325	en	ja	rdfs:label	abnormal retina morphology	OFFICIAL	網膜の形態異常
 MP:0001326	en	ja	rdfs:label	retina degeneration	OFFICIAL	網膜の退行変性
 MP:0001327	en	ja	rdfs:label	decreased retina photoreceptor cell number	OFFICIAL	網膜視細胞数の減少
-MP:0001328	en	ja	rdfs:label	disorganized retina layers	OFFICIAL	網膜層の組織崩壊
+MP:0001328	en	ja	rdfs:label	disorganized retina layers	OFFICIAL	網膜層の乱れ
 MP:0001329	en	ja	rdfs:label	retina hyperplasia	OFFICIAL	網膜の肥厚
 MP:0001330	en	ja	rdfs:label	abnormal optic nerve morphology	OFFICIAL	視神経形態異常
 MP:0001332	en	ja	rdfs:label	abnormal optic nerve innervation	OFFICIAL	視神経伝達異常
@@ -1198,8 +1198,8 @@ MP:0001468	en	ja	rdfs:label	abnormal temporal memory	OFFICIAL	短期記憶異常
 MP:0001469	en	ja	rdfs:label	abnormal contextual conditioning behavior	OFFICIAL	文脈条件づけ異常
 MP:0001470	en	ja	rdfs:label	obsolete impaired long term memory in step-down avoidance test	OFFICIAL	OBSOLETE
 MP:0001471	en	ja	rdfs:label	obsolete large place fields	OFFICIAL	OBSOLETE
-MP:0001473	en	ja	rdfs:label	reduced long term potentiation	OFFICIAL	長期増強刺激応答減少
-MP:0001475	en	ja	rdfs:label	reduced long term depression	OFFICIAL	長期抑制刺激応答減少
+MP:0001473	en	ja	rdfs:label	reduced long-term potentiation	OFFICIAL	長期増強刺激応答減少
+MP:0001475	en	ja	rdfs:label	reduced long-term depression	OFFICIAL	長期抑制刺激応答減少
 MP:0001482	en	ja	rdfs:label	obsolete Increased Pupil Restriction	OFFICIAL	OBSOLETE
 MP:0001483	en	ja	rdfs:label	obsolete Decreased Pupil Restriction	OFFICIAL	OBSOLETE
 MP:0001485	en	ja	rdfs:label	abnormal pinna reflex	OFFICIAL	耳介反射異常
@@ -1486,8 +1486,8 @@ MP:0001890	en	ja	rdfs:label	anencephaly	OFFICIAL	無脳症
 MP:0001891	en	ja	rdfs:label	hydrocephaly	OFFICIAL	水頭症
 MP:0001893	en	ja	rdfs:label	non-obstructive hydrocephaly	OFFICIAL	閉塞性水頭症
 MP:0001895	en	ja	rdfs:label	obsolete abnormal hippocampus function	OFFICIAL	OBSOLETE
-MP:0001898	en	ja	rdfs:label	abnormal long term depression	OFFICIAL	長期抑制異常
-MP:0001899	en	ja	rdfs:label	absent long term depression	OFFICIAL	長期抑制欠如
+MP:0001898	en	ja	rdfs:label	abnormal long-term depression	OFFICIAL	長期抑制異常
+MP:0001899	en	ja	rdfs:label	absent long-term depression	OFFICIAL	長期抑制欠如
 MP:0001900	en	ja	rdfs:label	impaired synaptic plasticity	OFFICIAL	シナプス可塑性障害
 MP:0001901	en	ja	rdfs:label	absence of NMDA-mediated synaptic currents	OFFICIAL	NMDA 受容体介在シナプス電流欠如
 MP:0001902	en	ja	rdfs:label	reduced NMDA-mediated synaptic currents	OFFICIAL	NMDA 受容体介在シナプス電流減少
@@ -1573,7 +1573,7 @@ MP:0001998	en	ja	rdfs:label	obsolete Decreased Pupil Constriction	OFFICIAL	OBSOL
 MP:0001999	en	ja	rdfs:label	photosensitivity	OFFICIAL	感光性
 MP:0002001	en	ja	rdfs:label	blindness	OFFICIAL	失明
 MP:0002002	en	ja	rdfs:label	obsolete abnormal response to visual cliff	OFFICIAL	OBSOLETE
-MP:0002003	en	ja	rdfs:label	miotic pupils	OFFICIAL	縮瞳
+MP:0002003	en	ja	rdfs:label	miotic pupil	OFFICIAL	縮瞳
 MP:0002006	en	ja	rdfs:label	neoplasm	OFFICIAL	腫瘍形成
 MP:0002007	en	ja	rdfs:label	increased cellular sensitivity to gamma-irradiation	OFFICIAL	対ガンマ線照射細胞感受性上昇
 MP:0002009	en	ja	rdfs:label	preneoplasia	OFFICIAL	前新生物
@@ -1740,7 +1740,7 @@ MP:0002201	en	ja	rdfs:label	obsolete abnormal neurotransmitter receptor physiolo
 MP:0002204	en	ja	rdfs:label	abnormal synaptic neurotransmitter level	OFFICIAL	神経伝達物質レベル異常
 MP:0002205	en	ja	rdfs:label	obsolete neurotransmitter imbalance	OFFICIAL	OBSOLETE
 MP:0002206	en	ja	rdfs:label	abnormal CNS synaptic transmission	OFFICIAL	中枢神経系シナプス伝達異常
-MP:0002207	en	ja	rdfs:label	abnormal long term potentiation	OFFICIAL	長期増強異常
+MP:0002207	en	ja	rdfs:label	abnormal long-term potentiation	OFFICIAL	長期増強異常
 MP:0002208	en	ja	rdfs:label	abnormal germ cell morphology	OFFICIAL	生殖細胞形態異常
 MP:0002209	en	ja	rdfs:label	decreased germ cell number	OFFICIAL	生殖細胞数減少
 MP:0002210	en	ja	rdfs:label	abnormal sex determination	OFFICIAL	性決定異常
@@ -1931,8 +1931,8 @@ MP:0002403	en	ja	rdfs:label	abnormal pre-B cell morphology	OFFICIAL	pre-B細胞�
 MP:0002404	en	ja	rdfs:label	increased intestinal adenoma incidence	OFFICIAL	腸アデノーマ
 MP:0002405	en	ja	rdfs:label	respiratory system inflammation	OFFICIAL	呼吸器系の炎症
 MP:0002406	en	ja	rdfs:label	increased susceptibility to infection	OFFICIAL	感染に対する感受性上昇
-MP:0002407	en	ja	rdfs:label	abnormal double-negative T cell morphology	OFFICIAL	CD4／CD8ネガティブT細胞形態異常
-MP:0002408	en	ja	rdfs:label	abnormal double-positive T cell morphology	OFFICIAL	CD4／CD8ポジティブT細胞形態異常
+MP:0002407	en	ja	rdfs:label	abnormal double-negative T cell morphology	OFFICIAL	ダブルネガティブ（CD4/CD8）T細胞形態異常
+MP:0002408	en	ja	rdfs:label	abnormal double-positive T cell morphology	OFFICIAL	ダブルポジティブ（CD4/CD8）T細胞形態異常
 MP:0002409	en	ja	rdfs:label	decreased susceptibility to infection	OFFICIAL	感染症に対する感受性低下
 MP:0002410	en	ja	rdfs:label	decreased susceptibility to viral infection	OFFICIAL	ウィルス感染に対する感受性低下
 MP:0002411	en	ja	rdfs:label	decreased susceptibility to bacterial infection	OFFICIAL	細菌感染症に対する感受性低下
@@ -2272,7 +2272,7 @@ MP:0002779	en	ja	rdfs:label	abnormal sex gland secretion	OFFICIAL	生殖腺の�
 MP:0002780	en	ja	rdfs:label	decreased circulating testosterone level	OFFICIAL	テストステロン血中濃度低下
 MP:0002781	en	ja	rdfs:label	increased circulating testosterone level	OFFICIAL	テストステロン血中濃度上昇
 MP:0002782	en	ja	rdfs:label	abnormal testes secretion	OFFICIAL	精巣（ホルモン）分泌の異常
-MP:0002783	en	ja	rdfs:label	abnormal ovarian secretion	OFFICIAL	卵巣（ホルモン）分泌の異常
+MP:0002783	en	ja	rdfs:label	abnormal ovary secretion	OFFICIAL	卵巣（ホルモン）分泌の異常
 MP:0002784	en	ja	rdfs:label	abnormal Sertoli cell morphology	OFFICIAL	セルトリ細胞の形態異常
 MP:0002785	en	ja	rdfs:label	absent Leydig cells	OFFICIAL	ライディッヒ細胞の欠如
 MP:0002786	en	ja	rdfs:label	abnormal Leydig cell morphology	OFFICIAL	ライディッヒ細胞の形態異常
@@ -2288,8 +2288,8 @@ MP:0002796	en	ja	rdfs:label	impaired skin barrier function	OFFICIAL	皮膚障壁
 MP:0002797	en	ja	rdfs:label	increased thigmotaxis	OFFICIAL	接触走性の増加
 MP:0002798	en	ja	rdfs:label	abnormal active avoidance behavior	OFFICIAL	能動的回避行動異常
 MP:0002799	en	ja	rdfs:label	abnormal passive avoidance behavior	OFFICIAL	受動的回避行動の異常
-MP:0002800	en	ja	rdfs:label	abnormal short term object recognition memory	OFFICIAL	短期的物体認識記憶の異常
-MP:0002801	en	ja	rdfs:label	abnormal long term object recognition memory	OFFICIAL	長期的物体認識記憶の異常
+MP:0002800	en	ja	rdfs:label	abnormal short-term object recognition memory	OFFICIAL	短期的物体認識記憶の異常
+MP:0002801	en	ja	rdfs:label	abnormal long-term object recognition memory	OFFICIAL	長期的物体認識記憶の異常
 MP:0002802	en	ja	rdfs:label	abnormal discrimination learning	OFFICIAL	識別学習の異常
 MP:0002803	en	ja	rdfs:label	abnormal operant conditioning behavior	OFFICIAL	オペラント条件付け行動の異常
 MP:0002804	en	ja	rdfs:label	abnormal motor learning	OFFICIAL	運動学習の異常
@@ -2481,11 +2481,11 @@ MP:0002999	en	ja	rdfs:label	abnormal bone healing	OFFICIAL	骨治癒異常
 MP:0003005	en	ja	rdfs:label	abnormal hippocampal fimbria morphology	OFFICIAL	海馬采の異常
 MP:0003006	en	ja	rdfs:label	abnormal hippocampal fornix morphology	OFFICIAL	脳弓形態異常
 MP:0003007	en	ja	rdfs:label	ectopic thymus	OFFICIAL	異所胸腺
-MP:0003008	en	ja	rdfs:label	enhanced long term potentiation	OFFICIAL	長期増強の強化
+MP:0003008	en	ja	rdfs:label	enhanced long-term potentiation	OFFICIAL	長期増強の強化
 MP:0003009	en	ja	rdfs:label	abnormal cytokine secretion	OFFICIAL	サイトカイン分泌異常
 MP:0003010	en	ja	rdfs:label	decreased mortality induced by ionizing radiation	OFFICIAL	電離放射線誘による死亡率の減少
 MP:0003011	en	ja	rdfs:label	delayed dark adaptation	OFFICIAL	暗順応の遅延
-MP:0003012	en	ja	rdfs:label	no phenotypic analysis	OFFICIAL	表現型分析の欠如
+MP:0003012	en	ja	rdfs:label	obsolete no phenotypic analysis	OFFICIAL	表現型分析の欠如
 MP:0003014	en	ja	rdfs:label	abnormal kidney medulla morphology	OFFICIAL	腎髄質形態の異常
 MP:0003015	en	ja	rdfs:label	abnormal circulating bicarbonate level	OFFICIAL	炭酸水素塩の血中濃度異常
 MP:0003016	en	ja	rdfs:label	increased circulating bicarbonate level	OFFICIAL	炭酸水素塩の血中濃度上昇
@@ -2619,7 +2619,7 @@ MP:0003144	en	ja	rdfs:label	decreased otolith number	OFFICIAL	耳石数の増加
 MP:0003145	en	ja	rdfs:label	detached otolithic membrane	OFFICIAL	耳石膜分離
 MP:0003146	en	ja	rdfs:label	absent cochlear ganglion	OFFICIAL	蝸牛神経節の欠損
 MP:0003147	en	ja	rdfs:label	absent cochlea	OFFICIAL	蝸牛の欠損
-MP:0003148	en	ja	rdfs:label	decreased cochlear coiling	OFFICIAL	蝸牛渦巻き数の減少
+MP:0003148	en	ja	rdfs:label	decreased cochlea coiling	OFFICIAL	蝸牛渦巻き数の減少
 MP:0003149	en	ja	rdfs:label	abnormal tectorial membrane morphology	OFFICIAL	蓋膜の形態異常
 MP:0003150	en	ja	rdfs:label	detached tectorial membrane	OFFICIAL	蓋膜分離
 MP:0003151	en	ja	rdfs:label	absent tunnel of Corti	OFFICIAL	コルチトンネルの欠如
@@ -3214,7 +3214,7 @@ MP:0003756	en	ja	rdfs:label	abnormal hard palate morphology	OFFICIAL	硬口蓋�
 MP:0003757	en	ja	rdfs:label	high palate	OFFICIAL	口蓋の背高化
 MP:0003758	en	ja	rdfs:label	narrow palate	OFFICIAL	口蓋の狭小化
 MP:0003759	en	ja	rdfs:label	broad palate	OFFICIAL	口蓋の幅広化
-MP:0003760	en	ja	rdfs:label	decreased palatal length	OFFICIAL	口蓋の短縮
+MP:0003760	en	ja	rdfs:label	decreased palatal length	OFFICIAL	口蓋の奥行短縮
 MP:0003761	en	ja	rdfs:label	arched palate	OFFICIAL	弓状口蓋
 MP:0003762	en	ja	rdfs:label	abnormal immune organ physiology	OFFICIAL	免疫性器官の生理異常
 MP:0003763	en	ja	rdfs:label	abnormal thymus physiology	OFFICIAL	胸腺の生理異常
@@ -3244,7 +3244,7 @@ MP:0003786	en	ja	rdfs:label	premature aging	OFFICIAL	早老
 MP:0003787	en	ja	rdfs:label	abnormal imprinting	OFFICIAL	刷り込みの異常
 MP:0003788	en	ja	rdfs:label	obsolete abnormal interferon physiology	OFFICIAL	OBSOLETE
 MP:0003789	en	ja	rdfs:label	increased osteosarcoma incidence	OFFICIAL	骨肉腫発生率上昇
-MP:0003790	en	ja	rdfs:label	absent CD4-positive, alpha beta T cells	OFFICIAL	CD4陽性アルファ-ベータ型T細胞の欠損
+MP:0003790	en	ja	rdfs:label	absent CD4-positive, alpha-beta T cells	OFFICIAL	CD4陽性アルファ-ベータ型T細胞の欠損
 MP:0003791	en	ja	rdfs:label	abnormal minor salivary gland morphology	OFFICIAL	小唾液腺の形態異常
 MP:0003792	en	ja	rdfs:label	abnormal major salivary gland morphology	OFFICIAL	大唾液腺の形態異常
 MP:0003793	en	ja	rdfs:label	abnormal submandibular gland morphology	OFFICIAL	顎下腺の形態異常
@@ -3359,7 +3359,7 @@ MP:0003907	en	ja	rdfs:label	decreased aorta elastin content	OFFICIAL	大動脈�
 MP:0003908	en	ja	rdfs:label	decreased stereotypic behavior	OFFICIAL	ステレオタイプ行動の減少
 MP:0003913	en	ja	rdfs:label	increased heart right ventricle weight	OFFICIAL	右心室重量の増加
 MP:0003914	en	ja	rdfs:label	decreased heart right ventricle weight	OFFICIAL	右心室重量の減少
-MP:0003915	en	ja	rdfs:label	increased left ventricle weight	OFFICIAL	左心室重量の増加
+MP:0003915	en	ja	rdfs:label	increased heart left ventricle weight	OFFICIAL	左心室重量の増加
 MP:0003916	en	ja	rdfs:label	decreased heart left ventricle weight	OFFICIAL	左心室重量の減少
 MP:0003917	en	ja	rdfs:label	increased kidney weight	OFFICIAL	腎臓重量の増加
 MP:0003918	en	ja	rdfs:label	decreased kidney weight	OFFICIAL	腎臓重量の減少
@@ -3739,8 +3739,8 @@ MP:0004296	en	ja	rdfs:label	abnormal type IV spiral ligament fibrocytes	OFFICIAL
 MP:0004297	en	ja	rdfs:label	abnormal proprioceptive neuron morphology	OFFICIAL	固有受容性ニューロンの形態異常
 MP:0004298	en	ja	rdfs:label	vestibular ganglion degeneration	OFFICIAL	前庭神経節の変性
 MP:0004299	en	ja	rdfs:label	absent vestibular ganglion	OFFICIAL	前庭神経節の欠如
-MP:0004300	en	ja	rdfs:label	abnormal organ of Corti supporting cell morphology	OFFICIAL	支持細胞の形態異常
-MP:0004301	en	ja	rdfs:label	absent organ of Corti supporting cells	OFFICIAL	支持細胞の欠如
+MP:0004300	en	ja	rdfs:label	abnormal organ of Corti supporting cell morphology	OFFICIAL	コルチ器支持細胞の形態異常
+MP:0004301	en	ja	rdfs:label	absent organ of Corti supporting cells	OFFICIAL	コルチ器支持細胞の欠如
 MP:0004302	en	ja	rdfs:label	abnormal Deiters cell morphology	OFFICIAL	ダイテルス細胞の形態異常
 MP:0004303	en	ja	rdfs:label	abnormal Hensen cell morphology	OFFICIAL	ヘンゼン細胞の形態異常
 MP:0004304	en	ja	rdfs:label	absent spiral limbus	OFFICIAL	らせん板縁の欠損
@@ -3918,8 +3918,8 @@ MP:0004475	en	ja	rdfs:label	palatine bone hypoplasia	OFFICIAL	口蓋骨の発育
 MP:0004476	en	ja	rdfs:label	absent palatine bone	OFFICIAL	口蓋骨の欠如
 MP:0004477	en	ja	rdfs:label	turbinate hypoplasia	OFFICIAL	鼻甲介の発育不全
 MP:0004478	en	ja	rdfs:label	increased testicular teratoma incidence	OFFICIAL	精巣の奇形腫
-MP:0004479	en	ja	rdfs:label	abnormal oval window morphology	OFFICIAL	卵円窓の形態異常
-MP:0004480	en	ja	rdfs:label	abnormal round window morphology	OFFICIAL	正円窓の形態異常
+MP:0004479	en	ja	rdfs:label	abnormal oval window morphology	OFFICIAL	卵円窓（前庭窓）の形態異常
+MP:0004480	en	ja	rdfs:label	abnormal round window morphology	OFFICIAL	正円窓（蝸牛窓）の形態異常
 MP:0004481	en	ja	rdfs:label	abnormal conjunctival epithelium morphology	OFFICIAL	結膜上皮の異常
 MP:0004482	en	ja	rdfs:label	abnormal interdental cell morphology	OFFICIAL	歯間細胞の形態異常
 MP:0004483	en	ja	rdfs:label	absent interdental cells	OFFICIAL	歯間細胞の欠如
@@ -3935,9 +3935,9 @@ MP:0004492	en	ja	rdfs:label	abnormal orientation of inner hair cell stereociliar
 MP:0004493	en	ja	rdfs:label	dilated cochlea	OFFICIAL	蝸牛の拡張
 MP:0004494	en	ja	rdfs:label	abnormal synaptic glutamate release	OFFICIAL	シナプスグルタミン酸の放出異常
 MP:0004495	en	ja	rdfs:label	decreased synaptic glutamate release	OFFICIAL	シナプスグルタミン酸の放出減少
-MP:0004496	en	ja	rdfs:label	abnormal organ of Corti supporting cell number	OFFICIAL	支持細胞数の異常
-MP:0004497	en	ja	rdfs:label	decreased organ of Corti supporting cell number	OFFICIAL	支持細胞数の減少
-MP:0004498	en	ja	rdfs:label	increased organ of Corti supporting cell number	OFFICIAL	支持細胞数の増加
+MP:0004496	en	ja	rdfs:label	abnormal organ of Corti supporting cell number	OFFICIAL	コルチ器支持細胞数の異常
+MP:0004497	en	ja	rdfs:label	decreased organ of Corti supporting cell number	OFFICIAL	コルチ器支持細胞数の減少
+MP:0004498	en	ja	rdfs:label	increased organ of Corti supporting cell number	OFFICIAL	コルチ器支持細胞数の増加
 MP:0004499	en	ja	rdfs:label	increased incidence of tumors by chemical induction	OFFICIAL	化学誘発性腫瘍の発生率増加
 MP:0004500	en	ja	rdfs:label	increased incidence of tumors by ionizing radiation induction	OFFICIAL	電離放射線誘発性腫瘍の発生率増加
 MP:0004501	en	ja	rdfs:label	increased incidence of tumors by UV-induction	OFFICIAL	紫外線誘発性腫瘍の発生率増加
@@ -4322,10 +4322,10 @@ MP:0004881	en	ja	rdfs:label	abnormal lung size	OFFICIAL	肺サイズの異常
 MP:0004882	en	ja	rdfs:label	enlarged lung	OFFICIAL	肺の肥大化
 MP:0004883	en	ja	rdfs:label	abnormal vascular wound healing	OFFICIAL	血管治癒の異常
 MP:0004884	en	ja	rdfs:label	abnormal testis physiology	OFFICIAL	精巣の生理異常
-MP:0004885	en	ja	rdfs:label	abnormal endolymph	OFFICIAL	内リンパの異常
+MP:0004885	en	ja	rdfs:label	abnormal endolymph physiology	OFFICIAL	内リンパの異常
 MP:0004886	en	ja	rdfs:label	increased endolymph production	OFFICIAL	内リンパ産生の異常
 MP:0004887	en	ja	rdfs:label	decreased endolymph production	OFFICIAL	内リンパ産生の減少
-MP:0004888	en	ja	rdfs:label	abnormal perilymph	OFFICIAL	外リンパの異常
+MP:0004888	en	ja	rdfs:label	abnormal perilymph physiology	OFFICIAL	外リンパの異常
 MP:0004889	en	ja	rdfs:label	increased energy expenditure	OFFICIAL	エネルギー消費の増加
 MP:0004890	en	ja	rdfs:label	decreased energy expenditure	OFFICIAL	エネルギー消費の減少
 MP:0004891	en	ja	rdfs:label	abnormal adiponectin level	OFFICIAL	アディポネクチン値異常
@@ -4515,10 +4515,10 @@ MP:0005084	en	ja	rdfs:label	abnormal gallbladder morphology	OFFICIAL	胆嚢の�
 MP:0005085	en	ja	rdfs:label	abnormal gallbladder physiology	OFFICIAL	胆嚢の生理異常
 MP:0005087	en	ja	rdfs:label	decreased acute inflammation	OFFICIAL	急性炎の減少
 MP:0005088	en	ja	rdfs:label	increased acute inflammation	OFFICIAL	急性炎の増加
-MP:0005089	en	ja	rdfs:label	decreased double-negative T cell number	OFFICIAL	ダブルネガティブT細胞数の減少
-MP:0005090	en	ja	rdfs:label	increased double-negative T cell number	OFFICIAL	ダブルネガティブT細胞数の増加
-MP:0005091	en	ja	rdfs:label	increased double-positive T cell number	OFFICIAL	ダブルポジティブT細胞数の減少
-MP:0005092	en	ja	rdfs:label	decreased double-positive T cell number	OFFICIAL	ダブルポジティブT細胞数の増加
+MP:0005089	en	ja	rdfs:label	decreased double-negative T cell number	OFFICIAL	ダブルネガティブ（CD4/CD8）T細胞数の減少
+MP:0005090	en	ja	rdfs:label	increased double-negative T cell number	OFFICIAL	ダブルネガティブ（CD4/CD8）T細胞数の増加
+MP:0005091	en	ja	rdfs:label	increased double-positive T cell number	OFFICIAL	ダブルポジティブ（CD4/CD8）T細胞数の減少
+MP:0005092	en	ja	rdfs:label	decreased double-positive T cell number	OFFICIAL	ダブルポジティブ（CD4/CD8）T細胞数の増加
 MP:0005093	en	ja	rdfs:label	decreased B cell proliferation	OFFICIAL	B細胞の細胞増殖減少
 MP:0005094	en	ja	rdfs:label	abnormal T cell proliferation	OFFICIAL	T細胞の細胞増殖異常
 MP:0005095	en	ja	rdfs:label	decreased T cell proliferation	OFFICIAL	T細胞の細胞増殖減少
@@ -5189,7 +5189,7 @@ MP:0006144	en	ja	rdfs:label	increased systemic arterial systolic blood pressure	
 MP:0006145	en	ja	rdfs:label	legal blindness	OFFICIAL	法的盲
 MP:0006147	en	ja	rdfs:label	monocular blindness	OFFICIAL	単眼盲
 MP:0006148	en	ja	rdfs:label	binocular blindness	OFFICIAL	両眼盲
-MP:0006149	en	ja	rdfs:label	decreased visual acuity	OFFICIAL	かすみ目
+MP:0006149	en	ja	rdfs:label	decreased visual acuity	OFFICIAL	視力低下
 MP:0006150	en	ja	rdfs:label	double vision	OFFICIAL	複視
 MP:0006151	en	ja	rdfs:label	astigmatism	OFFICIAL	乱視
 MP:0006152	en	ja	rdfs:label	tunnel vision	OFFICIAL	視野狭窄
@@ -5285,7 +5285,7 @@ MP:0006256	en	ja	rdfs:label	abnormal gustatory papillae morphology	OFFICIAL	味�
 MP:0006257	en	ja	rdfs:label	abnormal fungiform papillae morphology	OFFICIAL	茸状乳頭の異常
 MP:0006258	en	ja	rdfs:label	abnormal circumvallate papillae morphology	OFFICIAL	有郭乳頭の異常
 MP:0006259	en	ja	rdfs:label	abnormal foliate papillae morphology	OFFICIAL	葉状乳頭の異常
-MP:0006260	en	ja	rdfs:label	abnormal gustatory papillae taste bud morphology	OFFICIAL	味覚乳頭芽の異常
+MP:0006260	en	ja	rdfs:label	abnormal gustatory papilla taste bud morphology	OFFICIAL	味覚乳頭芽の異常
 MP:0006261	en	ja	rdfs:label	annular pancreas	OFFICIAL	輪状膵
 MP:0006262	en	ja	rdfs:label	increased testis tumor incidence	OFFICIAL	精巣腫
 MP:0006263	en	ja	rdfs:label	decreased systemic arterial diastolic blood pressure	OFFICIAL	弛緩性血圧低下
@@ -5402,8 +5402,8 @@ MP:0006384	en	ja	rdfs:label	enhanced cochlear frequency tuning	OFFICIAL	蝸牛�
 MP:0006386	en	ja	rdfs:label	absent somites	OFFICIAL	体節の欠如
 MP:0006387	en	ja	rdfs:label	abnormal T cell number	OFFICIAL	異常Ｔ細胞数
 MP:0006388	en	ja	rdfs:label	abnormal auditory summating potential	OFFICIAL	聴覚累加電位異常
-MP:0006389	en	ja	rdfs:label	abnormal vestibular endolymph	OFFICIAL	前庭内リンパの異常
-MP:0006390	en	ja	rdfs:label	abnormal cochlear endolymph	OFFICIAL	蝸牛内リンパの異常
+MP:0006389	en	ja	rdfs:label	abnormal vestibular endolymph physiology	OFFICIAL	前庭内リンパの異常
+MP:0006390	en	ja	rdfs:label	abnormal cochlear endolymph physiology	OFFICIAL	蝸牛内リンパの異常
 MP:0006391	en	ja	rdfs:label	abnormal vestibular endolymph ionic homeostasis	OFFICIAL	前庭内リンパのイオン恒常性異常
 MP:0006392	en	ja	rdfs:label	abnormal nucleus pulposus morphology	OFFICIAL	髄核の形態異常
 MP:0006393	en	ja	rdfs:label	absent nucleus pulposus	OFFICIAL	髄核の欠如
@@ -5517,10 +5517,10 @@ MP:0008068	en	ja	rdfs:label	absent retina ganglion cell	OFFICIAL	網膜神経節
 MP:0008069	en	ja	rdfs:label	abnormal joint mobility	OFFICIAL	関節運動の異常
 MP:0008070	en	ja	rdfs:label	absent T cells	OFFICIAL	T細胞の欠如
 MP:0008071	en	ja	rdfs:label	absent B cells	OFFICIAL	B細胞の欠如
-MP:0008072	en	ja	rdfs:label	absent double-negative T cells	OFFICIAL	ダブルネガティブT細胞の欠如
-MP:0008073	en	ja	rdfs:label	abnormal CD4-positive, alpha beta T cell number	OFFICIAL	CD4陽性アルファ-ベータ型T細胞数の異常
-MP:0008074	en	ja	rdfs:label	increased CD4-positive, alpha beta T cell number	OFFICIAL	CD4陽性アルファ-ベータ型T細胞数の増加
-MP:0008075	en	ja	rdfs:label	decreased CD4-positive, alpha beta T cell number	OFFICIAL	CD4陽性アルファ-ベータT型細胞数の減少
+MP:0008072	en	ja	rdfs:label	absent double-negative T cells	OFFICIAL	ダブルネガティブ（CD4/CD8）T細胞の欠如
+MP:0008073	en	ja	rdfs:label	abnormal CD4-positive, alpha-beta T cell number	OFFICIAL	CD4陽性アルファ-ベータ型T細胞数の異常
+MP:0008074	en	ja	rdfs:label	increased CD4-positive, alpha-beta T cell number	OFFICIAL	CD4陽性アルファ-ベータ型T細胞数の増加
+MP:0008075	en	ja	rdfs:label	decreased CD4-positive, alpha-beta T cell number	OFFICIAL	CD4陽性アルファ-ベータT型細胞数の減少
 MP:0008076	en	ja	rdfs:label	abnormal CD4-positive T cell differentiation	OFFICIAL	CD4陽性Ｔ細胞の分化異常
 MP:0008077	en	ja	rdfs:label	abnormal CD8-positive, alpha-beta T cell number	OFFICIAL	CD8陽性T細胞数の異常
 MP:0008078	en	ja	rdfs:label	increased CD8-positive, alpha-beta T cell number	OFFICIAL	CD8陽性T細胞数の増加
@@ -5747,9 +5747,9 @@ MP:0008300	en	ja	rdfs:label	enlarged adrenal medulla	OFFICIAL	副腎髄質の肥
 MP:0008301	en	ja	rdfs:label	adrenal medulla hyperplasia	OFFICIAL	副腎髄質過形成
 MP:0008302	en	ja	rdfs:label	thin adrenal cortex	OFFICIAL	副腎皮質の菲薄化
 MP:0008303	en	ja	rdfs:label	early degeneration of the adrenal gland x-zone	OFFICIAL	副腎のX帯域の早期変性
-MP:0008304	en	ja	rdfs:label	abnormal organ of Corti supporting cell differentiation	OFFICIAL	セルトリ細胞の分化異常
-MP:0008305	en	ja	rdfs:label	abnormal organ of Corti supporting cell physiology	OFFICIAL	セルトリ細胞の生理学的異常
-MP:0008306	en	ja	rdfs:label	abnormal organ of Corti supporting cell proliferation	OFFICIAL	セルトリ細胞の増殖異常
+MP:0008304	en	ja	rdfs:label	abnormal organ of Corti supporting cell differentiation	OFFICIAL	コルチ器支持細胞の分化異常
+MP:0008305	en	ja	rdfs:label	abnormal organ of Corti supporting cell physiology	OFFICIAL	コルチ器支持細胞の生理学的異常
+MP:0008306	en	ja	rdfs:label	abnormal organ of Corti supporting cell proliferation	OFFICIAL	コルチ器官支持細胞の増殖異常
 MP:0008307	en	ja	rdfs:label	short scala media	OFFICIAL	中心階の短縮
 MP:0008308	en	ja	rdfs:label	small scala media	OFFICIAL	中心階の矮小化
 MP:0008309	en	ja	rdfs:label	dilated scala media	OFFICIAL	中心階の拡張
@@ -5874,8 +5874,8 @@ MP:0008427	en	ja	rdfs:label	decreased corticotroph cell size	OFFICIAL	副腎皮�
 MP:0008428	en	ja	rdfs:label	abnormal spatial working memory	OFFICIAL	空間的作業記憶の異常
 MP:0008429	en	ja	rdfs:label	absent parotid gland	OFFICIAL	耳下腺の欠如
 MP:0008430	en	ja	rdfs:label	short temporal bone squamous part	OFFICIAL	側頭鱗骨の 短縮
-MP:0008431	en	ja	rdfs:label	abnormal short term spatial reference memory	OFFICIAL	短期的空間的参照記憶の異常
-MP:0008432	en	ja	rdfs:label	abnormal long term spatial reference memory	OFFICIAL	長期的空間的参照記憶の異常
+MP:0008431	en	ja	rdfs:label	abnormal short-term spatial reference memory	OFFICIAL	短期的空間的参照記憶の異常
+MP:0008432	en	ja	rdfs:label	abnormal long-term spatial reference memory	OFFICIAL	長期的空間的参照記憶の異常
 MP:0008433	en	ja	rdfs:label	abnormal somatotroph cell nucleus	OFFICIAL	成長ホルモン分泌細胞核の異常
 MP:0008434	en	ja	rdfs:label	small somatotroph cell nucleus	OFFICIAL	成長ホルモン分泌細胞核の萎縮
 MP:0008435	en	ja	rdfs:label	large somatotroph cell nucleus	OFFICIAL	成長ホルモン分泌細胞核の肥大
@@ -5913,7 +5913,7 @@ MP:0008466	en	ja	rdfs:label	enlarged mesenteric lymph nodes	OFFICIAL	腸間膜�
 MP:0008467	en	ja	rdfs:label	absent proprioceptive neurons	OFFICIAL	固有受容神経の欠如
 MP:0008468	en	ja	rdfs:label	absent muscle spindles	OFFICIAL	筋紡錐の欠如
 MP:0008469	en	ja	rdfs:label	abnormal protein level	OFFICIAL	異常蛋白質量の異常
-MP:0008470	en	ja	rdfs:label	abnormal spleen B cell follicle morphology	OFFICIAL	脾臓B細胞性濾胞の形態異常
+MP:0008470	en	ja	rdfs:label	abnormal spleen B cell follicle morphology	OFFICIAL	脾臓B細胞性濾胞形態異常
 MP:0008471	en	ja	rdfs:label	abnormal spleen primary B follicle morphology	OFFICIAL	脾臓B細胞性一次濾胞の形態異常
 MP:0008472	en	ja	rdfs:label	abnormal spleen secondary B follicle morphology	OFFICIAL	脾臓細胞性二次濾胞の形態異常
 MP:0008473	en	ja	rdfs:label	abnormal spleen follicular dendritic cell network	OFFICIAL	脾臓濾胞性樹状細胞回路網の異常
@@ -5954,10 +5954,10 @@ MP:0008507	en	ja	rdfs:label	thin retina ganglion layer	OFFICIAL	網膜神経細�
 MP:0008508	en	ja	rdfs:label	thick retina ganglion layer	OFFICIAL	網膜神経細胞層の肥厚
 MP:0008509	en	ja	rdfs:label	disorganized retina ganglion layer	OFFICIAL	網膜神経細胞層構築異常
 MP:0008510	en	ja	rdfs:label	absent retina ganglion layer	OFFICIAL	網膜神経細胞層の欠如
-MP:0008511	en	ja	rdfs:label	decreased retina inner nuclear layer thickness	OFFICIAL	網膜内顆粒層の菲薄化
-MP:0008512	en	ja	rdfs:label	disorganized retina inner nuclear layer	OFFICIAL	網膜内叢状層構築異常
-MP:0008513	en	ja	rdfs:label	thin retina inner plexiform layer	OFFICIAL	網膜内叢状層の菲薄化
-MP:0008514	en	ja	rdfs:label	absent retina inner plexiform layer	OFFICIAL	網膜内叢状層の欠如
+MP:0008511	en	ja	rdfs:label	thin retina inner nuclear layer	OFFICIAL	網膜内顆粒層の菲薄化
+MP:0008512	en	ja	rdfs:label	disorganized retina inner nuclear layer	OFFICIAL	網膜内顆粒層の乱れ
+MP:0008513	en	ja	rdfs:label	thin retina inner plexiform layer	OFFICIAL	網膜内網状層の菲薄化
+MP:0008514	en	ja	rdfs:label	absent retina inner plexiform layer	OFFICIAL	網膜内網状層の欠如
 MP:0008515	en	ja	rdfs:label	thin retina outer nuclear layer	OFFICIAL	網膜外顆粒層の菲薄化
 MP:0008516	en	ja	rdfs:label	disorganized retina outer nuclear layer	OFFICIAL	網膜外顆粒層構築異常
 MP:0008517	en	ja	rdfs:label	thick retina outer nuclear layer	OFFICIAL	網膜外顆粒層の肥厚
@@ -6356,7 +6356,7 @@ MP:0008912	en	ja	rdfs:label	nervous	OFFICIAL	神経質な
 MP:0008913	en	ja	rdfs:label	weaving	OFFICIAL	傾斜
 MP:0008914	en	ja	rdfs:label	enlarged cerebellum	OFFICIAL	小脳肥大
 MP:0008915	en	ja	rdfs:label	fused carpal bones	OFFICIAL	手根骨の癒合
-MP:0008916	en	ja	rdfs:label	abnormal astrocyte physiology	OFFICIAL	アストロサイトの生理異常
+MP:0008916	en	ja	rdfs:label	abnormal astrocyte physiology	OFFICIAL	アストロサイト生理異常
 MP:0008917	en	ja	rdfs:label	abnormal oligodendrocyte physiology	OFFICIAL	オリゴデンドロサイト生理異常
 MP:0008918	en	ja	rdfs:label	microgliosis	OFFICIAL	小神経膠細胞症
 MP:0008919	en	ja	rdfs:label	fused tarsal bones	OFFICIAL	足根骨の癒合
@@ -6806,8 +6806,8 @@ MP:0009362	en	ja	rdfs:label	abnormal primary ovarian follicle morphology	OFFICIA
 MP:0009363	en	ja	rdfs:label	abnormal tertiary ovarian follicle morphology	OFFICIAL	二次卵胞の形態異常
 MP:0009364	en	ja	rdfs:label	abnormal mature ovarian follicle morphology	OFFICIAL	成熟卵胞の形態異常
 MP:0009365	en	ja	rdfs:label	abnormal theca cell layer morphology	OFFICIAL	卵胞膜異常
-MP:0009366	en	ja	rdfs:label	abnormal theca interna	OFFICIAL	内卵胞膜異常
-MP:0009367	en	ja	rdfs:label	abnormal theca externa	OFFICIAL	外卵胞膜異常
+MP:0009366	en	ja	rdfs:label	abnormal theca interna morphology	OFFICIAL	内卵胞膜異常
+MP:0009367	en	ja	rdfs:label	abnormal theca externa morphology	OFFICIAL	外卵胞膜異常
 MP:0009368	en	ja	rdfs:label	absent theca folliculi	OFFICIAL	卵胞膜欠如
 MP:0009369	en	ja	rdfs:label	abnormal theca cell number	OFFICIAL	包膜細胞数の異常
 MP:0009370	en	ja	rdfs:label	decreased theca cell number	OFFICIAL	包膜細胞数の減少
@@ -7199,11 +7199,11 @@ MP:0009759	en	ja	rdfs:label	abnormal hair follicle bulge morphology	OFFICIAL	毛
 MP:0009760	en	ja	rdfs:label	abnormal mitotic spindle morphology	OFFICIAL	有糸分裂紡錘体の形態異常
 MP:0009761	en	ja	rdfs:label	abnormal meiotic spindle morphology	OFFICIAL	減数分裂紡錘体の形態異常
 MP:0009762	en	ja	rdfs:label	abnormal mitotic spindle assembly checkpoint	OFFICIAL	有糸分裂紡錘体集合チェックポイントの異常
-MP:0009763	en	ja	rdfs:label	increased sensitivity to induced morbidity/mortality	OFFICIAL	誘導性罹患/死亡への感受性亢進
-MP:0009764	en	ja	rdfs:label	decreased sensitivity to induced morbidity/mortality	OFFICIAL	誘導性罹患/死亡への感受性低下
+MP:0009763	en	ja	rdfs:label	increased susceptibility to induced morbidity/mortality	OFFICIAL	誘導性罹患/死亡への感受性亢進
+MP:0009764	en	ja	rdfs:label	decreased susceptibility to induced morbidity/mortality	OFFICIAL	誘導性罹患/死亡への感受性低下
 MP:0009765	en	ja	rdfs:label	abnormal xenobiotic induced morbidity/mortality	OFFICIAL	生体異物誘導性罹患/死亡の異常
-MP:0009766	en	ja	rdfs:label	increased sensitivity to xenobiotic induced morbidity/mortality	OFFICIAL	生体異物誘導性罹患/死亡への感受性亢進
-MP:0009767	en	ja	rdfs:label	decreased sensitivity to xenobiotic induced morbidity/mortality	OFFICIAL	生体異物誘導性罹患/死亡への感受性低下
+MP:0009766	en	ja	rdfs:label	increased susceptibility to xenobiotic induced morbidity/mortality	OFFICIAL	生体異物誘導性罹患/死亡への感受性亢進
+MP:0009767	en	ja	rdfs:label	decreased susceptibility to xenobiotic induced morbidity/mortality	OFFICIAL	生体異物誘導性罹患/死亡への感受性低下
 MP:0009768	en	ja	rdfs:label	impaired somite development	OFFICIAL	体節発生障害
 MP:0009769	en	ja	rdfs:label	abnormal meiotic spindle assembly checkpoint	OFFICIAL	減数分裂紡錘体集合チェックポイントの異常
 MP:0009770	en	ja	rdfs:label	abnormal optic chiasm morphology	OFFICIAL	視交叉形態異常
@@ -7316,8 +7316,8 @@ MP:0009876	en	ja	rdfs:label	increased cellular sensitivity to thiophosphamide	OF
 MP:0009877	en	ja	rdfs:label	exostosis	OFFICIAL	外骨腫
 MP:0009878	en	ja	rdfs:label	decreased susceptibility to bone fracture	OFFICIAL	骨折への感受性低下
 MP:0009879	en	ja	rdfs:label	abnormal arcus anterior morphology	OFFICIAL	前弓形態異常
-MP:0009880	en	ja	rdfs:label	microstomia	OFFICIAL	小口症
-MP:0009881	en	ja	rdfs:label	macrostomia	OFFICIAL	巨口症
+MP:0009880	en	ja	rdfs:label	decreased mouth size	OFFICIAL	小口症
+MP:0009881	en	ja	rdfs:label	increased mouth size	OFFICIAL	巨口症
 MP:0009882	en	ja	rdfs:label	absent palatal shelf	OFFICIAL	口蓋棚の欠如
 MP:0009883	en	ja	rdfs:label	palatal shelf hypoplasia	OFFICIAL	口蓋棚の形成不全
 MP:0009884	en	ja	rdfs:label	palatal shelf fusion with tongue or mandible	OFFICIAL	口蓋棚と舌または下顎骨との癒合
@@ -7910,7 +7910,7 @@ MP:0010477	en	ja	rdfs:label	coronary artery aneurysm	OFFICIAL	冠状動脈瘤
 MP:0010478	en	ja	rdfs:label	intracranial aneurysm	OFFICIAL	頭蓋内動脈瘤
 MP:0010479	en	ja	rdfs:label	brain aneurysm	OFFICIAL	脳動脈瘤
 MP:0010480	en	ja	rdfs:label	pulmonary arteriovenous malformation	OFFICIAL	肺動静脈奇形
-MP:0010481	en	ja	rdfs:label	left ventricle to aorta tunnel	OFFICIAL	左室から大動脈へのトンネル
+MP:0010481	en	ja	rdfs:label	heart left ventricle to aorta tunnel	OFFICIAL	左室から大動脈へのトンネル
 MP:0010482	en	ja	rdfs:label	abnormal aortic sinus morphology	OFFICIAL	大動脈洞形態異常
 MP:0010483	en	ja	rdfs:label	aortic sinus aneurysm	OFFICIAL	大動脈洞動脈瘤
 MP:0010484	en	ja	rdfs:label	bicuspid aortic valve	OFFICIAL	大動脈二尖弁
@@ -9108,7 +9108,7 @@ MP:0011680	en	ja	rdfs:label	tricuspid valve hypoplasia	OFFICIAL	三尖弁形成�
 MP:0011681	en	ja	rdfs:label	atrium cyst	OFFICIAL	心房嚢
 MP:0011682	en	ja	rdfs:label	renal glomerulus cyst	OFFICIAL	腎糸球体嚢
 MP:0011683	en	ja	rdfs:label	dual inferior vena cava	OFFICIAL	下大静脈重複
-MP:0011684	en	ja	rdfs:label	coronary-cameral fistula to right ventricle	OFFICIAL	右室への冠状動脈心腔瘻
+MP:0011684	en	ja	rdfs:label	coronary-cameral fistula to heart right ventricle	OFFICIAL	右室への冠状動脈心腔瘻
 MP:0011685	en	ja	rdfs:label	abnormal limb paddle morphology	OFFICIAL	四肢パドル形態異常
 MP:0011686	en	ja	rdfs:label	increased epidermal stem cell number	OFFICIAL	表皮幹細胞数の増加
 MP:0011687	en	ja	rdfs:label	decreased epidermal stem cell number	OFFICIAL	表皮幹細胞数の減少
@@ -9197,7 +9197,7 @@ MP:0011769	en	ja	rdfs:label	urinary bladder fibrosis	OFFICIAL	膀胱線維症
 MP:0011770	en	ja	rdfs:label	increased urine selenium level	OFFICIAL	尿中セレン濃度上昇
 MP:0011771	en	ja	rdfs:label	abnormal genital tubercle morphology	OFFICIAL	生殖結節形態異常
 MP:0011772	en	ja	rdfs:label	genital tubercle hypoplasia	OFFICIAL	生殖結節形成不全
-MP:0011773	en	ja	rdfs:label	abnormal urinary bladder blood vessel morphology	OFFICIAL	膀胱血管形態異常
+MP:0011773	en	ja	rdfs:label	abnormal urinary bladder vasculature morphology	OFFICIAL	膀胱血管形態異常
 MP:0011774	en	ja	rdfs:label	abnormal urinary bladder detrusor smooth muscle morphology	OFFICIAL	膀胱排尿筋形態異常
 MP:0011775	en	ja	rdfs:label	rectal atresia	OFFICIAL	直腸閉鎖
 MP:0011776	en	ja	rdfs:label	abnormal male urethra morphology	OFFICIAL	雄の尿道の形態異常
@@ -10395,12 +10395,12 @@ MP:0013149	en	ja	rdfs:label	macrodactyly	OFFICIAL	巨指症
 MP:0013150	en	ja	rdfs:label	head/neck piloerection	OFFICIAL	頭部/頚部立毛
 MP:0013151	en	ja	rdfs:label	abnormal incidence of induced tumors	OFFICIAL	人工癌の発生率異常
 MP:0013152	en	ja	rdfs:label	abnormal organ/body region tumor incidence	OFFICIAL	臓器/身体領域腫瘍の発生率異常
-MP:0013153	en	ja	rdfs:label	abnormal KLRG1+ CD8 alpha beta T cell number	OFFICIAL	KLRG1陽性CD8アルファ-ベータ型T細胞数の異常
-MP:0013154	en	ja	rdfs:label	increased KLRG1+ CD8 alpha beta T cell number	OFFICIAL	KLRG1陽性CD8アルファ-ベータ型T細胞数の増加
-MP:0013155	en	ja	rdfs:label	decreased KLRG1+ CD8 alpha beta T cell number	OFFICIAL	KLRG1陽性CD8アルファ-ベータ型T細胞数の減少
-MP:0013156	en	ja	rdfs:label	abnormal KLRG1+ CD4 alpha beta T cell number	OFFICIAL	KLRG1陽性CD4アルファ-ベータ型T細胞数の異常
-MP:0013157	en	ja	rdfs:label	increased KLRG1+ CD4 alpha beta T cell number	OFFICIAL	KLRG1陽性CD4アルファ-ベータ型T細胞数の増加
-MP:0013158	en	ja	rdfs:label	decreased KLRG1+ CD4 alpha beta T cell number	OFFICIAL	KLRG1陽性CD4アルファ-ベータ型T細胞数の減少
+MP:0013153	en	ja	rdfs:label	abnormal KLRG1+ CD8 alpha-beta T cell number	OFFICIAL	KLRG1陽性CD8アルファ-ベータ型T細胞数の異常
+MP:0013154	en	ja	rdfs:label	increased KLRG1+ CD8 alpha-beta T cell number	OFFICIAL	KLRG1陽性CD8アルファ-ベータ型T細胞数の増加
+MP:0013155	en	ja	rdfs:label	decreased KLRG1+ CD8 alpha-beta T cell number	OFFICIAL	KLRG1陽性CD8アルファ-ベータ型T細胞数の減少
+MP:0013156	en	ja	rdfs:label	abnormal KLRG1+ CD4 alpha-beta T cell number	OFFICIAL	KLRG1陽性CD4アルファ-ベータ型T細胞数の異常
+MP:0013157	en	ja	rdfs:label	increased KLRG1+ CD4 alpha-beta T cell number	OFFICIAL	KLRG1陽性CD4アルファ-ベータ型T細胞数の増加
+MP:0013158	en	ja	rdfs:label	decreased KLRG1+ CD4 alpha-beta T cell number	OFFICIAL	KLRG1陽性CD4アルファ-ベータ型T細胞数の減少
 MP:0013159	en	ja	rdfs:label	Purkinje cell axonal dystrophy	OFFICIAL	プルキンエ細胞の軸索ジストロフィー
 MP:0013160	en	ja	rdfs:label	impaired muscle regeneration	OFFICIAL	筋肉の再生障害
 MP:0013161	en	ja	rdfs:label	enhanced muscle regeneration	OFFICIAL	筋肉の再生改善
@@ -11474,6 +11474,84 @@ MP:0014230	en	ja	rdfs:label	dilated crypt of Lieberkuhn	OFFICIAL	リーベルキ
 MP:0014231	en	ja	rdfs:label	intestinal mucus accumulation	OFFICIAL	腸管粘液の貯留
 MP:0014232	en	ja	rdfs:label	dilated pancreatic acinus	OFFICIAL	膵腺房の拡張
 MP:0014233	en	ja	rdfs:label	bile duct epithelium hyperplasia	OFFICIAL	胆管上皮の過形成
+MP:0014234	en	ja	rdfs:label	decreased enterocyte apoptosis	OFFICIAL	腸細胞のアポトーシス減少
+MP:0014235	en	ja	rdfs:label	abnormal tumor-free survival time	OFFICIAL	無腫瘍生存期間の異常
+MP:0014236	en	ja	rdfs:label	increased tumor-free survival time	OFFICIAL	無腫瘍生存期間の延長
+MP:0014237	en	ja	rdfs:label	decreased tumor-free survival time	OFFICIAL	無腫瘍生存期間の短縮
+MP:0014238	en	ja	rdfs:label	abnormal ribosome morphology	OFFICIAL	リボソーム形態異常
+MP:0014239	en	ja	rdfs:label	abnormal intracellular organelle morphology	OFFICIAL	細胞内小器官形態異常
+MP:0014240	en	ja	rdfs:label	abnormal ribosome physiology	OFFICIAL	リボソーム生理異常
+MP:0014241	en	ja	rdfs:label	abnormal intracellular organelle physiology	OFFICIAL	細胞内小器官生理異常
+MP:0014242	en	ja	rdfs:label	abnormal ribosome biogenesis	OFFICIAL	リボソーム生合成異常
+MP:0014243	en	ja	rdfs:label	abnormal ribosome assembly	OFFICIAL	リボソーム組み立て異常
+MP:0014244	en	ja	rdfs:label	abnormal cellular ATP level	OFFICIAL	細胞内ATP値異常
+MP:0014245	en	ja	rdfs:label	increased cellular ATP level	OFFICIAL	細胞内ATP値上昇
+MP:0014246	en	ja	rdfs:label	decreased cellular ATP level	OFFICIAL	細胞内ATP値減少
+MP:0014247	en	ja	rdfs:label	long photoreceptor inner segment	OFFICIAL	長い視細胞内節
+MP:0014248	en	ja	rdfs:label	thin retina nerve fiber layer	OFFICIAL	網膜神経線維層の非薄化
+MP:0014249	en	ja	rdfs:label	thick retina nerve fiber layer	OFFICIAL	網膜神経線維層の肥厚化
+MP:0014250	en	ja	rdfs:label	disorganized retina nerve fiber layer	OFFICIAL	網膜神経線維層の乱れ
+MP:0014251	en	ja	rdfs:label	absent retina nerve fiber layer	OFFICIAL	網膜神経線維層欠如
+MP:0014252	en	ja	rdfs:label	abnormal paired-pulse ratio	OFFICIAL	二連発刺激時の振幅比の異常
+MP:0014253	en	ja	rdfs:label	decreased paired-pulse ratio	OFFICIAL	二連発刺激時の振幅比の減少
+MP:0014254	en	ja	rdfs:label	increased paired-pulse ratio	OFFICIAL	二連発刺激時の振幅比の増加
+MP:0014255	en	ja	rdfs:label	increased paired-pulse inhibition	OFFICIAL	二連発刺激時の抑制反応の増加
+MP:0014256	en	ja	rdfs:label	decreased paired-pulse inhibition	OFFICIAL	二連発刺激時の抑制反応の減少
+MP:0014257	en	ja	rdfs:label	embryonic lethality prior to tooth bud stage, complete penetrance	OFFICIAL	歯芽形成期前の胚致死、完全浸透率
+MP:0014258	en	ja	rdfs:label	embryonic lethality prior to tooth bud stage, incomplete penetrance	OFFICIAL	歯芽形成期前の胚致死、不完全浸透率
+MP:0014259	en	ja	rdfs:label	embryonic lethality prior to organogenesis, complete penetrance	OFFICIAL	器官形成期前の胚致死、完全浸透率
+MP:0014260	en	ja	rdfs:label	embryonic lethality prior to organogenesis, incomplete penetrance	OFFICIAL	器官形成期前の胚致死、不完全浸透率
+MP:0014261	en	ja	rdfs:label	abnormal spleen B cell follicle number	OFFICIAL	脾臓B細胞性濾胞数の異常
+MP:0014262	en	ja	rdfs:label	increased spleen B cell follicle number	OFFICIAL	脾臓B細胞性濾胞数の増加
+MP:0014263	en	ja	rdfs:label	decreased spleen B cell follicle number	OFFICIAL	脾臓B細胞性濾胞数の減少
+MP:0014264	en	ja	rdfs:label	abnormal perivascular vein cell coverage	OFFICIAL	静脈の脈管周囲細胞の被覆範囲異常
+MP:0014265	en	ja	rdfs:label	thick retina inner plexiform layer	OFFICIAL	網膜内網状層の肥厚化
+MP:0014266	en	ja	rdfs:label	thick retina outer plexiform layer	OFFICIAL	網膜外網状層の肥厚化
+MP:0014267	en	ja	rdfs:label	decreased sex gland secretion	OFFICIAL	生殖腺の分泌減少
+MP:0014268	en	ja	rdfs:label	increased sex gland secretion	OFFICIAL	生殖腺の分泌増加
+MP:0014269	en	ja	rdfs:label	decreased testes secretion	OFFICIAL	精巣（ホルモン）分泌の減少
+MP:0014270	en	ja	rdfs:label	decreased ovary secretion	OFFICIAL	卵巣（ホルモン）分泌の減少
+MP:0014271	en	ja	rdfs:label	increased testes secretion	OFFICIAL	精巣（ホルモン）分泌の増加
+MP:0014272	en	ja	rdfs:label	increased ovary secretion	OFFICIAL	卵巣（ホルモン）分泌の増加
+MP:0014273	en	ja	rdfs:label	abnormal skin vasculature morphology	OFFICIAL	皮膚血管の形態異常
+MP:0014274	en	ja	rdfs:label	decreased respiration	OFFICIAL	呼吸減少
+MP:0014275	en	ja	rdfs:label	increased respiration	OFFICIAL	呼吸増加
+MP:0014276	en	ja	rdfs:label	lobar holoprosencephaly	OFFICIAL	分葉型全前脳胞症
+MP:0014277	en	ja	rdfs:label	alobar holoprosencephaly	OFFICIAL	無分葉型全前脳胞症
+MP:0014278	en	ja	rdfs:label	semilobar holoprosencephaly	OFFICIAL	半分葉型全前脳胞症
+MP:0014279	en	ja	rdfs:label	abnormal intestinal rotation	OFFICIAL	腸回転異常
+MP:0014280	en	ja	rdfs:label	forelimb oligodactyly	OFFICIAL	前肢乏指症
+MP:0014281	en	ja	rdfs:label	hindlimb oligodactyly	OFFICIAL	後肢乏指症
+MP:0014282	en	ja	rdfs:label	forelimb syndactyly	OFFICIAL	前肢合指症
+MP:0014283	en	ja	rdfs:label	hindlimb syndactyly	OFFICIAL	後肢合指症
+MP:0014284	en	ja	rdfs:label	abnormal adrenal gland zona fasciculata size	OFFICIAL	副腎皮質束状帯サイズ異常
+MP:0014285	en	ja	rdfs:label	disorganized adrenal gland zona fasciculata	OFFICIAL	副腎皮質束状帯の乱れ
+MP:0014286	en	ja	rdfs:label	increased adrenal gland zona fasciculata size	OFFICIAL	副腎皮質束状帯サイズの増加
+MP:0014287	en	ja	rdfs:label	decreased adrenal gland zona fasciculata size	OFFICIAL	副腎皮質束状帯サイズの減少
+MP:0014288	en	ja	rdfs:label	rhizomelic limb	OFFICIAL	近位肢節
+MP:0014289	en	ja	rdfs:label	decreased distal limb length	OFFICIAL	遠位肢長の短縮
+MP:0014290	en	ja	rdfs:label	abnormal autopod size	OFFICIAL	自由四肢の末端部（自脚）のサイズ異常
+MP:0014291	en	ja	rdfs:label	decreased autopod size	OFFICIAL	自由四肢の末端部（自脚）サイズの小型化
+MP:0014292	en	ja	rdfs:label	decreased internal diameter of tibia	OFFICIAL	脛骨内径の減少
+MP:0014293	en	ja	rdfs:label	increased internal diameter of tibia	OFFICIAL	脛骨内径の増大
+MP:0014294	en	ja	rdfs:label	abnormal skeletal maturation	OFFICIAL	骨格の成熟異常
+MP:0014295	en	ja	rdfs:label	premature skeletal maturation	OFFICIAL	骨格の早期成熟
+MP:0014296	en	ja	rdfs:label	delayed skeletal maturation	OFFICIAL	骨格の成熟遅延
+MP:0014297	en	ja	rdfs:label	abnormal cochlea size	OFFICIAL	蝸牛サイズ異常
+MP:0014298	en	ja	rdfs:label	abnormal cochlear width	OFFICIAL	蝸牛幅の異常
+MP:0014299	en	ja	rdfs:label	increased cochlea size	OFFICIAL	蝸牛サイズの拡大
+MP:0014300	en	ja	rdfs:label	decreased cochlea size	OFFICIAL	蝸牛サイズの縮小
+MP:0014301	en	ja	rdfs:label	decreased cochlea width	OFFICIAL	蝸牛幅の縮小
+MP:0014302	en	ja	rdfs:label	increased cochlea width	OFFICIAL	蝸牛幅の拡大
+MP:0014303	en	ja	rdfs:label	abnormal cochlea length	OFFICIAL	蝸牛長さの異常
+MP:0014304	en	ja	rdfs:label	increased cochlea length	OFFICIAL	蝸牛長さの増加
+MP:0014305	en	ja	rdfs:label	decreased cochlea length	OFFICIAL	蝸牛長さの減少
+MP:0014306	en	ja	rdfs:label	increased cochlea coiling	OFFICIAL	蝸牛渦巻き数の増加
+MP:0014307	en	ja	rdfs:label	decreased femor compact bone volume	OFFICIAL	大腿骨緻密骨量の減少
+MP:0014308	en	ja	rdfs:label	decreased tibia compact bone volume	OFFICIAL	脛骨緻密骨骨量の減少
+MP:0014309	en	ja	rdfs:label	increased femor compact bone volume	OFFICIAL	大腿骨緻密骨量の増加
+MP:0014310	en	ja	rdfs:label	increased tibia compact bone volume	OFFICIAL	脛骨緻密骨骨量の増加
+MP:0014311	en	ja	rdfs:label	increased primordial germ cell proliferation	OFFICIAL	始原生殖細胞の増殖増加
 MP:0020000	en	ja	rdfs:label	abnormal response to antigen	OFFICIAL	抗原反応の異常
 MP:0020001	en	ja	rdfs:label	decreased response to antigen	OFFICIAL	抗原反応の低下
 MP:0020002	en	ja	rdfs:label	increased response to antigen	OFFICIAL	抗原反応の上昇
@@ -11487,8 +11565,8 @@ MP:0020009	en	ja	rdfs:label	abnormal bone mineral density of femur	OFFICIAL	大�
 MP:0020010	en	ja	rdfs:label	decreased bone mineral density of femur	OFFICIAL	大腿骨骨密度低下
 MP:0020011	en	ja	rdfs:label	increased bone mineral density of femur	OFFICIAL	大腿骨の骨密度上昇
 MP:0020012	en	ja	rdfs:label	abnormal arylsulphatase activity	OFFICIAL	アリルスルファターゼ活性異常
-MP:0020013	en	ja	rdfs:label	decreased arylsulphatase activity	OFFICIAL	アリルスルファターゼの活性低下
-MP:0020014	en	ja	rdfs:label	increased arylsulphatase activity	OFFICIAL	アリルスルファターゼの活性上昇
+MP:0020013	en	ja	rdfs:label	decreased arylsulphatase activity	OFFICIAL	アリルスルファターゼ活性低下
+MP:0020014	en	ja	rdfs:label	increased arylsulphatase activity	OFFICIAL	アリルスルファターゼ活性上昇
 MP:0020015	en	ja	rdfs:label	abnormal aldehyde dehydrogenase activity	OFFICIAL	アルデヒド脱水素酵素活性異常
 MP:0020016	en	ja	rdfs:label	decreased aldehyde dehydrogenase activity	OFFICIAL	アルデヒド脱水素酵素の活性低下
 MP:0020017	en	ja	rdfs:label	increased aldehyde dehydrogenase activity	OFFICIAL	アルデヒド脱水素酵素の活性上昇
@@ -11504,7 +11582,7 @@ MP:0020026	en	ja	rdfs:label	abnormal aldehyde oxidase activity	OFFICIAL	アル�
 MP:0020027	en	ja	rdfs:label	decreased aldehyde oxidase activity	OFFICIAL	アルデヒドオキシダーゼの活性低下
 MP:0020028	en	ja	rdfs:label	increased aldehyde oxidase activity	OFFICIAL	アルデヒドオキシダーゼの活性上昇
 MP:0020029	en	ja	rdfs:label	abnormal cholinesterase activity	OFFICIAL	コリンエステラーゼ活性異常
-MP:0020030	en	ja	rdfs:label	abnormal circulating cholinesterase activity	OFFICIAL	血中コリンエステラーゼの活性異常
+MP:0020030	en	ja	rdfs:label	abnormal circulating cholinesterase activity	OFFICIAL	コリンエステラーゼ血中活性異常
 MP:0020031	en	ja	rdfs:label	decreased circulating cholinesterase activity	OFFICIAL	コリンエステラーゼ血中活性低下
 MP:0020032	en	ja	rdfs:label	increased circulating cholinesterase activity	OFFICIAL	コリンエステラーゼ血中活性上昇
 MP:0020033	en	ja	rdfs:label	increased cholinesterase activity	OFFICIAL	コリンエステラーゼ活性上昇
@@ -11622,7 +11700,7 @@ MP:0020144	en	ja	rdfs:label	small adrenal gland x-zone	OFFICIAL	副腎X帯の矮
 MP:0020145	en	ja	rdfs:label	enlarged adrenal gland x-zone	OFFICIAL	副腎X帯の肥大化
 MP:0020146	en	ja	rdfs:label	abnormal vascular endothelial cell proliferation	OFFICIAL	血管内皮細胞の増殖異常
 MP:0020147	en	ja	rdfs:label	abnormal defecation amount	OFFICIAL	排便量の異常
-MP:0020148	en	ja	rdfs:label	abnormal sensitivity to induced morbidity/mortality	OFFICIAL	誘導性罹患/死亡への感受性異常
+MP:0020148	en	ja	rdfs:label	abnormal susceptibility to induced morbidity/mortality	OFFICIAL	誘導性罹患/死亡への感受性異常
 MP:0020149	en	ja	rdfs:label	abnormal mortality induced by ionizing radiation	OFFICIAL	電離放射線による死亡率の異常
 MP:0020150	en	ja	rdfs:label	abnormal timing of vaginal opening	OFFICIAL	腟開口のタイミング異常
 MP:0020151	en	ja	rdfs:label	abnormal circulating non-HDL cholesterol level	OFFICIAL	非HDLコレステロール血中濃度異常
@@ -11716,7 +11794,7 @@ MP:0020238	en	ja	rdfs:label	decreased proline level	OFFICIAL	プロリン値低�
 MP:0020239	en	ja	rdfs:label	abnormal skeletal muscle cell apoptosis	OFFICIAL	骨格筋細胞のアポトーシス異常
 MP:0020240	en	ja	rdfs:label	increased skeletal muscle cell apoptosis	OFFICIAL	骨格筋細胞のアポトーシス増加
 MP:0020241	en	ja	rdfs:label	decreased skeletal muscle cell apoptosis	OFFICIAL	骨格筋細胞のアポトーシス減少
-MP:0020242	en	ja	rdfs:label	enlarged paws	OFFICIAL	脚の巨大化
+MP:0020242	en	ja	rdfs:label	increased autopod size	OFFICIAL	自由四肢の末端部（自脚）サイズの巨大化
 MP:0020243	en	ja	rdfs:label	abnormal pyruvate kinase activity	OFFICIAL	ピルビン酸キナーゼの活性異常
 MP:0020244	en	ja	rdfs:label	increased pyruvate kinase activity	OFFICIAL	ピルビン酸キナーゼの活性上昇
 MP:0020245	en	ja	rdfs:label	decreased pyruvate kinase activity	OFFICIAL	ピルビン酸キナーゼの活性低下
@@ -11729,7 +11807,7 @@ MP:0020251	en	ja	rdfs:label	decreased argininosuccinate synthetase level	OFFICIA
 MP:0020252	en	ja	rdfs:label	abnormal collagen level	OFFICIAL	コラーゲン値異常
 MP:0020253	en	ja	rdfs:label	increased collagen level	OFFICIAL	コラーゲン値上昇
 MP:0020254	en	ja	rdfs:label	decreased collagen level	OFFICIAL	コラーゲン値低下
-MP:0020255	en	ja	rdfs:label	absent circulating factor XII protein	OFFICIAL	血中第XII因子血中タンパク質の欠如
+MP:0020255	en	ja	rdfs:label	absent circulating factor XII protein	OFFICIAL	第XII因子血中タンパク質の欠如
 MP:0020256	en	ja	rdfs:label	abnormal circulating factor XII level	OFFICIAL	第XII因子血中濃度異常
 MP:0020257	en	ja	rdfs:label	increased circulating factor XII level	OFFICIAL	第XII因子血中濃度上昇
 MP:0020258	en	ja	rdfs:label	decreased circulating factor XII level	OFFICIAL	第XII因子血中濃度低下
@@ -11838,7 +11916,7 @@ MP:0020360	en	ja	rdfs:label	abnormal asymmetric synapse morphology	OFFICIAL	非�
 MP:0020361	en	ja	rdfs:label	abnormal symmetric synapse morphology	OFFICIAL	対称性シナプスの形態異常
 MP:0020362	en	ja	rdfs:label	abnormal male germ cell physiology	OFFICIAL	雄の生殖細胞の生理異常
 MP:0020363	en	ja	rdfs:label	abnormal germ cell physiology	OFFICIAL	生殖細胞の生理異常
-MP:0020364	en	ja	rdfs:label	abnormal female germ cell physiology	OFFICIAL	雌の生殖細胞の生理異常
+MP:0020364	en	ja	rdfs:label	abnormal female germ cell physiology	OFFICIAL	雌生殖細胞の生理異常
 MP:0020365	en	ja	rdfs:label	increased brain iron level	OFFICIAL	脳内鉄値上昇
 MP:0020366	en	ja	rdfs:label	decreased brain iron level	OFFICIAL	脳内鉄値減少
 MP:0020367	en	ja	rdfs:label	increased heart iron level	OFFICIAL	心臓内鉄値増加
@@ -11908,9 +11986,9 @@ MP:0020430	en	ja	rdfs:label	increased platelet alpha-granule number	OFFICIAL	血
 MP:0020431	en	ja	rdfs:label	decreased platelet alpha-granule number	OFFICIAL	血小板α顆粒数の減少
 MP:0020432	en	ja	rdfs:label	decreased platelet dense granule number	OFFICIAL	血小板濃染顆粒数の減少
 MP:0020433	en	ja	rdfs:label	increased platelet dense granule number	OFFICIAL	血小板密顆粒数の増加
-MP:0020434	en	ja	rdfs:label	increased astrocyte size	OFFICIAL	アストロサイトのサイズの増加
-MP:0020435	en	ja	rdfs:label	decreased astrocyte size	OFFICIAL	アストロサイトのサイズの減少
-MP:0020436	en	ja	rdfs:label	abnormal astrocyte size	OFFICIAL	アストロサイトのサイズ異常
+MP:0020434	en	ja	rdfs:label	increased astrocyte size	OFFICIAL	アストロサイトサイズの増加
+MP:0020435	en	ja	rdfs:label	decreased astrocyte size	OFFICIAL	アストロサイトサイズの減少
+MP:0020436	en	ja	rdfs:label	abnormal astrocyte size	OFFICIAL	アストロサイトサイズ異常
 MP:0020437	en	ja	rdfs:label	abnormal social play behavior	OFFICIAL	社会的遊びの異常
 MP:0020438	en	ja	rdfs:label	decreased papilloma incidence	OFFICIAL	乳頭腫発生率の減少
 MP:0020439	en	ja	rdfs:label	absent b-wave	OFFICIAL	b波の消失
@@ -12198,7 +12276,7 @@ MP:0020720	en	ja	rdfs:label	increased pontine nuclei cell density	OFFICIAL	橋�
 MP:0020721	en	ja	rdfs:label	abnormal pontine nuclei average cell area	OFFICIAL	橋核平均細胞量異常
 MP:0020722	en	ja	rdfs:label	decreased pontine nuclei average cell area	OFFICIAL	橋核平均細胞量減少
 MP:0020723	en	ja	rdfs:label	increased pontine nuclei average cell area	OFFICIAL	橋核平均細胞量増加
-MP:0020724	en	ja	rdfs:label	increased retina inner nuclear layer thickness	OFFICIAL	網膜内顆粒層の厚さ増加
+MP:0020724	en	ja	rdfs:label	thick retina inner nuclear layer	OFFICIAL	網膜内顆粒層の肥厚化
 MP:0020725	en	ja	rdfs:label	abnormal substantia nigra cell number	OFFICIAL	黒質細胞数異常
 MP:0020726	en	ja	rdfs:label	decreased substantia nigra cell number	OFFICIAL	黒質細胞数減少
 MP:0020727	en	ja	rdfs:label	increased substantia nigra cell number	OFFICIAL	黒質細胞数増加
@@ -12681,7 +12759,7 @@ MP:0021203	en	ja	rdfs:label	abnormal palatine aponeurosis morphology	OFFICIAL	�
 MP:0021204	en	ja	rdfs:label	abnormal superior pharyngeal constrictor muscle morphology	OFFICIAL	上咽頭収縮筋の形態異常
 MP:0021205	en	ja	rdfs:label	effusion	OFFICIAL	浸出液
 MP:0021206	en	ja	rdfs:label	abnormal limb muscle morphology	OFFICIAL	四肢筋の形態異常
-MP:0021207	en	ja	rdfs:label	abnormal autopod muscle morphology	OFFICIAL	四肢末端の形態異常
+MP:0021207	en	ja	rdfs:label	abnormal autopod muscle morphology	OFFICIAL	自由四肢の末端部（自脚）筋肉の形態異常
 MP:0021208	en	ja	rdfs:label	median cleft palate	OFFICIAL	正中口蓋裂
 MP:0021209	en	ja	rdfs:label	non-midline cleft palate	OFFICIAL	非正中口蓋裂
 MP:0021210	en	ja	rdfs:label	bilateral cleft palate	OFFICIAL	両側口蓋裂
@@ -13100,7 +13178,7 @@ MP:0030407	en	ja	rdfs:label	abnormal stapes crus morpholgy	OFFICIAL	アブミ骨
 MP:0030408	en	ja	rdfs:label	abnormal stapes posterior crus morphology	OFFICIAL	アブミ骨後脚の形態異常
 MP:0030409	en	ja	rdfs:label	abnormal stapes anterior crus morphology	OFFICIAL	アブミ骨前脚の形態異常
 MP:0030410	en	ja	rdfs:label	middle ear effusion	OFFICIAL	滲出性中耳炎
-MP:0030411	en	ja	rdfs:label	small round window	OFFICIAL	正円窓（蝸牛窓）の矮小化
+MP:0030411	en	ja	rdfs:label	decreased round window size	OFFICIAL	正円窓（蝸牛窓）の縮小
 MP:0030412	en	ja	rdfs:label	absent round window	OFFICIAL	正円窓（蝸牛窓）の欠如
 MP:0030413	en	ja	rdfs:label	tympanic membrane retraction	OFFICIAL	鼓膜の退縮
 MP:0030414	en	ja	rdfs:label	tympanic membrane perforation	OFFICIAL	鼓膜の穿孔
@@ -13154,7 +13232,7 @@ MP:0030461	en	ja	rdfs:label	abnormal sphenosquamosal suture morphology	OFFICIAL	
 MP:0030462	en	ja	rdfs:label	tooth abscess	OFFICIAL	歯膿瘍
 MP:0030463	en	ja	rdfs:label	apical tooth abscess	OFFICIAL	根尖膿瘍
 MP:0030464	en	ja	rdfs:label	abnormal cranial cartilage morphology	OFFICIAL	頭軟骨の形態異常
-MP:0030465	en	ja	rdfs:label	absent oval window	OFFICIAL	卵円窓の欠如
+MP:0030465	en	ja	rdfs:label	absent oval window	OFFICIAL	卵円窓（前庭窓）の欠如
 MP:0030466	en	ja	rdfs:label	alveolar process atrophy	OFFICIAL	歯槽突起の萎縮
 MP:0030467	en	ja	rdfs:label	abnormal cranial cartilage development	OFFICIAL	頭軟骨の発生異常
 MP:0030468	en	ja	rdfs:label	abnormal carotid canal morphology	OFFICIAL	頸動脈管の形態異常
@@ -13616,14 +13694,14 @@ MP:0030923	en	ja	rdfs:label	abnormal hair follicle ostium morphology	OFFICIAL	�
 MP:0030924	en	ja	rdfs:label	early exit from telogen phase	OFFICIAL	休止期の早期終了
 MP:0030925	en	ja	rdfs:label	early exit from anagen phase	OFFICIAL	毛周期成長期からの早期退出
 MP:0030926	en	ja	rdfs:label	increased skin pigmentation	OFFICIAL	皮膚色素沈着増加
-MP:0030927	en	ja	rdfs:label	decreased telomere length	OFFICIAL	テロメア長伸長
-MP:0030928	en	ja	rdfs:label	increased telomere length	OFFICIAL	テロメア長短縮
+MP:0030927	en	ja	rdfs:label	decreased telomere length	OFFICIAL	テロメア長短縮
+MP:0030928	en	ja	rdfs:label	increased telomere length	OFFICIAL	テロメア長伸長
 MP:0030929	en	ja	rdfs:label	increased digit pigmentation	OFFICIAL	指色素沈着の増加
 MP:0030930	en	ja	rdfs:label	decreased digit pigmentation	OFFICIAL	指色素沈着の減少
 MP:0030931	en	ja	rdfs:label	increased nipple pigmentation	OFFICIAL	乳頭色素沈着
 MP:0030932	en	ja	rdfs:label	hypopyon	OFFICIAL	前房蓄膿
 MP:0030933	en	ja	rdfs:label	hyphema	OFFICIAL	前房出血
-MP:0030934	en	ja	rdfs:label	decreased primordial germ cell proliferation	OFFICIAL	始原生殖細胞増殖減少
+MP:0030934	en	ja	rdfs:label	decreased primordial germ cell proliferation	OFFICIAL	始原生殖細胞の増殖減少
 MP:0030935	en	ja	rdfs:label	increased primordial germ cell apoptosis	OFFICIAL	始原生殖細胞アポトーシス増加
 MP:0030937	en	ja	rdfs:label	increased mitochondrial DNA content	OFFICIAL	ミトコンドリアDNA量増加
 MP:0030938	en	ja	rdfs:label	abnormal reticulophagy	OFFICIAL	小胞体分解異常
@@ -13946,7 +14024,7 @@ MP:0031254	en	ja	rdfs:label	decreased vitamin C level	OFFICIAL	ビタミンC値�
 MP:0031255	en	ja	rdfs:label	increased vitamin C level	OFFICIAL	ビタミンC値上昇
 MP:0031256	en	ja	rdfs:label	abnormal circulating vitamin C level	OFFICIAL	ビタミンC血中濃度異常
 MP:0031257	en	ja	rdfs:label	decreased circulating vitamin C level	OFFICIAL	ビタミンC血中濃度低下
-MP:0031258	en	ja	rdfs:label	increased circulating vitamin C level	OFFICIAL	I型コラーゲンC末端テロペプチド血中濃度上昇
+MP:0031258	en	ja	rdfs:label	increased circulating vitamin C level	OFFICIAL	ビタミンC血中濃度上昇
 MP:0031259	en	ja	rdfs:label	abnormal liver vitamin C level	OFFICIAL	肝臓内ビタミンC値異常
 MP:0031260	en	ja	rdfs:label	decreased liver vitamin C level	OFFICIAL	肝臓内ビタミンC値低下
 MP:0031261	en	ja	rdfs:label	increased liver vitamin C level	OFFICIAL	肝臓内ビタミンC値上昇
@@ -14062,8 +14140,8 @@ MP:0031374	en	ja	rdfs:label	abnormal manchette assembly	OFFICIAL	精子の尾索
 MP:0031375	en	ja	rdfs:label	abnormal manchette disassembly	OFFICIAL	精子の尾索の分解異常
 MP:0031376	en	ja	rdfs:label	abnormal acrosomal vesicle exocytosis	OFFICIAL	先体小胞エキソサイトーシス異常
 MP:0031377	en	ja	rdfs:label	ambiguous external genitalia	OFFICIAL	曖昧な外性器
-MP:0031378	en	ja	rdfs:label	ambiguous male external genitalia	OFFICIAL	曖昧な男性外性器
-MP:0031379	en	ja	rdfs:label	ambiguous female external genitalia	OFFICIAL	曖昧な女性外性器
+MP:0031378	en	ja	rdfs:label	ambiguous external male genitalia	OFFICIAL	曖昧な男性外性器
+MP:0031379	en	ja	rdfs:label	ambiguous external female genitalia	OFFICIAL	曖昧な女性外性器
 MP:0031380	en	ja	rdfs:label	abnormal secondary ovarian follicle number	OFFICIAL	二次卵胞数異常
 MP:0031381	en	ja	rdfs:label	decreased secondary ovarian follicle number	OFFICIAL	二次卵胞数の減少
 MP:0031382	en	ja	rdfs:label	absent secondary ovarian follicles	OFFICIAL	二次卵胞の欠如
@@ -14148,6 +14226,46 @@ MP:0031461	en	ja	rdfs:label	abnormal palatal shelf size	OFFICIAL	口蓋棚サイ
 MP:0031462	en	ja	rdfs:label	decreased palatal shelf size	OFFICIAL	口蓋棚サイズ減少
 MP:0031463	en	ja	rdfs:label	increased palatal shelf size	OFFICIAL	口蓋棚サイズ増加
 MP:0031464	en	ja	rdfs:label	abnormal spontaneous fetal mouth movement	OFFICIAL	自発的な胎仔の口の動きの異常
+MP:0031466	en	ja	rdfs:label	abnormal palatal taste bud morphology	OFFICIAL	口蓋味蕾の形態異常
+MP:0031467	en	ja	rdfs:label	absent palatal taste bud	OFFICIAL	口蓋味蕾の欠如
+MP:0031468	en	ja	rdfs:label	abnormal taste bud morphology	OFFICIAL	味蕾形態異常
+MP:0031469	en	ja	rdfs:label	abnormal pinocytosis	OFFICIAL	ピノサイトーシスの異常
+MP:0031470	en	ja	rdfs:label	abnormal macropinocytosis	OFFICIAL	マクロピノサイトーシスの異常
+MP:0031471	en	ja	rdfs:label	abnormal micropinocytosis	OFFICIAL	マイクロピノサイトーシスの異常
+MP:0031472	en	ja	rdfs:label	abnormal female germ cell apoptosis	OFFICIAL	雌生殖細胞のアポトーシス異常
+MP:0031473	en	ja	rdfs:label	decreased female germ cell apoptosis	OFFICIAL	雌生殖細胞のアポトーシス減少
+MP:0031474	en	ja	rdfs:label	increased female germ cell apoptosis	OFFICIAL	雌生殖細胞のアポトーシス増加
+MP:0031475	en	ja	rdfs:label	decreased male germ cell apoptosis	OFFICIAL	雄生殖細胞のアポトーシス減少
+MP:0031476	en	ja	rdfs:label	decreased ovary apoptosis	OFFICIAL	卵巣のアポトーシス減少
+MP:0031477	en	ja	rdfs:label	vein stenosis	OFFICIAL	静脈狭窄
+MP:0031478	en	ja	rdfs:label	Brunner窶冱 gland hyperplasia	OFFICIAL	ブルンナー線過形成
+MP:0031479	en	ja	rdfs:label	increased urine xanthine level	OFFICIAL	尿中キサンチン濃度上昇
+MP:0031480	en	ja	rdfs:label	abnormal urine xanthine level	OFFICIAL	尿中キサンチン濃度異常
+MP:0031481	en	ja	rdfs:label	decreased urine xanthine level	OFFICIAL	尿中キサンチン濃度低下
+MP:0031482	en	ja	rdfs:label	abnormal urine hypoxanthine level	OFFICIAL	尿中ヒポキサンチン値異常
+MP:0031483	en	ja	rdfs:label	decreased urine hypoxanthine level	OFFICIAL	尿中ヒポキサンチン濃度の低下
+MP:0031484	en	ja	rdfs:label	increased urine hypoxanthine level	OFFICIAL	尿中ヒポキサンチン濃度の上昇
+MP:0031485	en	ja	rdfs:label	abnormal circulating hypoxanthine level	OFFICIAL	ヒポキサンチン血中濃度以上
+MP:0031486	en	ja	rdfs:label	decreased circulating hypoxanthine level	OFFICIAL	ヒポキサンチン血中濃度低下
+MP:0031487	en	ja	rdfs:label	increased circulating hypoxanthine level	OFFICIAL	ヒポキサンチン血中濃度上昇
+MP:0031488	en	ja	rdfs:label	abnormal circulating xanthine level	OFFICIAL	キサンチン血中濃度異常
+MP:0031489	en	ja	rdfs:label	decreased circulating xanthine level	OFFICIAL	キサンチン血中濃度低下
+MP:0031490	en	ja	rdfs:label	increased circulating xanthine level	OFFICIAL	キサンチン血中濃度上昇
+MP:0031491	en	ja	rdfs:label	decreased oval window size	OFFICIAL	卵円窓（前庭窓）のサイズ縮小
+MP:0031492	en	ja	rdfs:label	increased oval window size	OFFICIAL	卵円窓（前庭窓）のサイズ拡大
+MP:0031493	en	ja	rdfs:label	increased round window size	OFFICIAL	正円窓（蝸牛窓）の拡大
+MP:0031494	en	ja	rdfs:label	abnormal prenatal movement	OFFICIAL	胎動異常
+MP:0031495	en	ja	rdfs:label	absent prenatal movement	OFFICIAL	胎動の欠如
+MP:0031496	en	ja	rdfs:label	motor developmental delay	OFFICIAL	運動発達遅延
+MP:0031497	en	ja	rdfs:label	increased visual acuity	OFFICIAL	視力向上
+MP:0031498	en	ja	rdfs:label	abnormal cornea size	OFFICIAL	角膜サイズ異常
+MP:0031499	en	ja	rdfs:label	decreased cornea size	OFFICIAL	角膜サイズ縮小
+MP:0031500	en	ja	rdfs:label	increased cornea size	OFFICIAL	角膜サイズ拡大
+MP:0031501	en	ja	rdfs:label	abnormal mouth shape	OFFICIAL	口の形の異常
+MP:0031502	en	ja	rdfs:label	open mouth	OFFICIAL	開口
+MP:0031503	en	ja	rdfs:label	abnormal mouth size	OFFICIAL	口のサイズ異常
+MP:0031504	en	ja	rdfs:label	increased mouth width	OFFICIAL	口幅拡大
+MP:0031505	en	ja	rdfs:label	decreased mouth width	OFFICIAL	口幅縮小
 MP:3000001	en	ja	rdfs:label	abnormal gastrula morphology	OFFICIAL	原腸胚の形態異常
 MP:3000002	en	ja	rdfs:label	obsolete abnormal skull morphology	OFFICIAL	OBSOLETE
 MP:3000003	en	ja	rdfs:label	abnormal Ebner's gland morphology	OFFICIAL	エブナー腺の形態異常
