@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/mpath_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2023-11-15/imports/mpath_import.owl>
+<http://purl.obolibrary.org/obo/mp/releases/2023-12-19/imports/mpath_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/mpath/2020-05-19/mpath.owl>)
-Annotation(owl:versionInfo "2023-11-15")
+Annotation(owl:versionInfo "2023-12-19")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/MPATH_0>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MPATH_1>))
@@ -148,7 +148,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MPATH_722>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MPATH_723>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MPATH_74>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MPATH_90>))
-Declaration(Class(<http://purl.obolibrary.org/obo/MPATH_97>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/mpath#part_of>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0100001>))
@@ -1449,14 +1448,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MPATH_90> "MPATH:90")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MPATH_90> "aneurysm")
 SubClassOf(<http://purl.obolibrary.org/obo/MPATH_90> <http://purl.obolibrary.org/obo/MPATH_56>)
-
-# Class: <http://purl.obolibrary.org/obo/MPATH_97> (dissecting aneurysm)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0781727286") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MPATH_97> "Follows the presence of a hematoma in the wall of an artery Splitting of the media occurs, blood enters the split through a tear in the intima.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MPATH_97> "mouse_pathology.ontology")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MPATH_97> "MPATH:97")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MPATH_97> "dissecting aneurysm")
-SubClassOf(<http://purl.obolibrary.org/obo/MPATH_97> <http://purl.obolibrary.org/obo/MPATH_90>)
 
 
 )
