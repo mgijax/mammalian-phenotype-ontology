@@ -10446,7 +10446,6 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0009980> ObjectSomeValuesFr
 # Class: <http://purl.obolibrary.org/obo/MP_0009981> (abnormal cerebellum emboliform nucleus morphology)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0009981> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/UBERON_0002602>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0009981> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000586> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000165>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/MP_0009982> (abnormal cerebellum globose nucleus morphology)
 
