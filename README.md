@@ -16,7 +16,7 @@ The build is now running through GitHub Actions. New releases are put together i
 
 ## Project Page
 
- * https://github.com/obophenotype/mammalian-phenotype-ontology/
+ * https://github.com/mgijax/mammalian-phenotype-ontology/
 
 Teams:
 
@@ -24,7 +24,7 @@ Teams:
 
 ## Issues
 
- * https://github.com/obophenotype/mammalian-phenotype-ontology/issues
+ * https://github.com/mgijax/mammalian-phenotype-ontology/issues
 
 ## Instructions on using SourceTree with Github
  
