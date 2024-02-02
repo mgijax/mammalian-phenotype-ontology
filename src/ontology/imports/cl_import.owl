@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/cl_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2023-12-19/imports/cl_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/cl/releases/2023-12-05/cl-simple.owl>)
-Annotation(owl:versionInfo "2023-12-19")
+<http://purl.obolibrary.org/obo/mp/releases/2024-02-02/imports/cl_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/cl/releases/2024-01-04/cl-simple.owl>)
+Annotation(owl:versionInfo "2024-02-02")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000006>))
@@ -2080,7 +2080,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/CL_0000123> ObjectSomeValuesFrom(<htt
 # Class: <http://purl.obolibrary.org/obo/CL_0000125> (glial cell)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "MESH:D009457") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000125> "A non-neuronal cell of the nervous system. They not only provide physical support, but also respond to injury, regulate the ionic and chemical composition of the extracellular milieu. Guide neuronal migration during development, and exchange metabolites with neurons.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_0000125> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000125> "BTO:0002606")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000125> "CALOHA:TS-0415")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000125> "FBbt:00005144")
@@ -2088,7 +2087,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0000125> "neuroglial cell")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CL_0000125> "neuroglia")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CL_0000125> <http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CL_0000125> <http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/CL_0000125> "Not all glial cells develop from glioblasts, with microglia developing from the mesoderm instead. See https://github.com/obophenotype/cell-ontology/issues/1571")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000125> "glial cell")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0000125> <http://purl.obolibrary.org/obo/CL_0000095>)
@@ -3145,8 +3143,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/CL_0000412> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/CL_0000413> (haploid cell)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FB:ma") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:tfm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000413> "A cell whose nucleus contains a single haploid genome.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_0000413> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CL_0000413> <http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000413> "haploid cell")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0000413> <http://purl.obolibrary.org/obo/CL_0000000>)
 
@@ -5319,10 +5315,12 @@ DisjointClasses(<http://purl.obolibrary.org/obo/CL_0000838> <http://purl.obolibr
 # Class: <http://purl.obolibrary.org/obo/CL_0000839> (myeloid lineage restricted progenitor cell)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:add") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:tfm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:19022770") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000839> "A progenitor cell restricted to the myeloid lineage.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_0000839> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/CL_0000839> "myeloid progenitor cell")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000839> "BTO:0004730")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000839> "CALOHA:TS-2099")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000839> "FMA:70339")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CL_0000839> <http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/CL_0000839> "Note that this is a class of cell types, not an identified single cell type.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000839> "myeloid lineage restricted progenitor cell")
 SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#is_inferred> "true") <http://purl.obolibrary.org/obo/CL_0000839> <http://purl.obolibrary.org/obo/CL_0002031>)
