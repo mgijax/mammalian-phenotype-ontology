@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/chebi_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2023-12-19/imports/chebi_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/chebi/obophenotype/releases/2023-11-17/chebi_slim.owl>)
-Annotation(owl:versionInfo "2023-12-19")
+<http://purl.obolibrary.org/obo/mp/releases/2024-02-02/imports/chebi_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/chebi/obophenotype/releases/2024-01-21/chebi_slim.owl>)
+Annotation(owl:versionInfo "2024-02-02")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_10545>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_11955>))
@@ -7991,14 +7991,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/charge> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/formula> <http://purl.obolibrary.org/obo/CHEBI_18140> "HX")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/mass> <http://purl.obolibrary.org/obo/CHEBI_18140> "1.008")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/monoisotopicmass> <http://purl.obolibrary.org/obo/CHEBI_18140> "1.00783")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/smiles> <http://purl.obolibrary.org/obo/CHEBI_18140> "[F,Cl,Br,I]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/smiles> <http://purl.obolibrary.org/obo/CHEBI_18140> "*[H]")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/CHEBI_18140> "CHEBI:13368")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/CHEBI_18140> "CHEBI:37140")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/CHEBI_18140> "CHEBI:5599")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "IUPAC") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHEBI_18140> "hydrogen halide")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "IUPAC") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/chebi#IUPAC_NAME>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHEBI_18140> "hydrogen halides")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_18140> "chebi_ontology")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "UniProt") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_18140> "HX")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_18140> "hydrogen halides")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_18140> "CHEBI:18140")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_18140> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
@@ -27877,8 +27876,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_83813> "CHEBI:83813")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_83813> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_83813> "proteinogenic amino acid")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_83813> <http://purl.obolibrary.org/obo/CHEBI_33575>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_83813> <http://purl.obolibrary.org/obo/CHEBI_35352>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_83813> <http://purl.obolibrary.org/obo/CHEBI_33709>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_83820> (non-proteinogenic amino acid)
 
@@ -28228,6 +28226,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_88184> ObjectSomeValuesFrom(<ht
 # Class: <http://purl.obolibrary.org/obo/CHEBI_90710> (receptor modulator)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_90710> "A drug that acts as an antagonist, agonist, reverse agonist, or in some other fashion when interacting with cellular receptors.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/CHEBI_90710> "CHEBI:189678")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_90710> "Wikipedia:Receptor_modulator")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_90710> "chebi_ontology")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_90710> "receptor modulators")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_90710> "CHEBI:90710")
