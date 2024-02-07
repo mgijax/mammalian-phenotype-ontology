@@ -1,0 +1,8 @@
+defined_class	defined_class_label	anatomical_entity	anatomical_entity_label	reviewed	comment
+http://purl.obolibrary.org/obo/MP_0009079	prolapsed intervertebral disk	http://purl.obolibrary.org/obo/UBERON_0001066	intervertebral disk	ok	should use protruding
+http://purl.obolibrary.org/obo/MP_0005577	uterus prolapse	http://purl.obolibrary.org/obo/UBERON_0000995	uterus	ok	should use protruding
+http://purl.obolibrary.org/obo/MP_0000500	small intestinal prolapse	http://purl.obolibrary.org/obo/UBERON_0002108	small intestine	ok	should use protruding
+http://purl.obolibrary.org/obo/MP_0006120	mitral valve prolapse	http://purl.obolibrary.org/obo/UBERON_0002135	mitral valve	ok	see HPO textual definition Mitral valve prolapse HP:0001634 (uses exserted in EQ)
+http://purl.obolibrary.org/obo/MP_0006118	aortic valve prolapse	http://purl.obolibrary.org/obo/UBERON_0002137	aortic valve	ok	see HPO textual definition Aortic valve prolapse HP:0025578 (uses exserted in EQ)
+http://purl.obolibrary.org/obo/MP_0006129	pulmonary valve prolapse	http://purl.obolibrary.org/obo/UBERON_0002146	pulmonary valve	ok	no HPO term
+http://purl.obolibrary.org/obo/MP_0006125	tricuspid valve prolapse	http://purl.obolibrary.org/obo/UBERON_0002134	tricuspid valve	ok	
