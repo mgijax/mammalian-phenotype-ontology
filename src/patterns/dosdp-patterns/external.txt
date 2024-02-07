@@ -20,4 +20,8 @@ http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalConstrictionOfAnatomi
 http://purl.obolibrary.org/obo/upheno/patterns-dev/exsertedAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/perforateAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/collapsedAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/obstructedAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyFusedAnatomicalEntities.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyProtrudingAnatomicalEntity.yaml
+
 
