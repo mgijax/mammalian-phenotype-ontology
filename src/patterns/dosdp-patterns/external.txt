@@ -17,4 +17,7 @@ http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfPartOfAna
 http://purl.obolibrary.org/obo/upheno/patterns-dev/necroticAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/fibroticAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalConstrictionOfAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/exsertedAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/perforateAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/collapsedAnatomicalEntity.yaml
 
