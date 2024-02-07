@@ -26,5 +26,9 @@ http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyProtrudingAnatomica
 http://purl.obolibrary.org/obo/upheno/patterns-dev/wrinkledAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/foldedAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalSizeOfAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyOpaqueAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyGlisteningAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedWetnessOfAnatomicalEntity.yaml
+
 
 
