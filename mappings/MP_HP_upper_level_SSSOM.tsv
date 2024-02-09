@@ -1,101 +1,118 @@
-subject_id	predicate_id	object_id	match_type	subject_label	object_label	creator_id
-HP:0001871	rdfs:subClassOf	MP:0005397	HumanCurated	Abnormality of blood and blood-forming tissues	hematopoietic system phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0004377	rdfs:subClassOf	MP:0002006	HumanCurated	Hematological neoplasm	tumorigenesis	https://orcid.org/0000-0003-4606-0597
-HP:0009124	rdfs:subClassOf	MP:0005375	HumanCurated	Abnormality of adipose tissue	adipose tissue phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0100494	rdfs:subClassOf	MP:0005397	HumanCurated	Abnormality of mast cells	hematopoietic system phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0100494	rdfs:subClassOf	MP:0005387	HumanCurated	Abnormality of mast cells	immune system phenotype	https://orcid.org/0000-0003-4606-0597
-HP:3000050	rdfs:subClassOf	MP:0005382	HumanCurated	Abnormality of odontoid tissue	craniofacial phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0100685	rdfs:subClassOf	MP:0005390	HumanCurated	Abnormality of Sharpey fibers	skeleton phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0100536	rdfs:subClassOf	MP:0010771	HumanCurated	Abnormality of the fascia	integument phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0100658	rdfs:subClassOf	MP:0005387	HumanCurated	Cellulitis	immune system phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0100881	rdfs:subClassOf	MP:0002006	HumanCurated	Congenital mesoblastic nephroma	tumorigenesis	https://orcid.org/0000-0003-4606-0597
-HP:0100898	rdfs:subClassOf	MP:0010771	HumanCurated	Connective tissue nevi	integument phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0001371	rdfs:subClassOf	MP:0005390	HumanCurated	Flexion contracture	skeleton phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0100790	rdfs:subClassOf	MP:0005378	HumanCurated	Hernia	growth/size/body region phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0100699	rdfs:subClassOf	MP:0005376	HumanCurated	Scarring	homeostasis/metabolism phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0000234	rdfs:subClassOf	MP:0005382	HumanCurated	Abnormality of the head	craniofacial phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0000464	rdfs:subClassOf	MP:0005378	HumanCurated	Abnormality of the neck	growth/size/body region phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0040064	rdfs:subClassOf	MP:0005371	HumanCurated	Abnormality of limbs	limbs/digits/tail phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0001939	rdfs:subClassOf	MP:0005376	HumanCurated	Abnormality of metabolism/homeostasis	homeostasis/metabolism phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0000816	rdfs:subClassOf	MP:0005384	HumanCurated	Abnormality of Krebs cycle metabolism	cellular phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0040127	rdfs:subClassOf	MP:0010771	HumanCurated	Abnormal sweat homeostasis	integument phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0040127	rdfs:subClassOf	MP:0005379	HumanCurated	Abnormal sweat homeostasis	endocrine/exocrine gland phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0025354	rdfs:subClassOf	MP:0005384	HumanCurated	Abnormal cellular phenotype	cellular phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0003565	rdfs:subClassOf	MP:0005397	HumanCurated	elevated erythrocyte sedimentation rate	hematopoietic system phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0001787	rdfs:subClassOf	MP:0005389	HumanCurated	Abnormal delivery	reproductive system phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0001194	rdfs:subClassOf	MP:0005380	HumanCurated	Abnormalities of placenta or umbilical cord	embryo phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0001560	rdfs:subClassOf	MP:0005380	HumanCurated	Abnormality of the amniotic fluid	embryo phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0011425	rdfs:subClassOf	MP:0005380	HumanCurated	Fetal ultrasound soft marker	embryo phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0001789	rdfs:subClassOf	MP:0005376	HumanCurated	hydrops fetalis	homeostasis/metabolism phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0010880	rdfs:subClassOf	MP:0005380	HumanCurated	Increased nuchal translucency	embryo phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0001622	rdfs:subClassOf	MP:0005389	HumanCurated	premature birth	reproductive system phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0002686	rdfs:subClassOf	MP:0005389	HumanCurated	Prenatal maternal abnormality	reproductive system phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0001557	rdfs:subClassOf	MP:0005386	HumanCurated	Prenatal movement abnormality	behavior/neurological phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0003270	rdfs:subClassOf	MP:0005378	HumanCurated	Abdominal distention	growth/size/body region phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0030142	rdfs:subClassOf	MP:0005381	HumanCurated	Abnormal bowel sounds	digestive/alimentary phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0002039	rdfs:subClassOf	MP:0005386	HumanCurated	Anorexia	behavior/neurological phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0002019	rdfs:subClassOf	MP:0005381	HumanCurated	Constipation	digestive/alimentary phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0002014	rdfs:subClassOf	MP:0005381	HumanCurated	Diarrhea	digestive/alimentary phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0011968	rdfs:subClassOf	MP:0005386	HumanCurated	Feeding difficulties	behavior/neurological phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0002017	rdfs:subClassOf	MP:0005381	HumanCurated	Nausea and vomiting	digestive/alimentary phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0004396	rdfs:subClassOf	MP:0005386	HumanCurated	Poor appetite	behavior/neurological phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0002038	rdfs:subClassOf	MP:0005386	HumanCurated	Protein avoidance	behavior/neurological phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0011620	rdfs:subClassOf	MP:0005378	HumanCurated	Abnormality of abdominal situs	growth/size/body region phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0011024	rdfs:subClassOf	MP:0005381	HumanCurated	Abnormality of the gastrointestinal tract	digestive/alimentary phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0001392	rdfs:subClassOf	MP:0005370	HumanCurated	Abnormality of the liver	liver/biliary system phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0001732	rdfs:subClassOf	MP:0005379	HumanCurated	Abnormality of the pancreas	endocrine/exocrine gland phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0002585	rdfs:subClassOf	MP:0005378	HumanCurated	Abnormality of the peritoneum	growth/size/body region phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0001743	rdfs:subClassOf	MP:0005397	HumanCurated	Abnormality of the spleen	hematopoietic system phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0001743	rdfs:subClassOf	MP:0005387	HumanCurated	Abnormality of the spleen	immune system phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0001541	rdfs:subClassOf	MP:0005376	HumanCurated	Ascites	homeostasis/metabolism phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0005217	rdfs:subClassOf	MP:0005378	HumanCurated	Duplication of internal organs	growth/size/body region phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0003271	rdfs:subClassOf	MP:0005378	HumanCurated	Visceromegaly	growth/size/body region phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0004298	rdfs:subClassOf	MP:0005378	HumanCurated	Abnormality of the abdominal wall	growth/size/body region phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0000775	rdfs:subClassOf	MP:0005369	HumanCurated	Abnormality of the diaphragm	muscle phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0100016	rdfs:subClassOf	MP:0005378	HumanCurated	Abnormality of the mesentery	growth/size/body region phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0000769	rdfs:subClassOf	MP:0010771	HumanCurated	Abnormality of the breast	integument phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0100013	rdfs:subClassOf	MP:0002006	HumanCurated	Neoplasm of the breast	tumorigenesis	https://orcid.org/0000-0003-4606-0597
-HP:0001626	rdfs:subClassOf	MP:0005385	HumanCurated	Abnormality of the cardiovascular system	cardiovascular system phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0000598	rdfs:subClassOf	MP:0005377	HumanCurated	Abnormality of the ear	hearing/vestibular/ear phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0000818	rdfs:subClassOf	MP:0005379	HumanCurated	Abnormality of the endocrine system	endocrine/exocrine gland phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0003117	rdfs:subClassOf	MP:0005376	HumanCurated	Abnormal circulating hormone level	homeostasis/metabolism phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0012029	rdfs:subClassOf	MP:0005376	HumanCurated	Abnormal urine hormone level	homeostasis/metabolism phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0100568	rdfs:subClassOf	MP:0002006	HumanCurated	Neoplasm of the endocrine system	tumorigenesis	https://orcid.org/0000-0003-4606-0597
-HP:0000478	rdfs:subClassOf	MP:0005391	HumanCurated	Abnormality of the eye	vision/eye phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0000078	rdfs:subClassOf	MP:0005389	HumanCurated	Abnormality of the genital system	reproductive system phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0000079	rdfs:subClassOf	MP:0005367	HumanCurated	Abnormality of the urinary system	renal/urinary system phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0012620	rdfs:subClassOf	MP:0005380	HumanCurated	Cloacal abnormality	embryo phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0012620	rdfs:subClassOf	MP:0005367	HumanCurated	Cloacal abnormality	renal/urinary system phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0012620	rdfs:subClassOf	MP:0005381	HumanCurated	Cloacal abnormality	digestive/alimentary phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0007379	rdfs:subClassOf	MP:0002006	HumanCurated	Neoplasm of the genitourinary tract	tumorigenesis	https://orcid.org/0000-0003-4606-0597
-HP:0100589	rdfs:subClassOf	MP:0005389	HumanCurated	Urogenital fistula	reproductive system phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0100589	rdfs:subClassOf	MP:0005367	HumanCurated	Urogenital fistula	renal/urinary system phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0002715	rdfs:subClassOf	MP:0005387	HumanCurated	Abnormality of the immune system	immune system phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0001574	rdfs:subClassOf	MP:0010771	HumanCurated	Abnormality of the integument	integument phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0003011	rdfs:subClassOf	MP:0005369	HumanCurated	Abnormality of the musculature	muscle phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0008316	rdfs:subClassOf	MP:0005384	HumanCurated	Abnormal mitochondria in muscle tissue	cellular phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0009728	rdfs:subClassOf	MP:0002006	HumanCurated	Neoplasm of striated muscle	tumorigenesis	https://orcid.org/0000-0003-4606-0597
-HP:0008985	rdfs:subClassOf	MP:0005375	HumanCurated	Increased intramuscular fat	adipose tissue phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0000707	rdfs:subClassOf	MP:0003631	HumanCurated	Abnormality of the nervous system	nervous system phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0002086	rdfs:subClassOf	MP:0005388	HumanCurated	Abnormality of the respiratory system	respiratory system phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0100606	rdfs:subClassOf	MP:0002006	HumanCurated	Neoplasm of the respiratory system	tumorigenesis	https://orcid.org/0000-0003-4606-0597
-HP:0000924	rdfs:subClassOf	MP:0005390	HumanCurated	Abnormality of the skeletal system	skeleton phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0010766	rdfs:subClassOf	MP:0005376	HumanCurated	Ectopic calcification	homeostasis/metabolism phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0045027	rdfs:subClassOf	MP:0005378         	HumanCurated	Abnormality of the thoracic cavity	growth/size/body region phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0001608	rdfs:subClassOf	MP:0005386	HumanCurated	Abnormality of the voice	behavior/neurological phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0001507	rdfs:subClassOf	MP:0005378         	HumanCurated	Growth abnormality	growth/size/body region phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0002664	rdfs:subClassOf	MP:0002006	HumanCurated	Neoplasm	tumorigenesis	https://orcid.org/0000-0003-4606-0597
-HP:0000708	rdfs:subClassOf	MP:0005386	HumanCurated	Behavioral abnormality	behavior/neurological phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0025406	rdfs:subClassOf	MP:0005386	HumanCurated	Asthenia	behavior/neurological phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0031352	rdfs:subClassOf	MP:0005378         	HumanCurated	Chest tightness	growth/size/body region phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0025143	rdfs:subClassOf	MP:0005376	HumanCurated	Chills	homeostasis/metabolism phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0012378 	rdfs:subClassOf	MP:0005386	HumanCurated	Fatigue	behavior/neurological phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0100812 	rdfs:subClassOf	MP:0005382	HumanCurated	Halitosis	craniofacial phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0031217 	rdfs:subClassOf	MP:0005376	HumanCurated	Hot flashes	homeostasis/metabolism phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0031058	rdfs:subClassOf	MP:0005386	HumanCurated	Impairment of activities of daily living	behavior/neurological phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0002607	rdfs:subClassOf	MP:0005381	HumanCurated	Bowel incontinence	digestive/alimentary phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0000020	rdfs:subClassOf	MP:0005367	HumanCurated	Urinary incontinence	renal/urinary system phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0030166	rdfs:subClassOf	MP:0005379	HumanCurated	Night sweats	endocrine/exocrine gland phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0012531	rdfs:subClassOf	MP:0005386	HumanCurated	Pain	behavior/neurological phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0025144	rdfs:subClassOf	MP:0005386	HumanCurated	Shivering	behavior/neurological phenotype	https://orcid.org/0000-0003-4606-0597
-HP:0040006	skos:exactMatch	MP:0010768	HumanCurated	Mortality/Aging	mortality/aging	https://orcid.org/0000-0003-4606-0597
+object_id	object_label	predicate_id	confidence	subject_id	subject_label	match_type	creator_id
+HP:0003270	Abdominal distention	rdfs:subClassOf	1	MP:0005378	growth/size/body region phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0002027	Abdominal pain	rdfs:subClassOf				semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0011458	Abdominal symptom	rdfs:subClassOf				semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0009124	Abnormal adipose tissue morphology	rdfs:subClassOf	1	MP:0005375	adipose tissue phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0030142	Abnormal bowel sounds	rdfs:subClassOf	1	MP:0005381	digestive/alimentary phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0025354	Abnormal cellular phenotype	rdfs:subClassOf	1	MP:0005384	cellular phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0003117	Abnormal circulating hormone concentration	rdfs:subClassOf	1	MP:0005376	homeostasis/metabolism phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0001787	Abnormal delivery	rdfs:subClassOf	1	MP:0005389	reproductive system phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0008316	Abnormal mitochondria in muscle tissue	rdfs:subClassOf	1	MP:0005384	cellular phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0100685	Abnormal Sharpey fiber morphology	rdfs:subClassOf	1	MP:0005390	skeleton phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0040127	Abnormal sweat homeostasis	rdfs:subClassOf	1	MP:0010771	integument phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0040127	Abnormal sweat homeostasis	rdfs:subClassOf	1	MP:0005379	endocrine/exocrine gland phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0012029	Abnormal urine hormone level	rdfs:subClassOf	1	MP:0005376	homeostasis/metabolism phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0001194	Abnormalities of placenta or umbilical cord	rdfs:subClassOf	1	MP:0005380	embryo phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0011620	Abnormality of abdominal situs	rdfs:subClassOf	1	MP:0005378	growth/size/body region phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0001871	Abnormality of blood and blood-forming tissues	rdfs:subClassOf	1	MP:0005397	hematopoietic system phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0003549	Abnormality of connective tissue	rdfs:subClassOf				semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0000152	Abnormality of head or neck	rdfs:subClassOf				semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0000816	Abnormality of Krebs cycle metabolism	rdfs:subClassOf	1	MP:0005384	cellular phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0040064	Abnormality of limbs	rdfs:subClassOf	1	MP:0005371	limbs/digits/tail phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0100016	Abnormal mesentery morphology	rdfs:subClassOf	1	MP:0005378	growth/size/body region phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0001939	Abnormality of metabolism/homeostasis	rdfs:subClassOf	1	MP:0005376	homeostasis/metabolism phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:3000050	Abnormal odontoid tissue morphology	rdfs:subClassOf	1	MP:0005382	craniofacial phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0001197	Abnormality of prenatal development or birth	rdfs:subClassOf				semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0001438	Abnormal abdomen morphology	rdfs:subClassOf	1	MP:0005378	growth/size/body region phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0002012	Abnormality of the abdominal organs	rdfs:subClassOf				semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0004298	Abnormality of the abdominal wall	rdfs:subClassOf	1	MP:0005378	growth/size/body region phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0001560	Abnormality of the amniotic fluid	rdfs:subClassOf	1	MP:0005380	embryo phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0000769	Abnormality of the breast	rdfs:subClassOf	1	MP:0010771	integument phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0001626	Abnormality of the cardiovascular system	rdfs:subClassOf	1	MP:0005385	cardiovascular system phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0000775	Abnormality of the diaphragm	rdfs:subClassOf	1	MP:0005369	muscle phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0000598	Abnormality of the ear	rdfs:subClassOf	1	MP:0005377	hearing/vestibular/ear phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0000818	Abnormality of the endocrine system	rdfs:subClassOf	1	MP:0005379	endocrine/exocrine gland phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0000478	Abnormality of the eye	rdfs:subClassOf	1	MP:0005391	vision/eye phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0100536	Abnormality of the fascia	rdfs:subClassOf	1	MP:0010771	integument phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0011024	Abnormality of the gastrointestinal tract	rdfs:subClassOf	1	MP:0005381	digestive/alimentary phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0000078	Abnormality of the genital system	rdfs:subClassOf	1	MP:0005389	reproductive system phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0000119	Abnormality of the genitourinary system	rdfs:subClassOf				semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0000234	Abnormality of the head	rdfs:subClassOf	1	MP:0005382	craniofacial phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0002715	Abnormality of the immune system	rdfs:subClassOf	1	MP:0005387	immune system phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0001574	Abnormality of the integument	rdfs:subClassOf	1	MP:0010771	integument phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0001392	Abnormality of the liver	rdfs:subClassOf	1	MP:0005370	liver/biliary system phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0003011	Abnormality of the musculature	rdfs:subClassOf	1	MP:0005369	muscle phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0000464	Abnormality of the neck	rdfs:subClassOf	1	MP:0005378	growth/size/body region phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0000707	Abnormality of the nervous system	rdfs:subClassOf	1	MP:0003631	nervous system phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0001732	Abnormality of the pancreas	rdfs:subClassOf	1	MP:0005379	endocrine/exocrine gland phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0002585	Abnormal peritoneum morphology	rdfs:subClassOf	1	MP:0005378	growth/size/body region phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0002086	Abnormality of the respiratory system	rdfs:subClassOf	1	MP:0005388	respiratory system phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0000924	Abnormality of the skeletal system	rdfs:subClassOf	1	MP:0005390	skeleton phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0001743	Abnormality of the spleen	rdfs:subClassOf	1	MP:0005397	hematopoietic system phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0001743	Abnormality of the spleen	rdfs:subClassOf	1	MP:0005387	immune system phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0045027	Abnormality of the thoracic cavity	rdfs:subClassOf	1	MP:0005378	growth/size/body region phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0000079	Abnormality of the urinary system	rdfs:subClassOf	1	MP:0005367	renal/urinary system phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0001608	Abnormality of the voice	rdfs:subClassOf	1	MP:0005386	behavior/neurological phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0002039	Anorexia	rdfs:subClassOf	1	MP:0005386	behavior/neurological phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0001541	Ascites	rdfs:subClassOf	1	MP:0005376	homeostasis/metabolism phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0025406	Asthenia	rdfs:subClassOf	1	MP:0005386	behavior/neurological phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0000708	Atypical behavior	rdfs:subClassOf	1	MP:0005386	behavior/neurological phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0002607	Bowel incontinence	rdfs:subClassOf	1	MP:0005381	digestive/alimentary phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0100658	Cellulitis	rdfs:subClassOf	1	MP:0005387	immune system phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0031352	Chest tightness	rdfs:subClassOf	1	MP:0005378	growth/size/body region phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0025143	Chills	rdfs:subClassOf	1	MP:0005376	homeostasis/metabolism phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0012620	Cloacal abnormality	rdfs:subClassOf	1	MP:0005380	embryo phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0012620	Cloacal abnormality	rdfs:subClassOf	1	MP:0005367	renal/urinary system phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0012620	Cloacal abnormality	rdfs:subClassOf	1	MP:0005381	digestive/alimentary phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0100881	Congenital mesoblastic nephroma	rdfs:subClassOf	1	MP:0002006	neoplasm	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0100898	Connective tissue nevi	rdfs:subClassOf	1	MP:0010771	integument phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0002019	Constipation	rdfs:subClassOf	1	MP:0005381	digestive/alimentary phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0002014	Diarrhea	rdfs:subClassOf	1	MP:0005381	digestive/alimentary phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0005217	Duplication of internal organs	rdfs:subClassOf	1	MP:0005378	growth/size/body region phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0010766	Ectopic calcification	rdfs:subClassOf	1	MP:0005376	homeostasis/metabolism phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0003565	Elevated erythrocyte sedimentation rate	rdfs:subClassOf	1	MP:0005397	hematopoietic system phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0012378	Fatigue	rdfs:subClassOf	1	MP:0005386	behavior/neurological phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0011968	Feeding difficulties	rdfs:subClassOf	1	MP:0005386	behavior/neurological phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0034057	Fetal anomaly	rdfs:subClassOf	1	MP:0005380	embryo phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0001371	Flexion contracture	rdfs:subClassOf	1	MP:0005390	skeleton phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0001507	Growth abnormality	rdfs:subClassOf	1	MP:0005378	growth/size/body region phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0100812	Halitosis	rdfs:subClassOf	1	MP:0005382	craniofacial phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0004377	Hematological neoplasm	rdfs:subClassOf	1	MP:0002006	neoplasm	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0100790	Hernia	rdfs:subClassOf	1	MP:0005378	growth/size/body region phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0031217	Hot flashes	rdfs:subClassOf	1	MP:0005376	homeostasis/metabolism phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0001789	Hydrops fetalis	rdfs:subClassOf	1	MP:0005376	homeostasis/metabolism phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0031058	Impairment of activities of daily living	rdfs:subClassOf	1	MP:0005386	behavior/neurological phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0008985	Increased intramuscular fat	rdfs:subClassOf	1	MP:0005375	adipose tissue phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0010880	Increased nuchal translucency	rdfs:subClassOf	1	MP:0005380	embryo phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0004395	Malnutrition	rdfs:subClassOf				semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0040006	Mortality/Aging	skos:exactMatch	1	MP:0010768	mortality/aging	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0002017	Nausea and vomiting	rdfs:subClassOf	1	MP:0005381	digestive/alimentary phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0002664	Neoplasm	rdfs:subClassOf	1	MP:0002006	neoplasm	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0009728	Neoplasm of striated muscle	rdfs:subClassOf	1	MP:0002006	neoplasm	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0100013	Neoplasm of the breast	rdfs:subClassOf	1	MP:0002006	neoplasm	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0100568	Neoplasm of the endocrine system	rdfs:subClassOf	1	MP:0002006	neoplasm	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0007379	Neoplasm of the genitourinary tract	rdfs:subClassOf	1	MP:0002006	neoplasm	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0100606	Neoplasm of the respiratory system	rdfs:subClassOf	1	MP:0002006	neoplasm	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0030166	Night sweats	rdfs:subClassOf	1	MP:0005379	endocrine/exocrine gland phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0012531	Pain	rdfs:subClassOf	1	MP:0005386	behavior/neurological phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0004396	Poor appetite	rdfs:subClassOf	1	MP:0005386	behavior/neurological phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0001622	Premature birth	rdfs:subClassOf	1	MP:0005389	reproductive system phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0002686	Pregnancy history	rdfs:subClassOf	1	MP:0005389	reproductive system phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0001557	Prenatal movement abnormality	rdfs:subClassOf	1	MP:0005386	behavior/neurological phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0002038	Protein avoidance	rdfs:subClassOf	1	MP:0005386	behavior/neurological phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0008373	Puberty and gonadal disorders	rdfs:subClassOf				semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0100699	Scarring	rdfs:subClassOf	1	MP:0005376	homeostasis/metabolism phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0000020	Urinary incontinence	rdfs:subClassOf	1	MP:0005367	renal/urinary system phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0100589	Urogenital fistula	rdfs:subClassOf	1	MP:0005389	reproductive system phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0100589	Urogenital fistula	rdfs:subClassOf	1	MP:0005367	renal/urinary system phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0003271	Visceromegaly	rdfs:subClassOf	1	MP:0005378	growth/size/body region phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0033334	Abnormal embryonic development	rdfs:subClassOf	1	MP:0005380	embryo phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0025142 	Constitutional symptom	rdfs:subClassOf				semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0500001	Body odor	rdfs:subClassOf				semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0033850	Coldness	rdfs:subClassOf	1	MP:0005376	homeostasis/metabolism phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0003546	Exercise intolerance	rdfs:subClassOf	1	MP:0005376	homeostasis/metabolism phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0100758	Gangrene	rdfs:subClassOf	1	MP:0005384	cellular phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0100247	Recurrent singultus	rdfs:subClassOf	1	MP:0005369	muscle phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0025144	Shivering	rdfs:subClassOf	1	MP:0005386	behavior/neurological phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0025095	Sneeze	rdfs:subClassOf	1	MP:0005388	respiratory system phenotype	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
+HP:0001699	Sudden death	rdfs:subClassOf	1	MP:0010768	mortality/aging	semapv:ManualMappingCuration	https://orcid.org/0000-0003-4606-0597
