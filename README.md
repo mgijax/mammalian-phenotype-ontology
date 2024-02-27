@@ -1,6 +1,8 @@
 # Source for Mammalian Phenotype Ontology
 ![Build Status](https://github.com/obophenotype/mammalian-phenotype-ontology/workflows/CI/badge.svg)
 
+
+![image]([https://user-images.githubusercontent.com/7070631/121471623-ed28bc00-c9b7-11eb-9e9c-c6d5222688e3.png](https://github.com/mgijax/mammalian-phenotype-ontology/blob/main/logo/2024_MP_logo_RGB_FULL_color.png))
 ## MP build pipeline
 
 The MP build pipeline now uses GitHub actions.
