@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/chebi_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2024-04-01/imports/chebi_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/chebi/obophenotype/releases/2024-02-28/chebi_slim.owl>)
-Annotation(owl:versionInfo "2024-04-01")
+<http://purl.obolibrary.org/obo/mp/releases/2024-04-17/imports/chebi_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/chebi/obophenotype/releases/2024-04-11/chebi_slim.owl>)
+Annotation(owl:versionInfo "2024-04-17")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_10545>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_11955>))
@@ -252,6 +252,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_22860>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_22868>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_22881>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_22918>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_229684>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_22984>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_23004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_23014>))
@@ -1153,6 +1154,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_58389>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_58432>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_58496>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_58497>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_58942>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_58945>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_58951>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_58953>))
@@ -1186,6 +1188,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_59999>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_60004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_60027>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_60164>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_60194>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_60242>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_60308>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_60311>))
@@ -1253,7 +1256,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_64600>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_64611>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_64708>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_64709>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_64766>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_64767>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_64769>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_64775>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_64857>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_64898>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_64909>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_6495>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_65212>))
@@ -1797,8 +1805,8 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_132988> "CHEBI:132988")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_132988> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_132988> "bradykinin(2+)")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_132988> <http://purl.obolibrary.org/obo/CHEBI_60466>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_132988> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_tautomer_of> <http://purl.obolibrary.org/obo/CHEBI_3165>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_132988> <http://purl.obolibrary.org/obo/CHEBI_60194>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_132988> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of> <http://purl.obolibrary.org/obo/CHEBI_3165>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_133291> (saturated dicarboxylic acid dianion(2-))
 
@@ -6780,7 +6788,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_17453> ObjectSomeValuesFrom(<ht
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_17478> "A compound RC(=O)H, in which a carbonyl group is bonded to one hydrogen atom and to one R group.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/charge> <http://purl.obolibrary.org/obo/CHEBI_17478> "0")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/formula> <http://purl.obolibrary.org/obo/CHEBI_17478> "CHOR")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/mass> <http://purl.obolibrary.org/obo/CHEBI_17478> "29.01800")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/mass> <http://purl.obolibrary.org/obo/CHEBI_17478> "29.018")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/monoisotopicmass> <http://purl.obolibrary.org/obo/CHEBI_17478> "29.00274")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/smiles> <http://purl.obolibrary.org/obo/CHEBI_17478> "[H]C([*])=O")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/CHEBI_17478> "CHEBI:13432")
@@ -9277,6 +9285,17 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_22918> "branched-chain amino acid")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_22918> <http://purl.obolibrary.org/obo/CHEBI_33709>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_22918> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of> <http://purl.obolibrary.org/obo/CHEBI_63471>))
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_229684> (fatty amide anion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_229684> "The conjugate base of a fatty amide, arising from deprotonation of the carboxylic acid group of the corresponding fatty amide.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_229684> "chebi_ontology")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_229684> "fatty amide anions")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_229684> "CHEBI:229684")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_229684> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_229684> "fatty amide anion")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_229684> <http://purl.obolibrary.org/obo/CHEBI_29067>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_229684> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of> <http://purl.obolibrary.org/obo/CHEBI_29348>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_22984> (calcium atom)
 
@@ -12990,11 +13009,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_28300> ObjectSomeValuesFrom(<ht
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_28358> "A racemate comprising equimolar amounts of (R)- and (S)-lactic acid.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/charge> <http://purl.obolibrary.org/obo/CHEBI_28358> "0")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/formula> <http://purl.obolibrary.org/obo/CHEBI_28358> "C3H6O3")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/inchi> <http://purl.obolibrary.org/obo/CHEBI_28358> "InChI=1S/2C3H6O3/c2*1-2(4)3(5)6/h2*2,4H,1H3,(H,5,6)/t2*2-/m10/s1")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/inchikey> <http://purl.obolibrary.org/obo/CHEBI_28358> "KVZLHPXEUGJPAH-QNDGGIRCSA-N")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/mass> <http://purl.obolibrary.org/obo/CHEBI_28358> "180.156")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/monoisotopicmass> <http://purl.obolibrary.org/obo/CHEBI_28358> "180.06339")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/smiles> <http://purl.obolibrary.org/obo/CHEBI_28358> "C(=O)([C@@H](O)C)O.C(=O)([C@H](O)C)O")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/mass> <http://purl.obolibrary.org/obo/CHEBI_28358> "90.07794")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/monoisotopicmass> <http://purl.obolibrary.org/obo/CHEBI_28358> "90.03169")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/CHEBI_28358> "CHEBI:24998")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/CHEBI_28358> "CHEBI:6351")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Beilstein") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_28358> "Beilstein:1209341")
@@ -13897,6 +13913,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_29348> "fat
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_29348> <http://purl.obolibrary.org/obo/CHEBI_29347>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_29348> <http://purl.obolibrary.org/obo/CHEBI_61697>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_29348> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#has_functional_parent> <http://purl.obolibrary.org/obo/CHEBI_35366>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_29348> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of> <http://purl.obolibrary.org/obo/CHEBI_229684>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_29360> (methanediide)
 
@@ -14148,7 +14165,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_29985> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_29985> "L-glutamate(1-)")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_29985> <http://purl.obolibrary.org/obo/CHEBI_14321>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_29985> <http://purl.obolibrary.org/obo/CHEBI_62031>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_29985> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_24319>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_29985> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_75772>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_29985> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_77746>))
@@ -15428,7 +15444,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_3165> "brad
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_3165> <http://purl.obolibrary.org/obo/CHEBI_25676>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_3165> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_35620>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_3165> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_85234>))
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_3165> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_tautomer_of> <http://purl.obolibrary.org/obo/CHEBI_132988>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_3165> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of> <http://purl.obolibrary.org/obo/CHEBI_132988>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_32395> (arachidonate)
 
@@ -16803,7 +16819,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_33247> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33247> "organic group")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33247> <http://purl.obolibrary.org/obo/CHEBI_24433>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33247> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_substituent_group_from> <http://purl.obolibrary.org/obo/CHEBI_50860>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33247> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of> <http://purl.obolibrary.org/obo/CHEBI_64775>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33247> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of> <http://purl.obolibrary.org/obo/CHEBI_64769>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_33248> (hydrocarbyl group)
 
@@ -17765,7 +17782,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33570> <http://purl.obolibrary.
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33575> "A carbon oxoacid acid carrying at least one -C(=O)OH group and having the structure RC(=O)OH, where R is any any monovalent functional group. Carboxylic acids are the most common type of organic acid.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/charge> <http://purl.obolibrary.org/obo/CHEBI_33575> "0")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/formula> <http://purl.obolibrary.org/obo/CHEBI_33575> "CHO2R")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/mass> <http://purl.obolibrary.org/obo/CHEBI_33575> "45.01740")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/mass> <http://purl.obolibrary.org/obo/CHEBI_33575> "45.017")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/monoisotopicmass> <http://purl.obolibrary.org/obo/CHEBI_33575> "44.99765")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/smiles> <http://purl.obolibrary.org/obo/CHEBI_33575> "OC([*])=O")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/CHEBI_33575> "CHEBI:13428")
@@ -18163,7 +18180,9 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33703> "CHEBI:33703")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_33703> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33703> "amino-acid cation")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33703> <http://purl.obolibrary.org/obo/CHEBI_25697>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33703> <http://purl.obolibrary.org/obo/CHEBI_33702>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33703> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of> <http://purl.obolibrary.org/obo/CHEBI_33709>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_33704> (alpha-amino acid)
 
@@ -18191,6 +18210,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33704> "alpha-amino acid")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33704> <http://purl.obolibrary.org/obo/CHEBI_33709>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33704> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of> <http://purl.obolibrary.org/obo/CHEBI_33558>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33704> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of> <http://purl.obolibrary.org/obo/CHEBI_33719>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33704> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_tautomer_of> <http://purl.obolibrary.org/obo/CHEBI_78608>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_33706> (beta-amino acid)
@@ -18227,6 +18247,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_33708> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33708> "amino-acid residue")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33708> <http://purl.obolibrary.org/obo/CHEBI_33247>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33708> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of> <http://purl.obolibrary.org/obo/CHEBI_64898>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33708> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of> <http://purl.obolibrary.org/obo/CHEBI_58942>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33708> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_substituent_group_from> <http://purl.obolibrary.org/obo/CHEBI_33709>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_33709> (amino acid)
@@ -18246,6 +18268,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33709> "ami
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33709> <http://purl.obolibrary.org/obo/CHEBI_33575>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33709> <http://purl.obolibrary.org/obo/CHEBI_50047>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33709> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of> <http://purl.obolibrary.org/obo/CHEBI_37022>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33709> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of> <http://purl.obolibrary.org/obo/CHEBI_33703>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_33710> (alpha-amino-acid residue)
 
@@ -18274,6 +18297,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_33719> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33719> "alpha-amino-acid cation")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33719> <http://purl.obolibrary.org/obo/CHEBI_33703>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33719> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of> <http://purl.obolibrary.org/obo/CHEBI_33704>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_33720> (carbohydrate acid)
 
@@ -24584,8 +24608,8 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/monoisotopicmass> <htt
 AnnotationAssertion(<http://purl.obolibrary.org/obo/chebi/smiles> <http://purl.obolibrary.org/obo/CHEBI_57977> "CC1=C(C=C)\\C(NC1=O)=C\\c1[nH]c(Cc2[nH]c(\\C=C3NC(=O)C(C=C)=C/3C)c(C)c2CCC([O-])=O)c(CCC([O-])=O)c1C")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Beilstein") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_57977> "Beilstein:4083310")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_57977> "chebi_ontology")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "UniProt") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_57977> "(4Z,15Z)-bilirubin IXalpha")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_57977> "2,7,13,17-tetramethyl-1,19-dioxo-3,18-divinyl-1,10,19,22,23,24-hexahydro-21H-biline-8,12-dipropanoate")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "UniProt") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_57977> "bilirubin IXalpha")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_57977> "bilirubin dianion")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_57977> "CHEBI:57977")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_57977> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
@@ -24790,6 +24814,23 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_58497> "N-acyl-L-aspartate(2-)")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_58497> <http://purl.obolibrary.org/obo/CHEBI_28965>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_58497> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of> <http://purl.obolibrary.org/obo/CHEBI_21647>))
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_58942> (cationic amino-acid residue)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_58942> "An amino-acid residue protonated on nitrogen.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_58942> "chebi_ontology")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_58942> "amino acid cation residue")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_58942> "amino acid cation residues")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_58942> "amino-acid cation residue")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_58942> "amino-acid cation residues")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_58942> "cationic amino acid residue")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_58942> "cationic amino acid residues")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_58942> "cationic amino-acid residues")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_58942> "CHEBI:58942")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_58942> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_58942> "cationic amino-acid residue")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_58942> <http://purl.obolibrary.org/obo/CHEBI_64769>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_58942> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of> <http://purl.obolibrary.org/obo/CHEBI_33708>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_58945> (organophosphate oxoanion)
 
@@ -25294,6 +25335,16 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_60164> "ionic polymer")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_60164> <http://purl.obolibrary.org/obo/CHEBI_60027>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_60164> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/CHEBI_53368>))
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_60194> (peptide cation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_60194> "A cation formed by protonation of a peptide.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_60194> "chebi_ontology")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_60194> "peptide cations")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_60194> "CHEBI:60194")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_60194> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_60194> "peptide cation")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_60194> <http://purl.obolibrary.org/obo/CHEBI_25697>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_60242> (monovalent inorganic cation)
 
@@ -26279,6 +26330,48 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_64709> "organic acid")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_64709> <http://purl.obolibrary.org/obo/CHEBI_50860>)
 
+# Class: <http://purl.obolibrary.org/obo/CHEBI_64766> (cationic group)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_64766> "A group that carries an overall positive charge.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_64766> "chebi_ontology")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_64766> "cationic groups")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_64766> "CHEBI:64766")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_64766> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_64766> "cationic group")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_64766> <http://purl.obolibrary.org/obo/CHEBI_24433>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_64767> (anionic group)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_64767> "A group that carries an overall negative charge.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_64767> "chebi_ontology")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_64767> "anionic groups")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_64767> "CHEBI:64767")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_64767> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_64767> "anionic group")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_64767> <http://purl.obolibrary.org/obo/CHEBI_24433>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_64769> (organic cationic group)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_64769> "A cationic group that contains carbon.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_64769> "chebi_ontology")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_64769> "organic cationic groups")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_64769> "CHEBI:64769")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_64769> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_64769> "organic cationic group")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_64769> <http://purl.obolibrary.org/obo/CHEBI_64766>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_64769> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of> <http://purl.obolibrary.org/obo/CHEBI_33247>))
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_64775> (organic anionic group)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_64775> "An anionic group that contains carbon.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_64775> "chebi_ontology")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_64775> "organic anionic groups")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_64775> "CHEBI:64775")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_64775> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_64775> "organic anionic group")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_64775> <http://purl.obolibrary.org/obo/CHEBI_64767>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_64775> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of> <http://purl.obolibrary.org/obo/CHEBI_33247>))
+
 # Class: <http://purl.obolibrary.org/obo/CHEBI_64857> (cosmetic)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_64857> "The role played by a substance in enhancing the appearance or odour of the human body; a name given to the substance itself or to a component of it.")
@@ -26290,6 +26383,23 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_64857> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_64857> "cosmetic")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_64857> <http://purl.obolibrary.org/obo/CHEBI_33232>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_64898> (anionic amino-acid residue)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_64898> "An amino-acid residue carrying an overall negative charge.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_64898> "chebi_ontology")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_64898> "amino acid anion residue")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_64898> "amino acid anion residues")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_64898> "amino-acid anion residue")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_64898> "amino-acid anion residues")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_64898> "anionic amino acid residue")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_64898> "anionic amino acid residues")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_64898> "anionic amino-acid residues")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_64898> "CHEBI:64898")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_64898> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_64898> "anionic amino-acid residue")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_64898> <http://purl.obolibrary.org/obo/CHEBI_64775>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_64898> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of> <http://purl.obolibrary.org/obo/CHEBI_33708>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_64909> (poison)
 
