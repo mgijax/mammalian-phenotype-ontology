@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     container: obolibrary/odkfull:v1.4
    
-      
+    steps:  
       # Checks-out current branch
 
       - name: Checkout main branch
