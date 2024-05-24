@@ -6,16 +6,12 @@ on:
 
 jobs:
   deploy:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:v1.4
+    strategy:
+      max-parallel: 1
+      
     steps:
-      - uses: docker-practice/actions-setup-docker@master
-      - run: |
-          set -x
-          docker version
-
-      - name: Install ODK
-        run: docker pull obolibrary/odkfull
-
       - name: Checkout main branch
         uses: actions/checkout@v3
 
@@ -27,7 +23,7 @@ jobs:
         run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
       
       - name: Update release files
-        run: cd src/ontology/ && docker run -v $PWD/../../:/work -w /work/src/ontology -e ROBOT_JAVA_ARGS='-Xmx10G' -e JAVA_OPTS='-Xmx10G' --rm obolibrary/odkfull make GITHUB_ACTION=true prepare_release_fast
+        run: cd src/ontology/ && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx10G' GITHUB_ACTION=true prepare_release_fast
       
       - name: Run release
         uses: gaoDean/action-gh-release@6b61bb5648ddc1241deb73ea6b72c3a1e1f9e445
