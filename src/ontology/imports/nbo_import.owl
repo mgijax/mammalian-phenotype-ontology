@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/nbo_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2024-06-01/imports/nbo_import.owl>
+<http://purl.obolibrary.org/obo/mp/releases/2024-06-18/imports/nbo_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/nbo/releases/2023-07-04/nbo.owl>)
-Annotation(owl:versionInfo "2024-06-01")
+Annotation(owl:versionInfo "2024-06-18")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007601>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007610>))
@@ -21,7 +21,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000007>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000008>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000013>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000014>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000018>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000020>))
@@ -239,15 +238,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NBO_0000013> "behavior_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0000013> "locomotory behavior")
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0000013> <http://purl.obolibrary.org/obo/NBO_0000338>)
-
-# Class: <http://purl.obolibrary.org/obo/NBO_0000014> (mating behavior)
-
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/NBO_0000014> "2011-04-14T01:03:39Z")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/NBO_0000014> "George Gkoutos")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NBO_0000014> "mating behaviour")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NBO_0000014> "behavior_ontology")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0000014> "mating behavior")
-SubClassOf(<http://purl.obolibrary.org/obo/NBO_0000014> <http://purl.obolibrary.org/obo/NBO_0000313>)
 
 # Class: <http://purl.obolibrary.org/obo/NBO_0000015> (aggressive behavior)
 
@@ -593,7 +583,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/NBO_0000146> "George Gkoutos")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NBO_0000146> "behavior_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0000146> "mating receptivity")
-SubClassOf(<http://purl.obolibrary.org/obo/NBO_0000146> <http://purl.obolibrary.org/obo/NBO_0000014>)
+SubClassOf(<http://purl.obolibrary.org/obo/NBO_0000146> <http://purl.obolibrary.org/obo/NBO_0000313>)
 
 # Class: <http://purl.obolibrary.org/obo/NBO_0000148> (social investigation)
 
