@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/chebi_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2024-06-18/imports/chebi_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/chebi/obophenotype/releases/2024-05-27/chebi_slim.owl>)
-Annotation(owl:versionInfo "2024-06-18")
+<http://purl.obolibrary.org/obo/mp/releases/2024-07-02/imports/chebi_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/chebi/obophenotype/releases/2024-06-24/chebi_slim.owl>)
+Annotation(owl:versionInfo "2024-07-02")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_10545>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_11955>))
@@ -7799,11 +7799,17 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#sou
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "ChemIDplus") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_17996> "CAS:16887-00-6")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "KEGG COMPOUND") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_17996> "CAS:16887-00-6")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "NIST Chemistry WebBook") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_17996> "CAS:16887-00-6")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_17996> "FooDB:FDB006557")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Gmelin") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_17996> "Gmelin:14910")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_17996> "KEGG:C00115")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_17996> "HMDB:HMDB0000492")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_17996> "KEGG:C00698")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_17996> "MetaCyc:CL-")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_17996> "PDBeChem:CL")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Europe PMC") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_17996> "PMID:38280867")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Europe PMC") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_17996> "PMID:38573803")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Europe PMC") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_17996> "PMID:38604039")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "UM-BBD") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_17996> "UM-BBD_compID:c0884")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_17996> "Wikipedia:Chloride")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "KEGG_COMPOUND") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHEBI_17996> "Chloride")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "IUPAC") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/chebi#IUPAC_NAME>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHEBI_17996> "chloride")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "UniProt") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHEBI_17996> "chloride")
