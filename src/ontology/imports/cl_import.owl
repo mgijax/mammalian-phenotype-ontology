@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/cl_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2024-06-18/imports/cl_import.owl>
+<http://purl.obolibrary.org/obo/mp/releases/2024-07-02/imports/cl_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/cl/releases/2024-05-15/cl-simple.owl>)
-Annotation(owl:versionInfo "2024-06-18")
+Annotation(owl:versionInfo "2024-07-02")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000006>))
@@ -485,6 +485,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002202>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002204>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002218>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002242>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002250>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002251>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002253>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002254>))
@@ -7054,6 +7055,18 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0002242> "FMA:67513")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0002242> "nucleate cell")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0002242> <http://purl.obolibrary.org/obo/CL_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0002250> (intestinal crypt stem cell)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:tfm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0517223651") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0002250> "A cell that is found in a zone occupying the bottom region of the crypt; provide the source of most of the cell types of the intestinal epithelium; proliferate by mitotic division; differentiates into columnar or goblet cells.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/CL_0002250> <https://orcid.org/0000-0003-1980-3228>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/CL_0002250> "2010-09-08T09:21:22Z")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0002250> "FMA:63379")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0002250> "stem cell of intestinal crypt of Lieberkuhn")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CL_0002250> <http://purl.obolibrary.org/obo/cl#cellxgene_subset>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0002250> "intestinal crypt stem cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0002250> <http://purl.obolibrary.org/obo/CL_0000048>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0002250> <http://purl.obolibrary.org/obo/CL_0002563>)
 
 # Class: <http://purl.obolibrary.org/obo/CL_0002251> (epithelial cell of alimentary canal)
 
