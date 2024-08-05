@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/chebi_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2024-07-02/imports/chebi_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/chebi/obophenotype/releases/2024-06-24/chebi_slim.owl>)
-Annotation(owl:versionInfo "2024-07-02")
+<http://purl.obolibrary.org/obo/mp/releases/2024-08-01/imports/chebi_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/chebi/obophenotype/releases/2024-07-26/chebi_slim.owl>)
+Annotation(owl:versionInfo "2024-08-01")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_10545>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_11955>))
@@ -10923,7 +10923,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_25608> "KEGG:C01329")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_25608> "chebi_ontology")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "KEGG_COMPOUND") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_25608> "NMP")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "KEGG_COMPOUND") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_25608> "Nucleoside monophosphate")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_25608> "nucleoside phosphates")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_25608> "CHEBI:25608")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_25608> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
@@ -19458,6 +19457,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35524> <http://purl.obolibrary.
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_35526> "A drug which lowers the blood glucose level.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_35526> "chebi_ontology")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_35526> "anti-hyperglycemic agent")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_35526> "anti-hyperglycemic agents")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_35526> "antidiabetic")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_35526> "antihyperglycemic")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_35526> "antihyperglycemic agent")
@@ -22586,7 +22587,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternative
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Beilstein") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_47013> "Beilstein:1904878")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "KEGG COMPOUND") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_47013> "CAS:50-69-1")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "ChemIDplus") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_47013> "CAS:613-83-2")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_47013> "GlyGen:G31080DL")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_47013> "GlyTouCan:G31080DL")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Gmelin") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_47013> "Gmelin:364108")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_47013> "KEGG:C00121")
