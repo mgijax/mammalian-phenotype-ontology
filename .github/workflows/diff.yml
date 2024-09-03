@@ -64,12 +64,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Download master classification
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: mp-master.owl
           path: src/ontology/mp-master.owl
       - name: Download PR classification
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: mp-pr.owl
           path: src/ontology/mp-pr.owl
@@ -86,7 +86,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Download reasoned diff
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: classification-diff.md
           path: classification-diff.md
@@ -101,7 +101,7 @@ jobs:
           identifier: "REASONED"
       - uses: actions/checkout@v2
       - name: Download edit diff
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: edit-diff.md
           path: edit-diff.md
