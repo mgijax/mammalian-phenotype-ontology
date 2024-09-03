@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/cl_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2024-08-08/imports/cl_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/cl/releases/2024-07-10/cl-simple.owl>)
-Annotation(owl:versionInfo "2024-08-08")
+<http://purl.obolibrary.org/obo/mp/releases/2024-09-01/imports/cl_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/cl/releases/2024-08-16/cl-simple.owl>)
+Annotation(owl:versionInfo "2024-09-01")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000006>))
@@ -223,7 +223,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000502>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000503>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000510>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000511>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000512>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000513>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000514>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000517>))
@@ -575,7 +574,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002631>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002632>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002633>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002638>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002658>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002659>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002665>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002666>))
@@ -669,9 +667,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CL_1001561>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_1001566>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_1001567>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_1001571>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CL_1001589>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_1001593>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CL_1001598>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_1001599>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_1001601>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_1001603>))
@@ -699,6 +695,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CL_4040003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_4042003>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000053>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000086>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001025>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002103>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002120>))
@@ -1009,6 +1007,25 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000051> "has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000051> "has part")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000051> "has_part")
 TransitiveObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000053> (bearer of)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000053> "Inverse of characteristic_of"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/RO_0000053> "A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0000053> "RO:0000053")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/RO_0000053> "external")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0000053> "bearer_of")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/RO_0000053> "bearer_of")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000053> "has characteristic"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000053> "bearer of")
+InverseFunctionalObjectProperty(<http://purl.obolibrary.org/obo/RO_0000053>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000086> (has quality)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000086> "a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/RO_0000086> "A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000086> "has quality"@en)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/RO_0000053>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0001025> (located in)
 
@@ -2026,16 +2043,17 @@ SubClassOf(<http://purl.obolibrary.org/obo/CL_0000120> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/CL_0000121> (Purkinje cell)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "MESH:D011689") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000121> "The output neuron of the cerebellar cortex.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "MESH:D011689") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:12907269") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:14568361") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:31424738") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:33288911") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:38168772") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000121> "An inhibitory neuron and the sole output neuron of the cerebellar cortex, the Purkinje cell's soma is located between the granular and molecular layers of the cerebellum. It is one of the largest neural cells in the mammalian brain, ranging from 50 to 80 micrometres in diameter. Purkinje cells have planar, fan-shaped dendrites that branch extensively with little overlap. This cell type receives synaptic input from parallel fibres, which modulate high-frequency spike activity known as \"simple spikes,\" and climbing fibres, which modulate infrequent calcium spike activity known as \"complex spikes\". Purkinje cells are involved in motor coordination, particularly in correcting movements in progress.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000121> "BTO:0001011")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000121> "CALOHA:TS-0845")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000121> "FMA:67969")
 AnnotationAssertion(Annotation(<https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/UnspecifiedMatching>) <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000121> "ZFA:0009071")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0000121> "Purkinje neuron")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0000121> "Purkinje's cell")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0000121> "cerebellar Purkinje cell")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0000121> "cerebellum Purkinje cell")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:28821816") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0000121> "Purkinje neuron")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.1016/j.proghi.2004.07.002") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0000121> "cerebellar Purkinje cell")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:38168772") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CL_0000121> "PC")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:28821816") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CL_0000121> "PN")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CL_0000121> <http://purl.obolibrary.org/obo/cl#cellxgene_subset>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:17535929") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:27215193") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:37426070") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.1016/j.stem.2023.11.013") rdfs:comment <http://purl.obolibrary.org/obo/CL_0000121> "Neurodegenerative disorders affecting Purkinje cells disrupt motor functions. Some of the neurodegenerative disorders that causes loss and degeration of Purkinje cells are Spinocerebellar ataxias (SCAs) (Josef P Kapfhammer and Etsuko Shimobayashi 2023), Friedreich's ataxia (FRDA) (Kevin C Kemp et al., 2016), Fetal alcohol syndrome (Laurent Servais et al., 2016), Dandy-Walker malformation (Alexander Atamian et al., 2024).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000121> "Purkinje cell")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0000121> <http://purl.obolibrary.org/obo/CL_0000117>)
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0000121> <http://purl.obolibrary.org/obo/CL_0000527>)
@@ -2368,7 +2386,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CL_0000159> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/CL_0000160> (goblet cell)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "MESH:D020397") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000160> "A cell of the epithelial lining that produce and secrete mucins.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "MESH:D020397") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://en.wikipedia.org/wiki/Goblet_cell") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000160> "A specialized, columnar, mucus secreting epithelial cell shaped like a flask or goblet. A narrow basal end contains the nucleus while the apical end is swollen by the accumulation of mucus laden secretory granules.  Short microvilli project from the apical plasma membrane.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000160> "BTO:0001540")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000160> "FMA:13148")
 AnnotationAssertion(Annotation(<https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/UnspecifiedMatching>) <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000160> "ZFA:0009094")
@@ -2376,8 +2394,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0000160> "chalice cell")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CL_0000160> <http://purl.obolibrary.org/obo/cl#cellxgene_subset>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000160> "goblet cell")
-SubClassOf(<http://purl.obolibrary.org/obo/CL_0000160> <http://purl.obolibrary.org/obo/CL_0000150>)
-SubClassOf(<http://purl.obolibrary.org/obo/CL_0000160> <http://purl.obolibrary.org/obo/CL_0000319>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://cnx.org/content/col11496/1.6/>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://commons.wikimedia.org/w/index.php?curid=30131227>) <http://xmlns.com/foaf/0.1/depiction> <http://purl.obolibrary.org/obo/CL_0000160> "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/404_Goblet_Cell_new.jpg/800px-404_Goblet_Cell_new.jpg")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000160> <http://purl.obolibrary.org/obo/CL_0000066>)
 
 # Class: <http://purl.obolibrary.org/obo/CL_0000162> (parietal cell)
 
@@ -3175,11 +3193,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/CL_0000349> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/CL_0000351> (trophoblast cell)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:tfm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "MESH:D014327") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000351> "A cell lining the outside of the blastocyst. After binding to the endometrium, trophoblast cells develop into two distinct layers, an inner layer of mononuclear cytotrophoblast cells and an outer layer of continuous multinuclear cytoplasm, the syncytiotrophoblast cells, which form the early fetal-maternal interface.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:tfm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "MESH:D014327") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:37630754") Annotation(rdfs:comment "doi:10.1007/978-3-030-84725-8") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000351> "An extraembryonic cell that develops from a trophectodermal cell. This cell is found in the outer layer of the blastocyst and can invade other structures in the uterus once the blastocyst implants into the uterine wall. A trophoblast cell is involved in the implantation of the embryo into the uterine wall, placental formation, remodelling of maternal vasculature in the uterus, nutrient and gas exchange, hormone production, and immune modulation to support fetal development.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000351> "FMA:83028")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0000351> "trophoblastic cell")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "doi:10.1007/978-3-030-84725-8") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0000351> "trophoblastic cell")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000351> "trophoblast cell")
 SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#is_inferred> "true") <http://purl.obolibrary.org/obo/CL_0000351> <http://purl.obolibrary.org/obo/CL_0000349>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000351> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/CL_1000274>))
 
 # Class: <http://purl.obolibrary.org/obo/CL_0000357> (stratified epithelial stem cell)
 
@@ -3595,13 +3614,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/CL_0000510> <http://purl.obolibrary.o
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GO:tfm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000511> "A peptide hormone secreting cell that secretes androgen binding protein.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000511> "androgen binding protein secreting cell")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0000511> <http://purl.obolibrary.org/obo/CL_0000154>)
-
-# Class: <http://purl.obolibrary.org/obo/CL_0000512> (paracrine cell)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:tfm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0198529171") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000512> "A paracrine cell is a secretory cell that secretes an agonist into intercellular spaces in which it diffuses to a target cell other than that which produced it.")
-AnnotationAssertion(Annotation(<https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/UnspecifiedMatching>) <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000512> "ZFA:0009233")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000512> "paracrine cell")
-SubClassOf(<http://purl.obolibrary.org/obo/CL_0000512> <http://purl.obolibrary.org/obo/CL_0000151>)
 
 # Class: <http://purl.obolibrary.org/obo/CL_0000513> (cardiac muscle myoblast)
 
@@ -4356,7 +4368,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34734454") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CL_0000642> "Sox2-positive stem cell")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:18287078") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:31620083") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34734454") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "doi:10.23937/2572-407X.1510006") rdfs:comment <http://purl.obolibrary.org/obo/CL_0000642> "Folliculostellate cells are a heterogeneous group of cells rather than a single cell type, with different morphology and gene expression profiles. Due to this heterogeneity, it is unclear if different properties that have been attributed to folliculostellate cells (pluripotent, proliferative, phagocytic) are common in all folliculostellate cells or limited to particular subsets.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000642> "folliculostellate cell")
-SubClassOf(<http://purl.obolibrary.org/obo/CL_0000642> <http://purl.obolibrary.org/obo/CL_0000512>)
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0000642> <http://purl.obolibrary.org/obo/CL_0000630>)
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0000642> <http://purl.obolibrary.org/obo/CL_2000004>)
 
@@ -6976,11 +6987,12 @@ SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#is_inferred>
 
 # Class: <http://purl.obolibrary.org/obo/CL_0002180> (mucous cell of stomach)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:tfm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0002180> "A mucous cell in the epithelium of the stomach.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:tfm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0002180> "An epithelial cell of the stomach. This cell produces mucous.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/CL_0002180> <https://orcid.org/0000-0003-1980-3228>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/CL_0002180> "2010-08-25T03:38:51Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0002180> "FMA:63464")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0002180> "mucous cell of stomach")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0002180> <http://purl.obolibrary.org/obo/CL_0000319>)
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0002180> <http://purl.obolibrary.org/obo/CL_0002659>)
 
 # Class: <http://purl.obolibrary.org/obo/CL_0002182> (surface mucosal cell of stomach)
@@ -6990,7 +7002,7 @@ AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibra
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/CL_0002182> "2010-08-25T03:45:10Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0002182> "FMA:62949")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0002182> "surface mucosal cell of stomach")
-SubClassOf(<http://purl.obolibrary.org/obo/CL_0002182> <http://purl.obolibrary.org/obo/CL_0000319>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0002182> <http://purl.obolibrary.org/obo/CL_0000075>)
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0002182> <http://purl.obolibrary.org/obo/CL_0002180>)
 
 # Class: <http://purl.obolibrary.org/obo/CL_0002184> (basal proper cell of olfactory epithelium)
@@ -7921,6 +7933,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0002573> "BTO:0001220")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0002573> "CALOHA:TS-0898")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0002573> "MESH:D012583")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32119275") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:38638689") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0002573> "neurolemmocyte")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CL_0002573> <http://purl.obolibrary.org/obo/cl#cellxgene_subset>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CL_0002573> <http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:16807057") rdfs:comment <http://purl.obolibrary.org/obo/CL_0002573> "A myelinating Schwann cell wraps around a single axon. Myelination occurs in larger diameter axons, while a process called ensheathment occurs on smaller diameter axons in which a single cell wraps around multiple small, unmyelinated axons separating them with a thin layer of cytoplasm. The structure formed is called a Remak bundle.")
@@ -8027,25 +8040,16 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0002638> "bronchioalveolar stem cell")
 SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#is_inferred> "true") <http://purl.obolibrary.org/obo/CL_0002638> <http://purl.obolibrary.org/obo/CL_0002633>)
 
-# Class: <http://purl.obolibrary.org/obo/CL_0002658> (glandular cell of the large intestine)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:tfm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0002658> "A glandular epithelial cell of the large intestine.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/CL_0002658> <https://orcid.org/0000-0003-1980-3228>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/CL_0002658> "2011-07-08T04:03:01Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0002658> "FMA:87194")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0002658> "glandular cell of the large intestine")
-SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#is_inferred> "true") <http://purl.obolibrary.org/obo/CL_0002658> <http://purl.obolibrary.org/obo/CL_0000150>)
-SubClassOf(<http://purl.obolibrary.org/obo/CL_0002658> <http://purl.obolibrary.org/obo/CL_0002253>)
-
-# Class: <http://purl.obolibrary.org/obo/CL_0002659> (glandular cell of stomach)
+# Class: <http://purl.obolibrary.org/obo/CL_0002659> (glandular epithelial cell of stomach)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:tfm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0002659> "A glandular epithelial cell that is part of the stomach.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/CL_0002659> <https://orcid.org/0000-0003-1980-3228>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/CL_0002659> "2011-07-11T01:20:35Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0002659> "CALOHA:TS-1284")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0002659> "FMA:86554")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0002659> "glandular cell of stomach")
-SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#is_inferred> "true") <http://purl.obolibrary.org/obo/CL_0002659> <http://purl.obolibrary.org/obo/CL_0000150>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0002659> "glandular cell of stomach")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0002659> "glandular epithelial cell of stomach")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0002659> <http://purl.obolibrary.org/obo/CL_0000150>)
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0002659> <http://purl.obolibrary.org/obo/CL_0002178>)
 
 # Class: <http://purl.obolibrary.org/obo/CL_0002665> (otic fibrocyte)
@@ -8515,7 +8519,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_1000320> "goblet cell of epithelium of large intestine")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CL_1000320> <http://purl.obolibrary.org/obo/cl#cellxgene_subset>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_1000320> "large intestine goblet cell")
-SubClassOf(<http://purl.obolibrary.org/obo/CL_1000320> <http://purl.obolibrary.org/obo/CL_0002658>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_1000320> <http://purl.obolibrary.org/obo/CL_0002253>)
 SubClassOf(<http://purl.obolibrary.org/obo/CL_1000320> <http://purl.obolibrary.org/obo/CL_0019031>)
 
 # Class: <http://purl.obolibrary.org/obo/CL_1000324> (duodenal goblet cell)
@@ -8527,7 +8531,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CL_1000324> <http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_1000324> "duodenal goblet cell")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_1000324> <http://purl.obolibrary.org/obo/CL_1000317>)
-SubClassOf(<http://purl.obolibrary.org/obo/CL_1000324> <http://purl.obolibrary.org/obo/CL_1001589>)
 
 # Class: <http://purl.obolibrary.org/obo/CL_1000325> (jejunal goblet cell)
 
@@ -8668,8 +8671,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:86929") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_1000495> "small intestinal goblet cell")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CL_1000495> <http://purl.obolibrary.org/obo/cl#cellxgene_subset>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_1000495> "small intestine goblet cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_1000495> <http://purl.obolibrary.org/obo/CL_0002254>)
 SubClassOf(<http://purl.obolibrary.org/obo/CL_1000495> <http://purl.obolibrary.org/obo/CL_0019031>)
-SubClassOf(<http://purl.obolibrary.org/obo/CL_1000495> <http://purl.obolibrary.org/obo/CL_1001598>)
 
 # Class: <http://purl.obolibrary.org/obo/CL_1000497> (kidney cell)
 
@@ -8913,15 +8916,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_1001571> "hipp
 SubClassOf(<http://purl.obolibrary.org/obo/CL_1001571> <http://purl.obolibrary.org/obo/CL_0002608>)
 SubClassOf(<http://purl.obolibrary.org/obo/CL_1001571> <http://purl.obolibrary.org/obo/CL_4023111>)
 
-# Class: <http://purl.obolibrary.org/obo/CL_1001589> (duodenum glandular cell)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NPX:PDR") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_1001589> "Glandular cell of duodenal epithelium. Example: Enterocytes, Goblet cells, enteroendocrine cells; Paneth cells; M cells; Brunner's gland cell.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_1001589> "CALOHA:TS-1275")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "CALOHA:TS-1275") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CL_1001589> "duodenum glandular cells")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CL_1001589> <http://purl.obolibrary.org/obo/cl#cellxgene_subset>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_1001589> "duodenum glandular cell")
-SubClassOf(<http://purl.obolibrary.org/obo/CL_1001589> <http://purl.obolibrary.org/obo/CL_1001598>)
-
 # Class: <http://purl.obolibrary.org/obo/CL_1001593> (parathyroid glandular cell)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "HPA:HPA") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NPX:PDR") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_1001593> "Glandular cell of parathyroid epithelium. Example: Parathyroid chief cell and parathyroid oxyphil cells.")
@@ -8930,18 +8924,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "CALOHA:TS-1279") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CL_1001593> "parathyroid gland glandular cells")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_1001593> "parathyroid glandular cell")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_1001593> <http://purl.obolibrary.org/obo/CL_0000150>)
-
-# Class: <http://purl.obolibrary.org/obo/CL_1001598> (small intestine glandular cell)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NCI_Thesaurus:Small_Intestinal_Glandular_Cell") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NPX:PDR") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_1001598> "A glandular cell found in the epithelium of the small intestine. Example: Enterocytes, Goblet cells, enteroendocrine cells; Paneth cells; M cells; Somatostatin-secreting Cells (D-cells) .")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_1001598> "CALOHA:TS-1286")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_1001598> "FMA:86928")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "CALOHA:TS-1286") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CL_1001598> "small bowel glandular cell")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "CALOHA:TS-1286") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CL_1001598> "small intestinal glandular cell")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "CALOHA:TS-1286") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CL_1001598> "small intestine glandular cells")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_1001598> "small intestine glandular cell")
-SubClassOf(<http://purl.obolibrary.org/obo/CL_1001598> <http://purl.obolibrary.org/obo/CL_0000150>)
-SubClassOf(<http://purl.obolibrary.org/obo/CL_1001598> <http://purl.obolibrary.org/obo/CL_0002254>)
 
 # Class: <http://purl.obolibrary.org/obo/CL_1001599> (pancreas exocrine glandular cell)
 
