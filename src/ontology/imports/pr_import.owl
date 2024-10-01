@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/pr_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2024-09-11/imports/pr_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/pr/obophenotype/releases/2024-09-06/pr_slim.owl>)
-Annotation(owl:versionInfo "2024-09-11")
+<http://purl.obolibrary.org/obo/mp/releases/2024-10-01/imports/pr_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/pr/obophenotype/releases/2024-09-24/pr_slim.owl>)
+Annotation(owl:versionInfo "2024-10-01")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000019>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000024>))
@@ -158,7 +158,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PR_000044520>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000045358>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000050025>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000050219>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PR_000064867>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PR_000050567>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000110>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000418>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000704>))
@@ -378,11 +378,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0002185> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/GO_0003674> (molecular_function)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:pdt") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0003674> "A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:pdt") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0003674> "A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs. These actions are described from two distinct but related perspectives: (1) biochemical activity, and (2) role as a component in a larger system/process.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0003674> "molecular function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0003674> "molecular_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0003674> "GO:0003674")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GO_0003674> "Note that, in addition to forming the root of the molecular function ontology, this term is recommended for the annotation of gene products whose molecular function is unknown. When this term is used for annotation, it indicates that no information was available about the molecular function of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this. Despite its name, this is not a type of 'function' in the sense typically defined by upper ontologies such as Basic Formal Ontology (BFO). It is instead a BFO:process carried out by a single gene product or complex.")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GO_0003674> "Note that, in addition to forming the root of the molecular function ontology, this term is recommended for use for the annotation of gene products whose molecular function is unknown. When this term is used for annotation, it indicates that no information was available about the molecular function of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this. Despite its name, this is not a type of 'function' in the sense typically defined by upper ontologies such as Basic Formal Ontology (BFO). It is instead a BFO:process carried out by a single gene product or complex.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003674> "molecular_function")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0005575> (cellular_component)
@@ -405,11 +405,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0006412> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/GO_0008150> (biological_process)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:pdt") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0008150> "A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:pdt") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0008150> "A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0008150> "biological process")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0008150> "biological_process")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0008150> "GO:0008150")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GO_0008150> "Note that, in addition to forming the root of the biological process ontology, this term is recommended for the annotation of gene products whose biological process is unknown. When this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this.")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GO_0008150> "Note that, in addition to forming the root of the biological process ontology, this term is recommended for use for the annotation of gene products whose biological process is unknown. When this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008150> "biological_process")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0015269> (calcium-activated potassium channel activity)
@@ -468,7 +468,7 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000000001> "
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000000001> "protein")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PR_000000001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000018263> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <http://purl.obolibrary.org/obo/GO_0006412>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/pr#has_gene_template> <http://purl.obolibrary.org/obo/SO_0000704>)))
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> <http://purl.obolibrary.org/obo/PR_000018263>)
-SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> <http://purl.obolibrary.org/obo/PR_000064867>)
+SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> <http://purl.obolibrary.org/obo/PR_000050567>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PR_000000001>))
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <http://purl.obolibrary.org/obo/GO_0006412>))
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/pr#has_gene_template> <http://purl.obolibrary.org/obo/SO_0000704>))
@@ -575,6 +575,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/PR_000001091> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/PR_000001092> (interleukin-17)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:17982105") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:18280574") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000001092> "A protein that is a T cell-derived cytokine that may play an important role in the initiation or maintenance of the proinflammatory response. Except for IL-17B, all other IL-17 family members are homodimers containing five highly conserved cysteine residues forming characteristic cystein-knot structure, similar to that found in the TGF-beta-like cystine-knot (PR:000000008). This class consists of six cytokines. Among them, interleukin 17A (IL-17) and IL-17F are expressed by a novel subset of CD4+ helper T (Th) cells and play a critical role in inflammation and autoimmunity. On the other hand, IL-17E, also called IL-25, has been associated with allergic responses.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PR_000001092> "PANTHER:PTHR21295")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PR_000001092> "PIRSF:PIRSF003430")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000001092> "IL17")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/pr#PRO-short-label>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000001092> "fam:IL-17")
@@ -904,14 +905,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/PR_000001396> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PR_000001471> (interleukin-10)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:JAN") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000001471> "A class 2 cytokine, IL-10 type that is a translation product of the human IL10 gene or a 1:1 ortholog thereof.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PANTHER:PTHR11585:SF1") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:JAN") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000001471> "A class 2 cytokine, IL-10 type that is a translation product of the human IL10 gene or a 1:1 ortholog thereof. Active interleukin-10 inhibits the synthesis of a number of cytokines, including IFN-gamma, IL-2, IL-3, TNF and GM-CSF produced by activated macrophages and by helper T cells. Structurally, IL-10 is a protein of about 160 amino acids that contains four conserved cysteines involved in disulfide bonds.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000001471> "CSIF")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000001471> "IL-10")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/pr#PRO-short-label>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000001471> "IL10")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000001471> "cytokine synthesis inhibitory factor")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000001471> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000001471> "PR:000001471")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000001471> "Category=gene. Note: Active interleukin-10 inhibits the synthesis of a number of cytokines, including IFN-gamma, IL-2, IL-3, TNF and GM-CSF produced by activated macrophages and by helper T cells. Structurally, IL-10 is a protein of about 160 amino acids that contains four conserved cysteines involved in disulfide bonds.")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000001471> "Category=gene.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000001471> "interleukin-10")
 AnnotationAssertion(<https://w3id.org/semapv/vocab/crossSpeciesExactMatch> <http://purl.obolibrary.org/obo/PR_000001471> <http://purl.obolibrary.org/obo/PR_P22301>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000001471> <http://purl.obolibrary.org/obo/PR_000001335>)
@@ -1313,19 +1314,18 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000012037> "al
 AnnotationAssertion(<https://w3id.org/semapv/vocab/crossSpeciesExactMatch> <http://purl.obolibrary.org/obo/PR_000012037> <http://purl.obolibrary.org/obo/PR_P02763>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000012037> <http://purl.obolibrary.org/obo/PR_000000001>)
 
-# Class: <http://purl.obolibrary.org/obo/PR_000013164> (pancreatic polypeptide prohormone)
+# Class: <http://purl.obolibrary.org/obo/PR_000013164> (pancreatic prohormone)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000013164> "A protein that is a translation product of the human PPY gene or a 1:1 ortholog thereof.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000013164> "PP")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/pr#PRO-short-label>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000013164> "PPY")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000013164> "obinepitide")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000013164> "pancreatic polypeptide")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000013164> "pancreatic prohormone")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000013164> "protein")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/pr#Gene-based>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PR_000013164> "PNP")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000013164> "PR:000013164")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000013164> "Category=gene.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000013164> "pancreatic polypeptide prohormone")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000013164> "pancreatic prohormone")
 AnnotationAssertion(<https://w3id.org/semapv/vocab/crossSpeciesExactMatch> <http://purl.obolibrary.org/obo/PR_000013164> <http://purl.obolibrary.org/obo/PR_P01298>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000013164> <http://purl.obolibrary.org/obo/PR_000000001>)
 
@@ -1970,26 +1970,26 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PR_000020835> ObjectIntersecti
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000020835> <http://purl.obolibrary.org/obo/PR_000012037>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000020835> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/pr#lacks_part> <http://purl.obolibrary.org/obo/SO_0000418>))
 
-# Class: <http://purl.obolibrary.org/obo/PR_000021065> (pancreatic polypeptide prohormone, signal peptide removed form)
+# Class: <http://purl.obolibrary.org/obo/PR_000021065> (pancreatic prohormone, signal peptide removed form)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000021065> "A pancreatic polypeptide prohormone that has had the signal peptide removed.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000021065> "A pancreatic prohormone that has had the signal peptide removed.")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/pr#PRO-short-label>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000021065> "PPY/SigPep-")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000021065> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000021065> "PR:000021065")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000021065> "Category=modification.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000021065> "pancreatic polypeptide prohormone, signal peptide removed form")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000021065> "pancreatic prohormone, signal peptide removed form")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PR_000021065> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000013164> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/pr#lacks_part> <http://purl.obolibrary.org/obo/SO_0000418>)))
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000021065> <http://purl.obolibrary.org/obo/PR_000013164>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000021065> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/pr#lacks_part> <http://purl.obolibrary.org/obo/SO_0000418>))
 
-# Class: <http://purl.obolibrary.org/obo/PR_000021066> (pancreatic polypeptide prohormone proteolytic cleavage product)
+# Class: <http://purl.obolibrary.org/obo/PR_000021066> (pancreatic prohormone proteolytic cleavage product)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000021066> "A pancreatic polypeptide prohormone that has been processed by proteolytic cleavage.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000021066> "A pancreatic prohormone that has been processed by proteolytic cleavage.")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/pr#PRO-short-label>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000021066> "PPY/ClvPrd")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000021066> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000021066> "PR:000021066")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000021066> "Category=modification.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000021066> "pancreatic polypeptide prohormone proteolytic cleavage product")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000021066> "pancreatic prohormone proteolytic cleavage product")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PR_000021066> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000013164> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <http://purl.obolibrary.org/obo/GO_0016485>)))
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000021066> <http://purl.obolibrary.org/obo/PR_000013164>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000021066> <http://purl.obolibrary.org/obo/PR_000018264>)
@@ -2127,6 +2127,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/PR_000025848> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/PR_000025875> (serpin)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "InterPro:IPR000215") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:CNA") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000025875> "A protein that is primarily known as an irreversible serine protease inhibitor active against S1, S8 and C14 peptidases. There are both extra- and intra-cellular serpins, which are found in all groups of organisms with the notable exception of fungi. Serpin contains a copy of the Serpin (Pfam:PF00079) domain.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PR_000025875> "PANTHER:PTHR11461")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PR_000025875> "PIRSF:PIRSF001630")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000025875> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000025875> "PR:000025875")
@@ -2213,20 +2214,20 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000050219> "al
 AnnotationAssertion(<https://w3id.org/semapv/vocab/crossSpeciesExactMatch> <http://purl.obolibrary.org/obo/PR_000050219> <http://purl.obolibrary.org/obo/PR_000050341>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000050219> <http://purl.obolibrary.org/obo/PR_000000001>)
 
-# Class: <http://purl.obolibrary.org/obo/PR_000064867> (protein-containing molecular entity)
+# Class: <http://purl.obolibrary.org/obo/PR_000050567> (protein-containing material entity)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000064867> "A molecular entity that minimally consists of a protein.")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PR_000064867> "protein")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PR_000064867> "protein aggregate")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PR_000064867> "protein complex")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PR_000064867> "protein-containing complex")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000064867> "protein")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000064867> "PR:000064867")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000064867> "Note: This includes single proteins and derivatives thereof (PR:000000001), protein-containing complexes (GO:0032991), and protein aggregates (PR:000050565).")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000064867> "protein-containing molecular entity")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PR_000064867> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_23367> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PR_000000001>)))
-SubClassOf(<http://purl.obolibrary.org/obo/PR_000064867> <http://purl.obolibrary.org/obo/CHEBI_23367>)
-SubClassOf(<http://purl.obolibrary.org/obo/PR_000064867> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PR_000000001>))
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000050567> "A material entity that minimally consists of a protein.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PR_000050567> "protein")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PR_000050567> "protein aggregate")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PR_000050567> "protein complex")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PR_000050567> "protein-containing complex")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000050567> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000050567> "PR:000050567")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000050567> "Note: This includes single proteins and derivatives thereof (PR:000000001), protein-containing complexes (GO:0032991), and protein aggregates (PR:000050566).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000050567> "protein-containing material entity")
+EquivalentClasses(<http://purl.obolibrary.org/obo/PR_000050567> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PR_000000001>)))
+SubClassOf(<http://purl.obolibrary.org/obo/PR_000050567> <http://purl.obolibrary.org/obo/BFO_0000040>)
+SubClassOf(<http://purl.obolibrary.org/obo/PR_000050567> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PR_000000001>))
 
 # Class: <http://purl.obolibrary.org/obo/SO_0000110> (sequence_feature)
 
