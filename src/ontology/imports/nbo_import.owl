@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/nbo_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2024-11-05/imports/nbo_import.owl>
+<http://purl.obolibrary.org/obo/mp/releases/2024-11-07/imports/nbo_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/nbo/releases/2023-07-04/nbo.owl>)
-Annotation(owl:versionInfo "2024-11-05")
+Annotation(owl:versionInfo "2024-11-07")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007601>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007610>))
@@ -98,6 +98,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000336>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000338>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000339>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000342>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000347>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000348>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000355>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000357>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000358>))
@@ -939,7 +941,25 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/NBO_0000342> "George Gkoutos")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NBO_0000342> "behavior_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0000342> "limb coordination")
-SubClassOf(<http://purl.obolibrary.org/obo/NBO_0000342> <http://purl.obolibrary.org/obo/NBO_0000339>)
+SubClassOf(<http://purl.obolibrary.org/obo/NBO_0000342> <http://purl.obolibrary.org/obo/NBO_0000347>)
+
+# Class: <http://purl.obolibrary.org/obo/NBO_0000347> (gross motor coordination)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/NBO_0000347> "2011-04-05T04:10:52Z")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/NBO_0000347> "George Gkoutos")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NBO_0000347> "large muscle coordination")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NBO_0000347> "whole body coordination")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NBO_0000347> "behavior_ontology")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0000347> "gross motor coordination")
+SubClassOf(<http://purl.obolibrary.org/obo/NBO_0000347> <http://purl.obolibrary.org/obo/NBO_0000339>)
+
+# Class: <http://purl.obolibrary.org/obo/NBO_0000348> (fine motor coordination)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/NBO_0000348> "2011-04-05T04:14:38Z")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/NBO_0000348> "George Gkoutos")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NBO_0000348> "behavior_ontology")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0000348> "fine motor coordination")
+SubClassOf(<http://purl.obolibrary.org/obo/NBO_0000348> <http://purl.obolibrary.org/obo/NBO_0000339>)
 
 # Class: <http://purl.obolibrary.org/obo/NBO_0000355> (posture)
 
