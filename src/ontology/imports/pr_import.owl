@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/pr_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2024-11-07/imports/pr_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/pr/obophenotype/releases/2024-11-01/pr_slim.owl>)
-Annotation(owl:versionInfo "2024-11-07")
+<http://purl.obolibrary.org/obo/mp/releases/2024-11-11/imports/pr_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/pr/obophenotype/releases/2024-11-11/pr_slim.owl>)
+Annotation(owl:versionInfo "2024-11-11")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000019>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000024>))
@@ -155,6 +155,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PR_000021577>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000021578>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000021699>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000021935>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PR_000024938>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000024939>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000024990>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000025416>))
@@ -473,7 +474,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "IEDB:BP") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PR_000000001> "native protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000000001> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000000001> "PR:000000001")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000000001> "The definition above excludes protein complexes, which some also consider a protein. Those who wish to refer to a class representing both senses of the word are directed to CHEBI:36080. Note that the definition allows for experimentally-manipulated genes, and allows for artifically-produced derivatives that mimic those found naturally. Proteins (in the sense defined here) that descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB).")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000000001> "The definition above excludes protein complexes, which some also consider a protein. Those who wish to refer to a class representing both senses of the word are directed to CHEBI:36080. Note that the definition allows for experimentally-manipulated genes, and allows for artifically-produced derivatives that mimic those found naturally. Proteins (in the sense defined here) that descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB].")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000000001> "protein")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PR_000000001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000018263> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <http://purl.obolibrary.org/obo/GO_0006412>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/pr#has_gene_template> <http://purl.obolibrary.org/obo/SO_0000704>)))
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> <http://purl.obolibrary.org/obo/PR_000018263>)
@@ -698,6 +699,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/PR_000001370> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/PR_000001373> (interleukin-15)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:CNA") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000001373> "A protein that is a translation product of the human IL15 gene or a 1:1 ortholog thereof.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PR_000001373> "PIRSF:PIRSF001946")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000001373> "IL-15")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/pr#PRO-short-label>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000001373> "IL15")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000001373> "protein")
@@ -707,15 +709,15 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000001373> "in
 AnnotationAssertion(<https://w3id.org/semapv/vocab/crossSpeciesExactMatch> <http://purl.obolibrary.org/obo/PR_000001373> <http://purl.obolibrary.org/obo/PR_P40933>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000001373> <http://purl.obolibrary.org/obo/PR_000000001>)
 
-# Class: <http://purl.obolibrary.org/obo/PR_000001374> (pro-interleukin-16)
+# Class: <http://purl.obolibrary.org/obo/PR_000001374> (interleukin-16)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:CNA") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000001374> "A protein that is a translation product of the human IL16 gene or a 1:1 ortholog thereof.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PR_000001374> "PIRSF:PIRSF038750")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/pr#PRO-short-label>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000001374> "IL16")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000001374> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000001374> "PR:000001374")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000001374> "Category=gene.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000001374> "pro-interleukin-16")
-AnnotationAssertion(<https://w3id.org/semapv/vocab/crossSpeciesExactMatch> <http://purl.obolibrary.org/obo/PR_000001374> <http://purl.obolibrary.org/obo/PR_Q14005>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000001374> "interleukin-16")
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000001374> <http://purl.obolibrary.org/obo/PR_000000001>)
 
 # Class: <http://purl.obolibrary.org/obo/PR_000001376> (interleukin-18)
@@ -1600,14 +1602,14 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PR_000018434> ObjectIntersecti
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000018434> <http://purl.obolibrary.org/obo/PR_000001369>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000018434> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/pr#lacks_part> <http://purl.obolibrary.org/obo/SO_0000418>))
 
-# Class: <http://purl.obolibrary.org/obo/PR_000018435> (pro-interleukin-16 proteolytic cleavage product)
+# Class: <http://purl.obolibrary.org/obo/PR_000018435> (interleukin-16 proteolytic cleavage product)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000018435> "A pro-interleukin-16 that has been processed by proteolytic cleavage.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000018435> "An interleukin-16 that has been processed by proteolytic cleavage.")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/pr#PRO-short-label>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000018435> "IL16/ClvPrd")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000018435> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000018435> "PR:000018435")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000018435> "Category=modification.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000018435> "pro-interleukin-16 proteolytic cleavage product")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000018435> "interleukin-16 proteolytic cleavage product")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PR_000018435> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000001374> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <http://purl.obolibrary.org/obo/GO_0016485>)))
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000018435> <http://purl.obolibrary.org/obo/PR_000001374>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000018435> <http://purl.obolibrary.org/obo/PR_000018264>)
@@ -2206,6 +2208,15 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000021935> "immature protein part")
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000021935> <http://purl.obolibrary.org/obo/BFO_0000024>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000021935> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PR_000000001>))
+
+# Class: <http://purl.obolibrary.org/obo/PR_000024938> (interferon alpha)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/pr#PRO-short-label>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000024938> "fam:IFNA")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000024938> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000024938> "PR:000024938")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000024938> "Category=family.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000024938> "interferon alpha")
+SubClassOf(<http://purl.obolibrary.org/obo/PR_000024938> <http://purl.obolibrary.org/obo/PR_000025848>)
 
 # Class: <http://purl.obolibrary.org/obo/PR_000024939> (interferon beta)
 
