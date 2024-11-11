@@ -34,7 +34,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000052>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000054>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000057>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000063>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000073>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000079>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000084>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000085>))
@@ -373,18 +372,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NBO_0000063> "behavior_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0000063> "regulation of eating behavior")
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0000063> <http://purl.obolibrary.org/obo/NBO_0000313>)
-
-# Class: <http://purl.obolibrary.org/obo/NBO_0000073> (chewing)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0000073> "The act of repeated grinding, tearing, and or crushing with teeth or jaws [NBO:SMAC]")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/NBO_0000073> "2011-04-14T01:20:02Z")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/NBO_0000073> "George Gkoutos")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NBO_0000073> "chew"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NBO_0000073> "gnaw"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NBO_0000073> "mastication")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NBO_0000073> "behavior_ontology")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0000073> "chewing")
-SubClassOf(<http://purl.obolibrary.org/obo/NBO_0000073> <http://purl.obolibrary.org/obo/NBO_0000007>)
 
 # Class: <http://purl.obolibrary.org/obo/NBO_0000079> (feeding behavior)
 
