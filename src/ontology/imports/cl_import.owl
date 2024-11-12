@@ -609,6 +609,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CL_0011003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0011005>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0011012>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0011026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0011111>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0011115>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0012000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0012001>))
@@ -8624,6 +8625,14 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0011026> "prog
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0011026> <http://purl.obolibrary.org/obo/CL_0000255>)
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0011026> <http://purl.obolibrary.org/obo/CL_0011115>)
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0011026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/CL_0000034>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_0011111> (gonadotropin-releasing hormone neuron)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:NV") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:21828096") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0011111> "A neuroendocrine cell that secretes gonadotropin-releasing hormone (GnRH). A GnRH neuron is born in the nasal placode during embryonic development and migrates through the nose and forebrain to the hypothalamus. This cell regulates reproduction by secreting GnRH into the pituitary portal vessels to induce the release of gonadotropins into the general circulation.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0011111> "GnRH neuron")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0011111> "GnRH-secreting neuron")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0011111> "gonadotropin-releasing hormone neuron")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0011111> <http://purl.obolibrary.org/obo/CL_0000165>)
 
 # Class: <http://purl.obolibrary.org/obo/CL_0011115> (precursor cell)
 
