@@ -270,7 +270,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001562>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001563>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001564>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001566>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001570>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001571>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001573>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001575>))
@@ -3681,16 +3680,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/PATO_0001566> <http://purl.obolibrary.org/obo/pato#value_slim>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0001566> "distributed")
 SubClassOf(<http://purl.obolibrary.org/obo/PATO_0001566> <http://purl.obolibrary.org/obo/PATO_0000060>)
-
-# Class: <http://purl.obolibrary.org/obo/PATO_0001570> (having decreased processual parts)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PATO:GVG") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PATO_0001570> "A quality of a process inhering in a bearer by virtue of the bearer's having fewer processual parts.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PATO_0001570> "quality")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PATO_0001570> "PATO:0001570")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/PATO_0001570> <http://purl.obolibrary.org/obo/pato#relational_slim>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/PATO_0001570> <http://purl.obolibrary.org/obo/pato#value_slim>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0001570> "having decreased processual parts")
-SubClassOf(<http://purl.obolibrary.org/obo/PATO_0001570> <http://purl.obolibrary.org/obo/PATO_0001564>)
 
 # Class: <http://purl.obolibrary.org/obo/PATO_0001571> (dilated)
 
