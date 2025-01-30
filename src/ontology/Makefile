@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                414e67d71cd38ed4e8b3fc76f6dff2316ed3079712a508eea1172df2cffca074
+CONFIG_HASH=                3a0f89bf614f14351e385480d888e090f1483797e5eaae8f424059e0e8f5f7d2
 
 
 # ----------------------------------------
@@ -645,7 +645,7 @@ TRANSLATE_PREDICATES=rdfs:label
 
 
 $(TRANSLATIONSDIR)/mp-ja.babelon.tsv:
-	wget "None" -O $@
+	wget "https://raw.githubusercontent.com/dbcls/MP_Japanese/refs/heads/main/babelon/mp-ja.babelon.tsv" -O $@
 
 $(TRANSLATIONSDIR)/mp-ja.synonyms.tsv:
 	wget "None" -O $@

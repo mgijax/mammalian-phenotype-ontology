@@ -51,7 +51,7 @@ babelon_translation_group:
       include_robot_template_synonyms: TRUE
       language: ja
       maintenance: mirror
-      #mirror_babelon_from: https://raw.githubusercontent.com/obophenotype/hpo-translations/main/babelon/hp-ja.babelon.tsv
+      mirror_babelon_from: https://raw.githubusercontent.com/dbcls/MP_Japanese/refs/heads/main/babelon/mp-ja.babelon.tsv
     
 robot_report:
   fail_on : ERROR
