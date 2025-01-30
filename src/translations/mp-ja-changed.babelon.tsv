@@ -1,0 +1,69 @@
+subject_id	source_language	translation_language	predicate_id	source_value	translation_status	translation_value
+MP:0000385	en	ja	rdfs:label	distended hair follicles	OFFICIAL	毛包拡張
+MP:0001314	en	ja	rdfs:label	corneal opacity	OFFICIAL	角膜混濁
+MP:0001316	en	ja	rdfs:label	corneal scarring	OFFICIAL	角膜の瘢痕
+MP:0001380	en	ja	rdfs:label	reduced male mating frequency	OFFICIAL	雄交尾行動減少
+MP:0002633	en	ja	rdfs:label	persistent truncus arteriosis	OFFICIAL	総動脈幹遺残症
+MP:0002993	en	ja	rdfs:label	arthritis	OFFICIAL	関節炎
+MP:0003092	en	ja	rdfs:label	decreased corneal stroma thickness	OFFICIAL	角膜支質厚みの減少
+MP:0003095	en	ja	rdfs:label	abnormal corneal stroma development	OFFICIAL	角膜支質発生の異常
+MP:0003590	en	ja	rdfs:label	ureteral reflux	OFFICIAL	尿管の逆流
+MP:0003768	en	ja	rdfs:label	palatal telangiectases	OFFICIAL	口蓋の毛細血管拡張症
+MP:0003772	en	ja	rdfs:label	lip pits	OFFICIAL	口唇小窩
+MP:0003778	en	ja	rdfs:label	lip telangiectases	OFFICIAL	口唇の毛細血管拡張症
+MP:0004039	en	ja	rdfs:label	abnormal cardiac cell glucose uptake	OFFICIAL	心臓細胞グルコース吸収異常
+MP:0004055	en	ja	rdfs:label	atrium hypoplasia	OFFICIAL	心房の発育不全
+MP:0004105	en	ja	rdfs:label	corneal abrasion	OFFICIAL	角膜剥離
+MP:0004175	en	ja	rdfs:label	telangiectases	OFFICIAL	毛細管拡張症
+MP:0004176	en	ja	rdfs:label	ear telangiectases	OFFICIAL	耳の毛細管拡張症
+MP:0004177	en	ja	rdfs:label	tail telangiectases	OFFICIAL	尾の毛細管拡張症
+MP:0004178	en	ja	rdfs:label	neck telangiectases	OFFICIAL	頚部の毛細管拡張症
+MP:0004283	en	ja	rdfs:label	absent corneal endothelium	OFFICIAL	角膜上皮の欠損
+MP:0004564	en	ja	rdfs:label	enlarged myocardial fiber	OFFICIAL	心筋繊維の肥大化
+MP:0004565	en	ja	rdfs:label	small myocardial fiber	OFFICIAL	心筋繊維の矮小化
+MP:0005300	en	ja	rdfs:label	abnormal corneal stroma morphology	OFFICIAL	角膜支質の形態異常
+MP:0005301	en	ja	rdfs:label	abnormal corneal endothelium morphology	OFFICIAL	角膜内皮の形態異常
+MP:0005542	en	ja	rdfs:label	corneal vascularization	OFFICIAL	角膜の血管新生
+MP:0005544	en	ja	rdfs:label	corneal deposits	OFFICIAL	角膜への（無機物やタンパク質の）沈着
+MP:0005598	en	ja	rdfs:label	decreased ventricle muscle contractility	OFFICIAL	心室筋の収縮性減少
+MP:0005600	en	ja	rdfs:label	increased ventricle muscle contractility	OFFICIAL	心室筋の収縮性増加
+MP:0006000	en	ja	rdfs:label	abnormal corneal epithelium morphology	OFFICIAL	角膜上皮の形態異常
+MP:0006151	en	ja	rdfs:label	astigmatism	OFFICIAL	乱視
+MP:0008725	en	ja	rdfs:label	enlarged heart atrium	OFFICIAL	心房の肥大
+MP:0008726	en	ja	rdfs:label	enlarged heart left atrium	OFFICIAL	左心房の肥大
+MP:0008727	en	ja	rdfs:label	enlarged heart right atrium	OFFICIAL	右心房の肥大
+MP:0008740	en	ja	rdfs:label	abnormal intestinal iron level	OFFICIAL	腸管の鉄分量異常
+MP:0009697	en	ja	rdfs:label	abnormal copulation	OFFICIAL	交尾行動異常
+MP:0009742	en	ja	rdfs:label	increased corneal stroma thickness	OFFICIAL	角膜実質の厚さ増加
+MP:0009804	en	ja	rdfs:label	abnormal interventricular foramen morphology	OFFICIAL	室間孔の形態異常
+MP:0009855	en	ja	rdfs:label	midface retrusion	OFFICIAL	顔面中部後退
+MP:0010598	en	ja	rdfs:label	abnormal aortic valve anulus morphology	OFFICIAL	大動脈弁輪形態異常
+MP:0010606	en	ja	rdfs:label	abnormal pulmonary valve anulus morphology	OFFICIAL	肺動脈弁輪の形態異常
+MP:0010613	en	ja	rdfs:label	abnormal mitral valve anulus morphology	OFFICIAL	僧帽弁輪の形態異常
+MP:0010621	en	ja	rdfs:label	abnormal tricuspid valve anulus morphology	OFFICIAL	三尖弁輪の形態異常
+MP:0010647	en	ja	rdfs:label	left atrium hypoplasia	OFFICIAL	左心房形成不全
+MP:0010648	en	ja	rdfs:label	right atrium hypoplasia	OFFICIAL	右心房形成不全
+MP:0011646	en	ja	rdfs:label	abnormal sinuatrial valve morphology	OFFICIAL	洞房弁形態異常
+MP:0011647	en	ja	rdfs:label	absent sinuatrial valve	OFFICIAL	洞房弁欠如
+MP:0011650	en	ja	rdfs:label	abnormal corneal stroma collagen fibril morphology	OFFICIAL	角膜実質コラーゲン細線維形態異常
+MP:0011697	en	ja	rdfs:label	vacuolated lens	OFFICIAL	水晶体空胞化
+MP:0011899	en	ja	rdfs:label	podocyte vacuolization	OFFICIAL	有足細胞の空胞化
+MP:0012640	en	ja	rdfs:label	abnormal benz (alpha) pyrene hydroxylase activity	OFFICIAL	ベンズ（α）ピレンヒドロキシラーゼ活性異常
+MP:0012641	en	ja	rdfs:label	decreased benz (alpha) pyrene hydroxylase activity	OFFICIAL	ベンゾ（α）ピレンヒドロキシラーゼ活性低下
+MP:0012642	en	ja	rdfs:label	increased benz (alpha) pyrene hydroxylase activity	OFFICIAL	ベンゾ（α）ピレンヒドロキシラーゼ活性増加
+MP:0012687	en	ja	rdfs:label	abnormal heart atrium weight	OFFICIAL	心房重量の異常
+MP:0020197	en	ja	rdfs:label	decreased reticular tumor incidence	OFFICIAL	網様体腫瘍の発生率低下
+MP:0020199	en	ja	rdfs:label	increased reticular tumor incidence	OFFICIAL	網様体腫瘍の発生率上昇
+MP:0020369	en	ja	rdfs:label	increased intestinal iron level	OFFICIAL	腸鉄分値増加
+MP:0020385	en	ja	rdfs:label	decreased intestinal iron level	OFFICIAL	腸の鉄値低下
+MP:0020853	en	ja	rdfs:label	abnormal corneal epithelium thickness	OFFICIAL	角膜上皮の厚さ異常
+MP:0020854	en	ja	rdfs:label	increased corneal epithelium thickness	OFFICIAL	角膜上皮の厚さ増加
+MP:0020855	en	ja	rdfs:label	decreased corneal epithelium thickness	OFFICIAL	角膜上皮の厚さ減少
+MP:0020856	en	ja	rdfs:label	absent corneal epithelium	OFFICIAL	角膜上皮の厚さ欠損
+MP:0020857	en	ja	rdfs:label	corneal epithelium hyperplasia	OFFICIAL	角膜上皮過形成
+MP:0020858	en	ja	rdfs:label	corneal epithelium hypoplasia	OFFICIAL	角膜上皮の形成不全
+MP:0020859	en	ja	rdfs:label	disorganized corneal epithelium	OFFICIAL	角膜上皮の崩壊
+MP:0020861	en	ja	rdfs:label	abnormal corneal wound healing	OFFICIAL	角膜掻傷治癒異常
+MP:0030018	en	ja	rdfs:label	increased cardiac cell glucose uptake	OFFICIAL	心筋細胞グルコース取り込みの増加
+MP:0030020	en	ja	rdfs:label	decreased cardiac cell glucose uptake	OFFICIAL	心筋細胞のグルコース取り込みの減少
+MP:0031478	en	ja	rdfs:label	Brunner窶冱 gland hyperplasia	OFFICIAL	ブルンナー線過形成

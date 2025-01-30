@@ -1,0 +1,467 @@
+source_language	source_value	subject_id	predicate_id	translation_language	translation_value	translation_status
+en	thick lower lip	MP:0014312	rdfs:label	ja		NOT_TRANSLATED
+en	thin lower lip	MP:0014313	rdfs:label	ja		NOT_TRANSLATED
+en	irregular cerebellar foliation pattern	MP:0014314	rdfs:label	ja		NOT_TRANSLATED
+en	decreased heart left ventricle anterior wall thickness	MP:0014315	rdfs:label	ja		NOT_TRANSLATED
+en	decreased heart left ventricle posterior wall thickness	MP:0014316	rdfs:label	ja		NOT_TRANSLATED
+en	decreased heart left ventricle septal wall thickness	MP:0014317	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal oligodendrocyte differentiation	MP:0014318	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal heart atrium arrangement	MP:0014319	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal autopod rotation	MP:0014320	rdfs:label	ja		NOT_TRANSLATED
+en	short forelimb	MP:0014321	rdfs:label	ja		NOT_TRANSLATED
+en	short hindlimb	MP:0014322	rdfs:label	ja		NOT_TRANSLATED
+en	long hindlimb	MP:0014323	rdfs:label	ja		NOT_TRANSLATED
+en	long forelimb	MP:0014324	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal oligodendrocyte progenitor morphology	MP:0014325	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal Purkinje cell size	MP:0014326	rdfs:label	ja		NOT_TRANSLATED
+en	decreased Purkinje cell size	MP:0014327	rdfs:label	ja		NOT_TRANSLATED
+en	increased Purkinje cell size	MP:0014328	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal Purkinje cell axon morphology	MP:0014329	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal Purkinje cell focal axonal swelling	MP:0014330	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal Purkinje cell mitochondrial morphology	MP:0014331	rdfs:label	ja		NOT_TRANSLATED
+en	long retina cone cell outer segment	MP:0014332	rdfs:label	ja		NOT_TRANSLATED
+en	short retina cone cell outer segment	MP:0014333	rdfs:label	ja		NOT_TRANSLATED
+en	short retina cone cell inner segment	MP:0014334	rdfs:label	ja		NOT_TRANSLATED
+en	long retina cone cell inner segment	MP:0014335	rdfs:label	ja		NOT_TRANSLATED
+en	short retina rod cell outer segment	MP:0014336	rdfs:label	ja		NOT_TRANSLATED
+en	long retina rod cell outer segment	MP:0014337	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal spleen B cell follicle size	MP:0014338	rdfs:label	ja		NOT_TRANSLATED
+en	long retina rod cell inner segment	MP:0014339	rdfs:label	ja		NOT_TRANSLATED
+en	short retina rod cell inner segment	MP:0014340	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal hepatocyte mitochondrial morphology	MP:0014341	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal muscle fiber mitochondrial morphology	MP:0014342	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal myocardial fiber mitochondrial morphology	MP:0014343	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal skeletal muscle fiber mitochondrial morphology	MP:0014344	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal neuron mitochondrial morphology	MP:0014345	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal motor neuron mitochondrial morphology	MP:0014346	rdfs:label	ja		NOT_TRANSLATED
+en	increased spleen B cell follicle size	MP:0014347	rdfs:label	ja		NOT_TRANSLATED
+en	decreased spleen B cell follicle size	MP:0014348	rdfs:label	ja		NOT_TRANSLATED
+en	absent spleen B cell follicles	MP:0014349	rdfs:label	ja		NOT_TRANSLATED
+en	disorganized spleen B cell follicle	MP:0014350	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal spleen B cell follicle shape	MP:0014351	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal brush cell morphology	MP:0014352	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal gastrointestinal brush cell morphology	MP:0014353	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal respiratory tract brush cell morphology	MP:0014354	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal programmed cell death	MP:0014355	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal necroptotic process	MP:0014356	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal pyroptosis	MP:0014357	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal ferroptosis	MP:0014358	rdfs:label	ja		NOT_TRANSLATED
+en	increased ferroptosis	MP:0014359	rdfs:label	ja		NOT_TRANSLATED
+en	decreased ferroptosis	MP:0014360	rdfs:label	ja		NOT_TRANSLATED
+en	increased necroptotic process	MP:0014361	rdfs:label	ja		NOT_TRANSLATED
+en	decreased necroptotic process	MP:0014362	rdfs:label	ja		NOT_TRANSLATED
+en	increased pyroptosis	MP:0014363	rdfs:label	ja		NOT_TRANSLATED
+en	decreased pyroptosis	MP:0014364	rdfs:label	ja		NOT_TRANSLATED
+en	impaired short-term object recognition memory	MP:0014365	rdfs:label	ja		NOT_TRANSLATED
+en	enhanced short-term object recognition memory	MP:0014366	rdfs:label	ja		NOT_TRANSLATED
+en	impaired long-term object recognition memory	MP:0014367	rdfs:label	ja		NOT_TRANSLATED
+en	enhanced long-term object recognition memory	MP:0014368	rdfs:label	ja		NOT_TRANSLATED
+en	enhanced spatial working memory	MP:0014369	rdfs:label	ja		NOT_TRANSLATED
+en	impaired spatial working memory	MP:0014370	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal miniature excitatory postsynaptic current amplitude	MP:0014371	rdfs:label	ja		NOT_TRANSLATED
+en	decreased miniature excitatory postsynaptic current amplitude	MP:0014372	rdfs:label	ja		NOT_TRANSLATED
+en	increased miniature excitatory postsynaptic current amplitude	MP:0014373	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal miniature excitatory postsynaptic current frequency	MP:0014374	rdfs:label	ja		NOT_TRANSLATED
+en	increased miniature excitatory postsynaptic current frequency	MP:0014375	rdfs:label	ja		NOT_TRANSLATED
+en	decreased miniature excitatory postsynaptic current frequency	MP:0014376	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal excitatory postsynaptic current frequency	MP:0014377	rdfs:label	ja		NOT_TRANSLATED
+en	increased excitatory postsynaptic current frequency	MP:0014378	rdfs:label	ja		NOT_TRANSLATED
+en	decreased excitatory postsynaptic current frequency	MP:0014379	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal miniature inhibitory postsynaptic current amplitude	MP:0014380	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal miniature inhibitory postsynaptic current frequency	MP:0014381	rdfs:label	ja		NOT_TRANSLATED
+en	increased miniature inhibitory postsynaptic current frequency	MP:0014382	rdfs:label	ja		NOT_TRANSLATED
+en	decreased miniature inhibitory postsynaptic current frequency	MP:0014383	rdfs:label	ja		NOT_TRANSLATED
+en	increased miniature inhibitory postsynaptic current amplitude	MP:0014384	rdfs:label	ja		NOT_TRANSLATED
+en	decreased miniature inhibitory postsynaptic current amplitude	MP:0014385	rdfs:label	ja		NOT_TRANSLATED
+en	decreased muscle fiber mitochondrial DNA content	MP:0014386	rdfs:label	ja		NOT_TRANSLATED
+en	decreased neuron mitochondrial DNA content	MP:0014387	rdfs:label	ja		NOT_TRANSLATED
+en	decreased hepatocyte mitochondrial DNA content	MP:0014388	rdfs:label	ja		NOT_TRANSLATED
+en	decreased skeletal muscle fiber mitochondrial DNA content	MP:0014389	rdfs:label	ja		NOT_TRANSLATED
+en	decreased myocardial fiber mitochondrial DNA content	MP:0014390	rdfs:label	ja		NOT_TRANSLATED
+en	increased hepatocyte mitochondrial DNA content	MP:0014391	rdfs:label	ja		NOT_TRANSLATED
+en	increased neuron mitochondrial DNA content	MP:0014392	rdfs:label	ja		NOT_TRANSLATED
+en	increased muscle fiber mitochondrial DNA content	MP:0014393	rdfs:label	ja		NOT_TRANSLATED
+en	increased skeletal muscle fiber mitochondrial DNA content	MP:0014394	rdfs:label	ja		NOT_TRANSLATED
+en	increased myocardial fiber mitochondrial DNA content	MP:0014395	rdfs:label	ja		NOT_TRANSLATED
+en	decreased fat cell mitochondrial DNA content	MP:0014396	rdfs:label	ja		NOT_TRANSLATED
+en	increased fat cell mitochondrial DNA content	MP:0014397	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal fat cell mitochondrial morphology	MP:0014398	rdfs:label	ja		NOT_TRANSLATED
+en	decreased hematopoietic precursor cell number	MP:0014399	rdfs:label	ja		NOT_TRANSLATED
+en	increased hematopoietic precursor cell number	MP:0014400	rdfs:label	ja		NOT_TRANSLATED
+en	absent hematopoietic precursor cells	MP:0014401	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal Reissner's fiber morphology	MP:0014402	rdfs:label	ja		NOT_TRANSLATED
+en	decreased early pro-B cell number	MP:0014403	rdfs:label	ja		NOT_TRANSLATED
+en	decreased late pro-B cell number	MP:0014404	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal distortion product otoacoustic emission threshold	MP:0014405	rdfs:label	ja		NOT_TRANSLATED
+en	increased or absent distortion product otoacoustic emission threshold	MP:0014406	rdfs:label	ja		NOT_TRANSLATED
+en	decreased distortion product otoacoustic emission threshold	MP:0014407	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal distortion product otoacoustic emission amplitude	MP:0014408	rdfs:label	ja		NOT_TRANSLATED
+en	decreased distortion product otoacoustic emission amplitude	MP:0014409	rdfs:label	ja		NOT_TRANSLATED
+en	increased distortion product otoacoustic emission amplitude	MP:0014410	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal outer hair cell stereocilia length	MP:0014411	rdfs:label	ja		NOT_TRANSLATED
+en	long outer hair cell stereocilia	MP:0014412	rdfs:label	ja		NOT_TRANSLATED
+en	decreased depression-related behavior	MP:0014413	rdfs:label	ja		NOT_TRANSLATED
+en	increased depression-related behavior	MP:0014414	rdfs:label	ja		NOT_TRANSLATED
+en	increased social novelty preference	MP:0014415	rdfs:label	ja		NOT_TRANSLATED
+en	decreased social novelty preference	MP:0014416	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal liver secretion	MP:0014417	rdfs:label	ja		NOT_TRANSLATED
+en	decreased liver secretion	MP:0014418	rdfs:label	ja		NOT_TRANSLATED
+en	increased liver secretion	MP:0014419	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal liver triglyceride secretion	MP:0014420	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal liver apolipoprotein B secretion	MP:0014421	rdfs:label	ja		NOT_TRANSLATED
+en	increased liver apolipoprotein B secretion	MP:0014422	rdfs:label	ja		NOT_TRANSLATED
+en	decreased liver apolipoprotein B secretion	MP:0014423	rdfs:label	ja		NOT_TRANSLATED
+en	increased liver triglyceride secretion	MP:0014424	rdfs:label	ja		NOT_TRANSLATED
+en	decreased liver triglyceride secretion	MP:0014425	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal hyaluronic acid level	MP:0014426	rdfs:label	ja		NOT_TRANSLATED
+en	increased circulating hyaluronic acid level	MP:0014427	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating hyaluronic acid level	MP:0014428	rdfs:label	ja		NOT_TRANSLATED
+en	increased hyaluronic acid level	MP:0014429	rdfs:label	ja		NOT_TRANSLATED
+en	decreased hyaluronic acid level	MP:0014430	rdfs:label	ja		NOT_TRANSLATED
+en	increased chemokine level	MP:0014431	rdfs:label	ja		NOT_TRANSLATED
+en	decreased chemokine level	MP:0014432	rdfs:label	ja		NOT_TRANSLATED
+en	increased cytokine level	MP:0014433	rdfs:label	ja		NOT_TRANSLATED
+en	decreased cytokine level	MP:0014434	rdfs:label	ja		NOT_TRANSLATED
+en	increased interferon level	MP:0014435	rdfs:label	ja		NOT_TRANSLATED
+en	decreased interferon level	MP:0014436	rdfs:label	ja		NOT_TRANSLATED
+en	increased interleukin level	MP:0014437	rdfs:label	ja		NOT_TRANSLATED
+en	decreased interleukin level	MP:0014438	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal response to leptin	MP:0014439	rdfs:label	ja		NOT_TRANSLATED
+en	increased response to leptin	MP:0014440	rdfs:label	ja		NOT_TRANSLATED
+en	decreased response to leptin	MP:0014441	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal polar body extrusion	MP:0014442	rdfs:label	ja		NOT_TRANSLATED
+en	impaired polar body extrusion	MP:0014443	rdfs:label	ja		NOT_TRANSLATED
+en	enhanced polar body extrusion	MP:0014444	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal spindle assembly in female meiosis	MP:0014445	rdfs:label	ja		NOT_TRANSLATED
+en	enhanced spindle assembly in female meiosis	MP:0014446	rdfs:label	ja		NOT_TRANSLATED
+en	impaired spindle assembly in female meiosis	MP:0014447	rdfs:label	ja		NOT_TRANSLATED
+en	increased enzyme/coenzyme level	MP:0014448	rdfs:label	ja		NOT_TRANSLATED
+en	decreased enzyme/conezyme level	MP:0014449	rdfs:label	ja		NOT_TRANSLATED
+en	increased circulating enzyme level	MP:0014450	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating enzyme level	MP:0014451	rdfs:label	ja		NOT_TRANSLATED
+en	increased nitric oxide synthase level	MP:0014452	rdfs:label	ja		NOT_TRANSLATED
+en	decreased nitric oxide synthase level	MP:0014453	rdfs:label	ja		NOT_TRANSLATED
+en	increased hormone level	MP:0014454	rdfs:label	ja		NOT_TRANSLATED
+en	decreased hormone level	MP:0014455	rdfs:label	ja		NOT_TRANSLATED
+en	increased circulating hormone level	MP:0014456	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating hormone level	MP:0014457	rdfs:label	ja		NOT_TRANSLATED
+en	increased urine hormone level	MP:0014458	rdfs:label	ja		NOT_TRANSLATED
+en	decreased urine hormone level	MP:0014459	rdfs:label	ja		NOT_TRANSLATED
+en	increased lipid level	MP:0014460	rdfs:label	ja		NOT_TRANSLATED
+en	decreased lipid level	MP:0014461	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal sperm mitochondrial sheath size	MP:0014462	rdfs:label	ja		NOT_TRANSLATED
+en	increased sperm mitochondrial sheath size	MP:0014463	rdfs:label	ja		NOT_TRANSLATED
+en	decreased sperm mitochondrial sheath size	MP:0014464	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal sperm mitochondrial morphology	MP:0014465	rdfs:label	ja		NOT_TRANSLATED
+en	decreased sperm mitochondrial size	MP:0014466	rdfs:label	ja		NOT_TRANSLATED
+en	increased sperm mitochondrial size	MP:0014467	rdfs:label	ja		NOT_TRANSLATED
+en	disorganized sperm mitochondrial sheath	MP:0014468	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal B cell calcium ion homeostasis	MP:0014469	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal B cell migration	MP:0014470	rdfs:label	ja		NOT_TRANSLATED
+en	enhanced B cell migration	MP:0014471	rdfs:label	ja		NOT_TRANSLATED
+en	impaired B cell migration	MP:0014472	rdfs:label	ja		NOT_TRANSLATED
+en	increased pulmonary alveolus wall thickness	MP:0014473	rdfs:label	ja		NOT_TRANSLATED
+en	decreased pulmonary alveolus wall thickness	MP:0014474	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal feces bile salt level	MP:0014475	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal feces lipid level	MP:0014476	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal feces cholesterol level	MP:0014477	rdfs:label	ja		NOT_TRANSLATED
+en	increased feces bile salt level	MP:0014478	rdfs:label	ja		NOT_TRANSLATED
+en	decreased feces bile salt level	MP:0014479	rdfs:label	ja		NOT_TRANSLATED
+en	increased feces cholesterol level	MP:0014480	rdfs:label	ja		NOT_TRANSLATED
+en	decreased feces cholesterol level	MP:0014481	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal feces water content	MP:0014482	rdfs:label	ja		NOT_TRANSLATED
+en	increased feces water content	MP:0014483	rdfs:label	ja		NOT_TRANSLATED
+en	decreased feces water content	MP:0014484	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal miniature inhibitory postsynaptic current decay phase	MP:0014485	rdfs:label	ja		NOT_TRANSLATED
+en	prolonged miniature inhibitory postsynaptic current decay phase	MP:0014486	rdfs:label	ja		NOT_TRANSLATED
+en	reduced miniature inhibitory postsynaptic current decay phase	MP:0014487	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal skin sensory neuron innervation pattern	MP:0014488	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal cochlear sensory neuron innervation pattern	MP:0014489	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal inner ear vestibular sensory neuron innervation pattern	MP:0014490	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal mammary gland sensory innervation pattern	MP:0014491	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal retinal sensory neuron innervation pattern	MP:0014492	rdfs:label	ja		NOT_TRANSLATED
+en	increased circulating cytokine level	MP:0014493	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating cytokine level	MP:0014494	rdfs:label	ja		NOT_TRANSLATED
+en	increased circulating chemokine level	MP:0014495	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating chemokine level	MP:0014496	rdfs:label	ja		NOT_TRANSLATED
+en	increased circulating interleukin level	MP:0014497	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating interleukin level	MP:0014498	rdfs:label	ja		NOT_TRANSLATED
+en	increased acute phase protein level	MP:0014499	rdfs:label	ja		NOT_TRANSLATED
+en	decreased acute phase protein level	MP:0014500	rdfs:label	ja		NOT_TRANSLATED
+en	increased circulating protein level	MP:0014501	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating protein level	MP:0014502	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating myoglobin level	MP:0014503	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating procalcitonin level	MP:0014504	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal intestinal crypt stem cell morphology	MP:0014505	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal intestinal crypt stem cell number	MP:0014506	rdfs:label	ja		NOT_TRANSLATED
+en	increased intestinal crypt stem cell number	MP:0014507	rdfs:label	ja		NOT_TRANSLATED
+en	decreased intestinal crypt stem cell number	MP:0014508	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal intestinal crypt stem cell physiology	MP:0014509	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal intestinal crypt stem cell proliferation	MP:0014510	rdfs:label	ja		NOT_TRANSLATED
+en	increased intestinal crypt stem cell proliferation	MP:0014511	rdfs:label	ja		NOT_TRANSLATED
+en	decreased intestinal crypt stem cell proliferation	MP:0014512	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal circulating anti-Mullerian hormone level	MP:0014513	rdfs:label	ja		NOT_TRANSLATED
+en	increased circulating anti-Mullerian hormone level	MP:0014514	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating anti-Mullerian hormone level	MP:0014515	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal middle ear development	MP:0014516	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal outer ear development	MP:0014517	rdfs:label	ja		NOT_TRANSLATED
+en	myocardial hypertrabeculation	MP:0014518	rdfs:label	ja		NOT_TRANSLATED
+en	myocardial ventricular hypertrabeculation	MP:0014519	rdfs:label	ja		NOT_TRANSLATED
+en	myocardial atrial hypertrabeculation	MP:0014520	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal response to brain injury	MP:0014521	rdfs:label	ja		NOT_TRANSLATED
+en	decreased response to brain injury	MP:0014522	rdfs:label	ja		NOT_TRANSLATED
+en	increased response to brain injury	MP:0014523	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal pulmonary alveolar fluid clearance	MP:0014524	rdfs:label	ja		NOT_TRANSLATED
+en	impaired pulmonary alveolar fluid clearance	MP:0014525	rdfs:label	ja		NOT_TRANSLATED
+en	enhanced pulmonary alveolar fluid clearance	MP:0014526	rdfs:label	ja		NOT_TRANSLATED
+en	increased amino acid level	MP:0014527	rdfs:label	ja		NOT_TRANSLATED
+en	decreased amino acid level	MP:0014528	rdfs:label	ja		NOT_TRANSLATED
+en	decreased beta-alanine level	MP:0014529	rdfs:label	ja		NOT_TRANSLATED
+en	increased circulating amino acid level	MP:0014530	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating amino acid level	MP:0014531	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating glutathione level	MP:0014532	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating homocitrulline level	MP:0014533	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating hydroxyproline level	MP:0014534	rdfs:label	ja		NOT_TRANSLATED
+en	increased mineral level	MP:0014535	rdfs:label	ja		NOT_TRANSLATED
+en	decreased mineral level	MP:0014536	rdfs:label	ja		NOT_TRANSLATED
+en	increased calcium level	MP:0014537	rdfs:label	ja		NOT_TRANSLATED
+en	decreased calcium level	MP:0014538	rdfs:label	ja		NOT_TRANSLATED
+en	increased copper level	MP:0014539	rdfs:label	ja		NOT_TRANSLATED
+en	decreased copper level	MP:0014540	rdfs:label	ja		NOT_TRANSLATED
+en	increased iron level	MP:0014541	rdfs:label	ja		NOT_TRANSLATED
+en	decreased iron level	MP:0014542	rdfs:label	ja		NOT_TRANSLATED
+en	increased manganese level	MP:0014543	rdfs:label	ja		NOT_TRANSLATED
+en	decreased manganese level	MP:0014544	rdfs:label	ja		NOT_TRANSLATED
+en	increased phosphate level	MP:0014545	rdfs:label	ja		NOT_TRANSLATED
+en	decreased phosphate level	MP:0014546	rdfs:label	ja		NOT_TRANSLATED
+en	increased circulating mineral level	MP:0014547	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating mineral level	MP:0014548	rdfs:label	ja		NOT_TRANSLATED
+en	increased zinc level	MP:0014549	rdfs:label	ja		NOT_TRANSLATED
+en	decreased zinc level	MP:0014550	rdfs:label	ja		NOT_TRANSLATED
+en	impaired neuronal migration	MP:0014551	rdfs:label	ja		NOT_TRANSLATED
+en	enhanced neuronal migration	MP:0014552	rdfs:label	ja		NOT_TRANSLATED
+en	decreased neuronal migration	MP:0014553	rdfs:label	ja		NOT_TRANSLATED
+en	delayed neuronal migration	MP:0014554	rdfs:label	ja		NOT_TRANSLATED
+en	impaired neuronal migration orientation	MP:0014555	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal cortical ventricular zone thickness	MP:0014556	rdfs:label	ja		NOT_TRANSLATED
+en	increased cortical ventricular zone thickness	MP:0014557	rdfs:label	ja		NOT_TRANSLATED
+en	decreased cortical ventricular zone thickness	MP:0014558	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal cortical ventricular zone cell density	MP:0014559	rdfs:label	ja		NOT_TRANSLATED
+en	increased cortical ventricular zone cell density	MP:0014560	rdfs:label	ja		NOT_TRANSLATED
+en	decreased cortical ventricular zone cell density	MP:0014561	rdfs:label	ja		NOT_TRANSLATED
+en	increased tympanic ring size	MP:0014562	rdfs:label	ja		NOT_TRANSLATED
+en	duplicated tympanic ring	MP:0014563	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal circulating secretin level	MP:0014564	rdfs:label	ja		NOT_TRANSLATED
+en	increased circulating secretin level	MP:0014565	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating secretin level	MP:0014566	rdfs:label	ja		NOT_TRANSLATED
+en	increased circulating pancreatic peptide level	MP:0014567	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating pancreatic peptide level	MP:0014568	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal circulating peptide YY level	MP:0014569	rdfs:label	ja		NOT_TRANSLATED
+en	increased circulating peptide YY level	MP:0014570	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating peptide YY level	MP:0014571	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal circulating resistin level	MP:0014572	rdfs:label	ja		NOT_TRANSLATED
+en	increased circulating resistin level	MP:0014573	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating resistin level	MP:0014574	rdfs:label	ja		NOT_TRANSLATED
+en	increased intestinal transit time	MP:0014575	rdfs:label	ja		NOT_TRANSLATED
+en	decreased intestinal transit time	MP:0014576	rdfs:label	ja		NOT_TRANSLATED
+en	increased large intestinal transit time	MP:0014577	rdfs:label	ja		NOT_TRANSLATED
+en	increased small intestinal transit time	MP:0014578	rdfs:label	ja		NOT_TRANSLATED
+en	decreased large intestinal transit time	MP:0014579	rdfs:label	ja		NOT_TRANSLATED
+en	decreased small intestinal transit time	MP:0014580	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal circulating gastric inhibitory polypeptide level	MP:0014581	rdfs:label	ja		NOT_TRANSLATED
+en	increased circulating gastric inhibitory polypeptide level	MP:0014582	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating gastric inhibitory polypeptide level	MP:0014583	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal egg cylinder size	MP:0014584	rdfs:label	ja		NOT_TRANSLATED
+en	increased egg cylinder size	MP:0014585	rdfs:label	ja		NOT_TRANSLATED
+en	decreased egg cylinder size	MP:0014586	rdfs:label	ja		NOT_TRANSLATED
+en	impaired fine motor coordination	MP:0014587	rdfs:label	ja		NOT_TRANSLATED
+en	impaired gross motor coordination	MP:0014588	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal gonadotropin-releasing hormone neuron morphology	MP:0014589	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal gonadotropin-releasing hormone neuron number	MP:0014590	rdfs:label	ja		NOT_TRANSLATED
+en	increased gonadotropin-releasing hormone neuron number	MP:0014591	rdfs:label	ja		NOT_TRANSLATED
+en	decreased gonadotropin-releasing hormone neuron number	MP:0014592	rdfs:label	ja		NOT_TRANSLATED
+en	absent gonadotropin-releasing hormone neuron	MP:0014593	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal sperm cytoplasmic droplet morphology	MP:0014594	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal sperm cytoplasmic droplet number	MP:0014595	rdfs:label	ja		NOT_TRANSLATED
+en	increased sperm cytoplasmic droplet number	MP:0014596	rdfs:label	ja		NOT_TRANSLATED
+en	decreased sperm cytoplasmic droplet number	MP:0014597	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal sperm cytoplasmic droplet placement	MP:0014598	rdfs:label	ja		NOT_TRANSLATED
+en	decreased susceptibility to hyperoxia-induced injury	MP:0014599	rdfs:label	ja		NOT_TRANSLATED
+en	increased susceptibility to hyperoxia-induced injury	MP:0014600	rdfs:label	ja		NOT_TRANSLATED
+en	decreased mating frequency	MP:0014601	rdfs:label	ja		NOT_TRANSLATED
+en	decreased female mating frequency	MP:0014602	rdfs:label	ja		NOT_TRANSLATED
+en	neuromuscular synapse degeneration	MP:0014603	rdfs:label	ja		NOT_TRANSLATED
+en	hemorrhagic ovary cyst	MP:0014604	rdfs:label	ja		NOT_TRANSLATED
+en	dark liver	MP:0014605	rdfs:label	ja		NOT_TRANSLATED
+en	dark spleen	MP:0014606	rdfs:label	ja		NOT_TRANSLATED
+en	decreased reactive oxygen species production	MP:0014607	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal lipid transport	MP:0014608	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal bone marrow cavity size	MP:0014609	rdfs:label	ja		NOT_TRANSLATED
+en	increased bone marrow cavity size	MP:0014610	rdfs:label	ja		NOT_TRANSLATED
+en	decreased bone marrow cavity size	MP:0014611	rdfs:label	ja		NOT_TRANSLATED
+en	absent bone marrow cavity	MP:0014612	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal bone marrow cavity formation	MP:0014613	rdfs:label	ja		NOT_TRANSLATED
+en	delayed bone marrow cavity formation	MP:0014614	rdfs:label	ja		NOT_TRANSLATED
+en	premature bone marrow cavity formation	MP:0014615	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal spermatogonia number	MP:0014616	rdfs:label	ja		NOT_TRANSLATED
+en	decreased spermatogonia number	MP:0014617	rdfs:label	ja		NOT_TRANSLATED
+en	increased spermatogonia number	MP:0014618	rdfs:label	ja		NOT_TRANSLATED
+en	absent spermatogonia	MP:0014619	rdfs:label	ja		NOT_TRANSLATED
+en	impaired peripheral nervous system regeneration	MP:0031506	rdfs:label	ja		NOT_TRANSLATED
+en	enhanced peripheral nervous system regeneration	MP:0031507	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal vascular smooth muscle cell proliferation	MP:0031508	rdfs:label	ja		NOT_TRANSLATED
+en	decreased vascular smooth muscle cell proliferation	MP:0031509	rdfs:label	ja		NOT_TRANSLATED
+en	increased vascular smooth muscle cell proliferation	MP:0031510	rdfs:label	ja		NOT_TRANSLATED
+en	globular heart	MP:0031511	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal circulating C-peptide level	MP:0031512	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating C-peptide level	MP:0031513	rdfs:label	ja		NOT_TRANSLATED
+en	increased circulating C-peptide level	MP:0031514	rdfs:label	ja		NOT_TRANSLATED
+en	l-loop transposition of the great arteries	MP:0031515	rdfs:label	ja		NOT_TRANSLATED
+en	mitral valve inflammation	MP:0031516	rdfs:label	ja		NOT_TRANSLATED
+en	interrupted aortic arch, type c	MP:0031517	rdfs:label	ja		NOT_TRANSLATED
+en	calcified aortic valve cusp	MP:0031518	rdfs:label	ja		NOT_TRANSLATED
+en	calcified aortic valve annulus	MP:0031519	rdfs:label	ja		NOT_TRANSLATED
+en	calcified mitral valve cusp	MP:0031520	rdfs:label	ja		NOT_TRANSLATED
+en	calcified mitral valve annulus	MP:0031521	rdfs:label	ja		NOT_TRANSLATED
+en	small mitral valve	MP:0031522	rdfs:label	ja		NOT_TRANSLATED
+en	mitral valve hypoplasia	MP:0031523	rdfs:label	ja		NOT_TRANSLATED
+en	mitral valve hyperplasia	MP:0031524	rdfs:label	ja		NOT_TRANSLATED
+en	thin left ventricle myocardium compact layer	MP:0031525	rdfs:label	ja		NOT_TRANSLATED
+en	thin right ventricle myocardium compact layer	MP:0031526	rdfs:label	ja		NOT_TRANSLATED
+en	small pulmonary valve	MP:0031527	rdfs:label	ja		NOT_TRANSLATED
+en	pulmonary valve hypoplasia	MP:0031528	rdfs:label	ja		NOT_TRANSLATED
+en	pulmonary valve hyperplasia	MP:0031529	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal heart ventricle shape	MP:0031530	rdfs:label	ja		NOT_TRANSLATED
+en	decreased atrioventricular node size	MP:0031531	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal heart ventricle wall morphology	MP:0031532	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal heart left ventricle wall morphology	MP:0031533	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal heart right ventricle wall morphology	MP:0031534	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal heart atrium wall thickness	MP:0031535	rdfs:label	ja		NOT_TRANSLATED
+en	decreased heart atrium wall thickness	MP:0031536	rdfs:label	ja		NOT_TRANSLATED
+en	increased heart atrium wall thickness	MP:0031537	rdfs:label	ja		NOT_TRANSLATED
+en	quadricuspid aortic valve	MP:0031538	rdfs:label	ja		NOT_TRANSLATED
+en	decreased papillary muscle size	MP:0031539	rdfs:label	ja		NOT_TRANSLATED
+en	increased papillary muscle size	MP:0031540	rdfs:label	ja		NOT_TRANSLATED
+en	decreased sinoatrial node size	MP:0031541	rdfs:label	ja		NOT_TRANSLATED
+en	sinoatrial node hypoplasia	MP:0031542	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal heart ventricle size	MP:0031543	rdfs:label	ja		NOT_TRANSLATED
+en	decreased heart ventricle size	MP:0031544	rdfs:label	ja		NOT_TRANSLATED
+en	increased sinoatrial node size	MP:0031545	rdfs:label	ja		NOT_TRANSLATED
+en	sinoatrial node hyperplasia	MP:0031546	rdfs:label	ja		NOT_TRANSLATED
+en	increased atrioventricular node size	MP:0031547	rdfs:label	ja		NOT_TRANSLATED
+en	atrioventricular node hyperplasia	MP:0031548	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal heart valve development	MP:0031549	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal atrioventricular valve development	MP:0031550	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal mitral valve development	MP:0031551	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal tricuspid valve development	MP:0031552	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal semilunar valve development	MP:0031553	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal aortic valve development	MP:0031554	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal pulmonary valve development	MP:0031555	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal sinoatrial valve development	MP:0031556	rdfs:label	ja		NOT_TRANSLATED
+en	small tricuspid valve	MP:0031557	rdfs:label	ja		NOT_TRANSLATED
+en	tricuspid valve hyperplasia	MP:0031558	rdfs:label	ja		NOT_TRANSLATED
+en	tricuspid valve hypertrophy	MP:0031559	rdfs:label	ja		NOT_TRANSLATED
+en	decreased ganglioside level	MP:0031560	rdfs:label	ja		NOT_TRANSLATED
+en	increased ganglioside level	MP:0031561	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal heart atrium shape	MP:0031562	rdfs:label	ja		NOT_TRANSLATED
+en	pulmonary valve hypertrophy	MP:0031563	rdfs:label	ja		NOT_TRANSLATED
+en	mitral valve hypertrophy	MP:0031564	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal heart interventricular foramen morphology	MP:0031565	rdfs:label	ja		NOT_TRANSLATED
+en	small aortic valve	MP:0031566	rdfs:label	ja		NOT_TRANSLATED
+en	aortic valve hypoplasia	MP:0031567	rdfs:label	ja		NOT_TRANSLATED
+en	aortic valve hyperplasia	MP:0031568	rdfs:label	ja		NOT_TRANSLATED
+en	aortic valve hypertrophy	MP:0031569	rdfs:label	ja		NOT_TRANSLATED
+en	enlarged atrioventricular valve	MP:0031570	rdfs:label	ja		NOT_TRANSLATED
+en	atrioventricular valve hyperplasia	MP:0031571	rdfs:label	ja		NOT_TRANSLATED
+en	small atrioventricular valve	MP:0031572	rdfs:label	ja		NOT_TRANSLATED
+en	atrioventricular valve hypoplasia	MP:0031573	rdfs:label	ja		NOT_TRANSLATED
+en	thick atrioventricular valve	MP:0031574	rdfs:label	ja		NOT_TRANSLATED
+en	atrioventricular valve stenosis	MP:0031575	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal heart atrium size	MP:0031576	rdfs:label	ja		NOT_TRANSLATED
+en	decreased heart atrium size	MP:0031577	rdfs:label	ja		NOT_TRANSLATED
+en	decreased heart left atrium size	MP:0031578	rdfs:label	ja		NOT_TRANSLATED
+en	decreased heart right atrium size	MP:0031579	rdfs:label	ja		NOT_TRANSLATED
+en	enlarged semilunar valve	MP:0031580	rdfs:label	ja		NOT_TRANSLATED
+en	semilunar valve hyperplasia	MP:0031581	rdfs:label	ja		NOT_TRANSLATED
+en	small semilunar valve	MP:0031582	rdfs:label	ja		NOT_TRANSLATED
+en	semilunar valve hypoplasia	MP:0031583	rdfs:label	ja		NOT_TRANSLATED
+en	thick semilunar valve	MP:0031584	rdfs:label	ja		NOT_TRANSLATED
+en	semilunar valve stenosis	MP:0031585	rdfs:label	ja		NOT_TRANSLATED
+en	perivascular cardiac fibrosis	MP:0031586	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal pericardium development	MP:0031587	rdfs:label	ja		NOT_TRANSLATED
+en	distended epicardium	MP:0031588	rdfs:label	ja		NOT_TRANSLATED
+en	detached epicardium	MP:0031589	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal epicardium development	MP:0031590	rdfs:label	ja		NOT_TRANSLATED
+en	detached endocardium	MP:0031591	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal endocardium development	MP:0031592	rdfs:label	ja		NOT_TRANSLATED
+en	decreased cardiac jelly amount	MP:0031593	rdfs:label	ja		NOT_TRANSLATED
+en	increased cardiac jelly amount	MP:0031594	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal adipose tissue apoptosis	MP:0031595	rdfs:label	ja		NOT_TRANSLATED
+en	decreased adipose tissue apoptosis	MP:0031596	rdfs:label	ja		NOT_TRANSLATED
+en	increased adipose tissue apoptosis	MP:0031597	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal white adipose tissue apoptosis	MP:0031598	rdfs:label	ja		NOT_TRANSLATED
+en	decreased white adipose tissue apoptosis	MP:0031599	rdfs:label	ja		NOT_TRANSLATED
+en	increased white adipose tissue apoptosis	MP:0031600	rdfs:label	ja		NOT_TRANSLATED
+en	decreased endoplasmic reticulum stress	MP:0031601	rdfs:label	ja		NOT_TRANSLATED
+en	white adipose tissue inflammation	MP:0031602	rdfs:label	ja		NOT_TRANSLATED
+en	brown adipose tissue inflammation	MP:0031603	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal susceptibility to age-related retinal degeneration	MP:0031604	rdfs:label	ja		NOT_TRANSLATED
+en	decreased susceptibility to age-related retinal degeneration	MP:0031605	rdfs:label	ja		NOT_TRANSLATED
+en	increased susceptibility to age-related retinal degeneration	MP:0031606	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal fetal cardiomyocyte mitochondrial morphology	MP:0031607	rdfs:label	ja		NOT_TRANSLATED
+en	decreased fetal cardiomyocyte size	MP:0031608	rdfs:label	ja		NOT_TRANSLATED
+en	increased fetal cardiomyocyte size	MP:0031609	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal fetal cardiomyocyte number	MP:0031610	rdfs:label	ja		NOT_TRANSLATED
+en	decreased fetal cardiomyocyte number	MP:0031611	rdfs:label	ja		NOT_TRANSLATED
+en	increased fetal cardiomyocyte number	MP:0031612	rdfs:label	ja		NOT_TRANSLATED
+en	fetal cardiomyocyte disarray	MP:0031613	rdfs:label	ja		NOT_TRANSLATED
+en	fetal cardiomyocyte vacuoles	MP:0031614	rdfs:label	ja		NOT_TRANSLATED
+en	decreased muscle glycogen level	MP:0031615	rdfs:label	ja		NOT_TRANSLATED
+en	increased muscle glycogen level	MP:0031616	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal skeletal muscle cell glucose uptake	MP:0031617	rdfs:label	ja		NOT_TRANSLATED
+en	decreased skeletal muscle cell glucose uptake	MP:0031618	rdfs:label	ja		NOT_TRANSLATED
+en	increased skeletal muscle cell glucose uptake	MP:0031619	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal chromatoid body morphology	MP:0031620	rdfs:label	ja		NOT_TRANSLATED
+en	small dental pulp chamber	MP:0031621	rdfs:label	ja		NOT_TRANSLATED
+en	small dental pulp canal	MP:0031622	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal tooth physiology	MP:0031623	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal dental pulp cell apoptosis	MP:0031624	rdfs:label	ja		NOT_TRANSLATED
+en	decreased dental pulp cell apoptosis	MP:0031625	rdfs:label	ja		NOT_TRANSLATED
+en	increased dental pulp cell apoptosis	MP:0031626	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal copulation physiology	MP:0031627	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal intromission	MP:0031628	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal mounting behavior	MP:0031629	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal lung cholesterol level	MP:0031630	rdfs:label	ja		NOT_TRANSLATED
+en	decreased lung cholesterol level	MP:0031631	rdfs:label	ja		NOT_TRANSLATED
+en	increased lung cholesterol level	MP:0031632	rdfs:label	ja		NOT_TRANSLATED
+en	decreased heart left ventricle muscle contractility	MP:0031633	rdfs:label	ja		NOT_TRANSLATED
+en	decreased heart right ventricle muscle contractility	MP:0031634	rdfs:label	ja		NOT_TRANSLATED
+en	increased heart left ventricle muscle contractility	MP:0031635	rdfs:label	ja		NOT_TRANSLATED
+en	increased heart right ventricle muscle contractility	MP:0031636	rdfs:label	ja		NOT_TRANSLATED
+en	methioninuria	MP:0031637	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal alanine level	MP:0031638	rdfs:label	ja		NOT_TRANSLATED
+en	decreased alanine level	MP:0031639	rdfs:label	ja		NOT_TRANSLATED
+en	increased alanine level	MP:0031640	rdfs:label	ja		NOT_TRANSLATED
+en	alaninuria	MP:0031641	rdfs:label	ja		NOT_TRANSLATED
+en	phenylalaninuria	MP:0031642	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal myocardial fiber apoptosis	MP:0031643	rdfs:label	ja		NOT_TRANSLATED
+en	decreased myocardial fiber apoptosis	MP:0031644	rdfs:label	ja		NOT_TRANSLATED
+en	increased myocardial fiber apoptosis	MP:0031645	rdfs:label	ja		NOT_TRANSLATED
+en	impotence	MP:0031646	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal cerebrospinal fluid glucose level	MP:0031647	rdfs:label	ja		NOT_TRANSLATED
+en	decreased cerebrospinal fluid glucose level	MP:0031648	rdfs:label	ja		NOT_TRANSLATED
+en	increased cerebrospinal fluid glucose level	MP:0031649	rdfs:label	ja		NOT_TRANSLATED
+en	decreased mounting behavior	MP:0031650	rdfs:label	ja		NOT_TRANSLATED
+en	increased mounting behavior	MP:0031651	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal brain calcium level	MP:0031652	rdfs:label	ja		NOT_TRANSLATED
+en	decreased brain calcium level	MP:0031653	rdfs:label	ja		NOT_TRANSLATED
+en	increased brain calcium level	MP:0031654	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal brain magnesium level	MP:0031655	rdfs:label	ja		NOT_TRANSLATED
+en	decreased brain magnesium level	MP:0031656	rdfs:label	ja		NOT_TRANSLATED
+en	increased brain magnesium level	MP:0031657	rdfs:label	ja		NOT_TRANSLATED
+en	decreased magnesium level	MP:0031658	rdfs:label	ja		NOT_TRANSLATED
+en	increased magnesium level	MP:0031659	rdfs:label	ja		NOT_TRANSLATED
+en	prenatal lethality prior to heart atrial septation, incomplete penetrance	MP:0031660	rdfs:label	ja		NOT_TRANSLATED
+en	prenatal lethality prior to heart atrial septation, complete penetrance	MP:0031661	rdfs:label	ja		NOT_TRANSLATED
+en	towards	RO:0002503	rdfs:label	ja		NOT_TRANSLATED
+en	has modifier	RO:0002573	rdfs:label	ja		NOT_TRANSLATED
