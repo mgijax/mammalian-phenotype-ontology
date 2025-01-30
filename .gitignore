@@ -62,3 +62,9 @@ mp.json
 mp.obo
 mp.owl
 src/ontology/translations/mp-ja.owl
+src/translations/mp-ja-preprocessed.babelon.tsv
+src/translations/mp-ja.synonyms.owl
+src/translations/mp-all.babelon.json
+mp-international.json
+mp-international.obo
+mp-international.owl

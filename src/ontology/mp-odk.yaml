@@ -3,8 +3,9 @@ title: "Mammalian Phenotype Ontology"
 github_org: obophenotype
 repo: mammalian-phenotype-ontology
 use_dosdps: TRUE
+use_translations: TRUE
 dosdp_tools_options: "--obo-prefixes=true --restrict-axioms-to=logical"
-allow_equivalents: assert-only
+allow_equivalents: asserted-only
 namespaces: 
   - http://purl.obolibrary.org/obo/MP_
   - http://purl.obolibrary.org/obo/mp[#]
@@ -15,7 +16,7 @@ release_artefacts:
   - base
   - simple-non-classified
   - full
-  - custom-mp-international
+  - international
 primary_release: simple-non-classified
 export_formats:
   - owl
@@ -39,7 +40,19 @@ import_group:
       mirror_from: http://purl.obolibrary.org/obo/cl/cl-simple.owl
     - id: mpath
 robot_java_args: '-Xmx8G'
-allow_equivalents: asserted-only
+babelon_translation_group:
+  release_merged_translations: TRUE
+  translate_ontology: mp.obo
+  oak_adapter: pronto:mp.obo
+  predicates:
+    - rdfs:label
+  products:
+    - id: mp-ja
+      include_robot_template_synonyms: TRUE
+      language: ja
+      maintenance: mirror
+      mirror_babelon_from: https://raw.githubusercontent.com/dbcls/MP_Japanese/refs/heads/main/babelon/mp-ja.babelon.tsv
+    
 robot_report:
   fail_on : ERROR
   use_labels : False

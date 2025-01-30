@@ -1,0 +1,9 @@
+subject_id	source_language	translation_language	predicate_id	source_value	translation_status	translation_value
+MP:0001380	en	ja	rdfs:label	reduced male mating frequency	OFFICIAL	雄交尾行動減少
+MP:0008740	en	ja	rdfs:label	abnormal intestinal iron level	OFFICIAL	腸管の鉄分量異常
+MP:0014543	en	ja	rdfs:label	decreased manganese level	OFFICIAL	マンガン濃度上昇
+MP:0020197	en	ja	rdfs:label	decreased reticular tumor incidence	OFFICIAL	網様体腫瘍の発生率低下
+MP:0020199	en	ja	rdfs:label	increased reticular tumor incidence	OFFICIAL	網様体腫瘍の発生率上昇
+MP:0020369	en	ja	rdfs:label	increased intestinal iron level	OFFICIAL	腸鉄分値増加
+MP:0020385	en	ja	rdfs:label	decreased intestinal iron level	OFFICIAL	腸の鉄値低下
+MP:0031478	en	ja	rdfs:label	Brunner s gland hyperplasia	OFFICIAL	ブルンナー線過形成

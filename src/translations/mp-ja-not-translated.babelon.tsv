@@ -1,0 +1,61 @@
+source_language	source_value	subject_id	predicate_id	translation_language	translation_value	translation_status
+en	abnormal circulating secretin level	MP:0014564	rdfs:label	ja		NOT_TRANSLATED
+en	increased circulating secretin level	MP:0014565	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating secretin level	MP:0014566	rdfs:label	ja		NOT_TRANSLATED
+en	increased circulating pancreatic peptide level	MP:0014567	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating pancreatic peptide level	MP:0014568	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal circulating peptide YY level	MP:0014569	rdfs:label	ja		NOT_TRANSLATED
+en	increased circulating peptide YY level	MP:0014570	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating peptide YY level	MP:0014571	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal circulating resistin level	MP:0014572	rdfs:label	ja		NOT_TRANSLATED
+en	increased circulating resistin level	MP:0014573	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating resistin level	MP:0014574	rdfs:label	ja		NOT_TRANSLATED
+en	increased intestinal transit time	MP:0014575	rdfs:label	ja		NOT_TRANSLATED
+en	decreased intestinal transit time	MP:0014576	rdfs:label	ja		NOT_TRANSLATED
+en	increased large intestinal transit time	MP:0014577	rdfs:label	ja		NOT_TRANSLATED
+en	increased small intestinal transit time	MP:0014578	rdfs:label	ja		NOT_TRANSLATED
+en	decreased large intestinal transit time	MP:0014579	rdfs:label	ja		NOT_TRANSLATED
+en	decreased small intestinal transit time	MP:0014580	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal circulating gastric inhibitory polypeptide level	MP:0014581	rdfs:label	ja		NOT_TRANSLATED
+en	increased circulating gastric inhibitory polypeptide level	MP:0014582	rdfs:label	ja		NOT_TRANSLATED
+en	decreased circulating gastric inhibitory polypeptide level	MP:0014583	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal egg cylinder size	MP:0014584	rdfs:label	ja		NOT_TRANSLATED
+en	increased egg cylinder size	MP:0014585	rdfs:label	ja		NOT_TRANSLATED
+en	decreased egg cylinder size	MP:0014586	rdfs:label	ja		NOT_TRANSLATED
+en	impaired fine motor coordination	MP:0014587	rdfs:label	ja		NOT_TRANSLATED
+en	impaired gross motor coordination	MP:0014588	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal gonadotropin-releasing hormone neuron morphology	MP:0014589	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal gonadotropin-releasing hormone neuron number	MP:0014590	rdfs:label	ja		NOT_TRANSLATED
+en	increased gonadotropin-releasing hormone neuron number	MP:0014591	rdfs:label	ja		NOT_TRANSLATED
+en	decreased gonadotropin-releasing hormone neuron number	MP:0014592	rdfs:label	ja		NOT_TRANSLATED
+en	absent gonadotropin-releasing hormone neuron	MP:0014593	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal sperm cytoplasmic droplet morphology	MP:0014594	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal sperm cytoplasmic droplet number	MP:0014595	rdfs:label	ja		NOT_TRANSLATED
+en	increased sperm cytoplasmic droplet number	MP:0014596	rdfs:label	ja		NOT_TRANSLATED
+en	decreased sperm cytoplasmic droplet number	MP:0014597	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal sperm cytoplasmic droplet placement	MP:0014598	rdfs:label	ja		NOT_TRANSLATED
+en	decreased susceptibility to hyperoxia-induced injury	MP:0014599	rdfs:label	ja		NOT_TRANSLATED
+en	increased susceptibility to hyperoxia-induced injury	MP:0014600	rdfs:label	ja		NOT_TRANSLATED
+en	decreased mating frequency	MP:0014601	rdfs:label	ja		NOT_TRANSLATED
+en	decreased female mating frequency	MP:0014602	rdfs:label	ja		NOT_TRANSLATED
+en	neuromuscular synapse degeneration	MP:0014603	rdfs:label	ja		NOT_TRANSLATED
+en	hemorrhagic ovary cyst	MP:0014604	rdfs:label	ja		NOT_TRANSLATED
+en	dark liver	MP:0014605	rdfs:label	ja		NOT_TRANSLATED
+en	dark spleen	MP:0014606	rdfs:label	ja		NOT_TRANSLATED
+en	decreased reactive oxygen species production	MP:0014607	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal lipid transport	MP:0014608	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal bone marrow cavity size	MP:0014609	rdfs:label	ja		NOT_TRANSLATED
+en	increased bone marrow cavity size	MP:0014610	rdfs:label	ja		NOT_TRANSLATED
+en	decreased bone marrow cavity size	MP:0014611	rdfs:label	ja		NOT_TRANSLATED
+en	absent bone marrow cavity	MP:0014612	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal bone marrow cavity formation	MP:0014613	rdfs:label	ja		NOT_TRANSLATED
+en	delayed bone marrow cavity formation	MP:0014614	rdfs:label	ja		NOT_TRANSLATED
+en	premature bone marrow cavity formation	MP:0014615	rdfs:label	ja		NOT_TRANSLATED
+en	abnormal spermatogonia number	MP:0014616	rdfs:label	ja		NOT_TRANSLATED
+en	decreased spermatogonia number	MP:0014617	rdfs:label	ja		NOT_TRANSLATED
+en	increased spermatogonia number	MP:0014618	rdfs:label	ja		NOT_TRANSLATED
+en	absent spermatogonia	MP:0014619	rdfs:label	ja		NOT_TRANSLATED
+en	prenatal lethality prior to heart atrial septation, incomplete penetrance	MP:0031660	rdfs:label	ja		NOT_TRANSLATED
+en	prenatal lethality prior to heart atrial septation, complete penetrance	MP:0031661	rdfs:label	ja		NOT_TRANSLATED
+en	towards	RO:0002503	rdfs:label	ja		NOT_TRANSLATED
+en	has modifier	RO:0002573	rdfs:label	ja		NOT_TRANSLATED
