@@ -81,3 +81,17 @@ remove_patternised_classes: $(SRC) patternised_classes.txt
 #	$(ROBOT) extract -i $< -T signature.txt --method BOT \
 #		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
 #.PRECIOUS: imports/all_import.owl
+
+###############################
+###### Japanese version #######
+
+# Most of this is handled by ODK.
+
+$(TRANSLATIONSDIR)/$(ONT)-ja.owl: $(TRANSLATIONSDIR)/mp-ja.babelon.owl $(TRANSLATIONSDIR)/mp-ja.synonyms.owl $(ONT).owl
+	mkdir -p $(REPORTDIR)
+	$(ROBOT) merge -i $(TRANSLATIONSDIR)/mp-ja.babelon.owl -i $(TRANSLATIONSDIR)/mp-ja.synonyms.owl -i $(ONT).owl -o $(TMPDIR)/$(ONT)-ja-merged.ttl
+	update --data=$(TMPDIR)/$(ONT)-ja-merged.ttl --update=../sparql/relegate-updated-labels-to-candidate-status.ru --update=../sparql/rm-original-translation.ru --dump >> $(TMPDIR)/$(ONT)-ja-updated.ttl
+	arq --query=../sparql/relegate-updated-labels-to-candidate-status.sparql --data=$(TMPDIR)/$(ONT)-ja-merged.ttl --results=TSV > $(REPORTDIR)/updated-labels-to-candidate-status-ja.tsv
+	$(ROBOT) remove -i $(TMPDIR)/$(ONT)-ja-updated.ttl --base-iri $(URIBASE)/MP --axioms external --preserve-structure false --trim false \
+	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@
+.PRECIOUS: $(TRANSLATIONSDIR)/$(ONT)-ja.owl

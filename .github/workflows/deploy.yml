@@ -7,7 +7,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    container: obolibrary/odkfull:v1.5
+    container: obolibrary/odkfull:v1.5.4
     strategy:
       max-parallel: 1
       
@@ -42,10 +42,10 @@ jobs:
             mp-full.obo
             mp-full.json
             mp-international.owl
-            src/ontology/translations/mp-ja.babelon.tsv
-            src/ontology/translations/mp-ja.owl
-            src/ontology/translations/mp-profile-ja.owl
-            src/ontology/reports/updated-labels-to-candidate-status-ja.tsv
+            src/translations/mp-ja.babelon.tsv
+            src/translations/mp-ja.owl
+            src/translations/mp-ja-changed.babelon.tsv
+            src/translations/mp-ja-not-translated.babelon.tsv
             mp-simple-non-classified.owl
             mp-simple-non-classified.obo
             mp-simple-non-classified.json
