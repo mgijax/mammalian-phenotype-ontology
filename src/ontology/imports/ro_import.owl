@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/ro_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2025-04-01/imports/ro_import.owl>
+<http://purl.obolibrary.org/obo/mp/releases/2025-04-24/imports/ro_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ro/releases/2025-03-05/ro.owl>)
-Annotation(owl:versionInfo "2025-04-01")
+Annotation(owl:versionInfo "2025-04-24")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))
@@ -92,8 +92,6 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002258>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002263>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002264>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002286>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002295>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002296>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002304>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002305>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002314>))
@@ -181,7 +179,6 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0019001>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0019002>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0020104>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0020105>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0040036>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000002>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000120>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000121>))
@@ -1102,32 +1099,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002286> "developmentally succeeded by"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002286> <http://purl.obolibrary.org/obo/RO_0002384>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002295> (results in developmental progression of)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002295> <http://purl.obolibrary.org/obo/IAO_0000125>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002295> "p results in the developmental progression of s iff p is a developmental process and s is an anatomical entity and p causes s to undergo a change in state at some point along its natural developmental cycle (this cycle starts with its formation, through the mature structure, and ends with its loss).")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/RO_0002295> "This property and its subproperties are being used primarily for the definition of GO developmental processes. The property hierarchy mirrors the core GO hierarchy. In future we may be able to make do with a more minimal set of properties, but due to the way GO is currently structured we require highly specific relations to avoid incorrect entailments. To avoid this, the corresponding genus terms in GO should be declared mutually disjoint.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002295> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002295> "results in developmental progression of"@en)
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_0002295> <http://wiki.geneontology.org/index.php/Ontology_extensions>)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002295> <http://purl.obolibrary.org/obo/RO_0002324>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002295> <http://purl.obolibrary.org/obo/GO_0008150>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002295> <http://purl.obolibrary.org/obo/UBERON_0001062>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002296> (results in development of)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0002296> "every flower development (GO:0009908) results in development of some flower (PO:0009046)"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002296> <http://purl.obolibrary.org/obo/IAO_0000125>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002296> "p 'results in development of' c if and only if p is a developmental process and p results in the state of c changing from its initial state as a primordium or anlage through its mature state and to its final state.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002296> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/RO_0002296> "http://www.geneontology.org/GO.doc.development.shtml"^^xsd:anyURI)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002296> <http://purl.obolibrary.org/obo/valid_for_go_annotation_extension>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002296> <http://purl.obolibrary.org/obo/valid_for_go_ontology>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002296> <http://purl.obolibrary.org/obo/valid_for_gocam>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002296> "results in development of"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002296> <http://purl.obolibrary.org/obo/RO_0002295>)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002296> <http://purl.obolibrary.org/obo/RO_0040036>)
-
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002304> (causally upstream of, positive effect)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002304> "p is causally upstream of, positive effect q iff p is casually upstream of q, and the execution of p is required for the execution of q.")
@@ -1980,14 +1951,6 @@ AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibra
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/RO_0020105> "2024-10-29T09:55:07Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0020105> "is anatomical entity")
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0020105> <http://purl.obolibrary.org/obo/UBERON_0001062>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0040036> (results in changes to anatomical or cellular structure)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0040036> "p has anatomical participant c iff p has participant c, and c is an anatomical entity")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/RO_0040036> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/RO_0040036> "2018-09-26T01:08:58Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0040036> "results in changes to anatomical or cellular structure")
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0040036> <http://purl.obolibrary.org/obo/RO_0000057>)
 
 
 
