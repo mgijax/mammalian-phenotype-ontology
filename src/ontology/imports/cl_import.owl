@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/cl_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2025-04-24/imports/cl_import.owl>
+<http://purl.obolibrary.org/obo/mp/releases/2025-05-01/imports/cl_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/cl/releases/2025-04-10/cl-simple.owl>)
-Annotation(owl:versionInfo "2025-04-24")
+Annotation(owl:versionInfo "2025-05-01")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000006>))
@@ -582,6 +582,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CL_0007003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0007004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0007009>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0007010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0007011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0008000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0008001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0008007>))
@@ -670,6 +671,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CL_2000028>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_2000029>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_2000030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_2000032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_2000073>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_2000074>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_2000084>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_3000004>))
@@ -8551,6 +8553,18 @@ SubClassOf(<http://purl.obolibrary.org/obo/CL_0007010> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0007010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/CL_0000222>))
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0007010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/CL_0000333>))
 
+# Class: <http://purl.obolibrary.org/obo/CL_0007011> (enteric neuron)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "CL:MAH") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0007011> "Neuron that is part of the enteric nervous system.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/CL_0007011> <https://orcid.org/0000-0001-9114-8737>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/CL_0007011> "2012-06-28T08:20:31Z"^^xsd:dateTime)
+AnnotationAssertion(Annotation(<https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/UnspecifiedMatching>) <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0007011> "ZFA:0005775")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CL_0007011> <http://purl.obolibrary.org/obo/cl#cellxgene_subset>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0007011> "enteric neuron")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0007011> <http://purl.obolibrary.org/obo/CL_0000029>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0007011> <http://purl.obolibrary.org/obo/CL_0000107>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0007011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/CL_0002607>))
+
 # Class: <http://purl.obolibrary.org/obo/CL_0008000> (non-striated muscle cell)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:DOS") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0008000> "Any muscle cell in which the fibers are not organised into sarcomeres.")
@@ -9475,6 +9489,16 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CL_2000032> <http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_2000032> "peripheral nervous system neuron")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_2000032> <http://purl.obolibrary.org/obo/CL_0000540>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_2000073> (migratory cardiac neural crest cell)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:TermGenie") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_2000073> "Any migratory neural crest cell that is part of a cardiac neural crest.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/CL_2000073> <http://www.wikidata.org/entity/Q35563349>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/CL_2000073> "2014-11-05T01:18:43Z"^^xsd:dateTime)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:33060096") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_2000073> "cardiac neural crest cell")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CL_2000073> "CL:2000073")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_2000073> "migratory cardiac neural crest cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_2000073> <http://purl.obolibrary.org/obo/CL_0000333>)
 
 # Class: <http://purl.obolibrary.org/obo/CL_2000074> (splenocyte)
 
