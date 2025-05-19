@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/cl_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2025-05-01/imports/cl_import.owl>
+<http://purl.obolibrary.org/obo/mp/releases/2025-05-19/imports/cl_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/cl/releases/2025-04-10/cl-simple.owl>)
-Annotation(owl:versionInfo "2025-05-01")
+Annotation(owl:versionInfo "2025-05-19")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000006>))
@@ -220,7 +220,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000518>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000525>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000526>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000527>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000529>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000540>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000541>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000542>))
@@ -267,6 +266,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000634>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000635>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000636>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000637>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000638>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000639>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000642>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000644>))
@@ -483,9 +483,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002260>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002262>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002274>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002292>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002303>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002308>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002309>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002311>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002312>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002315>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002319>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002320>))
@@ -3807,13 +3808,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000527> "efferent neuron")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0000527> <http://purl.obolibrary.org/obo/CL_0000540>)
 
-# Class: <http://purl.obolibrary.org/obo/CL_0000529> (pigmented epithelial cell)
-
-AnnotationAssertion(Annotation(<https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/UnspecifiedMatching>) <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000529> "ZFA:0009241")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CL_0000529> <http://purl.obolibrary.org/obo/cl#cellxgene_subset>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000529> "pigmented epithelial cell")
-SubClassOf(<http://purl.obolibrary.org/obo/CL_0000529> <http://purl.obolibrary.org/obo/CL_0000710>)
-
 # Class: <http://purl.obolibrary.org/obo/CL_0000540> (neuron)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "MESH:D009474") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://en.wikipedia.org/wiki/Neuron") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000540> "The basic cellular unit of nervous tissue. Each neuron consists of a body, an axon, and dendrites. Their purpose is to receive, conduct, and transmit impulses in the nervous system.")
@@ -4485,6 +4479,17 @@ SubClassOf(<http://purl.obolibrary.org/obo/CL_0000637> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0000637> <http://purl.obolibrary.org/obo/CL_0000166>)
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0000637> <http://purl.obolibrary.org/obo/CL_0000167>)
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0000637> <http://purl.obolibrary.org/obo/CL_2000004>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000638> (acidophil cell of pars distalis of adenohypophysis)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:tfm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000638> "An acidophilic chromophil cell that of the anterior pituitary gland.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000638> "FMA:83093")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0000638> "acidophil cell of pars anterior of adenohypophysis")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0000638> "acidophil of pars anterior of adenohypophysis")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0000638> "acidophil of pars distalis of adenohypophysis")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0000638> "pituitary alpha cell")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000638> "acidophil cell of pars distalis of adenohypophysis")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000638> <http://purl.obolibrary.org/obo/CL_0000637>)
 
 # Class: <http://purl.obolibrary.org/obo/CL_0000639> (basophil cell of pars distalis of adenohypophysis)
 
@@ -7438,27 +7443,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0002292> "type I cell of carotid body")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0002292> <http://purl.obolibrary.org/obo/CL_0000710>)
 
-# Class: <http://purl.obolibrary.org/obo/CL_0002303> (pigmented ciliary epithelial cell)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:15106942") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0002303> "A cell that is part of pigmented ciliary epithelium. This cell type uptakes sodium and chloride ions from stromal interstitium and passes the ions to non-pigmented ciliary epithelial cells via gap junctions.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_0002303> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/CL_0002303> <https://orcid.org/0000-0003-1980-3228>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1016/S1569-2590(05)10005-6") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1444-0938.2002.tb02384.x") <http://purl.org/dc/terms/description> <http://purl.obolibrary.org/obo/CL_0002303> "Pigmented ciliary epithelial cells, which are a type of pigment cell, have a crucial function within the eye's ciliary body. The ciliary body, located behind the iris, is one of the eye’s most vital structures and consists of two types of epithelial cells: the pigmented and the non-pigmented ciliary epithelial cells. The pigmented ciliary epithelial cells form the outer layer of the ciliary body and exhibit a black or brown pigmentation due to the melanin they contain.
-One key function of pigmented ciliary epithelial cells is to aid in the formation of aqueous humor, an intraocular fluid that nourishes the cornea and lens, and maintains intraocular pressure which is essential for the eye’s shape and light refraction. These cells facilitate this function in conjunction with the non-pigmented ciliary epithelial cells. Together, the pigmented and non-pigmented ciliary epithelial cells form a bilayer epithelium that allows the secretion of aqueous humor through a bi-directional fluid transport mechanism.
-Pigmented ciliary epithelial cells also contribute to the blood-aqueous barrier, a physiological frontier that controls the entry and exit of various substances from the blood to the aqueous humor and vice versa. The pigmentation in these cells, intensified by melanin, helps to absorb scattered light coming into the eye, reducing any potential damage and glare.
-
-(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/CL_0002303> "2010-09-13T04:09:27Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0002303> "FMA:70606")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0002303> "https://cellxgene.cziscience.com/cellguide/CL_0002303")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.1016/j.exer.2003.09.021") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0002303> "PE cell")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CL_0002303> <http://purl.obolibrary.org/obo/cl#cellxgene_subset>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CL_0002303> <http://purl.obolibrary.org/obo/cl#eye_upper_slim>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CL_0002303> <http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.1016/j.exer.2003.09.021") rdfs:comment <http://purl.obolibrary.org/obo/CL_0002303> "In a consensus model of unidirectional secretion, aqueous humour is formed by transferring solute, principally NaCl, from stroma to posterior chamber, with water passively following the osmotic gradient. Unidirectional secretion comprises three sequential steps. First, NaCl is transferred from the stromal interstitium into the pigmented ciliary epithelial (PE) cells. Second, solute passes from the PE into the non-pigmented ciliary epithelial (NPE) cells through gap junctions. Finally, NPE cells release Na+ and Cl− into the aqueous humour.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0002303> "pigmented ciliary epithelial cell")
-SubClassOf(<http://purl.obolibrary.org/obo/CL_0002303> <http://purl.obolibrary.org/obo/CL_0000529>)
-
 # Class: <http://purl.obolibrary.org/obo/CL_0002308> (epithelial cell of skin gland)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:tfm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0002308> "An epithelial cell of a skin gland.")
@@ -7480,6 +7464,37 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0002309> "corticotroph")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0002309> <http://purl.obolibrary.org/obo/CL_0000467>)
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0002309> <http://purl.obolibrary.org/obo/CL_0000639>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0002311> (mammotroph)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SANBI:mhl") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0002311> "An acidophilic cell of the anterior pituitary that produces prolactin.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/CL_0002311> <https://orcid.org/0000-0003-1980-3228>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/CL_0002311> "2010-09-14T02:30:57Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0002311> "FMA:83096")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0002311> "epsilon-acidophil")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0002311> "lactotrope")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0002311> "lactotroph")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0002311> "lactotropic cell")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0002311> "mammotrope")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0002311> "mammotrophic cell")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0002311> "mammotropic cell")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0002311> "mammotroph")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0002311> <http://purl.obolibrary.org/obo/CL_0000439>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0002311> <http://purl.obolibrary.org/obo/CL_0000638>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0002312> (somatotroph)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SANBI:mhl") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0002312> "An acidophilic cell of the anterior pituitary that produces growth hormone, somatotropin.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/CL_0002312> <https://orcid.org/0000-0003-1980-3228>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/CL_0002312> "2010-09-14T02:33:09Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0002312> "FMA:83095")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0002312> "MESH:D052683")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0002312> "somatotrope")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0002312> "somatotropic cell")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CL_0002312> "somatrophic cell")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0002312> "somatotroph")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0002312> <http://purl.obolibrary.org/obo/CL_0000295>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0002312> <http://purl.obolibrary.org/obo/CL_0000638>)
 
 # Class: <http://purl.obolibrary.org/obo/CL_0002315> (supporting cell of cochlea)
 

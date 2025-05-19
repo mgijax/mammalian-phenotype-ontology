@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/pr_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2025-05-01/imports/pr_import.owl>
+<http://purl.obolibrary.org/obo/mp/releases/2025-05-19/imports/pr_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/pr/obophenotype/releases/2025-03-14/pr_slim.owl>)
-Annotation(owl:versionInfo "2025-05-01")
+Annotation(owl:versionInfo "2025-05-19")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000019>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000024>))
@@ -85,7 +85,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PR_000008924>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000009054>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000009182>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000009758>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PR_000011107>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000011374>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000012037>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000013164>))
@@ -1316,17 +1315,6 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000009758> "
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000009758> "leptin")
 AnnotationAssertion(<https://w3id.org/semapv/vocab/crossSpeciesExactMatch> <http://purl.obolibrary.org/obo/PR_000009758> <http://purl.obolibrary.org/obo/PR_P41159>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000009758> <http://purl.obolibrary.org/obo/PR_000000001>)
-
-# Class: <http://purl.obolibrary.org/obo/PR_000011107> (nebulin)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000011107> "A protein that is a translation product of the human NEB gene or a 1:1 ortholog thereof.")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/pr#PRO-short-label>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000011107> "NEB")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000011107> "protein")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000011107> "PR:000011107")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000011107> "Category=gene.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000011107> "nebulin")
-AnnotationAssertion(<https://w3id.org/semapv/vocab/crossSpeciesExactMatch> <http://purl.obolibrary.org/obo/PR_000011107> <http://purl.obolibrary.org/obo/PR_P20929>)
-SubClassOf(<http://purl.obolibrary.org/obo/PR_000011107> <http://purl.obolibrary.org/obo/PR_000000001>)
 
 # Class: <http://purl.obolibrary.org/obo/PR_000011374> (atrial natriuretic factor)
 
