@@ -1792,4 +1792,11 @@ http://purl.obolibrary.org/obo/MP_0031457	abnormal vomeronasal cartilage morphol
 http://purl.obolibrary.org/obo/MP_0021206	abnormal limb muscle morphology	http://purl.obolibrary.org/obo/UBERON_0003661	limb muscle
 http://purl.obolibrary.org/obo/MP_0021207	abnormal autopod muscle morphology	http://purl.obolibrary.org/obo/UBERON_0006508	interosseous muscle of autopod
 http://purl.obolibrary.org/obo/MP_0014402	abnormal Reissner's fiber morphology	http://purl.obolibrary.org/obo/UBERON_0011357	Reissner's fiber
-http://purl.obolibrary.org/obo/MP_0030184 	abnormal zygomaticus muscle morphology	http://purl.obolibrary.org/obo/UBERON_0010437	zygomaticus muscle
+http://purl.obolibrary.org/obo/MP_0030184	abnormal zygomaticus muscle morphology	http://purl.obolibrary.org/obo/UBERON_0010437	zygomaticus muscle
+http://purl.obolibrary.org/obo/MP_0030186	abnormal major zygomaticus muscle morphology	http://purl.obolibrary.org/obo/UBERON_0008593	zygomaticus major muscle
+http://purl.obolibrary.org/obo/MP_0030185	abnormal minor zygomaticus muscle morphology	http://purl.obolibrary.org/obo/UBERON_0008594	zygomaticus minor muscle
+http://purl.obolibrary.org/obo/MP_0030149	abnormal stylohyoid muscle morphology	http://purl.obolibrary.org/obo/UBERON_0008712	stylohyoid muscle
+http://purl.obolibrary.org/obo/MP_0030148	abnormal mylohyoid muscle morphology	http://purl.obolibrary.org/obo/UBERON_0001564	mylohyoid muscle
+http://purl.obolibrary.org/obo/MP_0013815	abnormal digastric muscle morphology	http://purl.obolibrary.org/obo/UBERON_0001562	digastric muscle group
+http://purl.obolibrary.org/obo/MP_0030145	abnormal digastric anterior belly morphology	http://purl.obolibrary.org/obo/UBERON_0010943	anterior digastric muscle
+http://purl.obolibrary.org/obo/MP_0030146	abnormal digastric posterior belly morphology	http://purl.obolibrary.org/obo/UBERON_0010944	posterior digastric muscle
