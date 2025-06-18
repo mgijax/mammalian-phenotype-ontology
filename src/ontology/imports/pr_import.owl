@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/pr_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2025-05-22/imports/pr_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/pr/obophenotype/releases/2025-03-14/pr_slim.owl>)
-Annotation(owl:versionInfo "2025-05-22")
+<http://purl.obolibrary.org/obo/mp/releases/2025-06-18/imports/pr_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/pr/obophenotype/releases/2025-06-17/pr_slim.owl>)
+Annotation(owl:versionInfo "2025-06-18")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000019>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000024>))
@@ -19,7 +19,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_23367>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24431>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33247>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33708>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COB_0000013>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0002185>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003674>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005575>))
@@ -271,6 +271,15 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#is_transitive>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/RO_0002180> "has_component")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002180> "has_component")
 
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002330> (genomically_related_to)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002330> "RO:0002330")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/RO_0002330> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002330> "genomically_related_to")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/RO_0002330> "genomically_related_to")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002330> "genomically_related_to")
+TransitiveObjectProperty(<http://purl.obolibrary.org/obo/RO_0002330>)
+
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002353> (output_of)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002353> "RO:0002353")
@@ -373,13 +382,12 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33708> "amino-acid residue")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33708> <http://purl.obolibrary.org/obo/CHEBI_33247>)
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_50047> (organic amino compound)
+# Class: <http://purl.obolibrary.org/obo/COB_0000013> (molecule)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_50047> "A compound formally derived from ammonia by replacing one, two or three hydrogen atoms by organyl groups.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_50047> "chebi_ontology")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_50047> "CHEBI:50047")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_50047> "organic amino compound")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50047> <http://purl.obolibrary.org/obo/CHEBI_23367>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COB_0000013> "A material entity that consists of two or more atoms that are all connected via covalent bonds such that any atom can be transitively connected with any other atom.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/COB_0000013> "core")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/COB_0000013> "COB:0000013")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000013> "molecule")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0002185> (creatine kinase complex)
 
@@ -427,7 +435,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008150> "biol
 
 # Class: <http://purl.obolibrary.org/obo/GO_0015269> (calcium-activated potassium channel activity)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_transport") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0015269> "Enables the calcium concentration-regulatable energy-independent passage of potassium ions across a lipid bilayer down a concentration gradient.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_transport") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0015269> "Enables the transmembrane transfer of a potassium cation by a channel that opens when a calcium cation has been bound by the channel complex or one of its constituent parts.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0015269> "molecular_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0015269> "GO:0015269")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0015269> "calcium-activated potassium channel activity")
@@ -482,16 +490,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0071746> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/PR_000000001> (protein)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:WCB") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000000001> "An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:WCB") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000000001> "An amino acid chain that is canonically produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof.")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000000001> "natural protein")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "IEDB:BP") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PR_000000001> "native protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000000001> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000000001> "PR:000000001")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000000001> "The definition above excludes protein complexes, which some also consider a protein. Those who wish to refer to a class representing both senses of the word are directed to CHEBI:36080. Note that the definition allows for experimentally-manipulated genes, and allows for artifically-produced derivatives that mimic those found naturally. Proteins (in the sense defined here) that descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB).")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000000001> "Note that the definition allows for experimentally-manipulated genes, and allows for artifically-produced derivatives that mimic those found naturally. Note also that the definition excludes protein complexes, which some also consider a protein. Those who wish to refer to a class representing both senses of the word are directed to PR:000064867 (\"protein-containing molecular entity\"). Proteins (in the sense defined here) that descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000000001> "protein")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PR_000000001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000018263> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <http://purl.obolibrary.org/obo/GO_0006412>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/pr#has_gene_template> <http://purl.obolibrary.org/obo/SO_0000704>)))
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> <http://purl.obolibrary.org/obo/PR_000018263>)
-SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> <http://purl.obolibrary.org/obo/PR_000064867>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PR_000000001>))
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <http://purl.obolibrary.org/obo/GO_0006412>))
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/pr#has_gene_template> <http://purl.obolibrary.org/obo/SO_0000704>))
@@ -1271,24 +1278,24 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000008924> "
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000008924> "interferon beta 1")
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000008924> <http://purl.obolibrary.org/obo/PR_000024939>)
 
-# Class: <http://purl.obolibrary.org/obo/PR_000009054> (insulin gene translation product)
+# Class: <http://purl.obolibrary.org/obo/PR_000009054> (preproinsulin)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000009054> "An insulin family protein that is a translation product of the human INS gene or a 1:1 ortholog thereof.")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/PR_000009054> "insulin")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/pr#PRO-short-label>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000009054> "INS")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000009054> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000009054> "PR:000009054")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000009054> "Category=gene.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000009054> "insulin gene translation product")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000009054> "preproinsulin")
 AnnotationAssertion(<https://w3id.org/semapv/vocab/crossSpeciesExactMatch> <http://purl.obolibrary.org/obo/PR_000009054> <http://purl.obolibrary.org/obo/PR_P01308>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000009054> <http://purl.obolibrary.org/obo/PR_000045358>)
 
-# Class: <http://purl.obolibrary.org/obo/PR_000009182> (insulin-like growth factor I)
+# Class: <http://purl.obolibrary.org/obo/PR_000009182> (insulin-like growth factor 1)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000009182> "A protein that is a translation product of the human IGF1 gene or a 1:1 ortholog thereof.")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/PR_000009182> "IGF-I")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/PR_000009182> "MGF")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/pr#PRO-short-label>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000009182> "IGF1")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000009182> "insulin-like growth factor I")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000009182> "mechano growth factor")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000009182> "somatomedin")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000009182> "somatomedin-C")
@@ -1297,7 +1304,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/pr#Gene-based>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PR_000009182> "Igf-1")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000009182> "PR:000009182")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000009182> "Category=gene.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000009182> "insulin-like growth factor I")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000009182> "insulin-like growth factor 1")
 AnnotationAssertion(<https://w3id.org/semapv/vocab/crossSpeciesExactMatch> <http://purl.obolibrary.org/obo/PR_000009182> <http://purl.obolibrary.org/obo/PR_P05019>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000009182> <http://purl.obolibrary.org/obo/PR_000000001>)
 
@@ -1501,14 +1508,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/PR_000016480> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PR_000018263> (amino acid chain)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:JSG") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000018263> "An organic amino compound that consists of amino acid residues (unmodified amino-acid residues and/or modified amino-acid residues) linked by peptide bonds or derivatives of such bonds.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:JSG") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000018263> "A molecule that consists of amino acid residues (unmodified amino-acid residues and/or modified amino-acid residues) linked by peptide bonds or derivatives of such bonds.")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PR_000018263> "peptide")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PR_000018263> "polypeptide")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000018263> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000018263> "PR:000018263")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000018263> "Category=polymer.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000018263> "amino acid chain")
-SubClassOf(<http://purl.obolibrary.org/obo/PR_000018263> <http://purl.obolibrary.org/obo/CHEBI_50047>)
+SubClassOf(<http://purl.obolibrary.org/obo/PR_000018263> <http://purl.obolibrary.org/obo/COB_0000013>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000018263> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/pr#has_constituent_monomer> <http://purl.obolibrary.org/obo/CHEBI_33708>))
 
 # Class: <http://purl.obolibrary.org/obo/PR_000018264> (proteolytic cleavage product)
@@ -2041,9 +2048,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/PR_000020259> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/PR_000020310> (proinsulin)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000020310> "An insulin gene translation product that has had the signal peptide removed. Proinsulin consists of the insulin B and A chains linked by the C-peptide. Example: UniProtKB:P01308, 25-110.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000020310> "A preproinsulin that has had the signal peptide removed. Proinsulin consists of the insulin B and A chains linked by the C-peptide. Example: UniProtKB:P01308, 25-110.")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/pr#PRO-short-label>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000020310> "INS/SigPep-")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000020310> "insulin, signal peptide removed form")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000020310> "preproinsulin, signal peptide removed form")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000020310> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000020310> "PR:000020310")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000020310> "Category=modification.")
@@ -2052,14 +2059,14 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PR_000020310> ObjectIntersecti
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000020310> <http://purl.obolibrary.org/obo/PR_000009054>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000020310> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/pr#lacks_part> <http://purl.obolibrary.org/obo/SO_0000418>))
 
-# Class: <http://purl.obolibrary.org/obo/PR_000020357> (insulin-like growth factor I proteolytic cleavage product)
+# Class: <http://purl.obolibrary.org/obo/PR_000020357> (insulin-like growth factor 1 proteolytic cleavage product)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000020357> "An insulin-like growth factor I that has been processed by proteolytic cleavage.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000020357> "An insulin-like growth factor 1 that has been processed by proteolytic cleavage.")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/pr#PRO-short-label>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000020357> "IGF1/ClvPrd")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000020357> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000020357> "PR:000020357")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000020357> "Category=modification.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000020357> "insulin-like growth factor I proteolytic cleavage product")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000020357> "insulin-like growth factor 1 proteolytic cleavage product")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PR_000020357> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000009182> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <http://purl.obolibrary.org/obo/GO_0016485>)))
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000020357> <http://purl.obolibrary.org/obo/PR_000009182>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000020357> <http://purl.obolibrary.org/obo/PR_000018264>)
@@ -2197,6 +2204,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000021262> "PR:000021262")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000021262> "Category=modification.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000021262> "resistin, signal peptide removed form")
+AnnotationAssertion(<https://w3id.org/semapv/vocab/crossSpeciesExactMatch> <http://purl.obolibrary.org/obo/PR_000021262> <http://purl.obolibrary.org/obo/PR_000062383>)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PR_000021262> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000013896> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/pr#lacks_part> <http://purl.obolibrary.org/obo/SO_0000418>)))
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000021262> <http://purl.obolibrary.org/obo/PR_000013896>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000021262> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/pr#lacks_part> <http://purl.obolibrary.org/obo/SO_0000418>))
