@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/ro_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2025-06-18/imports/ro_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ro/releases/2025-03-05/ro.owl>)
-Annotation(owl:versionInfo "2025-06-18")
+<http://purl.obolibrary.org/obo/mp/releases/2025-07-24/imports/ro_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ro/releases/2025-06-24/ro.owl>)
+Annotation(owl:versionInfo "2025-07-24")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))
@@ -178,6 +178,44 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0019001>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0019002>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0020104>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0020105>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001569>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001571>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001572>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001573>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001574>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001575>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001576>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001577>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001578>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001579>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001580>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001583>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001584>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001585>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001586>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001587>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001588>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001589>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001590>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001591>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001592>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001593>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001594>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001595>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001596>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001597>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001598>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001599>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001600>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001601>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001602>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001603>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001604>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001605>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001626>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001627>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001628>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001862>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000002>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000120>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000121>))
@@ -187,6 +225,9 @@ Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000124>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000125>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000423>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000428>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0001-5208-3432>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0003-1980-3228>))
+Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q525>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000111>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000112>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000114>))
@@ -200,7 +241,6 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000233>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000424>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000589>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000600>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000700>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0100001>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0001900>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002175>))
@@ -228,9 +268,6 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/uberon/core#ubero
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/uberon/core#upper_level>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/uberon/core#vertebrate_core>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/contributor>))
-Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/creator>))
-Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/date>))
-Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/description>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/title>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
@@ -245,7 +282,6 @@ Declaration(AnnotationProperty(<http://swrl.stanford.edu/ontologies/3.3/swrla.ow
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#SubsetProperty>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#created_by>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#creation_date>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#default-namespace>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
@@ -302,13 +338,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000116> "PERSON:Daniel Schober"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000116> "GROUP:OBI:<http://purl.obofoundry.org/obo/obi>"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000116> "editor note"@en)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000700> (has ontology root term)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000700> "has ontology root term"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000700> "Ontology annotation property. Relates an ontology to a term that is a designated root term of the ontology. Display tools like OLS can use terms annotated with this property as the starting point for rendering the ontology class hierarchy. There can be more than one root."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000700> "Nicolas Matentzoglu"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000700> "has ontology root term"@en)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/IAO_0100001> (term replaced by)
 
@@ -403,7 +432,7 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> "has_broad_synonym")
 AnnotationAssertion(rdfs:seeAlso <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> "https://github.com/information-artifact-ontology/ontology-metadata/issues/18")
 
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (database_cross_reference)
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (has cross-reference)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "disease characteristic (MONDO:0021125) has cross-reference (http://www.geneontology.org/formats/oboInOwl#hasDbXref) \"NCIT:C41009\"^^xsd:string")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "An annotation property that links an ontology entity or a statement to a prefixed identifier or URI.")
@@ -821,7 +850,7 @@ FunctionalObjectProperty(<http://purl.obolibrary.org/obo/RO_0002025>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002086> (ends after)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002086> "David Osumi-Sutherland")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002086> <https://orcid.org/0000-0002-7073-9172>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002086> <http://purl.obolibrary.org/obo/ro/subsets#ro-eco>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_0002086> "X ends_after Y iff: end(Y) before_or_simultaneous_with end(X)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002086> "ends after"@en)
@@ -830,7 +859,7 @@ TransitiveObjectProperty(<http://purl.obolibrary.org/obo/RO_0002086>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002087> (immediately preceded by)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002087> "David Osumi-Sutherland")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002087> <https://orcid.org/0000-0002-7073-9172>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0002087> "starts_at_end_of")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_0002087> "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002087> "immediately preceded by"@en)
@@ -840,7 +869,6 @@ InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002090> (immediately precedes)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002090> <https://orcid.org/0000-0002-7073-9172>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002090> "David Osumi-Sutherland")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0002090> "ends_at_start_of")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0002090> "meets")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002575> <http://purl.obolibrary.org/obo/RO_0002090> <http://purl.obolibrary.org/obo/BFO_0000063>)
@@ -2199,6 +2227,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "CARO:0000003") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0000061> "connected biological structure")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0000061> "UBERON:0000061")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UBERON_0000061> <http://purl.obolibrary.org/obo/uberon/core#common_anatomy>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UBERON_0000061> <http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UBERON_0000061> <http://purl.obolibrary.org/obo/uberon/core#human_subset>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UBERON_0000061> <http://purl.obolibrary.org/obo/uberon/core#mouse_subset>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UBERON_0000061> <http://purl.obolibrary.org/obo/uberon/core#upper_level>)
@@ -2357,6 +2386,343 @@ SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010000> <http://purl.obolibra
 #   Named Individuals
 ############################
 
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001569> (Western Australian Mulga Shrublands Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/ENVO_01001569> <https://orcid.org/0000-0002-4366-3088>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001569> "2019-03-05T17:25:21Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/ENVO_01001569> "Western Australia Ecoregion")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001569> "WWF:AA1310")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001569> "https://www.worldwildlife.org/ecoregions/aa1310")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001569> "Western Australian Mulga Shrublands Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001569> <http://purl.obolibrary.org/obo/ENVO_01001571>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001571> (Australasia Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/ENVO_01001571> <https://orcid.org/0000-0002-4366-3088>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001571> "2019-03-05T17:51:32Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001571> "https://www.worldwildlife.org/biomes/deserts-and-xeric-shrublands")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001571> "Australasia Ecoregion"@en)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001572> (Tirari-Sturt Stony Desert Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/ENVO_01001572> <https://orcid.org/0000-0002-4366-3088>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001572> "2019-03-05T17:52:41Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/ENVO_01001572> "Southern central Australia Ecoregion"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001572> "WWF:AA1309")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001572> "https://www.worldwildlife.org/ecoregions/aa1309")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001572> "Tirari-Sturt Stony Desert Ecoregion")
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001572> <http://purl.obolibrary.org/obo/ENVO_01001571>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001573> (Simpson Desert Region)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/ENVO_01001573> <https://orcid.org/0000-0002-4366-3088>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001573> "2019-03-05T17:54:35Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/ENVO_01001573> "Eastern central Australia Ecoregion")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001573> "WWF:AA1308")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001573> "https://www.worldwildlife.org/ecoregions/aa1308")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001573> "Simpson Desert Region"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001573> <http://purl.obolibrary.org/obo/ENVO_01001571>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001574> (Pilbara Shrublands Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/ENVO_01001574> <https://orcid.org/0000-0002-4366-3088>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001574> "2019-03-05T17:56:13Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/ENVO_01001574> "Western Australia Ecoregion")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001574> "WWF:AA1307")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001574> "https://www.worldwildlife.org/ecoregions/aa1307")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001574> "Pilbara Shrublands Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001574> <http://purl.obolibrary.org/obo/ENVO_01001571>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001575> (Carnarvon Xeric Shrublands Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/ENVO_01001575> <https://orcid.org/0000-0002-4366-3088>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001575> "2019-03-05T18:10:52Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/ENVO_01001575> "Western coast of Australia Ecoregion")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001575> "WWF:AA1301")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001575> "https://www.worldwildlife.org/ecoregions/aa1301")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001575> "Carnarvon Xeric Shrublands Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001575> <http://purl.obolibrary.org/obo/ENVO_01001571>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001576> (Central Ranges Xeric Shrub Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/ENVO_01001576> <https://orcid.org/0000-0002-4366-3088>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001576> "2019-03-05T18:12:28Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/ENVO_01001576> "Central Australia Ecoregion")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001576> "WWF:AA1302")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001576> "https://www.worldwildlife.org/ecoregions/aa1302")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001576> "Central Ranges Xeric Shrub Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001576> <http://purl.obolibrary.org/obo/ENVO_01001571>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001577> (Gibson Desert Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/ENVO_01001577> <https://orcid.org/0000-0002-4366-3088>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001577> "2019-03-05T18:15:11Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/ENVO_01001577> "Western central Australia")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001577> "WWF:AA1303")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001577> "https://www.worldwildlife.org/ecoregions/aa1303")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001577> "Gibson Desert Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001577> <http://purl.obolibrary.org/obo/ENVO_01001571>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001578> (The Great Sandy-Tanami Desert Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/ENVO_01001578> <https://orcid.org/0000-0002-4366-3088>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001578> "2019-03-05T18:17:15Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/ENVO_01001578> "Northwestern Australia")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001578> "WWF:AA1304")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001578> "https://www.worldwildlife.org/ecoregions/aa1304")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001578> "The Great Sandy-Tanami Desert Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001578> <http://purl.obolibrary.org/obo/ENVO_01001571>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001579> (Great Victoria Desert Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/ENVO_01001579> <https://orcid.org/0000-0002-4366-3088>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001579> "2019-03-05T18:24:06Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/ENVO_01001579> "Southern Australia Ecoregion")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001579> "WWF:AA1305")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001579> "https://www.worldwildlife.org/ecoregions/aa1305")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001579> "Great Victoria Desert Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001579> <http://purl.obolibrary.org/obo/ENVO_01001571>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001580> (Nullarbor Plains Xeric Shrubland Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/ENVO_01001580> <https://orcid.org/0000-0002-4366-3088>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001580> "2019-03-05T18:26:16Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/ENVO_01001580> "Southern Australia Ecoregion")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001580> "WWF:AA1306")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001580> "https://www.worldwildlife.org/ecoregions/aa1306")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001580> "Nullarbor Plains Xeric Shrubland Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001580> <http://purl.obolibrary.org/obo/ENVO_01001571>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001583> (Afrotropical Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/ENVO_01001583> <https://orcid.org/0000-0002-4366-3088>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001583> "2019-03-06T22:01:41Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001583> "https://www.worldwildlife.org/biomes/deserts-and-xeric-shrublands")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001583> "Afrotropical Ecoregion"@en)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001584> (Succulent Karoo Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/ENVO_01001584> <https://orcid.org/0000-0002-4366-3088>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001584> "2019-03-06T22:02:37Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/ENVO_01001584> "Southern Africa: Southern Namibia into South Africa")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001584> "WWF:AT1322")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001584> "https://www.worldwildlife.org/ecoregions/at1322")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001584> "Succulent Karoo Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001584> <http://purl.obolibrary.org/obo/ENVO_01001583>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001585> (Yemen and Saudi Arabia Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/ENVO_01001585> <https://orcid.org/0000-0002-4366-3088>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001585> "2019-03-06T22:07:38Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001585> "WWF:AT1321")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001585> "https://www.worldwildlife.org/ecoregions/at1321")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ENVO_01001585> "Arabian Peninsula: Yemen and Saudi Arabia")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001585> "Yemen and Saudi Arabia Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001585> <http://purl.obolibrary.org/obo/ENVO_01001583>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001586> (Yemen, Saudi Arabia, and Oman Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/ENVO_01001586> <https://orcid.org/0000-0002-4366-3088>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001586> "2019-03-06T22:11:38Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001586> "WWF:AT1320")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001586> "https://www.worldwildlife.org/ecoregions/at1320")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ENVO_01001586> "Arabian Peninsula: Yemen, Saudi Arabia, and Oman")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001586> "Yemen, Saudi Arabia, and Oman Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001586> <http://purl.obolibrary.org/obo/ENVO_01001583>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001587> (Somali Montane Xeric Woodland Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/ENVO_01001587> <https://orcid.org/0000-0002-4366-3088>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001587> "2019-03-06T22:13:00Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001587> "WWF:AT1319")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001587> "https://www.worldwildlife.org/ecoregions/at1319")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ENVO_01001587> "Somali montane xeric woodlands ecoregion")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001587> "Somali Montane Xeric Woodland Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001587> <http://purl.obolibrary.org/obo/ENVO_01001583>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001588> (Socotran Archipelago Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001588> "2019-03-06T22:15:07Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/ENVO_01001588> "Islands east of the Horn of Africa and south of Yemen Ecoregion")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001588> "WWF:AT1318")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001588> "https://www.worldwildlife.org/ecoregions/at1318")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001588> "Socotran Archipelago Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001588> <http://purl.obolibrary.org/obo/ENVO_01001583>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001589> (Red Sea Coastal Desert Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001589> "2019-03-06T22:18:55Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001589> "WWF:AT1317")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001589> "https://www.worldwildlife.org/ecoregions/at1317")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001589> "Red Sea Coastal Desert Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001589> <http://purl.obolibrary.org/obo/ENVO_01001583>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001590> (Namibian Savanna Woodland Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001590> "2019-03-06T22:20:56Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001590> "WWF:AT1316")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001590> "https://www.worldwildlife.org/ecoregions/at1316")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001590> "Namibian Savanna Woodland Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001590> <http://purl.obolibrary.org/obo/ENVO_01001583>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001591> (Namib Desert Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001591> "2019-03-06T22:24:28Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/ENVO_01001591> "Africa: Namibia Ecoregion")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001591> "WWF:AT1315")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001591> "https://www.worldwildlife.org/ecoregions/at1315")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001591> "Namib Desert Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001591> <http://purl.obolibrary.org/obo/ENVO_01001583>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001592> (Nama Karoo Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001592> "2019-03-06T22:26:15Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001592> "WWF:AT1314")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001592> "https://www.worldwildlife.org/ecoregions/at1314")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001592> "Nama Karoo Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001592> <http://purl.obolibrary.org/obo/ENVO_01001583>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001593> (Masai Xeric Grasslands and Shrublands Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001593> "2019-03-06T22:28:43Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001593> "WWF:AT1313")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001593> "https://www.worldwildlife.org/ecoregions/at1313")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001593> "Masai Xeric Grasslands and Shrublands Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001593> <http://purl.obolibrary.org/obo/ENVO_01001583>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001594> (Madagascar Succulent Woodlands Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001594> "2019-03-06T22:30:23Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001594> "WWF:AT1312")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001594> "https://www.worldwildlife.org/ecoregions/at1312")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001594> "Madagascar Succulent Woodlands Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001594> <http://purl.obolibrary.org/obo/ENVO_01001583>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001595> (Madagascar Spiny Thickets Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001595> "2019-03-06T22:31:29Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001595> "WWF:AT1311")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001595> "https://www.worldwildlife.org/ecoregions/at1311")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ENVO_01001595> "Madagascar spiny desert ecoregion")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001595> "Madagascar Spiny Thickets Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001595> <http://purl.obolibrary.org/obo/ENVO_01001583>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001596> (Kaokoveld Desert Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001596> "2019-03-06T22:39:32Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001596> "WWF:AT1310")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001596> "https://www.worldwildlife.org/ecoregions/at1310")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ENVO_01001596> "Africa: Coastal Namibia and Angola Ecoregion")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001596> "Kaokoveld Desert Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001596> <http://purl.obolibrary.org/obo/ENVO_01001583>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001597> (Kalahari Xeric Savanna Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001597> "2019-03-06T22:42:47Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001597> "WWF:AT1309")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001597> "https://www.worldwildlife.org/ecoregions/at1309")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001597> "Kalahari Xeric Savanna Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001597> <http://purl.obolibrary.org/obo/ENVO_01001583>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001598> (Ile Europa and Bassas da India Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001598> "2019-03-06T22:44:54Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001598> "WWF:AT1308")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001598> "https://www.worldwildlife.org/ecoregions/at1308")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ENVO_01001598> "Southern Africa: Islands about half-way between southern Madagascar and southern Mozambique Ecoregion")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001598> "Ile Europa and Bassas da India Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001598> <http://purl.obolibrary.org/obo/ENVO_01001583>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001599> (Hobyo Grassland and Shrubland Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001599> "2019-03-06T22:46:58Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/ENVO_01001599> "Eastern Africa: Somalia")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001599> "WWF:AT1307")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001599> "https://www.worldwildlife.org/ecoregions/at1307")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001599> "Hobyo Grassland and Shrubland Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001599> <http://purl.obolibrary.org/obo/ENVO_01001583>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001600> (Oman and United Arab Emirates Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001600> "2019-03-06T22:54:57Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001600> "WWF:AT1306")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001600> "https://www.worldwildlife.org/ecoregions/at1306")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ENVO_01001600> "Arabian Peninsula: Oman and United Arab Emirates Ecoregion")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001600> "Oman and United Arab Emirates Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001600> <http://purl.obolibrary.org/obo/ENVO_01001583>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001601> (Ethiopian Xeric Grasslands and Shrublands Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001601> "2019-03-07T00:08:06Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001601> "WWF:AT1305")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001601> "https://www.worldwildlife.org/ecoregions/at1305")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001601> "Ethiopian Xeric Grasslands and Shrublands Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001601> <http://purl.obolibrary.org/obo/ENVO_01001583>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001602> (Eritrean Coastal Desert Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001602> "2019-03-07T00:11:29Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001602> "WWF:AT1304")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001602> "https://www.worldwildlife.org/ecoregions/at1304")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001602> "Eritrean Coastal Desert Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001602> <http://purl.obolibrary.org/obo/ENVO_01001583>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001603> (East Saharan Montane Xeric Woodland Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001603> "2019-03-07T00:13:33Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001603> "WWF:AT1303")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001603> "https://www.worldwildlife.org/ecoregions/at1303")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ENVO_01001603> "North central Africa: Eastern Chad and small area of western Sudan")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001603> "East Saharan Montane Xeric Woodland Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001603> <http://purl.obolibrary.org/obo/ENVO_01001583>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001604> (Oman, Yemen, and Saudi Arabia Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001604> "2019-03-07T00:16:12Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001604> "WWF:AT1302")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001604> "https://www.worldwildlife.org/ecoregions/at1302")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ENVO_01001604> "Western Asia: Oman, Yemen, and Saudi Arabia Ecoregion")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001604> "Oman, Yemen, and Saudi Arabia Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001604> <http://purl.obolibrary.org/obo/ENVO_01001583>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001605> (Aldabra Island Xeric Scrub Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001605> "2019-03-07T00:18:09Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001605> "WWF:AT1301")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001605> "https://www.worldwildlife.org/ecoregions/at1301")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001605> "Aldabra Island Xeric Scrub Ecoregion"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001605> <http://purl.obolibrary.org/obo/ENVO_01001583>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001626> (Indo-Malay Ecoregion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001626> "2019-04-26T23:38:50Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001626> <https://www.worldwildlife.org/biomes/deserts-and-xeric-shrublands>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001626> "Indo-Malay Ecoregion"@en)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001627> (Thar Desert)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001627> "2019-04-26T23:40:13Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001627> <https://www.worldwildlife.org/ecoregions/im1304>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001627> "WWF:IM1304")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ENVO_01001627> "Southern Asia: Western India into Pakistan")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001627> "Thar Desert"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001627> <http://purl.obolibrary.org/obo/ENVO_01001626>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001628> (Northwestern Thorn Scrub Forests)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/ENVO_01001628> "2019-04-27T00:12:51Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001628> <https://www.worldwildlife.org/ecoregions/im1303>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ENVO_01001628> "WWF:IM1303")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ENVO_01001628> "Southern Asia: Eastern India and western Pakistan")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001628> "Northwestern Thorn Scrub Forests"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_01001628> <http://purl.obolibrary.org/obo/ENVO_01001626>)
+
+# Individual: <http://purl.obolibrary.org/obo/ENVO_01001862> (Solar radiation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_01001862> "Stellar radiation emitted from Sol.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001862> "Solar radiation"@en)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0002608> <http://purl.obolibrary.org/obo/ENVO_01001862> <https://www.wikidata.org/wiki/Q525>)
+
 # Individual: <http://purl.obolibrary.org/obo/IAO_0000002> (example to be eventually removed)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000002> "example to be eventually removed"@en)
@@ -2371,7 +2737,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000120> "met
 # Individual: <http://purl.obolibrary.org/obo/IAO_0000121> (organizational term)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000121> "organizational term"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000121> "Term created to ease viewing/sort terms for development purpose, and will not be included in a release"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000121> "The term was created to ease viewing/sorting terms for development purposes, but will not be included in a release."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000121> "organizational term"@en)
 
 # Individual: <http://purl.obolibrary.org/obo/IAO_0000122> (ready for release)
@@ -2418,6 +2784,16 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000428> "group:OBI"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000428> "requires discussion"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000078> <http://purl.obolibrary.org/obo/IAO_0000428>)
+
+# Individual: <https://orcid.org/0000-0001-5208-3432> (Nicole Vasilevsky)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/source> <http://www.wikidata.org/entity/Q42763131>) <http://purl.org/dc/terms/description> <https://orcid.org/0000-0001-5208-3432> "researcher")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/source> <http://www.wikidata.org/entity/Q42763131>) rdfs:label <https://orcid.org/0000-0001-5208-3432> "Nicole Vasilevsky")
+
+# Individual: <https://orcid.org/0000-0003-1980-3228> (Terrence F Meehan)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/source> <http://www.wikidata.org/entity/Q54303383>) <http://purl.org/dc/terms/description> <https://orcid.org/0000-0003-1980-3228> "researcher")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/source> <http://www.wikidata.org/entity/Q54303383>) rdfs:label <https://orcid.org/0000-0003-1980-3228> "Terrence F Meehan")
 
 
 SubClassOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002566> <http://purl.obolibrary.org/obo/BFO_0000040>) ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002418> <http://purl.obolibrary.org/obo/BFO_0000015>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002418> <http://purl.obolibrary.org/obo/BFO_0000015>)))))
@@ -2510,17 +2886,17 @@ DLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> V
 DLSafeRule(Annotation(rdfs:comment "If a molecular function (X) has a regulatory subfunction, then any gene product which is an input to that subfunction has an activity that directly_regulates X.  Note:  this is intended for cases where the regaultory subfunction is protein binding, so it could be tightened with an additional clause to specify this.") Annotation(rdfs:label "inferring direct reg edge from input to regulatory subfunction") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002352> Variable(<urn:swrl:var#B>) Variable(<urn:swrl:var#C>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002333> Variable(<urn:swrl:var#A>) Variable(<urn:swrl:var#B>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002013> Variable(<urn:swrl:var#D>) Variable(<urn:swrl:var#C>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl:var#A>) Variable(<urn:swrl:var#D>))))
 DLSafeRule(Annotation(rdfs:label "inferring direct neg reg edge from input to regulatory subfunction") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002352> Variable(<urn:swrl:var#B>) Variable(<urn:swrl:var#C>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002333> Variable(<urn:swrl:var#A>) Variable(<urn:swrl:var#B>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002014> Variable(<urn:swrl:var#D>) Variable(<urn:swrl:var#C>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002630> Variable(<urn:swrl:var#A>) Variable(<urn:swrl:var#D>))))
 DLSafeRule(Annotation(rdfs:label "inferring direct positive reg edge from input to regulatory subfunction") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002352> Variable(<urn:swrl:var#B>) Variable(<urn:swrl:var#C>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002333> Variable(<urn:swrl:var#A>) Variable(<urn:swrl:var#B>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002015> Variable(<urn:swrl:var#D>) Variable(<urn:swrl:var#C>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002629> Variable(<urn:swrl:var#A>) Variable(<urn:swrl:var#D>))))
-DLSafeRule(Annotation(rdfs:label "effector input is compound function input") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl:var#eff>) Variable(<urn:swrl:var#in>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#eff>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#in>))))
-DLSafeRule(Annotation(rdfs:label "Input of effector is input of its parent MF") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#in>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#eff>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl:var#eff>) Variable(<urn:swrl:var#in>))))
-DLSafeRule(Annotation(rdfs:comment "if effector directly regulates X,  its parent MF directly regulates X") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#eff>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#mf2>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl:var#eff>) Variable(<urn:swrl:var#mf2>))))
-DLSafeRule(Annotation(rdfs:comment "if effector directly positively regulates X,  its parent MF directly positively regulates X") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002629> Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#mf2>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#eff>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002629> Variable(<urn:swrl:var#eff>) Variable(<urn:swrl:var#mf2>))))
-DLSafeRule(Annotation(rdfs:label "if effector directly negatively regulates X,  its parent MF directly negatively regulates X") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#eff>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002630> Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#mf2>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002630> Variable(<urn:swrl:var#eff>) Variable(<urn:swrl:var#mf2>))))
-DLSafeRule(Annotation(rdfs:label "'causally downstream of' and 'overlaps' should be disjoint properties (a SWRL rule is required because these are non-simple properties).") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002404> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002131> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)))Head(ClassAtom(owl:Nothing Variable(<urn:swrl:var#x>)) ClassAtom(owl:Nothing Variable(<urn:swrl:var#y>))))
-DLSafeRule(Annotation(rdfs:label "'causally upstream of' and 'overlaps' should be disjoint properties (a SWRL rule is required because these are non-simple properties).") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002411> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002131> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)))Head(ClassAtom(owl:Nothing Variable(<urn:swrl:var#x>)) ClassAtom(owl:Nothing Variable(<urn:swrl:var#y>))))
-DLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0012011> Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#q>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002211> Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#q>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0012012> Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#q>))))
-DLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002213> Variable(<urn:swrl:var#y>) Variable(<urn:swrl:var#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#z>))))
-DLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0019002> Variable(<urn:swrl:var#y>) Variable(<urn:swrl:var#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0019001> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#z>))))
-DLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002213> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl:var#y>) Variable(<urn:swrl:var#z>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#z>))))
-DLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002264> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002411> Variable(<urn:swrl:var#y>) Variable(<urn:swrl:var#z>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002263> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#z>))))
-DLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002411> Variable(<urn:swrl:var#q>) Variable(<urn:swrl:var#u>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002411> Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#q>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0012011> Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#u>))))
+DLSafeRule(Annotation(rdfs:label "effector input is compound function input") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#eff>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl:var#eff>) Variable(<urn:swrl:var#in>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#in>))))
+DLSafeRule(Annotation(rdfs:label "Input of effector is input of its parent MF") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#eff>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#in>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl:var#eff>) Variable(<urn:swrl:var#in>))))
+DLSafeRule(Annotation(rdfs:comment "if effector directly regulates X,  its parent MF directly regulates X") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#mf2>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#eff>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl:var#eff>) Variable(<urn:swrl:var#mf2>))))
+DLSafeRule(Annotation(rdfs:comment "if effector directly positively regulates X,  its parent MF directly positively regulates X") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#eff>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002629> Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#mf2>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002629> Variable(<urn:swrl:var#eff>) Variable(<urn:swrl:var#mf2>))))
+DLSafeRule(Annotation(rdfs:label "if effector directly negatively regulates X,  its parent MF directly negatively regulates X") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002630> Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#mf2>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#eff>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002630> Variable(<urn:swrl:var#eff>) Variable(<urn:swrl:var#mf2>))))
+DLSafeRule(Annotation(rdfs:label "'causally downstream of' and 'overlaps' should be disjoint properties (a SWRL rule is required because these are non-simple properties).") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002131> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002404> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)))Head(ClassAtom(owl:Nothing Variable(<urn:swrl:var#y>)) ClassAtom(owl:Nothing Variable(<urn:swrl:var#x>))))
+DLSafeRule(Annotation(rdfs:label "'causally upstream of' and 'overlaps' should be disjoint properties (a SWRL rule is required because these are non-simple properties).") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002131> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002411> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)))Head(ClassAtom(owl:Nothing Variable(<urn:swrl:var#y>)) ClassAtom(owl:Nothing Variable(<urn:swrl:var#x>))))
+DLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002211> Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#q>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0012011> Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#q>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0012012> Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#q>))))
+DLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002213> Variable(<urn:swrl:var#y>) Variable(<urn:swrl:var#z>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#z>))))
+DLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0019002> Variable(<urn:swrl:var#y>) Variable(<urn:swrl:var#z>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0019001> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#z>))))
+DLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl:var#y>) Variable(<urn:swrl:var#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002213> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#z>))))
+DLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002411> Variable(<urn:swrl:var#y>) Variable(<urn:swrl:var#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002264> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002263> Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#z>))))
+DLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002411> Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#q>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002411> Variable(<urn:swrl:var#q>) Variable(<urn:swrl:var#u>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0012011> Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#u>))))
 )
