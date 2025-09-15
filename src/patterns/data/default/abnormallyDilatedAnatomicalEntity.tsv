@@ -1,2 +1,17 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
-http://purl.obolibrary.org/obo/MP_0002731	megacolon	http://purl.obolibrary.org/obo/UBERON_0001155	colon
+http://purl.obolibrary.org/obo/MP_0002731	megacolon	http://purl.obolibrary.org/obo/UBERON_0007159	lumen of colon
+http://purl.obolibrary.org/obo/MP_0012676	dilated brain ventricles	http://purl.obolibrary.org/obo/UBERON_0004086	brain ventricle
+http://purl.obolibrary.org/obo/MP_0004548	dilated esophagus	http://purl.obolibrary.org/obo/UBERON_0011566	lumen of esophagus
+http://purl.obolibrary.org/obo/MP_0000829	dilated fourth ventricle	http://purl.obolibrary.org/obo/UBERON_0002422	fourth ventricle
+http://purl.obolibrary.org/obo/MP_0004937	dilated heart	http://purl.obolibrary.org/obo/UBERON_0035763	cavity of cardiac chamber
+http://purl.obolibrary.org/obo/MP_0004063	dilated heart left atrium	http://purl.obolibrary.org/obo/UBERON_0016513	cavity of left atrium
+http://purl.obolibrary.org/obo/MP_0002753	dilated heart left ventricle	http://purl.obolibrary.org/obo/UBERON_0016514	cavity of left ventricle
+http://purl.obolibrary.org/obo/MP_0004062	dilated heart right atrium	http://purl.obolibrary.org/obo/UBERON_0016522	cavity of right atrium
+http://purl.obolibrary.org/obo/MP_0002754	dilated heart right ventricle	http://purl.obolibrary.org/obo/UBERON_0016509	cavity of right ventricle
+http://purl.obolibrary.org/obo/MP_0000825	dilated lateral ventricles	http://purl.obolibrary.org/obo/UBERON_0002285	telencephalic ventricle
+http://purl.obolibrary.org/obo/MP_0000602	dilated liver sinusoidal spaces	http://purl.obolibrary.org/obo/UBERON_0014400 	hepatic sinusoidal space
+http://purl.obolibrary.org/obo/MP_0011223	dilated lymph node medullary sinus	http://purl.obolibrary.org/obo/UBERON_0009744	lymph node medullary sinus
+http://purl.obolibrary.org/obo/MP_0000827	dilated third ventricle	http://purl.obolibrary.org/obo/UBERON_0002286	third ventricle
+http://purl.obolibrary.org/obo/MP_0001136	dilated uterine cervix	http://purl.obolibrary.org/obo/UBERON_0013761	cervical cavity
+http://purl.obolibrary.org/obo/MP_0004938	dilated vasculature	http://purl.obolibrary.org/obo/UBERON_0010161	lumen of blood vessel
+http://purl.obolibrary.org/obo/MP_0002546	mydriasis	http://purl.obolibrary.org/obo/UBERON_0001771	pupil
