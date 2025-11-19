@@ -1,2 +1,3 @@
 defined_class	defined_class_label	location	location_label	biological_process	biological_process_label
 http://purl.obolibrary.org/obo/MP_0008864	abnormal intestinal secretion	http://purl.obolibrary.org/obo/UBERON_0000160	intestine	http://purl.obolibrary.org/obo/GO_0032941	secretion by tissue
+http://purl.obolibrary.org/obo/MP_0014813	abnormal brain glucose metabolism	http://purl.obolibrary.org/obo/UBERON_0000955	brain	http://purl.obolibrary.org/obo/GO_0006006	glucose metabolic process
