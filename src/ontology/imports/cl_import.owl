@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/cl_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2025-10-23/imports/cl_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/cl/releases/2025-10-16/cl-simple.owl>)
-Annotation(owl:versionInfo "2025-10-23")
+<http://purl.obolibrary.org/obo/mp/releases/2025-11-19/imports/cl_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/cl/releases/2025-11-03/cl-simple.owl>)
+Annotation(owl:versionInfo "2025-11-19")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000006>))
@@ -935,6 +935,7 @@ AnnotationAssertion(rdfs:seeAlso <http://www.geneontology.org/formats/oboInOwl#h
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> "An alternative label for a class or property which has a more specific meaning than the preferred name/primary label.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> "https://github.com/information-artifact-ontology/ontology-metadata/issues/19")
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> "has narrow synonym"@en)
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> "has_narrow_synonym")
 AnnotationAssertion(rdfs:seeAlso <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> "https://github.com/information-artifact-ontology/ontology-metadata/issues/19")
 
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> (has_obo_namespace)
@@ -5003,7 +5004,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/CL_0000650> "Do all of these cells really develop from some mesenchymal stem cell?")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000650> "mesangial cell")
 AnnotationAssertion(Annotation(rdfs:label "mesangial cell on CELLxGENE CellGuide") rdfs:seeAlso <http://purl.obolibrary.org/obo/CL_0000650> "https://cellxgene.cziscience.com/cellguide/CL_0000650")
-SubClassOf(<http://purl.obolibrary.org/obo/CL_0000650> <http://purl.obolibrary.org/obo/CL_0000669>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000650> <http://purl.obolibrary.org/obo/CL_0002681>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000650> <http://purl.obolibrary.org/obo/CL_1001318>)
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0000650> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/CL_0000134>))
 
 # Class: <http://purl.obolibrary.org/obo/CL_0000652> (pinealocyte)
@@ -7795,7 +7797,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0002173> "extraglomerular mesangial cell")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0002173> <http://purl.obolibrary.org/obo/CL_0000650>)
 SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#is_inferred> "true") <http://purl.obolibrary.org/obo/CL_0002173> <http://purl.obolibrary.org/obo/CL_1000618>)
-SubClassOf(<http://purl.obolibrary.org/obo/CL_0002173> <http://purl.obolibrary.org/obo/CL_1001318>)
 
 # Class: <http://purl.obolibrary.org/obo/CL_0002174> (follicular cell of ovary)
 
@@ -9079,9 +9080,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/CL_0002659> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/CL_0002665> (otic fibrocyte)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:tfm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:18353863") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:37720106") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0002665> "A mesenchymal cell of the cochlea that has specialized structural and molecular adaptions.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:tfm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:18353863") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:37720106") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0002665> "A mesenchymal cell within the inner ear, specifically localised to supportive connective tissues such as the spiral ligament and spiral limbus. This cell has specialised structural and molecular adaptations, and it contributes to the homeostasis of the cochlear environment by participating in ionic regulation crucial for auditory function.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/CL_0002665> <https://orcid.org/0000-0003-1980-3228>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/CL_0002665> "2011-07-11T03:35:01Z"^^xsd:dateTime)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34436572") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/CL_0002665> "cochlear fibrocyte")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0002665> "otic fibrocyte")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0002665> <http://purl.obolibrary.org/obo/CL_0000255>)
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0002665> <http://purl.obolibrary.org/obo/CL_0008019>)
@@ -10412,11 +10414,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/CL_4023035> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/CL_4023057> (cerebellar inhibitory GABAergic interneuron)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FBC:Autogenerated") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_4023057> "Any GABAergic interneuron that has its soma located in some cerebellar cortex.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1101/2022.10.12.511898") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_4023057> "A GABAergic interneuron whose soma is located in the cerebellar cortex.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4023057> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/CL_4023057> <http://orcid.org/0000-0001-7258-9596>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CL_4023057> <http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1101/2022.10.12.511898") rdfs:comment <http://purl.obolibrary.org/obo/CL_4023057> "A GABAergic interneuron whose soma is located in the cerebellar cortex.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_4023057> "cerebellar inhibitory GABAergic interneuron")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <http://purl.obolibrary.org/obo/CL_4023057> "cerebellar inhibitory GABAergic interneuron")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_4023057> <http://purl.obolibrary.org/obo/CL_0011005>)

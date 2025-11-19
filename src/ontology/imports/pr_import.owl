@@ -7,30 +7,50 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/pr_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2025-10-23/imports/pr_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/pr/obophenotype/releases/2025-10-07/pr_slim.owl>)
-Annotation(owl:versionInfo "2025-10-23")
+<http://purl.obolibrary.org/obo/mp/releases/2025-11-19/imports/pr_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/pr/obophenotype/releases/2025-11-13/pr_slim.owl>)
+Annotation(owl:versionInfo "2025-11-19")
 
-Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000019>))
-Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000024>))
-Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000030>))
-Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_23367>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24431>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33247>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33708>))
 Declaration(Class(<http://purl.obolibrary.org/obo/COB_0000013>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0002185>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003674>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003824>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005216>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005261>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005267>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005575>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006412>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008152>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008324>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0015075>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0015267>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0015269>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0015276>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0015318>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016485>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0019538>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0019814>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0022834>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0022836>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0022839>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0022857>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0022890>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032991>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0042571>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0042730>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043170>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043514>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044238>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0046873>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0061695>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0071745>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0071746>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0099094>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_1902494>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_1990234>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000000008>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000000017>))
@@ -157,7 +177,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PR_000021385>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000021577>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000021578>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000021699>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PR_000021935>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000024938>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000024939>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000024990>))
@@ -171,21 +190,20 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PR_000044520>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000045358>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000050025>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000050219>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PR_000064867>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000110>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000418>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000704>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001217>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000086>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002180>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002330>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002353>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/pr#has_constituent_monomer>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0020337>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/pr#has_gene_template>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/pr#lacks_part>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000116>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000700>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0100001>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/pr#Gene-based>))
@@ -227,15 +245,6 @@ SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/pr#PRO-short-label> <htt
 #   Object Properties
 ############################
 
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000050> (part_of)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/BFO_0000050> "BFO:0000050")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/BFO_0000050> "protein")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/BFO_0000050> "part_of")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/BFO_0000050> "part_of")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000050> "part_of")
-TransitiveObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>)
-
 # Object Property: <http://purl.obolibrary.org/obo/BFO_0000051> (has_part)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/BFO_0000051> "BFO:0000051")
@@ -244,15 +253,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/BFO_0000051> "has_part")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000051> "has_part")
 TransitiveObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000086> (has_quality)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0000086> "RO:0000086")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/RO_0000086> "protein")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0000086> "has_quality")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#is_transitive> <http://purl.obolibrary.org/obo/RO_0000086> "false"^^xsd:boolean)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/RO_0000086> "has_quality")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000086> "has_quality")
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0001000> (derives_from)
 
@@ -290,15 +290,17 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#is_transitive>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/RO_0002353> "output_of")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002353> "output_of")
 
-# Object Property: <http://purl.obolibrary.org/obo/pr#has_constituent_monomer> (has_constituent_monomer)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0020337> (has_constituent_monomer)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pr#has_constituent_monomer> "A relation that holds between a polymer and its constituent monomers. P has_constituent_monomer c if and only if P has_component multiple instances of c and each instance of c is covalently attached to another instance of c.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/pr#has_constituent_monomer> "protein")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/pr#has_constituent_monomer> "has_constituent_monomer")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#is_transitive> <http://purl.obolibrary.org/obo/pr#has_constituent_monomer> "false"^^xsd:boolean)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/pr#has_constituent_monomer> "The constituent monomers need not be covalently attached in an end-to-end manner; that is, polymers with internal connections (e.g., polyubiquitin) can use this relation, as can circular polymers (e.g., plasmids) and multi-branched polymers (e.g., glycans). This relation, as non-transitive, allows one to indicate the number of instances of c.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pr#has_constituent_monomer> "has_constituent_monomer")
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/pr#has_constituent_monomer> <http://purl.obolibrary.org/obo/RO_0002180>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0020337> "A relation that holds between a polymer and its constituent monomers. P has_constituent_monomer c if and only if P has_component multiple instances of c and each instance of c is covalently attached to another instance of c.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0020337> "RO:0020337")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/RO_0020337> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0020337> "has_constituent_monomer")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#is_transitive> <http://purl.obolibrary.org/obo/RO_0020337> "false"^^xsd:boolean)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/RO_0020337> "has_constituent_monomer")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_0020337> "The constituent monomers need not be covalently attached in an end-to-end manner; that is, polymers with internal connections (e.g., polyubiquitin) can use this relation, as can circular polymers (e.g., plasmids) and multi-branched polymers (e.g., glycans). This relation, as non-transitive, allows one to indicate the number of instances of c.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0020337> "has_constituent_monomer")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0020337> <http://purl.obolibrary.org/obo/RO_0002180>)
 
 # Object Property: <http://purl.obolibrary.org/obo/pr#has_gene_template> (has_gene_template)
 
@@ -323,171 +325,341 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pr#lacks_part> "l
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/BFO_0000019> (quality)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/BFO_0000019> "bfo")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/BFO_0000019> "BFO:0000019")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000019> "quality")
-
-# Class: <http://purl.obolibrary.org/obo/BFO_0000024> (fiat object part)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/BFO_0000024> "bfo")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/BFO_0000024> "BFO:0000024")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000024> "fiat object part")
-SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000024> <http://purl.obolibrary.org/obo/BFO_0000040>)
-
-# Class: <http://purl.obolibrary.org/obo/BFO_0000030> (object)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/BFO_0000030> "bfo")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/BFO_0000030> "BFO:0000030")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000030> "object")
-SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000030> <http://purl.obolibrary.org/obo/BFO_0000040>)
-
-# Class: <http://purl.obolibrary.org/obo/BFO_0000040> (material entity)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/BFO_0000040> "bfo")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/BFO_0000040> "BFO:0000040")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000040> "material entity")
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_23367> (molecular entity)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "fake:2") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_23367> "Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_23367> "chebi_ontology")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_23367> "CHEBI:23367")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_23367> "molecular entity")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_23367> <http://purl.obolibrary.org/obo/CHEBI_24431>)
-
 # Class: <http://purl.obolibrary.org/obo/CHEBI_24431> (chemical entity)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_24431> "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_24431> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_24431> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_24431> "CHEBI:24431")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_24431> "chemical entity")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24431> <http://purl.obolibrary.org/obo/BFO_0000030>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33247> (organic group)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33247> "Any substituent group or skeleton containing carbon.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_33247> "chebi_ontology")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33247> "CHEBI:33247")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33247> "organic group")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33247> <http://purl.obolibrary.org/obo/CHEBI_23367>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_33708> (amino-acid residue)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Dummy:dummy") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33708> "When two or more amino acids combine to form a peptide, the elements of water are removed, and what remains of each amino acid is called an amino-acid residue.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHEBI_33708> "amino acid residue")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/CHEBI_33708> "protein residue")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_33708> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_33708> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33708> "CHEBI:33708")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33708> "amino-acid residue")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33708> <http://purl.obolibrary.org/obo/CHEBI_33247>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33708> <http://purl.obolibrary.org/obo/CHEBI_24431>)
 
 # Class: <http://purl.obolibrary.org/obo/COB_0000013> (molecule)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COB_0000013> "A material entity that consists of two or more atoms that are all connected via covalent bonds such that any atom can be transitively connected with any other atom.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/COB_0000013> "core")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/COB_0000013> "This molecular entity is different than ChEBI's 'molecular entity'.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/COB_0000013> "We would like to have cardinality restrictions on the logic, but there are some technical limitations.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/COB_0000013> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/COB_0000013> "COB:0000013")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000013> "molecule")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0002185> (creatine kinase complex)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:hjd") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0002185> "A protein complex having creatine kinase activity.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0002185> "cellular_component")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0002185> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0002185> "GO:0002185")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0002185> "creatine kinase complex")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0002185> <http://purl.obolibrary.org/obo/GO_0032991>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0002185> <http://purl.obolibrary.org/obo/GO_0061695>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0003674> (molecular_function)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:pdt") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0003674> "A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0003674> "molecular function")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0003674> "molecular_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0003674> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0003674> "GO:0003674")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GO_0003674> "Note that, in addition to forming the root of the molecular function ontology, this term is recommended for the annotation of gene products whose molecular function is unknown. When this term is used for annotation, it indicates that no information was available about the molecular function of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this. Despite its name, this is not a type of 'function' in the sense typically defined by upper ontologies such as Basic Formal Ontology (BFO). It is instead a BFO:process carried out by a single gene product or complex.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003674> "molecular_function")
 
+# Class: <http://purl.obolibrary.org/obo/GO_0003824> (catalytic activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:vw") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0198506732") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0003824> "Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0003824> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0003824> "GO:0003824")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003824> "catalytic activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0003824> <http://purl.obolibrary.org/obo/GO_0003674>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0005216> (monoatomic ion channel activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:cy") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_transport") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:pr") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0815340729") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0005216> "Enables the facilitated diffusion of a monoatomic ion (by an energy-independent process) by passage through a transmembrane aqueous pore or channel without evidence for a carrier-mediated mechanism. May be either selective (it enables passage of a specific ion only) or non-selective (it enables passage of two or more ions of same charge but different size).")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0005216> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0005216> "GO:0005216")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005216> "monoatomic ion channel activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005216> <http://purl.obolibrary.org/obo/GO_0015075>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005216> <http://purl.obolibrary.org/obo/GO_0015267>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0005261> (monoatomic cation channel activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:def") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_transport") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:pr") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0815340729") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0005261> "Enables the energy-independent facilitated diffusion of a monoatomic cation through a transmembrane aqueous pore or channel.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0005261> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0005261> "GO:0005261")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005261> "monoatomic cation channel activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005261> <http://purl.obolibrary.org/obo/GO_0005216>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005261> <http://purl.obolibrary.org/obo/GO_0008324>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0005267> (potassium channel activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:BHF") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_transport") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:pr") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0815340729") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0005267> "Enables the energy-independent facilitated diffusion of a potassium ion through a transmembrane aqueous pore or channel.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0005267> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0005267> "GO:0005267")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005267> "potassium channel activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005267> <http://purl.obolibrary.org/obo/GO_0005261>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005267> <http://purl.obolibrary.org/obo/GO_0046873>)
+
 # Class: <http://purl.obolibrary.org/obo/GO_0005575> (cellular_component)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:go_curators") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0005575> "The part of a cell or its extracellular environment in which a gene product is located. A gene product may be located in one or more parts of a cell and its location may be as specific as a particular macromolecular complex, that is, a stable, persistent association of macromolecules that function together.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0005575> "cell or subcellular entity")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0005575> "cellular_component")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:pdt") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0005575> "A location, relative to cellular compartments and structures, occupied by a macromolecular machine. There are three types of cellular components described in the gene ontology: (1) the cellular anatomical entity where a gene product carries out a molecular function (e.g., plasma membrane, cytoskeleton) or membrane-enclosed compartments (e.g., mitochondrion); (2) virion components, where viral proteins act, and (3) the stable macromolecular complexes of which gene product are parts (e.g., the clathrin complex).")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0005575> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0005575> "GO:0005575")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GO_0005575> "Note that, in addition to forming the root of the cellular component ontology, this term is recommended for use for the annotation of gene products whose cellular component is unknown. Note that when this term is used for annotation, it indicates that no information was available about the cellular component of the gene product annotated as of the date the annotation was made; the evidence code ND, no data, is used to indicate this.")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GO_0005575> "Note that, in addition to forming the root of the cellular component ontology, this term is recommended for the annotation of gene products whose cellular component is unknown. When this term is used for annotation, it indicates that no information was available about the cellular component of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005575> "cellular_component")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0006412> (translation)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:go_curators") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0006412> "The cellular metabolic process in which a protein is formed, using the sequence of a mature mRNA or circRNA molecule to specify the sequence of amino acids in a polypeptide chain. Translation is mediated by the ribosome, and begins with the formation of a ternary complex between aminoacylated initiator methionine tRNA, GTP, and initiation factor 2, which subsequently associates with the small subunit of the ribosome and an mRNA or circRNA. Translation ends with the release of a polypeptide chain from the ribosome.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0006412> "protein anabolism")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0006412> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0006412> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0006412> "GO:0006412")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006412> "translation")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0006412> <http://purl.obolibrary.org/obo/GO_0008150>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0006412> <http://purl.obolibrary.org/obo/GO_0019538>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0008150> (biological_process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:pdt") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0008150> "A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0008150> "biological process")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0008150> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0008150> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0008150> "GO:0008150")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GO_0008150> "Note that, in addition to forming the root of the biological process ontology, this term is recommended for the annotation of gene products whose biological process is unknown. When this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008150> "biological_process")
 
+# Class: <http://purl.obolibrary.org/obo/GO_0008152> (metabolic process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:go_curators") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0198547684") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0008152> "A cellular process consisting of the biochemical pathways by which a living organism transforms chemical substances. This includes including anabolism (biosynthetic process) and catabolism (catabolic process). Metabolic processes includes the transformation of small molecules, as well macromolecular processes such as DNA repair and replication, protein synthesis and degradation.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0008152> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0008152> "GO:0008152")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GO_0008152> "Note that metabolic processes do not include single functions or processes such as protein-protein interactions, protein-nucleic acids, nor receptor-ligand interactions.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008152> "metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0008152> <http://purl.obolibrary.org/obo/GO_0008150>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0008324> (monoatomic cation transmembrane transporter activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dgf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_transport") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0815340729") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0008324> "Enables the transfer of cation from one side of a membrane to the other.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0008324> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0008324> "GO:0008324")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008324> "monoatomic cation transmembrane transporter activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0008324> <http://purl.obolibrary.org/obo/GO_0015075>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0015075> (monoatomic ion transmembrane transporter activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dgf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_transport") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0815340729") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0015075> "Enables the transfer of an ion from one side of a membrane to the other.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0015075> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0015075> "GO:0015075")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0015075> "monoatomic ion transmembrane transporter activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0015075> <http://purl.obolibrary.org/obo/GO_0022857>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0015267> (channel activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_transport") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0815340729") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0015267> "Enables the energy-independent facilitated diffusion of a solute through a transmembrane aqueous pore or channel. Stereospecificity is not exhibited but this transport may be specific for a particular molecular species or class of molecules.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0015267> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0015267> "GO:0015267")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0015267> "channel activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0015267> <http://purl.obolibrary.org/obo/GO_0022857>)
+
 # Class: <http://purl.obolibrary.org/obo/GO_0015269> (calcium-activated potassium channel activity)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_transport") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0015269> "Enables the transmembrane transfer of a potassium cation by a channel that opens when a calcium cation has been bound by the channel complex or one of its constituent parts.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0015269> "molecular_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0015269> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0015269> "GO:0015269")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0015269> "calcium-activated potassium channel activity")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0015269> <http://purl.obolibrary.org/obo/GO_0003674>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0015269> <http://purl.obolibrary.org/obo/GO_0005267>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0015269> <http://purl.obolibrary.org/obo/GO_0022839>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0015269> <http://purl.obolibrary.org/obo/GO_0099094>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0015276> (ligand-gated monoatomic ion channel activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_transport") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0815340729") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0015276> "Enables the transmembrane transfer of an ion by a channel that opens when a specific ligand has been bound by the channel complex or one of its constituent parts.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0015276> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0015276> "GO:0015276")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0015276> "ligand-gated monoatomic ion channel activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0015276> <http://purl.obolibrary.org/obo/GO_0005216>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0015276> <http://purl.obolibrary.org/obo/GO_0022834>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0015318> (inorganic molecular entity transmembrane transporter activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_transport") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0815340729") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0015318> "Enables the transfer of an inorganic molecular entity from the outside of a cell to the inside of the cell across a membrane. An inorganic molecular entity is a molecular entity that contains no carbon.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0015318> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0015318> "GO:0015318")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0015318> "inorganic molecular entity transmembrane transporter activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0015318> <http://purl.obolibrary.org/obo/GO_0022857>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0016485> (protein processing)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:curators") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:jl") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:jsg") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0016485> "Any protein maturation process achieved by the cleavage of a peptide bond or bonds within a protein. Protein maturation is the process leading to the attainment of the full functional capacity of a protein.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0016485> "biological_process")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/GO_0016485> "peptidolysis during protein maturation")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0016485> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0016485> "GO:0016485")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0016485> "protein processing")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0016485> <http://purl.obolibrary.org/obo/GO_0008150>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0016485> <http://purl.obolibrary.org/obo/GO_0019538>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0019538> (protein metabolic process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:ma") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0019538> "The chemical reactions and pathways involving a protein. Includes protein modification.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0019538> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0019538> "GO:0019538")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GO_0019538> "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0019538> "protein metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0019538> <http://purl.obolibrary.org/obo/GO_0043170>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0019538> <http://purl.obolibrary.org/obo/GO_0044238>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0019814> (immunoglobulin complex)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:add") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:jl") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0781765196") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0019814> "A protein complex that in its canonical form is composed of two identical immunoglobulin heavy chains and two identical immunoglobulin light chains, held together by disulfide bonds and sometimes complexed with additional proteins. An immunoglobulin complex may be embedded in the plasma membrane or present in the extracellular space, in mucosal areas or other tissues, or circulating in the blood or lymph.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0019814> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0019814> "GO:0019814")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GO_0019814> "Note that an immunoglobulin complex has the function of antigen binding if a suitable antigen is available.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0019814> "immunoglobulin complex")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0019814> <http://purl.obolibrary.org/obo/GO_0032991>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0022834> (ligand-gated channel activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_transport") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0815340729") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0022834> "Enables the transmembrane transfer of a solute by a channel that opens when a specific ligand has been bound by the channel complex or one of its constituent parts.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0022834> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0022834> "GO:0022834")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0022834> "ligand-gated channel activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0022834> <http://purl.obolibrary.org/obo/GO_0022836>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0022836> (gated channel activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_transport") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0022836> "Enables the transmembrane transfer of a solute by a channel that opens in response to a specific stimulus.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0022836> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0022836> "GO:0022836")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0022836> "gated channel activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0022836> <http://purl.obolibrary.org/obo/GO_0015267>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0022839> (monoatomic ion-gated channel activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_transport") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0022839> "Enables the transmembrane transfer of a solute by a channel that opens in response to a specific ion stimulus.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0022839> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0022839> "GO:0022839")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0022839> "monoatomic ion-gated channel activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0022839> <http://purl.obolibrary.org/obo/GO_0022834>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0022857> (transmembrane transporter activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:jid") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_transport") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0815340729") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0022857> "Enables the transfer of a substance, usually a specific substance or a group of related substances, from one side of a membrane to the other.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0022857> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0022857> "GO:0022857")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0022857> "transmembrane transporter activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0022857> <http://purl.obolibrary.org/obo/GO_0003674>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0022890> (inorganic cation transmembrane transporter activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:ai") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_transport") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0815340729") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0022890> "Enables the transfer of inorganic cations from one side of a membrane to the other. Inorganic cations are atoms or small molecules with a positive charge that do not contain carbon in covalent linkage.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0022890> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0022890> "GO:0022890")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0022890> "inorganic cation transmembrane transporter activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0022890> <http://purl.obolibrary.org/obo/GO_0015318>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0032991> (protein-containing complex)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:go_curators") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0032991> "Any macromolecular complex composed of two or more polypeptide subunits, which may or may not be identical. Protein complexes may have other associated non-protein prosthetic groups, such as nucleotides, metal ions or carbohydrate groups.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0032991> "protein-protein complex")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0032991> "cellular_component")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dos") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0032991> "A stable assembly of two or more macromolecules, i.e. proteins, nucleic acids, carbohydrates or lipids, in which at least one component is a protein and the constituent parts function together.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0032991> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0032991> "GO:0032991")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GO_0032991> "Note that although at some level almost all cellular components can be thought of as protein complexes, this term is intended to exclude structures composed of the same repeating subunit or subunits, for example microtubules. Protein complexes encompassed by this term are generally not structural, and usually have a defined set of subunits.")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GO_0032991> "A protein complex in this context is meant as a stable set of interacting proteins which can be co-purified by an acceptable method, and where the complex has been shown to exist as an isolated, functional unit in vivo. Acceptable experimental methods include stringent protein purification followed by detection of protein interaction. The following methods should be considered non-acceptable: simple immunoprecipitation, pull-down experiments from cell extracts without further purification, colocalization and 2-hybrid screening. Interactions that should not be captured as protein complexes include: 1) enzyme/substrate, receptor/ligand or any similar transient interactions, unless these are a critical part of the complex assembly or are required e.g. for the receptor to be functional; 2) proteins associated in a pull-down/co-immunoprecipitation assay with no functional link or any evidence that this is a defined biological entity rather than a loose-affinity complex; 3) any complex where the only evidence is based on genetic interaction data; 4) partial complexes, where some subunits (e.g. transmembrane ones) cannot be expressed as recombinant proteins and are excluded from experiments (in this case, independent evidence is necessary to find out the composition of the full complex, if known). Interactions that may be captured as protein complexes include: 1) enzyme/substrate or receptor/ligand if the complex can only assemble and become functional in the presence of both classes of subunits; 2) complexes where one of the members has not been shown to be physically linked to the other(s), but is a homologue of, and has the same functionality as, a protein that has been experimentally demonstrated to form a complex with the other member(s); 3) complexes whose existence is accepted based on localization and pharmacological studies, but for which experimental evidence is not yet available for the complex as a whole.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0032991> "protein-containing complex")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0032991> <http://purl.obolibrary.org/obo/GO_0005575>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0042571> (immunoglobulin complex, circulating)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:add") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0781735149") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0042571> "An immunoglobulin complex that is secreted into extracellular space and found in mucosal areas or other tissues or circulating in the blood or lymph. In its canonical form, a circulating immunoglobulin complex is composed of two identical heavy chains and two identical light chains, held together by disulfide bonds. Some forms of are polymers of the basic structure and contain additional components such as J-chain and the secretory component.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0042571> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0042571> "GO:0042571")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GO_0042571> "Note that an immunoglobulin complex has the function of antigen binding if a suitable antigen is available.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0042571> "immunoglobulin complex, circulating")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0042571> <http://purl.obolibrary.org/obo/GO_0019814>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0042730> (fibrinolysis)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:jl") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:15842654") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0042730> "A process that solubilizes fibrin in the bloodstream of a multicellular organism, chiefly by the proteolytic action of plasmin.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0042730> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0042730> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0042730> "GO:0042730")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0042730> "fibrinolysis")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0042730> <http://purl.obolibrary.org/obo/GO_0008150>)
 
+# Class: <http://purl.obolibrary.org/obo/GO_0043170> (macromolecule metabolic process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0043170> "The chemical reactions and pathways involving macromolecules, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0043170> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0043170> "GO:0043170")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0043170> "macromolecule metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0043170> <http://purl.obolibrary.org/obo/GO_0008152>)
+
 # Class: <http://purl.obolibrary.org/obo/GO_0043514> (interleukin-12 complex)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:add") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:ebc") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:12948519") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:1381512") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0043514> "A protein complex that is composed of an interleukin-12 alpha (p35, product of the IL12A gene) and an interleukin-12 beta subunit (p40, product of the IL12B gene) and is secreted into the extracellular space.")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0043514> "IL-12 complex")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0043514> "cellular_component")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0043514> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0043514> "GO:0043514")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GO_0043514> "Note that this heterodimeric cytokine utilizes the IL-12p35 subunit as its alpha chain, which is also used by IL-35 as its alpha chain, and utilizes the IL-12p40 subunit as its beta chain, which is also used by IL-23 as its beta chain.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0043514> "interleukin-12 complex")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0043514> <http://purl.obolibrary.org/obo/GO_0032991>)
 
+# Class: <http://purl.obolibrary.org/obo/GO_0044238> (primary metabolic process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:go_curators") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0044238> "The chemical reactions and pathways involving those compounds which are formed as a part of the normal anabolic and catabolic processes. These processes take place in most, if not all, cells of the organism.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0044238> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0044238> "GO:0044238")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0044238> "primary metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0044238> <http://purl.obolibrary.org/obo/GO_0008152>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0046873> (metal ion transmembrane transporter activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:ai") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0046873> "Enables the transfer of metal ions from one side of a membrane to the other.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0046873> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0046873> "GO:0046873")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0046873> "metal ion transmembrane transporter activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0046873> <http://purl.obolibrary.org/obo/GO_0008324>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0046873> <http://purl.obolibrary.org/obo/GO_0022890>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0061695> (transferase complex, transferring phosphorus-containing groups)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:bhm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0061695> "A transferase complex capable of catalysis of the transfer of a phosphorus-containing group from one compound (donor) to another (acceptor).")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0061695> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0061695> "GO:0061695")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0061695> "transferase complex, transferring phosphorus-containing groups")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0061695> <http://purl.obolibrary.org/obo/GO_1990234>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0071745> (IgA immunoglobulin complex)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:add") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0781765196") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:16362985") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0071745> "A protein complex composed of two identical immunoglobulin heavy chains of the IgA isotype and two identical immunoglobulin light chains, held together by disulfide bonds, and sometimes complexed with J chain or J chain and secretory component. An IgA immunoglobulin complex may be embedded in the plasma membrane or present in the extracellular space, in mucosal areas or other tissues, or circulating in the blood or lymph.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0071745> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0071745> "GO:0071745")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GO_0071745> "Note that an IgA immunoglobulin complex has the function of antigen binding if a suitable antigen is available.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0071745> "IgA immunoglobulin complex")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0071745> <http://purl.obolibrary.org/obo/GO_0019814>)
+
 # Class: <http://purl.obolibrary.org/obo/GO_0071746> (IgA immunoglobulin complex, circulating)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:add") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0781765196") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:16362985") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0071746> "A protein complex composed of two identical immunoglobulin heavy chains of an IgA isotype and two identical immunoglobulin light chains, held together by disulfide bonds, sometimes complexed with J chain or J chain and secretory component, and present in the extracellular space, in mucosal areas or other tissues, or circulating in the blood or lymph.")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:add") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0071746> "IgA antibody")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0071746> "cellular_component")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0071746> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0071746> "GO:0071746")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GO_0071746> "Note that an IgA immunoglobulin complex has the function of antigen binding if a suitable antigen is available.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0071746> "IgA immunoglobulin complex, circulating")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0071746> <http://purl.obolibrary.org/obo/GO_0032991>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0071746> <http://purl.obolibrary.org/obo/GO_0042571>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0071746> <http://purl.obolibrary.org/obo/GO_0071745>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0099094> (ligand-gated monoatomic cation channel activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_transport") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0815340729") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0099094> "Enables the transmembrane transfer of an inorganic cation by a channel that opens when a specific ligand has been bound by the channel complex or one of its constituent parts.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0099094> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0099094> "GO:0099094")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0099094> "ligand-gated monoatomic cation channel activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0099094> <http://purl.obolibrary.org/obo/GO_0005261>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0099094> <http://purl.obolibrary.org/obo/GO_0015276>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_1902494> (catalytic complex)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:TermGenie") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:bhm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:8077207") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_1902494> "A protein complex which is capable of catalytic activity.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_1902494> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_1902494> "GO:1902494")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_1902494> "catalytic complex")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_1902494> <http://purl.obolibrary.org/obo/GO_0032991>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_1990234> (transferase complex)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:bhm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:16540464") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_1990234> "A protein complex capable of catalyzing the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor).")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_1990234> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_1990234> "GO:1990234")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_1990234> "transferase complex")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_1990234> <http://purl.obolibrary.org/obo/GO_1902494>)
 
 # Class: <http://purl.obolibrary.org/obo/PR_000000001> (protein)
 
@@ -498,11 +670,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000000001> "PR:000000001")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000000001> "Note that the definition allows for experimentally-manipulated genes, and allows for artifically-produced derivatives that mimic those found naturally. Note also that the definition excludes protein complexes, which some also consider a protein. Those who wish to refer to a class representing both senses of the word are directed to PR:000064867 (\"protein-containing molecular entity\"). Proteins (in the sense defined here) that descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000000001> "protein")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PR_000000001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000018263> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <http://purl.obolibrary.org/obo/GO_0006412>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/pr#has_gene_template> <http://purl.obolibrary.org/obo/SO_0000704>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PR_000000001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000018263> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <http://purl.obolibrary.org/obo/GO_0006412>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/pr#has_gene_template> <http://purl.obolibrary.org/obo/SO_0001217>)))
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> <http://purl.obolibrary.org/obo/PR_000018263>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PR_000000001>))
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <http://purl.obolibrary.org/obo/GO_0006412>))
-SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/pr#has_gene_template> <http://purl.obolibrary.org/obo/SO_0000704>))
+SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/pr#has_gene_template> <http://purl.obolibrary.org/obo/SO_0001217>))
 
 # Class: <http://purl.obolibrary.org/obo/PR_000000008> (TGF-beta-like cystine-knot cytokine)
 
@@ -1518,7 +1690,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000018263> "Category=polymer.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000018263> "amino acid chain")
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000018263> <http://purl.obolibrary.org/obo/COB_0000013>)
-SubClassOf(<http://purl.obolibrary.org/obo/PR_000018263> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/pr#has_constituent_monomer> <http://purl.obolibrary.org/obo/CHEBI_33708>))
+SubClassOf(<http://purl.obolibrary.org/obo/PR_000018263> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0020337> <http://purl.obolibrary.org/obo/CHEBI_33708>))
 
 # Class: <http://purl.obolibrary.org/obo/PR_000018264> (proteolytic cleavage product)
 
@@ -2277,16 +2449,6 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PR_000021699> ObjectIntersecti
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000021699> <http://purl.obolibrary.org/obo/PR_000016480>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000021699> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/pr#lacks_part> <http://purl.obolibrary.org/obo/SO_0000418>))
 
-# Class: <http://purl.obolibrary.org/obo/PR_000021935> (immature protein part)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000021935> "A part of a protein that is removed during the protein maturation process.")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SO:0100011") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000021935> "cleaved_peptide_region")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000021935> "protein")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000021935> "PR:000021935")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000021935> "immature protein part")
-SubClassOf(<http://purl.obolibrary.org/obo/PR_000021935> <http://purl.obolibrary.org/obo/BFO_0000024>)
-SubClassOf(<http://purl.obolibrary.org/obo/PR_000021935> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PR_000000001>))
-
 # Class: <http://purl.obolibrary.org/obo/PR_000024938> (interferon alpha)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/pr#PRO-short-label>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000024938> "fam:IFNA")
@@ -2432,48 +2594,38 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000050219> "al
 AnnotationAssertion(<https://w3id.org/semapv/vocab/crossSpeciesExactMatch> <http://purl.obolibrary.org/obo/PR_000050219> <http://purl.obolibrary.org/obo/PR_000050341>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000050219> <http://purl.obolibrary.org/obo/PR_000000001>)
 
-# Class: <http://purl.obolibrary.org/obo/PR_000064867> (protein-containing molecular entity)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000064867> "A molecular entity that minimally consists of a protein.")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PR_000064867> "protein")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PR_000064867> "protein aggregate")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PR_000064867> "protein complex")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PR_000064867> "protein-containing complex")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000064867> "protein")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000064867> "PR:000064867")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000064867> "Note: This includes single proteins and derivatives thereof (PR:000000001), protein-containing complexes (GO:0032991), and protein aggregates (PR:000050565).")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000064867> "protein-containing molecular entity")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PR_000064867> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_23367> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PR_000000001>)))
-SubClassOf(<http://purl.obolibrary.org/obo/PR_000064867> <http://purl.obolibrary.org/obo/CHEBI_23367>)
-SubClassOf(<http://purl.obolibrary.org/obo/PR_000064867> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PR_000000001>))
-
 # Class: <http://purl.obolibrary.org/obo/SO_0000110> (sequence_feature)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SO:ke") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000110> "An extent of biological sequence.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0000110> "located_sequence_feature")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0000110> "sequence feature")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0000110> "sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/SO_0000110> "located sequence feature")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "LAMHDI:mb") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SO:ke") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000110> "Any extent of continuous biological sequence.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0000110> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0000110> "SO:0000110")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000110> "sequence_feature")
 
 # Class: <http://purl.obolibrary.org/obo/SO_0000418> (signal_peptide)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0000418> "signal peptide")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0000418> "sequence")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "uniprot:feature_type") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/SO_0000418> "signal")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.insdc.org/files/feature_table.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000418> "The signal_peptide is a short region of the peptide located at the N-terminus that directs the protein to be secreted or part of membrane components.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0000418> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0000418> "SO:0000418")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/SO_0000418> "The signal peptide can be cleaved either co- or post-translationally. For this reason, we do not use the derives_from relation when defining protein forms lacking the signal peptide (because the precursor form might not yet exist at the time of removal).")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/SO_0000418> "Old def before biosapiens:The sequence for an N-terminal domain of a secreted protein; this domain is involved in attaching nascent polypeptide to the membrane leader sequence.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000418> "signal_peptide")
-SubClassOf(<http://purl.obolibrary.org/obo/SO_0000418> <http://purl.obolibrary.org/obo/PR_000021935>)
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000418> <http://purl.obolibrary.org/obo/SO_0000110>)
 
 # Class: <http://purl.obolibrary.org/obo/SO_0000704> (gene)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SO:immuno_workshop") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000704> "A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0000704> "sequence")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0000704> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0000704> "SO:0000704")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/SO_0000704> "This term is mapped to MGED. Do not obsolete without consulting MGED ontology. A gene may be considered as a unit of inheritance.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000704> "gene")
 SubClassOf(<http://purl.obolibrary.org/obo/SO_0000704> <http://purl.obolibrary.org/obo/SO_0000110>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001217> (protein_coding_gene)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001217> "A gene that codes for an RNA that can be translated into a protein.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0001217> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0001217> "SO:0001217")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001217> "protein_coding_gene")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001217> <http://purl.obolibrary.org/obo/SO_0000704>)
 
 
 )
