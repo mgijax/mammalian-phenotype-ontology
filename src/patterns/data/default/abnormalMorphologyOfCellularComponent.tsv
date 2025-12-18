@@ -18,7 +18,6 @@ http://purl.obolibrary.org/obo/MP_0010733	abnormal axon initial segment morpholo
 http://purl.obolibrary.org/obo/MP_0005404	abnormal axon morphology	http://purl.obolibrary.org/obo/GO_0030424	axon
 http://purl.obolibrary.org/obo/MP_0004272	abnormal basement membrane morphology	http://purl.obolibrary.org/obo/GO_0005604	basement membrane
 http://purl.obolibrary.org/obo/MP_0020378	abnormal cell cytoskeleton morphology	http://purl.obolibrary.org/obo/GO_0005856	cytoskeleton
-http://purl.obolibrary.org/obo/MP_0000358	abnormal cell morphology	http://purl.obolibrary.org/obo/GO_0005623	cell
 http://purl.obolibrary.org/obo/MP_0003111	abnormal cell nucleus morphology	http://purl.obolibrary.org/obo/GO_0005634	nucleus
 http://purl.obolibrary.org/obo/MP_0030943	abnormal centrosome morphology	http://purl.obolibrary.org/obo/GO_0005813	centrosome
 http://purl.obolibrary.org/obo/MP_0003702	abnormal chromosome morphology	http://purl.obolibrary.org/obo/GO_0005694	chromosome
