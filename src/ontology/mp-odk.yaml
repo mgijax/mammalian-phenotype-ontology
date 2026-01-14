@@ -6,6 +6,8 @@ use_dosdps: TRUE
 use_translations: TRUE
 dosdp_tools_options: "--obo-prefixes=true --restrict-axioms-to=logical"
 allow_equivalents: asserted-only
+workflows:
+  - qc
 namespaces: 
   - http://purl.obolibrary.org/obo/MP_
   - http://purl.obolibrary.org/obo/mp[#]
