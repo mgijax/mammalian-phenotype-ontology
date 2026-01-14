@@ -18,4 +18,3 @@ WHERE {
   FILTER(isIRI(?term) && (STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/MP_") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/mp[#]") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/mp-edit[#]") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/mp/") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/mp-edit/")))
   FILTER (!isIRI(?value))
 }
-

@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <group id="Folder Repository, directory=, recursive=true, Auto-Update=false, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1569338358152" name="http://purl.obolibrary.org/obo/mp/imports/chebi_import.owl" uri="imports/chebi_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1569338358152" name="http://purl.obolibrary.org/obo/mp/imports/cl_import.owl" uri="imports/cl_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1569338358152" name="http://purl.obolibrary.org/obo/mp/imports/go_import.owl" uri="imports/go_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1569338358152" name="http://purl.obolibrary.org/obo/mp/imports/mpath_import.owl" uri="imports/mpath_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1569338358152" name="http://purl.obolibrary.org/obo/mp/imports/nbo_import.owl" uri="imports/nbo_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1569338358152" name="http://purl.obolibrary.org/obo/mp/imports/pato_import.owl" uri="imports/pato_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1569338358152" name="http://purl.obolibrary.org/obo/mp/imports/pr_import.owl" uri="imports/pr_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1569338358152" name="http://purl.obolibrary.org/obo/mp/imports/ro_import.owl" uri="imports/ro_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1569338358152" name="http://purl.obolibrary.org/obo/mp/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1569338358152" name="http://purl.obolibrary.org/obo/mp/patterns/definitions.owl" uri="../patterns/definitions.owl"/>
-      </group>
+<?xml version='1.0' encoding='UTF-8'?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
+  <group id="odk-managed-catalog" prefer="public">
+    <uri name="http://purl.obolibrary.org/obo/mp/imports/nbo_import.owl" uri="imports/nbo_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/mp/imports/pr_import.owl" uri="imports/pr_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/mp/imports/go_import.owl" uri="imports/go_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/mp/imports/uberon_import.owl" uri="imports/uberon_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/mp/imports/ro_import.owl" uri="imports/ro_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/mp/imports/chebi_import.owl" uri="imports/chebi_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/mp/imports/pato_import.owl" uri="imports/pato_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/mp/imports/cl_import.owl" uri="imports/cl_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/mp/imports/mpath_import.owl" uri="imports/mpath_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/mp/patterns/definitions.owl" uri="../patterns/definitions.owl" />
+  </group>
+  <group id="Folder Repository, directory=, recursive=true, Auto-Update=false, version=2" prefer="public">
+        </group>
 </catalog>
