@@ -33,7 +33,7 @@ import_group:
     - id: uberon 
     - id: ro
     - id: chebi
-      mirror_from: https://raw.githubusercontent.com/obophenotype/chebi_obo_slim/main/chebi_slim.owl
+      mirror_from: http://purl.obolibrary.org/obo/upheno/chebi_slim.owl
     - id: pato
       make_base: true
     - id: cl
