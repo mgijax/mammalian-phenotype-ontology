@@ -1,0 +1,27 @@
+defined_class	defined_class_label	biological_process	biological_process_label
+http://purl.obolibrary.org/obo/MP_0008562	increased interferon-alpha secretion	http://purl.obolibrary.org/obo/GO_0032607	interferon-alpha production
+http://purl.obolibrary.org/obo/MP_0008564	increased interferon-beta secretion	http://purl.obolibrary.org/obo/GO_0032608	interferon-beta production
+http://purl.obolibrary.org/obo/MP_0008566	increased interferon-gamma secretion	http://purl.obolibrary.org/obo/GO_0032609	type II interferon production
+http://purl.obolibrary.org/obo/MP_0008654	increased interleukin-1 alpha secretion	http://purl.obolibrary.org/obo/GO_0032610	interleukin-1 alpha production
+http://purl.obolibrary.org/obo/MP_0008657	increased interleukin-1 beta secretion	http://purl.obolibrary.org/obo/GO_0032611	interleukin-1 beta production
+http://purl.obolibrary.org/obo/MP_0008651	increased interleukin-1 secretion	http://purl.obolibrary.org/obo/GO_0032612	interleukin-1 production
+http://purl.obolibrary.org/obo/MP_0008660	increased interleukin-10 secretion	http://purl.obolibrary.org/obo/GO_0032613	interleukin-10 production
+http://purl.obolibrary.org/obo/MP_0008663	increased interleukin-12 secretion	http://purl.obolibrary.org/obo/GO_0032615	interleukin-12 production
+http://purl.obolibrary.org/obo/MP_0008672	increased interleukin-13 secretion	http://purl.obolibrary.org/obo/GO_0032616	interleukin-13 production
+http://purl.obolibrary.org/obo/MP_0008675	increased interleukin-15 secretion	http://purl.obolibrary.org/obo/GO_0032618	interleukin-15 production
+http://purl.obolibrary.org/obo/MP_0008678	increased interleukin-16 secretion	http://purl.obolibrary.org/obo/GO_0032619	interleukin-16 production
+http://purl.obolibrary.org/obo/MP_0008681	increased interleukin-17 secretion	http://purl.obolibrary.org/obo/GO_0032620	interleukin-17 production
+http://purl.obolibrary.org/obo/MP_0008684	increased interleukin-18 secretion	http://purl.obolibrary.org/obo/GO_0032621	interleukin-18 production
+http://purl.obolibrary.org/obo/MP_0008687	increased interleukin-2 secretion	http://purl.obolibrary.org/obo/GO_0032623	interleukin-2 production
+http://purl.obolibrary.org/obo/MP_0009057	increased interleukin-21 secretion	http://purl.obolibrary.org/obo/GO_0032625	interleukin-21 production
+http://purl.obolibrary.org/obo/MP_0008690	increased interleukin-23 secretion	http://purl.obolibrary.org/obo/GO_0032627	interleukin-23 production
+http://purl.obolibrary.org/obo/MP_0008696	increased interleukin-3 secretion	http://purl.obolibrary.org/obo/GO_0032632	interleukin-3 production
+http://purl.obolibrary.org/obo/MP_0008699	increased interleukin-4 secretion	http://purl.obolibrary.org/obo/GO_0032633	interleukin-4 production
+http://purl.obolibrary.org/obo/MP_0008702	increased interleukin-5 secretion	http://purl.obolibrary.org/obo/GO_0032634	interleukin-5 production
+http://purl.obolibrary.org/obo/MP_0008705	increased interleukin-6 secretion	http://purl.obolibrary.org/obo/GO_0032635	interleukin-6 production
+http://purl.obolibrary.org/obo/MP_0008708	increased interleukin-7 secretion	http://purl.obolibrary.org/obo/GO_0032636	interleukin-7 production
+http://purl.obolibrary.org/obo/MP_0011717	increased interleukin-8 secretion	http://purl.obolibrary.org/obo/GO_0032637	interleukin-8 production
+http://purl.obolibrary.org/obo/MP_0008711	increased interleukin-9 secretion	http://purl.obolibrary.org/obo/GO_0032638	interleukin-9 production
+http://purl.obolibrary.org/obo/MP_0031223	increased CXCL10 secretion	http://purl.obolibrary.org/obo/GO_0071612	IP-10 production
+http://purl.obolibrary.org/obo/MP_0008560	increased tumor necrosis factor secretion	http://purl.obolibrary.org/obo/GO_0032640	tumor necrosis factor production
+http://purl.obolibrary.org/obo/MP_0008566	increased interferon-gamma secretion	http://purl.obolibrary.org/obo/GO_0032609	type II interferon production

@@ -1,0 +1,31 @@
+defined_class	defined_class_label	biological_process	biological_process_label
+http://purl.obolibrary.org/obo/MP_0008563	decreased interferon-alpha secretion	http://purl.obolibrary.org/obo/GO_0032607	interferon-alpha production
+http://purl.obolibrary.org/obo/MP_0008565	decreased interferon-beta secretion	http://purl.obolibrary.org/obo/GO_0032608	interferon-beta production
+http://purl.obolibrary.org/obo/MP_0008567	decreased interferon-gamma secretion	http://purl.obolibrary.org/obo/GO_0032609	type II interferon production
+http://purl.obolibrary.org/obo/MP_0008655	decreased interleukin-1 alpha secretion	http://purl.obolibrary.org/obo/GO_0032610	interleukin-1 alpha production
+http://purl.obolibrary.org/obo/MP_0008658	decreased interleukin-1 beta secretion	http://purl.obolibrary.org/obo/GO_0032611	interleukin-1 beta production
+http://purl.obolibrary.org/obo/MP_0008652	decreased interleukin-1 secretion	http://purl.obolibrary.org/obo/GO_0032612	interleukin-1 production
+http://purl.obolibrary.org/obo/MP_0008661	decreased interleukin-10 secretion	http://purl.obolibrary.org/obo/GO_0032613	interleukin-10 production
+http://purl.obolibrary.org/obo/MP_0008664	decreased interleukin-12 secretion	http://purl.obolibrary.org/obo/GO_0032615	interleukin-12 production
+http://purl.obolibrary.org/obo/MP_0008673	decreased interleukin-13 secretion	http://purl.obolibrary.org/obo/GO_0032616	interleukin-13 production
+http://purl.obolibrary.org/obo/MP_0008676	decreased interleukin-15 secretion	http://purl.obolibrary.org/obo/GO_0032618	interleukin-15 production
+http://purl.obolibrary.org/obo/MP_0008679	decreased interleukin-16 secretion	http://purl.obolibrary.org/obo/GO_0032619	interleukin-16 production
+http://purl.obolibrary.org/obo/MP_0008682	decreased interleukin-17 secretion	http://purl.obolibrary.org/obo/GO_0032620	interleukin-17 production
+http://purl.obolibrary.org/obo/MP_0008685	decreased interleukin-18 secretion	http://purl.obolibrary.org/obo/GO_0032621	interleukin-18 production
+http://purl.obolibrary.org/obo/MP_0008688	decreased interleukin-2 secretion	http://purl.obolibrary.org/obo/GO_0032623	interleukin-2 production
+http://purl.obolibrary.org/obo/MP_0009058	decreased interleukin-21 secretion	http://purl.obolibrary.org/obo/GO_0032625	interleukin-21 production
+http://purl.obolibrary.org/obo/MP_0008691	decreased interleukin-23 secretion	http://purl.obolibrary.org/obo/GO_0032627	interleukin-23 production
+http://purl.obolibrary.org/obo/MP_0008697	decreased interleukin-3 secretion	http://purl.obolibrary.org/obo/GO_0032632	interleukin-3 production
+http://purl.obolibrary.org/obo/MP_0008700	decreased interleukin-4 secretion	http://purl.obolibrary.org/obo/GO_0032633	interleukin-4 production
+http://purl.obolibrary.org/obo/MP_0008703	decreased interleukin-5 secretion	http://purl.obolibrary.org/obo/GO_0032634	interleukin-5 production
+http://purl.obolibrary.org/obo/MP_0008706	decreased interleukin-6 secretion	http://purl.obolibrary.org/obo/GO_0032635	interleukin-6 production
+http://purl.obolibrary.org/obo/MP_0008709	decreased interleukin-7 secretion	http://purl.obolibrary.org/obo/GO_0032636	interleukin-7 production
+http://purl.obolibrary.org/obo/MP_0011718	decreased interleukin-8 secretion	http://purl.obolibrary.org/obo/GO_0032637	interleukin-8 production
+http://purl.obolibrary.org/obo/MP_0008712	decreased interleukin-9 secretion	http://purl.obolibrary.org/obo/GO_0032638	interleukin-9 production
+http://purl.obolibrary.org/obo/MP_0031222	decreased CXCL10 secretion	http://purl.obolibrary.org/obo/GO_0071612	IP-10 production
+http://purl.obolibrary.org/obo/MP_0008561	decreased tumor necrosis factor secretion	http://purl.obolibrary.org/obo/GO_0032640	tumor necrosis factor production
+http://purl.obolibrary.org/obo/MP_0008567	decreased interferon-gamma secretion	http://purl.obolibrary.org/obo/GO_0032609	type II interferon production
+http://purl.obolibrary.org/obo/MP_0030976	impaired penetration of zona pellucida	http://purl.obolibrary.org/obo/GO_0007341	penetration of zona pellucida
+http://purl.obolibrary.org/obo/MP_0030977	impaired sperm-egg recognition	http://purl.obolibrary.org/obo/GO_0035036	sperm-egg recognition
+http://purl.obolibrary.org/obo/MP_0030978	impaired binding of sperm to zona pellucida	http://purl.obolibrary.org/obo/GO_0007339	binding of sperm to zona pellucida
+http://purl.obolibrary.org/obo/MP_0004542	impaired acrosome reaction	http://purl.obolibrary.org/obo/GO_0007340	acrosome reaction
