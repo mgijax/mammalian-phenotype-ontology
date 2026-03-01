@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/chebi_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2026-02-20/imports/chebi_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/chebi/obophenotype/releases/2025-10-11/chebi_slim.owl>)
-Annotation(owl:versionInfo "2026-02-20")
+<http://purl.obolibrary.org/obo/mp/releases/2026-03-01/imports/chebi_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/chebi/obophenotype/releases/2026-02-23/chebi_slim.owl>)
+Annotation(owl:versionInfo "2026-03-01")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_10545>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_11955>))
@@ -1306,6 +1306,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_73398>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_73541>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_73693>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_741548>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_746933>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_747204>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_747325>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_74783>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_75431>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_75600>))
@@ -6180,8 +6183,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_228364> "CHEBI:228364")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_228364> <http://purl.obolibrary.org/obo/chebi/3_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_228364> "NMR chemical shift reference compound")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_228364> <http://purl.obolibrary.org/obo/CHEBI_33232>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_228364> <http://purl.obolibrary.org/obo/CHEBI_51086>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_228364> <http://purl.obolibrary.org/obo/CHEBI_747204>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_22860> (amino-acid betaine)
 
@@ -13183,6 +13185,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_35143> <http://purl.obolibrary.org/obo/chebi/3_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_35143> "hemoglobin")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35143> <http://purl.obolibrary.org/obo/CHEBI_5386>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35143> <http://purl.obolibrary.org/obo/CHEBI_746933>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_35186> (terpene)
 
@@ -17802,6 +17805,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_5386> <http://purl.obolibrary.org/obo/chebi/3_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_5386> "globin")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5386> <http://purl.obolibrary.org/obo/CHEBI_35137>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5386> <http://purl.obolibrary.org/obo/CHEBI_746933>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_55322> (mu-opioid receptor agonist)
 
@@ -18990,6 +18994,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_62803> <http://purl.obolibrary.org/obo/chebi/3_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_62803> "fuel additive")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_62803> <http://purl.obolibrary.org/obo/CHEBI_51086>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_62803> <http://purl.obolibrary.org/obo/CHEBI_747325>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_62868> (hepatoprotective agent)
 
@@ -19313,6 +19318,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_64047> <http://purl.obolibrary.org/obo/chebi/3_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_64047> "food additive")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_64047> <http://purl.obolibrary.org/obo/CHEBI_33232>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_64047> <http://purl.obolibrary.org/obo/CHEBI_747325>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_64047> <http://purl.obolibrary.org/obo/CHEBI_78295>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_64049> (food acidity regulator)
@@ -19937,6 +19943,38 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_741548> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_741548> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018034> <http://purl.obolibrary.org/obo/CHEBI_132938>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_741548> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018034> <http://purl.obolibrary.org/obo/CHEBI_132939>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_741548> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018038> <http://purl.obolibrary.org/obo/CHEBI_30794>))
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_746933> (globular protein)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_746933> "Protein characterized by a compact, spherical shape and generally soluble in water")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_746933> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_746933> "CHEBI:746933")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_746933> <http://purl.obolibrary.org/obo/chebi/2_STAR>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_746933> "globular protein")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_746933> <http://purl.obolibrary.org/obo/CHEBI_36080>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_747204> (reference compound)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_747204> "Any well-characterized compound that serves as a standard for the identification, quantification, calibration, or quality control of substances in scientific analysis.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_747204> "chebi_ontology")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "chebi") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_747204> "reference compounds")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "chebi") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_747204> "reference standard")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "chebi") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_747204> "reference standards")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_747204> "CHEBI:747204")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_747204> <http://purl.obolibrary.org/obo/chebi/3_STAR>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_747204> "reference compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_747204> <http://purl.obolibrary.org/obo/CHEBI_33232>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_747204> <http://purl.obolibrary.org/obo/CHEBI_51086>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_747325> (additive)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_747325> "a role for a chemical additive to a mixture")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_747325> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_747325> "CHEBI:747325")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_747325> <http://purl.obolibrary.org/obo/chebi/2_STAR>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_747325> "additive")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_747325> <http://purl.obolibrary.org/obo/CHEBI_33232>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_747325> <http://purl.obolibrary.org/obo/CHEBI_51086>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_74783> (astringent)
 
@@ -20879,6 +20917,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_81567> <http://purl.obolibrary.org/obo/chebi/3_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_81567> "thyroid stimulating hormone")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_81567> <http://purl.obolibrary.org/obo/CHEBI_17089>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_81567> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_24621>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_81568> (Luteinizing hormone)
 
@@ -20889,7 +20928,8 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_81568> "CHEBI:81568")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_81568> <http://purl.obolibrary.org/obo/chebi/2_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_81568> "Luteinizing hormone")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_81568> <http://purl.obolibrary.org/obo/CHEBI_50860>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_81568> <http://purl.obolibrary.org/obo/CHEBI_17089>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_81568> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_24621>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_81569> (Follicle stimulating hormone)
 
@@ -20899,7 +20939,8 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_81569> "CHEBI:81569")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_81569> <http://purl.obolibrary.org/obo/chebi/2_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_81569> "Follicle stimulating hormone")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_81569> <http://purl.obolibrary.org/obo/CHEBI_50860>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_81569> <http://purl.obolibrary.org/obo/CHEBI_17089>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_81569> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_24621>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_83038> (Daphnia galeata metabolite)
 
