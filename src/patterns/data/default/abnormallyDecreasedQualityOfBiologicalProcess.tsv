@@ -29,3 +29,8 @@ http://purl.obolibrary.org/obo/MP_0030976	impaired penetration of zona pellucida
 http://purl.obolibrary.org/obo/MP_0030977	impaired sperm-egg recognition	http://purl.obolibrary.org/obo/GO_0035036	sperm-egg recognition
 http://purl.obolibrary.org/obo/MP_0030978	impaired binding of sperm to zona pellucida	http://purl.obolibrary.org/obo/GO_0007339	binding of sperm to zona pellucida
 http://purl.obolibrary.org/obo/MP_0004542	impaired acrosome reaction	http://purl.obolibrary.org/obo/GO_0007340	acrosome reaction
+http://purl.obolibrary.org/obo/MP_0031704	decreased type I interferon secretion	http://purl.obolibrary.org/obo/GO_0032606	type I interferon production
+http://purl.obolibrary.org/obo/MP_0014924	decreased glutathione reductase activity	http://purl.obolibrary.org/obo/GO_0004362	glutathione-disulfide reductase (NADPH) activity
+
+
+
