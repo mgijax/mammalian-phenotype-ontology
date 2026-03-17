@@ -31,6 +31,12 @@ http://purl.obolibrary.org/obo/MP_0030978	impaired binding of sperm to zona pell
 http://purl.obolibrary.org/obo/MP_0004542	impaired acrosome reaction	http://purl.obolibrary.org/obo/GO_0007340	acrosome reaction
 http://purl.obolibrary.org/obo/MP_0031704	decreased type I interferon secretion	http://purl.obolibrary.org/obo/GO_0032606	type I interferon production
 http://purl.obolibrary.org/obo/MP_0014924	decreased glutathione reductase activity	http://purl.obolibrary.org/obo/GO_0004362	glutathione-disulfide reductase (NADPH) activity
-
-
-
+http://purl.obolibrary.org/obo/MP_0014985	decreased cytochrome-c oxidase activity	http://purl.obolibrary.org/obo/GO_0004129	cytochrome-c oxidase activity
+http://purl.obolibrary.org/obo/MP_0014982	decreased amylase activity	http://purl.obolibrary.org/obo/GO_0016160	amylase activity
+http://purl.obolibrary.org/obo/MP_0020016	decreased aldehyde dehydrogenase activity	http://purl.obolibrary.org/obo/GO_0004030	aldehyde dehydrogenase [NAD(P)+] activity
+http://purl.obolibrary.org/obo/MP_0020013	decreased arylsulphatase activity	http://purl.obolibrary.org/obo/GO_0004065	arylsulfatase activity
+http://purl.obolibrary.org/obo/MP_0020056	decreased beta-glucuronidase activity	http://purl.obolibrary.org/obo/GO_0004566	beta-glucuronidase activity
+http://purl.obolibrary.org/obo/MP_0020036	decreased coumarin hydroxylase activity	http://purl.obolibrary.org/obo/GO_0008389	coumarin 7-hydroxylase activity
+http://purl.obolibrary.org/obo/MP_0020022	decreased delta-aminolaevulinate dehydratase activity	http://purl.obolibrary.org/obo/GO_0004655	porphobilinogen synthase activity
+http://purl.obolibrary.org/obo/MP_0020043	decreased glucose-6-phosphate dehydrogenase activity	http://purl.obolibrary.org/obo/GO_0004345	glucose-6-phosphate dehydrogenase activity
+http://purl.obolibrary.org/obo/MP_0020061	decreased hypoxanthine phosphoribosyltransferase activity	http://purl.obolibrary.org/obo/GO_0004422	hypoxanthine phosphoribosyltransferase activity

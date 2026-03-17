@@ -25,3 +25,14 @@ http://purl.obolibrary.org/obo/MP_0008711	increased interleukin-9 secretion	http
 http://purl.obolibrary.org/obo/MP_0031223	increased CXCL10 secretion	http://purl.obolibrary.org/obo/GO_0071612	IP-10 production
 http://purl.obolibrary.org/obo/MP_0008560	increased tumor necrosis factor secretion	http://purl.obolibrary.org/obo/GO_0032640	tumor necrosis factor production
 http://purl.obolibrary.org/obo/MP_0008566	increased interferon-gamma secretion	http://purl.obolibrary.org/obo/GO_0032609	type II interferon production
+http://purl.obolibrary.org/obo/MP_0031705	increased type I interferon secretion	http://purl.obolibrary.org/obo/GO_0032606	type I interferon production
+http://purl.obolibrary.org/obo/MP_0014923	increased glutathione reductase activity	http://purl.obolibrary.org/obo/GO_0004362	glutathione-disulfide reductase (NADPH) activity
+http://purl.obolibrary.org/obo/MP_0014984	increased cytochrome-c oxidase activity	http://purl.obolibrary.org/obo/GO_0004129	cytochrome-c oxidase activity
+http://purl.obolibrary.org/obo/MP_0014981	increased amylase activity	http://purl.obolibrary.org/obo/GO_0016160	amylase activity
+http://purl.obolibrary.org/obo/MP_0020017	increased aldehyde dehydrogenase activity	http://purl.obolibrary.org/obo/GO_0004030	aldehyde dehydrogenase [NAD(P)+] activity
+http://purl.obolibrary.org/obo/MP_0020014	increased arylsulphatase activity	http://purl.obolibrary.org/obo/GO_0004065	arylsulfatase activity
+http://purl.obolibrary.org/obo/MP_0020058	increased beta-glucuronidase activity	http://purl.obolibrary.org/obo/GO_0004566	beta-glucuronidase activity
+http://purl.obolibrary.org/obo/MP_0020037	increased coumarin hydroxylase activity	http://purl.obolibrary.org/obo/GO_0008389	coumarin 7-hydroxylase activity
+http://purl.obolibrary.org/obo/MP_0020024	increased delta-aminolaevulinate dehydratase activity	http://purl.obolibrary.org/obo/GO_0004655	porphobilinogen synthase activity
+http://purl.obolibrary.org/obo/MP_0020044	increased glucose-6-phosphate dehydrogenase activity	http://purl.obolibrary.org/obo/GO_0004345	glucose-6-phosphate dehydrogenase activity
+http://purl.obolibrary.org/obo/MP_0020062	increased hypoxanthine phosphoribosyltransferase activity	http://purl.obolibrary.org/obo/GO_0004422	hypoxanthine phosphoribosyltransferase activity

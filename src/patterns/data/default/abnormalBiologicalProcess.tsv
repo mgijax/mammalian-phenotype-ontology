@@ -25,3 +25,13 @@ http://purl.obolibrary.org/obo/MP_0031221	abnormal CXCL10 secretion	http://purl.
 http://purl.obolibrary.org/obo/MP_0008556	abnormal tumor necrosis factor secretion	http://purl.obolibrary.org/obo/GO_0032640	tumor necrosis factor production
 http://purl.obolibrary.org/obo/MP_0008559	abnormal interferon-gamma secretion	http://purl.obolibrary.org/obo/GO_0032609	type II interferon production
 http://purl.obolibrary.org/obo/MP_0014922	abnormal glutathione reductase activity	http://purl.obolibrary.org/obo/GO_0004362	glutathione-disulfide reductase (NADPH) activity
+http://purl.obolibrary.org/obo/MP_0031703	abnormal type I interferon secretion	http://purl.obolibrary.org/obo/GO_0032606	type I interferon production
+http://purl.obolibrary.org/obo/MP_0014983	abnormal cytochrome-c oxidase activity	http://purl.obolibrary.org/obo/GO_0004129	cytochrome-c oxidase activity
+http://purl.obolibrary.org/obo/MP_0014980	abnormal amylase activity	http://purl.obolibrary.org/obo/GO_0016160	amylase activity
+http://purl.obolibrary.org/obo/MP_0020015	abnormal aldehyde dehydrogenase activity	http://purl.obolibrary.org/obo/GO_0004030	aldehyde dehydrogenase [NAD(P)+] activity
+http://purl.obolibrary.org/obo/MP_0020012	abnormal arylsulphatase activity	http://purl.obolibrary.org/obo/GO_0004065	arylsulfatase activity
+http://purl.obolibrary.org/obo/MP_0020054	abnormal beta-glucuronidase activity	http://purl.obolibrary.org/obo/GO_0004566	beta-glucuronidase activity
+http://purl.obolibrary.org/obo/MP_0020035	abnormal coumarin hydroxylase activity	http://purl.obolibrary.org/obo/GO_0008389	coumarin 7-hydroxylase activity
+http://purl.obolibrary.org/obo/MP_0020021	abnormal delta-aminolaevulinate dehydratase activity	http://purl.obolibrary.org/obo/GO_0004655	porphobilinogen synthase activity
+http://purl.obolibrary.org/obo/MP_0020042	abnormal glucose-6-phosphate dehydrogenase activity	http://purl.obolibrary.org/obo/GO_0004345	glucose-6-phosphate dehydrogenase activity
+http://purl.obolibrary.org/obo/MP_0020060	abnormal hypoxanthine phosphoribosyltransferase activity	http://purl.obolibrary.org/obo/GO_0004422	hypoxanthine phosphoribosyltransferase activity
