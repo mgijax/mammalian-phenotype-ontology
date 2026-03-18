@@ -1,3 +1,34 @@
 defined_class	defined_class_label	location	location_label	biological_process	biological_process_label
 http://purl.obolibrary.org/obo/MP_0008864	abnormal intestinal secretion	http://purl.obolibrary.org/obo/UBERON_0000160	intestine	http://purl.obolibrary.org/obo/GO_0032941	secretion by tissue
 http://purl.obolibrary.org/obo/MP_0014813	abnormal brain glucose metabolism	http://purl.obolibrary.org/obo/UBERON_0000955	brain	http://purl.obolibrary.org/obo/GO_0006006	glucose metabolic process
+http://purl.obolibrary.org/obo/MP_0002782	abnormal testes secretion	http://purl.obolibrary.org/obo/UBERON_0000473	testis	http://purl.obolibrary.org/obo/GO_0032941	secretion by tissue
+http://purl.obolibrary.org/obo/MP_0002694	abnormal pancreas secretion	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas	http://purl.obolibrary.org/obo/GO_0032941	secretion by tissue
+http://purl.obolibrary.org/obo/MP_0014195	abnormal endocrine pancreas secretion	http://purl.obolibrary.org/obo/UBERON_0000016	endocrine pancreas	http://purl.obolibrary.org/obo/GO_0032941	secretion by tissue
+http://purl.obolibrary.org/obo/MP_0002783	abnormal ovary secretion	http://purl.obolibrary.org/obo/UBERON_0000992	ovary	http://purl.obolibrary.org/obo/GO_0032941	secretion by tissue
+http://purl.obolibrary.org/obo/MP_0001739	abnormal adrenal gland secretion	http://purl.obolibrary.org/obo/UBERON_0002369	adrenal gland	http://purl.obolibrary.org/obo/GO_0032941	secretion by tissue
+http://purl.obolibrary.org/obo/MP_0000501	abnormal digestive secretion	http://purl.obolibrary.org/obo/UBERON_0001007	digestive system	http://purl.obolibrary.org/obo/GO_0032941	secretion by tissue
+http://purl.obolibrary.org/obo/MP_0001752	abnormal hypothalamus secretion	http://purl.obolibrary.org/obo/UBERON_0001898	hypothalamus	http://purl.obolibrary.org/obo/GO_0032941	secretion by tissue
+http://purl.obolibrary.org/obo/MP_0001746	abnormal pituitary secretion	http://purl.obolibrary.org/obo/UBERON_0000007	pituitary gland	http://purl.obolibrary.org/obo/GO_0032941	secretion by tissue
+http://purl.obolibrary.org/obo/MP_0002992	abnormal sebaceous lipid secretion	http://purl.obolibrary.org/obo/UBERON_0001821	sebaceous gland	http://purl.obolibrary.org/obo/GO_0032941	secretion by tissue
+http://purl.obolibrary.org/obo/MP_0002779	abnormal sex gland secretion	http://purl.obolibrary.org/obo/UBERON_0003937	reproductive gland	http://purl.obolibrary.org/obo/GO_0032941	secretion by tissue
+http://purl.obolibrary.org/obo/MP_0014034	abnormal submucosal gland secretion	http://purl.obolibrary.org/obo/UBERON_0011148	submucosal gland	http://purl.obolibrary.org/obo/GO_0032941	secretion by tissue
+http://purl.obolibrary.org/obo/MP_0013369	abnormal sweat gland secretion	http://purl.obolibrary.org/obo/UBERON_0001820	sweat gland	http://purl.obolibrary.org/obo/GO_0032941	secretion by tissue
+http://purl.obolibrary.org/obo/MP_0011729	abnormal pineal gland melatonin secretion	http://purl.obolibrary.org/obo/UBERON_0001905	pineal body	http://purl.obolibrary.org/obo/GO_0032941	secretion by tissue
+http://purl.obolibrary.org/obo/MP_0014417	abnormal liver secretion	http://purl.obolibrary.org/obo/UBERON_0002107	liver	http://purl.obolibrary.org/obo/GO_0032941	secretion by tissue
+http://purl.obolibrary.org/obo/MP_0014925	abnormal circulating glutathione reductase activity	http://purl.obolibrary.org/obo/UBERON_0000178	blood	http://purl.obolibrary.org/obo/GO_0004362	glutathione-disulfide reductase (NADPH) activity
+http://purl.obolibrary.org/obo/MP_0012576	abnormal kidney glutathione peroxidase activity	http://purl.obolibrary.org/obo/UBERON_0002113	kidney	http://purl.obolibrary.org/obo/GO_0004602	glutathione peroxidase activity
+http://purl.obolibrary.org/obo/MP_0014892	abnormal liver glutathione peroxidase activity	http://purl.obolibrary.org/obo/UBERON_0002107	liver	http://purl.obolibrary.org/obo/GO_0004602	glutathione peroxidase activity
+http://purl.obolibrary.org/obo/MP_0014928	abnormal circulating glutathione peroxidase activity	http://purl.obolibrary.org/obo/UBERON_0000178	blood	http://purl.obolibrary.org/obo/GO_0004602	glutathione peroxidase activity
+http://purl.obolibrary.org/obo/MP_0014884	abnormal circulating catalase activity	http://purl.obolibrary.org/obo/UBERON_0000178	blood	http://purl.obolibrary.org/obo/GO_0004096	catalase activity
+http://purl.obolibrary.org/obo/MP_0014885	abnormal liver catalase activity	http://purl.obolibrary.org/obo/UBERON_0002107	liver	http://purl.obolibrary.org/obo/GO_0004096	catalase activity
+http://purl.obolibrary.org/obo/MP_0020030	abnormal circulating cholinesterase activity	http://purl.obolibrary.org/obo/UBERON_0000178	blood	http://purl.obolibrary.org/obo/GO_0004104	cholinesterase activity
+http://purl.obolibrary.org/obo/MP_0020074	abnormal brain tyrosine 3-monooxygenase activity	http://purl.obolibrary.org/obo/UBERON_0000955	brain	http://purl.obolibrary.org/obo/GO_0004511	tyrosine 3-monooxygenase activity
+http://purl.obolibrary.org/obo/MP_0014976	abnormal liver galactose-1-phosphate uridylyltransferase activity	http://purl.obolibrary.org/obo/UBERON_0002107	liver	http://purl.obolibrary.org/obo/GO_0017103	UTP:galactose-1-phosphate uridylyltransferase activity
+http://purl.obolibrary.org/obo/MP_0014947	abnormal liver enzyme/coenzyme activity	http://purl.obolibrary.org/obo/UBERON_0002107	liver	http://purl.obolibrary.org/obo/GO_0003824	catalytic activity
+http://purl.obolibrary.org/obo/MP_0014949	abnormal brain enzyme/coenzyme activity	http://purl.obolibrary.org/obo/UBERON_0000955	brain	http://purl.obolibrary.org/obo/GO_0003824	catalytic activity
+http://purl.obolibrary.org/obo/MP_0014951	abnormal heart enzyme/coenzyme activity	http://purl.obolibrary.org/obo/UBERON_0000948	heart	http://purl.obolibrary.org/obo/GO_0003824	catalytic activity
+http://purl.obolibrary.org/obo/MP_0014973	abnormal kidney enzyme/coenzyme activity	http://purl.obolibrary.org/obo/UBERON_0002113	kidney	http://purl.obolibrary.org/obo/GO_0003824	catalytic activity
+http://purl.obolibrary.org/obo/MP_0014953	abnormal lung enzyme/coenzyme activity	http://purl.obolibrary.org/obo/UBERON_0002048	lung	http://purl.obolibrary.org/obo/GO_0003824	catalytic activity
+http://purl.obolibrary.org/obo/MP_0014946	abnormal muscle enzyme/coenzyme activity	http://purl.obolibrary.org/obo/UBERON_0001015	musculature	http://purl.obolibrary.org/obo/GO_0003824	catalytic activity
+http://purl.obolibrary.org/obo/MP_0014952	abnormal spleen enzyme/coenzyme activity	http://purl.obolibrary.org/obo/UBERON_0002106	spleen	http://purl.obolibrary.org/obo/GO_0003824	catalytic activity
+http://purl.obolibrary.org/obo/MP_0014979	abnormal liver delta-aminolaevulinate dehydratase activity	http://purl.obolibrary.org/obo/UBERON_0002107	liver	http://purl.obolibrary.org/obo/GO_0004655	porphobilinogen synthase activity
