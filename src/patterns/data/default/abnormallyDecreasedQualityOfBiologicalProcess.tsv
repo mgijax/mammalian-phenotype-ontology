@@ -40,3 +40,5 @@ http://purl.obolibrary.org/obo/MP_0020036	decreased coumarin hydroxylase activit
 http://purl.obolibrary.org/obo/MP_0020022	decreased delta-aminolaevulinate dehydratase activity	http://purl.obolibrary.org/obo/GO_0004655	porphobilinogen synthase activity
 http://purl.obolibrary.org/obo/MP_0020043	decreased glucose-6-phosphate dehydrogenase activity	http://purl.obolibrary.org/obo/GO_0004345	glucose-6-phosphate dehydrogenase activity
 http://purl.obolibrary.org/obo/MP_0020061	decreased hypoxanthine phosphoribosyltransferase activity	http://purl.obolibrary.org/obo/GO_0004422	hypoxanthine phosphoribosyltransferase activity
+http://purl.obolibrary.org/obo/MP_0014991	impaired erythrocyte maturation	http://purl.obolibrary.org/obo/GO_0043249	erythrocyte maturation
+http://purl.obolibrary.org/obo/MP_0014989	impaired erythropoiesis	http://purl.obolibrary.org/obo/GO_0048821	erythrocyte development
