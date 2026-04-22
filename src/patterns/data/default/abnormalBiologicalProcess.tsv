@@ -35,3 +35,5 @@ http://purl.obolibrary.org/obo/MP_0020035	abnormal coumarin hydroxylase activity
 http://purl.obolibrary.org/obo/MP_0020021	abnormal delta-aminolaevulinate dehydratase activity	http://purl.obolibrary.org/obo/GO_0004655	porphobilinogen synthase activity
 http://purl.obolibrary.org/obo/MP_0020042	abnormal glucose-6-phosphate dehydrogenase activity	http://purl.obolibrary.org/obo/GO_0004345	glucose-6-phosphate dehydrogenase activity
 http://purl.obolibrary.org/obo/MP_0020060	abnormal hypoxanthine phosphoribosyltransferase activity	http://purl.obolibrary.org/obo/GO_0004422	hypoxanthine phosphoribosyltransferase activity
+http://purl.obolibrary.org/obo/MP_0014988	abnormal erythrocyte maturation	http://purl.obolibrary.org/obo/GO_0043249	erythrocyte maturation
+http://purl.obolibrary.org/obo/MP_0000245	abnormal erythropoiesis	http://purl.obolibrary.org/obo/GO_0048821	erythrocyte development

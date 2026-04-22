@@ -36,3 +36,5 @@ http://purl.obolibrary.org/obo/MP_0020037	increased coumarin hydroxylase activit
 http://purl.obolibrary.org/obo/MP_0020024	increased delta-aminolaevulinate dehydratase activity	http://purl.obolibrary.org/obo/GO_0004655	porphobilinogen synthase activity
 http://purl.obolibrary.org/obo/MP_0020044	increased glucose-6-phosphate dehydrogenase activity	http://purl.obolibrary.org/obo/GO_0004345	glucose-6-phosphate dehydrogenase activity
 http://purl.obolibrary.org/obo/MP_0020062	increased hypoxanthine phosphoribosyltransferase activity	http://purl.obolibrary.org/obo/GO_0004422	hypoxanthine phosphoribosyltransferase activity
+http://purl.obolibrary.org/obo/MP_0014992	enhanced erythrocyte maturation	http://purl.obolibrary.org/obo/GO_0043249	erythrocyte maturation
+http://purl.obolibrary.org/obo/MP_0014990	enhanced erythropoiesis	http://purl.obolibrary.org/obo/GO_0048821	erythrocyte development
