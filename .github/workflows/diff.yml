@@ -14,16 +14,16 @@ jobs:
     runs-on: ubuntu-latest
     container: obolibrary/odklite:v1.6
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v5
       # Checks-out main branch under "main" directory
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v5
         with:
           ref: master
           path: master
       - name: Diff classification
         run: export ROBOT_JAVA_ARGS=-Xmx6G; robot diff --labels True --left master/src/ontology/mp-edit.owl --left-catalog master/src/ontology/catalog-v001.xml --right src/ontology/mp-edit.owl --right-catalog src/ontology/catalog-v001.xml -f markdown -o edit-diff.md
       - name: Upload diff
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: edit-diff.md
           path: edit-diff.md
@@ -31,11 +31,11 @@ jobs:
     runs-on: ubuntu-latest
     container: obolibrary/odklite:v1.6
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v5
       - name: Classify ontology
         run: cd src/ontology; make IMP=FALSE PAT=FALSE MIR=FALSE mp.owl
       - name: Upload PR mp.owl
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: mp-pr.owl
           path: src/ontology/mp.owl
@@ -44,13 +44,13 @@ jobs:
     runs-on: ubuntu-latest
     container: obolibrary/odklite:v1.6
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v5
         with:
           ref: master
       - name: Classify ontology
         run: cd src/ontology; make IMP=FALSE PAT=FALSE MIR=FALSE mp.owl
       - name: Upload master mp.owl
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: mp-master.owl
           path: src/ontology/mp.owl
@@ -62,21 +62,21 @@ jobs:
     runs-on: ubuntu-latest
     container: obolibrary/odklite:v1.6
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v5
       - name: Download master classification
-        uses: actions/download-artifact@v4.1.7
+        uses: actions/download-artifact@v4
         with:
           name: mp-master.owl
           path: src/ontology/mp-master.owl
       - name: Download PR classification
-        uses: actions/download-artifact@v4.1.7
+        uses: actions/download-artifact@v4
         with:
           name: mp-pr.owl
           path: src/ontology/mp-pr.owl
       - name: Diff classification
         run: export ROBOT_JAVA_ARGS=-Xmx6G; cd src/ontology; robot diff --labels True --left mp-master.owl/mp.owl --left-catalog catalog-v001.xml --right mp-pr.owl/mp.owl --right-catalog catalog-v001.xml -f markdown -o classification-diff.md
       - name: Upload diff
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: classification-diff.md
           path: src/ontology/classification-diff.md
@@ -84,34 +84,30 @@ jobs:
     needs: [diff_classification, edit_file]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v5
       - name: Download reasoned diff
-        uses: actions/download-artifact@v4.1.7
+        uses: actions/download-artifact@v4
         with:
           name: classification-diff.md
           path: classification-diff.md
       - name: Prepare reasoned comment
         run: "echo \"<details>\n <summary> Here's a diff of how these changes impact the classified ontology: </summary> \n\" >comment.md; cat classification-diff.md/classification-diff.md >>comment.md"
       - name: Post reasoned comment
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        uses: NejcZdovc/comment-pr@v1.1.1
+        uses: marocchino/sticky-pull-request-comment@v3
         with:
-          file: "../../comment.md"
-          identifier: "REASONED"
-      - uses: actions/checkout@v2
+          header: REASONED
+          path: "../../comment.md"
+      - uses: actions/checkout@v5
       - name: Download edit diff
-        uses: actions/download-artifact@v4.1.7
+        uses: actions/download-artifact@v4
         with:
           name: edit-diff.md
           path: edit-diff.md
       - name: Prepare edit file comment
         run: "echo \"<details>\n <summary> Here's a diff of your edit file (unreasoned) </summary> \n\" >edit-comment.md; cat edit-diff.md/edit-diff.md >>edit-comment.md"
       - name: Post comment
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        uses: NejcZdovc/comment-pr@v1.1.1
+        uses: marocchino/sticky-pull-request-comment@v3
         with:
-          file: "../../edit-comment.md"
-          identifier: "UNREASONED"
+          header: UNREASONED
+          path: "../../edit-comment.md"
 
