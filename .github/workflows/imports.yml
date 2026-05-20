@@ -13,7 +13,7 @@ jobs:
       # Checks-out current branch
 
       - name: Checkout main branch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v5
 
       - name: work around permission issue
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
@@ -28,7 +28,7 @@ jobs:
         run: cd src/ontology/ && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx10G' GITHUB_ACTION=true remove_patternised_classes
       
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v7
         with:
           commit-message: Update imports and components
           title: 'Update all imports and components'
