@@ -37,3 +37,7 @@ http://purl.obolibrary.org/obo/MP_0020042	abnormal glucose-6-phosphate dehydroge
 http://purl.obolibrary.org/obo/MP_0020060	abnormal hypoxanthine phosphoribosyltransferase activity	http://purl.obolibrary.org/obo/GO_0004422	hypoxanthine phosphoribosyltransferase activity
 http://purl.obolibrary.org/obo/MP_0014988	abnormal erythrocyte maturation	http://purl.obolibrary.org/obo/GO_0043249	erythrocyte maturation
 http://purl.obolibrary.org/obo/MP_0000245	abnormal erythropoiesis	http://purl.obolibrary.org/obo/GO_0048821	erythrocyte development
+http://purl.obolibrary.org/obo/MP_0004229	abnormal embryonic erythropoiesis	http://purl.obolibrary.org/obo/GO_0060319	primitive erythrocyte differentiation
+http://purl.obolibrary.org/obo/MP_0013272	abnormal translation	http://purl.obolibrary.org/obo/GO_0006412	translation
+http://purl.obolibrary.org/obo/MP_0031746	abnormal mitochondrial translation	http://purl.obolibrary.org/obo/GO_0032543	mitochondrial translation
+
