@@ -42,3 +42,11 @@ http://purl.obolibrary.org/obo/MP_0020043	decreased glucose-6-phosphate dehydrog
 http://purl.obolibrary.org/obo/MP_0020061	decreased hypoxanthine phosphoribosyltransferase activity	http://purl.obolibrary.org/obo/GO_0004422	hypoxanthine phosphoribosyltransferase activity
 http://purl.obolibrary.org/obo/MP_0014991	impaired erythrocyte maturation	http://purl.obolibrary.org/obo/GO_0043249	erythrocyte maturation
 http://purl.obolibrary.org/obo/MP_0014989	impaired erythropoiesis	http://purl.obolibrary.org/obo/GO_0048821	erythrocyte development
+http://purl.obolibrary.org/obo/MP_0031750	impaired embryonic erythropoiesis	http://purl.obolibrary.org/obo/GO_0060319	primitive erythrocyte differentiation
+http://purl.obolibrary.org/obo/MP_0031739	impaired translation	http://purl.obolibrary.org/obo/GO_0006412	translation
+http://purl.obolibrary.org/obo/MP_0031748	impaired mitochondrial translation	http://purl.obolibrary.org/obo/GO_0032543	mitochondrial translation
+
+
+
+
+
