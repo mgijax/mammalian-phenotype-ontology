@@ -38,3 +38,7 @@ http://purl.obolibrary.org/obo/MP_0020044	increased glucose-6-phosphate dehydrog
 http://purl.obolibrary.org/obo/MP_0020062	increased hypoxanthine phosphoribosyltransferase activity	http://purl.obolibrary.org/obo/GO_0004422	hypoxanthine phosphoribosyltransferase activity
 http://purl.obolibrary.org/obo/MP_0014992	enhanced erythrocyte maturation	http://purl.obolibrary.org/obo/GO_0043249	erythrocyte maturation
 http://purl.obolibrary.org/obo/MP_0014990	enhanced erythropoiesis	http://purl.obolibrary.org/obo/GO_0048821	erythrocyte development
+http://purl.obolibrary.org/obo/MP_0031749	enhanced embryonic erythropoiesis	http://purl.obolibrary.org/obo/GO_0060319	primitive erythrocyte differentiation
+http://purl.obolibrary.org/obo/MP_0031740	enhanced translation	http://purl.obolibrary.org/obo/GO_0006412	translation
+http://purl.obolibrary.org/obo/MP_0031747	enhanced mitochondrial translation	http://purl.obolibrary.org/obo/GO_0032543	mitochondrial translation
+
