@@ -28,7 +28,7 @@ jobs:
         run: cd src/ontology/ && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx10G' GITHUB_ACTION=true remove_patternised_classes
       
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           commit-message: Update imports and components
           title: 'Update all imports and components'
