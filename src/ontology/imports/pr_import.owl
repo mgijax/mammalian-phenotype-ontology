@@ -7,13 +7,14 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/pr_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2026-06-15/imports/pr_import.owl>
+<http://purl.obolibrary.org/obo/mp/releases/2026-06-17/imports/pr_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/pr/obophenotype/releases/2026-05-26/pr_slim.owl>)
-Annotation(owl:versionInfo "2026-06-15")
+Annotation(owl:versionInfo "2026-06-17")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24431>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33708>))
 Declaration(Class(<http://purl.obolibrary.org/obo/COB_0000013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COB_0000022>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0002185>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003674>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003824>))
@@ -51,6 +52,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0071746>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0099094>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1902494>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1990234>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2759>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33154>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33208>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000000008>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000000017>))
@@ -81,6 +85,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PR_000001393>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000001395>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000001396>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000001471>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PR_000001850>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000001946>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000002107>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000003777>))
@@ -138,6 +143,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PR_000018460>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000018461>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000018463>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000018500>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PR_000018547>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000018721>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000018910>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000018921>))
@@ -186,6 +192,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PR_000025875>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000029968>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000036008>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000036009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PR_000036194>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PR_000040662>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000044520>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000045358>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000050025>))
@@ -196,6 +204,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000704>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001217>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001000>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002160>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002180>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002330>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002353>))
@@ -240,6 +249,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0001000> "derives_from")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0001000> "derives_from")
 TransitiveObjectProperty(<http://purl.obolibrary.org/obo/RO_0001000>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002160> (only_in_taxon)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002160> "RO:0002160")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/RO_0002160> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002160> "only_in_taxon")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002160> "only_in_taxon")
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002180> (has_component)
 
@@ -313,6 +329,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/COB_0000013> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/COB_0000013> "COB:0000013")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000013> "molecule")
+
+# Class: <http://purl.obolibrary.org/obo/COB_0000022> (organism)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COB_0000022> "A material entity that is a maximal functionally integrated unit that develops from a program encoded in a genome")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/COB_0000022> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/COB_0000022> "COB:0000022")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000022> "organism")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0002185> (creatine kinase complex)
 
@@ -627,6 +650,27 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_1990234> "GO:1990234")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_1990234> "transferase complex")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_1990234> <http://purl.obolibrary.org/obo/GO_1902494>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_2759> (Eukaryota)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_2759> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_2759> "NCBITaxon:2759")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_2759> "Eukaryota")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_2759> <http://purl.obolibrary.org/obo/COB_0000022>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_33154> (Opisthokonta)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_33154> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_33154> "NCBITaxon:33154")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_33154> "Opisthokonta")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_33154> <http://purl.obolibrary.org/obo/NCBITaxon_2759>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_33208> (Metazoa)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_33208> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_33208> "NCBITaxon:33208")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_33208> "Metazoa")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_33208> <http://purl.obolibrary.org/obo/NCBITaxon_33154>)
 
 # Class: <http://purl.obolibrary.org/obo/PR_000000001> (protein)
 
@@ -1025,6 +1069,19 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000001471> "Category=gene. Note: Active interleukin-10 inhibits the synthesis of a number of cytokines, including IFN-gamma, IL-2, IL-3, TNF and GM-CSF produced by activated macrophages and by helper T cells. Structurally, IL-10 is a protein of about 160 amino acids that contains four conserved cysteines involved in disulfide bonds.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000001471> "interleukin-10")
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000001471> <http://purl.obolibrary.org/obo/PR_000001335>)
+
+# Class: <http://purl.obolibrary.org/obo/PR_000001850> (cathepsin K)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:WCB") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000001850> "A cathepsin-like protease that is a translation product of the human CTSK gene or a 1:1 ortholog thereof.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PR_000001850> "IUPHARobj:2350")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000001850> "cathepsin O2")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000001850> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PR_000001850> "cathepsin O")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PR_000001850> "cathepsin X")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000001850> "PR:000001850")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000001850> "Category=gene. Requested by=CL.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000001850> "cathepsin K")
+SubClassOf(<http://purl.obolibrary.org/obo/PR_000001850> <http://purl.obolibrary.org/obo/PR_000040662>)
 
 # Class: <http://purl.obolibrary.org/obo/PR_000001946> (tumor necrosis factor ligand superfamily member 10/11)
 
@@ -1710,6 +1767,18 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PR_000018500> ObjectIntersecti
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000018500> <http://purl.obolibrary.org/obo/PR_000001471>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000018500> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/pr#lacks_part> <http://purl.obolibrary.org/obo/SO_0000418>))
 
+# Class: <http://purl.obolibrary.org/obo/PR_000018547> (cathepsin K proteolytic cleavage product)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000018547> "A cathepsin K that has been processed by proteolytic cleavage.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000018547> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000018547> "PR:000018547")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000018547> "Category=modification.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000018547> "cathepsin K proteolytic cleavage product")
+EquivalentClasses(<http://purl.obolibrary.org/obo/PR_000018547> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000001850> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <http://purl.obolibrary.org/obo/GO_0016485>)))
+SubClassOf(<http://purl.obolibrary.org/obo/PR_000018547> <http://purl.obolibrary.org/obo/PR_000001850>)
+SubClassOf(<http://purl.obolibrary.org/obo/PR_000018547> <http://purl.obolibrary.org/obo/PR_000018264>)
+SubClassOf(<http://purl.obolibrary.org/obo/PR_000018547> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <http://purl.obolibrary.org/obo/GO_0016485>))
+
 # Class: <http://purl.obolibrary.org/obo/PR_000018721> (tumor necrosis factor ligand superfamily member 11 proteolytic cleavage product)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DNx") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000018721> "A tumor necrosis factor ligand superfamily member 11 that has been processed by proteolytic cleavage.")
@@ -2251,6 +2320,28 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000036009> "
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000036009> "angiotensin II")
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000036009> <http://purl.obolibrary.org/obo/PR_000018932>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000036009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> <http://purl.obolibrary.org/obo/PR_000036008>))
+
+# Class: <http://purl.obolibrary.org/obo/PR_000036194> (eukaryotic protein)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000036194> "A protein that is encoded in the genome of some Eukaryota.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000036194> "Eukaryota protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000036194> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000036194> "PR:000036194")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000036194> "eukaryotic protein")
+EquivalentClasses(<http://purl.obolibrary.org/obo/PR_000036194> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002160> <http://purl.obolibrary.org/obo/NCBITaxon_2759>)))
+SubClassOf(<http://purl.obolibrary.org/obo/PR_000036194> <http://purl.obolibrary.org/obo/PR_000000001>)
+SubClassOf(<http://purl.obolibrary.org/obo/PR_000036194> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002160> <http://purl.obolibrary.org/obo/NCBITaxon_2759>))
+
+# Class: <http://purl.obolibrary.org/obo/PR_000040662> (cathepsin-like protease)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000040662> "A protein that is a translation product of some metazoan gene that encodes a signal peptide followed by a single Cathepsin propeptide inhibitor domain (Pfam:PF08246) followed by a single Papain family cysteine protease (Pfam:PF00112) domain at the C terminus.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PR_000040662> "cathepsin")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000040662> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000040662> "PR:000040662")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000040662> "Category=family.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000040662> "cathepsin-like protease")
+SubClassOf(<http://purl.obolibrary.org/obo/PR_000040662> <http://purl.obolibrary.org/obo/PR_000036194>)
+SubClassOf(<http://purl.obolibrary.org/obo/PR_000040662> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002160> <http://purl.obolibrary.org/obo/NCBITaxon_33208>))
 
 # Class: <http://purl.obolibrary.org/obo/PR_000044520> (interleukin-23 subunit alpha, signal peptide removed form)
 
