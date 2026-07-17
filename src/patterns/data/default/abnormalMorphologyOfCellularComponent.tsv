@@ -86,3 +86,6 @@ http://purl.obolibrary.org/obo/MP_0031682	abnormal centriole morphology	http://p
 http://purl.obolibrary.org/obo/MP_0031685	abnormal rough endoplasmic reticulum morphology 	http://purl.obolibrary.org/obo/GO_0005791	rough endoplasmic reticulum
 http://purl.obolibrary.org/obo/MP_0031686	abnormal smooth endoplasmic reticulum morphology 	http://purl.obolibrary.org/obo/GO_0005790	smooth endoplasmic reticulum
 http://purl.obolibrary.org/obo/MP_0031690	abnormal sarcoplasm morphology 	http://purl.obolibrary.org/obo/GO_0016528	sarcoplasm
+http://purl.obolibrary.org/obo/MP_0015052	abnormal presynaptic active zone morphology 	http://purl.obolibrary.org/obo/GO_0048786	presynaptic active zone
+http://purl.obolibrary.org/obo/MP_0015050	abnormal presynapse morphology 	http://purl.obolibrary.org/obo/GO_0098793	presynapse
+http://purl.obolibrary.org/obo/MP_0015051	abnormal postsynapse morphology 	http://purl.obolibrary.org/obo/GO_0098794	postsynapse
