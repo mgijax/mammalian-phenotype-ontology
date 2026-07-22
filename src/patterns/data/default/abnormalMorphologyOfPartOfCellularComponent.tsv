@@ -20,7 +20,7 @@ http://purl.obolibrary.org/obo/MP_0004272	abnormal basement membrane morphology	
 http://purl.obolibrary.org/obo/MP_0020378	abnormal cell cytoskeleton morphology	http://purl.obolibrary.org/obo/GO_0005856	cytoskeleton
 http://purl.obolibrary.org/obo/MP_0003111	abnormal cell nucleus morphology	http://purl.obolibrary.org/obo/GO_0005634	nucleus
 http://purl.obolibrary.org/obo/MP_0030943	abnormal centrosome morphology	http://purl.obolibrary.org/obo/GO_0005813	centrosome
-http://purl.obolibrary.org/obo/MP_0003702	abnormal chromosome morphology	http://purl.obolibrary.org/obo/GO_0005694	chromosome
+http://purl.obolibrary.org/obo/MP_0003702	abnormal chromosome morphology	http://purl.obolibrary.org/obo/GO_0000228	nuclear chromosome
 http://purl.obolibrary.org/obo/MP_0013202	abnormal cilium morphology	http://purl.obolibrary.org/obo/GO_0005929	cilium
 http://purl.obolibrary.org/obo/MP_0009594	abnormal corneocyte envelope morphology	http://purl.obolibrary.org/obo/GO_0001533	cornified envelope
 http://purl.obolibrary.org/obo/MP_0010015	abnormal cuticular plate morphology	http://purl.obolibrary.org/obo/GO_0032437	cuticular plate
@@ -89,3 +89,9 @@ http://purl.obolibrary.org/obo/MP_0031690	abnormal sarcoplasm morphology 	http:/
 http://purl.obolibrary.org/obo/MP_0015052	abnormal presynaptic active zone morphology 	http://purl.obolibrary.org/obo/GO_0048786	presynaptic active zone
 http://purl.obolibrary.org/obo/MP_0015050	abnormal presynapse morphology 	http://purl.obolibrary.org/obo/GO_0098793	presynapse
 http://purl.obolibrary.org/obo/MP_0015051	abnormal postsynapse morphology 	http://purl.obolibrary.org/obo/GO_0098794	postsynapse
+http://purl.obolibrary.org/obo/MP_0014239	abnormal intracellular organelle morphology 	http://purl.obolibrary.org/obo/GO_0043229	intracellular organelle
+http://purl.obolibrary.org/obo/MP_0031620	abnormal chromatoid body morphology 	http://purl.obolibrary.org/obo/GO_0033391	chromatoid body
+http://purl.obolibrary.org/obo/MP_0030955	abnormal Golgi trans cisterna morphology 	http://purl.obolibrary.org/obo/GO_0000138	Golgi trans cisterna
+http://purl.obolibrary.org/obo/MP_0030954	abnormal Golgi cis cisterna morphology 	http://purl.obolibrary.org/obo/GO_0000137	Golgi cis cisterna
+http://purl.obolibrary.org/obo/MP_0014238	abnormal ribosome morphology 	http://purl.obolibrary.org/obo/GO_0005840	ribosome
+http://purl.obolibrary.org/obo/MP_0014594	abnormal sperm cytoplasmic droplet morphology 	http://purl.obolibrary.org/obo/GO_0097598	sperm cytoplasmic droplet
