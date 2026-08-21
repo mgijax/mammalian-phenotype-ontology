@@ -40,4 +40,6 @@ http://purl.obolibrary.org/obo/MP_0000245	abnormal erythropoiesis	http://purl.ob
 http://purl.obolibrary.org/obo/MP_0004229	abnormal embryonic erythropoiesis	http://purl.obolibrary.org/obo/GO_0060319	primitive erythrocyte differentiation
 http://purl.obolibrary.org/obo/MP_0013272	abnormal translation	http://purl.obolibrary.org/obo/GO_0006412	translation
 http://purl.obolibrary.org/obo/MP_0031746	abnormal mitochondrial translation	http://purl.obolibrary.org/obo/GO_0032543	mitochondrial translation
+http://purl.obolibrary.org/obo/MP_0015074	abnormal skeletal muscle satellite cell activation	http://purl.obolibrary.org/obo/GO_0014719	skeletal muscle satellite cell activation
+http://purl.obolibrary.org/obo/MP_0015073	abnormal skeletal muscle satellite cell migration	http://purl.obolibrary.org/obo/GO_1902766	skeletal muscle satellite cell migration
 
