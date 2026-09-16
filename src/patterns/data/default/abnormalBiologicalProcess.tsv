@@ -42,4 +42,25 @@ http://purl.obolibrary.org/obo/MP_0013272	abnormal translation	http://purl.oboli
 http://purl.obolibrary.org/obo/MP_0031746	abnormal mitochondrial translation	http://purl.obolibrary.org/obo/GO_0032543	mitochondrial translation
 http://purl.obolibrary.org/obo/MP_0015074	abnormal skeletal muscle satellite cell activation	http://purl.obolibrary.org/obo/GO_0014719	skeletal muscle satellite cell activation
 http://purl.obolibrary.org/obo/MP_0015073	abnormal skeletal muscle satellite cell migration	http://purl.obolibrary.org/obo/GO_1902766	skeletal muscle satellite cell migration
+http://purl.obolibrary.org/obo/MP_0031764	abnormal axo-dendritic transport	http://purl.obolibrary.org/obo/GO_0008088	axo-dendritic transport
+http://purl.obolibrary.org/obo/MP_0004768	abnormal axonal transport	http://purl.obolibrary.org/obo/GO_0098930	axonal transport
+http://purl.obolibrary.org/obo/MP_0031766	abnormal anterograde axonal transport	http://purl.obolibrary.org/obo/GO_0008089	anterograde axonal transport
+http://purl.obolibrary.org/obo/MP_0031767	abnormal retrograde axonal transport	http://purl.obolibrary.org/obo/GO_0008090	retrograde axonal transport
+http://purl.obolibrary.org/obo/MP_0031768	abnormal mitochondrial axonal transport	http://purl.obolibrary.org/obo/GO_0019896	axonal transport of mitochondrion
+http://purl.obolibrary.org/obo/MP_0031769	abnormal anterograde mitochondrial axonal transport	http://purl.obolibrary.org/obo/GO_0098957	anterograde axonal transport of mitochondrion
+http://purl.obolibrary.org/obo/MP_0031770	abnormal retrograde mitochondrial axonal transport	http://purl.obolibrary.org/obo/GO_0098958	retrograde axonal transport of mitochondrion
+http://purl.obolibrary.org/obo/MP_0031765	abnormal dendritic transport	http://purl.obolibrary.org/obo/GO_0098935	dendritic transport
+http://purl.obolibrary.org/obo/MP_0031771	abnormal anterograde dendritic transport	http://purl.obolibrary.org/obo/GO_0098937	anterograde dendritic transport
+http://purl.obolibrary.org/obo/MP_0031772	abnormal retrograde dendritic transport	http://purl.obolibrary.org/obo/GO_0098934	retrograde dendritic transport
+http://purl.obolibrary.org/obo/MP_0031773	abnormal mitochondrial dendritic transport	http://purl.obolibrary.org/obo/GO_0098939	dendritic transport of mitochondrion
+http://purl.obolibrary.org/obo/MP_0031774	abnormal anterograde mitochondrial dendritic transport	http://purl.obolibrary.org/obo/GO_0098972	anterograde dendritic transport of mitochondrion
+http://purl.obolibrary.org/obo/MP_0031775	abnormal retrograde mitochondrial dendritic transport	http://purl.obolibrary.org/obo/GO_0098959	retrograde dendritic transport of mitochondrion
+
+
+
+
+
+
+
+
 
