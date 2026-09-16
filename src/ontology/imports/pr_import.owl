@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/pr_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2026-08-21/imports/pr_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/pr/obophenotype/releases/2026-06-18/pr_slim.owl>)
-Annotation(owl:versionInfo "2026-08-21")
+<http://purl.obolibrary.org/obo/mp/releases/2026-09-16/imports/pr_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/pr/obophenotype/releases/2026-09-15/pr_slim.owl>)
+Annotation(owl:versionInfo "2026-09-16")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24431>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33708>))
@@ -30,7 +30,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0015075>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0015267>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0015269>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0015276>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0015318>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016485>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0019538>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0019814>))
@@ -38,7 +37,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0022834>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0022836>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0022839>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0022857>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0022890>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032991>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0042571>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0042730>))
@@ -217,6 +215,7 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0100001>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#consider>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#date>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#default-namespace>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId>))
@@ -252,9 +251,14 @@ TransitiveObjectProperty(<http://purl.obolibrary.org/obo/RO_0001000>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002160> (only_in_taxon)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ROC:Waclaw") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002160> "U only_in_taxon T: U is a feature found in only in organisms of species of taxon T. The feature cannot be found in an organism of any species outside of (not subsumed by) that taxon. Down-propagates in U hierarchy, up-propagates in T hierarchy (species taxonomy). Implies applicable_to_taxon.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002160> "RO:0002160")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/RO_0002160> "never_outside_taxon")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/RO_0002160> "specific_to")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/RO_0002160> "specific_to_taxon")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/RO_0002160> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002160> "only_in_taxon")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_0002160> "Down-propagates. The original name for this in the paper is 'specific_to'. Applicable to genes because some genes are lost in sub-species (strains) of a species.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002160> "only_in_taxon")
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002180> (has_component)
@@ -263,14 +267,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/RO_0002180> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002180> "has_component")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002180> "has_component")
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002330> (genomically_related_to)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002330> "RO:0002330")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/RO_0002330> "protein")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002330> "genomically_related_to")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002330> "genomically_related_to")
-TransitiveObjectProperty(<http://purl.obolibrary.org/obo/RO_0002330>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002353> (output_of)
 
@@ -312,12 +308,14 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pr#lacks_part> "l
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_24431> (chemical entity)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_24431> "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_24431> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_24431> "CHEBI:24431")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_24431> "chemical entity")
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_33708> (amino-acid residue)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33708> "When two or more amino acids combine to form a peptide, the elements of water are removed, and what remains of each amino acid is called an amino-acid residue.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_33708> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33708> "CHEBI:33708")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33708> "amino-acid residue")
@@ -464,14 +462,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0015276> "liga
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0015276> <http://purl.obolibrary.org/obo/GO_0005216>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0015276> <http://purl.obolibrary.org/obo/GO_0022834>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0015318> (inorganic molecular entity transmembrane transporter activity)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_transport") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0815340729") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0015318> "Enables the transfer of an inorganic molecular entity from the outside of a cell to the inside of the cell across a membrane. An inorganic molecular entity is a molecular entity that contains no carbon.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0015318> "protein")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0015318> "GO:0015318")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0015318> "inorganic molecular entity transmembrane transporter activity")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0015318> <http://purl.obolibrary.org/obo/GO_0022857>)
-
 # Class: <http://purl.obolibrary.org/obo/GO_0016485> (protein processing)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:curators") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:jl") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:jsg") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0016485> "Any protein maturation process achieved by the cleavage of a peptide bond or bonds within a protein. Protein maturation is the process leading to the attainment of the full functional capacity of a protein.")
@@ -531,14 +521,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0022857> "transmembrane transporter activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0022857> <http://purl.obolibrary.org/obo/GO_0003674>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0022890> (inorganic cation transmembrane transporter activity)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:ai") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_transport") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0815340729") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0022890> "Enables the transfer of inorganic cations from one side of a membrane to the other. Inorganic cations are atoms or small molecules with a positive charge that do not contain carbon in covalent linkage.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0022890> "protein")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0022890> "GO:0022890")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0022890> "inorganic cation transmembrane transporter activity")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0022890> <http://purl.obolibrary.org/obo/GO_0015318>)
-
 # Class: <http://purl.obolibrary.org/obo/GO_0032991> (protein-containing complex)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dos") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0032991> "A stable assembly of two or more macromolecules, i.e. proteins, nucleic acids, carbohydrates or lipids, in which at least one component is a protein and the constituent parts function together.")
@@ -597,7 +579,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0046873> "GO:0046873")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0046873> "metal ion transmembrane transporter activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0046873> <http://purl.obolibrary.org/obo/GO_0008324>)
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0046873> <http://purl.obolibrary.org/obo/GO_0022890>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0061695> (transferase complex, transferring phosphorus-containing groups)
 
@@ -679,7 +660,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "IEDB:BP") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PR_000000001> "native protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000000001> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000000001> "PR:000000001")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000000001> "Note that the definition allows for experimentally-manipulated genes, and allows for artifically-produced derivatives that mimic those found naturally. Note also that the definition excludes protein complexes, which some also consider a protein. Those who wish to refer to a class representing both senses of the word are directed to PR:000064867 (\"protein-containing molecular entity\"). Proteins (in the sense defined here) that descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB).")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000000001> "Note that the definition allows for experimentally-manipulated genes, and allows for artifically-produced derivatives that mimic those found naturally. Note also that the definition excludes protein complexes, which some also consider a protein. Those who wish to refer to a class representing both senses of the word are directed to PR:000064867 (\"protein-containing molecular entity\"). Proteins (in the sense defined here) that descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB].")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000000001> "protein")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PR_000000001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000018263> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <http://purl.obolibrary.org/obo/GO_0006412>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/pr#has_gene_template> <http://purl.obolibrary.org/obo/SO_0001217>)))
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> <http://purl.obolibrary.org/obo/PR_000018263>)
@@ -754,7 +735,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/PR_000000085> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PR_000000134> (tumor necrosis factor)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:11053079") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:CNA") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000000134> "A tumor necrosis factor, TNF-like that is a translation product of the human TNF gene or a 1:1 ortholog thereof. Tumour necrosis factor alpha (TNF) is a pleiotropic cytokine that mediates apoptosis, cell proliferation, immunomodulation, inflammation, viral replication, allergy, arthritis, septic shock, insulin resistance, autoimmune diseases, and other pathological conditions. TNF transduces these cellular responses through two distinct receptors: type I, which are expressed on all cell types, and type II, which are expressed only on cells of the immune system and endothelial cells.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:11053079") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:CNA") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000000134> "A tumor necrosis factor, TNF-like that is a translation product of the human TNF gene or a 1:1 ortholog thereof. Tumor necrosis factor alpha (TNF) is a pleiotropic cytokine that mediates apoptosis, cell proliferation, immunomodulation, inflammation, viral replication, allergy, arthritis, septic shock, insulin resistance, autoimmune diseases, and other pathological conditions. TNF transduces these cellular responses through two distinct receptors: type I, which are expressed on all cell types, and type II, which are expressed only on cells of the immune system and endothelial cells.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PR_000000134> "PIRSF:PIRSF500467")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000000134> "TNF-a")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000000134> "TNF-alpha")
