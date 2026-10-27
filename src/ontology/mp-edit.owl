@@ -12488,6 +12488,15 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015136>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015137>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015138>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015139>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015140>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015141>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015142>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015143>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015144>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015145>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015146>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015147>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015148>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0020002>))
@@ -163073,8 +163082,8 @@ AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibra
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015131> "2026-10-27T15:51:09Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015131> "MP:0015131")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015131> "decreased femur trabecular bone surface")
-SubClassOf(<http://purl.obolibrary.org/obo/MP_0015131> <http://purl.obolibrary.org/obo/MP_0000559>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0015131> <http://purl.obolibrary.org/obo/MP_0015130>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015131> <http://purl.obolibrary.org/obo/MP_0015140>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0015132> (decreased tibia trabecular bone surface)
 
@@ -163084,8 +163093,8 @@ AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibra
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015132> "2026-10-27T15:51:21Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015132> "MP:0015132")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015132> "decreased tibia trabecular bone surface")
-SubClassOf(<http://purl.obolibrary.org/obo/MP_0015132> <http://purl.obolibrary.org/obo/MP_0000558>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0015132> <http://purl.obolibrary.org/obo/MP_0015130>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015132> <http://purl.obolibrary.org/obo/MP_0015141>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0015133> (decreased vertebra trabecular bone surface)
 
@@ -163095,8 +163104,8 @@ AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibra
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015133> "2026-10-27T15:51:33Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015133> "MP:0015133")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015133> "decreased vertebra trabecular bone surface")
-SubClassOf(<http://purl.obolibrary.org/obo/MP_0015133> <http://purl.obolibrary.org/obo/MP_0000137>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0015133> <http://purl.obolibrary.org/obo/MP_0015130>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015133> <http://purl.obolibrary.org/obo/MP_0015142>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0015134> (increased vertebra trabecular bone surface)
 
@@ -163106,8 +163115,8 @@ AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibra
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015134> "2026-10-27T15:52:28Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015134> "MP:0015134")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015134> "increased vertebra trabecular bone surface")
-SubClassOf(<http://purl.obolibrary.org/obo/MP_0015134> <http://purl.obolibrary.org/obo/MP_0000137>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0015134> <http://purl.obolibrary.org/obo/MP_0015129>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015134> <http://purl.obolibrary.org/obo/MP_0015142>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0015135> (increased femur trabecular bone surface)
 
@@ -163117,8 +163126,8 @@ AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibra
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015135> "2026-10-27T15:52:39Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015135> "MP:0015135")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015135> "increased femur trabecular bone surface")
-SubClassOf(<http://purl.obolibrary.org/obo/MP_0015135> <http://purl.obolibrary.org/obo/MP_0000559>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0015135> <http://purl.obolibrary.org/obo/MP_0015129>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015135> <http://purl.obolibrary.org/obo/MP_0015140>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0015136> (increased tibia trabecular bone surface)
 
@@ -163128,8 +163137,8 @@ AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibra
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015136> "2026-10-27T15:52:52Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015136> "MP:0015136")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015136> "increased tibia trabecular bone surface")
-SubClassOf(<http://purl.obolibrary.org/obo/MP_0015136> <http://purl.obolibrary.org/obo/MP_0000558>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0015136> <http://purl.obolibrary.org/obo/MP_0015129>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015136> <http://purl.obolibrary.org/obo/MP_0015141>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0015137> (abnormal bone trabecula anisotropy)
 
@@ -163144,6 +163153,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0015137> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MP_0015138> (increased trabecular bone anisotropy)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-0098-4399>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015138> "increase in the degree to which trabeculae are aligned in a preferred direction; typically this is along the loading axis of the bone")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0015138> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4275>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015138> <https://orcid.org/0000-0003-4606-0597>)
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015138> "2026-10-27T18:07:45Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015138> "MP:0015138")
@@ -163153,11 +163163,108 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0015138> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MP_0015139> (decreased trabecular bone anisotropy)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-0098-4399>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015139> "reduction in the degree to which trabeculae are aligned in a preferred direction; typically this is along the loading axis of the bone")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0015139> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4275>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015139> <https://orcid.org/0000-0003-4606-0597>)
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015139> "2026-10-27T18:07:56Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015139> "MP:0015139")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015139> "decreased trabecular bone anisotropy")
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0015139> <http://purl.obolibrary.org/obo/MP_0015137>)
+
+# Class: <http://purl.obolibrary.org/obo/MP_0015140> (abnormal femur trabecular bone morphology)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0-683-40008-8") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015140> "any structural anomaly of bone in the femur that has a lattice-like or spongy structure; it is highly vascular and contains intercommunicating spaces filled with bone marrow")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015140> <https://orcid.org/0000-0003-4606-0597>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015140> "2026-10-27T18:25:41Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015140> "MP:0015140")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015140> "abnormal femur trabecular bone morphology")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015140> <http://purl.obolibrary.org/obo/MP_0000130>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015140> <http://purl.obolibrary.org/obo/MP_0000559>)
+
+# Class: <http://purl.obolibrary.org/obo/MP_0015141> (abnormal tibia trabecular bone morphology)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0-683-40008-8") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015141> "any structural anomaly of bone in the tibia that has a lattice-like or spongy structure; it is highly vascular and contains intercommunicating spaces filled with bone marrow")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015141> <https://orcid.org/0000-0003-4606-0597>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015141> "2026-10-27T18:25:52Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015141> "MP:0015141")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015141> "abnormal tibia trabecular bone morphology")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015141> <http://purl.obolibrary.org/obo/MP_0000130>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015141> <http://purl.obolibrary.org/obo/MP_0000558>)
+
+# Class: <http://purl.obolibrary.org/obo/MP_0015142> (abnormal vertebra trabecular bone morphology)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0-683-40008-8") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015142> "any structural anomaly of bone in the vertebra that has a lattice-like or spongy structure; it is highly vascular and contains intercommunicating spaces filled with bone marrow")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015142> <https://orcid.org/0000-0003-4606-0597>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015142> "2026-10-27T18:26:04Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015142> "MP:0015142")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015142> "abnormal vertebra trabecular bone morphology")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015142> <http://purl.obolibrary.org/obo/MP_0000130>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015142> <http://purl.obolibrary.org/obo/MP_0000137>)
+
+# Class: <http://purl.obolibrary.org/obo/MP_0015143> (decreased femur trabecular bone anisotropy)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-0098-4399>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015143> "reduction in the degree to which trabeculae are aligned in a preferred direction in the femur; typically this is along the loading axis of the bone")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0015143> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4275>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015143> <https://orcid.org/0000-0003-4606-0597>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015143> "2026-10-27T18:35:32Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015143> "MP:0015143")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015143> "decreased femur trabecular bone anisotropy")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015143> <http://purl.obolibrary.org/obo/MP_0015139>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015143> <http://purl.obolibrary.org/obo/MP_0015140>)
+
+# Class: <http://purl.obolibrary.org/obo/MP_0015144> (decreased tibia trabecular bone anisotropy)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-0098-4399>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015144> "reduction in the degree to which trabeculae are aligned in a preferred direction in the tibia; typically this is along the loading axis of the bone")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0015144> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4275>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015144> <https://orcid.org/0000-0003-4606-0597>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015144> "2026-10-27T18:35:43Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015144> "MP:0015144")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015144> "decreased tibia trabecular bone anisotropy")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015144> <http://purl.obolibrary.org/obo/MP_0015139>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015144> <http://purl.obolibrary.org/obo/MP_0015141>)
+
+# Class: <http://purl.obolibrary.org/obo/MP_0015145> (decreased vertebra trabecular bone anisotropy)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-0098-4399>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015145> "reduction in the degree to which trabeculae are aligned in a preferred direction in the vertebra; typically this is along the loading axis of the bone")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0015145> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4275>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015145> <https://orcid.org/0000-0003-4606-0597>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015145> "2026-10-27T18:35:55Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015145> "MP:0015145")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015145> "decreased vertebra trabecular bone anisotropy")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015145> <http://purl.obolibrary.org/obo/MP_0015139>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015145> <http://purl.obolibrary.org/obo/MP_0015142>)
+
+# Class: <http://purl.obolibrary.org/obo/MP_0015146> (increased vertebra trabecular bone anisotropy)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-0098-4399>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015146> "increase in the degree to which trabeculae are aligned in a preferred direction in the vertebra; typically this is along the loading axis of the bone")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0015146> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4275>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015146> <https://orcid.org/0000-0003-4606-0597>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015146> "2026-10-27T18:36:13Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015146> "MP:0015146")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015146> "increased vertebra trabecular bone anisotropy")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015146> <http://purl.obolibrary.org/obo/MP_0015138>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015146> <http://purl.obolibrary.org/obo/MP_0015142>)
+
+# Class: <http://purl.obolibrary.org/obo/MP_0015147> (increased femur trabecular bone anisotropy)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-0098-4399>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015147> "increase in the degree to which trabeculae are aligned in a preferred direction in the femur; typically this is along the loading axis of the bone")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0015147> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4275>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015147> <https://orcid.org/0000-0003-4606-0597>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015147> "2026-10-27T18:36:27Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015147> "MP:0015147")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015147> "increased femur trabecular bone anisotropy")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015147> <http://purl.obolibrary.org/obo/MP_0015138>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015147> <http://purl.obolibrary.org/obo/MP_0015140>)
+
+# Class: <http://purl.obolibrary.org/obo/MP_0015148> (increased tibia trabecular bone anisotropy)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-0098-4399>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015148> "increase in the degree to which trabeculae are aligned in a preferred direction in the tibia; typically this is along the loading axis of the bone")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0015148> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4275>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015148> <https://orcid.org/0000-0003-4606-0597>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015148> "2026-10-27T18:36:40Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015148> "MP:0015148")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015148> "increased tibia trabecular bone anisotropy")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015148> <http://purl.obolibrary.org/obo/MP_0015138>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015148> <http://purl.obolibrary.org/obo/MP_0015141>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0020000> (abnormal response to antigen)
 
