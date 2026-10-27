@@ -163045,6 +163045,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0015128> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MP_0015129> (increased trabecular bone surface)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-0098-4399>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015129> "increase in the extent of trabecular bone surface relative to the volume of the bone, marrow, or tissue")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0015129> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4275>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015129> <https://orcid.org/0000-0003-4606-0597>)
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015129> "2026-10-27T15:46:22Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015129> "MP:0015129")
@@ -163054,6 +163055,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0015129> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MP_0015130> (decreased trabecular bone surface)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-0098-4399>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015130> "reduction in the extent of trabecular bone surface relative to the volume of the bone, marrow, or tissue")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0015130> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4275>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015130> <https://orcid.org/0000-0003-4606-0597>)
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015130> "2026-10-27T15:46:35Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015130> "MP:0015130")
@@ -163063,55 +163065,67 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0015130> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MP_0015131> (decreased femur trabecular bone surface)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-0098-4399>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015131> "reduction in the extent of trabecular bone surface relative to the volume of the bone, marrow, or tissue in the femur")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0015131> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4275>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015131> <https://orcid.org/0000-0003-4606-0597>)
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015131> "2026-10-27T15:51:09Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015131> "MP:0015131")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015131> "decreased femur trabecular bone surface")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015131> <http://purl.obolibrary.org/obo/MP_0000559>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0015131> <http://purl.obolibrary.org/obo/MP_0015130>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0015132> (decreased tibia trabecular bone surface)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-0098-4399>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015132> "reduction in the extent of trabecular bone surface relative to the volume of the bone, marrow, or tissue in the tibia")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0015132> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4275>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015132> <https://orcid.org/0000-0003-4606-0597>)
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015132> "2026-10-27T15:51:21Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015132> "MP:0015132")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015132> "decreased tibia trabecular bone surface")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015132> <http://purl.obolibrary.org/obo/MP_0000558>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0015132> <http://purl.obolibrary.org/obo/MP_0015130>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0015133> (decreased vertebra trabecular bone surface)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-0098-4399>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015133> "reduction in the extent of trabecular bone surface relative to the volume of the bone, marrow, or tissue in the vertebra")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0015133> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4275>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015133> <https://orcid.org/0000-0003-4606-0597>)
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015133> "2026-10-27T15:51:33Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015133> "MP:0015133")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015133> "decreased vertebra trabecular bone surface")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015133> <http://purl.obolibrary.org/obo/MP_0000137>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0015133> <http://purl.obolibrary.org/obo/MP_0015130>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0015134> (increased vertebra trabecular bone surface)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-0098-4399>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015134> "increase in the extent of trabecular bone surface relative to the volume of the bone, marrow, or tissue in the vertebra")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0015134> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4275>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015134> <https://orcid.org/0000-0003-4606-0597>)
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015134> "2026-10-27T15:52:28Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015134> "MP:0015134")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015134> "increased vertebra trabecular bone surface")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015134> <http://purl.obolibrary.org/obo/MP_0000137>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0015134> <http://purl.obolibrary.org/obo/MP_0015129>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0015135> (increased femur trabecular bone surface)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-0098-4399>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015135> "increase in the extent of trabecular bone surface relative to the volume of the bone, marrow, or tissue in the femur")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0015135> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4275>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015135> <https://orcid.org/0000-0003-4606-0597>)
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015135> "2026-10-27T15:52:39Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015135> "MP:0015135")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015135> "increased femur trabecular bone surface")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015135> <http://purl.obolibrary.org/obo/MP_0000559>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0015135> <http://purl.obolibrary.org/obo/MP_0015129>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0015136> (increased tibia trabecular bone surface)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-0098-4399>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015136> "increase in the extent of trabecular bone surface relative to the volume of the bone, marrow, or tissue in the tibia")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0015136> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4275>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015136> <https://orcid.org/0000-0003-4606-0597>)
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015136> "2026-10-27T15:52:52Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015136> "MP:0015136")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015136> "increased tibia trabecular bone surface")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015136> <http://purl.obolibrary.org/obo/MP_0000558>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0015136> <http://purl.obolibrary.org/obo/MP_0015129>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0020000> (abnormal response to antigen)
