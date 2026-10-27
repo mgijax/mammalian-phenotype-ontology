@@ -12475,6 +12475,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015123>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015124>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015125>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015126>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015127>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0020002>))
@@ -15593,11 +15594,11 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "database_cross_reference")
 
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> (has exact synonym)
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> (has_exact_synonym)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "has_exact_synonym")
 
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> (has narrow synonym)
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> (has_narrow_synonym)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> "has_narrow_synonym")
 
@@ -28925,6 +28926,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0001405> <http://purl.obolibrary.o
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-4606-0597>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001406> "abnormal pattern of movement of the limbs of animals, characterized by elements of progression, stability, speed and length over the ground")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001406> "abnormal ambulation")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001406> "peculiar gait")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/MP_0001406> "abnormal walking gait")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0001406> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0001406> "MP:0001406")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/MP_0001406> <http://purl.obolibrary.org/obo/mp-edit#Europhenome_Terms>)
@@ -163010,6 +163012,16 @@ AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015126> "MP:0015126")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015126> "abnormal hindlimb dragging")
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0015126> <http://purl.obolibrary.org/obo/MP_0001406>)
+
+# Class: <http://purl.obolibrary.org/obo/MP_0015127> (abnormal climbing gait)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:11978767") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015127> "any anomaly in the pattern of movement of the limbs or position of body of a mammal when moving vertically over a surface or grid")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0015127> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4350>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015127> <https://orcid.org/0000-0003-4606-0597>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015127> "2026-10-27T15:27:35Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015127> "MP:0015127")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015127> "abnormal climbing gait")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015127> <http://purl.obolibrary.org/obo/MP_0003312>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0020000> (abnormal response to antigen)
 
