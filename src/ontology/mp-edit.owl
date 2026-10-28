@@ -12500,6 +12500,15 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015148>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015149>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015150>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015151>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015152>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015153>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015154>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015155>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015156>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015157>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015158>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015159>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015160>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0020002>))
@@ -163308,6 +163317,93 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015151> "decreased bone tissue mineral density")
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0015151> <http://purl.obolibrary.org/obo/MP_0015149>)
 
+# Class: <http://purl.obolibrary.org/obo/MP_0015152> (abnormal femur bone tissue mineral density)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015152> <https://orcid.org/0000-0003-4606-0597>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015152> "2026-10-28T19:29:54Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015152> "abnormal femur bone tissue mineral density")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015152> <http://purl.obolibrary.org/obo/MP_0015149>)
+
+# Class: <http://purl.obolibrary.org/obo/MP_0015153> (abnormal tibia bone tissue mineral density)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015153> <https://orcid.org/0000-0003-4606-0597>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015153> "2026-10-28T19:30:04Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015153> "abnormal tibia bone tissue mineral density")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015153> <http://purl.obolibrary.org/obo/MP_0015149>)
+
+# Class: <http://purl.obolibrary.org/obo/MP_0015154> (abnormal vertebra bone tissue mineral density)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015154> <https://orcid.org/0000-0003-4606-0597>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015154> "2026-10-28T19:30:15Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015154> "abnormal vertebra bone tissue mineral density")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015154> <http://purl.obolibrary.org/obo/MP_0015149>)
+
+# Class: <http://purl.obolibrary.org/obo/MP_0015155> (decreased femur bone tissue mineral density)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-0098-4399>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015155> "reduction in the mineral density of the bone tissue of the femur, excluding marrow and pore space")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015155> <https://orcid.org/0000-0003-4606-0597>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015155> "2026-10-28T19:30:48Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0015155> "reduced TMD of femur")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015155> "MP:0015155")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015155> "decreased femur bone tissue mineral density")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015155> <http://purl.obolibrary.org/obo/MP_0015151>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015155> <http://purl.obolibrary.org/obo/MP_0015152>)
+
+# Class: <http://purl.obolibrary.org/obo/MP_0015156> (decreased tibia bone tissue mineral density)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-0098-4399>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015156> "reduction in the mineral density of the bone tissue of the tibia, excluding marrow and pore space")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015156> <https://orcid.org/0000-0003-4606-0597>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015156> "2026-10-28T19:30:58Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0015156> "reduced TMD of tibia")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015156> "MP:0015156")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015156> "decreased tibia bone tissue mineral density")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015156> <http://purl.obolibrary.org/obo/MP_0015151>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015156> <http://purl.obolibrary.org/obo/MP_0015153>)
+
+# Class: <http://purl.obolibrary.org/obo/MP_0015157> (decreased vertebra bone tissue mineral density)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-0098-4399>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015157> "reduction in the mineral density of the bone tissue of the vertebra, excluding marrow and pore space")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015157> <https://orcid.org/0000-0003-4606-0597>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015157> "2026-10-28T19:31:09Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0015157> "reduced TMD of vertebrae")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015157> "MP:0015157")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015157> "decreased vertebra bone tissue mineral density")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015157> <http://purl.obolibrary.org/obo/MP_0015151>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015157> <http://purl.obolibrary.org/obo/MP_0015154>)
+
+# Class: <http://purl.obolibrary.org/obo/MP_0015158> (increased femur bone tissue mineral density)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-0098-4399>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015158> "increase in the mineral density of the bone tissue of the femur, excluding marrow and pore space")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015158> <https://orcid.org/0000-0003-4606-0597>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015158> "2026-10-28T19:31:27Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0015158> "increased TMD of femur")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015158> "MP:0015158")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015158> "increased femur bone tissue mineral density")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015158> <http://purl.obolibrary.org/obo/MP_0015150>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015158> <http://purl.obolibrary.org/obo/MP_0015152>)
+
+# Class: <http://purl.obolibrary.org/obo/MP_0015159> (increased tibia bone tissue mineral density)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-0098-4399>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015159> "increase in the mineral density of the bone tissue in the tibia, excluding marrow and pore space")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015159> <https://orcid.org/0000-0003-4606-0597>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015159> "2026-10-28T19:31:36Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0015159> "increased TMD of tibia")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015159> "MP:0015159")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015159> "increased tibia bone tissue mineral density")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015159> <http://purl.obolibrary.org/obo/MP_0015150>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015159> <http://purl.obolibrary.org/obo/MP_0015153>)
+
+# Class: <http://purl.obolibrary.org/obo/MP_0015160> (increased vertebra bone tissue mineral density)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-0098-4399>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015160> "increase in the mineral density of the bone tissue of the vertebra, excluding marrow and pore space")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015160> <https://orcid.org/0000-0003-4606-0597>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015160> "2026-10-28T19:31:49Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0015160> "increased TMD of vertebrae")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015160> "MP:0015160")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015160> "increased vertebra bone tissue mineral density")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015160> <http://purl.obolibrary.org/obo/MP_0015150>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015160> <http://purl.obolibrary.org/obo/MP_0015154>)
+
 # Class: <http://purl.obolibrary.org/obo/MP_0020000> (abnormal response to antigen)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0001-5208-3432>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0020000> "anomaly in the immune response after exposure to an antigen")
@@ -163438,6 +163534,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0020009> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0020009> "MP:0020009")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0020009> "abnormal bone mineral density of femur")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0020009> <http://purl.obolibrary.org/obo/MP_0000559>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0020009> <http://purl.obolibrary.org/obo/MP_0010119>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0020009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000981>)))
 
