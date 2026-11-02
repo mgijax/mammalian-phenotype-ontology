@@ -71745,7 +71745,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0005669> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MP_0005670> (abnormal white adipose tissue physiology)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0-683-40008-8") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0005670> "any functional anomaly in the connective tissue consisting of fat-storing cells and arranged in lobular groups or along minor blood vessels")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0005670> "abnormal BAT physiology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0005670> "abnormal WAT physiology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0005670> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MP_0005670> "abnormal white fat physiology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0005670> "MP:0005670")
