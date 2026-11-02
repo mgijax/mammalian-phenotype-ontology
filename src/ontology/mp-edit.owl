@@ -43908,10 +43908,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0002997> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/MP_0002998> (abnormal bone remodeling)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-6490-7723>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "MESH:G04.185.753.150") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0002998> "aberrant process of the continuous turnover of bone matrix and mineral that involves a balance of resorption and reactive bone formation by osteoclasts and osteoblasts, respectively")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/MP_0002998> "GO:0046849")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "MESH:G04.185.753.150") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GO:0046849") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0002998> "any anomaly in the continuous turnover of bone matrix and mineral that involves first, an increase in resorption (osteoclastic activity) and later, reactive bone formation (osteoblastic activity)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0002998> "https://github.com/mgijax/mammalian-phenotype-ontology/issues/4275")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0002998> "abnormal bone remodelling")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0002998> "abnormal bone turnover")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0002998> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0002998> "MP:0002998")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/MP_0002998> "The process of bone remodeling takes place in the adult skeleton at discrete foci. The process ensures the mechanical integrity of the skeleton throughout life and plays an important role in calcium homeostasis. An imbalance in the regulation of bone resorption and bone formation results in many of the metabolic bone diseases, such as osteoporosis.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0002998> "abnormal bone remodeling")
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0002998> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0046849>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0002998> <http://purl.obolibrary.org/obo/MP_0001533>)
@@ -125019,6 +125022,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0011720> <https://orcid.org/0000-0003-3691-0324>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/MP_0011720> "csmith")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/MP_0011720> "2012-07-11T09:23:05Z")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0011720> "abnormal ossification involved in bone remodelling")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0011720> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0011720> "MP:0011720")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0011720> "abnormal ossification involved in bone remodeling")
