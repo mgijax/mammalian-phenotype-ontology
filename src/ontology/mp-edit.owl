@@ -26298,6 +26298,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001127> "decreased ovary size")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001127> "reduced ovary size")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001127> "small ovaries")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001127> "decreased ovarian size")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0001127> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0001127> "MP:0001127")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0001127> "small ovary")
@@ -26536,6 +26537,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001146> "abnormal testes morphology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001146> "abnormal testicle morphology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001146> "abnormal testiculus morphology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001146> "abnormal testicular morphology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/MP_0001146> "testicular dysplasia")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/MP_0001146> "testis dysplasia")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0001146> "MPheno.ontology")
@@ -26556,6 +26558,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001147> "small male gonad")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001147> "small testes")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001147> "small testicles")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001147> "decreased testicular size")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0001147> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MP_0001147> "male hypogonadism")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0001147> "MP:0001147")
@@ -26574,6 +26577,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001148> "enlarged testicles")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001148> "increased testis size")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001148> "macroorchidism")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001148> "increased testicular size")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0001148> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0001148> "MP:0001148")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/MP_0001148> <http://purl.obolibrary.org/obo/mp-edit#Europhenome_Terms>)
@@ -26582,16 +26586,16 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0001148> "enlarged testis")
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0001148> <http://purl.obolibrary.org/obo/MP_0004849>)
 
-# Class: <http://purl.obolibrary.org/obo/MP_0001149> (testicular hyperplasia)
+# Class: <http://purl.obolibrary.org/obo/MP_0001149> (testis hyperplasia)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0-683-40008-8") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001149> "increase in the number of normal cells in normal arrangement in the testes, typically resulting in increased size")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001149> "hyperplastic male gonad")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001149> "hyperplastic testes")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001149> "hyperplastic testicles")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001149> "testis hyperplasia")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001149> "testicular hyperplasia")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0001149> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0001149> "MP:0001149")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0001149> "testicular hyperplasia")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0001149> "testis hyperplasia")
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0001149> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000644> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000473>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0001149> <http://purl.obolibrary.org/obo/MP_0001148>)
 
@@ -46013,13 +46017,13 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003204> ObjectSomeValuesFr
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0003204> <http://purl.obolibrary.org/obo/MP_0003202>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0003204> <http://purl.obolibrary.org/obo/MP_0006043>)
 
-# Class: <http://purl.obolibrary.org/obo/MP_0003205> (testicular atrophy)
+# Class: <http://purl.obolibrary.org/obo/MP_0003205> (testis atrophy)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "RGD:cur") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003205> "acquired diminution of the size of the testis associated with wasting as from death and reabsorption of cells, diminished cellular proliferation, decreased cellular volume, pressure, ischemia, malnutrition, reduced function or malfunction, or hormonal changes")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0003205> "testis atrophy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0003205> "testicular atrophy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0003205> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0003205> "MP:0003205")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003205> "testicular atrophy")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003205> "testis atrophy")
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0003205> <http://purl.obolibrary.org/obo/MP_0001147>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0003207> (decreased cellular sensitivity to gamma-irradiation)
@@ -49755,6 +49759,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0003578> "bilateral ovarian agenesis")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0003578> "bilateral ovarian aplasia")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0003578> "female agonadism")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0003578> "absent ovaries")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0003578> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0003578> "MP:0003578")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003578> "absent ovary")
@@ -49762,13 +49767,14 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003578> ObjectSomeValuesFr
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0003578> <http://purl.obolibrary.org/obo/MP_0001126>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0003578> <http://purl.obolibrary.org/obo/MP_0005644>)
 
-# Class: <http://purl.obolibrary.org/obo/MP_0003579> (increased ovarian carcinoma incidence)
+# Class: <http://purl.obolibrary.org/obo/MP_0003579> (increased ovary carcinoma incidence)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NCBI:matt") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003579> "greater than the expected number of a malignant neoplasm arising from ovarian tissue, occurring in a specific population in a given time period")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0003579> "increased ovarian carcinoma incidence")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0003579> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MP_0003579> "ovarian carcinoma")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0003579> "MP:0003579")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003579> "increased ovarian carcinoma incidence")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003579> "increased ovary carcinoma incidence")
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0003579> <http://purl.obolibrary.org/obo/MP_0002038>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0003579> <http://purl.obolibrary.org/obo/MP_0008000>)
 
@@ -49783,12 +49789,13 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003580> "incr
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003580> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000470> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/MPATH_407>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0003580> <http://purl.obolibrary.org/obo/MP_0010273>)
 
-# Class: <http://purl.obolibrary.org/obo/MP_0003581> (increased ovarian fibroma incidence)
+# Class: <http://purl.obolibrary.org/obo/MP_0003581> (increased ovary fibroma incidence)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "MESH:C04.557.450.565.590.340") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NCBI:matt") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003581> "greater than the expected number of a benign tumor of fibrous or fully developed connective tissue in the ovary, in a specific population in a given time period")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0003581> "increased ovarian fibroma incidence")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0003581> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0003581> "MP:0003581")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003581> "increased ovarian fibroma incidence")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003581> "increased ovary fibroma incidence")
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003581> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000470> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/MPATH_407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/UBERON_0000992>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0003581> <http://purl.obolibrary.org/obo/MP_0003580>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0003581> <http://purl.obolibrary.org/obo/MP_0008000>)
@@ -49796,6 +49803,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0003581> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MP_0003582> (abnormal ovary development)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "MESH:A05.360.319.114.630") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003582> "abnormal morphogenesis of the ovarian follicle for the production of female germ cells or the endocrine cells for the production of estrogen and progesterone")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0003582> "abnormal ovarian development")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0003582> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0003582> "MP:0003582")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003582> "abnormal ovary development")
@@ -52373,6 +52381,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0003829> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MP_0003830> (abnormal testis development)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-4606-0597>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003830> "abnormal morphogenesis of the male reproductive gland containing the germ cells")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0003830> "abnormal testicular development")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0003830> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0003830> "MP:0003830")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/MP_0003830> <http://purl.obolibrary.org/obo/mp-edit#Europhenome_Terms>)
@@ -62812,6 +62821,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0004831> <http://purl.obolibrary.o
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0004832> "increased size of the female reproductive gland containing the germ cells")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0004832> "increased ovary size")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0004832> "increased ovarian size")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0004832> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0004832> "MP:0004832")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0004832> "enlarged ovary")
@@ -62994,6 +63004,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0004848> <http://purl.obolibrary.o
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0004849> "anomaly in the size of the male reproductive glands")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0004849> "abnormal testes size")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0004849> "abnormal testicular size")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0004849> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0004849> "MP:0004849")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/MP_0004849> <http://purl.obolibrary.org/obo/mp-edit#Europhenome_Terms>)
@@ -63005,6 +63016,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0004849> <http://purl.obolibrary.o
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0004850> "anomaly in the average weight of the male reproductive glands")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0004850> "abnormal testes weight")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0004850> "abnormal testicular weight")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0004850> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0004850> "MP:0004850")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0004850> "abnormal testis weight")
@@ -63013,6 +63025,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0004850> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MP_0004851> (increased testis weight)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0004851> "greater average weight of the male reproductive glands")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0004851> "increased testicular weight")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0004851> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0004851> "MP:0004851")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0004851> "increased testis weight")
@@ -63024,6 +63037,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0004851> <http://purl.obolibrary.o
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0004852> "reduced average weight of the male reproductive glands")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0004852> "reduced testis weight")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0004852> "decreased testicular weight")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0004852> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0004852> "MP:0004852")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0004852> "decreased testis weight")
@@ -63034,6 +63048,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0004852> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MP_0004853> (abnormal ovary size)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0004853> "anomaly in the average size of the female reproductive gland containing the germ cells")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0004853> "abnormal ovarian size")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0004853> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0004853> "MP:0004853")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0004853> "abnormal ovary size")
@@ -63042,6 +63057,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0004853> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MP_0004854> (abnormal ovary weight)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0004854> "anomaly in the average weight of the female reproductive gland containing the germ cells")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0004854> "abnormal ovarian weight")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0004854> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0004854> "MP:0004854")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0004854> "abnormal ovary weight")
@@ -63050,6 +63066,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0004854> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MP_0004855> (increased ovary weight)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0004855> "greater average weight of the female reproductive gland containing the germ cells")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0004855> "increased ovarian weight")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0004855> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0004855> "MP:0004855")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0004855> "increased ovary weight")
@@ -63061,6 +63078,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0004855> <http://purl.obolibrary.o
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0004856> "reduction in the average weight of the female reproductive gland containing the germ cells")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0004856> "reduced ovary weight")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0004856> "decreased ovarian weight")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0004856> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0004856> "MP:0004856")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0004856> "decreased ovary weight")
@@ -93714,14 +93732,15 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0009441> "delayed skin barrier formation")
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0009441> <http://purl.obolibrary.org/obo/MP_0003941>)
 
-# Class: <http://purl.obolibrary.org/obo/MP_0009442> (increased ovarian teratoma incidence)
+# Class: <http://purl.obolibrary.org/obo/MP_0009442> (increased ovary teratoma incidence)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "MGI:llw2") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0009442> "greater than the expected number of a usually benign tumor found in the ovary, occurring in a specific population in a given time period; ovarian teratomas are typically the result of an anomaly of oogenesis and typically contains a diversity of tissues often representing all organ systems e.g. hair, teeth, bone, thyroid, nerve tissue")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0009442> "increased ovarian teratoma incidence")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0009442> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MP_0009442> "ovarian dermoid cyst")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MP_0009442> "ovarian teratoma")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0009442> "MP:0009442")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0009442> "increased ovarian teratoma incidence")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0009442> "increased ovary teratoma incidence")
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0009442> <http://purl.obolibrary.org/obo/MP_0002627>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0009442> <http://purl.obolibrary.org/obo/MP_0008000>)
 
@@ -134610,16 +134629,18 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0012432> "decr
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0012432> <http://purl.obolibrary.org/obo/MP_0001158>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0012432> <http://purl.obolibrary.org/obo/MP_0012416>)
 
-# Class: <http://purl.obolibrary.org/obo/MP_0012433> (decreased ovarian tumor incidence)
+# Class: <http://purl.obolibrary.org/obo/MP_0012433> (decreased ovary tumor incidence)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0012433> "less than the expected number of neoplams in the ovary occurring in a specific population in a given time period")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0012433> <https://orcid.org/0000-0003-3691-0324>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/MP_0012433> "csmith")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/MP_0012433> "2013-12-04T21:40:16Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0012433> "decreased ovarian tumour incidence")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0012433> "decreased ovarian tumor incidence")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0012433> "decreased ovary tumour incidence")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0012433> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0012433> "MP:0012433")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0012433> "decreased ovarian tumor incidence")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0012433> "decreased ovary tumor incidence")
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0012433> <http://purl.obolibrary.org/obo/MP_0001126>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0012433> <http://purl.obolibrary.org/obo/MP_0012416>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0012433> <http://purl.obolibrary.org/obo/MP_0012417>)
@@ -145769,6 +145790,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0013538> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MP_0013539> (increased ovary adenoma incidence)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-6490-7723>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013539> "greater than the expected number of a benign epithelial neoplasm with a glandular organization arising in the ovary, occurring in a specific population in a given time period")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013539> "increased ovarian adenoma incidence")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MP_0013539> "ovarian adenoma")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0013539> "MP:0013539")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013539> "increased ovary adenoma incidence")
@@ -150317,6 +150339,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0014010> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MP_0014011> (abnormal ovary tissue architecture)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-4606-0597>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0014011> "any anomaly in the texture of the ovarian tissue")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0014011> "abnormal ovarian tissue architecture")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0014011> "MP:0014011")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0014011> "abnormal ovary tissue architecture")
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0014011> <http://purl.obolibrary.org/obo/MP_0001126>)
@@ -169305,6 +169328,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0020490> <http://purl.obolibrary.o
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-4606-0597>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0020491> "any anomaly in the position of the ovary in relation to other structures")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/MP_0020491> <https://orcid.org/0000-0003-4606-0597>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/MP_0020491> "2017-10-11T20:06:28Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0020491> "abnormal ovarian topology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0020491> "MP:0020491")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0020491> "abnormal ovary topology")
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0020491> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000140> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000992>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
