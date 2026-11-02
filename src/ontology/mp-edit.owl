@@ -15511,6 +15511,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MP_0031772>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0031773>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0031774>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0031775>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0031776>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_3000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_3000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_3000003>))
@@ -201818,6 +201819,20 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0031775> "abnormal retrograde mitochondrial dendritic transport")
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0031775> <http://purl.obolibrary.org/obo/MP_0031772>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0031775> <http://purl.obolibrary.org/obo/MP_0031773>)
+
+# Class: <http://purl.obolibrary.org/obo/MP_0031776> (ballooning hepatocyte degeneration)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "HP:0033193") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:37017559") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:38250461") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0031776> "a form of hepatocellular injury characterized by swelling of the hepatocyte, rounding of its contour, and alteration of the cytoplasm, which takes on a reticulated, rarefied, or flocculant quality and often contains clumps of eosinophilic ropey material known as Mallory-Denk bodies")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0031776> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4349>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0031776> <https://orcid.org/0000-0002-2346-5201>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0031776> <https://orcid.org/0000-0002-6490-7723>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0031776> "2026-11-02T12:33:48Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0031776> "ballooning degeneration of hepatocytes")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0031776> "MPheno.ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0031776> "MP:0031776")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0031776> "ballooning hepatocyte degeneration")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0031776> <http://purl.obolibrary.org/obo/MP_0000607>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0031776> <http://purl.obolibrary.org/obo/MP_0003103>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_3000001> (abnormal gastrula morphology)
 
