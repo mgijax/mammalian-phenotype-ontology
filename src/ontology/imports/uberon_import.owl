@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mp/imports/uberon_import.owl>
-<http://purl.obolibrary.org/obo/mp/releases/2026-10-28/imports/uberon_import.owl>
+<http://purl.obolibrary.org/obo/mp/releases/2026-11-01/imports/uberon_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/uberon/releases/2026-10-01/uberon.owl>)
-Annotation(owl:versionInfo "2026-10-28")
+Annotation(owl:versionInfo "2026-11-01")
 
 Declaration(Class(<http://identifiers.org/ncbigene/26468>))
 Declaration(Class(<http://identifiers.org/ncbigene/55553>))
@@ -143625,7 +143625,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_7770025> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/GO_7770025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_6072>))
 SubClassOf(<http://purl.obolibrary.org/obo/GO_7770025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002315> <http://purl.obolibrary.org/obo/CL_0000502>))
 
-# Class: <http://purl.obolibrary.org/obo/IAO_0000027> (data item)
+# Class: <http://purl.obolibrary.org/obo/IAO_0000027> (data entity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000027> "An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000027> "data entity"@en)
