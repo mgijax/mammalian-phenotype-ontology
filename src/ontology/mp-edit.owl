@@ -29606,7 +29606,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0001485> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/MP_0001486> (abnormal startle reflex)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0-471-31639-3") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001486> "aberrant threshold or reflex response to variable stimuli, often auditory; usually measured by amplitude of whole body flinch")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0-471-31639-3") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001486> "aberrant threshold or reflex response to sudden unexpected stimuli, often auditory; usually measured by amplitude of whole body flinch")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001486> "abnormal startle response")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0001486> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0001486> "MP:0001486")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/MP_0001486> <http://purl.obolibrary.org/obo/mp-edit#Europhenome_Terms>)
@@ -29617,9 +29618,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0001486> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/MP_0001488> (increased startle reflex)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0-471-31639-3") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001488> "reduced threshold or more severe reflex response to variable stimuli, often auditory; usually measured by amplitude of whole body flinch")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0-471-31639-3") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001488> "reduced threshold or more severe reflex response to sudden unexpected stimuli, often auditory; usually measured by amplitude of whole body flinch")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/MP_0001488> "MP:0001487")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001488> "increased startle response in acoustic startle test")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001488> "increased startle response")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0001488> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0001488> "MP:0001488")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/MP_0001488> <http://purl.obolibrary.org/obo/mp-edit#Europhenome_Terms>)
@@ -29630,8 +29632,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0001488> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/MP_0001489> (decreased startle reflex)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0-471-31639-3") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001489> "greater threshold or less severe reflex response to variable stimuli, often auditory; usually measured by amplitude of whole body flinch")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0-471-31639-3") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001489> "greater threshold or less severe reflex response to sudden unexpected stimuli, often auditory; usually measured by amplitude of whole body flinch")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001489> "reduced startle reflex")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001489> "decreased startle response")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0001489> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0001489> "MP:0001489")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/MP_0001489> <http://purl.obolibrary.org/obo/mp-edit#Europhenome_Terms>)
@@ -75415,7 +75418,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0006358> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/MP_0006359> (absent startle reflex)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-6490-7723>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-4606-0597>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0006359> "failure to respond to variable stimuli, often auditory; usually measured by amplitude of whole body flinch")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-6490-7723>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-4606-0597>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0006359> "failure to respond to sudden unexpected stimuli, often auditory; usually measured by amplitude of whole body flinch")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0006359> "absent startle response")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0006359> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0006359> "MP:0006359")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/MP_0006359> <http://purl.obolibrary.org/obo/mp-edit#Europhenome_Terms>)
@@ -114333,8 +114337,8 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0010968> <https://orcid.org/0000-0003-3691-0324>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/MP_0010968> "csmith")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/MP_0010968> "2011-03-24T02:09:17Z")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0010968> "reduced compact bone area")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-6490-7723>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0010968> "decreased cortical bone area")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0010968> "reduced compact bone area")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-6490-7723>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0010968> "reduced cortical bone area")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0010968> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0010968> "MP:0010968")
@@ -146667,9 +146671,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0013621> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MP_0013622> (abnormal femur compact bone thickness)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013622> "reduced or increased width of the superficial layer of compact bone at the midpoint of the femur")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013622> "abnormal femur cortical bone thickness")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013622> "abnormal femur dense bone thickness")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013622> "abnormal femur lamellar bone thickness")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013622> "abnormal femur cortical bone thickness")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0013622> "MP:0013622")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013622> "abnormal femur compact bone thickness")
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013622> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000915> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0016422> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000981>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
@@ -146679,9 +146683,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0013622> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MP_0013623> (increased femur compact bone thickness)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013623> "increased width of the superficial layer of compact bone at the midpoint of the femur")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013623> "increased femur cortical bone thickness")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013623> "increased femur dense bone thickness")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013623> "increased femur lamellar bone thickness")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013623> "increased femur cortical bone thickness")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0013623> "MP:0013623")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013623> "increased femur compact bone thickness")
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000591> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0016422> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000981>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
@@ -146691,12 +146695,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0013623> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MP_0013624> (decreased femur compact bone thickness)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0013624> "reduced width of the superficial layer of compact bone at the midpoint of the femur")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013624> "decreased femur cortical bone thickness")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013624> "decreased femur dense bone thickness")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013624> "decreased femur lamellar bone thickness")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013624> "reduced femur cortical bone thickness")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013624> "reduced femur dense bone thickness")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013624> "reduced femur lamellar bone thickness")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013624> "decreased femur cortical bone thickness")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0013624> "reduced femur cortical bone thickness")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0013624> "MP:0013624")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013624> "decreased femur compact bone thickness")
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0013624> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000592> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0016422> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000981>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
@@ -177039,11 +177043,11 @@ AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibra
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0021182> <https://orcid.org/0000-0003-4606-0597>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0021182> "decreased compact bone area of femur")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0021182> "decreased compact bone cross-sectional area of femur")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0021182> "reduced femoral compact bone area")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-6490-7723>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0021182> "decreased cortical bone cross-sectional area of femur")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0021182> "decreased femoral compact bone area")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-6490-7723>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0021182> "decreased femoral cortical bone area")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-6490-7723>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0021182> "decreased femur cortical bone area")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0021182> "reduced femoral compact bone area")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0021182> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0021182> "MP:0021182")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0021182> "decreased femur compact bone area")
