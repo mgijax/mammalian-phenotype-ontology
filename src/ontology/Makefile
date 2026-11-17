@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                aef0ac90528c6c2e6500afb10879cd476ea2716b89415411f0710a920b6d49fd
+CONFIG_HASH=                922926752cf7a131d883b921f0f16c41ad126da605183006c631fe313fbb0789
 
 
 # ----------------------------------------
@@ -200,7 +200,7 @@ all_main: $(MAIN_FILES)
 
 IMPORTS =  nbo pr go uberon ro chebi pato cl mpath
 
-IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
+IMPORT_ROOTS =  $(IMPORTDIR)/merged_import
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
 IMPORT_FILES = $(IMPORT_OWL_FILES)
 
@@ -411,39 +411,57 @@ ANNOTATION_PROPERTIES=rdfs:label IAO:0000115 OMO:0002000
 
 ifeq ($(IMP),true)
 
-## Default module type (slme)
-$(IMPORTDIR)/%_import.owl: $(MIRRORDIR)/%.owl $(IMPORTDIR)/%_terms.txt \
-			   $(IMPORTSEED) | all_robot_plugins
-	$(ROBOT) annotate --input $< --remove-annotations \
-		 odk:normalize --add-source true \
-		 extract --term-file $(IMPORTDIR)/$*_terms.txt $(T_IMPORTSEED) \
-		         --force true --copy-ontology-annotations true \
-		         --individuals include \
+ALL_TERMS = $(foreach imp, $(IMPORTS), $(IMPORTDIR)/$(imp)_terms.txt)
+
+$(IMPORTDIR)/merged_import.owl: $(MIRRORDIR)/merged.owl $(ALL_TERMS) \
+				$(IMPORTSEED) | all_robot_plugins
+	$(ROBOT) merge --input $< \
+		 remove --select "<http://purl.obolibrary.org/obo/GOCHE_*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/NCBITaxon_Union_*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/NCBITaxon_*>" \
+		 remove --select "<http://www.informatics.jax.org/marker/MGI:*>" \
+		 remove --select "<http://identifiers.org/ncbigene/*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/OBI_*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/CARO_*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/COB_*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/ENVO_*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/BFO_0000002*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/BFO_0000003*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/BFO_0000004*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/BFO_0000006*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/BFO_0000015*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/BFO_0000019*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/BFO_0000020*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/BFO_0000023*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/BFO_0000031*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/BFO_0000040*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/BFO_0000141*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/SO_*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/CLM_*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/cl#abbreviation*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/cl#added_for_HCA*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/uberon/core#ABBREVIATION*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/uberon/core#COMPARATIVE_PREFERRED*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/uberon/core#DEPRECATED*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/uberon/core#DUBIOUS*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/uberon/core#HOMOLOGY*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/uberon/core#HUMAN_PREFERRED*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/uberon/core#INCONSISTENT*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/uberon/core#LATIN*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/uberon/core#MISSPELLING*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/uberon/core#NON_AMNIOTE*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/uberon/core#NON_MAMMAL*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/uberon/core#PENDING_REVIEW*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/uberon/core#PLURAL*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/uberon/core#SENSU*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/uberon/core#SYSTEMATIC*>" \
+		 extract $(foreach f, $(ALL_TERMS), --term-file $(f)) $(T_IMPORTSEED) \
+		         --force true --copy-ontology-annotations false \
+		         --individuals exclude \
 		         --method BOT \
 		 remove $(foreach p, $(ANNOTATION_PROPERTIES), --term $(p)) \
-		        --term-file $(IMPORTDIR)/$*_terms.txt $(T_IMPORTSEED) \
+		        $(foreach f, $(ALL_TERMS), --term-file $(f)) $(T_IMPORTSEED) \
 		        --select complement --select annotation-properties \
-		 odk:normalize --base-iri http://purl.obolibrary.org/obo \
-		               --subset-decls true --synonym-decls true \
-		 repair --merge-axiom-annotations true \
-		 $(ANNOTATE_CONVERT_FILE)
-
-.PRECIOUS: $(IMPORTDIR)/%_import.owl
-
-## Module for ontology: nbo (filter)
-$(IMPORTDIR)/nbo_import.owl: $(MIRRORDIR)/nbo.owl $(IMPORTDIR)/nbo_terms.txt $(IMPORTSEED) | all_robot_plugins
-	$(ROBOT) annotate --input $< --remove-annotations \
-		 odk:normalize --add-source true \
-		 extract --term-file $(IMPORTDIR)/nbo_terms.txt $(T_IMPORTSEED) \
-		         --copy-ontology-annotations true --force true --method BOT \
-		 remove --axioms external --preserve-structure false --trim false \
-		        --base-iri http://purl.obolibrary.org/obo/NBO \
-		 remove $(foreach p, $(ANNOTATION_PROPERTIES), --term $(p)) \
-		        --term rdfs:label \
-		        --term IAO:0000115 \
-		        --term OMO:0002000 \
-		        --term-file $(IMPORTDIR)/nbo_terms.txt $(T_IMPORTSEED) \
-		        --select complement \
 		 odk:normalize --base-iri http://purl.obolibrary.org/obo \
 		               --subset-decls true --synonym-decls true \
 		 repair --merge-axiom-annotations true \
@@ -486,29 +504,30 @@ ifeq ($(MIR),true)
 .PHONY: mirror-nbo
 .PRECIOUS: $(MIRRORDIR)/nbo.owl
 mirror-nbo: | $(TMPDIR)
-	$(ROBOT) convert -I http://purl.obolibrary.org/obo/nbo.owl -o $(TMPDIR)/$@.owl
+	curl -L $(OBOBASE)/nbo/nbo-base.owl --create-dirs -o $(TMPDIR)/nbo-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) convert -i $(TMPDIR)/nbo-download.owl -o $(TMPDIR)/$@.owl
 
 
 ## ONTOLOGY: pr
 .PHONY: mirror-pr
 .PRECIOUS: $(MIRRORDIR)/pr.owl
 mirror-pr: | $(TMPDIR)
-	$(ROBOT) convert -I https://raw.githubusercontent.com/obophenotype/pro_obo_slim/master/pr_slim.owl -o $(TMPDIR)/$@.owl
+	$(ROBOT) remove -I https://raw.githubusercontent.com/obophenotype/pro_obo_slim/master/pr_slim.owl --base-iri http://purl.obolibrary.org/obo/PR  --axioms external --preserve-structure false --trim false -o $(TMPDIR)/$@.owl
 
 
 ## ONTOLOGY: go
 .PHONY: mirror-go
 .PRECIOUS: $(MIRRORDIR)/go.owl
 mirror-go: | $(TMPDIR)
-	curl -L $(OBOBASE)/go.owl --create-dirs -o $(TMPDIR)/go-download.owl --retry 4 --max-time 200 && \
-	$(ROBOT) convert -i $(TMPDIR)/go-download.owl -o $(TMPDIR)/$@.owl
+	curl -L $(OBOBASE)/go.owl --create-dirs -o $(TMPDIR)/go-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) remove -i $(TMPDIR)/go-download.owl --base-iri http://purl.obolibrary.org/obo/GO --axioms external --preserve-structure false --trim false -o $(TMPDIR)/$@.owl
 
 
 ## ONTOLOGY: uberon
 .PHONY: mirror-uberon
 .PRECIOUS: $(MIRRORDIR)/uberon.owl
 mirror-uberon: | $(TMPDIR)
-	curl -L $(OBOBASE)/uberon.owl --create-dirs -o $(TMPDIR)/uberon-download.owl --retry 4 --max-time 200 && \
+	curl -L $(OBOBASE)/uberon/uberon-base.owl --create-dirs -o $(TMPDIR)/uberon-download.owl --retry 4 --max-time 400 && \
 	$(ROBOT) convert -i $(TMPDIR)/uberon-download.owl -o $(TMPDIR)/$@.owl
 
 
@@ -516,7 +535,7 @@ mirror-uberon: | $(TMPDIR)
 .PHONY: mirror-ro
 .PRECIOUS: $(MIRRORDIR)/ro.owl
 mirror-ro: | $(TMPDIR)
-	curl -L $(OBOBASE)/ro.owl --create-dirs -o $(TMPDIR)/ro-download.owl --retry 4 --max-time 200 && \
+	curl -L $(OBOBASE)/ro/ro-base.owl --create-dirs -o $(TMPDIR)/ro-download.owl --retry 4 --max-time 400 && \
 	$(ROBOT) convert -i $(TMPDIR)/ro-download.owl -o $(TMPDIR)/$@.owl
 
 
@@ -524,30 +543,40 @@ mirror-ro: | $(TMPDIR)
 .PHONY: mirror-chebi
 .PRECIOUS: $(MIRRORDIR)/chebi.owl
 mirror-chebi: | $(TMPDIR)
-	$(ROBOT) convert -I http://purl.obolibrary.org/obo/upheno/chebi_slim.owl -o $(TMPDIR)/$@.owl
+	$(ROBOT) remove -I http://purl.obolibrary.org/obo/upheno/chebi_slim.owl --base-iri http://purl.obolibrary.org/obo/CHEBI  --axioms external --preserve-structure false --trim false -o $(TMPDIR)/$@.owl
 
 
 ## ONTOLOGY: pato
 .PHONY: mirror-pato
 .PRECIOUS: $(MIRRORDIR)/pato.owl
 mirror-pato: | $(TMPDIR)
-	curl -L $(OBOBASE)/pato.owl --create-dirs -o $(TMPDIR)/pato-download.owl --retry 4 --max-time 200 && \
-	$(ROBOT) remove -i $(TMPDIR)/pato-download.owl --base-iri http://purl.obolibrary.org/obo/PATO --axioms external --preserve-structure false --trim false -o $(TMPDIR)/$@.owl
+	curl -L $(OBOBASE)/pato/pato-base.owl --create-dirs -o $(TMPDIR)/pato-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) convert -i $(TMPDIR)/pato-download.owl -o $(TMPDIR)/$@.owl
 
 
 ## ONTOLOGY: cl
 .PHONY: mirror-cl
 .PRECIOUS: $(MIRRORDIR)/cl.owl
 mirror-cl: | $(TMPDIR)
-	$(ROBOT) convert -I http://purl.obolibrary.org/obo/cl/cl-simple.owl -o $(TMPDIR)/$@.owl
+	curl -L $(OBOBASE)/cl/cl-base.owl --create-dirs -o $(TMPDIR)/cl-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) convert -i $(TMPDIR)/cl-download.owl -o $(TMPDIR)/$@.owl
 
 
 ## ONTOLOGY: mpath
 .PHONY: mirror-mpath
 .PRECIOUS: $(MIRRORDIR)/mpath.owl
 mirror-mpath: | $(TMPDIR)
-	curl -L $(OBOBASE)/mpath.owl --create-dirs -o $(TMPDIR)/mpath-download.owl --retry 4 --max-time 200 && \
-	$(ROBOT) convert -i $(TMPDIR)/mpath-download.owl -o $(TMPDIR)/$@.owl
+	curl -L $(OBOBASE)/mpath.owl --create-dirs -o $(TMPDIR)/mpath-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) remove -i $(TMPDIR)/mpath-download.owl --base-iri http://purl.obolibrary.org/obo/MPATH --axioms external --preserve-structure false --trim false -o $(TMPDIR)/$@.owl
+
+ALL_MIRRORS = $(patsubst %, $(MIRRORDIR)/%.owl, $(IMPORTS))
+MERGE_MIRRORS = true
+
+ifeq ($(MERGE_MIRRORS),true)
+$(MIRRORDIR)/merged.owl: $(ALL_MIRRORS)
+	$(ROBOT) merge $(patsubst %, -i %, $^)  -o $@
+.PRECIOUS: $(MIRRORDIR)/merged.owl
+endif
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)

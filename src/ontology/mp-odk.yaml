@@ -25,22 +25,70 @@ export_formats:
   - obo
   - json
 import_group:
-  products: 
+  use_base_merging: TRUE
+  exclude_iri_patterns:
+    - <http://purl.obolibrary.org/obo/GOCHE_*>
+    - <http://purl.obolibrary.org/obo/NCBITaxon_Union_*>
+    - <http://purl.obolibrary.org/obo/NCBITaxon_*>
+    - <http://www.informatics.jax.org/marker/MGI:*>
+    - <http://identifiers.org/ncbigene/*>
+    - <http://purl.obolibrary.org/obo/OBI_*>
+    - <http://purl.obolibrary.org/obo/CARO_*>
+    - <http://purl.obolibrary.org/obo/COB_*>
+    - <http://purl.obolibrary.org/obo/ENVO_*>
+    - <http://purl.obolibrary.org/obo/BFO_0000002*>
+    - <http://purl.obolibrary.org/obo/BFO_0000003*>
+    - <http://purl.obolibrary.org/obo/BFO_0000004*>
+    - <http://purl.obolibrary.org/obo/BFO_0000006*>
+    - <http://purl.obolibrary.org/obo/BFO_0000015*>
+    - <http://purl.obolibrary.org/obo/BFO_0000019*>
+    - <http://purl.obolibrary.org/obo/BFO_0000020*>
+    - <http://purl.obolibrary.org/obo/BFO_0000023*>
+    - <http://purl.obolibrary.org/obo/BFO_0000031*>
+    - <http://purl.obolibrary.org/obo/BFO_0000040*>
+    - <http://purl.obolibrary.org/obo/BFO_0000141*>
+    - <http://purl.obolibrary.org/obo/SO_*>
+    - <http://purl.obolibrary.org/obo/CLM_*>
+    - <http://purl.obolibrary.org/obo/cl#abbreviation*>
+    - <http://purl.obolibrary.org/obo/cl#added_for_HCA*>
+    - <http://purl.obolibrary.org/obo/uberon/core#ABBREVIATION*>
+    - <http://purl.obolibrary.org/obo/uberon/core#COMPARATIVE_PREFERRED*>
+    - <http://purl.obolibrary.org/obo/uberon/core#DEPRECATED*>
+    - <http://purl.obolibrary.org/obo/uberon/core#DUBIOUS*>
+    - <http://purl.obolibrary.org/obo/uberon/core#HOMOLOGY*>
+    - <http://purl.obolibrary.org/obo/uberon/core#HUMAN_PREFERRED*>
+    - <http://purl.obolibrary.org/obo/uberon/core#INCONSISTENT*>
+    - <http://purl.obolibrary.org/obo/uberon/core#LATIN*>
+    - <http://purl.obolibrary.org/obo/uberon/core#MISSPELLING*>
+    - <http://purl.obolibrary.org/obo/uberon/core#NON_AMNIOTE*>
+    - <http://purl.obolibrary.org/obo/uberon/core#NON_MAMMAL*>
+    - <http://purl.obolibrary.org/obo/uberon/core#PENDING_REVIEW*>
+    - <http://purl.obolibrary.org/obo/uberon/core#PLURAL*>
+    - <http://purl.obolibrary.org/obo/uberon/core#SENSU*>
+    - <http://purl.obolibrary.org/obo/uberon/core#SYSTEMATIC*>
+  slme_individuals: exclude
+  mirror_max_time_download: 400
+  products:
     - id: nbo
-      mirror_from: http://purl.obolibrary.org/obo/nbo.owl
-      module_type: filter
+      use_base: TRUE
     - id: pr
+      make_base: TRUE
       mirror_from: https://raw.githubusercontent.com/obophenotype/pro_obo_slim/master/pr_slim.owl
     - id: go
-    - id: uberon 
+      make_base: TRUE
+    - id: uberon
+      use_base: TRUE
     - id: ro
+      use_base: TRUE
     - id: chebi
+      make_base: TRUE
       mirror_from: http://purl.obolibrary.org/obo/upheno/chebi_slim.owl
     - id: pato
-      make_base: true
+      use_base: TRUE
     - id: cl
-      mirror_from: http://purl.obolibrary.org/obo/cl/cl-simple.owl
+      use_base: TRUE
     - id: mpath
+      make_base: TRUE
 robot_java_args: '-Xmx8G'
 babelon_translation_group:
   release_merged_translations: TRUE
