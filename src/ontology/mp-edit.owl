@@ -12518,6 +12518,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015175>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015176>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015177>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015178>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0015179>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0020002>))
@@ -163636,6 +163637,17 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015178> "increased tibia cortical bone porosity")
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0015178> <http://purl.obolibrary.org/obo/MP_0015171>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0015178> <http://purl.obolibrary.org/obo/MP_0015176>)
+
+# Class: <http://purl.obolibrary.org/obo/MP_0015179> (diaphragmatic eventration)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://radiopaedia.org/articles/diaphragmatic-eventration?case_id=diaphragmatic-eventration-and-chilaiditi-sign>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://www.mayoclinicproceedings.org/article/S0025-6196(26)01718-0/fulltext>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0015179> "elevation of one hemidiaphragm or a portion of a hemidiaphragm to an abnormally high level in the thorax with no disruption to the diaphragmatic continuity")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0015179> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4356>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0015179> <https://orcid.org/0000-0003-4606-0597>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/MP_0015179> "2026-11-17T16:40:32Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0015179> "eventration of the diaphragm")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0015179> "MP:0015179")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0015179> "diaphragmatic eventration")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0015179> <http://purl.obolibrary.org/obo/MP_0002279>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0020000> (abnormal response to antigen)
 
