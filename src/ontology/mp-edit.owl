@@ -29604,7 +29604,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/MP_0001486> <http://purl.obolibrary.org/obo/mp-edit#Europhenome_Terms>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/MP_0001486> <http://purl.obolibrary.org/obo/mp-edit#IMPC>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0001486> "abnormal startle reflex")
-EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0001486> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/NBO_0000391>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0001486> <http://purl.obolibrary.org/obo/MP_0001961>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0001488> (increased startle reflex)
@@ -29618,7 +29617,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/MP_0001488> <http://purl.obolibrary.org/obo/mp-edit#Europhenome_Terms>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/MP_0001488> <http://purl.obolibrary.org/obo/mp-edit#IMPC>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0001488> "increased startle reflex")
-EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0001488> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000912> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/NBO_0000391>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0001488> <http://purl.obolibrary.org/obo/MP_0001486>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0001489> (decreased startle reflex)
@@ -29631,7 +29629,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/MP_0001489> <http://purl.obolibrary.org/obo/mp-edit#Europhenome_Terms>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/MP_0001489> <http://purl.obolibrary.org/obo/mp-edit#IMPC>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0001489> "decreased startle reflex")
-EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0001489> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000911> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/NBO_0000391>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0001489> <http://purl.obolibrary.org/obo/MP_0001486>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0001490> (abnormal vibrissae reflex)
