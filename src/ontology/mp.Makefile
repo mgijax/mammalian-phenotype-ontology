@@ -60,27 +60,19 @@ remove_patternised_classes: $(SRC) patternised_classes.txt
 
 #$(ROBOT) remove -i $< -T patternised_classes.txt --axioms equivalent --preserve-structure false -o $(SRC).ofn && mv $(SRC).ofn $(SRC)
 
-#IMPORT_SEED_FILES = $(patsubst %, imports/%_terms_combined.txt, $(IMPORTS))
+#######################################################
+##### Imports #########################################
+#######################################################
 
-#	all_imports: $(IMPORT_FILES)
-	 
-#	@ -253,20 +249,6 @@ imports/%_terms_combined.txt: seed.txt imports/%_terms.txt
-# -- Generate Import Modules --
-#
-# This pattern uses ROBOT to generate an import module
-
-#MIRROR_FILES = $(patsubst %, mirror/%.owl, $(IMPORTS))
-
-#mirror/merged_mirror.owl: $(MIRROR_FILES)
-#	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) merge $(addprefix -i , $(MIRROR_FILES)) -o $@; fi 
-
-#signature.txt: $(IMPORT_SEED_FILES)
-#	cat $^ | grep -v ^# | sort | uniq >  $@
-
-#imports/all_import.owl: mirror/merged_mirror.owl signature.txt
-#	$(ROBOT) extract -i $< -T signature.txt --method BOT \
-#		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
-#.PRECIOUS: imports/all_import.owl
+# NBO mixes behaviour processes with a "behavioral phenotype" branch
+# (NBO:0000243) whose logical definitions get pulled into the merged import
+# by BOT extraction. MP is the phenotype ontology, so we strip that branch
+# from the mirror to keep it from straddling the import's top level.
+ifeq ($(MIR),true)
+mirror-nbo: | $(TMPDIR)
+	curl -L $(OBOBASE)/nbo/nbo-base.owl --create-dirs -o $(TMPDIR)/nbo-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) remove -i $(TMPDIR)/nbo-download.owl --term NBO:0000243 --select "self descendants" --signature true -o $(TMPDIR)/$@.owl
+endif
 
 ###############################
 ###### Japanese version #######
