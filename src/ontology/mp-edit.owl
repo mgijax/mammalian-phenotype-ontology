@@ -29610,8 +29610,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0001486> <http://purl.obolibrary.o
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0-471-31639-3") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001488> "reduced threshold or more severe reflex response to sudden unexpected stimuli, often auditory; usually measured by amplitude of whole body flinch")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/MP_0001488> "MP:0001487")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001488> "increased startle response in acoustic startle test")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001488> "increased startle response")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001488> "increased startle response in acoustic startle test")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0001488> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0001488> "MP:0001488")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/MP_0001488> <http://purl.obolibrary.org/obo/mp-edit#Europhenome_Terms>)
@@ -29622,8 +29622,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0001488> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MP_0001489> (decreased startle reflex)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0-471-31639-3") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0001489> "greater threshold or less severe reflex response to sudden unexpected stimuli, often auditory; usually measured by amplitude of whole body flinch")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001489> "reduced startle reflex")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001489> "decreased startle response")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0001489> "reduced startle reflex")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0001489> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0001489> "MP:0001489")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/MP_0001489> <http://purl.obolibrary.org/obo/mp-edit#Europhenome_Terms>)
@@ -34535,7 +34535,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0002081> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/MP_0002082> (postnatal lethality)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0002082> "premature death anytime between the neonatal period and weaning age (Mus: P1 to approximately 3 weeks of age)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0002082> "premature death anytime between the neonatal period and weaning age (Mus: P1 to approximately 3-4 weeks of age)")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/MP_0002082> "MP:0001643")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/MP_0002082> "MGI:2173527")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0002082> "juvenile lethality")
@@ -112245,7 +112245,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0010831> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/MP_0010832> (lethality during fetal growth through weaning)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0010832> "death anytime between the completion of organogenesis and weaning age (Mus: E14 to approximately 3 weeks of age)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-3691-0324>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0010832> "death anytime between the completion of organogenesis and weaning age (Mus: E14 to approximately 3-4 weeks of age)")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0010832> <https://orcid.org/0000-0003-3691-0324>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/MP_0010832> "csmith")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/MP_0010832> "2011-02-15T02:48:40Z")
