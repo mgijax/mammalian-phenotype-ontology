@@ -121877,11 +121877,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0011509> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/MP_0011510> (biventricular, discordant atrioventricular connection)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://www.researchgate.net/publication/333858833_Aspects_of_paediatric_cardiovascular_pathology>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "HP:0011553") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0011510> "connection of the right atrium to the left ventricle and of the left atrium to the right ventricle")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0011510> <https://orcid.org/0000-0003-3691-0324>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/MP_0011510> "csmith")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/MP_0011510> "2011-12-05T02:14:12Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/MP_0011510> "Fyler:0159")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/MP_0011510> "Fyler:159")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0011510> "discordant atrioventricular connection")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0011510> "discordant atrioventricular connexion")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0011510> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0011510> "MP:0011510")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/MP_0011510> <http://purl.obolibrary.org/obo/mp-edit#CvDC_Terms>)
@@ -121890,11 +121893,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0011510> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/MP_0011511> (biventricular, ambiguous atrioventricular connection)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://www.researchgate.net/publication/333858833_Aspects_of_paediatric_cardiovascular_pathology>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "HP:0011552") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0011511> "connection of the atria to the ventricles can not be called either concordant or discordant due to isomerism of either the left or right atrium")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/MP_0011511> <https://orcid.org/0000-0003-3691-0324>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/MP_0011511> "csmith")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/MP_0011511> "2011-12-05T02:14:34Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/MP_0011511> "Fyler:0160")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/MP_0011511> "Fyler:160")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0011511> "ambiguous atrioventricular connection")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0011511> "ambiguous atrioventricular connexion")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0011511> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0011511> "MP:0011511")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/MP_0011511> <http://purl.obolibrary.org/obo/mp-edit#CvDC_Terms>)
