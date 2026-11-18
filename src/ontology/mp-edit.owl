@@ -149116,11 +149116,11 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013869> "vasc
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0013869> <http://purl.obolibrary.org/obo/MP_0001614>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0013869> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001981>)))
 
-# Class: <http://purl.obolibrary.org/obo/MP_0013870> (absent proximal internal carotid artery segment)
+# Class: <http://purl.obolibrary.org/obo/MP_0013870> (obsolete absent proximal internal carotid artery segment)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0013870> "MP:0013870")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013870> "absent proximal internal carotid artery segment")
-SubClassOf(<http://purl.obolibrary.org/obo/MP_0013870> <http://purl.obolibrary.org/obo/MP_0012730>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0013870> "obsolete absent proximal internal carotid artery segment")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/MP_0013870> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0013871> (abnormal stapedial artery topology)
 
