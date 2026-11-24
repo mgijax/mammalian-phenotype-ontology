@@ -35862,12 +35862,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0002207> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MP_0002208> (abnormal germ cell morphology)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0-683-40008-8") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0002208> "any structural anomaly of the germ cell, that is, any of the reproductive (generative) cells of a multicellular organism, whether they are undifferentiated or fully differentiated")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0002208> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4363>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0002208> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0002208> "MP:0002208")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0002208> "abnormal germ cell morphology")
 EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0002208> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/CL_0000586>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0002208> <http://purl.obolibrary.org/obo/MP_0000358>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0002208> <http://purl.obolibrary.org/obo/MP_0001929>)
-SubClassOf(<http://purl.obolibrary.org/obo/MP_0002208> <http://purl.obolibrary.org/obo/MP_0009840>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0002209> (decreased germ cell number)
 
@@ -36342,12 +36343,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0002255> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MP_0002256> (abnormal laryngeal cartilage morphology)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0-397-51047-0") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "MGI:cwg") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0002256> "any structural anomaly of the cartilaginous structures that support the larynx")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0002256> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4363>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/MP_0002256> "laryngeal cartilage dysplasia")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0002256> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0002256> "MP:0002256")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0002256> "abnormal laryngeal cartilage morphology")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0002256> <http://purl.obolibrary.org/obo/MP_0000163>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0002256> <http://purl.obolibrary.org/obo/MP_0002249>)
-SubClassOf(<http://purl.obolibrary.org/obo/MP_0002256> <http://purl.obolibrary.org/obo/MP_0004173>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0002257> (abnormal arytenoid cartilage morphology)
 
@@ -46255,11 +46257,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0003227> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MP_0003228> (abnormal sinus venosus morphology)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-4606-0597>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003228> "any structural anomaly of the cavity at the caudal end of the embryonic cardiac tube in which the veins from the intra- and extraembryonic circulatory arcs unite; in the adult this becomes the portion of the right atrium known as the sinus of the vena cava")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0003228> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4363>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/MP_0003228> "abnormal sinus venosus")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0003228> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0003228> "MP:0003228")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003228> "abnormal sinus venosus morphology")
-EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003228> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0006615>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003228> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002063>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0003228> <http://purl.obolibrary.org/obo/MP_0000267>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0003229> (abnormal vitelline vasculature morphology)
@@ -53009,10 +53012,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0003894> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MP_0003895> (increased ectoderm apoptosis)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-6490-7723>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003895> "increase in the number of ectoderm cells undergoing programmed cell death during development")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0003895> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4363>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0003895> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0003895> "MP:0003895")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003895> "increased ectoderm apoptosis")
-EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003895> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000912> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0006915> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/UBERON_0000925>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0003895> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000912> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0006915> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/UBERON_0000924>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0003895> <http://purl.obolibrary.org/obo/MP_0001675>)
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0003895> <http://purl.obolibrary.org/obo/MP_0013504>)
 
@@ -93605,13 +93609,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0009427> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MP_0009428> (decreased tibialis anterior weight)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-4606-0597>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0009428> "redcution in the weight of the muscle of the shin that is responsible for dorsiflexion and inversion of the foot")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/MP_0009428> <https://github.com/mgijax/mammalian-phenotype-ontology/issues/4363>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0009428> "decreased TA weight")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0009428> "reduced TA weight")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/MP_0009428> "reduced tibialis anterior weight")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/MP_0009428> "MPheno.ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MP_0009428> "MP:0009428")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0009428> "decreased tibialis anterior weight")
-EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0009428> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001562> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001723>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/MP_0009428> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001562> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001385>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 SubClassOf(<http://purl.obolibrary.org/obo/MP_0009428> <http://purl.obolibrary.org/obo/MP_0020166>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0009429> (decreased embryo weight)
